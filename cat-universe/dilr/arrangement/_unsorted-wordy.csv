@@ -1,0 +1,253 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page
+,,Arrangement,,,Arrangements,True,2019,1,,,,Word based Arrangement,,,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items. CAT 2019 Slot 1 The following additional facts are known. i) No composer who assigned item to Princess, assigned any item to Queen. ii) No composer who assigned item to Rani, assigned any item to Samragni. iii) The first performance was by Princess; this item was assigned by Badal. iv) The last performance was by Rani; this item was assigned by Gagan. v) The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",Which of the following is FALSE?,Queen did not perform in any item composed by Gagan.,Rani did not perform in any item composed by Badal.,Samragni did not perform in any item composed by Ashman.,Princess did not perform in any item composed by Dyu.,mcq,A,Queen did not perform in any item composed by Gagan.,,,,match,Q.2 Which of the following is FALSE? Queen did not perform in any item composed by Gagan.,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-7.png,https://iimking.com/four-dancers-dilr-cat-2019/,71fa2a4f-9052-43a8-b15c-a520829b1d17,deda22426b923dbd,,,,
+,,Arrangement,,,Arrangements,True,2019,1,,,,Word based Arrangement,,,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items. CAT 2019 Slot 1 The following additional facts are known. i) No composer who assigned item to Princess, assigned any item to Queen. ii) No composer who assigned item to Rani, assigned any item to Samragni. iii) The first performance was by Princess; this item was assigned by Badal. iv) The last performance was by Rani; this item was assigned by Gagan. v) The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",The sixth performance was composed by:,Badal,Dyu,Ashman,Gagan,mcq,A,Badal,,,,match,Q.3 The sixth performance was composed by: Badal,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-7.png,https://iimking.com/four-dancers-dilr-cat-2019/,799d6f91-e7ef-4674-9d22-8cdbaa5d97f1,deda22426b923dbd,,,,
+,,Arrangement,,,Arrangements,True,2019,1,,,,Word based Arrangement,,,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items. CAT 2019 Slot 1 The following additional facts are known. i) No composer who assigned item to Princess, assigned any item to Queen. ii) No composer who assigned item to Rani, assigned any item to Samragni. iii) The first performance was by Princess; this item was assigned by Badal. iv) The last performance was by Rani; this item was assigned by Gagan. v) The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",Which pair of performances were composed by the same composer?,The second and the sixth,The first and the seventh,The third and the seventh,The first and the sixth,mcq,D,The first and the sixth,,,,match,Q.4 Which pair of performances were composed by the same composer? The first and the sixth,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-7.png,https://iimking.com/four-dancers-dilr-cat-2019/,a944d6e3-42ab-40e2-a964-fa294bf131ab,deda22426b923dbd,,,,
+,,Arrangement,,,Arrangements,True,2019,1,,,,Word based Arrangement,,,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items. CAT 2019 Slot 1 The following additional facts are known. i) No composer who assigned item to Princess, assigned any item to Queen. ii) No composer who assigned item to Rani, assigned any item to Samragni. iii) The first performance was by Princess; this item was assigned by Badal. iv) The last performance was by Rani; this item was assigned by Gagan. v) The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",Which of the following is true?,The second performance was composed by Dyu.,The second performance was composed by Gagan.,The third performance was composed by Ashman.,The third performance was composed by Dyu.,mcq,A,The second performance was composed by Dyu.,,,,match,Q.1 Which of the following is true? The second performance was composed by Dyu.,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-7.png,https://iimking.com/four-dancers-dilr-cat-2019/,c57f9ea8-4285-422e-82e1-20beb08aaa7b,deda22426b923dbd,,,,
+,,Arrangement,,,Arrangements,True,2019,,1,,,Word based Arrangement,Word based Arrangement,Supermarket,"A supermarket has to place 12 items (coded A to L) in shelves numbered 1 to 16. Five of these items are types of biscuits, three are types of candies and the rest are types of savouries. Only one item can be kept in a shelf. Items are to be placed such that all items of same type are clustered together with no empty shelf between items of the same type and at least one empty shelf between two different types of items. At most two empty shelves can have consecutive numbers.
+The following additional facts are known.
+A and B are to be placed in consecutively numbered shelves in increasing order
+I and J are to be placed in consecutively numbered shelves both higher numbered than the shelves in which A and B are kept
+D, E and F are savouries and are to be placed in consecutively numbered shelves in increasing order after all the biscuits and candies.
+K is to be placed in shelf number 16.
+L and J are items of the same type, while H is an item of a different type
+C is a candy and is to be placed in a shelf preceded by two empty shelves.
+L is to be placed in a shelf preceded by exactly one empty shelf.",In how many different ways can the items be arranged on the shelves?,4,2,8,1,mcq,C,8,,,,match,"Answer: 3
+Certainly! Here's a rephrased version of the provided solution:
+The given configuration involves a total of 5 biscuits and 3 candies. Hence, the remaining items, savouries, amount to 12 - 5 - 3 = 4. Considering the arrangement constraints, it's evident that D, E, F, and K are the 4 savouries occupying shelves numbered 13, 14, 15, and 16, with no empty shelves between items of the same type.
+Building on this information, we can infer that in the sequence I, J, and L, L occupies the lowest-numbered shelf among the three. Further, according to point VI, item C is a candy. Consequently, items I, J, and L must be biscuits, as there are only 3 candies in total.
+Expanding on the deductions, we find that H, not being a biscuit, must be a candy. This leaves A and B as the remaining biscuits. Therefore, we can now layout the items as follows:
+Case 1: All biscuits are placed after candies.
+Case 2: All candies are placed after biscuits.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Case 1 C H/G G/H L A B I/J J/I D E F K
+Case 2 L A B I/J J/I C H/G G/H D E F K
+In total, there are 8 possible cases. The provided information allows us to answer the questions regarding the arrangement:
+
+There are two empty shelves between the biscuits and the candies.
+
+All candies are placed before biscuits.
+
+All biscuits are placed before candies.
+
+There are at least four shelves between items B and C.",,Word based Arrangement,False,,https://iimking.com/supermarket-dilr-cat-2019-set/,58aa516e-cd52-45bb-97f3-c61d5fa56328,10485e6da4a50747,,,,
+,,Arrangement,,,Arrangements,True,2019,,2,,,Word based Arrangement,Word based Arrangement,Supermarket,"A supermarket has to place 12 items (coded A to L) in shelves numbered 1 to 16. Five of these items are types of biscuits, three are types of candies and the rest are types of savouries. Only one item can be kept in a shelf. Items are to be placed such that all items of same type are clustered together with no empty shelf between items of the same type and at least one empty shelf between two different types of items. At most two empty shelves can have consecutive numbers.
+The following additional facts are known.
+A and B are to be placed in consecutively numbered shelves in increasing order
+I and J are to be placed in consecutively numbered shelves both higher numbered than the shelves in which A and B are kept
+D, E and F are savouries and are to be placed in consecutively numbered shelves in increasing order after all the biscuits and candies.
+K is to be placed in shelf number 16.
+L and J are items of the same type, while H is an item of a different type
+C is a candy and is to be placed in a shelf preceded by two empty shelves.
+L is to be placed in a shelf preceded by exactly one empty shelf.",Which of the following items is not a type of biscuit?,,,,,mcq,,,,,,missing_found,"The given configuration involves a total of 5 biscuits and 3 candies. Hence, the remaining items, savouries, amount to 12 - 5 - 3 = 4. Considering the arrangement constraints, it's evident that D, E, F, and K are the 4 savouries occupying shelves numbered 13, 14, 15, and 16, with no empty shelves between items of the same type.
+Building on this information, we can infer that in the sequence I, J, and L, L occupies the lowest-numbered shelf among the three. Further, according to point VI, item C is a candy. Consequently, items I, J, and L must be biscuits, as there are only 3 candies in total.
+Expanding on the deductions, we find that H, not being a biscuit, must be a candy. This leaves A and B as the remaining biscuits. Therefore, we can now layout the items as follows:
+Case 1: All biscuits are placed after candies.
+Case 2: All candies are placed after biscuits.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Case 1 C H/G G/H L A B I/J J/I D E F K
+Case 2 L A B I/J J/I C H/G G/H D E F K
+In total, there are 8 possible cases. The provided information allows us to answer the questions regarding the arrangement:
+
+There are two empty shelves between the biscuits and the candies.
+
+All candies are placed before biscuits.
+
+All biscuits are placed before candies.
+
+There are at least four shelves between items B and C.",,Word based Arrangement,False,,https://iimking.com/supermarket-dilr-cat-2019-set/,2dc52a8e-4136-4ea3-a773-d54d7cdc8f13,10485e6da4a50747,,,,
+,,Arrangement,,,Arrangements,True,2019,,3,,,Word based Arrangement,Word based Arrangement,Supermarket,"A supermarket has to place 12 items (coded A to L) in shelves numbered 1 to 16. Five of these items are types of biscuits, three are types of candies and the rest are types of savouries. Only one item can be kept in a shelf. Items are to be placed such that all items of same type are clustered together with no empty shelf between items of the same type and at least one empty shelf between two different types of items. At most two empty shelves can have consecutive numbers.
+The following additional facts are known.
+A and B are to be placed in consecutively numbered shelves in increasing order
+I and J are to be placed in consecutively numbered shelves both higher numbered than the shelves in which A and B are kept
+D, E and F are savouries and are to be placed in consecutively numbered shelves in increasing order after all the biscuits and candies.
+K is to be placed in shelf number 16.
+L and J are items of the same type, while H is an item of a different type
+C is a candy and is to be placed in a shelf preceded by two empty shelves.
+L is to be placed in a shelf preceded by exactly one empty shelf.",Which of the following can represent the numbers of the empty shelves in a possible arrangement?,"1,7,11,12","1,5,6,12","1,2,6,12","1,2,8,12",mcq,C,"1,2,6,12",,,,match,"Answer: 3
+The given configuration involves a total of 5 biscuits and 3 candies. Hence, the remaining items, savouries, amount to 12 - 5 - 3 = 4. Considering the arrangement constraints, it's evident that D, E, F, and K are the 4 savouries occupying shelves numbered 13, 14, 15, and 16, with no empty shelves between items of the same type.
+Building on this information, we can infer that in the sequence I, J, and L, L occupies the lowest-numbered shelf among the three. Further, according to point VI, item C is a candy. Consequently, items I, J, and L must be biscuits, as there are only 3 candies in total.
+Expanding on the deductions, we find that H, not being a biscuit, must be a candy. This leaves A and B as the remaining biscuits. Therefore, we can now layout the items as follows:
+Case 1: All biscuits are placed after candies.
+Case 2: All candies are placed after biscuits.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Case 1 C H/G G/H L A B I/J J/I D E F K
+Case 2 L A B I/J J/I C H/G G/H D E F K
+In total, there are 8 possible cases. The provided information allows us to answer the questions regarding the arrangement:
+
+There are two empty shelves between the biscuits and the candies.
+
+All candies are placed before biscuits.
+
+All biscuits are placed before candies.
+
+There are at least four shelves between items B and C.",,Word based Arrangement,False,,https://iimking.com/supermarket-dilr-cat-2019-set/,33b7a33f-0fbd-496d-bfe7-47d45b8eef18,10485e6da4a50747,,,,
+,,Arrangement,,,Arrangements,True,2019,,4,,,Word based Arrangement,Word based Arrangement,Supermarket,"A supermarket has to place 12 items (coded A to L) in shelves numbered 1 to 16. Five of these items are types of biscuits, three are types of candies and the rest are types of savouries. Only one item can be kept in a shelf. Items are to be placed such that all items of same type are clustered together with no empty shelf between items of the same type and at least one empty shelf between two different types of items. At most two empty shelves can have consecutive numbers.
+The following additional facts are known.
+A and B are to be placed in consecutively numbered shelves in increasing order
+I and J are to be placed in consecutively numbered shelves both higher numbered than the shelves in which A and B are kept
+D, E and F are savouries and are to be placed in consecutively numbered shelves in increasing order after all the biscuits and candies.
+K is to be placed in shelf number 16.
+L and J are items of the same type, while H is an item of a different type
+C is a candy and is to be placed in a shelf preceded by two empty shelves.
+L is to be placed in a shelf preceded by exactly one empty shelf.",Which of the following statements is necessarily true?,There are two empty shelves between the biscuits and the candies,All candies are kept before biscuits,All biscuits are kept before candies.,There are at least four shelves between items B and C.,mcq,D,There are at least four shelves between items B and C.,,,,match,"Anwser 4
+The given configuration involves a total of 5 biscuits and 3 candies. Hence, the remaining items, savouries, amount to 12 - 5 - 3 = 4. Considering the arrangement constraints, it's evident that D, E, F, and K are the 4 savouries occupying shelves numbered 13, 14, 15, and 16, with no empty shelves between items of the same type.
+Building on this information, we can infer that in the sequence I, J, and L, L occupies the lowest-numbered shelf among the three. Further, according to point VI, item C is a candy. Consequently, items I, J, and L must be biscuits, as there are only 3 candies in total.
+Expanding on the deductions, we find that H, not being a biscuit, must be a candy. This leaves A and B as the remaining biscuits. Therefore, we can now layout the items as follows:
+Case 1: All biscuits are placed after candies.
+Case 2: All candies are placed after biscuits.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+Case 1 C H/G G/H L A B I/J J/I D E F K
+Case 2 L A B I/J J/I C H/G G/H D E F K
+In total, there are 8 possible cases. The provided information allows us to answer the questions regarding the arrangement:
+
+There are two empty shelves between the biscuits and the candies.
+
+All candies are placed before biscuits.
+
+All biscuits are placed before candies.
+
+There are at least four shelves between items B and C.",,Word based Arrangement,False,,https://iimking.com/supermarket-dilr-cat-2019-set/,7568f4c8-35fb-42d9-8043-f7298128d601,10485e6da4a50747,,,,
+,,Arrangement,,,Arrangements,True,2019,,1,,,Word based Arrangement,,Dance DILR CAT 2019 Set,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items.
+The following additional facts are known.
+No composer who assigned item to Princess, assigned any item to Queen.
+No composer who assigned item to Rani, assigned any item to Samragni.
+The first performance was by Princess; this item was assigned by Badal.
+The last performance was by Rani; this item was assigned by Gagan.
+The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",Which of the following is true?,The third performance was composed by Ashman.,The second performance was composed by Gagan.,The third performance was composed by Dyu.,The second performance was composed by Dyu.,mcq,D,The second performance was composed by Dyu.,,,,match,"Answer: 4
+Solution:
+First of all represent the dancers and composers by the first letter of their respective name.
+As there were total 8 performances . No dancer performed her second item before the performance of the first item by any other dancers.
+So from point v) The items assigned by A were performed consecutively . It means Items assigned by A were performed at no 4 and 5.
+From point iv) The last performance was by Rani so she must have performed the 4th performance.
+similarly from point iii) The first performance was by Princess; this item was assigned by Badal so 5th performance must be performed by P.
+This can be represented in the table as given below:
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 |   |   |
+3 |   |   |
+4 | R | A |
+5 | P | A |
+6 |   |   |
+7 |   |   |
+8 | R | G |
+Now from point v) The number of performances between items assigned by each of the remaining composers was the same. this can not be 1 (because items assigned by A were consecutive ) similarly this can not be 2 or 3 as well if The number of performances between items assigned by each of the remaining composers was 2 or 3 then B must assign performance 4 or 5 which is not possible . thus this no must be 4.
+So B must assign performance 6 and g must assign performance no 3 . so the only performances left are 2 and 7 which must be assigned by D.
+Now the complete table will look like –
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 | S | D |
+3 | Q | G |
+4 | R | A |
+5 | P | A |
+6 | S | B |
+7 | Q | D |
+8 | R | G |",,Word based Arrangement,False,,https://iimking.com/dance-dilr-cat-2019-set/,b5373111-9f50-4a6c-af35-78408ebf9ebf,442d6887577fde84,,,,
+,,Arrangement,,,Arrangements,True,2019,,2,,,Word based Arrangement,,Dance DILR CAT 2019 Set,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items.
+The following additional facts are known.
+No composer who assigned item to Princess, assigned any item to Queen.
+No composer who assigned item to Rani, assigned any item to Samragni.
+The first performance was by Princess; this item was assigned by Badal.
+The last performance was by Rani; this item was assigned by Gagan.
+The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",Which of the following is FALSE?,Princess did not perform in any item composed by Dyu.,Queen did not perform in any item composed by Gagan.,Samragni did not perform in any item composed by Ashman.,Rani did not perform in any item composed by Badal.,mcq,A,Princess did not perform in any item composed by Dyu.,,,,mismatch,"Answer: 1
+Solution:
+First of all represent the dancers and composers by the first letter of their respective name.
+As there were total 8 performances . No dancer performed her second item before the performance of the first item by any other dancers.
+So from point v) The items assigned by A were performed consecutively . It means Items assigned by A were performed at no 4 and 5.
+From point iv) The last performance was by Rani so she must have performed the 4th performance.
+similarly from point iii) The first performance was by Princess; this item was assigned by Badal so 5th performance must be performed by P.
+This can be represented in the table as given below:
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 |   |   |
+3 |   |   |
+4 | R | A |
+5 | P | A |
+6 |   |   |
+7 |   |   |
+8 | R | G |
+Now from point v) The number of performances between items assigned by each of the remaining composers was the same. this can not be 1 (because items assigned by A were consecutive ) similarly this can not be 2 or 3 as well if The number of performances between items assigned by each of the remaining composers was 2 or 3 then B must assign performance 4 or 5 which is not possible . thus this no must be 4.
+So B must assign performance 6 and g must assign performance no 3 . so the only performances left are 2 and 7 which must be assigned by D.
+Now the complete table will look like –
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 | S | D |
+3 | Q | G |
+4 | R | A |
+5 | P | A |
+6 | S | B |
+7 | Q | D |
+8 | R | G |",,Word based Arrangement,False,,https://iimking.com/dance-dilr-cat-2019-set/,e52b167f-43e8-4444-805e-68324a4a9e9f,442d6887577fde84,,,,
+,,Arrangement,,,Arrangements,True,2019,,3,,,Word based Arrangement,,Dance DILR CAT 2019 Set,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items.
+The following additional facts are known.
+No composer who assigned item to Princess, assigned any item to Queen.
+No composer who assigned item to Rani, assigned any item to Samragni.
+The first performance was by Princess; this item was assigned by Badal.
+The last performance was by Rani; this item was assigned by Gagan.
+The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",The sixth performance was composed by:,Gagan,Dyu,Badal,Ashman,mcq,C,Badal,,,,match,"Answer: 3
+Solution:
+First of all represent the dancers and composers by the first letter of their respective name.
+As there were total 8 performances . No dancer performed her second item before the performance of the first item by any other dancers.
+So from point v) The items assigned by A were performed consecutively . It means Items assigned by A were performed at no 4 and 5.
+From point iv) The last performance was by Rani so she must have performed the 4th performance.
+similarly from point iii) The first performance was by Princess; this item was assigned by Badal so 5th performance must be performed by P.
+This can be represented in the table as given below:
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 |   |   |
+3 |   |   |
+4 | R | A |
+5 | P | A |
+6 |   |   |
+7 |   |   |
+8 | R | G |
+Now from point v) The number of performances between items assigned by each of the remaining composers was the same. this can not be 1 (because items assigned by A were consecutive ) similarly this can not be 2 or 3 as well if The number of performances between items assigned by each of the remaining composers was 2 or 3 then B must assign performance 4 or 5 which is not possible . thus this no must be 4.
+So B must assign performance 6 and g must assign performance no 3 . so the only performances left are 2 and 7 which must be assigned by D.
+Now the complete table will look like –
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 | S | D |
+3 | Q | G |
+4 | R | A |
+5 | P | A |
+6 | S | B |
+7 | Q | D |
+8 | R | G |",,Word based Arrangement,False,,https://iimking.com/dance-dilr-cat-2019-set/,db84284d-40e0-47f6-a871-618baf40cf99,442d6887577fde84,,,,
+,,Arrangement,,,Arrangements,True,2019,,4,,,Word based Arrangement,,Dance DILR CAT 2019 Set,"Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items.
+The following additional facts are known.
+No composer who assigned item to Princess, assigned any item to Queen.
+No composer who assigned item to Rani, assigned any item to Samragni.
+The first performance was by Princess; this item was assigned by Badal.
+The last performance was by Rani; this item was assigned by Gagan.
+The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.",Which pair of performances were composed by the same composer?,The first and the sixth,The first and the seventh,The second and the sixth,The third and the seventh,mcq,A,The first and the sixth,,,,match,"Answer: 1
+Solution:
+First of all represent the dancers and composers by the first letter of their respective name.
+As there were total 8 performances . No dancer performed her second item before the performance of the first item by any other dancers.
+So from point v) The items assigned by A were performed consecutively . It means Items assigned by A were performed at no 4 and 5.
+From point iv) The last performance was by Rani so she must have performed the 4th performance.
+similarly from point iii) The first performance was by Princess; this item was assigned by Badal so 5th performance must be performed by P.
+This can be represented in the table as given below:
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 |   |   |
+3 |   |   |
+4 | R | A |
+5 | P | A |
+6 |   |   |
+7 |   |   |
+8 | R | G |
+Now from point v) The number of performances between items assigned by each of the remaining composers was the same. this can not be 1 (because items assigned by A were consecutive ) similarly this can not be 2 or 3 as well if The number of performances between items assigned by each of the remaining composers was 2 or 3 then B must assign performance 4 or 5 which is not possible . thus this no must be 4.
+So B must assign performance 6 and g must assign performance no 3 . so the only performances left are 2 and 7 which must be assigned by D.
+Now the complete table will look like –
+Order of performance | Dancer | Composer |
+1 | P | B |
+2 | S | D |
+3 | Q | G |
+4 | R | A |
+5 | P | A |
+6 | S | B |
+7 | Q | D |
+8 | R | G |",,Word based Arrangement,False,,https://iimking.com/dance-dilr-cat-2019-set/,67f4910a-da51-4f90-bd2d-a28e5eee5d46,442d6887577fde84,,,,
+,,Arrangement,,,Arrangements,True,2018,,,,,Word based Arrangement,,,"Adriana, Bandita, Chitra, and Daisy are four female students, and Amit, Barun, Chetan, and Deb are four male students. Each of them studies in one of three institutes - X, Y, and Z. Each student majors in one subject among Marketing, Operations, and Finance, and minors in a different one among these three subjects. The following facts are known about the eight students: 1. Three students are from X, three are from Y, and the remaining two students, both female, are from Z. 2. Both the male students from Y minor in Finance, while the female student from Y majors in Operations. 3. Only one male student majors in Operations, while three female students minor in Marketing. 4. One female and two male students major in Finance. 5. Adriana and Deb are from the same institute. Daisy and Amit are from the same institute. 6. Barun is from Y and majors in Operations. Chetan is from X and majors in Finance. 7. Daisy minors in Operations.","If Chitra majors in Finance, which subject does Bandita major in?",Finance,Operations,Cannot be determined uniquely from the given information,Marketing,mcq,B,Operations,,,,match,Now all the questions can be answered. 1. Bandita and Chitra 2. Finance 3. Finance 4. operation.,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-4.png,https://iimking.com/cat-dilr-friends-subjects/,3cc10118-1e68-49bb-a83b-c04c6442fd9a,1fc22a911f588ca9,,,,
+,,Arrangement,,,Arrangements,True,2018,,,,,Word based Arrangement,,,"Adriana, Bandita, Chitra, and Daisy are four female students, and Amit, Barun, Chetan, and Deb are four male students. Each of them studies in one of three institutes - X, Y, and Z. Each student majors in one subject among Marketing, Operations, and Finance, and minors in a different one among these three subjects. The following facts are known about the eight students: 1. Three students are from X, three are from Y, and the remaining two students, both female, are from Z. 2. Both the male students from Y minor in Finance, while the female student from Y majors in Operations. 3. Only one male student majors in Operations, while three female students minor in Marketing. 4. One female and two male students major in Finance. 5. Adriana and Deb are from the same institute. Daisy and Amit are from the same institute. 6. Barun is from Y and majors in Operations. Chetan is from X and majors in Finance. 7. Daisy minors in Operations.",Who are the students from the institute Z?,Chitra and Daisy,Adriana and Daisy,Bandita and Chitra,Adriana and Bandita,mcq,C,Bandita and Chitra,,,,match,Now all the questions can be answered. 1. Bandita and Chitra 2. Finance 3. Finance 4. operation.,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-4.png,https://iimking.com/cat-dilr-friends-subjects/,4f1cd162-d848-49a0-a306-956e90aa9c9a,1fc22a911f588ca9,,,,
+,,Arrangement,,,Arrangements,True,2018,,,,,Word based Arrangement,,,"Adriana, Bandita, Chitra, and Daisy are four female students, and Amit, Barun, Chetan, and Deb are four male students. Each of them studies in one of three institutes - X, Y, and Z. Each student majors in one subject among Marketing, Operations, and Finance, and minors in a different one among these three subjects. The following facts are known about the eight students: 1. Three students are from X, three are from Y, and the remaining two students, both female, are from Z. 2. Both the male students from Y minor in Finance, while the female student from Y majors in Operations. 3. Only one male student majors in Operations, while three female students minor in Marketing. 4. One female and two male students major in Finance. 5. Adriana and Deb are from the same institute. Daisy and Amit are from the same institute. 6. Barun is from Y and majors in Operations. Chetan is from X and majors in Finance. 7. Daisy minors in Operations.",Which subject does Amit major in?,Operations,Marketing,Finance,Cannot be determined uniquely from the given information,mcq,C,Finance,,,,match,Now all the questions can be answered. 1. Bandita and Chitra 2. Finance 3. Finance 4. operation.,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-4.png,https://iimking.com/cat-dilr-friends-subjects/,9ebc9d97-d4dc-442c-8e30-53a9f825aff1,1fc22a911f588ca9,,,,
+,,Arrangement,,,Arrangements,True,2018,,,,,Word based Arrangement,,,"Adriana, Bandita, Chitra, and Daisy are four female students, and Amit, Barun, Chetan, and Deb are four male students. Each of them studies in one of three institutes - X, Y, and Z. Each student majors in one subject among Marketing, Operations, and Finance, and minors in a different one among these three subjects. The following facts are known about the eight students: 1. Three students are from X, three are from Y, and the remaining two students, both female, are from Z. 2. Both the male students from Y minor in Finance, while the female student from Y majors in Operations. 3. Only one male student majors in Operations, while three female students minor in Marketing. 4. One female and two male students major in Finance. 5. Adriana and Deb are from the same institute. Daisy and Amit are from the same institute. 6. Barun is from Y and majors in Operations. Chetan is from X and majors in Finance. 7. Daisy minors in Operations.",Which subject does Deb minor in?,Operations,Marketing,Finance,Cannot be determined uniquely from the given information,mcq,C,Finance,,,,match,Now all the questions can be answered. 1. Bandita and Chitra 2. Finance 3. Finance 4. operation.,,Word based Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-4.png,https://iimking.com/cat-dilr-friends-subjects/,cb7b7e4e-1697-4c48-99e0-731244156a18,1fc22a911f588ca9,,,,

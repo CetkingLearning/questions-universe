@@ -1,6 +1,6 @@
 # CAT Questions Universe — CSV export
 
-Read-only export of Supabase table `public.cat_import_questions` (project `suqcijtpfeaystltekfn`), 2,782 rows, one CSV per section + topic (Quant: per Cetking chapter). Exported 15 Oct 2026.
+Read-only export of Supabase table `public.cat_import_questions` (project `suqcijtpfeaystltekfn`), 2,782 rows, one CSV per section + topic (Quant and DILR: per Cetking master chapter). Exported 15 Oct 2026.
 
 ## How to use (Rajat)
 
@@ -102,14 +102,52 @@ Option columns: `option_a`–`option_d` hold the option text (keys A–D). If a 
 
 ## DILR — 866 rows, 854 actual CAT
 
-| File | Topic | Rows | Actual CAT | With images | Years |
-|---|---|---:|---:|---:|---|
-| `dilr/arrangements.csv` | Arrangements | 320 | 320 | 184 | 2017–2025 |
-| `dilr/caselets.csv` | Caselets | 167 | 155 | 101 | 2006–2025 |
-| `dilr/fill-in-the-blanks.csv` | Fill in the Blanks | 8 | 8 | 8 | 2020–2024 |
-| `dilr/games-and-tournaments.csv` | Games & Tournaments | 16 | 16 | 12 | 2017–2021 |
-| `dilr/graphs-and-tables.csv` | Graphs & Tables | 129 | 129 | 118 | 2017–2025 |
-| `dilr/routes-and-maps.csv` | Routes & Maps | 78 | 78 | 68 | 2017–2025 |
-| `dilr/scheduling.csv` | Scheduling | 100 | 100 | 84 | 2017–2025 |
-| `dilr/venn-diagrams.csv` | Venn Diagrams | 48 | 48 | 44 | 2018–2024 |
+**DILR files are now organised by Logic master chapter (15 Oct 2026)**: `dilr/<sub-section>/<chapter>.csv`, replacing the old per-topic files (`arrangements.csv`, `caselets.csv`, …; the old topic is kept in `topic_raw`). Chapter ids and names come from `reference-bank/logic/master-taxonomy.csv`.
 
+- **Sets stay together.** `set_key` (= Supabase `context_hash`) is the same for every question of one set, rows of a set are contiguous, and a set is never split across files. Where one iimking page labelled a set only by type and a dedicated G-Strategy page gave the chapter, the whole set follows the dedicated page (`ck_chapter_source` = `set_majority`, reason in `chapter_notes`).
+- **Unsorted = Rav's open item.** iimking only says "Caselet", "Graphs", "Wide Arrangement" or "Teeny Arrangement" for 449 actual-CAT rows (92 sets). They sit in `_unsorted*.csv` with `ck_chapter` blank until Rav sorts them set by set (Classification vs Calculation caselet, Traditional vs Advanced graph, Wordy vs Numbers). `ck_subsection` is always filled.
+- **Duplicates across pages.** The same CAT set often appears on 2–3 iimking pages (slot paper page, G-Strategy page, full-slot PDF page), so 120 rows repeat a question that is already in the file: `dup_of` holds the `supabase_id` of the first copy — skip rows with a non-blank `dup_of` when counting or seeding ladders. 56 rows come from trashed WordPress posts (`from_trashed_page` = y); they are kept but never decide a set's chapter.
+- **Columns:** the Quant header (35 columns, same order) + 5 extra at the end: `set_key`, `master_chapter_id` (L-AR-WDW …), `chapter_notes`, `dup_of`, `from_trashed_page`. `ai_answer*` are blank (no AI answers were produced for DILR). `cat_question_id` is still blank in Supabase for DILR; the label shown is computed where year/slot/question_no exist and can repeat — use `supabase_id`.
+- **Answers:** `verify_status` = `match` on 785 rows, `mismatch` 29, `missing_found` 29, `not_checked` 23 (Supabase, 15 Oct 2026). Check before trusting.
+
+### Arrangement (L-AR) — 326 rows
+
+| File | Chapter | Rows | Actual CAT | Sets | Distinct Qs | Duplicate rows | Verified answer | With images | Years |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `dilr/arrangement/_unsorted-teeny.csv` | Arrangement — Teeny, wordy/numbers not sorted | 30 | 30 | 6 | 30 | 0 | 24 | 25 | 2020–2024 |
+| `dilr/arrangement/_unsorted-wide.csv` | Arrangement — Wide, wordy/numbers not sorted | 56 | 56 | 11 | 55 | 1 | 50 | 46 | 2020–2024 |
+| `dilr/arrangement/_unsorted-wordy.csv` | Arrangement — Wordy, wide/teeny not sorted | 16 | 16 | 4 | 16 | 0 | 14 | 8 | 2018–2019 |
+| `dilr/arrangement/_unsorted.csv` | Arrangement — type only | 67 | 67 | 16 | 66 | 1 | 65 | 47 | 2017–2023 |
+| `dilr/arrangement/games-and-tournaments.csv` | Games & Tournaments (L-AR-GNT, proposed) | 16 | 16 | 4 | 16 | 0 | 16 | 12 | 2017–2021 |
+| `dilr/arrangement/teeny-numbers.csv` | Teeny Numbers (L-AR-TNN) | 39 | 39 | 4 | 21 | 18 | 39 | 16 | 2020–2025 |
+| `dilr/arrangement/teeny-wordy.csv` | Teeny Wordy (L-AR-TNW) | 12 | 12 | 3 | 12 | 0 | 10 | 8 | 2019–2021 |
+| `dilr/arrangement/wide-numbers.csv` | Wide Numbers (L-AR-WDN) | 26 | 26 | 5 | 21 | 5 | 23 | 8 | 2019–2025 |
+| `dilr/arrangement/wide-wordy.csv` | Wide Wordy (L-AR-WDW) | 64 | 64 | 12 | 46 | 18 | 57 | 16 | 2019–2025 |
+
+### Caselet (L-CS) — 166 rows
+
+| File | Chapter | Rows | Actual CAT | Sets | Distinct Qs | Duplicate rows | Verified answer | With images | Years |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `dilr/caselet/_unsorted.csv` | Caselet — Classification / Calculation not sorted | 166 | 166 | 30 | 135 | 31 | 155 | 106 | 2006–2025 |
+
+### Graphs (L-GR) — 194 rows
+
+| File | Chapter | Rows | Actual CAT | Sets | Distinct Qs | Duplicate rows | Verified answer | With images | Years |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `dilr/graphs/_unsorted.csv` | Graphs — Traditional / Advanced / Tables not sorted | 114 | 114 | 25 | 105 | 9 | 109 | 103 | 2017–2025 |
+| `dilr/graphs/advanced-graphs.csv` | Advanced Graphs (L-GR-ADV) | 16 | 16 | 2 | 8 | 8 | 16 | 16 | 2025–2025 |
+| `dilr/graphs/tables-and-fill-in-the-blanks.csv` | Tables & Fill in the blanks (L-GR-TAB) | 8 | 8 | 2 | 8 | 0 | 7 | 8 | 2020–2024 |
+| `dilr/graphs/venn.csv` | Venn (L-GR-VEN) | 56 | 56 | 13 | 54 | 2 | 50 | 52 | 2017–2024 |
+
+### Schedule & Routing (L-SR) — 168 rows
+
+| File | Chapter | Rows | Actual CAT | Sets | Distinct Qs | Duplicate rows | Verified answer | With images | Years |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `dilr/schedule-and-routing/routes-and-maps.csv` | Routes & Maps (L-SR-RTM) | 88 | 88 | 14 | 65 | 23 | 79 | 78 | 2017–2025 |
+| `dilr/schedule-and-routing/scheduling.csv` | Scheduling (L-SR-SCH) | 80 | 80 | 17 | 76 | 4 | 71 | 64 | 2017–2025 |
+
+### Not actual CAT — 12 rows
+
+| File | Chapter | Rows | Actual CAT | Sets | Distinct Qs | Duplicate rows | Verified answer | With images | Years |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `dilr/_practice-not-cat.csv` | Practice / not actual CAT | 12 | 0 | 2 | 12 | 0 | 0 | 6 | 2006–2020 |

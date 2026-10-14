@@ -1,0 +1,169 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page
+,,Caselet,,,Caselets,,2020,,,,,,Caselet,Accounts Summary CAT 2020 DILR Caselet Set,"A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.
+The following additional information is known. 1. The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018. 2. The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019. 3. The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018. 4. The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019. 5. The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019. 6. The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019. 7. The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018. 8. The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progressio",Which one of the following statements is true?,Two seminars are scheduled in the first slot,Three seminars are scheduled in the last slot.,Only one seminar is scheduled in the second slot.,Three seminars are scheduled in the first slo,mcq,A,Two seminars are scheduled in the first slot,,,,not_checked,,,,True,https://bodheeprep.com/assets/LRDI/cat2020/cat-2020-question-paper-lrdi-20.jpg | https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321589/35s.gif,https://iimking.com/accounts-summary-cat-2020-dilr-caselet-set/,20d15444-95de-4a81-be8e-becebde420c6,94ff027d50d70563,,,,
+,,Caselet,,,Caselets,,2020,,,,,,Caselet,Accounts Summary CAT 2020 DILR Caselet Set,"A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.
+The following additional information is known. 1. The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018. 2. The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019. 3. The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018. 4. The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019. 5. The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019. 6. The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019. 7. The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018. 8. The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progressio",Which of the following statements is necessarily true?,S is guiding F,H is an Economics student,Q is guiding G.,B is scheduled in the first sl,mcq,B,H is an Economics student,,,,not_checked,,,,True,https://bodheeprep.com/assets/LRDI/cat2020/cat-2020-question-paper-lrdi-20.jpg | https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321591/37s.gif,https://iimking.com/accounts-summary-cat-2020-dilr-caselet-set/,29fb13ea-592d-49b5-a76d-260710b2673a,94ff027d50d70563,,,,
+,,Caselet,,,Caselets,,2020,,,,,,Caselet,Accounts Summary CAT 2020 DILR Caselet Set,"A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.
+The following additional information is known. 1. The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018. 2. The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019. 3. The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018. 4. The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019. 5. The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019. 6. The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019. 7. The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018. 8. The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progressio","If E and Q are both scheduled in the same slot, then which of the following statements BEST describes the relationship between D, H, and T?",Both D and H are guided by T.,Neither D nor H is guided by T.,At least one of D and H is guided by T,Exactly one of D and H is guided by T.,mcq,C,At least one of D and H is guided by T,,,,not_checked,,,,True,https://bodheeprep.com/assets/LRDI/cat2020/cat-2020-question-paper-lrdi-20.jpg | https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321593/39s.gif,https://iimking.com/accounts-summary-cat-2020-dilr-caselet-set/,5e869e87-1fd0-4085-9477-2fdc66fbfbba,94ff027d50d70563,,,,
+,,Caselet,,,Caselets,,2020,,,,,,Caselet,Accounts Summary CAT 2020 DILR Caselet Set,"A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.
+The following additional information is known. 1. The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018. 2. The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019. 3. The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018. 4. The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019. 5. The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019. 6. The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019. 7. The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018. 8. The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progressio","If D is scheduled in the slot immediately before Q’s, then which of the following is NOT necessarily true?",E is guided by R.,F is guided by S.,D is guided by T.,G is guided by Q.,mcq,A,E is guided by R.,,,,not_checked,,,,True,https://bodheeprep.com/assets/LRDI/cat2020/cat-2020-question-paper-lrdi-20.jpg | https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321594/40s.gif,https://iimking.com/accounts-summary-cat-2020-dilr-caselet-set/,7a153697-ab10-4561-a594-f1af158d6c1a,94ff027d50d70563,,,,
+,,Caselet,,,Caselets,,2020,,,,,,Caselet,Accounts Summary CAT 2020 DILR Caselet Set,"A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.
+The following additional information is known. 1. The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018. 2. The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019. 3. The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018. 4. The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019. 5. The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019. 6. The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019. 7. The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018. 8. The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progressio",Who all are NOT guiding any Economics students?,"P, Q and R","P, Q and S","Q, R and S","P, R and S",mcq,B,"P, Q and S",,,,not_checked,,,,True,https://bodheeprep.com/assets/LRDI/cat2020/cat-2020-question-paper-lrdi-20.jpg | https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321590/36s.gif,https://iimking.com/accounts-summary-cat-2020-dilr-caselet-set/,80ef1ce1-ba63-4b77-a822-7e2092bc7dae,94ff027d50d70563,,,,
+,,Caselet,,,Caselets,,2020,,,,,,Caselet,Accounts Summary CAT 2020 DILR Caselet Set,"A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.
+The following additional information is known. 1. The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018. 2. The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019. 3. The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018. 4. The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019. 5. The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019. 6. The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019. 7. The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018. 8. The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progressio","If D is scheduled in a slot later than Q's, then which of the following two statement(s) is(are) true? (i) E and H are guided by T. (ii) G is guided by Q.",Both (i) and (ii),Neither (i) nor (ii),Only (i),Only (ii),mcq,A,Both (i) and (ii),,,,not_checked,,,,True,https://bodheeprep.com/assets/LRDI/cat2020/cat-2020-question-paper-lrdi-20.jpg | https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321592/38s.gif,https://iimking.com/accounts-summary-cat-2020-dilr-caselet-set/,ad942fab-0d50-4c1e-94a6-2e7b0592bb37,94ff027d50d70563,,,,
+,,Caselet,,,Caselets,False,2006,,1,CAT Easy,Easy,,Caselet,Erdős number,"Mathematicians are assigned a number called the Erdős number (named after the famous mathematician Paul Erdős).
+Only Paul Erdős himself has an Erdős number of 0.
+Any mathematician who has written a research paper with Erdős has an Erdős number of 1.
+For other mathematicians:
+Suppose mathematician X has co-authored papers with several others. Among them, mathematician Y has the smallest Erdős number (y). Then, X's Erdős number is y + 1.
+If no co-authorship chain connects to Erdős, the Erdős number is infinity (∞).
+Conference Scenario:
+A seven-day mini-conference was organized in memory of Paul Erdős, with eight mathematicians: A, B, C, D, E, F, G, H.
+Initial Conditions:
+At the start of the conference:
+A was the only participant with an infinite (∞) Erdős number.
+Nobody had an Erdős number less than F's (i.e., F had the smallest).
+Key Events:
+Day 3:
+F co-authored a paper with A and C.
+This reduced the average Erdős number of the group to 3.
+The Erdős numbers of B, D, E, G, H remained unchanged.
+No other co-authorship among any three members could have reduced the average to 3.
+At the end of Day 3:
+Five members had identical Erdős numbers.
+The other three had distinct Erdős numbers.
+Day 5:
+E co-authored a paper with F.
+This reduced the group’s average Erdős number by 0.5.
+The Erdős numbers of the other six remained unchanged.
+No other papers were written during the conference.",Who had an Erdös number of infinity at the beginning of the conference?,F,A,C,H,mcq,B,A,,,,not_checked,Answer B: Only A had ∞ at the beginning as per the given instruction.,,G Strategy,False,,https://iimking.com/dilr-erdos-number-cat-2006/,a971f76c-eb3e-44c3-8a5a-ce25dc22ebe7,fd27fdf8ff3fac6c,,,,
+,,Caselet,,,Caselets,False,2006,,2,CAT Easy,Easy,,Caselet,Erdős number,"Mathematicians are assigned a number called the Erdős number (named after the famous mathematician Paul Erdős).
+Only Paul Erdős himself has an Erdős number of 0.
+Any mathematician who has written a research paper with Erdős has an Erdős number of 1.
+For other mathematicians:
+Suppose mathematician X has co-authored papers with several others. Among them, mathematician Y has the smallest Erdős number (y). Then, X's Erdős number is y + 1.
+If no co-authorship chain connects to Erdős, the Erdős number is infinity (∞).
+Conference Scenario:
+A seven-day mini-conference was organized in memory of Paul Erdős, with eight mathematicians: A, B, C, D, E, F, G, H.
+Initial Conditions:
+At the start of the conference:
+A was the only participant with an infinite (∞) Erdős number.
+Nobody had an Erdős number less than F's (i.e., F had the smallest).
+Key Events:
+Day 3:
+F co-authored a paper with A and C.
+This reduced the average Erdős number of the group to 3.
+The Erdős numbers of B, D, E, G, H remained unchanged.
+No other co-authorship among any three members could have reduced the average to 3.
+At the end of Day 3:
+Five members had identical Erdős numbers.
+The other three had distinct Erdős numbers.
+Day 5:
+E co-authored a paper with F.
+This reduced the group’s average Erdős number by 0.5.
+The Erdős numbers of the other six remained unchanged.
+No other papers were written during the conference.",What can be said about the Erdös number of F at the start of the conference?,It was the highest,It was infinite,It was the lowest among all 8 participants,It was equal to that of E,mcq,C,It was the lowest among all 8 participants,,,,not_checked,"Answer C: F had the lowest Erdös number among all 8, as explicitly stated.",,G Strategy,False,,https://iimking.com/dilr-erdos-number-cat-2006/,b64d984f-f745-4a7c-833b-acfd0d612eb1,fd27fdf8ff3fac6c,,,,
+,,Caselet,,,Caselets,False,2006,,3,CAT Easy,Easy,,Caselet,Erdős number,"Mathematicians are assigned a number called the Erdős number (named after the famous mathematician Paul Erdős).
+Only Paul Erdős himself has an Erdős number of 0.
+Any mathematician who has written a research paper with Erdős has an Erdős number of 1.
+For other mathematicians:
+Suppose mathematician X has co-authored papers with several others. Among them, mathematician Y has the smallest Erdős number (y). Then, X's Erdős number is y + 1.
+If no co-authorship chain connects to Erdős, the Erdős number is infinity (∞).
+Conference Scenario:
+A seven-day mini-conference was organized in memory of Paul Erdős, with eight mathematicians: A, B, C, D, E, F, G, H.
+Initial Conditions:
+At the start of the conference:
+A was the only participant with an infinite (∞) Erdős number.
+Nobody had an Erdős number less than F's (i.e., F had the smallest).
+Key Events:
+Day 3:
+F co-authored a paper with A and C.
+This reduced the average Erdős number of the group to 3.
+The Erdős numbers of B, D, E, G, H remained unchanged.
+No other co-authorship among any three members could have reduced the average to 3.
+At the end of Day 3:
+Five members had identical Erdős numbers.
+The other three had distinct Erdős numbers.
+Day 5:
+E co-authored a paper with F.
+This reduced the group’s average Erdős number by 0.5.
+The Erdős numbers of the other six remained unchanged.
+No other papers were written during the conference.","If F’s Erdös number is denoted by y, then after co-authoring a paper with F, what will be A’s new Erdös number?",y,y + 1,y + 2,Cannot be determined,mcq,B,y + 1,,,,not_checked,Answer B: Co-authoring with F (Erdös number y) gives A an Erdös number of y + 1.,,G Strategy,False,,https://iimking.com/dilr-erdos-number-cat-2006/,6294d649-4313-4c9e-aad4-8ea9904d960c,fd27fdf8ff3fac6c,,,,
+,,Caselet,,,Caselets,False,2006,,4,CAT Easy,Easy,,Caselet,Erdős number,"Mathematicians are assigned a number called the Erdős number (named after the famous mathematician Paul Erdős).
+Only Paul Erdős himself has an Erdős number of 0.
+Any mathematician who has written a research paper with Erdős has an Erdős number of 1.
+For other mathematicians:
+Suppose mathematician X has co-authored papers with several others. Among them, mathematician Y has the smallest Erdős number (y). Then, X's Erdős number is y + 1.
+If no co-authorship chain connects to Erdős, the Erdős number is infinity (∞).
+Conference Scenario:
+A seven-day mini-conference was organized in memory of Paul Erdős, with eight mathematicians: A, B, C, D, E, F, G, H.
+Initial Conditions:
+At the start of the conference:
+A was the only participant with an infinite (∞) Erdős number.
+Nobody had an Erdős number less than F's (i.e., F had the smallest).
+Key Events:
+Day 3:
+F co-authored a paper with A and C.
+This reduced the average Erdős number of the group to 3.
+The Erdős numbers of B, D, E, G, H remained unchanged.
+No other co-authorship among any three members could have reduced the average to 3.
+At the end of Day 3:
+Five members had identical Erdős numbers.
+The other three had distinct Erdős numbers.
+Day 5:
+E co-authored a paper with F.
+This reduced the group’s average Erdős number by 0.5.
+The Erdős numbers of the other six remained unchanged.
+No other papers were written during the conference.",What was the total sum of Erdös numbers of all 8 participants at the end of Day 3?,20,24,26,28,mcq,B,24,,,,not_checked,"Answer B: After Day 3, total average was 3, so total = 3 × 8 = 24.",,G Strategy,False,,https://iimking.com/dilr-erdos-number-cat-2006/,d64067cf-6068-4d5c-9d21-40a0562d5c29,fd27fdf8ff3fac6c,,,,
+,,Caselet,,,Caselets,False,2006,,5,CAT Easy,Easy,,Caselet,Erdős number,"Mathematicians are assigned a number called the Erdős number (named after the famous mathematician Paul Erdős).
+Only Paul Erdős himself has an Erdős number of 0.
+Any mathematician who has written a research paper with Erdős has an Erdős number of 1.
+For other mathematicians:
+Suppose mathematician X has co-authored papers with several others. Among them, mathematician Y has the smallest Erdős number (y). Then, X's Erdős number is y + 1.
+If no co-authorship chain connects to Erdős, the Erdős number is infinity (∞).
+Conference Scenario:
+A seven-day mini-conference was organized in memory of Paul Erdős, with eight mathematicians: A, B, C, D, E, F, G, H.
+Initial Conditions:
+At the start of the conference:
+A was the only participant with an infinite (∞) Erdős number.
+Nobody had an Erdős number less than F's (i.e., F had the smallest).
+Key Events:
+Day 3:
+F co-authored a paper with A and C.
+This reduced the average Erdős number of the group to 3.
+The Erdős numbers of B, D, E, G, H remained unchanged.
+No other co-authorship among any three members could have reduced the average to 3.
+At the end of Day 3:
+Five members had identical Erdős numbers.
+The other three had distinct Erdős numbers.
+Day 5:
+E co-authored a paper with F.
+This reduced the group’s average Erdős number by 0.5.
+The Erdős numbers of the other six remained unchanged.
+No other papers were written during the conference.","At the end of Day 3, how many participants had the same Erdös number?",3,4,5,6,mcq,C,5,,,,not_checked,"Answer C: Five participants (A, B, C, D, G) shared the same Erdös number y + 1.",,G Strategy,False,,https://iimking.com/dilr-erdos-number-cat-2006/,f059e05b-f5a6-411a-a97f-479a8a4b9e97,fd27fdf8ff3fac6c,,,,
+,,Caselet,,,Caselets,False,2006,,6,CAT Easy,Easy,,Caselet,Erdős number,"Mathematicians are assigned a number called the Erdős number (named after the famous mathematician Paul Erdős).
+Only Paul Erdős himself has an Erdős number of 0.
+Any mathematician who has written a research paper with Erdős has an Erdős number of 1.
+For other mathematicians:
+Suppose mathematician X has co-authored papers with several others. Among them, mathematician Y has the smallest Erdős number (y). Then, X's Erdős number is y + 1.
+If no co-authorship chain connects to Erdős, the Erdős number is infinity (∞).
+Conference Scenario:
+A seven-day mini-conference was organized in memory of Paul Erdős, with eight mathematicians: A, B, C, D, E, F, G, H.
+Initial Conditions:
+At the start of the conference:
+A was the only participant with an infinite (∞) Erdős number.
+Nobody had an Erdős number less than F's (i.e., F had the smallest).
+Key Events:
+Day 3:
+F co-authored a paper with A and C.
+This reduced the average Erdős number of the group to 3.
+The Erdős numbers of B, D, E, G, H remained unchanged.
+No other co-authorship among any three members could have reduced the average to 3.
+At the end of Day 3:
+Five members had identical Erdős numbers.
+The other three had distinct Erdős numbers.
+Day 5:
+E co-authored a paper with F.
+This reduced the group’s average Erdős number by 0.5.
+The Erdős numbers of the other six remained unchanged.
+No other papers were written during the conference.",Who were the three participants whose Erdös numbers remained distinct from the rest after Day 3?,"A, B, C","E, F, H","C, D, E","F, G, H",mcq,B,"E, F, H",,,,not_checked,"Answer B: The three with distinct Erdös numbers were E (6), F (1), and H (7).",,G Strategy,False,,https://iimking.com/dilr-erdos-number-cat-2006/,a455f331-eaed-4033-ae80-3a55f4c415ae,fd27fdf8ff3fac6c,,,,

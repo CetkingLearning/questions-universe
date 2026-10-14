@@ -1,0 +1,5781 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page
+CAT-2025-S1-DILR-001,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,1,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",How many taps did Clive receive for his question? ____,,,,,tita,,7,,,,match,"1. How many taps did Clive receive for his question? — 7
+From total taps 40 and Alia’s received = 9 plus Badal/Dilshan/Ehsaan equal (call R), we have 9 + C + 3R = 40. The only integer solution in the feasible range is R = 8 and C = 7. So Clive’s column sum (taps received) is 7, matching the final table.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,db069c75-8a44-402e-8e08-8222d3c61d35,0a7367f53b1a6732,L-AR-TNN,,,
+CAT-2025-S1-DILR-002,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,2,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",Which two people tapped an equal number of times in total?,Alia and Badal,Badal and Dilshan,Clive and Ehsaan,Dilshan and Clive,mcq,A,Alia and Badal,,,,match,"2. Which two people tapped an equal number of times in total? — Alia and Badal (Option 1)
+Row totals come from known totals: A = 6, D = 11, E = 9 and B + C = 14 (since rows must sum to 40). With Clue “Clive tapped more than Badal” the unique split is B = 6, C = 8. Thus Alia and Badal each made 6 taps.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,36706d31-b17b-4df2-add8-6c592c50b18a,0a7367f53b1a6732,L-AR-TNN,,,
+CAT-2025-S1-DILR-003,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,3,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",What was Clive’s response to Ehsaan’s question?,Maybe,No,Yes,Cannot be determined,mcq,B,No,,,,match,"3. What was Clive’s response to Ehsaan’s question? — No (Option 2)
+In the filled table C→E = 2. That assignment satisfies column/row totals, the reciprocity constraints for A and E (no matching answers), and the requirement that each column contain at least one 1, one 2, and one 3. So Clive answered “No” to Ehsaan.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,3959e33f-cfb0-4b63-925e-47745667fec2,0a7367f53b1a6732,L-AR-TNN,,,
+CAT-2025-S1-DILR-004,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,4,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",How many “Yes” responses were received across all the questions? ____,,,,,tita,,6,,,,match,"4. How many “Yes” responses were received across all the questions? — 6
+Count all 1-tap entries in the final table: A row has two 1s, B row two 1s, C row one 1, D row zero 1s, E row one 1 → total 2+2+1+0+1 = 6. This satisfies the constraints and the column diversity requirement.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,1b812189-35bd-4d33-a28f-dfa88a0e992d,0a7367f53b1a6732,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",How many taps did Clive receive for his question? ____,,,,,tita,,7,,,,match,"1. How many taps did Clive receive for his question? — 7
+From total taps 40 and Alia’s received = 9 plus Badal/Dilshan/Ehsaan equal (call R), we have 9 + C + 3R = 40. The only integer solution in the feasible range is R = 8 and C = 7. So Clive’s column sum (taps received) is 7, matching the final table.
+
+Steps to make table
+:
+CAT 2025 DILR Slot 1
+Step 1: Total taps = 40 → sum of column totals = 40 → with A = 9 and B,D,E equal (call each R) we get 9 + C + 3R = 40 → solve → R = 8 and C = 7. (Uses: total = 40; Alia received 9; B,D,E equal.)
+Step 2: Therefore columns (taps received) are A=9, B=8, C=7, D=8, E=8. (Arithmetic result.)
+Step 3: Row totals given: A tapped 6, D tapped 11, E tapped 9; remaining rows B and C must sum to 40 − (6+11+9) = 14 → B+C = 14. (Uses: row totals A,D,E and global total.)
+Step 4: Clue “Clive tapped more than Badal” → C > B and B+C = 14 → unique integer solution is B=6, C=8. (Uses: C > B and B+C constraint.)
+Step 5: Now row totals are A=6, B=6, C=8, D=11, E=9 — these match the table's row sums. (Consequence.)
+Step 6: Alia responded “Yes” to Clive and Dilshan → cells A→C = 1 and A→D = 1. (Uses: clue 1.)
+Step 7: Fill remaining Alia row taps: A row must total 6 with no diagonal; remaining taps sum = 6 − (1+1) = 4 → split as A→B = 2 and A→E = 2. (Uses: row A total and step 6.)
+Step 8: Dilshan responded “No” to Badal → cell D→B = 2. (Uses: clue 2.)
+Step 9: Reciprocity mismatch for Alia and Ehsaan: for each X ≠ A, X→A ≠ A→X, and similarly for E → for every X ≠ E, X→E ≠ E→X. Use this to eliminate symmetric choices. (Uses: clue 5.)
+Step 10: Limit “No one responded ‘Yes’ more than twice” bounds each row to at most two 1s; combine with known row totals to force specific entries (e.g., D must have many 3s to reach 11 while respecting at least one 1, one 2, one 3 in its column). (Uses: clue 4 and column diversity requirement.)
+Step 11: Ehsaan’s row (total 9) must include exactly one 1 toward C (to meet column C = 7 and ensure A→C =1 already) → set E→C = 1; remaining E taps become E→A = 3, E→B = 3, E→D = 2 to reach 9 while satisfying reciprocity with A and column targets. (Combines: column sums, reciprocity with A, row total E.)
+Step 12: Clive’s row (total 8) then fits as C→A = 2, C→B = 1, C→D = 3, C→E = 2 to meet row total 8, column targets (especially C column = 7), and the A/E reciprocity constraints. (Fills C row consistent with previous steps.)
+Step 13: Badal’s row (total 6) becomes B→A = 1, B→C = 2, B→D = 2, B→E = 1 to satisfy B row sum 6, column sums, and the requirement that each question received at least one 1, one 2, and one 3. (Fills B row consistent with clues.)
+Step 14: Dilshan’s row (total 11) completes as D→A = 3, D→C = 3, D→E = 3 (plus D→B = 2 set earlier) to reach 11 and provide the necessary 3s to meet column diversity and totals. (Fills D row consistent with step 8 and column sums.)
+Step 15: Final verification → all off-diagonal cells are 1/2/3; each column has at least one 1, one 2, one 3; row/column totals equal the values found in Steps 2 and 5; reciprocity constraints for A and E are satisfied; Clive tapped more than Badal. (Global check — table validated.)
+Working table — Tapping game CAT 2025 DILR Slot 1
+Key
+: Rows = who tapped (respondents). Columns = whose question they answered (questions asked).
+1 tap = Yes, 2 taps = No, 3 taps = Maybe.
+Respondent \ Asker
+Alia (A)
+Badal (B)
+Clive (C)
+Dilshan (D)
+Ehsaan (E)
+Row total (taps made)
+Alia (A)
+—
+2
+1
+1
+2
+6
+Badal (B)
+1
+—
+2
+2
+1
+6
+Clive (C)
+2
+1
+—
+3
+2
+8
+Dilshan (D)
+3
+2
+3
+—
+3
+11
+Ehsaan (E)
+3
+3
+1
+2
+—
+9
+Column total (taps received)
+9
+8
+7
+8
+8
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,122ea179-9197-481d-8e43-5188e955b663,0a7367f53b1a6732,L-AR-TNN,,db069c75-8a44-402e-8e08-8222d3c61d35,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",Which two people tapped an equal number of times in total?,Alia and Badal,Badal and Dilshan,Clive and Ehsaan,Dilshan and Clive,mcq,A,Alia and Badal,,,,match,"2. Which two people tapped an equal number of times in total? — Alia and Badal (Option 1)
+Row totals come from known totals: A = 6, D = 11, E = 9 and B + C = 14 (since rows must sum to 40). With Clue “Clive tapped more than Badal” the unique split is B = 6, C = 8. Thus Alia and Badal each made 6 taps.
+
+Steps to make table
+:
+CAT 2025 DILR Slot 1
+Step 1: Total taps = 40 → sum of column totals = 40 → with A = 9 and B,D,E equal (call each R) we get 9 + C + 3R = 40 → solve → R = 8 and C = 7. (Uses: total = 40; Alia received 9; B,D,E equal.)
+Step 2: Therefore columns (taps received) are A=9, B=8, C=7, D=8, E=8. (Arithmetic result.)
+Step 3: Row totals given: A tapped 6, D tapped 11, E tapped 9; remaining rows B and C must sum to 40 − (6+11+9) = 14 → B+C = 14. (Uses: row totals A,D,E and global total.)
+Step 4: Clue “Clive tapped more than Badal” → C > B and B+C = 14 → unique integer solution is B=6, C=8. (Uses: C > B and B+C constraint.)
+Step 5: Now row totals are A=6, B=6, C=8, D=11, E=9 — these match the table's row sums. (Consequence.)
+Step 6: Alia responded “Yes” to Clive and Dilshan → cells A→C = 1 and A→D = 1. (Uses: clue 1.)
+Step 7: Fill remaining Alia row taps: A row must total 6 with no diagonal; remaining taps sum = 6 − (1+1) = 4 → split as A→B = 2 and A→E = 2. (Uses: row A total and step 6.)
+Step 8: Dilshan responded “No” to Badal → cell D→B = 2. (Uses: clue 2.)
+Step 9: Reciprocity mismatch for Alia and Ehsaan: for each X ≠ A, X→A ≠ A→X, and similarly for E → for every X ≠ E, X→E ≠ E→X. Use this to eliminate symmetric choices. (Uses: clue 5.)
+Step 10: Limit “No one responded ‘Yes’ more than twice” bounds each row to at most two 1s; combine with known row totals to force specific entries (e.g., D must have many 3s to reach 11 while respecting at least one 1, one 2, one 3 in its column). (Uses: clue 4 and column diversity requirement.)
+Step 11: Ehsaan’s row (total 9) must include exactly one 1 toward C (to meet column C = 7 and ensure A→C =1 already) → set E→C = 1; remaining E taps become E→A = 3, E→B = 3, E→D = 2 to reach 9 while satisfying reciprocity with A and column targets. (Combines: column sums, reciprocity with A, row total E.)
+Step 12: Clive’s row (total 8) then fits as C→A = 2, C→B = 1, C→D = 3, C→E = 2 to meet row total 8, column targets (especially C column = 7), and the A/E reciprocity constraints. (Fills C row consistent with previous steps.)
+Step 13: Badal’s row (total 6) becomes B→A = 1, B→C = 2, B→D = 2, B→E = 1 to satisfy B row sum 6, column sums, and the requirement that each question received at least one 1, one 2, and one 3. (Fills B row consistent with clues.)
+Step 14: Dilshan’s row (total 11) completes as D→A = 3, D→C = 3, D→E = 3 (plus D→B = 2 set earlier) to reach 11 and provide the necessary 3s to meet column diversity and totals. (Fills D row consistent with step 8 and column sums.)
+Step 15: Final verification → all off-diagonal cells are 1/2/3; each column has at least one 1, one 2, one 3; row/column totals equal the values found in Steps 2 and 5; reciprocity constraints for A and E are satisfied; Clive tapped more than Badal. (Global check — table validated.)
+Working table — Tapping game CAT 2025 DILR Slot 1
+Key
+: Rows = who tapped (respondents). Columns = whose question they answered (questions asked).
+1 tap = Yes, 2 taps = No, 3 taps = Maybe.
+Respondent \ Asker
+Alia (A)
+Badal (B)
+Clive (C)
+Dilshan (D)
+Ehsaan (E)
+Row total (taps made)
+Alia (A)
+—
+2
+1
+1
+2
+6
+Badal (B)
+1
+—
+2
+2
+1
+6
+Clive (C)
+2
+1
+—
+3
+2
+8
+Dilshan (D)
+3
+2
+3
+—
+3
+11
+Ehsaan (E)
+3
+3
+1
+2
+—
+9
+Column total (taps received)
+9
+8
+7
+8
+8
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,58d15b2b-4f14-4f53-8ce4-3c853044c693,0a7367f53b1a6732,L-AR-TNN,,36706d31-b17b-4df2-add8-6c592c50b18a,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",What was Clive’s response to Ehsaan’s question?,Maybe,No,Yes,Cannot be determined,mcq,B,No,,,,match,"3. What was Clive’s response to Ehsaan’s question? — No (Option 2)
+In the filled table C→E = 2. That assignment satisfies column/row totals, the reciprocity constraints for A and E (no matching answers), and the requirement that each column contain at least one 1, one 2, and one 3. So Clive answered “No” to Ehsaan.
+
+Steps to make table
+:
+CAT 2025 DILR Slot 1
+Step 1: Total taps = 40 → sum of column totals = 40 → with A = 9 and B,D,E equal (call each R) we get 9 + C + 3R = 40 → solve → R = 8 and C = 7. (Uses: total = 40; Alia received 9; B,D,E equal.)
+Step 2: Therefore columns (taps received) are A=9, B=8, C=7, D=8, E=8. (Arithmetic result.)
+Step 3: Row totals given: A tapped 6, D tapped 11, E tapped 9; remaining rows B and C must sum to 40 − (6+11+9) = 14 → B+C = 14. (Uses: row totals A,D,E and global total.)
+Step 4: Clue “Clive tapped more than Badal” → C > B and B+C = 14 → unique integer solution is B=6, C=8. (Uses: C > B and B+C constraint.)
+Step 5: Now row totals are A=6, B=6, C=8, D=11, E=9 — these match the table's row sums. (Consequence.)
+Step 6: Alia responded “Yes” to Clive and Dilshan → cells A→C = 1 and A→D = 1. (Uses: clue 1.)
+Step 7: Fill remaining Alia row taps: A row must total 6 with no diagonal; remaining taps sum = 6 − (1+1) = 4 → split as A→B = 2 and A→E = 2. (Uses: row A total and step 6.)
+Step 8: Dilshan responded “No” to Badal → cell D→B = 2. (Uses: clue 2.)
+Step 9: Reciprocity mismatch for Alia and Ehsaan: for each X ≠ A, X→A ≠ A→X, and similarly for E → for every X ≠ E, X→E ≠ E→X. Use this to eliminate symmetric choices. (Uses: clue 5.)
+Step 10: Limit “No one responded ‘Yes’ more than twice” bounds each row to at most two 1s; combine with known row totals to force specific entries (e.g., D must have many 3s to reach 11 while respecting at least one 1, one 2, one 3 in its column). (Uses: clue 4 and column diversity requirement.)
+Step 11: Ehsaan’s row (total 9) must include exactly one 1 toward C (to meet column C = 7 and ensure A→C =1 already) → set E→C = 1; remaining E taps become E→A = 3, E→B = 3, E→D = 2 to reach 9 while satisfying reciprocity with A and column targets. (Combines: column sums, reciprocity with A, row total E.)
+Step 12: Clive’s row (total 8) then fits as C→A = 2, C→B = 1, C→D = 3, C→E = 2 to meet row total 8, column targets (especially C column = 7), and the A/E reciprocity constraints. (Fills C row consistent with previous steps.)
+Step 13: Badal’s row (total 6) becomes B→A = 1, B→C = 2, B→D = 2, B→E = 1 to satisfy B row sum 6, column sums, and the requirement that each question received at least one 1, one 2, and one 3. (Fills B row consistent with clues.)
+Step 14: Dilshan’s row (total 11) completes as D→A = 3, D→C = 3, D→E = 3 (plus D→B = 2 set earlier) to reach 11 and provide the necessary 3s to meet column diversity and totals. (Fills D row consistent with step 8 and column sums.)
+Step 15: Final verification → all off-diagonal cells are 1/2/3; each column has at least one 1, one 2, one 3; row/column totals equal the values found in Steps 2 and 5; reciprocity constraints for A and E are satisfied; Clive tapped more than Badal. (Global check — table validated.)
+Working table — Tapping game CAT 2025 DILR Slot 1
+Key
+: Rows = who tapped (respondents). Columns = whose question they answered (questions asked).
+1 tap = Yes, 2 taps = No, 3 taps = Maybe.
+Respondent \ Asker
+Alia (A)
+Badal (B)
+Clive (C)
+Dilshan (D)
+Ehsaan (E)
+Row total (taps made)
+Alia (A)
+—
+2
+1
+1
+2
+6
+Badal (B)
+1
+—
+2
+2
+1
+6
+Clive (C)
+2
+1
+—
+3
+2
+8
+Dilshan (D)
+3
+2
+3
+—
+3
+11
+Ehsaan (E)
+3
+3
+1
+2
+—
+9
+Column total (taps received)
+9
+8
+7
+8
+8
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,8c450f4e-5bc0-4168-b55f-2a3dfca7a501,0a7367f53b1a6732,L-AR-TNN,,3959e33f-cfb0-4b63-925e-47745667fec2,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
+A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
+The following information is known.
+1. Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.
+2. Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.
+3. Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.
+4. No one responded “Yes” more than twice.
+5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
+6. Clive tapped more times in total than Badal.",How many “Yes” responses were received across all the questions? ____,,,,,tita,,6,,,,match,"4. How many “Yes” responses were received across all the questions? — 6
+Count all 1-tap entries in the final table: A row has two 1s, B row two 1s, C row one 1, D row zero 1s, E row one 1 → total 2+2+1+0+1 = 6. This satisfies the constraints and the column diversity requirement.
+
+Steps to make table
+:
+CAT 2025 DILR Slot 1
+Step 1: Total taps = 40 → sum of column totals = 40 → with A = 9 and B,D,E equal (call each R) we get 9 + C + 3R = 40 → solve → R = 8 and C = 7. (Uses: total = 40; Alia received 9; B,D,E equal.)
+Step 2: Therefore columns (taps received) are A=9, B=8, C=7, D=8, E=8. (Arithmetic result.)
+Step 3: Row totals given: A tapped 6, D tapped 11, E tapped 9; remaining rows B and C must sum to 40 − (6+11+9) = 14 → B+C = 14. (Uses: row totals A,D,E and global total.)
+Step 4: Clue “Clive tapped more than Badal” → C > B and B+C = 14 → unique integer solution is B=6, C=8. (Uses: C > B and B+C constraint.)
+Step 5: Now row totals are A=6, B=6, C=8, D=11, E=9 — these match the table's row sums. (Consequence.)
+Step 6: Alia responded “Yes” to Clive and Dilshan → cells A→C = 1 and A→D = 1. (Uses: clue 1.)
+Step 7: Fill remaining Alia row taps: A row must total 6 with no diagonal; remaining taps sum = 6 − (1+1) = 4 → split as A→B = 2 and A→E = 2. (Uses: row A total and step 6.)
+Step 8: Dilshan responded “No” to Badal → cell D→B = 2. (Uses: clue 2.)
+Step 9: Reciprocity mismatch for Alia and Ehsaan: for each X ≠ A, X→A ≠ A→X, and similarly for E → for every X ≠ E, X→E ≠ E→X. Use this to eliminate symmetric choices. (Uses: clue 5.)
+Step 10: Limit “No one responded ‘Yes’ more than twice” bounds each row to at most two 1s; combine with known row totals to force specific entries (e.g., D must have many 3s to reach 11 while respecting at least one 1, one 2, one 3 in its column). (Uses: clue 4 and column diversity requirement.)
+Step 11: Ehsaan’s row (total 9) must include exactly one 1 toward C (to meet column C = 7 and ensure A→C =1 already) → set E→C = 1; remaining E taps become E→A = 3, E→B = 3, E→D = 2 to reach 9 while satisfying reciprocity with A and column targets. (Combines: column sums, reciprocity with A, row total E.)
+Step 12: Clive’s row (total 8) then fits as C→A = 2, C→B = 1, C→D = 3, C→E = 2 to meet row total 8, column targets (especially C column = 7), and the A/E reciprocity constraints. (Fills C row consistent with previous steps.)
+Step 13: Badal’s row (total 6) becomes B→A = 1, B→C = 2, B→D = 2, B→E = 1 to satisfy B row sum 6, column sums, and the requirement that each question received at least one 1, one 2, and one 3. (Fills B row consistent with clues.)
+Step 14: Dilshan’s row (total 11) completes as D→A = 3, D→C = 3, D→E = 3 (plus D→B = 2 set earlier) to reach 11 and provide the necessary 3s to meet column diversity and totals. (Fills D row consistent with step 8 and column sums.)
+Step 15: Final verification → all off-diagonal cells are 1/2/3; each column has at least one 1, one 2, one 3; row/column totals equal the values found in Steps 2 and 5; reciprocity constraints for A and E are satisfied; Clive tapped more than Badal. (Global check — table validated.)
+Working table — Tapping game CAT 2025 DILR Slot 1
+Key
+: Rows = who tapped (respondents). Columns = whose question they answered (questions asked).
+1 tap = Yes, 2 taps = No, 3 taps = Maybe.
+Respondent \ Asker
+Alia (A)
+Badal (B)
+Clive (C)
+Dilshan (D)
+Ehsaan (E)
+Row total (taps made)
+Alia (A)
+—
+2
+1
+1
+2
+6
+Badal (B)
+1
+—
+2
+2
+1
+6
+Clive (C)
+2
+1
+—
+3
+2
+8
+Dilshan (D)
+3
+2
+3
+—
+3
+11
+Ehsaan (E)
+3
+3
+1
+2
+—
+9
+Column total (taps received)
+9
+8
+7
+8
+8
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,e64f96b3-cf99-411e-830d-86470c084ab9,0a7367f53b1a6732,L-AR-TNN,,1b812189-35bd-4d33-a28f-dfa88a0e992d,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.",What was the total number of two-author and three-author papers written by Brajen?,,,,,tita,,4,,,,match,"From the given information and the graphs, Brajen wrote a total of 8 papers. Since there were two four-author papers and every author must have contributed to all four-author papers, Brajen wrote exactly 2 four-author papers. Hence, the remaining papers written by Brajen are 8 − 2 = 6.
+It is given that Brajen wrote the same number of single-author and two-author papers. Trying possible splits of these 6 remaining papers, the only feasible distribution satisfying at least one paper of each type is:
+2 single-author papers, 2 two-author papers, 2 three-author papers.
+Thus, the total number of two-author and three-author papers written by Brajen is: 2 + 2 = 4.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,0f7cc72c-0c10-431a-ac54-3af819f94a4f,31c90e2abe9147fd,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.",What was the total number of two-author and three-author papers written by Brajen?,,,,,tita,,4,,,,match,"Correct Answer: 4
+From the given information and the graphs, Brajen wrote a total of 8 papers. Since there were two four-author papers and every author must have contributed to all four-author papers, Brajen wrote exactly 2 four-author papers. Hence, the remaining papers written by Brajen are 8 − 2 = 6.
+It is given that Brajen wrote the same number of single-author and two-author papers. Trying possible splits of these 6 remaining papers, the only feasible distribution satisfying at least one paper of each type is:
+2 single-author papers, 2 two-author papers, 2 three-author papers.
+Thus, the total number of two-author and three-author papers written by Brajen is: 2 + 2 = 4.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,23a8fabd-c695-43b4-a617-8309509aafd0,31c90e2abe9147fd,L-AR-TNN,,0f7cc72c-0c10-431a-ac54-3af819f94a4f,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","Which of the following statements is/are NECESSARILY true?
+i. Chintan wrote exactly three two-author papers.
+ii. Chintan wrote more single-author papers than Devon.",Only i,Only ii,Both i and ii,Neither i nor ii,mcq,D,Neither i nor ii,,,,match,"Correct Option: 4 – Neither i nor ii
+From the completed deductions, two globally consistent cases are possible:
+Case 1: Chintan wrote 3 single-author and 4 two-author papers, while Devon wrote 4 single-author and 1 two-author paper.
+Case 2: Chintan wrote 4 single-author and 3 two-author papers, while Devon wrote 3 single-author and 2 two-author papers.
+In Case 1, statement (i) is false and statement (ii) is false.
+In Case 2, statement (i) is true and statement (ii) is true.
+Since neither statement holds true in all possible valid cases, neither statement is necessarily true.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,440b84d7-3413-409f-a968-7682f5ed07af,31c90e2abe9147fd,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","Which of the following statements is/are NECESSARILY true?
+i. Arman wrote three-author papers only with Chintan and Devon.
+ii. Brajen wrote three-author papers only with Chintan and Devon.",Both i and ii,Only i,Neither i or ii,Only ii,mcq,A,Both i and ii,,,,match,"Correct Option: 1 – Both i and ii
+There are exactly three three-author papers in total. From earlier deductions:
+Arman wrote exactly one three-author paper.
+Brajen wrote exactly two three-author papers.
+Chintan and Devon each wrote three three-author papers.
+This implies that Chintan and Devon appear in all three three-author papers. Hence, every three-author paper must include both Chintan and Devon. The only feasible three-author combinations are therefore:
+{Arman, Chintan, Devon} – one paper
+{Brajen, Chintan, Devon} – two papers
+Thus: Arman’s only three-author paper is with Chintan and Devon. Brajen’s three-author papers are also only with Chintan and Devon. Both statements are necessarily true.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,5a786f28-1858-4a78-9538-f9a75170b7d5,31c90e2abe9147fd,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","Which of the following statements is/are NECESSARILY true?
+i. Arman wrote three-author papers only with Chintan and Devon.
+ii. Brajen wrote three-author papers only with Chintan and Devon.",Both i and ii,Only i,Neither i or ii,Only ii,mcq,A,Both i and ii,,,,match,"Correct Option: 1 – Both i and ii
+There are exactly three three-author papers in total. From earlier deductions:
+Arman wrote exactly one three-author paper.
+Brajen wrote exactly two three-author papers.
+Chintan and Devon each wrote three three-author papers.
+This implies that Chintan and Devon appear in all three three-author papers. Hence, every three-author paper must include both Chintan and Devon. The only feasible three-author combinations are therefore:
+{Arman, Chintan, Devon} – one paper
+{Brajen, Chintan, Devon} – two papers
+Thus: Arman’s only three-author paper is with Chintan and Devon. Brajen’s three-author papers are also only with Chintan and Devon. Both statements are necessarily true.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,609814b3-f5cd-4844-9210-5c7f0266cb6b,31c90e2abe9147fd,L-AR-TNN,,5a786f28-1858-4a78-9538-f9a75170b7d5,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","Which of the following statements is/are NECESSARILY true?
+i. Chintan wrote exactly three two-author papers.
+ii. Chintan wrote more single-author papers than Devon.",Only i,Only ii,Both i and ii,Neither i nor ii,mcq,D,Neither i nor ii,,,,match,"Correct Option: 4 – Neither i nor ii
+From the completed deductions, two globally consistent cases are possible:
+Case 1: Chintan wrote 3 single-author and 4 two-author papers, while Devon wrote 4 single-author and 1 two-author paper.
+Case 2: Chintan wrote 4 single-author and 3 two-author papers, while Devon wrote 3 single-author and 2 two-author papers.
+In Case 1, statement (i) is false and statement (ii) is false.
+In Case 2, statement (i) is true and statement (ii) is true.
+Since neither statement holds true in all possible valid cases, neither statement is necessarily true.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,61b2b129-e7f2-4cc6-ba1c-0fec2b8b6392,31c90e2abe9147fd,L-AR-TNN,,440b84d7-3413-409f-a968-7682f5ed07af,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","Which of the following statements is/are NECESSARILY true?
+i. Chintan wrote exactly three two-author papers.
+ii. Chintan wrote more single-author papers than Devon.",Only i,Only ii,Both i and ii,Neither i nor ii,mcq,D,Neither i nor ii,,,,match,"From the completed deductions, two globally consistent cases are possible:
+Case 1: Chintan wrote 3 single-author and 4 two-author papers, while Devon wrote 4 single-author and 1 two-author paper.
+Case 2: Chintan wrote 4 single-author and 3 two-author papers, while Devon wrote 3 single-author and 2 two-author papers.
+In Case 1, statement (i) is false and statement (ii) is false.
+In Case 2, statement (i) is true and statement (ii) is true.
+Since neither statement holds true in all possible valid cases, neither statement is necessarily true.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,64ce00be-2d9a-4bc4-8bba-99c3c811e116,31c90e2abe9147fd,L-AR-TNN,,440b84d7-3413-409f-a968-7682f5ed07af,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","If Devon wrote more than one two-author papers, then how many two-author papers did Chintan write?",,,,,tita,,3,,,,match,"From the two valid cases identified earlier:
+In Case 1, Devon wrote only 1 two-author paper.
+In Case 2, Devon wrote 2 two-author papers.
+Given the condition that Devon wrote more than one two-author paper, Case 1 is eliminated. Only Case 2 remains valid.
+In Case 2: Chintan wrote exactly 3 two-author papers.
+Thus, under the given condition, the number of two-author papers written by Chintan is fixed and uniquely determined.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,31c90e2abe9147fd,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","Which of the following statements is/are NECESSARILY true?
+i. Arman wrote three-author papers only with Chintan and Devon.
+ii. Brajen wrote three-author papers only with Chintan and Devon.",Both i and ii,Only i,Neither i or ii,Only ii,mcq,A,Both i and ii,,,,match,"There are exactly three three-author papers in total. From earlier deductions:
+Arman wrote exactly one three-author paper.
+Brajen wrote exactly two three-author papers.
+Chintan and Devon each wrote three three-author papers.
+This implies that Chintan and Devon appear in all three three-author papers. Hence, every three-author paper must include both Chintan and Devon. The only feasible three-author combinations are therefore:
+{Arman, Chintan, Devon} – one paper
+{Brajen, Chintan, Devon} – two papers
+Thus: Arman’s only three-author paper is with Chintan and Devon. Brajen’s three-author papers are also only with Chintan and Devon. Both statements are necessarily true.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,75489dd1-b5f1-4617-9447-9d247224f98d,31c90e2abe9147fd,L-AR-TNN,,5a786f28-1858-4a78-9538-f9a75170b7d5,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","If Devon wrote more than one two-author papers, then how many two-author papers did Chintan write?",,,,,tita,,3,,,,match,"Correct Answer: 3
+From the two valid cases identified earlier:
+In Case 1, Devon wrote only 1 two-author paper.
+In Case 2, Devon wrote 2 two-author papers.
+Given the condition that Devon wrote more than one two-author paper, Case 1 is eliminated. Only Case 2 remains valid.
+In Case 2: Chintan wrote exactly 3 two-author papers.
+Thus, under the given condition, the number of two-author papers written by Chintan is fixed and uniquely determined.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,83dbf38e-e9b7-4b7f-b949-5672de8e5db0,31c90e2abe9147fd,L-AR-TNN,,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.",What was the total number of two-author and three-author papers written by Brajen?,,,,,tita,,4,,,,match,"Correct Answer: 4
+From the given information and the graphs, Brajen wrote a total of 8 papers. Since there were two four-author papers and every author must have contributed to all four-author papers, Brajen wrote exactly 2 four-author papers. Hence, the remaining papers written by Brajen are 8 − 2 = 6.
+It is given that Brajen wrote the same number of single-author and two-author papers. Trying possible splits of these 6 remaining papers, the only feasible distribution satisfying at least one paper of each type is:
+2 single-author papers, 2 two-author papers, 2 three-author papers.
+Thus, the total number of two-author and three-author papers written by Brajen is: 2 + 2 = 4.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,9b84ceab-88a0-43bb-a3b4-6d03a9b67b37,31c90e2abe9147fd,L-AR-TNN,,0f7cc72c-0c10-431a-ac54-3af819f94a4f,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
+The following additional facts are known.
+1. Each of the authors wrote at least one of each of the four types of papers.
+2. The four authors wrote different numbers of single-author papers.
+3. Both Chintan and Devon wrote more three-author papers than Brajen.
+4. The number of single-author and two-author papers written by Brajen were the same.","If Devon wrote more than one two-author papers, then how many two-author papers did Chintan write?",,,,,tita,,3,,,,match,"Correct Answer: 3
+From the two valid cases identified earlier:
+In Case 1, Devon wrote only 1 two-author paper.
+In Case 2, Devon wrote 2 two-author papers.
+Given the condition that Devon wrote more than one two-author paper, Case 1 is eliminated. Only Case 2 remains valid.
+In Case 2: Chintan wrote exactly 3 two-author papers.
+Thus, under the given condition, the number of two-author papers written by Chintan is fixed and uniquely determined.
+Table Steps
+Initial Working Table (Blank – from graphs only)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+?
+5
+Brajen
+?
+?
+?
+?
+8
+Chintan
+?
+?
+?
+?
+12
+Devon
+?
+?
+?
+?
+10
+Total
+10
+4
+3
+2
+35
+(Source: Author bar graph + Paper-type bar graph)
+Step 1
+Total paper contributions =
+1×10 (single-author) + 2×4 (two-author) + 3×3 (three-author) + 4×2 (four-author) = 35 → matches total author-wise papers 5 + 8 + 12 + 10 = 35
+(Source: Paper-type bar graph + Author bar graph)
+Step 2
+There are exactly 2 four-author papers → all four authors must have written both → each author has exactly 2 four-author papers
+(Source: Paper-type bar graph)
+Table after Step 2
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+?
+?
+?
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 3
+Subtract four-author papers from each author’s total:
+Arman: 5 − 2 = 3
+Brajen: 8 − 2 = 6
+Chintan: 12 − 2 = 10
+Devon: 10 − 2 = 8
+(Source: Author bar graph + Step 2)
+(These are
+working totals
+for single + two + three-author papers.)
+Step 4
+Brajen wrote the same number of single-author and two-author papers →
+2 × (single-author of Brajen) + (three-author of Brajen) = 6 → only feasible split:
+single = 2, two-author = 2, three-author = 2
+(Source: Fact 4 + Step 3)
+Table after Step 4
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+?
+?
+?
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 5
+Arman must have written at least one of each type and has only 3 papers remaining → forced split:
+1 single, 1 two-author, 1 three-author
+(Source: Fact 1 + Step 3)
+Table after Step 5
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+?
+2
+12
+Devon
+?
+?
+?
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 6
+All authors wrote different numbers of single-author papers →
+Arman = 1, Brajen = 2 → remaining single-author papers = 10 − (1 + 2) = 7 → only possible distinct split for Chintan and Devon is {3, 4}
+(Source: Fact 2 + Single-author total from graph)
+Step 7
+Total three-author papers = 3 → total three-author contributions = 9 →
+Arman contributes 1, Brajen contributes 2 → remaining contributions = 6 for Chintan and Devon
+(Source: Paper-type bar graph + Steps 4 and 5)
+Step 8
+Chintan and Devon each wrote more three-author papers than Brajen (who wrote 2) → both must have written at least 3 → hence:
+three-author of Chintan = 3, three-author of Devon = 3
+(Source: Fact 3 + Step 7)
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+?
+?
+3
+2
+12
+Devon
+?
+?
+3
+2
+10
+Total
+10
+4
+3
+2
+35
+Step 9
+Since Chintan and Devon appear in all three three-author papers, every three-author paper must include both → only possible groups are
+{Arman, Chintan, Devon} (1 paper) and {Brajen, Chintan, Devon} (2 papers)
+(Source: Logical consequence of Step 8)
+Step 10
+Compute remaining two-author papers using row totals:
+Case 1:
+Chintan single = 3, Devon single = 4 → Chintan two-author = 4, Devon two-author = 1
+Case 2:
+Chintan single = 4, Devon single = 3 → Chintan two-author = 3, Devon two-author = 2
+(Source: Step 3 + Step 6 + arithmetic consistency)
+Step 11
+Since both Case 1 and Case 2 satisfy all graphs and facts, statements assuming a fixed comparison between Chintan and Devon or a fixed two-author count for Chintan are not necessarily true
+(Source: Deduction from Step 10)
+Step 12
+If Devon wrote more than one two-author paper → Case 1 is eliminated → only Case 2 remains → Chintan wrote exactly 3 two-author papers
+(Source: Question 4 condition + Step 10)
+Final Working Table
+Author
+Single
+Two-author
+Three-author
+Four-author
+Total
+Arman
+1
+1
+1
+2
+5
+Brajen
+2
+2
+2
+2
+8
+Chintan
+4
+3
+3
+2
+12
+Devon
+3
+2
+3
+2
+10
+Total
+10
+4
+3
+2
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,a311ee28-986c-4c5d-848e-d78e082b9acb,31c90e2abe9147fd,L-AR-TNN,,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,
+CAT-2025-S2-DILR-001,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,1,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Whimshire? ____,,,,,tita,,45,,,,match,"Correct Answer: 45
+Explanation: Fogglia must have the lowest PI and cannot have its NUR PM greater than either city, so assigning it the smallest PMs (NUR 10, cities 20 and 30) gives PI 35, the minimum possible. Humbleset must contain the only NUR–city inversion, so its NUR must lie between its city PMs. Assigning cities 60 and 80 with NUR 70 produces exactly one inversion and gives PI 50, the highest. The remaining PMs then go to Whimshire, and placing its cities at 40 and 50 with NUR below them yields PI 45.
+Table Steps Explanation
+State | City 1 | City 2 | NUR | PI |
+Whimshire | ? | ? | ? | ? |
+Fogglia | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Humbleset | 60 | 80 | 70 | 70 |
+Whimshire | ? | ? | ? | ? |
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | 30 | 50 | 30 | 50 |
+Humbleset | 60 | 80 | 70 | 70 |
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State | City 1 | City 2 | NUR | PI |
+Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
+Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,623447f9-596b-4d97-b572-2f4d0e88324e,cd476cec1153cb6c,L-AR-TNN,,,
+CAT-2025-S2-DILR-002,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,2,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Fogglia? ______,,,,,tita,,35,,,,match,"Correct Answer: 35
+Explanation: Fogglia is explicitly stated to have the lowest PI and must also have its NUR PM lower than both cities’ PMs. Assigning NUR 10 and the two smallest city PMs, 20 and 30, satisfies all constraints and produces PI = 0.5×10 + 0.25×20 + 0.25×30 = 35. Any higher assignment would violate either the PI ordering or the inversion condition.
+Table Steps Explanation
+State | City 1 | City 2 | NUR | PI |
+Whimshire | ? | ? | ? | ? |
+Fogglia | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Humbleset | 60 | 80 | 70 | 70 |
+Whimshire | ? | ? | ? | ? |
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | 30 | 50 | 30 | 50 |
+Humbleset | 60 | 80 | 70 | 70 |
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State | City 1 | City 2 | NUR | PI |
+Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
+Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,c9165841-0ebb-4ab9-a4eb-7341b08a056b,cd476cec1153cb6c,L-AR-TNN,,,
+CAT-2025-S2-DILR-003,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,3,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Humbleset? _____,,,,,tita,,50,,,,match,"Correct Answer: 50
+Explanation: Humbleset has the highest PI and is the only state where a NUR PM exceeds a city PM. This requires placing the NUR between its two cities. Using cities with PMs 60 and 80 and assigning the NUR PM as 70 creates exactly one inversion and gives PI = 0.5×70 + 0.25×60 + 0.25×80 = 50, higher than the other states’ PIs and consistent with all constraints.
+Table Steps Explanation
+State | City 1 | City 2 | NUR | PI |
+Whimshire | ? | ? | ? | ? |
+Fogglia | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Humbleset | 60 | 80 | 70 | 70 |
+Whimshire | ? | ? | ? | ? |
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | 30 | 50 | 30 | 50 |
+Humbleset | 60 | 80 | 70 | 70 |
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State | City 1 | City 2 | NUR | PI |
+Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
+Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,eaf9f798-fca5-4d7f-84af-b39521eec2a8,cd476cec1153cb6c,L-AR-TNN,,,
+CAT-2025-S2-DILR-004,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,4,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",Which pair of cities definitely belong to the same state?,"Mumpypore, Zingaloo","Noodleton, Quackford","Splutterville, Quackford","Blusterburg, Mumpypore",mcq,B,"Noodleton, Quackford",,,,match,"Correct Answer: (2) Noodleton, Quackford
+Explanation: If we force all three state PIs to be integers and respect the ordering Fogglia < Whimshire < Humbleset, the only consistent set of PIs is 20, 50, and 70. Humbleset must have the highest PI, 70. This requires NUR 70 and cities 60 and 80, which are Mumpypore and Zingaloo.
+Fogglia must have the lowest PI, 20. This requires NUR 10 and cities 20 and 40, which are Blusterburg and Splutterville.
+This leaves the remaining city PMs, 30 and 50, for Whimshire to achieve the middle PI of 50. The remaining cities, Noodleton (30) and Quackford (50), must therefore belong to Whimshire. Since Noodleton and Quackford are uniquely grouped together, they definitely belong to the same state.
+Table Steps Explanation
+State | City 1 | City 2 | NUR | PI |
+Whimshire | ? | ? | ? | ? |
+Fogglia | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Humbleset | 60 | 80 | 70 | 70 |
+Whimshire | ? | ? | ? | ? |
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | 30 | 50 | 30 | 50 |
+Humbleset | 60 | 80 | 70 | 70 |
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State | City 1 | City 2 | NUR | PI |
+Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
+Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,1416e570-c772-4579-bca7-91b064e7af7d,cd476cec1153cb6c,L-AR-TNN,,,
+CAT-2025-S2-DILR-005,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,5,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",For how many of the cities and NURs is it possible to identify their PM and the state they belong to? ____,,,,,tita,,9,,,,match,"Correct Answer: 9
+Explanation: Applying all constraints fixes Fogglia’s PMs as 10, 20, and 30, Humbleset’s as 60, 70, and 80, and Whimshire receives the remaining PMs. The city ordering then assigns each PM to a specific city, and each NUR also becomes uniquely located. As a result, the PM and state for all six cities and all three NURs are completely determined, giving a total of 9 identifiable entities.
+Table Steps Explanation
+State | City 1 | City 2 | NUR | PI |
+Whimshire | ? | ? | ? | ? |
+Fogglia | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | ? | ? | ? | ? |
+Humbleset | ? | ? | ? | ? |
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Humbleset | 60 | 80 | 70 | 70 |
+Whimshire | ? | ? | ? | ? |
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State | City 1 | City 2 | NUR | PI |
+Fogglia | 20 | 40 | 10 | 20 |
+Whimshire | 30 | 50 | 30 | 50 |
+Humbleset | 60 | 80 | 70 | 70 |
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State | City 1 | City 2 | NUR | PI |
+Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
+Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,06a2c1df-4d7b-4c2b-a66e-c11f193f3be2,cd476cec1153cb6c,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Humbleset?,,,,,tita,,50,,,,match,"Correct Answer: 50
+Explanation: Humbleset has the highest PI and is the only state where a NUR PM exceeds a city PM. This requires placing the NUR between its two cities. Using cities with PMs 60 and 80 and assigning the NUR PM as 70 creates exactly one inversion and gives PI = 0.5×70 + 0.25×60 + 0.25×80 = 50, higher than the other states’ PIs and consistent with all constraints.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,175dce0f-8eff-4733-aa2f-1ac71aeafb8d,cd476cec1153cb6c,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",For how many of the cities and NURs is it possible to identify their PM and the state they belong to?,,,,,tita,,9,,,,match,"Correct Answer: 9
+Explanation: Applying all constraints fixes Fogglia’s PMs as 10, 20, and 30, Humbleset’s as 60, 70, and 80, and Whimshire receives the remaining PMs. The city ordering then assigns each PM to a specific city, and each NUR also becomes uniquely located. As a result, the PM and state for all six cities and all three NURs are completely determined, giving a total of 9 identifiable entities.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,31fd06e3-baa2-477a-8c19-c53a5131d939,cd476cec1153cb6c,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Whimshire?,,,,,tita,,45,,,,match,"Correct Answer: 45
+Explanation: Fogglia must have the lowest PI and cannot have its NUR PM greater than either city, so assigning it the smallest PMs (NUR 10, cities 20 and 30) gives PI 35, the minimum possible. Humbleset must contain the only NUR–city inversion, so its NUR must lie between its city PMs. Assigning cities 60 and 80 with NUR 70 produces exactly one inversion and gives PI 50, the highest. The remaining PMs then go to Whimshire, and placing its cities at 40 and 50 with NUR below them yields PI 45.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,428187df-c77e-44ef-976f-9eb4f49e74e6,cd476cec1153cb6c,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Fogglia?,,,,,tita,,35,,,,match,"Correct Answer: 35
+Explanation: Fogglia is explicitly stated to have the lowest PI and must also have its NUR PM lower than both cities’ PMs. Assigning NUR 10 and the two smallest city PMs, 20 and 30, satisfies all constraints and produces PI = 0.5×10 + 0.25×20 + 0.25×30 = 35. Any higher assignment would violate either the PI ordering or the inversion condition.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,4a6aa285-57c3-4130-8962-2c05f4ada44d,cd476cec1153cb6c,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",For how many of the cities and NURs is it possible to identify their PM and the state they belong to?,,,,,tita,,9,,,,match,"Explanation: Applying all constraints fixes Fogglia’s PMs as 10, 20, and 30, Humbleset’s as 60, 70, and 80, and Whimshire receives the remaining PMs. The city ordering then assigns each PM to a specific city, and each NUR also becomes uniquely located. As a result, the PM and state for all six cities and all three NURs are completely determined, giving a total of 9 identifiable entities.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,4f2532ae-d216-42d6-a0d8-25e6a244633c,cd476cec1153cb6c,L-AR-TNN,,31fd06e3-baa2-477a-8c19-c53a5131d939,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Whimshire?,,,,,tita,,45,,,,match,"Explanation: Fogglia must have the lowest PI and cannot have its NUR PM greater than either city, so assigning it the smallest PMs (NUR 10, cities 20 and 30) gives PI 35, the minimum possible. Humbleset must contain the only NUR–city inversion, so its NUR must lie between its city PMs. Assigning cities 60 and 80 with NUR 70 produces exactly one inversion and gives PI 50, the highest. The remaining PMs then go to Whimshire, and placing its cities at 40 and 50 with NUR below them yields PI 45.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,56c1a03e-4d44-4382-8f66-5c8665d1dbe4,cd476cec1153cb6c,L-AR-TNN,,428187df-c77e-44ef-976f-9eb4f49e74e6,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Fogglia?,,,,,tita,,35,,,,match,"Explanation: Fogglia is explicitly stated to have the lowest PI and must also have its NUR PM lower than both cities’ PMs. Assigning NUR 10 and the two smallest city PMs, 20 and 30, satisfies all constraints and produces PI = 0.5×10 + 0.25×20 + 0.25×30 = 35. Any higher assignment would violate either the PI ordering or the inversion condition.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,658d135d-3743-40bc-9305-cfbad5410e02,cd476cec1153cb6c,L-AR-TNN,,4a6aa285-57c3-4130-8962-2c05f4ada44d,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",Which pair of cities definitely belong to the same state?,"Mumpypore, Zingaloo","Noodleton, Quackford","Splutterville, Quackford","Blusterburg, Mumpypore",mcq,B,"Noodleton, Quackford",,,,match,"Explanation: If we force all three state PIs to be integers and respect the ordering Fogglia < Whimshire < Humbleset, the only consistent set of PIs is 20, 50, and 70. Humbleset must have the highest PI, 70. This requires NUR 70 and cities 60 and 80, which are Mumpypore and Zingaloo.
+Fogglia must have the lowest PI, 20. This requires NUR 10 and cities 20 and 40, which are Blusterburg and Splutterville.
+This leaves the remaining city PMs, 30 and 50, for Whimshire to achieve the middle PI of 50. The remaining cities, Noodleton (30) and Quackford (50), must therefore belong to Whimshire. Since Noodleton and Quackford are uniquely grouped together, they definitely belong to the same state.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,9f68f2c7-d667-455a-b9ac-18d41a4c0789,cd476cec1153cb6c,L-AR-TNN,,1416e570-c772-4579-bca7-91b064e7af7d,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Humbleset?,,,,,tita,,50,,,,match,"Explanation: Humbleset has the highest PI and is the only state where a NUR PM exceeds a city PM. This requires placing the NUR between its two cities. Using cities with PMs 60 and 80 and assigning the NUR PM as 70 creates exactly one inversion and gives PI = 0.5×70 + 0.25×60 + 0.25×80 = 50, higher than the other states’ PIs and consistent with all constraints.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,b6711763-d620-4dc6-810e-beb380964f52,cd476cec1153cb6c,L-AR-TNN,,175dce0f-8eff-4733-aa2f-1ac71aeafb8d,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
+The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",Which pair of cities definitely belong to the same state?,"Mumpypore, Zingaloo","Noodleton, Quackford","Splutterville, Quackford","Blusterburg, Mumpypore",mcq,B,"Noodleton, Quackford",,,,match,"Correct Answer: (2) Noodleton, Quackford
+Explanation: If we force all three state PIs to be integers and respect the ordering Fogglia < Whimshire < Humbleset, the only consistent set of PIs is 20, 50, and 70. Humbleset must have the highest PI, 70. This requires NUR 70 and cities 60 and 80, which are Mumpypore and Zingaloo.
+Fogglia must have the lowest PI, 20. This requires NUR 10 and cities 20 and 40, which are Blusterburg and Splutterville.
+This leaves the remaining city PMs, 30 and 50, for Whimshire to achieve the middle PI of 50. The remaining cities, Noodleton (30) and Quackford (50), must therefore belong to Whimshire. Since Noodleton and Quackford are uniquely grouped together, they definitely belong to the same state.
+Table Steps Explanation
+State
+City 1
+City 2
+NUR
+PI
+Whimshire
+?
+?
+?
+?
+Fogglia
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+City PM order (increasing):
+Blusterburg < Noodleton < Splutterville < Quackford < Mumpypore < Zingaloo
+Available PMs: 10, 20, 30, 40, 50, 60, 70, 80, 90
+(Source: Question statement)
+Step 1
+Each state has exactly three PMs (2 cities + 1 NUR).
+Total PMs are nine distinct multiples of 10 from 10 to 90.
+(Source: Question statement)
+Step 2
+PI formula:
+PI = 0.5 × NUR + 0.25 × City1 + 0.25 × City2
+PI values are distinct integers.
+(Source: Question statement)
+Step 3
+Exactly one (NUR, City) pair has NUR PM greater than City PM, and both belong to Humbleset.
+Therefore:
+• In Whimshire and Fogglia: NUR < both cities
+• In Humbleset: NUR lies between its two cities
+(Source: Given constraint)
+Step 4
+Fogglia has the lowest PI and Humbleset has the highest PI.
+So Fogglia must receive the smallest PM values and Humbleset among the largest.
+(Source: PI ordering condition)
+Step 5
+Assign Fogglia the smallest feasible PMs with NUR below both cities:
+Fogglia: NUR = 10; Cities = 20, 40
+PI = 0.5×10 + 0.25×20 + 0.25×40 => PI = 5 + 5 + 10 = 20
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+?
+?
+?
+?
+Humbleset
+?
+?
+?
+?
+(Source: Step 2 + Step 4)
+Step 6
+Remaining PMs after assigning Fogglia: 40, 50, 60, 70, 80, 90
+Humbleset must have exactly one city below NUR and one above, so NUR cannot be the maximum or minimum among remaining. (Source: Step 3 logic)
+Step 7
+Test Humbleset with cities 60 and 80, NUR = 70:
+70 > 60 (one valid pair), 70 < 80 (no extra violation)
+PI = 0.5×70 + 0.25×60 + 0.25×80 => PI = 35 + 15 + 20 = 70
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Humbleset
+60
+80
+70
+70
+Whimshire
+?
+?
+?
+?
+(Source: Step 3 + Step 4)
+Step 8
+Remaining PMs for Whimshire: 40, 50, 90
+NUR must be less than both cities, to get the middle PI = 50
+Whimshire assignment: NUR = 30, Cities = 50 and 90 PI = 0.5×30 + 0.25×50 + 0.25×90 => PI = 15 + 12.5 + 22.5 = 50
+(Source: Remaining PMs + PI order)
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+20
+40
+10
+20
+Whimshire
+30
+50
+30
+50
+Humbleset
+60
+80
+70
+70
+Step 9
+Mapping PMs to city names using the given city order fixes groupings uniquely.
+Only Mumpypore (60) and Zingaloo (80) can belong together in Humbleset.
+(Source: City PM ranking + Step 7)
+Final Working Table
+State
+City 1
+City 2
+NUR
+PI
+Fogglia
+Blusterburg (20)
+Splutterville (40)
+10
+20
+Whimshire
+Noodleton (30)
+Quackford (50)
+30
+50
+Humbleset
+Mumpypore (60)
+Zingaloo (80)
+70
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,f1b52349-3660-4f63-ba39-eec01d19423f,cd476cec1153cb6c,L-AR-TNN,,1416e570-c772-4579-bca7-91b064e7af7d,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,1,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
+P1: timely arrival
+P2: behaviour
+P3: comfortable ride
+P4: driver’s familiarity with the route
+P5: value for money
+Based on feedback from the customers, the office assigns a rating from 1 to 5 in each of these parameters. Each rating is an integer from a low value of 1 to a high value of 5. The final rating of a driver is the average of his ratings in these five parameters. The monthly payment of the drivers has two parts – a fixed payment and final rating-based bonus. If a driver gets a rating of 1 in any of the parameters, he is not eligible to get bonus. To be eligible for bonus a driver also needs to get a rating of five in at least one of the parameters. The partial information related to the ratings of the drivers in different parameters and the monthly payment structure (in rupees) is given in the table below:
+The following additional facts are known.
+Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan has got a rating of 5 in exactly two parameters.
+None of drivers has got the same rating in three parameters.","If Damodaran does not get a bonus, what is the maximum possible value of his final rating?",3.2,3.4,3.6,3.8,mcq,C,3.6,,,,match,"Q.1 If Damodaran does not get a bonus , it means he must get at least 1 rating in one parameter .
+Now he has rating 3 in P2. So in rest 4 parameter he should get rating 1 in one parameter and to maximize his overall rating he must get 5 rating in 2 other parameters and 4 in the rest parameters.
+So maximum possible rating = (3+5+5+4+1)/5 = 18/5 = 3.6",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,abd50ef6-571a-4af1-aee3-ee0c7ecb4921,4780c82c138a0db3,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,2,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
+P1: timely arrival
+P2: behaviour
+P3: comfortable ride
+P4: driver’s familiarity with the route
+P5: value for money
+Based on feedback from the customers, the office assigns a rating from 1 to 5 in each of these parameters. Each rating is an integer from a low value of 1 to a high value of 5. The final rating of a driver is the average of his ratings in these five parameters. The monthly payment of the drivers has two parts – a fixed payment and final rating-based bonus. If a driver gets a rating of 1 in any of the parameters, he is not eligible to get bonus. To be eligible for bonus a driver also needs to get a rating of five in at least one of the parameters. The partial information related to the ratings of the drivers in different parameters and the monthly payment structure (in rupees) is given in the table below:
+The following additional facts are known.
+Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan has got a rating of 5 in exactly two parameters.
+None of drivers has got the same rating in three parameters.","If Eman gets a bonus, what is the minimum possible value of his final rating?",3.0,2.8,3.4,3.2,mcq,A,3.0,,,,match,"Q.2 As Eman has got rating 2 in P5. He gets bonus so he should get at least one 5 rating . Also he shouldn’t get ration 1 in any parameters.
+Now as no one gets same rating in three parameters, to minimize Eman’s rating , he should get rating 2 in 2 parameters and rating 3 in other 2 parameters .
+Final Rating = (2+2+3+3+5)/5 = 15/5 = 3.0
+Correct Option 1) 3.0",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,624d475c-bccf-4865-8e52-322c35ee6c05,4780c82c138a0db3,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,3,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
+P1: timely arrival
+P2: behaviour
+P3: comfortable ride
+P4: driver’s familiarity with the route
+P5: value for money
+Based on feedback from the customers, the office assigns a rating from 1 to 5 in each of these parameters. Each rating is an integer from a low value of 1 to a high value of 5. The final rating of a driver is the average of his ratings in these five parameters. The monthly payment of the drivers has two parts – a fixed payment and final rating-based bonus. If a driver gets a rating of 1 in any of the parameters, he is not eligible to get bonus. To be eligible for bonus a driver also needs to get a rating of five in at least one of the parameters. The partial information related to the ratings of the drivers in different parameters and the monthly payment structure (in rupees) is given in the table below:
+The following additional facts are known.
+Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan has got a rating of 5 in exactly two parameters.
+None of drivers has got the same rating in three parameters.","If all five drivers get bonus, what is the minimum possible value of the monthly payment (in rupees) that a driver gets?",1740,1750,1700,1600,mcq,C,1700,,,,match,"Q.3 To minimize the monthly payment , we need to minimize the final rating as we did in question 2.
+As everyone is getting bonus , so no one will get rating 1 in any parameter.
+Also Arun and Barun has got rating 5 in exactly one parameters and Chandan has got rating 5 in exactly two parameters.
+Minimum possible final rating of Arun = (5+4+2+2+3)/5 =16/2 = 3.2
+Salary of Arun = 1000 + 250*3.2 = Rs 1800
+Minimum possible final rating of Barun = (5+3+2+2+3)/5 = 15/5 = 3.0
+Salary of Barun = 1200+200*3.0 = Rs 1800
+Minimum possible final rating of Chandan = (5+5+2+2+3)/5 = 17/5 = 3.4
+Salary of Chandan = 1400 + 100*3.4 = 1740
+Minimum possible final rating of Damodaran = (5+3+2+2+3)/5 = 15/5 = 3
+Salary of Damodaran = 1300 + 150*3 = Rs 1750
+Minimum possible final rating of Eman = (5+3+2+2+3)/5 = 15/5 = 3
+Salary of Eman =1100 + 200*3 = Rs 1700
+So minimum possible salary = 1700
+Correct option 2) 1700",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,8180d424-56f8-4967-947a-a1f4f2c16685,4780c82c138a0db3,L-AR-TNN,,,
+,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,4,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
+P1: timely arrival
+P2: behaviour
+P3: comfortable ride
+P4: driver’s familiarity with the route
+P5: value for money
+Based on feedback from the customers, the office assigns a rating from 1 to 5 in each of these parameters. Each rating is an integer from a low value of 1 to a high value of 5. The final rating of a driver is the average of his ratings in these five parameters. The monthly payment of the drivers has two parts – a fixed payment and final rating-based bonus. If a driver gets a rating of 1 in any of the parameters, he is not eligible to get bonus. To be eligible for bonus a driver also needs to get a rating of five in at least one of the parameters. The partial information related to the ratings of the drivers in different parameters and the monthly payment structure (in rupees) is given in the table below:
+The following additional facts are known.
+Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan has got a rating of 5 in exactly two parameters.
+None of drivers has got the same rating in three parameters.","If all five drivers get bonus, what is the maximum possible value of the monthly payment (in rupees) that a driver gets?",2050,1950,1960,1900,mcq,C,1960,,,,match,"Q.4 This question is similar to previous question , in this question we have to maximize the final rating for maximum possible salary . Taking those points in mind given in point 1 and point 2.
+As everyone is getting bonus , so no one will get rating 1 in any parameter.
+Also Arun and Barun has got rating 5 in exactly one parameters and Chandan has got rating 5 in exactly two parameters.
+Maximum possible final rating of Arun = (5+4+4+3+3)/5 =19/2 = 3.8
+Salary of Arun = 1000 + 250*3.8 = Rs 1950
+Maximum possible final rating of Barun = (5+3+4+4+3)/5 = 19/5 = 3.8
+Salary of Barun = 1200+200*3.8 = Rs 1960
+Maximum possible final rating of Chandan = (5+5+2+4+4)/5 = 20/5 = 4.0
+Salary of Chandan = 1400 + 100*4.0 = 1800
+Maximum possible final rating of Damodaran = (5+3+4+4+5)/5 = 21/5 = 4.2
+Salary of Damodaran = 1300 + 150*4.2 = Rs 1930
+Maximum possible final rating of Eman = (5+2+5+4+4)/5 = 20/5 = 4.0
+Salary of Eman =1100 + 200*4 = Rs 1900
+So Maximum possible salary = 1960
+Correct option 1) 1960",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,b9e7ac57-03e8-40af-b595-d686a6128ccb,4780c82c138a0db3,L-AR-TNN,,,

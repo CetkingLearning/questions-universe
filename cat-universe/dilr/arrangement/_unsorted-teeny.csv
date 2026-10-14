@@ -1,0 +1,316 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page
+,,Arrangement,,,Arrangements,True,2024,,,,,Teeny Arrangement,,,"The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the following grid based on the conditions below. Numbers in any row appear in an increasing order from left to right. Numbers in any column appear in a decreasing order from top to bottom. 1 is placed either in the same row or in the same column as 10. Neither 2 nor 3 is placed in the same row or in the same column as 10. Neither 7 nor 8 is placed in the same row or in the same column as 9. 4 and 6 are placed in the same row.",Q. 2 Which of the following statements MUST be true? I. 10 is placed in a slot in Row 1. II. 1 is placed in a slot in Row 4.,Only I,Both I and II,Only II,Neither I nor II,mcq,B,Both I and II,,,,match,"Q2. Which of the following statements MUST be true?
+I. 10 is placed in a slot in Row 1 → True (Row 1, Col 4) II. 1 is placed in a slot in Row 4 → True (Row 4, Col 4)
+✅ Answer: 2) Both I and II",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-17.png,https://iimking.com/slots-cat-2024-dilr-wide-arrangement-g-strategy/,1587ca8f-decf-4bea-8a0d-d7858c5ad430,d02c1bb403cf3bfd,,,,
+,,Arrangement,,,Arrangements,True,2024,,,,,Teeny Arrangement,,,"The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the following grid based on the conditions below. Numbers in any row appear in an increasing order from left to right. Numbers in any column appear in a decreasing order from top to bottom. 1 is placed either in the same row or in the same column as 10. Neither 2 nor 3 is placed in the same row or in the same column as 10. Neither 7 nor 8 is placed in the same row or in the same column as 9. 4 and 6 are placed in the same row.",Q. 5 What is the sum of the numbers placed in Column 4?,,,,,tita,,26,,,,match,"Q5. What is the sum of the numbers placed in Column 4?
+Column 4 has: 10, 8, 7, 1 → Total = 10 + 8 + 7 + 1 = 26
+✅ Answer: 26",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-17.png,https://iimking.com/slots-cat-2024-dilr-wide-arrangement-g-strategy/,4b9e8edf-6c63-4d0c-b643-19f7426cc755,d02c1bb403cf3bfd,,,,
+,,Arrangement,,,Arrangements,True,2024,,,,,Teeny Arrangement,,,"The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the following grid based on the conditions below. Numbers in any row appear in an increasing order from left to right. Numbers in any column appear in a decreasing order from top to bottom. 1 is placed either in the same row or in the same column as 10. Neither 2 nor 3 is placed in the same row or in the same column as 10. Neither 7 nor 8 is placed in the same row or in the same column as 9. 4 and 6 are placed in the same row.",Q. 3 Which of the following statements MUST be true? I. 2 is placed in a slot in Column 2. II. 3 is placed in a slot in Column 3.,Both I and II,Neither I nor II,Only II,Only I,mcq,B,Neither I nor II,,,,match,"Q3. Which of the following statements MUST be true?
+I. 2 is placed in a slot in Column 2 II. 3 is placed in a slot in Column 3
+Let’s consider both cases for 2 and 3:
+If 2 is in Row 2, it is in Column 2 → True → then 3 is in Row 3, Column 3 → True
+If 2 is in Row 3, it is in Column 3 → False for I → then 3 is in Row 2, Column 2 → False for II
+So neither statement is guaranteed to be true in all cases.
+✅ Answer: 2) Neither I nor II",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-17.png,https://iimking.com/slots-cat-2024-dilr-wide-arrangement-g-strategy/,93b88e10-9661-42c7-993d-a4c35cc555eb,d02c1bb403cf3bfd,,,,
+,,Arrangement,,,Arrangements,True,2024,,,,,Teeny Arrangement,,,"The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the following grid based on the conditions below. Numbers in any row appear in an increasing order from left to right. Numbers in any column appear in a decreasing order from top to bottom. 1 is placed either in the same row or in the same column as 10. Neither 2 nor 3 is placed in the same row or in the same column as 10. Neither 7 nor 8 is placed in the same row or in the same column as 9. 4 and 6 are placed in the same row.",Q. 1 What is the row number which has the least sum of numbers placed in that row?,,,,,tita,,4,,,,match,"Here is the final arrangement of the numbers from the last table in text format:
+Using the final diagram provided, let's first extract the grid and then solve all 5 questions based on the constraints.
+✅ Final Grid from Image
+Row \ Column
+Column 1
+Column 2
+Column 3
+Column 4
+Row 1
+4
+6
+9
+10
+Row 2
+2/3
+5
+8
+Row 3
+2/3
+7
+Row 4
+1
+📌 Note: 2 and 3 are in Row 2 & Row 3, but which is where is uncertain. Either could be in Row 2 or Row 3. All other numbers are fixed.
+🔍 Let's now solve the 5 questions.
+Q1. What is the row number which has the least sum of numbers placed in that row?
+Let’s calculate row sums:
+Row 1: 4 + 6 + 9 + 10 = 29
+Row 2: (2 or 3) + 5 + 8 = 15 or 16
+Row 3: (2 or 3) + 7 = 9 or 10
+Row 4: 1
+✅ Answer: Row 4 has the least sum (1)",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-17.png,https://iimking.com/slots-cat-2024-dilr-wide-arrangement-g-strategy/,98264758-6246-4e05-9fc7-a4a155498d3d,d02c1bb403cf3bfd,,,,
+,,Arrangement,,,Arrangements,True,2024,,,,,Teeny Arrangement,,,"The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the following grid based on the conditions below. Numbers in any row appear in an increasing order from left to right. Numbers in any column appear in a decreasing order from top to bottom. 1 is placed either in the same row or in the same column as 10. Neither 2 nor 3 is placed in the same row or in the same column as 10. Neither 7 nor 8 is placed in the same row or in the same column as 9. 4 and 6 are placed in the same row.","Q. 4 For how many slots in the grid, placement of numbers CANNOT be determined with certainty?",,,,,tita,,2,,,,match,"Q4. For how many slots in the grid, placement of numbers CANNOT be determined with certainty?
+All values are fixed except:
+Two cells: Row 2, Col 2 and Row 3, Col 3 → either has 2 or 3.
+So exactly 2 slots are uncertain.
+✅ Answer: 2",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-17.png,https://iimking.com/slots-cat-2024-dilr-wide-arrangement-g-strategy/,fa1afd9d-ff83-4574-9851-66f66cc45d4d,d02c1bb403cf3bfd,,,,
+CAT-2023-S1-DILR-001,,Arrangement,,,Arrangements,True,2023,1,1,,,Teeny Arrangement,Double Trouble / Teeny Arrangement,Faculty members,"Faculty members in a management school can belong to one of four departments – Finance and Accounting (F&A), Marketing and Strategy (M&S), Operations and Quants (O&Q) and Behaviour and Human Resources (B&H). The numbers of faculty members in F&A, M&S, O&Q and B&H departments are 9, 7, 5 and 3 respectively. Prof. Pakrasi, Prof. Qureshi, Prof. Ramaswamy and Prof. Samuel are four members of the school's faculty who were candidates for the post of the Dean of the school. Only one of the candidates was from O&Q. Every faculty member, including the four candidates, voted for the post. In each department, all the faculty members who were not candidates voted for the same candidate. The rules for the election are listed below.
+1. There cannot be more than two candidates from a single department.
+2. A candidate cannot vote for himself/herself.
+3. Faculty members cannot vote for a candidate from their own department.
+After the election, it was observed that Prof. Pakrasi received 3 votes, Prof. Qureshi received 14 votes, Prof. Ramaswamy received 6 votes and Prof. Samuel received 1 vote. Prof. Pakrasi voted for Prof. Ramaswamy, Prof. Qureshi for Prof. Samuel, Prof. Ramaswamy for Prof. Qureshi and Prof. Samuel for Prof. Pakrasi.",Which two candidates can belong to the same department?,Prof. Ramaswamy and Prof. Samuel,Prof. Pakrasi and Prof. Qureshi,Prof. Pakrasi and Prof. Samuel,Prof. Qureshi and Prof. Ramaswamy,mcq,B,Prof. Pakrasi and Prof. Qureshi,,,,match,"Answer- 2-Prof. Pakrasi and Prof. Qureshi
+✅ Q1: Which two candidates can belong to the same department?
+We’re told:
+Only one candidate from O&Q ⇒ only one among 4 is from O&Q
+
+No more than 2 candidates per department
+
+Faculty cannot vote within their department
+Now, Qureshi received 14 votes — likely from multiple departments, possibly F&A (9) + M&S (7) non-candidates
+Try to group:
+If Pakrasi and Qureshi are from same department (say, M&S), then only 5 non-candidates left → may explain Qureshi’s 14 votes via other departments
+→ Feasible.
+✅ Answer: (2) Prof. Pakrasi and Prof. Qureshi",,Teeny Arrangement,False,,https://iimking.com/cat-2023-slot-1-wide-arrangements-di-actual-question-paper/,8a989ca3-e1d3-4c46-9c09-406c1d29974d,db8240fac43c6ed4,,,,
+CAT-2023-S1-DILR-002,,Arrangement,,,Arrangements,True,2023,1,2,,,Teeny Arrangement,Double Trouble / Teeny Arrangement,Faculty members,"Faculty members in a management school can belong to one of four departments – Finance and Accounting (F&A), Marketing and Strategy (M&S), Operations and Quants (O&Q) and Behaviour and Human Resources (B&H). The numbers of faculty members in F&A, M&S, O&Q and B&H departments are 9, 7, 5 and 3 respectively. Prof. Pakrasi, Prof. Qureshi, Prof. Ramaswamy and Prof. Samuel are four members of the school's faculty who were candidates for the post of the Dean of the school. Only one of the candidates was from O&Q. Every faculty member, including the four candidates, voted for the post. In each department, all the faculty members who were not candidates voted for the same candidate. The rules for the election are listed below.
+1. There cannot be more than two candidates from a single department.
+2. A candidate cannot vote for himself/herself.
+3. Faculty members cannot vote for a candidate from their own department.
+After the election, it was observed that Prof. Pakrasi received 3 votes, Prof. Qureshi received 14 votes, Prof. Ramaswamy received 6 votes and Prof. Samuel received 1 vote. Prof. Pakrasi voted for Prof. Ramaswamy, Prof. Qureshi for Prof. Samuel, Prof. Ramaswamy for Prof. Qureshi and Prof. Samuel for Prof. Pakrasi.",Which of the following can be the number of votes that Prof. Qureshi received from a single department?,6,8,7,9,mcq,D,9,,,,match,"Answer- 4. 9
+✅ Q2: Which of the following can be the number of votes Prof. Qureshi received from a single department?
+Qureshi got 14 votes total. Let's test which value among 6, 7, 8, 9 is possible from a single department.
+F&A (9 faculty) ⇒ if Qureshi is not from F&A → could have received 9 votes
+
+M&S (7) → max 6 (if one candidate is from there)
+
+O&Q → only 4 non-candidates
+
+B&H → only 2 non-candidates
+So only F&A = 9 is possible max
+✅ Answer: (4) 9",,Teeny Arrangement,False,,https://iimking.com/cat-2023-slot-1-wide-arrangements-di-actual-question-paper/,a5c7ddb5-91b5-4be7-8b2c-74b6e6ad1a66,db8240fac43c6ed4,,,,
+CAT-2023-S1-DILR-003,,Arrangement,,,Arrangements,True,2023,1,3,,,Teeny Arrangement,Double Trouble / Teeny Arrangement,Faculty members,"Faculty members in a management school can belong to one of four departments – Finance and Accounting (F&A), Marketing and Strategy (M&S), Operations and Quants (O&Q) and Behaviour and Human Resources (B&H). The numbers of faculty members in F&A, M&S, O&Q and B&H departments are 9, 7, 5 and 3 respectively. Prof. Pakrasi, Prof. Qureshi, Prof. Ramaswamy and Prof. Samuel are four members of the school's faculty who were candidates for the post of the Dean of the school. Only one of the candidates was from O&Q. Every faculty member, including the four candidates, voted for the post. In each department, all the faculty members who were not candidates voted for the same candidate. The rules for the election are listed below.
+1. There cannot be more than two candidates from a single department.
+2. A candidate cannot vote for himself/herself.
+3. Faculty members cannot vote for a candidate from their own department.
+After the election, it was observed that Prof. Pakrasi received 3 votes, Prof. Qureshi received 14 votes, Prof. Ramaswamy received 6 votes and Prof. Samuel received 1 vote. Prof. Pakrasi voted for Prof. Ramaswamy, Prof. Qureshi for Prof. Samuel, Prof. Ramaswamy for Prof. Qureshi and Prof. Samuel for Prof. Pakrasi.","If Prof. Samuel belongs to B&H, which of the following statements is/are true?
+Statement A: Prof. Pakrasi belongs to M&S.
+Statement B: Prof. Ramaswamy belongs to O&Q.",Both statements A and B,Only statement B,Only statement A,Neither statement A nor statement B,mcq,A,Both statements A and B,,,,match,"Answer- 1.Both statements A and B
+✅ Q3: If Prof. Samuel belongs to B&H, which of the following is/are true?
+If Samuel is from B&H, then:
+The other two members in B&H cannot vote for him
+
+Samuel cannot vote for himself
+
+He got only 1 vote → must be from one of other 3 departments
+→ Plausible.
+Now consider:
+Statement A: Pakrasi is from M&S
+
+Statement B: Ramaswamy is from O&Q
+We are told only 1 candidate is from O&Q
+If Samuel is from B&H, then Pakrasi and Qureshi must be from M&S or F&A
+→ Then Ramaswamy being from O&Q is valid
+Also:
+To explain who voted for whom, Pakrasi voted for Ramaswamy (implying different departments)
+
+So if Pakrasi is from M&S, Ramaswamy could be from O&Q
+✅ Answer: (1) Both statements A and B",,Teeny Arrangement,False,,https://iimking.com/cat-2023-slot-1-wide-arrangements-di-actual-question-paper/,f020ad35-d189-4dda-ba0d-6eef1afe4c4a,db8240fac43c6ed4,,,,
+CAT-2023-S1-DILR-004,,Arrangement,,,Arrangements,True,2023,1,4,,,Teeny Arrangement,Double Trouble / Teeny Arrangement,Faculty members,"Faculty members in a management school can belong to one of four departments – Finance and Accounting (F&A), Marketing and Strategy (M&S), Operations and Quants (O&Q) and Behaviour and Human Resources (B&H). The numbers of faculty members in F&A, M&S, O&Q and B&H departments are 9, 7, 5 and 3 respectively. Prof. Pakrasi, Prof. Qureshi, Prof. Ramaswamy and Prof. Samuel are four members of the school's faculty who were candidates for the post of the Dean of the school. Only one of the candidates was from O&Q. Every faculty member, including the four candidates, voted for the post. In each department, all the faculty members who were not candidates voted for the same candidate. The rules for the election are listed below.
+1. There cannot be more than two candidates from a single department.
+2. A candidate cannot vote for himself/herself.
+3. Faculty members cannot vote for a candidate from their own department.
+After the election, it was observed that Prof. Pakrasi received 3 votes, Prof. Qureshi received 14 votes, Prof. Ramaswamy received 6 votes and Prof. Samuel received 1 vote. Prof. Pakrasi voted for Prof. Ramaswamy, Prof. Qureshi for Prof. Samuel, Prof. Ramaswamy for Prof. Qureshi and Prof. Samuel for Prof. Pakrasi.",What best can be concluded about the candidate from O&Q?,It was either Prof. Pakrasi or Prof. Qureshi.,It was Prof. Samuel.,It was either Prof. Ramaswamy or Prof. Samuel.,It was Prof. Ramaswamy.,mcq,C,It was either Prof. Ramaswamy or Prof. Samuel.,,,,match,"Answer- 3. It was either Prof. Ramaswamy or Prof. Samuel.
+✅ Q4: What best can be concluded about the candidate from O&Q?
+O&Q has only 5 faculty
+Only 1 can be a candidate
+So, of Ramaswamy and Samuel, who fits?
+Earlier we deduced:
+If Samuel is from B&H → Ramaswamy may be O&Q
+
+Alternatively, Samuel could be from O&Q
+Therefore:
+✅ Answer: (3) Either Ramaswamy or Samuel",,Teeny Arrangement,False,,https://iimking.com/cat-2023-slot-1-wide-arrangements-di-actual-question-paper/,db17a7de-d81d-4836-97da-8fbf1bcfcf0b,db8240fac43c6ed4,,,,
+CAT-2023-S1-DILR-005,,Arrangement,,,Arrangements,True,2023,1,5,,,Teeny Arrangement,Double Trouble / Teeny Arrangement,Faculty members,"Faculty members in a management school can belong to one of four departments – Finance and Accounting (F&A), Marketing and Strategy (M&S), Operations and Quants (O&Q) and Behaviour and Human Resources (B&H). The numbers of faculty members in F&A, M&S, O&Q and B&H departments are 9, 7, 5 and 3 respectively. Prof. Pakrasi, Prof. Qureshi, Prof. Ramaswamy and Prof. Samuel are four members of the school's faculty who were candidates for the post of the Dean of the school. Only one of the candidates was from O&Q. Every faculty member, including the four candidates, voted for the post. In each department, all the faculty members who were not candidates voted for the same candidate. The rules for the election are listed below.
+1. There cannot be more than two candidates from a single department.
+2. A candidate cannot vote for himself/herself.
+3. Faculty members cannot vote for a candidate from their own department.
+After the election, it was observed that Prof. Pakrasi received 3 votes, Prof. Qureshi received 14 votes, Prof. Ramaswamy received 6 votes and Prof. Samuel received 1 vote. Prof. Pakrasi voted for Prof. Ramaswamy, Prof. Qureshi for Prof. Samuel, Prof. Ramaswamy for Prof. Qureshi and Prof. Samuel for Prof. Pakrasi.","Which of the following statements is/are true?
+Statement A: Non-candidates from M&S voted for Prof. Qureshi.",Neither statement A nor statement B,Only statement B,Only statement A,Both statements A and B,mcq,B,Only statement B,,,,match,"Answer- 2. Only statement B
+✅ Q5: Which of these are true?
+Let’s check who voted for Qureshi (received 14 votes)
+→ These must be from departments other than Qureshi’s
+Suppose Qureshi is from M&S ⇒ only 6 other M&S profs ⇒ cannot vote for him
+
+Votes must have come from F&A (9) and maybe O&Q (4) and B&H (2)
+→ Most likely: F&A non-candidates voted for Qureshi
+Thus:
+Statement A (M&S voted for Qureshi) → invalid if Qureshi is from M&S
+
+Statement B (F&A voted for Qureshi) → very likely
+✅ Answer: (2) Only statement B",,Teeny Arrangement,False,,https://iimking.com/cat-2023-slot-1-wide-arrangements-di-actual-question-paper/,7f1cf74d-9e26-425b-8e19-54b08912c0dd,db8240fac43c6ed4,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"There are only four neighbourhoods in a city – Levmisto, Tyhrmisto, Pesmisto and Kitmisto. During the onset of a pandemic, the number of new cases of a disease in each of these neighbourhoods was recorded over a period of five days. On each day, the number of new cases recorded in any of the neighbourhoods was either 0, 1, 2 or 3. The following facts are also known: 1. There was at least one new case in every neighbourhood on Day 1. 2. On each of the five days, there were more new cases in Kitmisto than in Pesmisto. 3. The number of new cases in the city in a day kept increasing during the five-day period. The number of new cases on Day 3 was exactly one more than that on Day 2. 4. The maximum number of new cases in a day in Pesmisto was 2, and this happened only once during the five-day period. 5. Kitmisto is the only place to have 3 new cases on Day 2. 6. The total numbers of new cases in Levmisto, Tyhrmisto, Pesmisto and Kitmisto over the five-day period were 12, 12, 5 and 14 respectively..",Q. 1 What BEST can be concluded about the total number of new cases in the city on Day 2?,Exactly 8,Exactly 7,Either 6 or 7,Either 7 or 8,mcq,A,Exactly 8,,,,match,new cases in the city on Day 2 was 8.,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-30.png,https://iimking.com/neighbourhood-set-cat-2022-dilr/,1f504390-79bd-4f61-82c6-07ad3873071d,4cf0e7584884903c,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"There are only four neighbourhoods in a city – Levmisto, Tyhrmisto, Pesmisto and Kitmisto. During the onset of a pandemic, the number of new cases of a disease in each of these neighbourhoods was recorded over a period of five days. On each day, the number of new cases recorded in any of the neighbourhoods was either 0, 1, 2 or 3. The following facts are also known: 1. There was at least one new case in every neighbourhood on Day 1. 2. On each of the five days, there were more new cases in Kitmisto than in Pesmisto. 3. The number of new cases in the city in a day kept increasing during the five-day period. The number of new cases on Day 3 was exactly one more than that on Day 2. 4. The maximum number of new cases in a day in Pesmisto was 2, and this happened only once during the five-day period. 5. Kitmisto is the only place to have 3 new cases on Day 2. 6. The total numbers of new cases in Levmisto, Tyhrmisto, Pesmisto and Kitmisto over the five-day period were 12, 12, 5 and 14 respectively..",Q. 5 On how many days did Levmisto and Tyhrmisto have the same number of new cases?,2,3,4,5,mcq,D,5,,,,match,All 5 days,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-30.png,https://iimking.com/neighbourhood-set-cat-2022-dilr/,61efc580-8fef-4ad9-9bd6-a2c8bd147050,4cf0e7584884903c,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"There are only four neighbourhoods in a city – Levmisto, Tyhrmisto, Pesmisto and Kitmisto. During the onset of a pandemic, the number of new cases of a disease in each of these neighbourhoods was recorded over a period of five days. On each day, the number of new cases recorded in any of the neighbourhoods was either 0, 1, 2 or 3. The following facts are also known: 1. There was at least one new case in every neighbourhood on Day 1. 2. On each of the five days, there were more new cases in Kitmisto than in Pesmisto. 3. The number of new cases in the city in a day kept increasing during the five-day period. The number of new cases on Day 3 was exactly one more than that on Day 2. 4. The maximum number of new cases in a day in Pesmisto was 2, and this happened only once during the five-day period. 5. Kitmisto is the only place to have 3 new cases on Day 2. 6. The total numbers of new cases in Levmisto, Tyhrmisto, Pesmisto and Kitmisto over the five-day period were 12, 12, 5 and 14 respectively..",Q. 3 On which day(s) did Pesmisto not have any new case?,Only Day 2,Only Day 3,Both Day 2 and Day 3,Both Day 2 and Day 4,mcq,B,Only Day 3,,,,match,Day 3 Pesmisto did not have any new case.,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-30.png,https://iimking.com/neighbourhood-set-cat-2022-dilr/,74b74436-d52a-4216-8034-3f92d93729b3,4cf0e7584884903c,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"There are only four neighbourhoods in a city – Levmisto, Tyhrmisto, Pesmisto and Kitmisto. During the onset of a pandemic, the number of new cases of a disease in each of these neighbourhoods was recorded over a period of five days. On each day, the number of new cases recorded in any of the neighbourhoods was either 0, 1, 2 or 3. The following facts are also known: 1. There was at least one new case in every neighbourhood on Day 1. 2. On each of the five days, there were more new cases in Kitmisto than in Pesmisto. 3. The number of new cases in the city in a day kept increasing during the five-day period. The number of new cases on Day 3 was exactly one more than that on Day 2. 4. The maximum number of new cases in a day in Pesmisto was 2, and this happened only once during the five-day period. 5. Kitmisto is the only place to have 3 new cases on Day 2. 6. The total numbers of new cases in Levmisto, Tyhrmisto, Pesmisto and Kitmisto over the five-day period were 12, 12, 5 and 14 respectively..",Q. 4 Which of the two statements below is/are necessarily false? Statement A: There were 2 new cases in Tyhrmisto on Day 3. Statement B: There were no new cases in Pesmisto on Day 2,Statement A only,Statement B only,Neither Statement A nor Statement B,Both Statement A and Statement B,mcq,D,Both Statement A and Statement B,,,,match,Both False,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-30.png,https://iimking.com/neighbourhood-set-cat-2022-dilr/,8c7a027d-bbf8-4a48-ad6c-33aa9f11daec,4cf0e7584884903c,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"There are only four neighbourhoods in a city – Levmisto, Tyhrmisto, Pesmisto and Kitmisto. During the onset of a pandemic, the number of new cases of a disease in each of these neighbourhoods was recorded over a period of five days. On each day, the number of new cases recorded in any of the neighbourhoods was either 0, 1, 2 or 3. The following facts are also known: 1. There was at least one new case in every neighbourhood on Day 1. 2. On each of the five days, there were more new cases in Kitmisto than in Pesmisto. 3. The number of new cases in the city in a day kept increasing during the five-day period. The number of new cases on Day 3 was exactly one more than that on Day 2. 4. The maximum number of new cases in a day in Pesmisto was 2, and this happened only once during the five-day period. 5. Kitmisto is the only place to have 3 new cases on Day 2. 6. The total numbers of new cases in Levmisto, Tyhrmisto, Pesmisto and Kitmisto over the five-day period were 12, 12, 5 and 14 respectively..",Q. 2 What BEST can be concluded about the number of new cases in Levmisto on Day 3?,Exactly 2,Either 2 or 3,Either 0 or 1,Exactly 3,mcq,D,Exactly 3,,,,match,new cases in Levmisto on Day 3 was 3.,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-30.png,https://iimking.com/neighbourhood-set-cat-2022-dilr/,8e5681db-f98c-4b18-aefe-64fa2161b6b1,4cf0e7584884903c,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000. Pragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000. The following additional facts are known: 1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa. 2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther. 3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera","Q. 5 Which of the following could be the amount of funding that Tantra received? (a) Rs. 66,000 (b) Rs. 165,000",Only (b),Both (a) and (b),Neither (a) nor (b),Only (a),mcq,B,Both (a) and (b),,,,match,"Both Correct. The funds received by Tantra is Rs.66,000 or Rs.1,65,000.",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-29-1024x459.png,https://iimking.com/shark-tank-set-cat-2022-dilr/,1c55bf76-e41b-4d48-8b85-58316cf1db96,b8ffadc138d8ff8e,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000. Pragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000. The following additional facts are known: 1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa. 2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther. 3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera",Q. 1 How many tokens did Qahira receive? _____ TITA,,,,,tita,,2,,,,match,Qahira received 2 tokens.,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-29-1024x459.png,https://iimking.com/shark-tank-set-cat-2022-dilr/,4a327fd4-2685-4c4f-af16-57d41628217c,b8ffadc138d8ff8e,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000. Pragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000. The following additional facts are known: 1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa. 2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther. 3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera",Q. 2 Who among the following definitely received a token from Bithi but not from Dhanavi?,Rasheeda,Qahira,Tantra,Pragnyaa,mcq,D,Pragnyaa,,,,match,Pragnyaa definitely received a token from Bithi but not from Dhanavi.,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-29-1024x459.png,https://iimking.com/shark-tank-set-cat-2022-dilr/,d57182b3-cda5-44d1-8e22-19ff92e8e2f0,b8ffadc138d8ff8e,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000. Pragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000. The following additional facts are known: 1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa. 2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther. 3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera",Q. 3 How many tokens did Chhaya award? _____ TITA,,,,,tita,,3,,,,match,Chhaya got 3 tokens,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-29-1024x459.png,https://iimking.com/shark-tank-set-cat-2022-dilr/,db3abbbe-1a45-442e-8dc9-81a77ee05ea0,b8ffadc138d8ff8e,,,,
+,,Arrangement,,,Arrangements,True,2022,,,,,Teeny Arrangement,,,"Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only. Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000. Pragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000. The following additional facts are known: 1. Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa. 2. Rashida received the highest number of tokens that anyone received, but she did not receive one from Esther. 3. Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera",Q. 4 How many tokens did Smera receive? _____ TITA,,,,,tita,,3,,,,match,Smera got 3 tokens,,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-29-1024x459.png,https://iimking.com/shark-tank-set-cat-2022-dilr/,fa79e5e1-34bc-463f-979e-a32d0d8cbeb4,b8ffadc138d8ff8e,,,,
+,,Arrangement,,,Arrangements,True,2020,,1,,,Teeny Arrangement,,Beads Arrangement CAT 2020 DILR Set,"Twenty five coloured beads are to be arranged in a grid comprising of five rows and five columns. Each cell in the grid must contain exactly one bead. Each bead is coloured either Red, Blue or Green.
+While arranging the beads along any of the five rows or along any of the five columns, the rules given below are to be followed:
+1. Two adjacent beads along the same row or column are always of different colours.
+2. There is at least one Green bead between any two Blue beads along the same row or column.
+3. There is at least one Blue and at least one Green bead between any two Red beads along the same row or column.
+Every unique, complete arrangement of twenty five beads is called a configuration.",The total number of possible configurations using beads of only two colours is:,,,,,tita,,2,,,,match,"Correct Answer
+2
+Explanation",,Teeny Arrangement,True,https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321581/27s.gif,https://iimking.com/twenty-five-coloured-beads-are-to-be-arranged/,ad584dd2-3156-4505-a8ce-fbea5128d7aa,653aa325a146dece,,,,
+,,Arrangement,,,Arrangements,True,2020,,2,,,Teeny Arrangement,,Beads Arrangement CAT 2020 DILR Set,"Twenty five coloured beads are to be arranged in a grid comprising of five rows and five columns. Each cell in the grid must contain exactly one bead. Each bead is coloured either Red, Blue or Green.
+While arranging the beads along any of the five rows or along any of the five columns, the rules given below are to be followed:
+1. Two adjacent beads along the same row or column are always of different colours.
+2. There is at least one Green bead between any two Blue beads along the same row or column.
+3. There is at least one Blue and at least one Green bead between any two Red beads along the same row or column.
+Every unique, complete arrangement of twenty five beads is called a configuration.",What is the maximum possible number of Red beads that can appear in any configuration?,,,,,tita,,9,,,,match,"Correct Answer
+9
+Explanation",,Teeny Arrangement,True,https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321582/28s.gif,https://iimking.com/twenty-five-coloured-beads-are-to-be-arranged/,2dfcf594-7370-4b4a-b18d-8f26a79e2407,653aa325a146dece,,,,
+,,Arrangement,,,Arrangements,True,2020,,3,,,Teeny Arrangement,,Beads Arrangement CAT 2020 DILR Set,"Twenty five coloured beads are to be arranged in a grid comprising of five rows and five columns. Each cell in the grid must contain exactly one bead. Each bead is coloured either Red, Blue or Green.
+While arranging the beads along any of the five rows or along any of the five columns, the rules given below are to be followed:
+1. Two adjacent beads along the same row or column are always of different colours.
+2. There is at least one Green bead between any two Blue beads along the same row or column.
+3. There is at least one Blue and at least one Green bead between any two Red beads along the same row or column.
+Every unique, complete arrangement of twenty five beads is called a configuration.",What is the minimum number of Blue beads in any configuration?,,,,,tita,,6,,,,match,"Correct Answer
+6
+Explanation",,Teeny Arrangement,True,https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321583/29s.gif,https://iimking.com/twenty-five-coloured-beads-are-to-be-arranged/,7c0b30a6-ccc6-4e56-a9d0-a5d5f02ddf48,653aa325a146dece,,,,
+,,Arrangement,,,Arrangements,True,2020,,4,,,Teeny Arrangement,,Beads Arrangement CAT 2020 DILR Set,"Twenty five coloured beads are to be arranged in a grid comprising of five rows and five columns. Each cell in the grid must contain exactly one bead. Each bead is coloured either Red, Blue or Green.
+While arranging the beads along any of the five rows or along any of the five columns, the rules given below are to be followed:
+1. Two adjacent beads along the same row or column are always of different colours.
+2. There is at least one Green bead between any two Blue beads along the same row or column.
+3. There is at least one Blue and at least one Green bead between any two Red beads along the same row or column.
+Every unique, complete arrangement of twenty five beads is called a configuration.","Two Red beads have been placed in ‘second row, third column’ and ‘third row, second column’. How many more Red beads can be placed so as to maximise the number of Red beads used in the configuration?",,,,,tita,,6,,,,match,"Correct Answer
+6
+Explanation",,Teeny Arrangement,True,https://clsite-file1.s3.amazonaws.com/LSTQuestionImg/774725/1321584/30s.gif,https://iimking.com/twenty-five-coloured-beads-are-to-be-arranged/,14b2069b-c7a0-415e-aed3-7f7beab6c92e,653aa325a146dece,,,,
+,,Arrangement,,,Arrangements,True,,,,,,Teeny Arrangement,,,"In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations. The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations. If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for. If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for. The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations. The following facts are also known. I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations. II. The student who missed the Mathematics examination did not miss any other examination. Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.",Q. 7 What BEST can be concluded about the students who did not appear for the Hindi examination?,Alva and Deep,Deep and Esha,Alva and Esha,"Two among Alva, Deep and Esha",mcq,A,Alva and Deep,,,,not_checked,"Alva and Deep
+Based on the information provided in points I, II, and III, we can conclude that there were either 4 students who took each of the English, Hindi, Science, and Social Science exams, or exactly two students who missed each of these four subjects.
+Looking at the table provided, it becomes evident that either Deep or Alva must have missed the Hindi and Science exams, as they are the only students with identical marks in both of these subjects. Additionally, Alva, Bithi, Deep, Esha, and Foni cannot have missed the Mathematics exam. Therefore, Carl is the only one who missed the Mathematics exam.
+Based on the table, we can deduce the following:
+Foni's marks suggest that she was absent for the English and Social Science exams.
+Esha must have missed the English Examination.
+Bithi should have missed the Science and Social Science exams.
+Now, we can create a table indicating which subjects each student missed:
+Student
+Missed Subjects
+Alva
+Hindi, Science
+Bithi
+Science, Social Science
+Carl
+Mathematics
+Deep
+Hindi, Science
+Esha
+English
+Foni
+English, Social Science",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-31.png,https://iimking.com/examination-cat-2020-dilr-set/,89a51445-80b1-4e42-a5f5-8579c7c540a6,1ae2f3e153b2580e,,,,
+,,Arrangement,,,Arrangements,True,,,,,,Teeny Arrangement,,,"In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations. The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations. If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for. If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for. The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations. The following facts are also known. I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations. II. The student who missed the Mathematics examination did not miss any other examination. Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.",Q. 6 Which students did not appear for the English examination?,Cannot be determined,Carl and Deep,Esha and Foni,Alva and Bithi,mcq,C,Esha and Foni,,,,not_checked,"Esha & Foni
+Based on the information provided in points I, II, and III, we can conclude that there were either 4 students who took each of the English, Hindi, Science, and Social Science exams, or exactly two students who missed each of these four subjects.
+Looking at the table provided, it becomes evident that either Deep or Alva must have missed the Hindi and Science exams, as they are the only students with identical marks in both of these subjects. Additionally, Alva, Bithi, Deep, Esha, and Foni cannot have missed the Mathematics exam. Therefore, Carl is the only one who missed the Mathematics exam.
+Based on the table, we can deduce the following:
+Foni's marks suggest that she was absent for the English and Social Science exams.
+Esha must have missed the English Examination.
+Bithi should have missed the Science and Social Science exams.
+Now, we can create a table indicating which subjects each student missed:
+Student
+Missed Subjects
+Alva
+Hindi, Science
+Bithi
+Science, Social Science
+Carl
+Mathematics
+Deep
+Hindi, Science
+Esha
+English
+Foni
+English, Social Science",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-31.png,https://iimking.com/examination-cat-2020-dilr-set/,b149d9fd-3e66-4227-8573-85ec8704fc62,1ae2f3e153b2580e,,,,
+,,Arrangement,,,Arrangements,True,,,,,,Teeny Arrangement,,,"In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations. The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations. If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for. If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for. The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations. The following facts are also known. I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations. II. The student who missed the Mathematics examination did not miss any other examination. Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.",Q. 5 Who among the following did not appear for the Mathematics examination?,Alva,Foni,Esha,Carl,mcq,D,Carl,,,,not_checked,"Based on the information provided in points I, II, and III, we can conclude that there were either 4 students who took each of the English, Hindi, Science, and Social Science exams, or exactly two students who missed each of these four subjects.
+Looking at the table provided, it becomes evident that either Deep or Alva must have missed the Hindi and Science exams, as they are the only students with identical marks in both of these subjects. Additionally, Alva, Bithi, Deep, Esha, and Foni cannot have missed the Mathematics exam. Therefore, Carl is the only one who missed the Mathematics exam.
+Based on the table, we can deduce the following:
+Foni's marks suggest that she was absent for the English and Social Science exams.
+Esha must have missed the English Examination.
+Bithi should have missed the Science and Social Science exams.
+Now, we can create a table indicating which subjects each student missed:
+Student
+Missed Subjects
+Alva
+Hindi, Science
+Bithi
+Science, Social Science
+Carl
+Mathematics
+Deep
+Hindi, Science
+Esha
+English
+Foni
+English, Social Science",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-31.png,https://iimking.com/examination-cat-2020-dilr-set/,b421e57c-641f-4c91-8ab3-08bb44c9bcf0,1ae2f3e153b2580e,,,,
+,,Arrangement,,,Arrangements,True,,,,,,Teeny Arrangement,,,"In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations. The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations. If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for. If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for. The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations. The following facts are also known. I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations. II. The student who missed the Mathematics examination did not miss any other examination. Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.",Q. 8 What BEST can be concluded about the students who missed the Science examination?,Deep and Bithi,Alva and Deep,Alva and Bithi,Bithi and one out of Alva and Deep,mcq,D,Bithi and one out of Alva and Deep,,,,not_checked,"Bithi & Alva/Deep
+Based on the information provided in points I, II, and III, we can conclude that there were either 4 students who took each of the English, Hindi, Science, and Social Science exams, or exactly two students who missed each of these four subjects.
+Looking at the table provided, it becomes evident that either Deep or Alva must have missed the Hindi and Science exams, as they are the only students with identical marks in both of these subjects. Additionally, Alva, Bithi, Deep, Esha, and Foni cannot have missed the Mathematics exam. Therefore, Carl is the only one who missed the Mathematics exam.
+Based on the table, we can deduce the following:
+Foni's marks suggest that she was absent for the English and Social Science exams.
+Esha must have missed the English Examination.
+Bithi should have missed the Science and Social Science exams.
+Now, we can create a table indicating which subjects each student missed:
+Student
+Missed Subjects
+Alva
+Hindi, Science
+Bithi
+Science, Social Science
+Carl
+Mathematics
+Deep
+Hindi, Science
+Esha
+English
+Foni
+English, Social Science",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-31.png,https://iimking.com/examination-cat-2020-dilr-set/,c5f3d7be-54ba-4730-884d-3f8ecb7d9078,1ae2f3e153b2580e,,,,
+,,Arrangement,,,Arrangements,True,,,,,,Teeny Arrangement,,,"In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations. The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations. If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for. If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for. The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations. The following facts are also known. I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations. II. The student who missed the Mathematics examination did not miss any other examination. Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.",Q. 9 How many out of these six students missed exactly one examination? _______ TITA,,,,,tita,,3,,,,not_checked,"3 Students
+Based on the information provided in points I, II, and III, we can conclude that there were either 4 students who took each of the English, Hindi, Science, and Social Science exams, or exactly two students who missed each of these four subjects.
+Looking at the table provided, it becomes evident that either Deep or Alva must have missed the Hindi and Science exams, as they are the only students with identical marks in both of these subjects. Additionally, Alva, Bithi, Deep, Esha, and Foni cannot have missed the Mathematics exam. Therefore, Carl is the only one who missed the Mathematics exam.
+Based on the table, we can deduce the following:
+Foni's marks suggest that she was absent for the English and Social Science exams.
+Esha must have missed the English Examination.
+Bithi should have missed the Science and Social Science exams.
+Now, we can create a table indicating which subjects each student missed:
+Student
+Missed Subjects
+Alva
+Hindi, Science
+Bithi
+Science, Social Science
+Carl
+Mathematics
+Deep
+Hindi, Science
+Esha
+English
+Foni
+English, Social Science",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-31.png,https://iimking.com/examination-cat-2020-dilr-set/,e166b416-cd2e-466d-a453-55e08e44c90a,1ae2f3e153b2580e,,,,
+,,Arrangement,,,Arrangements,True,,,,,,Teeny Arrangement,,,"In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations. The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations. If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for. If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for. The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations. The following facts are also known. I. Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations. II. The student who missed the Mathematics examination did not miss any other examination. Ill. One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.",Q. 10 For how many students can we be definite about which examinations they missed? _______ TITA,,,,,tita,,4,,,,not_checked,"4 Students
+Based on the information provided in points I, II, and III, we can conclude that there were either 4 students who took each of the English, Hindi, Science, and Social Science exams, or exactly two students who missed each of these four subjects.
+Looking at the table provided, it becomes evident that either Deep or Alva must have missed the Hindi and Science exams, as they are the only students with identical marks in both of these subjects. Additionally, Alva, Bithi, Deep, Esha, and Foni cannot have missed the Mathematics exam. Therefore, Carl is the only one who missed the Mathematics exam.
+Based on the table, we can deduce the following:
+Foni's marks suggest that she was absent for the English and Social Science exams.
+Esha must have missed the English Examination.
+Bithi should have missed the Science and Social Science exams.
+Now, we can create a table indicating which subjects each student missed:
+Student
+Missed Subjects
+Alva
+Hindi, Science
+Bithi
+Science, Social Science
+Carl
+Mathematics
+Deep
+Hindi, Science
+Esha
+English
+Foni
+English, Social Science",,Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-31.png,https://iimking.com/examination-cat-2020-dilr-set/,edf2a6e3-8ee3-4202-bd76-bf8fa24d6981,1ae2f3e153b2580e,,,,
