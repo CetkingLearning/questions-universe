@@ -292,6 +292,6 @@ update control_room.sessions
 
 commit;
 
--- ─── rollback, if ever needed ───────────────────────────────────────
+-- ─── rollback, if ever needed ───────────────────────────────────────────────
 -- drop view if exists public.verbal_master_taxonomy_chapters;
 -- drop table if exists public.verbal_master_taxonomy;
