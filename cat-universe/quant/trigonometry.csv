@@ -1,0 +1,75 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,Trigonometry,True,2025,1,,CAT Hard,Hard,,Concepts of Circles Trigonometry,Concepts of Circles Trigonometry | HARD | CAT 2025 Slot 1,,"In a circle with center O and radius 6√2 cm, PQ and SR are two parallel chords separated by one of the diameters. If ∠PQC = 45°, and the ratio of the perpendicular distance of PQ and SR from C is 3:2, then the area, in sq cm, of the quadrilateral PQRS is",20(3 + √14),4(3√3 + 14),20(√2 + √7),4(3√2 + 7),mcq,A,20(3 + √14),match,"Radius R = 6√2. Assume ∠POQ = 90° so PQ subtends 90° at center.
+For PQ: d1 = OM = R cos(45°) = 6√2 · 1/√2 = 6.
+PQ = 2R sin(45°) = 2·6√2·1/√2 = 12.
+Given d1:d2 = 3:2, so d2 = 6·(2/3) = 4.
+For SR: SN = sqrt(R^2 − d2^2) = sqrt((6√2)^2 − 4^2) = sqrt(72 − 16) = sqrt(56) = 2√14.
+Hence SR = 2·SN = 4√14.
+The chords PQ and SR are parallel, so PQRS is a trapezium with parallel sides PQ and SR.
+Height h = d1 + d2 = 6 + 4 = 10.
+Area = 1/2 · (PQ + SR) · h = 1/2 · (12 + 4√14) · 10.
+Area = 5 · (12 + 4√14) = 60 + 20√14.
+Therefore area = 20(3 + √14), which is Option A.",,,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,91982756-b8af-426c-9f5c-0627c85347cc
+,Quant,Trigonometry,True,2025,1,,CAT Hard,Hard,,Concepts of Circles Trigonometry,,,"In a circle with center O and radius 6√2 cm, PQ and SR are two parallel chords separated by one of the diameters. If ∠PQC = 45°, and the ratio of the perpendicular distance of PQ and SR from C is 3:2, then the area, in sq cm, of the quadrilateral PQRS is 1. 20(3 + √14)  2. 4(3√3 + 14)  3. 20(√2 + √7)  4. 4(3√2 + 7)",20(3 + √14),4(3√3 + 14),20(√2 + √7),4(3√2 + 7),mcq,A,20(3 + √14),match,"Radius R = 6√2. Assume ∠POQ = 90° so PQ subtends 90° at center.
+For PQ: d1 = OM = R cos(45°) = 6√2 · 1/√2 = 6.
+PQ = 2R sin(45°) = 2·6√2·1/√2 = 12.
+Given d1:d2 = 3:2, so d2 = 6·(2/3) = 4.
+For SR: SN = sqrt(R^2 − d2^2) = sqrt((6√2)^2 − 4^2) = sqrt(72 − 16) = sqrt(56) = 2√14.
+Hence SR = 2·SN = 4√14.
+The chords PQ and SR are parallel, so PQRS is a trapezium with parallel sides PQ and SR.
+Height h = d1 + d2 = 6 + 4 = 10.
+Area = 1/2 · (PQ + SR) · h = 1/2 · (12 + 4√14) · 10.
+Area = 5 · (12 + 4√14) = 60 + 20√14.
+Therefore area = 20(3 + √14), which is Option A.",,,False,,https://iimking.com/geometry-mensuration-cat-2025-slot-1-actual-questions/,ca1ee17c-7b54-4ecc-8e52-536deec330fd
+,Quant,Trigonometry,True,2019,1,,,,,Geometry - Trigonometry,,,The number of the real roots of the equation 2cos(x(x + 1)) = 2^x + 2^–x is,0,2,infinite,1,mcq,D,1,match,"Given: 2 cos (x(x + 1)) = 2^x + 2^–x
+Now, by AM – GM inequality, we get
+∴ 2 cos (x(x + 1)) ≥ 2
+We know, –1 ≤ cosθ ≤ 1
+∴ 2 cos(x(x + 1)) = 2
+Hence, the expression is valid only if 2x + 2–x = 2, which is true for only one value of x i.e. 0. Therefore, the expression has only one real solution.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-2.png | https://iimking.com/wp-content/uploads/2023/11/image-3.png,https://iimking.com/cat-previous-year-questions-trigonometry/,9ff5361a-baf0-47c5-a5d8-e8f42037132b
+,Quant,Trigonometry,True,2004,,,,,,Geometry - Trigonometry,,,"A father and his son are waiting at a bus stop in the evening. There is a lamp post behind them. The lamp post, the father and his son stand on th same straight line. The father observes that the shadows of his head and his son's head are incident at the same point on the ground. If the heights o the lamp post, the father and his son are 6 metres, 1.8 metres and 0.9 metres respectively, and the father is standing 2.1 metres away from the pos then how far (in metres) is the son standing from his father?",0.9,0.75,0.6,0.45,mcq,D,0.45,not_checked,"The three triangles are similar.
+Let the distance of the tip of the shadow from the child be y. Let the child be standing at distance x from the father.
+So, 6/(2.1+x+y) = 1.8/(x+y) = 0.9/y
+=> 2y = x+y => x = y
+=> 6/(2.1 + 2x) = 0.9/x
+=> 6x = 0.9*(2.1+2x)
+=> 6x = 1.89 + 1.8x
+=> 4.2x = 1.89
+=> x = 1.89/4.2 = 0.45",,,True,https://iimking.com/wp-content/uploads/2023/11/image-5.png,https://iimking.com/cat-previous-year-questions-trigonometry/,31de07c7-d68b-4b97-bfd9-dfa6d6936183
+,Quant,Trigonometry,True,2003,,,,,,Geometry - Trigonometry,,,"A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and in the process, it takes 10 minutes for the angle of elevation to change from 45° to 60°. After how much more time will this car reach the base of th tower?",5(√3 + 1),6(√3 + 1),7(√3 − 1),8(√3 − 2),mcq,A,5(√3 + 1),not_checked,"The correct answer is option a.
+a. 5( √3+ 1 )
+Given that the angle changes from 45° to 60° in 10 minutes.
+This situation can be represented as right angled triangles ABC (in the starting when angle is 45°)and ABD (after 10 minutes when the angle is 60°).
+AB is the tower (A be its top and B be its base).
+Now, we need to find the time to be taken to cover the distance D to B.
+First of all, let us consider ABC.
+Using tangent property:
+Using tangent property in ABD:
+Now distance traveled in 10 minutes, CD  = BC - BD
+Now, we can say that more distance to be traveled to reach the base of tower is BD i.e. ''
+So, more time required = Distance left divided by Speed
+So, The correct answer is option a.
+a. 5( √3+ 1 )",,,True,https://tex.z-dn.net/?f=%5Ctriangle | https://tex.z-dn.net/?f=%5Ctriangle | https://tex.z-dn.net/?f=%5Ctriangle | https://tex.z-dn.net/?f=tan%5Ctheta%20%3D%5Cdfrac%7BPerpendicular%7D%7BBase%7D%5C%5C%5CRightarrow%20tan%2045%3D%5Cdfrac%7BAB%7D%7BBC%7D%5C%5C%5CRightarrow%201%3D%5Cdfrac%7Bh%7D%7BBC%7D%5C%5C%5CRightarrow%20h%20%3D%20BC | https://tex.z-dn.net/?f=%5Ctriangle | https://tex.z-dn.net/?f=%5CRightarrow%20tan%2060%3D%5Cdfrac%7BAB%7D%7BBD%7D%5C%5C%5CRightarrow%20%5Csqrt3%3D%5Cdfrac%7Bh%7D%7BBD%7D%5C%5C%5CRightarrow%20BD%20%3D%20%5Cdfrac%7Bh%7D%7B%20%5Csqrt3%7D%5C%20units | https://tex.z-dn.net/?f=%5CRightarrow%20h%20-%20%5Cdfrac%7Bh%7D%7B%5Csqrt3%7D%5C%5C%5CRightarrow%20%5Cdfrac%7B(%5Csqrt3-1)h%7D%7B%5Csqrt3%7D | https://tex.z-dn.net/?f=Speed%20%3D%5Cdfrac%7BDistance%20%7D%7BTime%7D | https://tex.z-dn.net/?f=%5CRightarrow%20%5Cdfrac%7B(%5Csqrt3-1)h%7D%7B10%5Csqrt3%7D | https://tex.z-dn.net/?f=%5Cbold%7B%5Cdfrac%7Bh%7D%7B%5Csqrt3%7D%7D | https://tex.z-dn.net/?f=%5CRightarrow%20%5Cdfrac%7B%5Cdfrac%7Bh%7D%7B%5Csqrt3%7D%7D%7B%5Cdfrac%7B(%5Csqrt3-1)h%7D%7B10%5Csqrt3%7D%7D%5C%5C%5CRightarrow%20%5Cdfrac%7Bh%5Ctimes%2010%5Csqrt3%7D%7B%5Csqrt3(%5Csqrt3-1)h%7D%5C%5C%5CRightarrow%20%5Cdfrac%7B10%20(%5Csqrt3%2B1)%7D%7B(%5Csqrt3-1)(%5Csqrt3%2B1)%7D%20(%5Ctext%7BRationalizing%20the%20denominator%7D)%5C%5C%5CRightarrow%20%5Cdfrac%7B10%20(%5Csqrt3%2B1)%7D%7B3-1%7D%5C%5C%5CRightarrow%20%5Cdfrac%7B10%20(%5Csqrt3%2B1)%7D%7B2%7D%5C%5C%5CRightarrow%205(%5Csqrt3%2B1)%7D | https://iimking.com/wp-content/uploads/2023/11/image-11.png,https://iimking.com/cat-previous-year-questions-trigonometry/,032448ca-c2bf-449f-94b9-1c67f38f8f9c
+,Quant,Trigonometry,True,2003,,,,,,Geometry - Trigonometry,,,"A vertical tower OP stands at the centre O of a square ABCD. Let h and b denote the lengths OP and AB respectively. Suppose ∠APB = 60°, then the relationship between h and b can be expressed as",2b2 = h2,2h2 = b2,3b2 = 2h2,3h2 = 2b2,mcq,B,2h2 = b2,not_checked,"Consider the triangle APB.  ∠ ∠P = 60 and AP = BP => APB is an equilateral triangle. Hence AP = b    ...(1)
+AC^2 =AB^2 +BC^2
+AC^2 =b^2 +b^2
+AP^2 =AO^2 +OP^2
+2h ^2 =b ^2
+Hence, option B is the correct answer",,,True,https://iimking.com/wp-content/uploads/2023/11/image-8.png | https://iimking.com/wp-content/uploads/2023/11/image-9.png | https://iimking.com/wp-content/uploads/2023/11/image-10.png,https://iimking.com/cat-previous-year-questions-trigonometry/,61ae68fa-988c-47d6-a2ec-9e77fff5b4f8
+,Quant,Trigonometry,True,2001,,,,,,Geometry - Trigonometry,,,"A ladder leans against a vertical wall. The top of the ladder is 8 m above the ground. When the bottom of the ladder is moved 2 m farther away fro the wall, the top of the ladder rests against the foot of the wall. What is the length of the ladder?",10 m,15 m,20 m,17 m,mcq,D,17 m,not_checked,"The correct option is D 17m
+Option (d)
+Length of the ladder = x+2
+Thus, 8^2+x^2 = (x+2)^2
+Solving for x, x=15
+Length of ladder = 17 m.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-13.png,https://iimking.com/cat-previous-year-questions-trigonometry/,27ac9db3-6d63-441f-ba8f-204eee0e4cc7
+,Quant,Trigonometry,True,1999,,,,,,Geometry - Trigonometry,,,"Directions: Each question is followed by two statements I and II. Mark:
+1. if the question can be answered by any one of the statements alone, but cannot be answered by using the other statement alone.
+2. if the question can be answered by using either statement alone.
+3. if the question can be answered by using both the statements together, but cannot be answered by using either statement alone.
+4. if the question cannot be answered even by using both the statements together.
+A line graph on a graph sheet shows the revenue for each year from 1990 through 1998 by points and joins the successive points by straight-lin segments. The point for revenue of 1990 is labelled A, that for 1991 as B, and that for 1992 as C. What is the ratio of growth in revenue between 1991 92 and 1990-91?
+I. The angle between AB and X-axis when measured with a protractor is 40°, and the angle between CB and X-axis is 80°.
+II. The scale of Y-axis is 1 cm = Rs. 100",1,2,3,4,mcq,A,1,not_checked,"Growth = Change in value on Y-axis / Change in value on X-axis = Tangent of the angle made by the line with the X-axis
+In statement 1, since we know both the angles, we can calculate the growth for both the periods and hence the ratio of growths.
+Using statement 2 alone, we cannot determine the answer.
+Option a) is the correct answer.",,,False,,https://iimking.com/cat-previous-year-questions-trigonometry/,4336b719-1f72-4fd1-87b9-8e6e016c51d4

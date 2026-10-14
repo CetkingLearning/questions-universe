@@ -11,7 +11,7 @@ Every real CAT question in `cat-universe/` is the top of a ladder. Rajat builds 
 | 4 | **CAT level** | Everything mixed — the real CAT question (from `cat-universe/`, never rewritten) | SI + ratios + percentages + … |
 
 ## Rules
-1. Start from a real CAT question in `cat-universe/<section>/<topic>.csv`. Its `cat_question_id` (e.g. `CAT-2024-S3-QA-004`) goes into `parent_cat_id` of every rung you create under it. Never edit the CAT question itself.
+1. Start from a real CAT question in `cat-universe/<section>/<topic>.csv`. Copy its `supabase_id` (the long code in the last column — always present, always unique) into `parent_cat_id` of every rung you create under it. `cat_question_id` (e.g. `CAT-2024-S3-QA-004`) is a human label and is blank on many rows, so never use it as the link. Never edit the CAT question itself.
 2. Work backwards: what three concepts does the CAT question combine? → Hard uses three of them; Medium uses two; Easy uses one; Level 0 is the idea behind that one.
 3. Each rung must be genuinely simpler in *idea*, not just smaller numbers. A number change is a variant, not a new level.
 4. Naming is fixed: `Level 0`, `Easy`, `Medium`, `Hard`, `CAT level` — in `questions.csv` use `difficulty_level` = zero / easy / medium / hard / cat.

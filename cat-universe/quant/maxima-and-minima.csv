@@ -1,0 +1,127 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,Maxima & Minima,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Percentages + Maxima Minima,,,"In a class, there were more than 10 boys and a certain number of girls. After 40% of the girls and 60% of the boys left the class, the remaining number of girls was 8 more than the remaining number of boys. Then, the minimum possible number of students initially in the class was _____.",,,,,tita,,55,match,"Let B = number of boys, G = number of girls (both integers), and B > 10.
+After departures: remaining girls = 60% of G = 3G/5, remaining boys = 40% of B = 2B/5.
+Given 3G/5 = 2B/5 + 8. Multiply by 5: 3G = 2B + 40. (Equation ★)
+For 3G to be integer, G must be integer. For the remaining counts 3G/5 and 2B/5 to be integers (no fractional people), G and B should both be multiples of 5.
+Let B = 5m (m integer) with B > 10 ⇒ m ≥ 3. Try smallest multiples of 5 for B:
+• B = 15 ⇒ 2B + 40 = 70 ⇒ G = 70/3 (not integer)
+• B = 20 ⇒ 2B + 40 = 80 ⇒ G = 80/3 (not integer)
+• B = 25 ⇒ 2B + 40 = 90 ⇒ G = 90/3 = 30 (integer, works)
+So the smallest B (multiple of 5) that satisfies (★) is B = 25, with G = 30.
+Total initial students = B + G = 25 + 30 = 55.
+Therefore the minimum possible number of students initially in the class (with realistic integer people and integer remaining counts) is 55.",,Breakup,False,,https://iimking.com/arithmetic-cat-2025-slot-1-quant-breakup-g-strategy/,3ede4270-20ca-4188-84c2-2f114640eccd
+,Quant,Maxima & Minima,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Percentages + Maxima Minima,Breakup G Strategy | Percentages + Maxima Minima | MEDIUM | CAT 2025 Slot 1,,"In a class, there were more than 10 boys and a certain number of girls. After 40% of the girls and 60% of the boys left the class, the remaining number of girls was 8 more than the remaining number of boys. Then, the minimum possible number of students initially in the class was _____.",,,,,tita,,55,match,"Let B = number of boys, G = number of girls (both integers), and B > 10.
+After departures: remaining girls = 60% of G = 3G/5, remaining boys = 40% of B = 2B/5.
+Given 3G/5 = 2B/5 + 8. Multiply by 5: 3G = 2B + 40. (Equation ★)
+For 3G to be integer, G must be integer. For the remaining counts 3G/5 and 2B/5 to be integers (no fractional people), G and B should both be multiples of 5.
+Let B = 5m (m integer) with B > 10 ⇒ m ≥ 3. Try smallest multiples of 5 for B:
+• B = 15 ⇒ 2B + 40 = 70 ⇒ G = 70/3 (not integer)
+• B = 20 ⇒ 2B + 40 = 80 ⇒ G = 80/3 (not integer)
+• B = 25 ⇒ 2B + 40 = 90 ⇒ G = 90/3 = 30 (integer, works)
+So the smallest B (multiple of 5) that satisfies (★) is B = 25, with G = 30.
+Total initial students = B + G = 25 + 30 = 55.
+Therefore the minimum possible number of students initially in the class (with realistic integer people and integer remaining counts) is 55.",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,808b0fdf-9aa0-4c6f-af08-20e23adf45c0
+,Quant,Maxima & Minima,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Percentages + Maxima Minima,Breakup G Strategy | Percentages + Maxima Minima | MEDIUM | CAT 2025 Slot 1,,"In a class, there were more than 10 boys and a certain number of girls. After 40% of the girls and 60% of the boys left the class, the remaining number of girls was 8 more than the remaining number of boys. Then, the minimum possible number of students initially in the class was _____.",,,,,tita,,55,match,"Let B = number of boys, G = number of girls (both integers), and B > 10.
+After departures: remaining girls = 60% of G = 3G/5, remaining boys = 40% of B = 2B/5.
+Given 3G/5 = 2B/5 + 8. Multiply by 5: 3G = 2B + 40. (Equation ★)
+For 3G to be integer, G must be integer. For the remaining counts 3G/5 and 2B/5 to be integers (no fractional people), G and B should both be multiples of 5.
+Let B = 5m (m integer) with B > 10 ⇒ m ≥ 3. Try smallest multiples of 5 for B:
+• B = 15 ⇒ 2B + 40 = 70 ⇒ G = 70/3 (not integer)
+• B = 20 ⇒ 2B + 40 = 80 ⇒ G = 80/3 (not integer)
+• B = 25 ⇒ 2B + 40 = 90 ⇒ G = 90/3 = 30 (integer, works)
+So the smallest B (multiple of 5) that satisfies (★) is B = 25, with G = 30.
+Total initial students = B + G = 25 + 30 = 55.
+Therefore the minimum possible number of students initially in the class (with realistic integer people and integer remaining counts) is 55.",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,c99bb865-9bca-49e0-a6ee-d3598ca562e8
+,Quant,Maxima & Minima,True,2025,2,,CAT Easy,Easy,Maxima Minima G Strategy,,,,"If a, b, c and d are integers such that their sum is 46, then the minimum possible value of
+(a − b)² + (a − c)² + (a − d)² is ______",,,,,tita,,2,match,"Minimum possible value is 2
+Since a, b, c, d must be integers, they must be the integers closest to 11.5, which are 11 and 12.
+To satisfy the sum constraint a + b + c + d = 46, we can take values 11, 11, 12, 12.
+Expression becomes: (11 − 12)² + (11 − 12)² + (11 − 11)² = 1 + 1 + 0 = 2",,Maxima Minima G Strategy,False,,https://iimking.com/x-maro-g-strategy-cat-2025-slot-2-quant/,217a6768-1af0-4418-ad41-8b0e606ad0ad
+,Quant,Maxima & Minima,True,2025,2,,CAT Easy,Easy,Maxima Minima G Strategy,,Maxima Minima G Strategy | Easy,,"If a, b, c and d are integers such that their sum is 46, then the minimum possible value of
+(a − b)² + (a − c)² + (a − d)² is ______",,,,,tita,,2,match,"Minimum possible value is 2
+Since a, b, c, d must be integers, they must be the integers closest to 11.5, which are 11 and 12.
+To satisfy the sum constraint a + b + c + d = 46, we can take values 11, 11, 12, 12.
+Expression becomes: (11 − 12)² + (11 − 12)² + (11 − 11)² = 1 + 1 + 0 = 2",,Maxima Minima G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,52f74999-5971-4963-b5bd-7f6267ea7580
+,Quant,Maxima & Minima,True,2025,2,,CAT Easy,Easy,Maxima Minima G Strategy,,,,"If a, b, c and d are integers such that their sum is 46, then the minimum possible value of (a − b)² + (a − c)² + (a − d)² is ______",,,,,tita,,2,match,"Minimum possible value is 2
+Since a, b, c, d must be integers, they must be the integers closest to 11.5, which are 11 and 12.
+To satisfy the sum constraint a + b + c + d = 46, we can take values 11, 11, 12, 12.
+Expression becomes: (11 − 12)² + (11 − 12)² + (11 − 11)² = 1 + 1 + 0 = 2",,Maxima Minima,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,7b1e6bde-168f-4ec1-976b-d4b9321ce6ce
+,Quant,Maxima & Minima,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,Numbers + Maximum/Minimum,Breakup G Strategy: Numbers + Maximum/Minimum | Hard,,"Let p, q and r be three natural numbers such that their sum is 900, and r is a perfect square whose values lies between 150 and 500.If p is less than 0.3q and not more than 0.7q, then the sum of the maximum and minimum possible values of p is: _____",,,,,tita,,397,match,"Correct Answer: 397
+Give p + q + r = 900 , 0.3q ≤ p ≤ 0.7q
+r lies between 150 to 500 and is a perfect square
+So r = 169 , 196 , 225 , 256 , 289 , 324 , 361 , 400 , 441 , 484
+For maximum p (0.7q) , r should be minimum, r = 169
+0.7q + 1q + 169 = 900 , q = 430 so p = 0.7 × 430 = 301
+For minimum p (0.3q) , r should be maximum r = 484
+0.3q + 1q + 484 = 900 , q = 320 , so p = 0.3 × 320 = 96
+Pmax + P min = 301 + 96 = 397
+Answer 397",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,1d83bc27-47b5-4c3b-b0e8-838feaefcc54
+,Quant,Maxima & Minima,True,2025,3,,CAT Hard,Hard,,Concepts of Number system + Maximum/Minimum,Concepts of Number system + Maximum/Minimum | Hard,,"For a 4 digit number greater than 1000 , sum of the digits in thousands , hundreds and tens places is 15.And the sum of digits in hundreds , tens and units place is 16.Also the digits in tens place is 6 more than the digit in the unit place. The difference between the largest possible and smallest possible value of the number is :",735,3289,4078,811,mcq,D,811,match,"Given conditions for a 4-digit number:
+a + b + c = 15 —-- I
+b + c + d = 16 —-- II
+c = d + 6 —---- III
+Solving the equations:
+b = 10 - 2d
+a = d - 1
+Now using values for d:
+If d = 3:
+a = 2, b = 4, c = 9, number = 2493
+If d = 2:
+a = 1, b = 6, c = 8, number = 1682
+Largest number = 2493, Smallest number = 1682
+Difference = 2493 - 1682 = 811
+Answer 811",,,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,3d3b3c27-ed15-44de-a6e4-a4b752125145
+,Quant,Maxima & Minima,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Linear  Equation + Maximum/Minimum,,,"In a school with 1500 students , each students chooses one of the streams out of science , arts and commerce by paying a fee of rs 1100 , 1000 and 800 respectively. The total fees paid by all the students is RS. 15,50000.If the number of science students is not more than the number of arts students , then the maximum possible number of science students in school is :  [TITA] _______",,,,,tita,,700,match,"Given S - science students , A - arts students , C - commerce students
+S + A + C = 1500 —- I
+1100S + 1000A + 800C = 1550000 becomes
+11S + 10A + 8C = 15500 —---- II
+Where S ≤ A , since we have to maximise S this S = A
+Multiplying I by 8 :
+8S + 8A + 8C = 12000 —--- III
+Subtracting III from I
+3S + 2A = 3500 , Since S = A
+5S = 3500 , S = 700
+Answer : 700",,Breakup,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,4df2e0b2-c939-4426-806b-47ceb7de2bab
+,Quant,Maxima & Minima,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Linear Equation + Maximum/Minimum,Breakup G Strategy | Linear Equation + Maximum/Minimum | Moderate,,"In a school with 1500 students , each students chooses one of the streams out of science , arts and commerce by paying a fee of rs 1100 , 1000 and 800 respectively. The total fees paid by all the students is RS. 15,50000.If the number of science students is not more than the number of arts students , then the maximum possible number of science students in school is : [TITA] _______",,,,,tita,,700,match,"Correct Answer: 700
+Given S - science students , A - arts students , C - commerce students
+S + A + C = 1500 —- I
+1100S + 1000A + 800C = 1550000 becomes
+11S + 10A + 8C = 15500 —---- II
+Where S ≤ A , since we have to maximise S this S = A
+Multiplying I by 8 :
+8S + 8A + 8C = 12000 —--- III
+Subtracting III from I
+3S + 2A = 3500 , Since S = A
+5S = 3500 , S = 700
+Answer : 700",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,50e8cfe7-2a9f-4010-a146-ff37749f67b4
+,Quant,Maxima & Minima,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Linear  Equation + Maximum/Minimum,,,"In a school with 1500 students , each students chooses one of the streams out of science , arts and commerce by paying a fee of rs 1100 , 1000 and 800 respectively. The total fees paid by all the students is RS. 15,50000.If the number of science students is not more than the number of arts students , then the maximum possible number of science students in school is :  [TITA] _______",,,,,tita,,700,match,"Given S - science students , A - arts students , C - commerce students
+S + A + C = 1500 —- I
+1100S + 1000A + 800C = 1550000 becomes
+11S + 10A + 8C = 15500 —---- II
+Where S ≤ A , since we have to maximise S this S = A
+Multiplying I by 8 :
+8S + 8A + 8C = 12000 —--- III
+Subtracting III from I
+3S + 2A = 3500 , Since S = A
+5S = 3500 , S = 700
+Answer : 700",,Breakup,False,,https://iimking.com/algebra-equations-actual-questions-cat-2025-slot-3-quant/,86797188-0b81-47f6-ba27-e61ee8464d57
+,Quant,Maxima & Minima,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,Numbers + Maximum/Minimum,,,"Let p, q and r be three natural numbers such that their sum is 900, and r is a perfect square whose values lies between 150 and 500.If p is less than 0.3q and  not more than 0.7q, then the sum of the maximum and minimum possible values of p is: _____",,,,,tita,,397,match,"Give p + q + r = 900 , 0.3q ≤ p ≤ 0.7q
+r  lies between 150 to 500 and is a perfect square
+So r = 169 , 196 , 225 , 256 , 289 , 324 , 361 , 400 , 441 , 484
+For maximum p (0.7q) , r should be minimum, r = 169
+0.7q + 1q + 169 = 900 , q = 430 so p = 0.7 × 430 = 301
+For minimum p (0.3q) , r should be maximum r = 484
+0.3q + 1q + 484 = 900 , q = 320 , so p = 0.3 × 320 = 96
+Pmax + P min = 301 + 96 = 397
+Answer 397",,Breakup,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,bf8cc510-3e16-4638-838b-6644993d48da
+,Quant,Maxima & Minima,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,Numbers + Maximum/Minimum,Breakup G Strategy: Numbers + Maximum/Minimum | Hard,,"Let p, q and r be three natural numbers such that their sum is 900, and r is a perfect square whose values lies between 150 and 500.If p is less than 0.3q and not more than 0.7q, then the sum of the maximum and minimum possible values of p is: _____",,,,,tita,,397,match,"Correct Answer: 397
+Give p + q + r = 900 , 0.3q ≤ p ≤ 0.7q
+r lies between 150 to 500 and is a perfect square
+So r = 169 , 196 , 225 , 256 , 289 , 324 , 361 , 400 , 441 , 484
+For maximum p (0.7q) , r should be minimum, r = 169
+0.7q + 1q + 169 = 900 , q = 430 so p = 0.7 × 430 = 301
+For minimum p (0.3q) , r should be maximum r = 484
+0.3q + 1q + 484 = 900 , q = 320 , so p = 0.3 × 320 = 96
+Pmax + P min = 301 + 96 = 397
+Answer 397",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,d9021ec5-2e87-4b18-8a03-ac3b0c90148d
+,Quant,Maxima & Minima,,2024,,16,,,,,,,"A fruit seller has mangoes, bananas, and apples. 40% are mangoes. He sells half the mangoes, 96 bananas, and 40% apples. If 50% of stock is sold, find the minimum initial total stock.",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,519ed1d9-771b-4d91-9785-e54fa58d3cdd

@@ -1,0 +1,425 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,Time & Work,True,2025,1,,CAT Hard,Hard,Breakup G Strategy,Time & Work,Breakup G Strategy | Time & Work | HARD | CAT 2025 Slot 1,,"Arun, Varun and Tarun, if working alone, can complete a task in 24, 21, and 15 days, respectively. They charge Rs 2160, Rs 2400, and Rs 2160 per day, respectively, even if they are employed for a partial day. On any given day, any workers may or may not be employed to work. If the task needs to be completed in 10 days or less, then the minimum possible amount, in rupees, required to be paid for the entire task is",38400,38880,34400,47040,mcq,A,38400,match,"Work rates (job/day): Arun = 1/24, Varun = 1/21, Tarun = 1/15.
+Daily charges: Arun = 2160, Varun = 2400, Tarun = 2160.
+Cost per unit work = daily charge ÷ (work per day) = daily_charge × time:
+Arun = 2160×24 = 51,840; Varun = 2400×21 = 50,400; Tarun = 2160×15 = 32,400.
+So Tarun is cheapest per unit, then Varun, Arun is most expensive.
+Use Tarun for all 10 calendar days to minimize cost: work done = 10/15 = 2/3.
+Remaining work = 1 − 2/3 = 1/3. Fill with next cheapest (Varun).
+Days of Varun needed: smallest integer d with d/21 ≥ 1/3 ⇒ d ≥ 7. So take d = 7.
+Check total work: 10/15 + 7/21 = 2/3 + 1/3 = 1 (done within 10 days since Varun can work on 7 of those 10 days).
+Total cost = Tarun: 10×2160 = 21,600; Varun: 7×2400 = 16,800.
+Sum = 21,600 + 16,800 = 38,400 rupees.
+Hence minimum possible payment = Rs 38,400 (Option 1).",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,4ada822d-e439-4ffe-8cee-f610c7f4d61c
+,Quant,Time & Work,True,2025,1,,CAT Hard,Hard,Breakup G Strategy,Time & Work,Breakup G Strategy | Time & Work | HARD | CAT 2025 Slot 1,,"Arun, Varun and Tarun, if working alone, can complete a task in 24, 21, and 15 days, respectively. They charge Rs 2160, Rs 2400, and Rs 2160 per day, respectively, even if they are employed for a partial day. On any given day, any workers may or may not be employed to work. If the task needs to be completed in 10 days or less, then the minimum possible amount, in rupees, required to be paid for the entire task is",38400,38880,34400,47040,mcq,A,38400,match,"Work rates (job/day): Arun = 1/24, Varun = 1/21, Tarun = 1/15.
+Daily charges: Arun = 2160, Varun = 2400, Tarun = 2160.
+Cost per unit work = daily charge ÷ (work per day) = daily_charge × time:
+Arun = 2160×24 = 51,840; Varun = 2400×21 = 50,400; Tarun = 2160×15 = 32,400.
+So Tarun is cheapest per unit, then Varun, Arun is most expensive.
+Use Tarun for all 10 calendar days to minimize cost: work done = 10/15 = 2/3.
+Remaining work = 1 − 2/3 = 1/3. Fill with next cheapest (Varun).
+Days of Varun needed: smallest integer d with d/21 ≥ 1/3 ⇒ d ≥ 7. So take d = 7.
+Check total work: 10/15 + 7/21 = 2/3 + 1/3 = 1 (done within 10 days since Varun can work on 7 of those 10 days).
+Total cost = Tarun: 10×2160 = 21,600; Varun: 7×2400 = 16,800.
+Sum = 21,600 + 16,800 = 38,400 rupees.
+Hence minimum possible payment = Rs 38,400 (Option 1).",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,6f0c85b2-2c8e-4deb-a128-ba1f8d7da209
+,Quant,Time & Work,True,2025,1,,CAT Hard,Hard,Breakup G Strategy,Time & Work,,,"Arun, Varun and Tarun, if working alone, can complete a task in 24, 21, and 15 days, respectively. They charge Rs 2160, Rs 2400, and Rs 2160 per day, respectively, even if they are employed for a partial day. On any given day, any workers may or may not be employed to work. If the task needs to be completed in 10 days or less, then the minimum possible amount, in rupees, required to be paid for the entire task is",38400,38880,34400,47040,mcq,A,38400,match,"Work rates (job/day): Arun = 1/24, Varun = 1/21, Tarun = 1/15.
+Daily charges: Arun = 2160, Varun = 2400, Tarun = 2160.
+Cost per unit work = daily charge ÷ (work per day) = daily_charge × time:
+Arun = 2160×24 = 51,840; Varun = 2400×21 = 50,400; Tarun = 2160×15 = 32,400.
+So Tarun is cheapest per unit, then Varun, Arun is most expensive.
+Use Tarun for all 10 calendar days to minimize cost: work done = 10/15 = 2/3.
+Remaining work = 1 − 2/3 = 1/3. Fill with next cheapest (Varun).
+Days of Varun needed: smallest integer d with d/21 ≥ 1/3 ⇒ d ≥ 7. So take d = 7.
+Check total work: 10/15 + 7/21 = 2/3 + 1/3 = 1 (done within 10 days since Varun can work on 7 of those 10 days).
+Total cost = Tarun: 10×2160 = 21,600; Varun: 7×2400 = 16,800.
+Sum = 21,600 + 16,800 = 38,400 rupees.
+Hence minimum possible payment = Rs 38,400 (Option 1).",,Breakup,False,,https://iimking.com/arithmetic-2/,967f6dc7-73a7-4068-970c-5a152f7f381c
+,Quant,Time & Work,True,2025,2,,CAT Medium,Moderate,LCM G Strategy,Time & Work,,,"Ankita is twice as efficient as Bipin, while Bipin is twice as efficient as Chandan. All three of them start together on a job, and Bipin leaves the job after 20 days. If the job got completed in 60 days, the number of days needed by Chandan to complete the job alone is",,,,,tita,,340,match,"Correct Answer 340
+Let Chandan’s efficiency be 1 unit/day.
+Then Bipin’s efficiency = 2 units/day and Ankita’s efficiency = 4 units/day.
+For the first 20 days, all three work together, so work done = (4 + 2 + 1) × 20 = 140 units.
+For the remaining 40 days, only Ankita and Chandan work, so work done = (4 + 1) × 40 = 200 units.
+Total work = 140 + 200 = 340 units.
+Since Chandan alone does 1 unit of work per day, he would complete the job in 340 days.",,LCM,False,,https://iimking.com/arithmetic-2-cat-2025-slot-2-quant/,0d22a5eb-bea8-41d6-9cd9-05b24bf17faf
+,Quant,Time & Work,True,2025,2,,CAT Medium,Moderate,LCM G Strategy,Time & Work,LCM G Strategy | Time & Work | Moderate,,"Ankita is twice as efficient as Bipin, while Bipin is twice as efficient as Chandan. All three of them start together on a job, and Bipin leaves the job after 20 days. If the job got completed in 60 days, the number of days needed by Chandan to complete the job alone is",,,,,tita,,340,match,"Correct Answer 340
+Let Chandan’s efficiency be 1 unit/day.
+Then Bipin’s efficiency = 2 units/day and Ankita’s efficiency = 4 units/day.
+For the first 20 days, all three work together, so work done = (4 + 2 + 1) × 20 = 140 units.
+For the remaining 40 days, only Ankita and Chandan work, so work done = (4 + 1) × 40 = 200 units.
+Total work = 140 + 200 = 340 units.
+Since Chandan alone does 1 unit of work per day, he would complete the job in 340 days.
+Correct Answer D) 14
+Given: CP = 1650, MP = 2200
+Condition: profit % = discount %
+Discount %
+SP = MP × (1 − d)
+Profit (SP − 1650)
+Profit %
+Match?
+A. 12%
+2200 × 0.88 = 1936
+286
+≈ 17%
+❌
+B. 18%
+2200 × 0.82 = 1804
+154
+≈ 9%
+❌
+C. 16%
+2200 × 0.84 = 1848
+198
+≈ 12%
+❌
+D. 14%
+2200 × 0.86 = 1892
+242
+≈ 14.7%
+✅",,LCM G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,2fac8f60-6e02-402a-97ce-174233ac1cbb
+,Quant,Time & Work,True,2025,2,,CAT Medium,Moderate,LCM G Strategy,Time & Work,,,"Ankita is twice as efficient as Bipin, while Bipin is twice as efficient as Chandan. All three of them start together on a job, and Bipin leaves the job after 20 days. If the job got completed in 60 days, the number of days needed by Chandan to complete the job alone is",,,,,tita,,340,match,"Let Chandan’s efficiency be 1 unit/day.
+Then Bipin’s efficiency = 2 units/day and Ankita’s efficiency = 4 units/day.
+For the first 20 days, all three work together, so work done = (4 + 2 + 1) × 20 = 140 units.
+For the remaining 40 days, only Ankita and Chandan work, so work done = (4 + 1) × 40 = 200 units.
+Total work = 140 + 200 = 340 units.
+Since Chandan alone does 1 unit of work per day, he would complete the job in 340 days.",,LCM,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,6bafcd8d-97bc-4c2e-a583-dde4b9457b7e
+,Quant,Time & Work,True,2025,3,,CAT Hard,Hard,LCM G Strategy,Concept of Time and Work,,,"Teams A, B, and C consist of five, eight, and ten members, respectively such that the members within each team is equally productive. Working separately teams A , B and C can complete certain job in 40 hours , 50 hours and  4 hours respectively Two members from team A, three members from team B, and one member from team C together starts the work and the member from team C left the work after 23 hours. The number of additional member(s) required from team B , that would be required to replace the member from team C , to finish the job in next one hour is :",4,2,3,1,mcq,B,2,match,"Total work that has to be completed (LCM of 40,50,4) = 200 units
+Efficiencies
+Member of team A = 200/40 = 5units per hour , so 1 member (5/5 = 1 unit work per hour)
+Member of team B = 200/50 = 4 units per hour  , so 1 member (4/8 = 0.5 unit work per hour)
+Member of team C = 200/4 = 50 units per hour , so 1 member (50/10 = 5 unit work per hour)
+Work Done in 23 hours:
+2 + 1.5 + 5 = 8.5 units/hour
+Work Done in 23 hours: 8.5 × 23 = 195.5 units
+Remaining work = 200 - 195.5 = 4.5 units
+Now C left the work , A and B has to  complete the remaining work in 1 hour :
+2 (1) + (3 + x) × 0.5 = 4.5
+On solving x = 2
+Thus option 2 is the answer",,LCM,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,16ef6ccd-79e7-4c39-95f0-54f2a1d072e3
+,Quant,Time & Work,True,2025,3,,CAT Hard,Hard,LCM G Strategy,Concept of Time and Work,LCM G Strategy Concept of Time and Work | Hard,,"Teams A, B, and C consist of five, eight, and ten members, respectively such that the members within each team is equally productive. Working separately teams A , B and C can complete certain job in 40 hours , 50 hours and 4 hours respectively Two members from team A, three members from team B, and one member from team C together starts the work and the member from team C left the work after 23 hours. The number of additional member(s) required from team B , that would be required to replace the member from team C , to finish the job in next one hour is :",4,2,3,1,mcq,B,2,match,"Correct Answer: 2
+Total work that has to be completed (LCM of 40,50,4) = 200 units
+Efficiencies
+Member of team A = 200/40 = 5units per hour , so 1 member (5/5 = 1 unit work per hour)
+Member of team B = 200/50 = 4 units per hour , so 1 member (4/8 = 0.5 unit work per hour)
+Member of team C = 200/4 = 50 units per hour , so 1 member (50/10 = 5 unit work per hour)
+Work Done in 23 hours:
+2 + 1.5 + 5 = 8.5 units/hour
+Work Done in 23 hours: 8.5 × 23 = 195.5 units
+Remaining work = 200 - 195.5 = 4.5 units
+Now C left the work , A and B has to complete the remaining work in 1 hour :
+2 (1) + (3 + x) × 0.5 = 4.5
+On solving x = 2
+Thus option 2 is the answer",,LCM G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,19ddba89-e7d2-4568-b5be-04d188dd0666
+,Quant,Time & Work,True,2025,3,,CAT Easy,Easy,LCM G Strategy,Time and Work,LCM G Strategy | Time and Work | Easy,,"The rate of water flow through three pipes A, B and C are in the ratio 4 : 9 : 36. An empty tank can be filled by pipe A in 15 hours. If all pipes are used simultaneously to fill up this empty tank, the time, in minutes, taken to fill up the tank entirely tank completely is nearest to :",71,78,76,73,mcq,D,73,match,"Pipe A fills the tank in 15 hours.
+Pipe A's rate = 1/15 of the tank per hour.
+Let the flow rates be:
+Pipe A’s rate = 4x , Pipe B’s rate = 9x ,Pipe C’s rate = 36x
+From 4x = 1/15, we find x = 1/60. Now putting x = 1/60 , we have pipe A , B , C rates as 4/60 , 9/60 , 36/60 respectively
+Now, add the rates:
+Total rate = 4/60 + 9/60 + 36/60 = 49/60
+The time to fill the tank is the reciprocal of the total rate:
+Time = 1 / (49/60) = 60 / 49 hours.
+Convert this to minutes:
+Time in minutes = (60 / 49) × 60 ≈ 73.47 minutes ≈ 73",,LCM G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,90e150e3-5159-4b06-90c2-1b3c93971c79
+,Quant,Time & Work,True,2025,3,,CAT Easy,Easy,LCM G Strategy,Time and Work,,,"The rate of water flow through three pipes A, B and C are in the ratio 4 : 9 : 36. An empty tank can be filled by pipe A in 15 hours. If all  pipes are used simultaneously to fill up this empty tank, the time, in minutes, taken to fill up the tank entirely tank completely is nearest to :",71,78,76,73,mcq,D,73,match,"Pipe A fills the tank in 15 hours.
+Pipe A's rate = 1/15 of the tank per hour.
+Let the flow rates be:
+Pipe A’s rate = 4x , Pipe B’s rate = 9x ,Pipe C’s rate = 36x
+From 4x = 1/15, we find x = 1/60. Now putting x = 1/60 , we have pipe A , B , C rates as 4/60 , 9/60 , 36/60 respectively
+Now, add the rates:
+Total rate = 4/60 + 9/60 + 36/60 = 49/60
+The time to fill the tank is the reciprocal of the total rate:
+Time = 1 / (49/60) = 60 / 49 hours.
+Convert this to minutes:
+Time in minutes = (60 / 49) × 60 ≈ 73.47 minutes ≈ 73",,LCM,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,bef4bf6c-ebb1-4f67-9c25-ff0b98da9e63
+,Quant,Time & Work,True,2024,1,,,,,,,,"Renu would take 15 days working 4 hours per day to complete a certain task whereas Seema would take 8 days working 5 hours per day to complete the same task. They decide to work together to complete this task. Seema agrees to work fordouble the number of hours per day as Renu, while Renu agrees to work for double the number of days as Seema. If Renu works 2 hours per day, then the number of days Seema will work, is",,,,,tita,,6,match,"Work Problem - Renu and Seema
+Work Problem - Renu and Seema
+Given:
+Renu takes 15 days × 4 hours/day = 60 hours to complete the task
+Seema takes 8 days × 5 hours/day = 40 hours to complete the same task
+Step 1: Work Rates
+Renu's rate = \( \frac{1}{60} \) (work/hour)
+Seema's rate = \( \frac{1}{40} \) (work/hour)
+Step 2: Working Plan
+Renu works 2 hours/day
+Seema works double that = 4 hours/day
+Let number of days Seema works = \( x \)
+⇒ Renu works = \( 2x \) days
+Step 3: Total Work Done
+Work done by Renu:
+\[
+2x \times 2 \times \frac{1}{60} = \frac{4x}{60} = \frac{x}{15}
+\]
+Work done by Seema:
+\[
+x \times 4 \times \frac{1}{40} = \frac{4x}{40} = \frac{x}{10}
+\]
+Total work done:
+\[
+\frac{x}{15} + \frac{x}{10} = 1
+\]
+Step 4: Solve the Equation
+\[
+\frac{2x + 3x}{30} = 1 \Rightarrow \frac{5x}{30} = 1 \Rightarrow x = 6
+\]
+✅ Final Answer:
+\[
+\boxed{6} \quad \text{(days Seema will work)}
+\]",,,False,,https://iimking.com/direct-questions-cat-2024-quant-slot-1/,e1e0bbdb-51af-465a-9315-251c0ae3dabd
+,Quant,Time & Work,True,2024,,,,,,,,,"Renu would take 15 days working 4 hours per day to complete a certain task whereas Seema would take 8 days working 5 hours per day to complete the same task. They decide to work together to complete this task. Seema agrees to work for double the number of hours per day as Renu, while Renu agrees to work for double the number of days as Seema. If Renu works 2 hours per day, then the number of days Seema will work is:",,,,,tita,,6,match,"Step 1: Work rates of Renu and Seema
+- Renu's total hours for the task: \( 15 \times 4 = 60 \, \text{hours} \).
+- Renu's work rate: \( \frac{1}{60} \, \text{tasks/hour} \).
+- Seema's total hours for the task: \( 8 \times 5 = 40 \, \text{hours} \).
+- Seema's work rate: \( \frac{1}{40} \, \text{tasks/hour} \).
+Step 2: Collaborative work conditions
+- Renu works for \( 2x \, \text{days} \) at \( 2 \, \text{hours/day} \):
+\[
+\text{Work by Renu} = \frac{2x}{60} = \frac{x}{30}.
+\]
+- Seema works for \( x \, \text{days} \) at \( 4 \, \text{hours/day} \):
+\[
+\text{Work by Seema} = \frac{4x}{40} = \frac{x}{10}.
+\]
+Step 3: Total work equals one task
+\[
+\frac{x}{30} + \frac{x}{10} = 1.
+\]
+Simplify the equation:
+\[
+\frac{x}{30} + \frac{3x}{30} = 1 \quad \implies \quad \frac{4x}{30} = 1 \quad \implies \quad x = \frac{30}{4} = 6 \, \text{days}.
+\]
+Final Answer:
+Seema will work for \( \boxed{6 \, \text{days}} \).",,,False,,https://iimking.com/cat-2024-actual-questions-time-work/,087415f7-0917-4a73-b4c9-1471b8c56d91
+,Quant,Time & Work,True,2023,2,,,,,,,,"Pipes A and C are fill pipes while Pipe B is a drain pipe of a tank. Pipe B empties the full tank in one hour less than the time taken by Pipe A to fill the empty tank. When pipes A, Band C are turned on together, the empty tank is filled in two hours. If pipes B and C are turned on together when the tank is empty and Pipe B is turned off after one hour, then Pipe C takes another one hour and 15 minutes to fill the remaining tank. If Pipe A can fill the empty tank in less than five hours, then the time taken, in minutes, by Pipe C to fill the empty tank is",75,120,90,60,mcq,C,90,match,Option 3,,,False,,https://iimking.com/time-and-work-actual-question-in-cat-2023-slot-2/,de796d2e-505a-4106-91a2-9037b3290fd6
+CAT-2023-S3-QA-001,Quant,Time & Work,True,2023,3,1,,,,Time and Work,,,"Rahul, Rakshita and Gurmeet, working together, would have taken more than 7 days to
+finish a job. On the other hand, Rahul and Gurmeet, working together would have
+taken less than 15 days to finish the job. However, they all worked together for 6 days,
+followed by Rakshita, who worked alone for 3 more days to finish the job. If Rakshita
+had worked alone on the job then the number of days she would have taken to finish
+the job, cannot be",16,21,20,17,mcq,,,missing_found,,,,False,,https://iimking.com/time-and-work-cat-2023-actual-question-slot-3/,52a6545b-7ccb-4b62-aef0-0fcaf9523294
+CAT-2023-S3-QA-002,Quant,Time & Work,True,2023,3,2,,,,Time and Work,,,"Gautam and Suhani, working together, can finish a job in 20 days. If Gautam does
+only 60% of his usual work on a day, Suhani must do 150% of her usual work on
+that day to exactly make up for it. Then, the number of days required by the faster
+worker to complete the job working alone is",,,,,tita,,13,mismatch,,,,False,,https://iimking.com/time-and-work-cat-2023-actual-question-slot-3/,9a4c8cd1-d6ff-4ec1-9a32-8167e4502da5
+,Quant,Time & Work,True,2022,2,,,,,Time and Work,CAT 2022 Slot 2 Question 3,,"Working alone, the times taken by Anu, Tanu and Manu to complete any job are in the ratio 5 : 8 : 10. They accept a job which they can finish in 4 days if they all work together for 8 hours per day. However, Anu and Tanu work together for the first 6 days, working 6 hours 40 minutes per day. Then, the number of hours that Manu will take to complete the remaining job working alone is",,,,,tita,,6,match,"Time taken by Anu, Tanu and Manu to complete a job is in the ratio 5 : 8 : 10
+This means that their efficiencies are in the ratio 1/5:1/8:1/10
+Or, their efficiencies are in the ratios 8 : 5 : 4
+This means, for instance, if Anu can wash 8 plates in an hour, Tanu and Manu can wash 5 & 4 plates respectively in one hour.
+So, let us remodel the entire question over this imaginary scenario of washing plates…
+All three of them finish the job in 4 days working 8 hours per day.
+Anu, Tanu and Manu can wash 8, 5 and 4 plates respectively in an hour.
+So the total number of plates = (8+5+4)×4×8=17×4×8
+Anu and Tanu work together for 6 days, working 6 hours 40 minutes per day.
+The total number of plates washed by them = (8+5)×6×6*2/3=13×40
+So the remaining plates to be washed =17×4×8−13×40
+=4(17×8−130)
+=4(80+56−130)
+=4×6
+So, the question is, in how man hours can Manu wash 4×6
+plates?
+We know that Manu can wash 4 plates in one hour.
+Therefore, he requires 6 hours to wash 4×6
+plates.
+The answer is '6'",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,5703cbb4-ad8d-4521-b96d-a5a77765ba00
+,Quant,Time & Work,True,2022,3,,,,,Time and Work,CAT 2022 Slot 3 Question 1,,"Bob can finish a job in 40 days, if he works alone. Alex is twice as fast as Bob and thrice as fast as Cole in the same job. Suppose Alex and Bob work together on the first day, Bob and Cole work together on the second day, Cole and Alex work together on the third day, and then, they continue the work by repeating this three-day roster, with Alex and Bob working together on the fourth day, and so on. Then, the total number of days Alex would have worked when the job gets finished, is",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/time-and-work-1.jpg,https://iimking.com/cat-previous-year-questions-time-and-work/,178e3396-c685-453d-a680-578a2171d46b
+,Quant,Time & Work,True,2022,3,,,,,Time and Work,CAT 2022 Slot 3 Question 2,,"A group of N
+people worked on a project. They finished 35%
+of the project by working 7 hours a day for 10 days. Thereafter, 10 people left the group and the remaining people finished the rest of the project in 14 days by working 10 hours a day. Then the value of N
+is",23,140,36,150,mcq,B,140,match,"N people finish 35% of the project by working 7 hours a day for 10 days.
+N people finish 35% of the project by working 70 hours.
+N people finish 5% of the project by working 10 hours.
+N people finish 65% of the project by working 130 hours.
+65% of the project is done in N * 130 man hours.
+The remaining 65% was actually done by (N-10) people in 14 days by working 10 hours a day.
+(N-10) people finish 65% of the project by working 140 hours.
+65% of the project is done in (N - 10) * 140 man hours.
+N * 130 = (N - 10) * 140
+13N = 14N - 140
+N = 140",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,c6b1e2a2-56d6-42c7-8fc1-cccaebd6bf5b
+,Quant,Time & Work,True,2021,1,,,,,Time and Work,CAT 2021 Slot 1 Question 7,,"Amar, Akbar and Anthony are working on a project. Working together Amar and Akbar can complete the project in 1 year, Akbar and Anthony can complete in 16 months, Anthony and Amar can complete in 2 years. If the person who is neither the fastest nor the slowest works alone, the time in months he will take to complete the project is",,,,,tita,,32,match,"Let's consider the efficiencies of Amar, Akbar, and Anthony to be x, y, z respectively.
+x + y = 1/12
+y + z = 1/16
+z + x = 1/24
+If we add the above equations, we will get 2(x + y + z) = 3/16
+x + y + z = 3/32
+From the above equations, we can get x = 1/32
+, y = 5/96
+, z = 1/96
+Hence, x is neither the fastest nor the slowest.
+Amar can complete the project in 32 months.",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,3239fc4d-442a-474e-9bca-f3597cbfb8fb
+,Quant,Time & Work,True,2021,1,,,,,Time and Work,CAT 2021 Slot 1 Question 8,,"Anu, Vinu and Manu can complete a work alone in 15 days, 12 days and 20 days, respectively. Vinu works everyday. Anu works only on alternate days starting from the first day while Manu works only on alternate days starting from the second day. Then, the number of days needed to complete the work is",8,6,5,7,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/question-8-t-and-w.jpg,https://iimking.com/cat-previous-year-questions-time-and-work/,c71df5ba-74eb-41a6-80eb-177700bb6f82
+,Quant,Time & Work,True,2021,2,,,,,Time and Work,CAT 2021 Slot 2 Question 6,,"Two pipes A and B are attached to an empty water tank. Pipe A fills the tank while pipe B drains it. If pipe A is opened at 2 pm and pipe B is opened at 3 pm, then the tank becomes full at 10 pm. Instead, if pipe A is opened at 2 pm and pipe B is opened at 4 pm, then the tank becomes full at 6 pm. If pipe B is not opened at all, then the time, in minutes, taken to fill the tank is",140,120,144,264,mcq,C,144,match,"Let the filling rate of pipe A be ‘a’ and the rate of emptying the tank of pipe B be ‘b’.
+Then from the given information we can say that, when pipe A is kept open from 2PM to 10PM, i.e. for 8 hours and pipe B drains from 3PM till 10PM (7 hours), the tank gets filled up.
+So,
+8a - 7b = 1 [1]
+Also, from the second statement,
+A is kept open from 2 PM to 6 PM (4 hours), and B is kept open for 2 hours (4 PM to 6PM), the tank gets filled up.
+4a - 2b = 1 [2]
+Multiplying equation [2] and subtracting [1] from it we get
+8a - 4b - (8a - 7b) = 2 - 1
+7b - 4b = 1
+b = 1/3
+From here we can compute the value of a
+Putting the value of b in eq [2]
+4a - 2(1/3) = 1
+4a - 2/3 = 1
+4a = 1 + 2/3
+4a = 5/3
+a = 5/12
+Hence the rate of filling is 5/12.
+If only pipe a is kept open, the tank will get filled in, say ‘n’ hours
+n a = 1
+n (5/12) = 1
+So, n = 12/5
+= 2.4 hours
+= 144 minutes",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,c39098dc-6bfd-4b38-85c8-21bd6fec499f
+,Quant,Time & Work,True,2021,2,,,,,Time and Work,CAT 2021 Slot 2 Question 5,,"Anil can paint a house in 60 days while Bimal can paint it in 84 days. Anil starts painting and after 10 days, Bimal and Charu join him. Together, they complete the painting in 14 more days. If they are paid a total of ₹ 21000 for the job, then the share of Charu, in INR, proportionate to the work done by him, is",9000,9100,9200,9150,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/t-and-w-.jpg,https://iimking.com/cat-previous-year-questions-time-and-work/,ff468bb6-1d8f-4445-a34d-6f64562ff82e
+,Quant,Time & Work,True,2021,3,,,,,Time and Work,CAT 2021 Slot 3 Question 4,,"One day, Rahul started a work at 9 AM and Gautam joined him two hours later. They then worked together and completed the work at 5 PM the same day. If both had started at 9 AM and worked together, the work would have been completed 30 minutes earlier. Working alone, the time Rahul would have taken, in hours, to complete the work is",12,11.5,12.5,10,mcq,D,10,match,"Let R be the fraction of work done by Rahul in 1 hour.
+and G be the fraction of work done by Gautam in 1 hour.
+Initially Rahul works from 9AM to 5PM (8 hours) and Gautam works for 2 hours less.
+8R + 6G = 1 whole unit of work
+If they start together they finish 30 minutes earlier or if they start at 9 AM, they finish at 4:30PM (7.5 hours)
+7.5R + 7.5G = 1 whole unit of work
+8R + 6G = 7.5R + 7.5G
+0.5R = 1.5G
+R = 3G
+This means Rahul is thrice as efficient as Gautam.
+8R + 6G = 1 whole unit of work
+8R + 2R = 1 whole unit of work
+10R = 1 whole unit of work
+R is the fraction of work done by Rahul in 1 hour.
+Since 10R = 1
+R alone takes 10 hours to finish the job.",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,6117bd1b-10a4-4a76-a387-e2edab922550
+,Quant,Time & Work,True,2021,3,,,,,Time and Work,CAT 2021 Slot 3 Question 3,,"Anil can paint a house in 12 days while Barun can paint it in 16 days. Anil, Barun, and Chandu undertake to paint the house for ₹ 24000 and the three of them together complete the painting in 6 days. If Chandu is paid in proportion to the work done by him, then the amount in INR received by him is",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/tw-3.jpg,https://iimking.com/cat-previous-year-questions-time-and-work/,876f60fa-073d-4734-b71c-33ac058609a9
+,Quant,Time & Work,True,2020,2,,,,,Time and Work,CAT 2020 Slot 2 Question 10,,"John takes twice as much time as Jack to finish a job. Jack and Jim together take one-thirds of the time to finish the job than John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them working together. In how many days will Jim finish the job working alone?",,,,,tita,,4,match,"John = x units/day
+Jack = 2x units/day
+Jim = x units/day (1/3rd of John does = 3x units, out of which jack does 2x)
+Total = 4x units/day
+John’s time taken = x(n+3) = 4x × n
+Then n = 1 day for 4x units
+For x units, Jim will take 4 days",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,c56aeb35-e653-4772-9dbc-d80131ea8f8f
+,Quant,Time & Work,True,2020,3,,,,,Time and Work,CAT 2020 Slot 3 Question 9,,"A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work exactly on time?",,,,,tita,,40,match,"The contractor finishes 1.5 km in 60 days with 140 people.
+That means, he finishes, 0.5 km in 20 days with 140 people.
+He has 200 - 60 = 140 days left to finish the job.
+Let's say 20 days is 1 unit of time.
+So the contractor finishes 0.5 km in 1 unit of time with 140 people, He has 4.5 kms to finish in 7 units of time(7 × 20 days) with n people.
+The working capacity of the peopl should still be the same...
+Therefore, 0.5/140 * 1 = 4.5/n * 17
+n = 180.
+Therefore, the contractor needs, 180 - 140 = 40 people more.",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,e6abe2c4-bef9-4b26-b9a1-de4fea085dc5
+,Quant,Time & Work,True,2019,1,,,,,Time and Work,CAT 2019 Slot 1 Question 13,,"At their usual efficiency levels, A and B together finish a task in 12 days. If A had worked half as efficiently as she usually does, and B had worked thrice as efficiently as he usually does, the task would have been completed in 9 days. How many days would A take to finish the task if she works alone at her usual efficiency?",18,12,24,36,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/time-and-work-question-111.jpg,https://iimking.com/cat-previous-year-questions-time-and-work/,04d48a7f-e415-4d04-b80e-eff27cc5d1fd
+,Quant,Time & Work,True,2019,1,,,,,Time and Work,CAT 2019 Slot 1 Question 14,,"Three men and eight machines can finish a job in half the time taken by three machines and eight men to finish the same job. If two machines can finish the job in 13 days, then how many men can finish the job in 13 days?",,,,,tita,,,missing_found,"Let Machines be referred as R and men be referred as M
+It is given that, three men and eight machines can finish a job in half the time taken by three machines and eight men to finish the same job.
+From the given data,
+3M + 8R = 2 x (3R + 8M)
+2R = 13M
+R = M
+Therefore, if two machines can finish a job in 13 days, 2 Robos can finish the job in 13 days.",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,3b0af7dd-851c-4df7-8750-62ec9896c023
+,Quant,Time & Work,True,2019,2,,,,,Time and Work,CAT 2019 Slot 2 Question 12,,"John gets Rs 57 per hour of regular work and Rs 114 per hour of overtime work. He works altogether 172 hours and his income from overtime hours is 15% of his income from regular hours. Then, for how many hours did he work overtime?",,,,,tita,,12,match,"If John works the same number of regular and over-time hours say 'p'
+The the income would be 57p and 114p
+Let's say that he works 'x' hours regular and 'y' hours overtime...
+So, the income would be 57x and 114y
+we are told that 114y is 15% of 57x
+114y = 0.15 * 57x
+y = 0.075x
+we also know that x+y = 172
+therefore, x + 0.075x = 1.075x = 172
+x = 160
+y = 172 - 160 = 12
+Therefore, the number of hours he worked Overtime is 12.",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,0691caf0-f29b-4cf6-b265-d5a2b0c1d65d
+,Quant,Time & Work,True,2019,2,,,,,Time and Work,CAT 2019 Slot 2 Question 11,,"Anil alone can do a job in 20 days while Sunil alone can do it in 40 days. Anil starts the job, and after 3 days, Sunil joins him. Again, after a few more days, Bimal joins them and they together finish the job. If Bimal has done 10% of the job, then in how many days was the job done?",13,12,15,14,mcq,A,13,match,"Anil in one day can do th of the work
+Sunil in one day can do th of the work
+Anil starts the job and Sunil joins him after three days.
+So, Anil would have done th of the work by the time Sunil joins
+After Sunil joins, they both would be doing th of work everyday
+Now, it is known that Bimal joins them after some days and finishes 10 % of the work.
+Now, Anil alone had done th of the work and Bimal completes th of the work
+So, in total they would have done = th of the work (is the work done by Bimal)
+Remaining work = , which would be done by Anil and Sunil in 10 days.
+Combining everything,
+Total number of days = 3 + 10 = 13 days",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,5e08e8ec-a1e1-4de7-ace3-0c7b86a5ce4b
+,Quant,Time & Work,True,2018,2,,,,,Time and Work,CAT 2018 Slot 2 Question 15,,"A tank is emptied everyday at a fixed time point. Immediately thereafter, either pump A or pump B or both start working until the tank is full. On Monday, A alone completed filling the tank at 8 pm. On Tuesday, B alone completed filling the tank at 6 pm. On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank. At what time was the tank filled on Thursday if both pumps were used simultaneously all along?",4 : 12 PM,4 : 24 PM,4 : 48 PM,4 : 36 PM,mcq,B,4 : 24 PM,match,"Given that a tank is emptied everyday at a fixed time point and after that either pump A or B or both start working to fill the tank.
+On Monday, A alone completed filling the tank at 8 pm.
+On Tuesday, B alone completed filling the tank at 6 pm.
+On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank.
+We have to find at what time will the tank filled on thursday if both were used simultaneously all along
+A is doing 3 hours less work on Wednesday which B completes in 2 hours therefore B = 1.5 A
+⟹ nn−2
+= 32
+⟹ 2n = 3n – 6
+⟹ n = 6
+A takes 6 hours and B takes 4 hours or the tank is closed at 2 pm
+When they are together open
+⟹ 16
++ 14
+= 2+312
+⟹ Rate is 512
+or they can fill the entire tank in 125
+hours which is 2 hours 24 minutes
+Starting from 2 pm, they fill the entire tank by 4:24 pm
+Here the break through is figuring out the ratio or efficiency of the rate at which they fill is B : A = 3 : 2
+The conventional way is
+⟹ n−3n
++ 2n−2
+= 1
+n-3 hours at the rate of 1n
+per hour
+2 hours at the rate 1n−2
+per hour
+Solving this we get n = 6 and we can find solution using this n.
+The question is ""A tank is emptied everyday at a fixed time point. Immediately thereafter, either pump A or pump B or both start working until the tank is full. On Monday, A alone completed filling the tank at 8 pm. On Tuesday, B alone completed filling the tank at 6 pm. On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank. At what time was the tank filled on Thursday if both pumps were used simultaneously all along?""
+Hence, the answer is 4 : 24 PM",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,80c8512b-60b4-4001-920d-ea8196de494f
+,Quant,Time & Work,True,2018,2,,,,,Time and Work,CAT 2018 Slot 2 Question 16,,"Ramesh and Ganesh can together complete a work in 16 days. After seven days of working together, Ramesh got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Ganesh had worked alone after Ramesh got sick, in how many days would he have completed the remaining work?",12,14.5,13.5,11,mcq,C,13.5,match,"Given that Ramesh and Ganesh can together complete a work in 16 days
+After seven days of working together, Ramesh got sick and his efficiency fell by 30%.
+To the original schedule of 16 days there are 9 more days and in this 9 days Ramesh fall short by 9 × 0.3x = 2.7x where x is the work done by Ramesh in a day
+So the change = 2.7x (i.e. the gap because of drop in efficiency)
+This 2.7x is compensated by one day of Ganesh + another 0.7 of Ramesh
+2.7x = G + 0.7 x (Because the last day also he works with reduced efficiency)
+2x = G
+Hence Ganesh works twice as that of Ramesh.
+If Ganesh had worked alone after Ramesh got sick means in the 7 days Ramesh would have completed 7/48
+of the task
+Ganesh on each day can do 1/24
+of the task
+Task to be completed by Ganesh is 41/48
+completely
+One day he can complete 1/24
+so 41/48
+× 24/1
+= 20.5 days
+If Ganesh had worked alone after Ramesh got sick, the no.of days needed for completing the remaining work is 20.5 – 7 = 13.5 days",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,aee50f22-5730-43f0-8706-44839f5eef35
+,Quant,Time & Work,True,2017,1,,,,,Time and Work,CAT 2017 Slot 1 Question 17,,"A person can complete a job in 120 days. He works alone on Day 1. On Day 2, he is joined by another person who also can complete the job in exactly 120 days. On Day 3, they are joined by another person of equal efficiency. Like this, everyday a new person with the same efficiency joins the work. How many days are required to complete the job?",,,,,tita,,15,match,"Given that a person can complete a job in 120 days.
+He works alone on Day 1.
+On Day 2, he is joined by another person who also can complete the job in exactly 120 days.
+On Day 3, they are joined by another person of equal efficiency.
+Everyday a new person with the same efficiency joins the work
+So by first day 1 person
+Similarly by second day 2
+Third day 3 and it goes on.......until it makes a total of 120
+We have to find how many days are required to complete the job
+So 15×16/2
+= 120 [by n(n+1)/2]
+So 1 + 2 + 3 + 4 ...... till 15 days are required to complete this Job.
+This will get completed in 15 days.
+Hence 15 days are required to complete the job",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,22f04ec6-9f97-401e-a3a5-8a0843b70f94
+,Quant,Time & Work,True,2017,2,,,,,Time and Work,CAT 2017 Slot 2 Question 18,,"Amal can complete a job in 10 days and Bimal can complete it in 8 days. Amal, Bimal and Kamal together complete the job in 4 days and are paid a total amount of Rs 1000 as remuneration. If this amount is shared by them in proportion to their work, then Kamal's share, in rupees, is",100,200,300,400,mcq,A,100,match,"Given that Amal can complete a job in 10 days ⟹ Rate = 1/10
+Bimal can complete it in 8 days ⟹ Rate = 1/8
+Amal, Bimal and Kamal together complete the job in 4 days ⟹ Rate = 1/4
+Kamal's rate of doing work is,
+Amal + Bimal + Kamal = 1/4
+⟹ 1/10 + 1/8+ Kamal = 1/4
+⟹ Kamal = 1/4
+- 1/8
+− 1/10
+⟹ Kamal = 10/40 - 5/40− 4/40
+Kamal’s rate of doing work = 1/40
+Kamal would have taken 40 days to complete the entire task.
+Amal : Bimal : Kamal = 1/10 : 1/8: 1/40
+= 4 : 5 : 1
+Total amount of Rs.1000 is paid as remuneration
+Amal : Bimal : Kamal = 4/10 : 5/10 : 1/10
+Kamal’s share = 110
+× 1000 = Rs.100",,,False,,https://iimking.com/cat-previous-year-questions-time-and-work/,f5c1b62f-460a-4d5d-8219-9b0788ec04c7
+,Quant,Time & Work,,2024,,12,,,,,,,Amal and Vimal can complete a task in 150 days; Vimal and Sunil in 100. Work pattern alternates. Find total days to complete the task.,,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,1632f812-de18-4c1a-af70-8f1e75877635
+,Quant,Time & Work,,2024,,22,,,,,,,"Sam alone does work in 20 days. Mohit is 2Ã— Sam, 3Ã— Ayna. They work alternately in pattern: Sam+Mohit, Sam+Ayna, Mohit+Ayna. What fraction of total work is done by Sam?",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,03da814a-b95c-4aed-b121-3375cd33ba60
+,Quant,Time & Work,,2024,,,,,,,,,"Renu would take 15 days working 4 hours per day to complete a certain task whereas Seema would take 8 days working 5 hours per day to complete the same task. They decide to work together to complete this task. Seema agrees to work for double the number of hours per day as Renu, while Renu agrees to work for double the number of days as Seema. If Renu works 2 hours per day, then the number of days Seema will work is.",3,4,6,8,mcq,,,not_checked,,,,False,,https://iimking.com/quant/,2e848410-d240-4e75-b7f9-2e617c3f7228

@@ -1,0 +1,364 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,Logarithms & Indices,True,2025,1,,CAT Hard,Hard,,Concepts of Indices,Concepts of Indices | HARD | CAT 2025 Slot 1,,"For any natural number k, let aₖ = 3ᵏ. The smallest natural number m for which (a₁)¹ × (a₂)² × ... × (a₂₀)²⁰ < (a₂₁ × a₂₂ × ... × a₂₀₊ₘ)⁵ is:",56,59,58,57,mcq,,20,mismatch,"Given: aₖ = 3ᵏ.
+Then (aᵢ)ⁱ = (3ᵢ)ⁱ = 3⁽ⁱ²⁾.
+Left side:
+L = (a₁)¹ × (a₂)² × ... × (a₂₀)²⁰ = 3^(1² + 2² + ... + 20²)
+Sum of squares 1² + 2² + ... + 20² = 2870 → So L = 3²⁸⁷⁰.
+Right side inside product:
+P = a₂₁ × a₂₂ × ... × a₂₀₊ₘ = 3²¹ × 3²² × ... × 3^(20+m) = 3^(sum of integers from 21 to 20+m).
+Raise to power 5: R = P⁵ = 3^(5 × sum of integers from 21 to 20+m)
+We need → 3²⁸⁷⁰ < 3^(5 × sum)
+So: 2870 < 5 × (sum of 21 to 20+m)
+Let N = 20 + m.
+Sum from 21 to N = (N(N+1))/2 − 210.
+So: 2870 < 5 × [(N(N+1))/2 − 210]
+Divide and simplify:
+(N(N+1))/2 > 784 → N(N+1) > 1568
+Check values:
+39×40 = 1560 (too small)
+40×41 = 1640 (works)
+So the smallest N = 40.
+Thus:
+m = N − 20 = 40 − 20 = 20 → Final Answer: m = 20",,,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,1c66f930-a63c-4e3a-8a9e-e4c30326e3cb
+,Quant,Logarithms & Indices,True,2025,1,,CAT Easy,Easy,Vedic Patterns G Strategy,Concepts of Logs DPAC,,,The number of distinct integers n for which log_(1/4) of (n² − 7n + 11) > 0 is _____.,,,,,tita,,0,match,"log_(1/4) of (n² − 7n + 11) > 0 is _____.
+Using DPAC Strategy: Cycle
+n² − 7n + 11 < (1/4)^0 → n² − 7n + 11 < 1
+Now we need values of n which satisfy 0 < n² − 7n + 11 < 1
+Compute E(n) = n² − 7n + 11 for nearby integers:
+n = 1 → E = 5 (not in (0,1))
+n = 2 → E = 1 (equals 1, excluded)
+n = 3 → E = −1 (negative, excluded)
+n = 4 → E = −1 (negative, excluded)
+n = 5 → E = 1 (equals 1, excluded)
+For n ≤ 0 or n ≥ 6, E ≥ 5 (too large).
+Therefore no integer n satisfies 0 < E < 1. Final answer: 0.
+Note: Official OG says answer is 2. Which is challenged by Cetking",,Vedic Pattern,False,,https://iimking.com/modern-maths-cat-2025-slot-1-actual-questions/,dc9d039d-3782-448d-8e3b-6197dc0f1d7c
+,Quant,Logarithms & Indices,True,2025,1,,CAT Hard,Hard,,Concepts of Indices,,,"For any natural number k, let aₖ = 3ᵏ. The smallest natural number m for which (a₁)¹ × (a₂)² × ... × (a₂₀)²⁰ < (a₂₁ × a₂₂ × ... × a₂₀₊ₘ)⁵ is:",56,59,58,57,mcq,,20,mismatch,"Given: aₖ = 3ᵏ.
+Then (aᵢ)ⁱ = (3ᵢ)ⁱ = 3⁽ⁱ²⁾.
+Left side:
+L = (a₁)¹ × (a₂)² × ... × (a₂₀)²⁰ = 3^(1² + 2² + ... + 20²)
+Sum of squares 1² + 2² + ... + 20² = 2870 → So L = 3²⁸⁷⁰.
+Right side inside product:
+P = a₂₁ × a₂₂ × ... × a₂₀₊ₘ = 3²¹ × 3²² × ... × 3^(20+m) = 3^(sum of integers from 21 to 20+m).
+Raise to power 5: R = P⁵ = 3^(5 × sum of integers from 21 to 20+m)
+We need → 3²⁸⁷⁰ < 3^(5 × sum)
+So: 2870 < 5 × (sum of 21 to 20+m)
+Let N = 20 + m.
+Sum from 21 to N = (N(N+1))/2 − 210.
+So: 2870 < 5 × [(N(N+1))/2 − 210]
+Divide and simplify:
+(N(N+1))/2 > 784 → N(N+1) > 1568
+Check values:
+39×40 = 1560 (too small)
+40×41 = 1640 (works)
+So the smallest N = 40.
+Thus:
+m = N − 20 = 40 − 20 = 20 → Final Answer: m = 20",,,False,,https://iimking.com/modern-maths-cat-2025-slot-1-actual-questions/,fa5d8477-b638-48c8-a65b-6684b482dd22
+,Quant,Logarithms & Indices,True,2025,2,,CAT Medium,Moderate,,Concepts of Indices,,,The sum of digits of the number (625)⁶⁵ × (128)³⁶ is ______,,,,,tita,,25,match,"Final answer 25
+Given: (625)⁶⁵ × (128)³⁶
+Express the bases as powers of 5 and 2: 625 = 5⁴ and 128 = 2⁷
+(625)⁶⁵ × (128)³⁶
+= 5^(4×65) × 2^(7×36)
+= 5^260 × 2^252
+= 5^8 × 5^252 × 2^252
+= 5^8 × 10^252
+Now 5⁸ = 390625
+So the full number is:
+390625 followed by 252 zeros.
+Sum of digits = 3 + 9 + 0 + 6 + 2 + 5 = 25
+Answer: 25",,,False,,https://iimking.com/modern-maths-cat-2025-slot-2-actual-questions/,1ed0e842-6ac0-4fb2-ae1f-3cc428958acb
+,Quant,Logarithms & Indices,True,2025,2,,CAT Hard,Hard,,Concepts of Logs + Maxima Minima,,,"If log₆₄(x²) + log₈(√y) + 3 log₅₁₂(√(y)z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is",36,48,96,24,mcq,B,48,match,"Given log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4 x, y, z > 0
+Step 1: Convert all logs to the same base (base 8)
+64 = 8²; 512 = 8³
+Convert log₆₄(x²) to base 8: log₆₄(x²) = (1/2) log₈(x²) = log₈x
+Convert 3 log₅₁₂(√(y)z) to base 8: 3 log₅₁₂(√(y)z) = 3 (1/3) log₈(√(y)z) = log₈(√(y)z)
+Substitute the converted terms back into the original equation: log₈x + log₈(√y) + log₈(√(y)z) = 4 Combine the logarithmic terms using the property logₐA + logₐB = logₐ(AB): log₈(x ⋅ √y ⋅ √y ⋅ z) = 4 => log₈(xyz) = 4
+Convert the logarithmic equation to an exponential equation: xyz = 8⁴ => xyz = 4096
+Apply the Arithmetic Mean - Geometric Mean (AM-GM) inequality.
+For positive real numbers x, y, and z, the minimum value of their sum occurs when x = y = z.
+(x + y + z) / 3 ≥ ³√(xyz)
+Substitute the value of xyz: (x + y + z) / 3 ≥ ³√(4096)
+Calculate the cube root: Since 16³ = 4096, we have: (x + y + z) / 3 ≥ 16
+Solve for the minimum value of (x + y + z): x + y + z ≥ 3 × 16 x + y + z ≥ 48",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,214256c3-a318-4f45-80c4-aa168f2eee0c
+,Quant,Logarithms & Indices,True,2025,2,,CAT Hard,Hard,,Concepts of Logs + Maxima Minima,Concepts of Logs + Maxima Minima | Hard,,"If log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is",36,48,96,24,mcq,B,48,match,"Correct Answer B (48)
+Given log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4 x, y, z > 0
+Step 1: Convert all logs to the same base (base 8)
+64 = 8²; 512 = 8³
+Convert log₆₄(x²) to base 8: log₆₄(x²) = (1/2) log₈(x²) = log₈x
+Convert 3 log₅₁₂(√(y)z) to base 8: 3 log₅₁₂(√(y)z) = 3 (1/3) log₈(√(y)z) = log₈(√(y)z)
+Substitute the converted terms back into the original equation: log₈x + log₈(√y) + log₈(√(y)z) = 4 Combine the logarithmic terms using the property logₐA + logₐB = logₐ(AB): log₈(x ⋅ √y ⋅ √y ⋅ z) = 4 => log₈(xyz) = 4
+Convert the logarithmic equation to an exponential equation: xyz = 8⁴ => xyz = 4096
+Apply the Arithmetic Mean - Geometric Mean (AM-GM) inequality.
+For positive real numbers x, y, and z, the minimum value of their sum occurs when x = y = z.
+(x + y + z) / 3 ≥ ³√(xyz)
+Substitute the value of xyz: (x + y + z) / 3 ≥ ³√(4096)
+Calculate the cube root: Since 16³ = 4096, we have: (x + y + z) / 3 ≥ 16
+Solve for the minimum value of (x + y + z): x + y + z ≥ 3 × 16 x + y + z ≥ 48",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,299ff032-b718-4ae3-8166-88db5a2ec4f7
+,Quant,Logarithms & Indices,True,2025,2,,CAT Medium,Moderate,,Concepts of Indices,,,The sum of digits of the number (625)⁶⁵ × (128)³⁶ is ______,,,,,tita,,25,match,"Final answer 25
+Given: (625)⁶⁵ × (128)³⁶
+Express the bases as powers of 5 and 2: 625 = 5⁴ and 128 = 2⁷
+(625)⁶⁵ × (128)³⁶
+= 5^(4×65) × 2^(7×36)
+= 5^260 × 2^252
+= 5^8 × 5^252 × 2^252
+= 5^8 × 10^252
+Now 5⁸ = 390625
+So the full number is:
+390625 followed by 252 zeros.
+Sum of digits = 3 + 9 + 0 + 6 + 2 + 5 = 25
+Answer: 25",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,42815410-ddf2-42aa-a27b-f9501c8f72f2
+,Quant,Logarithms & Indices,True,2025,2,,CAT Hard,Hard,,Concepts of Logs + Maxima Minima,,,"If log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is",36,48,96,24,mcq,B,48,match,"Correct Answer B (48)
+Given log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4 x, y, z > 0
+Step 1: Convert all logs to the same base (base 8)
+64 = 8²; 512 = 8³
+Convert log₆₄(x²) to base 8: log₆₄(x²) = (1/2) log₈(x²) = log₈x
+Convert 3 log₅₁₂(√(y)z) to base 8: 3 log₅₁₂(√(y)z) = 3 (1/3) log₈(√(y)z) = log₈(√(y)z)
+Substitute the converted terms back into the original equation: log₈x + log₈(√y) + log₈(√(y)z) = 4 Combine the logarithmic terms using the property logₐA + logₐB = logₐ(AB): log₈(x ⋅ √y ⋅ √y ⋅ z) = 4 => log₈(xyz) = 4
+Convert the logarithmic equation to an exponential equation: xyz = 8⁴ => xyz = 4096
+Apply the Arithmetic Mean - Geometric Mean (AM-GM) inequality.
+For positive real numbers x, y, and z, the minimum value of their sum occurs when x = y = z.
+(x + y + z) / 3 ≥ ³√(xyz)
+Substitute the value of xyz: (x + y + z) / 3 ≥ ³√(4096)
+Calculate the cube root: Since 16³ = 4096, we have: (x + y + z) / 3 ≥ 16
+Solve for the minimum value of (x + y + z): x + y + z ≥ 3 × 16 x + y + z ≥ 48",,,False,,https://iimking.com/modern-maths-cat-2025-slot-2-actual-questions/,6ab1e6a1-4515-4da4-899d-75c24f7e8617
+,Quant,Logarithms & Indices,True,2025,2,,CAT Medium,Moderate,,Concepts of Indices,Concepts of Indices | Moderate,,The sum of digits of the number (625)⁶⁵ × (128)³⁶ is ______,,,,,tita,,25,match,"Final answer 25
+Given: (625)⁶⁵ × (128)³⁶
+Express the bases as powers of 5 and 2: 625 = 5⁴ and 128 = 2⁷
+(625)⁶⁵ × (128)³⁶
+= 5^(4×65) × 2^(7×36)
+= 5^260 × 2^252
+= 5^8 × 5^252 × 2^252
+= 5^8 × 10^252
+Now 5⁸ = 390625
+So the full number is:
+390625 followed by 252 zeros.
+Sum of digits = 3 + 9 + 0 + 6 + 2 + 5 = 25
+Answer: 25",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,e89e591f-3c02-44a0-b7b6-51b81b2ffb69
+,Quant,Logarithms & Indices,True,2025,3,,CAT Hard,Hard,Logic Lens G Strategy,DPAC Logarithm + Equations,,,"The sum of all possible real values of x for which
+log_x-3(x² - 9) = log_x-3(x + 1) + 2 is :",√33,-3,(3+√33)/2,3,mcq,,,missing_found,,,Breakup,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,366b0cfe-d1e0-4ac4-b6b3-09b2f59a4464
+,Quant,Logarithms & Indices,True,2025,3,,CAT Medium,Moderate,X Maro G Strategy,Surds and Indices,X Maro G Strategy | Surds and Indices | Moderate,,"If 12¹²^x × 4²⁴^(x +)¹² × 5²^y = 8⁴^z × 20¹²^x × 243^(3x-6) , where x, y and z are natural numbers, then x+y+z equals_____",,,,,tita,,112,match,"12¹²^x × 4²⁴^x ^+ ¹² × 5²^y = 8⁴^z × 20¹²^x × 243^(3x-6)
+12 = 2² × 3 , 4 = 2² , 8 = 2³ , 20 = 2² × 5 , 243 = 3⁵
+Thus expression can be written as :
+2^(24x) × 3^(12x) × 2^(48x+24) × 5^(2y) = 2^(12z) × 2²⁴^x× 5^(12x) × 3^(15x - 30)
+Cancels out the same powers and comparing the powers
+12x = 15x - 30 , x = 10
+2y = 12x , 2y = 12(10) , y = 60
+12 z = 48x + 24 , 12z = 504 , z = 42
+x + y + z = 10 + 60 + 42 = 112
+Answer 112",,X Maro G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,622c005c-3865-4c3d-a96b-690655c7e940
+,Quant,Logarithms & Indices,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,DPAC Logarithm + Equations,Breakup G Strategy | DPAC Logarithm + Equations | Hard,,"The sum of all possible real values of x for which
+log_(x-3)(x² - 9) = log_(x-3)(x + 1) + 2 is :",√33,-3,(3+√33)/2,3,mcq,C,(3+√33)/2,match,"log_(x-3)((x²−9)/(x+1)) = 2
+By definition of log :
+(x²−9)/(x+1) = (x−3)²
+Now equating :
+(x²−9)/(x+1) = x²−6x+9
+x²−9 = (x²−6x+9)(x+1)
+Solve the cubic equation:
+x³−6x²+3x+18 = 0
+Factor the cubic equation:
+(x−3)(x²−3x−6) = 0
+Solve x²−3x−6 = 0 using the quadratic formula:
+x = (3 ± √33)/2
+Sum of solutions:
+Sum = (3 + √33)/2
+Option 3 is the answer",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,83f8c08d-4a30-4353-9e61-0303fcdfbf10
+CAT-2024-S3-QA-001,Quant,Logarithms & Indices,True,2024,3,1,,,X Maro G Strategy,Surd Algebra Question,,,"\( a \) and \( b \) are natural numbers, then the value of \( a + b \) is:
+\[
+(a + b\sqrt{3})^2 = 52 + 30\sqrt{3}
+\]",,,,,tita,,8,match,"Surd Algebra Question
+\( a \) and \( b \) are natural numbers, then the value of \( a + b \) is:
+\[
+(a + b\sqrt{3})^2 = 52 + 30\sqrt{3}
+\]
+✅ Solution:
+Expanding the left-hand side:
+\[
+(a + b\sqrt{3})^2 = a^2 + 2ab\sqrt{3} + 3b^2
+\]
+Match with the right-hand side:
+\[
+a^2 + 3b^2 = 52 \quad \text{(1)} \\
+2ab = 30 \Rightarrow ab = 15 \quad \text{(2)}
+\]
+If \( ab = 15 \) and \( a^2 + 3b^2 = 52 \), where \( a \) and \( b \) are natural numbers, find \( a + b \).
+Solution using Hit and Trial:
+We try natural number pairs such that \( ab = 15 \).
+\( a \)
+\( b \)
+\( a^2 + 3b^2 \)
+Result
+1
+15
+\( 1^2 + 3 \cdot 15^2 = 1 + 675 = 676 \)
+❌
+3
+5
+\( 3^2 + 3 \cdot 5^2 = 9 + 75 = 84 \)
+❌
+5
+3
+\( 5^2 + 3 \cdot 3^2 = 25 + 27 = 52 \)
+✅
+15
+1
+\( 15^2 + 3 \cdot 1^2 = 225 + 3 = 228 \)
+❌
+The only valid pair is \( (a, b) = (5, 3) \).
+So, the final answer is:
+\[
+a + b = 5 + 3 = \boxed{8}
+\]",,X Maro,False,,https://iimking.com/cat-2024-slot-3-tables-g-strategy/,bfec5f29-fd4f-485c-8f1f-e24b1c0ad0fa
+CAT-2023-S1-QA-001,Quant,Logarithms & Indices,True,2023,1,1,,,,Logarithms & Exponents,,,,20,68,10,11,mcq,C,10,match,Ans- 10,,,True,https://iimking.com/wp-content/uploads/2023/12/q1.jpg,https://iimking.com/cat-2023-quant-logarithms-exponents-actual-questions/,a3be4354-fb36-4ee3-abea-06654a7d0e6e
+,Quant,Logarithms & Indices,True,2023,2,,,,,Logarithm,,,,,,,,,,7,match,7,,,True,https://iimking.com/wp-content/uploads/2023/12/image-9-1024x46.png,https://iimking.com/logarithm-actual-question-in-cat-2023-slot-2/,40ac158d-815e-4c25-a063-3f3656fb4999
+CAT-2023-S3-QA-007,Quant,Logarithms & Indices,True,2023,3,7,,,Vedic Patterns G Strategy,Algebra - Surds & Indices,,,"Let \( n \) be any natural number such that \( 5^{n-1} < 3^{n+1} \).
+The least integer value of \( m \) that satisfies \( 3^{n+1} < 2^{n+m} \) for all such \( n \) is?",3,4,5,6,mcq,C,5,match,"The least value of \( m \) is 5.
+For \( n = 5 \), we need \( 3^6 < 2^{5 + m} \). This gives \( 729 < 2^{10} \), so \( m = 5 \).",,,False,,https://iimking.com/vedic-tables-g-strategy-cat-2023-slot-3/,2d7cd208-39ca-41f8-8cd0-328f809ff029
+,Quant,Logarithms & Indices,True,2023,3,,,,,,,,,,,,,,,1,not_found,,,,True,https://iimking.com/wp-content/uploads/2023/12/image-20.png | https://iimking.com/wp-content/uploads/2023/12/image-21.png,https://iimking.com/log-quants-cat-2023-slot-3/,1bea605c-3420-4f47-b07c-3adfd03732de
+CAT-2022-S2-QA-001,Quant,Logarithms & Indices,True,2022,2,1,,,,Logarithms and Exponents,,,"The number of distinct integer values of n satisfying 4−log^2n/3−log4^n<0, is",,,,,tita,,47,match,"4−logn23−logn4<04−log^2n/3−log4<0
+If logn2=4;n=24=16log2^n=4=2^4=16;
+If logn4=3;n=4^3=64log4^n=3=4^3=64;
+For any value of n < 16, the numerator is positive. For any value of n > 16, it is negative.
+For any value of n < 64, the denominator is positive. For any value of n > 64, it is negative.
+For a fraction to be negative, the numerator and the denominator must be of opposite signs.
+In this case, n should be between 16 and 64.
+The number of values that n can take = 63 - 16 = 47.",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,6c94abf3-f626-44ee-adc7-0f00b223f231
+CAT-2021-S2-QA-003,Quant,Logarithms & Indices,True,2021,2,3,,,,Logarithms and Exponents,,,If log2^[3 + log3^{4 + log4^(x - 1)}] - 2 = 0 then 4x equals,,,,,tita,,5,match,"log_2[3+log_3{4+log_4(x-1)}]- 2= 0
+log_2[3 + log_3{4 + log_4(x - 1)}] = 2
+3 + log_3{4 + log_4(x - 1)} = 4 ( ∵ log_aN = x ⇒ N = a^x )
+log_3{4 + log_4(x - 1)} = 1
+4 + log_4(x - 1) = 3
+log_4(x - 1) = -1
+x - 1 = 1414
+4x = 5",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,74d3f24d-c1f5-4a09-9e39-8b48dee02483
+CAT-2021-S3-QA-002,Quant,Logarithms & Indices,True,2021,3,2,,,,Logarithms and Exponents,,,"For a real number a, if log15^a+log32^a/(log15a)(log32a)=
+= 4 then a must lie in the range",4 < a < 5,3 < a < 4,a > 5,2 < a < 3,mcq,A,4 < a < 5,match,"loga15^a+loga32^a/(loga15^a×loga32^a)
+= 4
+1/loga32^a+1/loga15^15
+= 4
+log32^a+log15^a
+= 4
+log(32×15)^a
+= 4
+a^4 = 32 × 15 = 480
+We know that, 44 = 256 and 54 = 625
+256 < 480 < 625
+44 < a4 < 54
+4 < a < 5",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,1ecabe8b-35be-44b8-b097-ca8476606008
+CAT-2020-S1-QA-008,Quant,Logarithms & Indices,True,2020,1,8,,,,Logarithms and Exponents,,,"If log4^5 = (log4^y) (log6^ √5), then y equals",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-q9999.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,a283658a-d8c3-4543-a715-a34ccd4eed3a
+CAT-2020-S1-QA-009,Quant,Logarithms & Indices,True,2020,1,9,,,,Logarithms and Exponents,,,The number of real-valued solutions of the equation 2^x + 2^-x = 2 - (x - 2)^2 is,infinite,0,1,2,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/logssssss.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,cf2d9a94-5831-44c5-82f1-d9470887ee5a
+CAT-2020-S1-QA-010,Quant,Logarithms & Indices,True,2020,1,10,,,,Logarithms and Exponents,,,"If y is a negative number such that 2^y^2log3^5 = 5^log2^3, then y equals",log2 (1/3),log2 (1/5),−log2 (1/3),−log2 (1/5),mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log100000.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,a3c62c01-4a7a-4996-a469-cba1344dc1a1
+CAT-2020-S3-QA-004,Quant,Logarithms & Indices,True,2020,3,4,,,,Logarithms and Exponents,,,"If x^1 = -1 and x^m = x^m + 1 + (m + 1) for every positive integer m, then x^100 equals",-5050,-5051,-5150,-5151,mcq,A,-5050,match,"x_m = x_m + 1 + (m + 1)
+Let's say k = m + 1
+The equation now becomes: x_k - 1 = x_k + k
+x_k = x_k - 1 - k
+x_k = - k + x_k - 1
+Now the vizualization of this equation becomes far simpler...
+x_1 = -1
+x_2 = -2 -1
+x_3 = -3 -2 -1
+x_4 = -4 -3 -2 -1
+x_100 = -100 -99 -98 ... -3 -2 -1
+x_100 = -(100 +99 +98 ... +3 +2 +1)
+x_100 = -(100(100+1)2100(100+1)2) = -5050",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,c8c37e25-1d1e-487d-b488-ae9ae93c9cb7
+CAT-2020-S3-QA-005,Quant,Logarithms & Indices,True,2020,3,5,,,,Logarithms and Exponents,,,"Let loga^30 = A, loga^53 = -B and log2^a = 1/3, then log3^a equals",2/A+B−3,A+B−3/2,A+B/2 - 3,2/A+B - 3,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-q7.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,c4836f85-3dce-4c79-9a44-2ff934665f24
+CAT-2020-S3-QA-006,Quant,Logarithms & Indices,True,2020,3,6,,,,Logarithms and Exponents,,,"2×4×8×16/(log2^4)^2(log4^8)^3(log8^16)^4
+equals",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-question-8.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,3b12e989-a3ba-485d-9572-f3916f3ddc2a
+CAT-2020-S3-QA-007,Quant,Logarithms & Indices,True,2020,3,7,,,,Logarithms and Exponents,,,"If a,b,c are non-zero and 14^a = 36^b = 84^c, then 6b(1/c - 1/a) is equal to",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-questions89.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,2932272e-2d11-42c0-9ddc-76ddb30101a1
+CAT-2019-S1-QA-012,Quant,Logarithms & Indices,True,2019,1,12,,,,Logarithms and Exponents,,,"If (5.55)^x = (0.555)^y = 1000, then the value of 1/x - 1/y is",1,1/3,2/3,3,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-1222222.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,23066a4c-db08-43c4-821b-3646bd066ba2
+CAT-2019-S1-QA-013,Quant,Logarithms & Indices,True,2019,1,13,,,,Logarithms and Exponents,,,"Let x and y be positive real numbers such that log^5(x + y) + log^5(x - y) = 3, and log^2y - log^2x = 1 - log2^3. Then xy equals",25,150,250,100,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/Question-13333.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,e5717125-0f61-4e9c-9a73-a925d1fb7aed
+CAT-2019-S2-QA-011,Quant,Logarithms & Indices,True,2019,2,11,,,,Logarithms and Exponents,,,"If 5^x – 3^y = 13438 and 5^x-1 + 3^y+1 = 9686 , then x+y equals",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log11111.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,f27f1e51-c1e7-4ba8-b210-d3b9f74e2875
+CAT-2018-S2-QA-014,Quant,Logarithms & Indices,True,2018,2,14,,,,Logarithms and Exponents,,,"If p^3 = q^4 = r^5 = s^6, then the value of logs^ (pqr) is equal to",24/5,1,47/10,16/5,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/questionsssssslogsss.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,f5ca09c6-ad56-424e-b66f-5f6abc4d674a
+CAT-2017-S2-QA-015,Quant,Logarithms & Indices,True,2017,2,15,,,,Logarithms and Exponents,,,"If x is a real number such that log3^5 = log5^(2 + x), then which of the following is true?",0 < x < 3,23 < x < 30,x > 30,3 < x < 23,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-155555.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,c821597b-8db7-4bd6-9b48-4c87477efe8c
+,Quant,Logarithms & Indices,,2024,1,,,,Breakup G Strategy,Logs DPAC Shortcut,Logs DPAC Shortcut,,"Logarithm Equation Question
+If \( x \) is a positive real number such that
+\( 4 \log_{10} x + 4 \log_{100} x + 8 \log_{1000} x = 13 \),
+then the greatest integer not exceeding \( x \) is:",,,,,tita,,31,not_checked,"Logarithmic Equation - Greatest Integer Not Exceeding x
+Greatest Integer Not Exceeding \( x \)
+We are given the equation:
+\[
+4 \log_{10} x + 4 \log_{100} x + 8 \log_{1000} x = 13
+\]
+Step 1: Convert all logs to base 10
+\[
+\log_{100} x = \frac{\log_{10} x}{\log_{10} 100} = \frac{\log_{10} x}{2}
+\quad \text{and} \quad
+\log_{1000} x = \frac{\log_{10} x}{\log_{10} 1000} = \frac{\log_{10} x}{3}
+\]
+Step 2: Substitute and simplify
+\[
+4 \log_{10} x + 4 \cdot \frac{\log_{10} x}{2} + 8 \cdot \frac{\log_{10} x}{3}
+= 4 \log x + 2 \log x + \frac{8}{3} \log x
+\]
+\[
+= \left(6 + \frac{8}{3}\right) \log x = \frac{26}{3} \log x
+\]
+Step 3: Solve the equation
+\[
+\frac{26}{3} \log x = 13
+\Rightarrow \log x = \frac{13 \cdot 3}{26} = \frac{39}{26} = \frac{3}{2}
+\Rightarrow x = 10^{3/2} = \sqrt{1000} \approx 31.62
+\]
+✅ Final Answer: \( \boxed{31} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,ee903ea6-d83b-4997-9acf-144f9fb9e8bd
+,Quant,Logarithms & Indices,,2024,2,,,,Breakup G Strategy,Logs + Maxima,Logs + Maxima,,"Logarithm Expression Problem
+If \( a, b, c \) are positive real numbers such that:
+\[
+a > 10 \geq b \geq c \quad \text{and} \quad
+\frac{\log_8(a + b)}{\log_2 c} + \frac{\log_{27}(a - b)}{\log_3 c} = \frac{2}{3}
+\]
+Then the greatest possible integer value of \( a \) is?",,,,,tita,,14,not_checked,"Greatest Integer Value of a
+Problem:
+If \( a, b, c \) are positive real numbers such that:
+\( a > 10 \geq b \geq c \), and
+\[
+\frac{\log_8(a + b)}{\log_2 c} + \frac{\log_{27}(a - b)}{\log_3 c} = \frac{2}{3},
+\]
+then find the greatest possible integer value of \( a \).
+Step 1: Change of Base
+Using \( \log_b x = \frac{\log_k x}{\log_k b} \):
+\[
+\log_8(a + b) = \frac{\log_2(a + b)}{\log_2 8} = \frac{\log_2(a + b)}{3}, \quad
+\log_{27}(a - b) = \frac{\log_3(a - b)}{3}
+\]
+So the given equation becomes:
+\[
+\frac{1}{3} \cdot \frac{\log_2(a + b)}{\log_2 c} + \frac{1}{3} \cdot \frac{\log_3(a - b)}{\log_3 c} = \frac{2}{3}
+\]
+Multiply both sides by 3:
+\[
+\frac{\log_2(a + b)}{\log_2 c} + \frac{\log_3(a - b)}{\log_3 c} = 2
+\]
+Step 2: Convert to Single Log Base
+Using \( \frac{\log_b x}{\log_b y} = \log_y x \), we get:
+\[
+\log_c(a + b) + \log_c(a - b) = 2
+\]
+Using log product rule:
+\[
+\log_c\left((a + b)(a - b)\right) = \log_c(a^2 - b^2) = 2
+\]
+Hence:
+\[
+a^2 - b^2 = c^2 \Rightarrow a^2 = b^2 + c^2
+\]
+Step 3: Maximize \( a \) under Constraint
+Since \( 10 \geq b \geq c \), the maximum value of \( a \) will occur when both \( b \) and \( c \) are largest possible.
+Let:
+\[
+b = 10, \quad c = 10
+\]
+Then:
+\[
+a^2 = 10^2 + 10^2 = 200 \Rightarrow a = \sqrt{200} = 10\sqrt{2} \approx 14.14
+\]
+Final Answer:
+The greatest possible integer value of \( a \) is:
+\[
+\boxed{14}
+\]",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,32064afd-d38d-43f8-9c55-2318c3e4884d
+,Quant,Logarithms & Indices,,2024,3,,,,Breakup G Strategy,Indices + Logs,Indices + Logs,,"If 3^a = 4, 4^b = 5, 5^c = 6, 6^d = 7, 7^e = 8, and 8^f = 9, then what is the value of abcdef?",,,,,tita,,2,not_checked,"a = log4 / log3, b = log5 / log4, c = log6 / log5, d = log7 / log6, e = log8 / log7, f = log9 / log8
+abcdef = log9 / log3 = log base 3 of 9 = 2",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,dad7828a-0667-4232-9980-52a20f902661
+,Quant,Logarithms & Indices,,2024,,11,,,,,,,"If 3^a = 4, 4^b = 5, 5^c = 6, 6^d = 7, 7^e = 8, 8^f = 9, then find the value of aÃ—bÃ—cÃ—dÃ—eÃ—f.",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,bff4b4f0-4658-4099-b341-b2c4b1a64fc2
+,Quant,Logarithms & Indices,,2024,,16,,,,,,,Solve: 10^x + 4/(10^x) = 81/2. Find sum of all real values of x.,,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,84365b71-8ec9-49dc-9b9f-025fc95042dc
+,Quant,Logarithms & Indices,,2024,,22,,,,,,,"If a > 10 â‰¥ b â‰¥ c and given a logarithmic equation involving a, b, c, find the greatest possible integer value of a.",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,bb8232a8-9a3e-4223-84f2-d6487342cddb
+,Quant,Logarithms & Indices,,2024,,,,,,,,,"The sum of all real values of k for which the equation xÂ²Â²â·â¶ = xÂ²Â²â·â¶ holds true is. If k = 1, 32768, then the value of k is",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,0ba7d19a-caf2-49d9-98e9-9017e8f3f1c2
+,Quant,Logarithms & Indices,,2024,,,,,,,,,"If x is a positive real number such that 4 log₁₀ x + 4 log₁₀₀ x + 8 log₁₀₀₀ x = 13, then the greatest integer not exceeding x is",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,d5a117b9-12e4-4229-ab4d-4fb76074a6ca

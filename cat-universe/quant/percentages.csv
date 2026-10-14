@@ -1,0 +1,559 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,Percentages,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Percentages + Equations,Breakup G Strategy | Percentages + Equations | EASY | CAT 2025 Slot 1,,"Kamala divided her investment of Rs 100000 between stocks, bonds, and gold. Her investment in bonds was 25% of her investment in gold. With annual returns of 10%, 6%, 8% on stocks, bonds, and gold, respectively, she gained a total amount of Rs 8200 in one year. The amount, in rupees, that she gained from the bonds, was _____",,,,,tita,,900,match,"(Total investment 100000; B = 25% of G; returns: stocks 10%, bonds 6%, gold 8%; total gain 8200) — find gain from bonds.
+Let bonds = B, gold = G, stocks = S. Given B = G/4 ⇒ G = 4B.
+Total money: S + B + G = 100000 ⇒ S + B + 4B = 100000 ⇒ S = 100000 − 5B.
+Total gain: 0.10·S + 0.06·B + 0.08·G = 8200.
+Substitute S and G: 0.10(100000 − 5B) + 0.06B + 0.08(4B) = 8200.
+Compute: 10000 − 0.5B + 0.06B + 0.32B = 8200 ⇒ 10000 − 0.12B = 8200.
+Solve: 0.12B = 1800 ⇒ B = 1800/0.12 = 15000.
+Gain from bonds = 6% of B = 0.06 × 15000 = 900.
+Answer (gain from bonds) = Rs 900.",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,0d2847ea-b57a-4310-a183-1628c4f2107e
+,Quant,Percentages,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Percentages,,,"A shopkeeper offers a discount of 22% on the marked price of each chair, and gives 13 chairs to the customer for the discounted price of 12 chairs to earn a profit of 26% on the transaction. If the cost price of each chair is Rs 100, then the marked price, in rupees, of each chair is",,,,,tita,,175,match,"Percentages 1.2 / 0.8
+Let marked price be M. Discount 22% ⇒ selling price per chair = 0.78M.
+Customer pays for 12 discounted chairs but receives 13 chairs, so total revenue = 12 × 0.78M = 9.36M.
+Total cost = 13 × 100 = 1300. For 26% profit, revenue = 1.26 × 1300 = 1638.
+So 9.36M = 1638 ⇒ M = 1638 / 9.36.
+Compute M = 163800 / 936 = 2275 / 13 = 175.
+Answer: Rs 175 per chair.",,Breakup,False,,https://iimking.com/arithmetic-cat-2025-slot-1-quant-breakup-g-strategy/,47ebe7b8-fa96-4960-9745-2e5db22975c8
+,Quant,Percentages,True,2025,1,,CAT Hard,Hard,Breakup G Strategy,Mixtures + Percentages,Breakup | Mixtures + Percentages | HARD | CAT 2025 Slot 1,,"A container holds 200 litres of a solution of acid and water, having 30% acid by volume. Atul replaces 20% of the resulting solution with water, and finally replaces 10% of this solution with acid, then 15% of the solution obtained with water. The percentage of acid by volume in the final solution obtained after these three replacements, is nearest to",25,27,29,23,mcq,B,27,match,"Initial: 200 L solution with 30% acid ⇒ acid = 0.30×200 = 60 L.
+Replace 20% with water: remove 40 L (20% of 200). Acid removed = 20% of 60 = 12 L → acid left = 60 − 12 = 48 L. Add 40 L water → volume = 200 L, acid = 48 L.
+Replace 10% with acid: remove 20 L. Acid removed = (48/200)×20 = 4.8 L → acid left = 48 − 4.8 = 43.2 L. Add 20 L pure acid → acid = 43.2 + 20 = 63.2 L. Volume = 200 L.
+Replace 15% with water: remove 30 L. Acid removed = (63.2/200)×30 = 9.48 L → acid left = 63.2 − 9.48 = 53.72 L. Add 30 L water → acid = 53.72 L, volume = 200 L.
+Final percentage acid = (53.72/200)×100 = 26.86% ≈ 26.9% → nearest = 27%.
+Answer: 27 (option 2).",,Breakup,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,6d15ca46-cafb-44ee-84ca-8d756e067b4a
+,Quant,Percentages,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Percentages + Equations,,,"Kamala divided her investment of Rs 100000 between stocks, bonds, and gold. Her investment in bonds was 25% of her investment in gold. With annual returns of 10%, 6%, 8% on stocks, bonds, and gold, respectively, she gained a total amount of Rs 8200 in one year. The amount, in rupees, that she gained from the bonds, was _____",,,,,tita,,900,match,"(Total investment 100000; B = 25% of G; returns: stocks 10%, bonds 6%, gold 8%; total gain 8200) — find gain from bonds.
+Let bonds = B, gold = G, stocks = S. Given B = G/4 ⇒ G = 4B.
+Total money: S + B + G = 100000 ⇒ S + B + 4B = 100000 ⇒ S = 100000 − 5B.
+Total gain: 0.10·S + 0.06·B + 0.08·G = 8200.
+Substitute S and G: 0.10(100000 − 5B) + 0.06B + 0.08(4B) = 8200.
+Compute: 10000 − 0.5B + 0.06B + 0.32B = 8200 ⇒ 10000 − 0.12B = 8200.
+Solve: 0.12B = 1800 ⇒ B = 1800/0.12 = 15000.
+Gain from bonds = 6% of B = 0.06 × 15000 = 900.
+Answer (gain from bonds) = Rs 900.",,Breakup,False,,https://iimking.com/arithmetic-cat-2025-slot-1-quant-breakup-g-strategy/,8fcb2b70-a837-4459-a92f-fa8d255b6db2
+,Quant,Percentages,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Percentages + Equations,Breakup G Strategy | Percentages + Equations | EASY | CAT 2025 Slot 1,,"Kamala divided her investment of Rs 100000 between stocks, bonds, and gold. Her investment in bonds was 25% of her investment in gold. With annual returns of 10%, 6%, 8% on stocks, bonds, and gold, respectively, she gained a total amount of Rs 8200 in one year. The amount, in rupees, that she gained from the bonds, was _____",,,,,tita,,900,match,"(Total investment 100000; B = 25% of G; returns: stocks 10%, bonds 6%, gold 8%; total gain 8200) — find gain from bonds.
+Let bonds = B, gold = G, stocks = S. Given B = G/4 ⇒ G = 4B.
+Total money: S + B + G = 100000 ⇒ S + B + 4B = 100000 ⇒ S = 100000 − 5B.
+Total gain: 0.10·S + 0.06·B + 0.08·G = 8200.
+Substitute S and G: 0.10(100000 − 5B) + 0.06B + 0.08(4B) = 8200.
+Compute: 10000 − 0.5B + 0.06B + 0.32B = 8200 ⇒ 10000 − 0.12B = 8200.
+Solve: 0.12B = 1800 ⇒ B = 1800/0.12 = 15000.
+Gain from bonds = 6% of B = 0.06 × 15000 = 900.
+Answer (gain from bonds) = Rs 900.",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,9232c9f6-ad85-4f69-9c61-4c34590b62d8
+,Quant,Percentages,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Percentages,Breakup 1.2/0.8 | Percentages | MEDIUM | CAT 2025 Slot 1,,"A shopkeeper offers a discount of 22% on the marked price of each chair, and gives 13 chairs to the customer for the discounted price of 12 chairs to earn a profit of 26% on the transaction. If the cost price of each chair is Rs 100, then the marked price, in rupees, of each chair is",,,,,tita,,175,match,"Percentages 1.2 / 0.8
+Let marked price be M. Discount 22% ⇒ selling price per chair = 0.78M.
+Customer pays for 12 discounted chairs but receives 13 chairs, so total revenue = 12 × 0.78M = 9.36M.
+Total cost = 13 × 100 = 1300. For 26% profit, revenue = 1.26 × 1300 = 1638.
+So 9.36M = 1638 ⇒ M = 1638 / 9.36.
+Compute M = 163800 / 936 = 2275 / 13 = 175.
+Answer: Rs 175 per chair.",,Breakup 1.2/0.8,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,dbc78169-a7b2-409c-b0af-ae5460598924
+,Quant,Percentages,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Percentages,Breakup 1.2/0.8 | Percentages | MEDIUM | CAT 2025 Slot 1,,"A shopkeeper offers a discount of 22% on the marked price of each chair, and gives 13 chairs to the customer for the discounted price of 12 chairs to earn a profit of 26% on the transaction. If the cost price of each chair is Rs 100, then the marked price, in rupees, of each chair is",,,,,tita,,175,match,"Percentages 1.2 / 0.8
+Let marked price be M. Discount 22% ⇒ selling price per chair = 0.78M.
+Customer pays for 12 discounted chairs but receives 13 chairs, so total revenue = 12 × 0.78M = 9.36M.
+Total cost = 13 × 100 = 1300. For 26% profit, revenue = 1.26 × 1300 = 1638.
+So 9.36M = 1638 ⇒ M = 1638 / 9.36.
+Compute M = 163800 / 936 = 2275 / 13 = 175.
+Answer: Rs 175 per chair.",,Breakup 1.2/0.8,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,dc78c4bd-ea07-4a6a-a141-36794a52dc02
+,Quant,Percentages,True,2025,1,,CAT Hard,Hard,Breakup G Strategy,Mixtures + Percentages,Breakup | Mixtures + Percentages | HARD | CAT 2025 Slot 1,,"A container holds 200 litres of a solution of acid and water, having 30% acid by volume. Atul replaces 20% of the resulting solution with water, and finally replaces 10% of this solution with acid, then 15% of the solution obtained with water. The percentage of acid by volume in the final solution obtained after these three replacements, is nearest to",25,27,29,23,mcq,B,27,match,"Initial: 200 L solution with 30% acid ⇒ acid = 0.30×200 = 60 L.
+Replace 20% with water: remove 40 L (20% of 200). Acid removed = 20% of 60 = 12 L → acid left = 60 − 12 = 48 L. Add 40 L water → volume = 200 L, acid = 48 L.
+Replace 10% with acid: remove 20 L. Acid removed = (48/200)×20 = 4.8 L → acid left = 48 − 4.8 = 43.2 L. Add 20 L pure acid → acid = 43.2 + 20 = 63.2 L. Volume = 200 L.
+Replace 15% with water: remove 30 L. Acid removed = (63.2/200)×30 = 9.48 L → acid left = 63.2 − 9.48 = 53.72 L. Add 30 L water → acid = 53.72 L, volume = 200 L.
+Final percentage acid = (53.72/200)×100 = 26.86% ≈ 26.9% → nearest = 27%.
+Answer: 27 (option 2).",,Breakup,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,e726d9e5-73e3-4e94-97ea-e289ea2cb363
+,Quant,Percentages,True,2025,1,,CAT Hard,Hard,Breakup G Strategy,Mixtures + Percentages,,,"A container holds 200 litres of a solution of acid and water, having 30% acid by volume. Atul replaces 20% of the resulting solution with water, and finally replaces 10% of this solution with acid, then 15% of the solution obtained with water. The percentage of acid by volume in the final solution obtained after these three replacements, is nearest to",25,27,29,23,mcq,B,27,match,"Initial: 200 L solution with 30% acid ⇒ acid = 0.30×200 = 60 L.
+Replace 20% with water: remove 40 L (20% of 200). Acid removed = 20% of 60 = 12 L → acid left = 60 − 12 = 48 L. Add 40 L water → volume = 200 L, acid = 48 L.
+Replace 10% with acid: remove 20 L. Acid removed = (48/200)×20 = 4.8 L → acid left = 48 − 4.8 = 43.2 L. Add 20 L pure acid → acid = 43.2 + 20 = 63.2 L. Volume = 200 L.
+Replace 15% with water: remove 30 L. Acid removed = (63.2/200)×30 = 9.48 L → acid left = 63.2 − 9.48 = 53.72 L. Add 30 L water → acid = 53.72 L, volume = 200 L.
+Final percentage acid = (53.72/200)×100 = 26.86% ≈ 26.9% → nearest = 27%.
+Answer: 27 (option 2).",,Breakup,False,,https://iimking.com/arithmetic-2/,f3681a16-114f-4b59-9197-cd5b42616f67
+,Quant,Percentages,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,1.2 / 0.8 Percentages,,,"A loan of Rs 1000 is fully repaid by two instalments of Rs 530 and Rs 594, paid at the end of first and second year, respectively. If the interest is compounded annually, then the rate of interest, in percentage, is _____",10,9,8,11,mcq,C,8,match,"Let the annual rate of interest be r%. The present value of the two instalments must equal the loan amount.
+1000 = 530 / (1 + r/100) + 594 / (1 + r/100)²
+Rate (%)
+530 ÷ (1+r)
+594 ÷ (1+r)²
+Total PV
+Match
+10
+≈ 481.8
+≈ 491.0
+≈ 972.8
+❌
+9
+≈ 486.2
+≈ 500.2
+≈ 986.4
+❌
+8
+≈ 490.7
+≈ 508.9
+≈ 999.6
+✅
+11
+≈ 477.5
+≈ 482.2
+≈ 959.7
+❌",,Visual Lens,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,1c329bec-7214-4beb-89ea-d0a4b2b05ee8
+,Quant,Percentages,True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Percentages,,,"A certain amount of money was divided among Pinu, Meena, Rinu and Seema. Pinu received 20% of the total amount and Meena received 40% of the remaining amount. If Seema received 20% less than Pinu, the ratio of the amounts received by Pinu and Rinu is",5 : 8,2 : 1,1 : 2,8 : 5,mcq,A,5 : 8,match,"Correct answer A) 5 : 8
+Suppose total = 100.
+Person | Basis of Calculation | Amount Received
+Pinu | 20% of total | 20
+Remaining after Pinu | 100 − 20 | 80
+Meena | 40% of remaining (40% of 80) | 32
+Seema | 20% less than Pinu → 80% of 20 | 16
+Total given so far | 20 + 32 + 16 | 68
+Rinu | Remaining → 100 − 68 | 32
+So Pinu got 20, Rinu got 32 thus ratio = 20 : 32 = 5 : 8",,Breakup,False,,https://iimking.com/arithmetic-1-cat-2025-slot-2-quant-breakup-g-strategy/,35bd41de-2148-47d6-bc0d-c151e1fc081e
+,Quant,Percentages,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,1.2 / 0.8 Percentages,,,"A loan of Rs 1000 is fully repaid by two instalments of Rs 530 and Rs 594, paid at the end of first and second year, respectively. If the interest is compounded annually, then the rate of interest, in percentage, is _____",10,9,8,11,mcq,C,8,match,"Correct Answer is c) 8%
+Let the annual rate of interest be r%. The present value of the two instalments must equal the loan amount.
+1000 = 530 / (1 + r/100) + 594 / (1 + r/100)²
+Rate (%) | 530 ÷ (1+r) | 594 ÷ (1+r)² | Total PV | Match
+10 | ≈ 481.8 | ≈ 491.0 | ≈ 972.8 | ❌
+9 | ≈ 486.2 | ≈ 500.2 | ≈ 986.4 | ❌
+8 | ≈ 490.7 | ≈ 508.9 | ≈ 999.6 | ✅
+11 | ≈ 477.5 | ≈ 482.2 | ≈ 959.7 | ❌",,Visual POE,False,,https://iimking.com/arithmetic-1-cat-2025-slot-2-quant-breakup-g-strategy/,40d92736-4505-45d3-8eef-445736c5cf6d
+,Quant,Percentages,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,1.2 / 0.8 Percentages,Visual Lens G strategy | 1.2 / 0.8 Percentages | Moderate,,"A loan of Rs 1000 is fully repaid by two instalments of Rs 530 and Rs 594, paid at the end of first and second year, respectively. If the interest is compounded annually, then the rate of interest, in percentage, is _____",10,9,8,11,mcq,C,8,match,"Correct Answer is c) 8%
+Let the annual rate of interest be r%. The present value of the two instalments must equal the loan amount.
+1000 = 530 / (1 + r/100) + 594 / (1 + r/100)²
+Rate (%)
+530 ÷ (1+r)
+594 ÷ (1+r)²
+Total PV
+Match
+10
+≈ 481.8
+≈ 491.0
+≈ 972.8
+❌
+9
+≈ 486.2
+≈ 500.2
+≈ 986.4
+❌
+8
+≈ 490.7
+≈ 508.9
+≈ 999.6
+✅
+11
+≈ 477.5
+≈ 482.2
+≈ 959.7
+❌",,Visual Lens G strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,4b9a597b-9877-4dc5-84dc-44cbc831bba0
+,Quant,Percentages,True,2025,2,,,,,,,,,12%,18%,16%,14%,mcq,D,14%,match,"Given: CP = 1650, MP = 2200
+Condition: profit % = discount %
+Discount % | SP = MP × (1 − d) | Profit (SP − 1650) | Profit % | Match?
+A. 12% | 2200 × 0.88 = 1936 | 286 | ≈ 17% | ❌
+B. 18% | 2200 × 0.82 = 1804 | 154 | ≈ 9% | ❌
+C. 16% | 2200 × 0.84 = 1848 | 198 | ≈ 12% | ❌
+D. 14% | 2200 × 0.86 = 1892 | 242 | ≈ 14.7% | ✅",,,False,,https://iimking.com/arithmetic-2-cat-2025-slot-2-quant/,69dee395-69c8-4bd6-830b-c55da4f4b503
+,Quant,Percentages,True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Percentages,Breakup G strategy | Percentages | Easy,,"A certain amount of money was divided among Pinu, Meena, Rinu and Seema. Pinu received 20% of the total amount and Meena received 40% of the remaining amount. If Seema received 20% less than Pinu, the ratio of the amounts received by Pinu and Rinu is",5 : 8,2 : 1,1 : 2,8 : 5,mcq,A,5 : 8,match,"Correct answer A) 5 : 8
+Suppose total = 100.
+Person
+Basis of Calculation
+Amount Received
+Pinu
+20% of total
+20
+Remaining after Pinu
+100 − 20
+80
+Meena
+40% of remaining (40% of 80)
+32
+Seema
+20% less than Pinu → 80% of 20
+16
+Total given so far
+20 + 32 + 16
+68
+Rinu
+Remaining → 100 − 68
+32
+So Pinu got 20, Rinu got 32 thus ratio = 20 : 32 = 5 : 8",,Breakup G strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,8f3b87b9-6b34-4283-93ef-7076c6778675
+,Quant,Percentages,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,1.2 / 0.8 Percentages,,,"A loan of Rs 1000 is fully repaid by two instalments of Rs 530 and Rs 594, paid at the end of first and second year, respectively. If the interest is compounded annually, then the rate of interest, in percentage, is _____",10,9,8,11,mcq,C,8,match,"Correct Answer is c) 8%
+Let the annual rate of interest be r%. The present value of the two instalments must equal the loan amount.
+1000 = 530 / (1 + r/100) + 594 / (1 + r/100)²
+Rate (%) | 530 ÷ (1+r) | 594 ÷ (1+r)² | Total PV | Match
+10 | ≈ 481.8 | ≈ 491.0 | ≈ 972.8 | ❌
+9 | ≈ 486.2 | ≈ 500.2 | ≈ 986.4 | ❌
+8 | ≈ 490.7 | ≈ 508.9 | ≈ 999.6 | ✅
+11 | ≈ 477.5 | ≈ 482.2 | ≈ 959.7 | ❌",,Visual POE,False,,https://iimking.com/visual-lens/,d383277f-7928-4992-93ee-3acabfbecd99
+,Quant,Percentages,True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Percentages,,,"A certain amount of money was divided among Pinu, Meena, Rinu and Seema. Pinu received 20% of the total amount and Meena received 40% of the remaining amount. If Seema received 20% less than Pinu, the ratio of the amounts received by Pinu and Rinu is",5 : 8,2 : 1,1 : 2,8 : 5,mcq,A,5 : 8,match,"Suppose total = 100.
+Person
+Basis of Calculation
+Amount Received
+Pinu
+20% of total
+20
+Remaining after Pinu
+100 − 20
+80
+Meena
+40% of remaining (40% of 80)
+32
+Seema
+20% less than Pinu → 80% of 20
+16
+Total given so far
+20 + 32 + 16
+68
+Rinu
+Remaining → 100 − 68
+32
+So Pinu got 20, Rinu got 32 thus ratio = 20 : 32 = 5 : 8",,Breakup,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,e64fa821-3839-409c-8b8a-0969ffc1e906
+,Quant,Percentages,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Average + Percentage + Equations,,,"The average salary of 5 managers and 25 engineers in a company is Rs 60000. If each of the manager receive 20% hike in the salary while the salary of the engineer remains unchanged , the average salary of all 30 employees increased by 5%.The average salary, of engineer , in rs , is :",45000,54000,50000,40000,mcq,B,54000,match,"Total salary of 30 employees (5 managers and 25 engineers):
+30 × 60,000 = 1,800,000
+After 20% hike for managers, average salary increases by 5%, so new average salary is:
+60,000 × 1.05 = 63,000
+Total salary after the hike:
+30 × 63,000 = 1,890,000
+Before hike: 5M + 25E = 1,800,000
+After hike: 6M + 25E = 1,890,000
+Solve for M (manager's salary):
+(6M + 25E) - (5M + 25E) = 1,890,000 - 1,800,000
+M = 90,000
+Solve for E (engineer's salary):
+5 × 90,000 + 25E = 1,800,000
+450,000 + 25E = 1,800,000
+25E = 1,350,000 Thus  E = 54,000",,Breakup,False,,https://iimking.com/algebra-equations-actual-questions-cat-2025-slot-3-quant/,24c26cf3-ddc0-480d-9aab-32c5a4799ca2
+,Quant,Percentages,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Average + Percentage + Equations,Breakup G Strategy | Average + Percentage + Equations | Moderate,,"The average salary of 5 managers and 25 engineers in a company is Rs 60000. If each of the manager receive 20% hike in the salary while the salary of the engineer remains unchanged , the average salary of all 30 employees increased by 5%.The average salary, of engineer , in rs , is :",45000,54000,50000,40000,mcq,B,54000,match,"Correct Answer: 2 (5400)
+Total salary of 30 employees (5 managers and 25 engineers):
+30 × 60,000 = 1,800,000
+After 20% hike for managers, average salary increases by 5%, so new average salary is:
+60,000 × 1.05 = 63,000
+Total salary after the hike:
+30 × 63,000 = 1,890,000
+Before hike: 5M + 25E = 1,800,000
+After hike: 6M + 25E = 1,890,000
+Solve for M (manager's salary):
+(6M + 25E) - (5M + 25E) = 1,890,000 - 1,800,000
+M = 90,000
+Solve for E (engineer's salary):
+5 × 90,000 + 25E = 1,800,000
+450,000 + 25E = 1,800,000
+25E = 1,350,000 Thus E = 54,000",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,373bf787-0972-4931-a18f-e43d89b67437
+,Quant,Percentages,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Time Speed + Percentage,Breakup G Strategy: Time Speed + Percentage | Moderate,,"Ankita walks from A to C through B, and runs back through the same route at a speed that is 40% more than her walking speed. The total time taken is 3 hours 30 minutes to walk from B to C as well as to run from B to A. The total time, in minutes, required to walk from A to B and run from B to C is: [TITA]",,,,,tita,,444,match,"Correct Answer: 444
+Assume walking speed = s , Running speed = 1.4s
+Distance from A to B = d1 , Distance from B to C = d2
+Now based on the information given in the question:
+d2/v = 3.5 hrs , d1/1.4v = 3.5 hrs ,
+d1/v = 3.5 × 1.4
+Now total time required to walk from A to B and run from B to C.
+Total time = d1/v + d2/1.4v = (3.5 × 1.4) + (3.5/1.4) =
+4.9 hrs + 2.5 hrs = 7.4 hrs = 7hrs 24 mins
+7hrs 24 mins = (7 × 60) + 24 = 444 mins
+Answer 444",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,5a066eba-6795-42be-93fb-35a275a512f2
+,Quant,Percentages,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Average + Percentage + Equations,,,"The average salary of 5 managers and 25 engineers in a company is Rs 60000. If each of the manager receive 20% hike in the salary while the salary of the engineer remains unchanged , the average salary of all 30 employees increased by 5%.The average salary, of engineer , in rs , is :",45000,54000,50000,40000,mcq,B,54000,match,"Total salary of 30 employees (5 managers and 25 engineers):
+30 × 60,000 = 1,800,000
+After 20% hike for managers, average salary increases by 5%, so new average salary is:
+60,000 × 1.05 = 63,000
+Total salary after the hike:
+30 × 63,000 = 1,890,000
+Before hike: 5M + 25E = 1,800,000
+After hike: 6M + 25E = 1,890,000
+Solve for M (manager's salary):
+(6M + 25E) - (5M + 25E) = 1,890,000 - 1,800,000
+M = 90,000
+Solve for E (engineer's salary):
+5 × 90,000 + 25E = 1,800,000
+450,000 + 25E = 1,800,000
+25E = 1,350,000 Thus  E = 54,000",,Breakup,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,ae1aac27-29b7-4934-b942-238a52074b29
+,Quant,Percentages,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Time Speed + Percentage,,,"Ankita walks from A to C through B, and runs back through the same route at a speed that is 40% more than her walking speed. The total time taken is 3 hours 30 minutes to walk from B to C as well as to run from B to A. The total time, in minutes, required to walk from A to B and run from B to C is: [TITA]",,,,,tita,,444,match,"Assume walking speed = s , Running speed = 1.4s
+Distance from A to B = d1 , Distance from B to C = d2
+Now based on the information given in the question:
+d2/v = 3.5 hrs , d1/1.4v = 3.5 hrs ,
+d1/v = 3.5 × 1.4
+Now total time required to walk from A to B and run from B to C.
+Total time = d1/v + d2/1.4v = (3.5 × 1.4) + (3.5/1.4) =
+4.9 hrs + 2.5 hrs = 7.4 hrs = 7hrs 24 mins
+7hrs 24 mins = (7 × 60) + 24 = 444 mins
+Answer 444",,Breakup,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,c67bbee3-2a50-4b5c-929f-29c4bc3094e2
+,Quant,Percentages,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Average + Percentage + Equations,Breakup G Strategy | Average + Percentage + Equations | Moderate,,"The average salary of 5 managers and 25 engineers in a company is Rs 60000. If each of the manager receive 20% hike in the salary while the salary of the engineer remains unchanged , the average salary of all 30 employees increased by 5%.The average salary, of engineer , in rs , is :",45000,54000,50000,40000,mcq,B,54000,match,"Correct Answer: 2 (5400)
+Total salary of 30 employees (5 managers and 25 engineers):
+30 × 60,000 = 1,800,000
+After 20% hike for managers, average salary increases by 5%, so new average salary is:
+60,000 × 1.05 = 63,000
+Total salary after the hike:
+30 × 63,000 = 1,890,000
+Before hike: 5M + 25E = 1,800,000
+After hike: 6M + 25E = 1,890,000
+Solve for M (manager's salary):
+(6M + 25E) - (5M + 25E) = 1,890,000 - 1,800,000
+M = 90,000
+Solve for E (engineer's salary):
+5 × 90,000 + 25E = 1,800,000
+450,000 + 25E = 1,800,000
+25E = 1,350,000 Thus E = 54,000",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,fb9dea66-f200-4547-bb33-fd586d939f9e
+CAT-2023-S3-QA-014,Quant,Percentages,True,2023,3,14,,,Vedic Patterns G Strategy,Arithmetic - Percentage,,,"The population of a town in 2020 was 100,000. The population decreased by \( y\% \) from 2020 to 2021, and increased by \( x\% \) from 2021 to 2022.
+If the population in 2022 was greater than in 2020 and \( x - y = 10 \), what was the lowest possible population in 2021?","72,000","73,000","75,000","74,000",mcq,B,"73,000",match,"The lowest population in 2021 is 73,000.
+Using the formula for successive percentage change, the population reduces by 27%, giving \( 73,000 \) as the minimum.",,,False,,https://iimking.com/vedic-tables-g-strategy-cat-2023-slot-3/,66c45109-3ea2-41c5-919f-f99205fcd2ee
+,Quant,Percentages,True,2023,3,,,,,Percentage,,,,,,,,,,73000,match,,,,True,https://iimking.com/wp-content/uploads/2023/12/image-30.png | https://iimking.com/wp-content/uploads/2023/12/image-32.png,https://iimking.com/percentage-cat-2023-acutual-question-slot-3/,e120fcf9-f82e-4d6f-b7ee-b3fe149c3360
+,Quant,Percentages,True,2022,2,,,,,Percentage,CAT 2022 Slot 2 - Question 6,,"Mr. Pinto invests one-fifth of his capital at 6%, one-third at 10% and the remaining at 1%, each rate being simple interest per annum. Then, the minimum number of years required for the cumulative interest income from these investments to equal or exceed his initial capital is",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/soln.jpg,https://iimking.com/cat-previous-year-questions-percentage/,1ac764f6-2466-4e4d-a8b7-1bc2e48d7b18
+,Quant,Percentages,True,2022,2,,,,,Percentage,CAT 2022 QA Slot-2 Question 1,,"In an election, there were four candidates and 80% of the registered voters casted their votes. One of the candidates received 30% of the casted vote
+while the other three candidates received the remaining casted votes in the proportion 1 : 2 : 3. If the winner of the election received 2512 votes more
+than the candidate with the second highest votes, then the number of registered voters was:",60288,50240,40192,62800,mcq,D,62800,match,"One candidate got 30% of the polled votes, the remaining three got in the ratio of 1 : 2 : 3
+The polled votes were split in 3 : 7 ratio.
+The 70% of them were again split in the ratio 1 : 2 : 3
+The votes were polled in the ratio of 6(3) : 7(1 : 2 : 3)
+18 : 7 : 14 : 21
+Let’s assume that the actual polled votes are 18x, 7x, 14x, 21x
+The winner of the election received 2512 votes more than the candidate with the second highest votes.
+21x - 18x = 2512
+3x = 2512
+Total polled votes = 18x + 7x + 14x + 21x = 60x = 20(3x) = 20(2512) = 50,240
+The polled votes represent 80% of the total registered votes.
+Total registered votes = 50,240 + 12,560 = 62,800.",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,b1a2ddfc-63f3-4954-9c04-87059f3b9887
+,Quant,Percentages,True,2022,3,,,,,Percentage,CAT 2022 Slot 3 - Question 5,,"Nitu has an initial capital of ₹20,000
+. Out of this, she invests ₹8,000
+at 5.5%
+in bank A,₹5,000
+at 5.6%
+in bank B
+and the remaining amount at x%
+in bank C
+, each rate being simple interest per annum. Her combined annual interest income from these investments is equal to 5%
+of the initial capital. If she had invested her entire initial capital in bank C alone, then her annual interest income, in rupees, would have been",900,700,1000,800,mcq,D,800,match,"If Neetu intended to get a 5% annual interest, ideally all the banks should have maintained a 5% interest rate.
+But Bank A returns 0.5% extra interest on 8000 rupees, which is 40 rupees.
+But Bank B returns 0.6% extra interest on 5000 rupees, which is 30 rupees.
+A & B combines are paying 70 rupees extra than 5%.
+So Bank C should maintain such an interest rate that, the interest generated on the remaining 7000 rupees is 70 less than 5% interest.
+Since 70 is 1% of 7000. The interest rate at Bank C should be 5% - 1% = 4%
+If all the 20,000 rupees were invested in Bank C, the interest generated is 4% of 20,000 = 800 rupees.",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,c5fc6993-170f-4537-b4a0-e277cee89575
+,Quant,Percentages,True,2021,2,,,,,Percentage,CAT QA 2021 Slot-2 Question 2,,"Raj invested ₹ 10000 in a fund. At the end of first year, he incurred a loss but his balance was more than ₹ 5000. This balance, when invested for another year, grew and the percentage of growth in the second year was five times the percentage of loss in the first year. If the gain of Raj from the initial investment over the two year period is 35%, then the percentage of loss in the first year is",15,5,10,70,mcq,C,10,match,"Let the total investment be P, then at the end of the first year, after a loss of x percentage the value of the investment becomes
+P(1 - x)
+Then in the next year the value of the investment increases by 5x
+So, the overall value of the investment becomes
+P(1 - x)(1 + 5x)
+This is an increase of 35% from the initial investment amount.
+Hence,
+1.35 P = P (1 - x)(1 + 5x)
+Going by the options we can see that the equation is satisfied when x = 10
+Hence 10 is the answer",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,32dce376-8192-457d-818a-c52e50ca7fa6
+,Quant,Percentages,True,2021,3,,,,,Percentage,CAT QA 2021 Slot- 3 Question 4,,"The total of male and female populations in a city increased by 25% from 1970 to 1980. During the same
+period, the male population increased by 40% while the female population increased by 20%. From 1980 to
+1990, the female population increased by 25%. In 1990, if the female population is twice the male
+population, then the percentage increase in the total of male and female populations in the city from 1970
+to 1990 is",68.25,68.75,68.50,69.25,mcq,B,68.75,match,"From 1970 to 1980,
+the male population increased by 40%
+the female population increased by 20%
+the overall population increased by 25%
+Population of 1970 and 1980
+1.4M + 1.2F = 1.25(M + F)
+1.4M + 1.2F = 1.25M + 1.25F
+1.4M - 1.25M = 1.25F - 1.2F
+0.15M = 0.05F
+F = 3M
+From 1980 to 1990,
+Female population increased by 25%
+Therefore, the female population in 1990 = 1.25 × 1.2F = 1.5F
+Since, the female population in 1990 is twice the male population,
+Male population in 1990 = 1.5F ÷ 2 = 0.75F
+Since F = 3M,
+Male population in 1990 = 2.25M
+Total population in 1970 = M + F = M + 3M = 4M
+Total population in 1990 = 2.25M + 1.5F = 2.25M + 4.5M = 6.75M
+The percentage increase in population = 6.75M−4M4M×100
+= 2.754×100
+= 68.75%",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,d98a16f2-64b0-4425-bb20-1b419e5e5e7d
+,Quant,Percentages,True,2021,3,,,,,Percentage,CAT QA 2021 Slot-3 Question 3,,"In a tournament, a team has played 40 matches so far and won 30% of them. If they win 60% of the remaining matches, their overall win percentage will be 50%. Suppose they win 90% of the remaining matches, then the total number of matches won by the team in the tournament will be",86,84,78,80,mcq,B,84,match,"Let the number of matches to be played be ‘x’
+We are given that 40 matches are already played and 30% of them are won.
+If 60% of the remaining matches are won, then the overall win percentage is 50%.
+30% of 40 + 60% of x = 50% of (40 + x)
+0.3 (40) + 0.6 (x) = 0.5 (40 + x)
+12 + 0.6 (x) = 20 + 0.5 (x)
+0.1 (x) = 8
+x = 80
+The number of matches to be played is 80.
+If the team wins 90% of the remaining matches, it would win 90% of 80 = 72 matches.
+Total matches won by the team
+= 30% of 40 + 72
+= 12 + 72 = 84",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,e34305b7-ca5e-46e4-9fd8-ec9b4d2c4e4a
+,Quant,Percentages,True,2020,1,,,,,Percentage,CAT 2020 Slot 1 Question 8,,"In a group of people, 28% of the members are young while the rest are old. If 65% of the members are literates, and 25% of the literates are young, then the percentage of old people among the illiterates is nearest to",59,62,66,55,mcq,C,66,match,"In a group 28% are young, 72% are old
+In the same group 65% are literates and 35% are illiterates
+Young literates = 14
+(65%) = 16.25%, So remaining 11.75% are young illiterates
+Out of 35% illiterates = 11.75% is young and remaining 23.25% are old illiterates
+So, 23.2535
+× 100 ≅ 66",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,f9903cfa-b485-4928-8a03-d4047327847a
+,Quant,Percentages,True,2020,2,,,,,Percentage,CAT 2020 Slot 2 Question 7,,"In May, John bought the same amount of rice and the same amount of wheat as he had bought in April, but spent 150 more due to price increase of rice and wheat by 20% and 12%, respectively. If John had spent 450 on rice in April, then how much did he spend on wheat in May?",590,580,560,570,mcq,C,560,match,"Rice in april = 450
+Increase in 20% = +90
+Since 150 more is the amount he spent, +60 should be on wheat
+So 12%(Wheat) = Rs 60
+Price of wheat = 500
+So +60 in may = 500 + 60 = 560",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,c97e0406-2cf2-4712-8cef-8c149696573a
+,Quant,Percentages,True,2019,1,,,,,Percentage,CAT 2019 Slot 1 Question 12,,"Meena scores 40% in an examination and after review, even though her score is increased by 50%, she fails by 35 marks. If her post-review score is increased by 20%, she will have 7 marks more than the passing score. The percentage score needed for passing the examination is",75,80,60,70,mcq,D,70,match,"Meena scores 40 % in an exam
+After review, she scores 50 % more => Increase of 50 % from 40 % = 40% + 20% = 60%
+She fails by 35 marks, by scoring 60%
+60% score = Pass mark - 35 ----- (1)
+If her post review score is increased by 20%, she would have 7 more than the pass mark.
+20% of 60% = 12 %
+So, 60% + 12% = 72% of marks = Pass mark + 7 ------ (2)
+So, 12% marks = 35 + 7 (5: 1 ratio)
+So, similarly 12% can be re written as 10 % and 2 % (maintaining the 5:1 ratio)
+Hence the pass percentage = 60 % + 10 % = 70%
+(or)
+Pass percentage = 72 % - 2 % = 70%",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,598ba270-3a76-425e-b322-023c61e4b26a
+,Quant,Percentages,True,2019,1,,,,,Percentage,CAT 2019 Slot 1 Question 13,,"The income of Amala is 20% more than that of Bimala and 20% less than that of Kamala. If Kamala's income goes down by 4% and Bimala's goes up by 10%, then the percentage by which Kamala's income would exceed Bimala's is nearest to",28,29,31,32,mcq,C,31,match,"Let Bimala's income be B. Amala's income is 20% more than B.
+So, A = 1.2 B
+Similarly, Amala's income is 20% less than that of Kamala.
+A= 0.8K
+Therefore, 1.2B = 0.8K (or) K = B
+Now, Bimala's new income goes up by 10% = 1.1B
+Kamala's income goes down by 4%
+4% (1.5B) = 0.06B
+Therefore, Kamala's new income is = 1.5B - 0.06B = 1.44B
+So, K = 1.44B and B = 1.1 B
+Percentage change = 0.34 B = x 100 = 31%",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,a67bcffc-79c4-4aca-a332-955f332f9606
+,Quant,Percentages,True,2019,1,,,,,Percentage,CAT 2019 Slot 1 Question 11,,"In a class, 60% of the students are girls and the rest are boys. There are 30 more girls than boys. If 68% of the students, including 30 boys,pass an examination, the percentage of the girls who do not pass is",,,,,tita,,20,match,"Given that there are 60 % girls and 40 % boys
+It is also given that there are 30 more girls than boys.
+So, (60 % - 40 %) of total class strength = 30 students
+=> 20 % of total class strength = 30 students
+=> Total class strength = 30 x 5 = 150 students
+It is also given that 68% of students pass the the examination, which includes 30 boys
+So, Number of students passed = 68% of Total students
+=> Number of students passed = x 150 = 102 students
+=> Since the number of boys passed is 30,
+=> Number of girls passed = 102 - 30 = 72
+Total number of girls = x 150 = 90
+Total number of girls = Girls who passed + Girls who did not pass
+Girls who did not pass = 90 - 72 = 18
+Percentage of girls who did not pass = x 100 = 20 %",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,e92e13fe-53b4-4d54-873d-4c5c2356d1a0
+,Quant,Percentages,True,2019,2,,,,,Percentage,CAT 2019 Slot 2 Question 10,,"In an examination, the score of A was 10% less than that of B, the score of B was 25% more than that of C, and the score of C was 20% less than that of D. If A scored 72, then the score of D was",,,,,tita,,80,match,"From the data,
+A scored 72
+A's score was 10% less than B
+So, Score of B = 80
+We know that B was 25% more than C
+So, C x = 80
+C = 64
+Now, we know that D scored 20% less than D
+So, C = x D
+64 = x D
+D = 80 marks",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,1469ea62-b7c0-47e3-bf07-34e0e96a03aa
+,Quant,Percentages,True,2019,2,,,,,Percentage,CAT 2019 Slot 2 Question 9,,"In 2010, a library contained a total of 11500 books in two categories - fiction and non-fiction. In 2015, the library contained a total of 12760 books in these two categories. During this period, there was 10% increase in the fiction category while there was 12% increase in the non-fiction category. How many fiction books were in the library in 2015?",6600,6160,6000,5500,mcq,A,6600,match,"Increase in books = 12760 - 11500 = 1260
++ x (11500 - x) = 1260
+10x + 12 x 11500 - 12x = 126000
+x = 6000 books
+So, Fiction books in 2015, 6000 + 600 = 6600 books",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,5712e63e-617d-4783-a82f-fcd7b69bc80d
+,Quant,Percentages,True,2017,1,,,,,Percentage,CAT 2017 Slot 1 - Question 15,,"Arun's present age in years is 40% of Barun's. In another few years, Arun's age will be half of Barun's. By what percentage will Barun's age increase during this period?",,,,,tita,,20,match,"Given that Arun's present age in years is 40% of Barun's. And after few years, Arun’s age will be half of Barun’s. We have to find by what percentage will Barun’s age increase during this period.
+So Arun’s present age is 2x and Barun’s present age will be equal to 5x.
+2(2x + y) = 5x + y
+4x + 2y = 5x + y
+4x + 2y = 5x + y
+y = x
+So 2x and 5x becomes 3x and 6x respectively.
+By what percentage will Barun's age increase during this period is that x increases of 5x so it increases by 20%.
+Hence 20% of Barun’s age will increase during this period.
+Hence, the answer is 20",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,95893739-8023-4bb1-99a0-1aca15055e7d
+,Quant,Percentages,True,2017,2,,,,,Percentage,CAT 2017 Slot 2 Question 14,,"In a village, the production of food grains increased by 40% and the per capita production of food grains increased by 27% during a certain period. The percentage by which the population of the village increased during the same period is nearest to",16,13,10,7,mcq,C,10,match,"Given that the production of food grains increased by 40%.
+Let initial production be y and after increase it becomes 1.4x
+Per capita production of food grains increased by 27%.
+Per capita income = productionoffoodgrains/no.ofpeople
+⟹ let the initial Per capita income be xy
+.
+After increase it becomes 1.27[xy
+].
+CAT 2017 Question Paper Quants Slot 2 Percentages
+⟹ 1.4x?
+= 1.27[xy
+]
+⟹ ? = 1.4/1.27
+× y = 1.1y
+Hence there is an increase of 10% in the population of the village.",,,False,,https://iimking.com/cat-previous-year-questions-percentage/,7a24b018-b53e-428c-96cc-0edd6ca070ab
+,Quant,Percentages,,2024,1,,,,Breakup G Strategy,Ratios + Percentages,Ratios + Percentages,,"In September, the incomes of Kamal, Amal and Vimal are in the ratio 8 ∶ 6 ∶ 5. They rent a house together, and Kamal pays 15%, Amal pays 12% and Vimal pays 18% of their respective incomes to cover the total house rent in that month. In October, the house rent remains unchanged while their incomes increase by 10%, 12% and 15%, respectively. In October, the percentage of their total income that will be paid as house rent, is nearest to?",13.26,15.18,12.75,14.84,mcq,A,13.26,not_checked,"House Rent Percentage - October
+House Rent as Percentage of Total Income in October
+Incomes in September:
+Kamal : Amal : Vimal = 8 : 6 : 5
+Let their incomes be:
+Kamal = \( 8x \), Amal = \( 6x \), Vimal = \( 5x \)
+Rent Contributions in September:
+Kamal pays 15% → \( 0.15 \times 8x = 1.2x \)
+Amal pays 12% → \( 0.12 \times 6x = 0.72x \)
+Vimal pays 18% → \( 0.18 \times 5x = 0.9x \)
+Total Rent:
+\( 1.2x + 0.72x + 0.9x = 2.82x \)
+Incomes in October:
+Kamal = \( 8x \times 1.10 = 8.8x \)
+Amal = \( 6x \times 1.12 = 6.72x \)
+Vimal = \( 5x \times 1.15 = 5.75x \)
+Total Income in October:
+\( 8.8x + 6.72x + 5.75x = 21.27x \)
+Rent as % of October's total income:
+\( \frac{2.82x}{21.27x} \times 100 = \frac{2.82}{21.27} \times 100 \approx 13.25\% \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,4c2c914d-2a82-4010-97fc-40e369967ddb
+,Quant,Percentages,,2024,2,,,,Breakup G Strategy,Mixtures + Percentages + Ratios,Mixtures + Percentages + Ratios,,"A vessel contained a certain amount of a solution of acid and water. When 2 litres of water was added to it, the new solution had 50% acid concentration. When 15 litres of acid was further added to this new solution, the final solution had 80% acid concentration. The ratio of water and acid in the original solution was",5 : 4,5 : 3,3 : 5,4 : 5,mcq,C,3 : 5,not_checked,"Acid-Water Solution Ratio
+Find the Ratio of Water to Acid in the Original Solution
+Let:
+\( A \) = original amount of acid in litres
+\( W \) = original amount of water in litres
+Step 1: After adding 2 litres of water
+New water = \( W + 2 \), acid remains \( A \)
+New total = \( A + W + 2 \)
+Given: 50% acid concentration:
+\[
+\frac{A}{A + W + 2} = \frac{1}{2}
+\Rightarrow 2A = A + W + 2
+\Rightarrow A = W + 2 \tag{1}
+\]
+Step 2: Add 15 litres of acid
+New acid = \( A + 15 \), water = \( W + 2 \), total = \( A + W + 17 \)
+Given: 80% acid concentration:
+\[
+\frac{A + 15}{A + W + 17} = \frac{4}{5}
+\Rightarrow 5(A + 15) = 4(A + W + 17)
+\Rightarrow 5A + 75 = 4A + 4W + 68
+\Rightarrow A - 4W = -7 \tag{2}
+\]
+Step 3: Solve equations (1) and (2)
+From (1): \( A = W + 2 \)
+Substituting into (2):
+\[
+(W + 2) - 4W = -7
+\Rightarrow -3W + 2 = -7
+\Rightarrow -3W = -9
+\Rightarrow W = 3
+\]
+\[
+\Rightarrow A = 3 + 2 = 5
+\]
+✅ Final Answer: The ratio of water to acid in the original solution is \( \boxed{3 : 5} \)",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,169587bb-0433-44fd-9817-4ffd8983fa30
+,Quant,Percentages,,2024,2,,,,Breakup G Strategy,Percentages + Averages + Equations,Percentages + Averages + Equations,,"A company has 40 employees whose names are listed in a certain order. In the year 2022, the average bonus of the first 30 employees was Rs. 40,000, of the last 30 employees was Rs. 60,000, and of the first 10 and last 10 employees together was Rs. 50,000. Next year, the average bonus of the first 10 employees increased by 100%, of the last 10 employees increased by 200% and of the remaining employees was unchanged. Then, the average bonus, in rupees, of all the 40 employees together in the year 2023 was",85000,95000,80000,90000,mcq,B,95000,not_checked,"Bonus Distribution Explanation
+Bonus Distribution Explanation (HTML + MathJax)
+Let the total bonus of the first 10 employees be \( F \), and the last 10 employees be \( L \).
+Step 1: Using first 30 and last 30 employee data
+\[
+\text{Total bonus} = 30 \times 40{,}000 + L = 12{,}00{,}000 + L \tag{1}
+\]
+\[
+\text{Total bonus} = 30 \times 60{,}000 + F = 18{,}00{,}000 + F \tag{2}
+\]
+Equating (1) and (2):
+\[
+12{,}00{,}000 + L = 18{,}00{,}000 + F \Rightarrow L - F = 6{,}00{,}000 \tag{3}
+\]
+Step 2: Using first 10 and last 10 employee data
+\[
+\frac{F + L}{20} = 50{,}000 \Rightarrow F + L = 10{,}00{,}000 \tag{4}
+\]
+Substituting from (3): \( L = F + 6{,}00{,}000 \) into (4):
+\[
+F + (F + 6{,}00{,}000) = 10{,}00{,}000 \Rightarrow 2F = 4{,}00{,}000 \Rightarrow F = 2{,}00{,}000
+\]
+\[
+\Rightarrow L = 8{,}00{,}000
+\]
+Step 3: Middle 20 employee bonus
+\[
+\text{Total for first 30} = 30 \times 40{,}000 = 12{,}00{,}000
+\Rightarrow \text{Middle 20} = 12{,}00{,}000 - F = 10{,}00{,}000
+\]
+Step 4: Apply 2023 increases
+First 10 employees: 100% increase → \( 2 \times 2{,}00{,}000 = 4{,}00{,}000 \)
+Last 10 employees: 200% increase → \( 3 \times 8{,}00{,}000 = 24{,}00{,}000 \)
+Middle 20 unchanged → \( 10{,}00{,}000 \)
+Step 5: Final average bonus in 2023
+\[
+\text{Total bonus} = 4{,}00{,}000 + 10{,}00{,}000 + 24{,}00{,}000 = 38{,}00{,}000
+\]
+\[
+\text{Average bonus} = \frac{38{,}00{,}000}{40} = \boxed{95{,}000}
+\]
+✅ Final Answer: Rs. 95,000",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,a482b98e-5d7c-44a7-9db0-846755d9bee0
+,Quant,Percentages,,2024,,12,,,,,,,Gopalâ€™s salary becomes 187.5% of original after two successive increments. The second increment is twice the first. Find the percentage increase in the first increment.,,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,03c841a4-1848-4461-b7f9-24086f037675

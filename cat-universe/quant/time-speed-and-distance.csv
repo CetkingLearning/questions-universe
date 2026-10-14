@@ -1,0 +1,338 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,"Time, Speed & Distance",True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Concepts of Time Speed Distance,,,"Rita and Sneha can row a boat at 5 km/h and 6 km/h in still water, respectively. In a river flowing with a constant velocity, Sneha takes 48 minutes more to row 14 km upstream than to row the same distance downstream. If Rita starts from a certain location in the river, and returns downstream to the same location, taking a total of 100 minutes, then the total distance, in km, Rita will cover is ______",,,,,tita,,8,match,"Concept of upstream and Downstream:
+Sneha’s speed = 6 km/h, let river speed = x km/h
+Time difference: 14/(6-x) - 14/(6+x) = 0.8 , x = 1 km/h
+Rita’s effective speed
+Upstream = 5 - 1 = 4 km/h
+Downstream = 5 + 1 = 6 km/h
+Time to go and return = 100 min = 5/3 h
+d/4 + d/6 = 5/3 , d = 4 km
+Total distance:
+Total distance = 4 + 4 = 8 km
+Answer: 8 km",,Breakup,False,,https://iimking.com/arithmetic-2-cat-2025-slot-2-quant/,2cc670da-f3ec-4e5e-9aa0-b9fea812cf61
+,Quant,"Time, Speed & Distance",True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Concepts of Time Speed Distance,,,"Rita and Sneha can row a boat at 5 km/h and 6 km/h in still water, respectively. In a river flowing with a constant velocity, Sneha takes 48 minutes more to row 14 km upstream than to row the same distance downstream. If Rita starts from a certain location in the river, and returns downstream to the same location, taking a total of 100 minutes, then the total distance, in km, Rita will cover is ______",,,,,tita,,8,match,"Concept of upstream and Downstream:
+Sneha’s speed = 6 km/h, let river speed = x km/h
+Time difference: 14/(6-x) - 14/(6+x) = 0.8 , x = 1 km/h
+Rita’s effective speed
+Upstream = 5 - 1 = 4 km/h
+Downstream = 5 + 1 = 6 km/h
+Time to go and return = 100 min = 5/3 h
+d/4 + d/6 = 5/3 , d = 4 km
+Total distance:
+Total distance = 4 + 4 = 8 km
+Answer: 8 km",,Breakup,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,4f8be889-12e3-4c5d-b103-c2f632198a78
+,Quant,"Time, Speed & Distance",True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Concepts of Time Speed Distance,Breakup G Strategy | Concepts of Time Speed Distance | Easy,,"Rita and Sneha can row a boat at 5 km/h and 6 km/h in still water, respectively. In a river flowing with a constant velocity, Sneha takes 48 minutes more to row 14 km upstream than to row the same distance downstream. If Rita starts from a certain location in the river, and returns downstream to the same location, taking a total of 100 minutes, then the total distance, in km, Rita will cover is ______",,,,,tita,,8,match,"Concept of upstream and Downstream:
+Sneha’s speed = 6 km/h, let river speed = x km/h
+Time difference: 14/(6-x) - 14/(6+x) = 0.8 , x = 1 km/h
+Rita’s effective speed
+Upstream = 5 - 1 = 4 km/h
+Downstream = 5 + 1 = 6 km/h
+Time to go and return = 100 min = 5/3 h
+d/4 + d/6 = 5/3 , d = 4 km
+Total distance:
+Total distance = 4 + 4 = 8 km
+Answer: 8 km",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,9594ebd2-f7ec-44b5-8615-c7d3ab508d16
+,Quant,"Time, Speed & Distance",True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,TSD + Equation,,,"Rahul starts on his journey at 5pm at a constant speed so that he reaches his destination at 11pm same day . However , on his way , he stops for 20 minutes and after that, increases his speed by 3 km per hour to reach on time. If he had to stop for 10 minutes more , he would have had  to increase his speed by 5km per hour to reach on time.His initial speed in km per hour was :",18,15,12,20,mcq,B,15,match,"Let Rahul's initial speed be V km/h.
+The total distance D is D = V × 6.
+When he stops for 20mins (6-⅓ = 17/3) , t - l time
+6V = (v × t) + (v + 3) × (17/3 - t)
+On solving we have v/3 = 17 - 3t , v = 51 - 9t —- I
+When he stops for 30 mins (6-½) = 11/2
+6v = (v × t) + (v + 5) (11/2 - t)
+On solving V/2 = 55/2 - 5t , v = 55 - 10t —--- II
+On solving I and II , we have t = 4 , then  v = 15km/hr
+Thus option 2 is the answer",,Breakup,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,54b08597-3d93-4b16-9f27-351cf6fd8892
+,Quant,"Time, Speed & Distance",True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,TSD + Equation,Breakup G Strategy: TSD + Equation | Moderate,,"Rahul starts on his journey at 5pm at a constant speed so that he reaches his destination at 11pm same day . However , on his way , he stops for 20 minutes and after that, increases his speed by 3 km per hour to reach on time. If he had to stop for 10 minutes more , he would have had to increase his speed by 5km per hour to reach on time.His initial speed in km per hour was :",18,15,12,20,mcq,B,15,match,"Correct Answer: 2
+Let Rahul's initial speed be V km/h.
+The total distance D is D = V × 6.
+When he stops for 20mins (6-⅓ = 17/3) , t - l time
+6V = (v × t) + (v + 3) × (17/3 - t)
+On solving we have v/3 = 17 - 3t , v = 51 - 9t —- I
+When he stops for 30 mins (6-½) = 11/2
+6v = (v × t) + (v + 5) (11/2 - t)
+On solving V/2 = 55/2 - 5t , v = 55 - 10t —--- II
+On solving I and II , we have t = 4 , then v = 15km/hr
+Thus option 2 is the answer",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,7e273375-c35c-468e-bd68-e981d119df28
+,Quant,"Time, Speed & Distance",True,2024,1,,,,,,,,"Two places A and B are 45 kms apart and connected by a straight road. Anil goes from A to B while Sunil goes from B to A. Starting at the same time, they cross each other in exactly 1 hour 30 minutes. If Anil reaches B exactly 1 hour 15 minutes after Sunil reaches A, the speed of Anil, in km per hour, is",12,16,14,18,mcq,A,12,match,"Speed of Anil - MathJax Solution
+Speed of Anil
+Distance between A and B = 45 km
+They meet after \( 1.5 \) hours
+Let Anil's speed be \( a \) km/h and Sunil's speed be \( s \) km/h
+Since they meet after 1.5 hours:
+\( 1.5a + 1.5s = 45 \Rightarrow a + s = 30 \quad \text{(Equation 1)} \)
+It's also given: Anil takes 1 hour 15 minutes more than Sunil to reach destination.
+Time taken by Anil after meeting: \( \frac{1.5s}{a} \)
+Time taken by Sunil after meeting: \( \frac{1.5a}{s} \)
+Given:
+\( \frac{1.5s}{a} = \frac{1.5a}{s} + 1.25 \)
+Multiply both sides by \( a \cdot s \):
+\( 1.5s^2 = 1.5a^2 + 1.25as \)
+Multiply entire equation by 4:
+\( 6s^2 = 6a^2 + 5as \)
+Substitute from Equation 1: \( s = 30 - a \)
+\( 6(30 - a)^2 = 6a^2 + 5a(30 - a) \)
+Left: \( 6(900 - 60a + a^2) = 5400 - 360a + 6a^2 \)
+Right: \( 6a^2 + 150a - 5a^2 = a^2 + 150a \)
+So:
+\( 5400 - 360a = 150a - 5a^2 \)
+Rearranging:
+\( 5400 - 510a + 5a^2 = 0 \)
+Divide the equation by 5:
+\( a^2 - 102a + 1080 = 0 \)
+Solve using quadratic formula:
+\( a = \frac{102 \pm \sqrt{102^2 - 4 \cdot 1080}}{2} = \frac{102 \pm \sqrt{6084}}{2} = \frac{102 \pm 78}{2} \)
+So,
+\( a = \frac{102 + 78}{2} = 90 \) or \( a = \frac{102 - 78}{2} = 12 \)
+Final Answer: \( \boxed{12 \text{ km/h}} \)",,,False,,https://iimking.com/direct-questions-cat-2024-quant-slot-1/,4c2c95d1-062f-431c-9afb-ca58c47e7542
+CAT-2023-S1-QA-005,Quant,"Time, Speed & Distance",True,2023,1,5,,,,,,,"Arvind travels from town A to town B, and Surbhi from town B to town A, both starting at the same time along the same route. After meeting each other, Arvind takes 6 hours to reach town B while Surbhi takes 24 hours to reach town A. If Arvind traveled at a speed of 54 km/h, then the distance, in km, between town A and town B is:",648 km,720 km,864 km,972 km,mcq,D,972 km,match,"The total distance between town A and B, given the speeds and time taken, is 972 km.",,,False,,https://iimking.com/cat-2023-quant-arithmetic-actual-questions/,468272b1-336a-4eee-bb0e-c57e0d058915
+,Quant,"Time, Speed & Distance",True,2023,2,,,,,,,,"Ravi is driving at a speed of 40 km/h on a road. Vijay is 54 meters behind Ravi and driving in the same direction as Ravi. Ashok is driving along the same road from the opposite direction at a speed of 50 km/h and is 225 meters away from Ravi. The speed, in km/h, at which Vijay should drive so that all the three cross each other at the same time, is",61.6,64.4,58.8,67.2,mcq,A,61.6,match,Ans 1,,,False,,https://iimking.com/time-and-speed-actual-question-in-cat-2023-slot-2/,0f58e37f-ff87-4f64-a30f-fedf0d7624f9
+,Quant,"Time, Speed & Distance",True,2023,,,,,,,,,,,,,,,,3(3-√ 5),match,,,,True,https://iimking.com/wp-content/uploads/2023/12/image-28.png | https://iimking.com/wp-content/uploads/2023/12/image-29.png,https://iimking.com/time-speed-distance-cat-2023-actual-question/,9719addf-7af2-4241-8e40-a22bc21c1569
+,Quant,"Time, Speed & Distance",True,2022,1,,,,,"Time, Speed and Distance",CAT 2022 Slot 1 Question 5,,"Trains A and B start traveling at the same time towards each other with constant speeds from stations X and Y, respectively. Train A reaches station Y in 10 minutes while train B takes 9 minutes to reach station X after meeting train A. Then the total time taken, in minutes, by train B to travel from station Y to station X is",15,12,6,10,mcq,A,15,match,"Let the meeting point of the two trains between stations X and Y be M.
+Let the time taken to reach M from X by train A be ‘t’ minutes. Since the two trains start simultaneously, the time taken by train B to reach M from Y will also be ‘t’ minutes.
+We know that train A completes the entire journey in 10 minutes, so the time taken by train A to travel from M to Y will be ‘10 - t’ minutes. We are told that train B takes 9 minutes to reach X after it meets train A, which means, train B takes 9 minutes to travel from M to X.
+When two bodies travel equal distances at constant speeds, the ratio of time taken by them to travel those distances will be the same.
+The time taken by A and B to travel the distance between A and M is ‘t’ minutes and 9 minutes respectively. Similarly, the time taken by them to travel the distance between M and B is ‘10 - t’ and ‘t’ minutes.
+The ratio of the times taken should be equal.
+t/9=10−t/t
+t^2=9(10−t)
+t^2=90−9t
+t^2+9t−90=0
+t^2+15t−6t−90=0
+t(t+15)−6(t+15)=0
+(t+15)(t−6)=0
+t = - 15 or t = 6
+t can’t be negative, therefore, t is 6.
+The total time taken by train B to reach station X from station Y is 6 + 9 =
+15 minutes.",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,3f474d13-0863-4861-86d6-f650f765f60c
+,Quant,"Time, Speed & Distance",True,2022,2,,,,,"Time, Speed and Distance",CAT 2022 Slot 2 Question 4,,"Two ships meet mid-ocean, and then, one ship goes south and the other ship goes west, both travelling at constant speeds. Two hours later, they are 60 km apart. If the speed of one of the ships is 6 km per hour more than the other one, then the speed, in km per hour, of the slower ship is",12,18,20,24,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/time-speed-4.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,d574a83e-6ede-4d39-b01d-9d3a3b6b180d
+,Quant,"Time, Speed & Distance",True,2022,3,,,,,"Time, Speed and Distance",CAT 2022 Slot 3 Question 2,,"Moody takes 30 seconds to finish riding an escalator if he walks on it at his normal speed in the same direction. He takes 20 seconds to finish riding the escalator if he walks at twice his normal speed in the same direction. If Moody decides to stand still on the escalator, then the time, in seconds, needed to finish riding the escalator is",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/time-speed-and-distance-2.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,15239c72-f214-454a-a9e1-5329b669bc0e
+,Quant,"Time, Speed & Distance",True,2022,3,,,,,"Time, Speed and Distance",CAT 2022 Slot 3 Question 1,,"Two cars travel from different locations at constant speeds. To meet each other after starting at the same time, they take 1.5 hours if they travel towards each other, but 10.5 hours if they travel in the same direction. If the speed of the slower car is 60 km/hr, then the distance traveled, in km, by the slower car when it meets the other car while traveling towards each other, is",150,100,90,120,mcq,C,90,match,"Let the distance between the 2 cars be D km.
+Let the speeds of the two cars be ‘a’ and ‘b’ respectively and a > b.
+Case I)
+Cars are moving in the opposite direction (towards each other)
+Relative speed = a + b
+Time taken = 1.5 hrs
+Case II)
+Cars are moving in the same direction (Car A chasing Car B)
+Relative speed = a - b
+Time taken = 10.5 hrs
+In both the cases the distance between the cars is the same, ‘D’.
+But the time taken is in the ratio 1.5 : 10.5 or 1 : 7
+Therefore, the speeds will be in the ratio 7 : 1
+a + b = 7(a - b)
+8b = 6a
+3a = 4b
+Substituting b = 60 kmph,
+We get, a = 80 kmph.
+D = (a + b) * 1.5 = 210km
+When they move towards each other the distance covered by them is in the ratio 4 : 3 and the total distance covered by them together is 210 km.
+The slower car, B, covers 3/7 th of this 210 km which is 90 km.",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,36111abc-9561-4397-aefe-a10b57193dda
+,Quant,"Time, Speed & Distance",True,2022,3,,,,,"Time, Speed and Distance",CAT 2022 Slot 3 Question 3,,"Two ships are approaching a port along straight routes at constant speeds. Initially, the two ships and the port formed an equilateral triangle with sides of length 24 km. When the slower ship travelled 8 km, the triangle formed by the new positions of the two ships and the port became right-angled. When the faster ship reaches the port, the distance, in km, between the other ship and the port will be",8,12,6,4,mcq,B,12,match,"Let us denote the port by P,
+the slower ship by S.
+the faster ship by F.
+Triangle APB is right-angled, We know that angle APB is 60 degrees, because triangle SFA is equilateral. The right angle must be at point B, because angle PAB is less than 60 degrees.
+sin(30) = 1/2=BP/AP
+BP = 0.5(AP) = 8
+BF = FP - BP = 24 - 8 = 16
+That mean, the faster ship is twice as fast as the slower one.
+So, when the faster ship reaches the Port covering 24 km, the slower ship covers only 12 km and has remaining 12 km left to cover.",,,True,https://iimking.com/wp-content/uploads/2023/10/time-speed-3.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,d34ea5f4-06d5-4a40-983c-2a72be012865
+,Quant,"Time, Speed & Distance",True,2021,1,,,,,"Time, Speed and Distance",CAT 2021 Slot 1 Question 8,,"Two trains cross each other in 14 seconds when running in opposite directions along parallel tracks. The faster train is 160 m long and crosses a lamp post in 12 seconds. If the speed of the other train is 6 km/hr less than the faster one, its length, in m, is",184,180,190,192,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/tsd-8.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,3ec98126-0e52-454c-b2db-684ba7a09d81
+,Quant,"Time, Speed & Distance",True,2021,2,,,,,"Time, Speed and Distance",CAT 2021 Slot 2 Question 7,,"Two trains A and B were moving in opposite directions, their speeds being in the ratio 5 : 3. The front end of A crossed the rear end of B 46 seconds after the front ends of the trains had crossed each other. It took another 69 seconds for the rear ends of the trains to cross each other. The ratio of length of train A to that of train B is",2 : 3,2 : 1,5 : 3,3 : 2,mcq,D,3 : 2,match,"Two trains A and B were moving in opposite directions, their speeds being in the ratio of 5 : 3.
+The speed of train A is 5x.
+The speed of train B is 3x.
+Let's assume length of train A and train B are La and Lb
+The front end of A crossed the rear end of B 46 seconds after the front ends of the trains had crossed each other.
+So, the distance travelled is Lb. For this, the time taken is 46 sec.
+Trains took another 69 seconds for the rear ends of the trains to cross each other.
+So, the distance travelled is La. For this, the time taken is 69 sec.
+La/5x+3x/Lb/5x+3x
+=69/46
+The relative speed is (5x + 3x), since they are moving opposite to each other.
+La/Lb
+= 3/2",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,3e57f9ec-ff1a-4584-b641-bb84bafa190e
+,Quant,"Time, Speed & Distance",True,2021,3,,,,,"Time, Speed and Distance",CAT 2021 Slot 3 Question 6,,"Mira and Amal walk along a circular track, starting from the same point at the same time. If they walk in the same direction, then in 45 minutes, Amal completes exactly 3 more rounds than Mira. If they walk in opposite directions, then they meet for the first time exactly after 3 minutes. The number of rounds Mira walks in one hour is",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/time-and-speed-5.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,a0fd2551-5ac0-4745-ad5f-733f321260cc
+,Quant,"Time, Speed & Distance",True,2020,1,,,,,"Time, Speed and Distance",CAT 2020 Slot 1 Question 18,,"Two persons are walking beside a railway track at respective speeds of 2 and 4 km per hour in the same direction. A train came from behind them and crossed them in 90 and 100 seconds, respectively. The time, in seconds, taken by the train to cross an electric post is nearest to",87,82,78,75,mcq,B,82,match,"Two person to be A and B
+A = 2km/hr and B = 4 km/hr
+Speed of the train = t km/hr
+Given, Train crosses A in 90 seconds (Length of the train is the distance)
+t – 2 in 90 seconds and t – 4 in 100 seconds
+Ratio of speed is opposite to time
+(t – 2) 90 = (t - 4) 100
+Solving t = 22km/hr
+For A, Speed = t – 2 = 20 km/hr in 90 seconds
+So travelling at 22 km/hr ----> 90×20/22 ≅ 82",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,51b6df99-297b-4e8b-b9a2-aeaf24aa625a
+,Quant,"Time, Speed & Distance",True,2020,1,,,,,"Time, Speed and Distance",CAT 2020 Slot 1 Question 17,,"A straight road connects points A and B. Car 1 travels from A to B and Car 2 travels from B to A, both leaving at the same time. After meeting each other, they take 45 minutes and 20 minutes, respectively, to complete their journeys. If Car 1 travels at the speed of 60 km/hr, then the speed of Car 2, in km/hr, is",90,80,70,100,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/tsd-q17-.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,afda1c2e-4e43-4982-9024-701d000c5523
+,Quant,"Time, Speed & Distance",True,2020,1,,,,,"Time, Speed and Distance",CAT 2020 Slot 1 Question 19,,"Leaving home at the same time, Amal reaches office at 10:15 am if he travels at 8kmph, and at 9:40 am if he travels at 15kmph. Leaving home at 9:10 am, at what speed, in kmph, must he travel so as to reach office exactly at 10:00 am?",12,11,13,14,mcq,A,12,match,"Speed are 8 km/hr and 15 km/hr
+So it takes 15t times and 8t times
+Difference of times = 15t – 8t = 7t
+7t = 35 minutes (10:15 min – 9:40 min)
+t = 5 minutes
+He takes 75 minutes by travelling at 8 km/hr and 40 minutes if travelled at 15 km/hr
+He starts at 9 am.
+So, 9:10 to 10:00 = 50 minutes
+15 km/hr = 40 min
+And at what speed he should travel, so as to reach there within 50 minutes
+15×40/50
+= 12 km/hr",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,b2e5adfe-4442-4a17-a16e-63ab1893df70
+,Quant,"Time, Speed & Distance",True,2020,1,,,,,"Time, Speed and Distance",CAT 2020 Slot 1 Question 16,,"A train travelled at one-thirds of its usual speed, and hence reached the destination 30 minutes after the scheduled time. On its return journey, the train initially travelled at its usual speed for 5 minutes but then stopped for 4 minutes for an emergency. The percentage by which the train must now increase its usual speed so as to reach the destination at the scheduled time, is nearest to",58,67,50,61,mcq,B,67,match,"Let’s take speed of the train to be x and the time taken be t
+Since speed is reduced to 1/3
+rd,
+New speed = x/3
+Since the speed is one-third, time taken will be tripled. T = 3t
+This 3t is after the scheduled time, So extra 2t = 30 mintues
+t = 15 minutes
+Train travels at x km/hr takes 15 minutes and
+Train travels at x/3
+km/hr takes 45 minutes
+So, the train usually takes 15 minutes to cover the distance.
+It travels 5 minutes at the usual speed. That is, it travels 1/3
+rd of the time at the usual speed. So it covers 1/3
+rd of the distance in 5 minutes.
+To reach it's destination in the on time, the train has to travel the remaining 2/3
+rds of the distance in 10 minutes. Since the train halts for 4 minutes, it should now cover the 2/3
+rds of the distance in 6 (10 - 4) minutes.
+In other words, the train has to cover the same distance in 6/10
+th of the usual time.
+In order to do so, the speed must be 10/6
+ths of the usual speed. Or the increased speed will be 4/6
+ths or 2/3
+rds of the usual speed. Which is an increase of 66.66% or nearly 67%.",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,d417d11e-9c07-4227-a8e2-41d3eb45f4cf
+,Quant,"Time, Speed & Distance",True,2020,2,,,,,"Time, Speed and Distance",CAT 2020 Slot 2 Question 12,,"In a car race, car A beats car B by 45 km, car B beats car C by 50 km, and car A beats car C by 90 km. The distance (in km) over which the race has been conducted is",550,475,500,450,mcq,D,450,match,"Let the length of the race track be 'x' km.
+By the time A finishes the race, B lags by 45km.
+That is, in the same time, while A runs x kms, B runs (x-45) kms
+Ratio of Speeds of A and B = x/x−45
+By the time B finishes the race, C lags by 50km.
+That is, in the same time, while B runs x kms, C runs (x-50) kms
+Ratio of Speeds of B and C = x/x−50
+By the time A finishes the race, C lags by 90km.
+That is, in the same time, while A runs x kms, C runs (x-90) kms
+Ratio of Speeds of A and C = x/x−90
+(Ratio of Speeds of A and B) × (Ratio of Speeds of B and C) = (Ratio of Speeds of A and C)
+x/x−45× /xx−50 = x/x−90
+x/x−45 = x−50/x−90
+If ab = c/d
+; then a/b = c−a/d−b
+Threfore, x/x−45 = x−50−x/x−90−(x−45)
+x/x−45 = −50−45= 109
+x/x−45
+= 10/9
+9x = 10x - 450
+x = 450.
+or
+Ratio of Speeds of A and B = 10/9
+By the A covers x, B covers 0.9x
+Since A beats B by 45km, 0.1x = 45
+x = 450.",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,59bc0127-1693-40d0-be19-144ed06ac5ba
+,Quant,"Time, Speed & Distance",True,2020,2,,,,,"Time, Speed and Distance",CAT 2020 Slot 2 Question 14,,"Two circular tracks T1 and T2 of radii 100 m and 20 m, respectively touch at a point A. Starting from A at the same time, Ram and Rahim are walking on track T1 and track T2 at speeds 15 km/hr and 5 km/hr respectively. The number of full rounds that Ram will make before he meets Rahim again for the first time is",5,3,4,2,mcq,B,3,match,"R1 = 100m and R2 = 20m
+Speed of Ram = 15km/hr and Rahim’s speed = 5km/hr
+Time taken by Ram = 2π(100)/15
+Time taken by Rahim = 2π(20)/5
+Ratio of the time taken by Ram : Rahim = 5 : 3
+After 15 units of time Ram and Rahim will be at starting point and meeting
+That time ram would have done 3 rounds",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,689ece3c-863e-4e5d-9b70-1bd3ce958c9a
+,Quant,"Time, Speed & Distance",True,2020,2,,,,,"Time, Speed and Distance",CAT 2020 Slot 2 Question 13,,The distance from B to C is thrice that from A to B. Two trains travel from A to C via B. The speed of train 2 is double that of train 1 while traveling from A to B and their speeds are interchanged while traveling from B to C. The ratio of the time taken by train 1 to that taken by train 2 in travelling from A to C is,7:5,4:1,1:4,5:7,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/tsddddd.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,6e162410-6094-499d-9899-fa5855414fc7
+,Quant,"Time, Speed & Distance",True,2020,2,,,,,"Time, Speed and Distance",CAT 2020 Slot 2 Question 15,,"A and B are two points on a straight line. Ram runs from A to B while Rahim runs from B to A. After crossing each other, Ram and Rahim reach their destinations in one minutes and four minutes, respectively. If they start at the same time, then the ratio of Ram's speed to Rahim's speed is",2,2√2,√2,1/2,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/question-15tsd.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,90bee44e-664e-4f12-a175-be43b0392ae9
+,Quant,"Time, Speed & Distance",True,2020,3,,,,,"Time, Speed and Distance",CAT 2020 Slot 3 Question 11,,"Vimla starts for office every day at 9 am and reaches exactly on time if she drives at her usual speed of 40 km/hr. She is late by 6 minutes if she drives at 35 km/hr. One day, she covers two-thirds of her distance to office in one-thirds of her usual time to reach office, and then stops for 8 minutes. The speed, in km/hr, at which she should drive the remaining distance to reach office exactly on time is",27,28,29,26,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/tsd-00.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,57395e90-b297-4341-b122-e2c7872f432f
+,Quant,"Time, Speed & Distance",True,2020,3,,,,,"Time, Speed and Distance",CAT 2020 Slot 3 Question 10,,"A and B are two railway stations 90 km apart. A train leaves A at 9:00 am, heading towards B at a speed of 40 km/hr. Another train leaves B at 10:30 am, heading towards A at a speed of 20 km/hr. The trains meet each other at",11 : 20 am,11 : 00 am,10 : 45 am,11 : 45 am,mcq,B,11 : 00 am,match,"Now both the trains A and B have 90 - 60 = 30 km to cover between them.
+The relative speed of the two trains will be 40 + 20 = 60kmph.
+With a relative speed of 60kmph, the two trains cover 30km in half an hour.
+Hence the two trains will meet at 11: 00 AM",,,True,https://iimking.com/wp-content/uploads/2023/10/tsd-12.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,78c6ba8a-e2cc-4ace-9dec-9f0a1c73cbd4
+,Quant,"Time, Speed & Distance",True,2020,3,,,,,"Time, Speed and Distance",CAT 2020 Slot 3 Question 9,,"Anil, Sunil, and Ravi run along a circular path of length 3 km, starting from the same point at the same time, and going in the clockwise direction. If they run at speeds of 15 km/hr, 10 km/hr, and 8 km/hr, respectively, how much distance in km will Ravi have run when Anil and Sunil meet again for the first time at the starting point?",4.6,4.2,4.8,5.2,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/tsd-10.jpg,https://iimking.com/cat-previous-year-questions-time-speed-distance/,af06cbda-c2ce-4657-a432-6d89ec8f1fdb
+,Quant,"Time, Speed & Distance",True,2019,1,,,,,"Time, Speed and Distance",CAT 2019 Slot 1 Question 24,,"In a race of three horses, the first beat the second by 11 metres and the third by 90 metres. If the second beat the third by 80 metres, what was the length, in metres, of the racecourse?",,,,,tita,,880,match,"A beats B by 11 meters. When B completes the 11 meters, there is a lead of 80 meters to C
+So, C must have travelled only 90 - 80 = 10 meters
+When B travels 11 meters, C travels only 10 meters
+Ratio of distance travelled by second and third horse are11x and 10 x respectively
+We know that the second horse beats the third horse by 80 meters.
+So, Length of the track = Distance travelled by the second horse = 11 x 80 = 880 meters",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,4899f015-5f12-4481-945f-9d987d3d4a2d
+,Quant,"Time, Speed & Distance",True,2019,1,,,,,"Time, Speed and Distance",CAT 2019 Slot 1 Question 25,,"One can use three different transports which move at 10, 20, and 30 kmph, respectively. To reach from A to B, Amal took each mode of transport 1/3 of his total journey time, while Bimal took each mode of transport 1/3 of the total distance. The percentage by which Bimal’s travel time exceeds Amal’s travel time is nearest to",22,19,21,20,mcq,A,22,match,"Let the distance be = 60 Kms.
+So, Bimal travels a distance of 20Kms in each mode and Amal travels 10, 20 and 30 Kms respectively in 1 hour each
+Time taken by Bimal = Time taken to travel 20 kms in 10 Kmph + Time taken to travel 20 kms in 20 Kmph + Time taken to travel 20 kms in 30 Kmph
+Time taken by Bimal = 2 + 1 + hours = 3 + hours
+Extra time taken by Bimal = hour
+Percentage increase in time = x 100 = x 100 = 22
+So, Percentage increase in time = 22",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image033.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image033.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image033.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image077.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image078.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,b58fb6da-8793-47de-8e32-d26c3267041e
+,Quant,"Time, Speed & Distance",True,2019,1,,,,,"Time, Speed and Distance",CAT 2019 Slot 1 Question 23,,"Two cars travel the same distance starting at 10:00 am and 11:00 am, respectively, on the same day. They reach their common destination at the same point of time. If the first car travelled for at least 6 hours, then the highest possible value of the percentage by which the speed of the second car could exceed that of the first car is",20,10,35,25,mcq,A,20,match,"The minimum time travelled by Car 1 = 6 hours.
+Minimum time travelled by Car 2 = 5 hours
+Now, the time taken can be of any value -> (6,5) (7,6) ...... (1000,999)
+However, since we want to calculate the highest possible percentage by which speed of car 2 could exceed car 1, we consider the lowest time taken - 6 hours and 5 hours, respectively.
+Let the distance between the start and finish be 30 Kms (LCM of 6 and 5)
+So, Car 1 travels at 5 Kmph and Car 2 travels at 6 Kmph
+Percentage increase in speed by Car 2 = x 100 = x 100 = 20%",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image046.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image047.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,b81d1817-9ab9-43c9-b5b2-7095501d8036
+,Quant,"Time, Speed & Distance",True,2019,1,,,,,"Time, Speed and Distance",CAT 2019 Slot 1 Question 26,,"The wheels of bicycles A and B have radii 30 cm and 40 cm, respectively. While traveling a certain distance, each wheel of A required 5000 more revolutions than each wheel of B. If bicycle B traveled this distance in 45 minutes, then its speed, in km per hour, was",18π,16π,12π,14π,mcq,B,16π,match,"Circumference of A and B are in the ratio 3: 4
+So, Ratio of Distance travelled in one revolution by A and B = 3: 4
+Since they travel the same distance,
+Ratio of number of revolutions of A and B = 4: 3 ----- (1)
+We know that each wheel of A requires 5000 more revolutions than B
+So, the Ratio of number of revolutions of A and B = (n + 5000): n ------(2)
+So, comparing (1) and (2)
+Number of revolutions of A and B are 20000 and 15000 respectively
+So, we know Bike B does 15000 revolutions in 45 minutes
+Distance travelled = 2 x π x r x Number of revolutions
+Speed of Bike B = mph
+Speed of Bike B = 2 x x x 5 x 4 Kmph
+Speed of Bike B = 16 Kmph",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image114.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image115.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image116.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image115.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,f4d10e49-05c0-470d-8ff4-3782ab956a12
+,Quant,"Time, Speed & Distance",True,2019,2,,,,,"Time, Speed and Distance",CAT 2019 Slot 2 Question 22,,"Two ants A and B start from a point P on a circle at the same time, with A moving clock-wise and B moving anti-clockwise. They meet for the first time at 10:00 am when A has covered 60% of the track. If A returns to P at 10:12 am, then B returns to P at",10:27 am,10:25 am,10:45 am,10:18 am,mcq,A,10:27 am,match,"By the time A and B meet for the first time, A covers 60% of the distance, while B covers 40% of the distance.
+So, the speeds of A and b are in the ratio 60:40 or 3:2
+Hence, the time they take to cover a particular distance will be in the ratio 2:3
+We know that A covers 60% of the distance at 10:00 AM and covers 100% of the distance at 10:12 AM.
+That means A takes 12 minutes to cover 40% of the track. So to cover the entire track he must have taken 12+12+6 = 30 minutes.
+(because 40% + 40% + 20% = 100%)
+Since the time taken by A and B to complete the track are in the ratio 2:3, the time taken by B to complete the track will be 45 minutes.
+At 10:00 AM, B has covered 40% of the track. If we can find out what time does B take to complete the remaining 60% of the track, we can find the finish time of B.
+Time required to complete 60% of the track = 60% of 45 = 27 minutes.
+Hence, B complete one single round at 10:27 AM.",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,a7c3b2b5-d597-432a-8a2c-d9de55e098c5
+,Quant,"Time, Speed & Distance",True,2019,2,,,,,"Time, Speed and Distance",CAT 2019 Slot 2 Question 21,,"John jogs on track A at 6 kmph and Mary jogs on track B at 7.5 kmph. The total length of tracks A and B is 325 metres. While John makes 9 rounds of track A, Mary makes 5 rounds of track B. In how many seconds will Mary make one round of track A?",,,,,tita,,48,match,"Let the track length for John be 'a' and for Mary be 'b'
+So, Distance travelled by John = 9a
+Distance travelled by Mary = 5b
+Now, Time taken by John = hours
+Time taken by Mary = hours
+We know that Time taken by John = Time taken by Mary
+=
+a = b
+Total track length = 325 meters
+So, b + b = 325 meters
+b = 325 meters
+b = 225 meters
+a = 100 meters
+Mary jogs at 7.5 Kmph = 7.5 x
+So, time taken = = 48 seconds",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,c723965e-37aa-4297-a1aa-b4068e3074b4
+,Quant,"Time, Speed & Distance",True,2019,2,,,,,"Time, Speed and Distance",CAT 2019 Slot 2 Question 20,,"A cyclist leaves A at 10 am and reaches B at 11 am. Starting from 10:01 am, every minute a motorcycle leaves A and moves towards B. Forty-five such motorcycles reach B by 11 am. All motorcycles have the same speed. If the cyclist had doubled his speed, how many motorcycles would have reached B by the time the cyclist reached B?",22,20,15,23,mcq,C,15,match,"It is given that the cyclist starts at 10:00 am from A and reaches B at 11:00 am
+Now, Motorcyclists start every minute from 10:01 am, and 45 such motorcyclists reach B before 11:00 am
+If they leave one by one every minute, the 45th motorcyclist would have left by 10:45 am to reach B at 11:00 am.
+Thus, time taken by one motorcyclist to reach B from A = 15 minutes.
+Now, the cyclist doubles his speed. This means, he reaches B at 10:30 am
+So, the last motorcyclist should have left A by 10:15 am
+Thus, 15 motorcyclists would have reached B by the time the cyclist reaches B",,,False,,https://iimking.com/cat-previous-year-questions-time-speed-distance/,e7ccbeb1-09a0-4038-92d6-3c10874cc282
+,Quant,"Time, Speed & Distance",True,2018,1,,,,,"Time, Speed and Distance",CAT 2018 Slot 1 Question 30,,"The distance from A to B is 60 km. Partha and Narayan start from A at the same time and move towards B. Partha takes four hours more than Narayan to reach B. Moreover, Partha reaches the mid-point of A and B two hours before Narayan reaches B. The speed of Partha, in km per hour, is",6,3,4,5,mcq,D,5,match,"Let Narayanan take X hrs to reach B then Partha would take X + 4 hrs
+Its given that Partha reaches the mid-point of A and B two hours before Narayan reaches B
+X+42�+42 = X – 2 => X=8 hrs
+So, Partha would take 8+4 = 12 hrs to travel 60 Kms at a speed of 60126012 Kmph
+Speed of Partha = 5 Kmph",,,True,https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/figa/Speed-Two_friends.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,9f9d6c41-f7ee-46d0-875c-8b61e7ee8d09
+,Quant,"Time, Speed & Distance",True,2018,2,,,,,"Time, Speed and Distance",CAT 2018 Slot 2 Question 27,,"Points A, P, Q and B lie on the same line such that P, Q and B are, respectively, 100 km, 200 km and 300 km away from A. Cars 1 and 2 leave A at the same time and move towards B. Simultaneously, car 3 leaves B and moves towards A. Car 3 meets Car 1 at Q, and Car 2 at P. If each car is moving in uniform speed then the ratio of the speed of Car 2 to that of Car 1 is",1 : 4,2 : 9,1 : 2,2 : 7,mcq,A,1 : 4,match,"It is given that points A, P, Q and B lie on the same line such that P, Q and B are 100 km, 200 km and 300 km away from A. Let us draw the diagram first. All of them are on the same straight line and P, Q lie between A and B.
+Cars 1 and Cars 2 leave A at the same time and move towards B. Simultaneously, Car 3 leaves B and moves towards A. Let us add more details to the diagram. C1 and C2 move towards B and C3 moves towards A. C3 meets C1 at Q and C3 meets C2 at P.
+Let us assume the speeds of Car 1, 2, and 3 to be C1, C2 and C3 respectively. Car 1 is travelling quicker than Car 2. When Car 1 travels 200 km to reach Q, Car 3 has travelled 100 km or ratio of their speeds, C1 : C3 is 2 : 1.C1 and C2 move towards B and C3 moves towards A. C3 meets C1 at Q and C3 meets C2 at P.
+Let us assume the speeds of Car 1, 2, and 3 to be C1, C2 and C3 respectively.When Car 3 travels 200 km to reach P, Car 2 has travelled 100 km or ratio of their speeds, C3 : C2 is 2 : 1. Now we have all the ratios. We know that C1 : C3 is 2 : 1 and C3 : C2 is 2 : 1. We can see that C3 is the common link
+So, taking LCM of C3, we get,
+We can see that ratio of speeds of Car 2 to Car 1 is 1 : 4. Hence, C2 : C1 = 1 : 4",,,True,https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/cars2.png | https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/cars3.png | https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/cars4.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,31258c2e-c49b-4aba-8431-8fd9f53fae18
+,Quant,"Time, Speed & Distance",True,2018,2,,,,,"Time, Speed and Distance",CAT 2018 Slot 2 Question 29,,"Points A and B are 150 km apart. Cars 1 and 2 travel from A to B, but car 2 starts from A when car 1 is already 20 km away from A. Each car travels at a speed of 100 kmph for the first 50 km, at 50 kmph for the next 50 km, and at 25 kmph for the last 50 km. The distance, in km, between car 2 and B when car 1 reaches B is",,,,,tita,,5,match,"Given that points A and B are 150 km apart.
+Cars 1 and 2 travel from A to B, but car 2 starts from A when car 1 is already 20 km away from A.
+Each car travels at a speed of 100 kmph for the first 50 km, at 50 kmph for the next 50 km, and at 25 kmph for the last 50 km.
+The Car 1 is 20km away from A and it travels at 100kmph and the time taken is 2010020100 = 1515hr
+So car 2 is 12 minutes behind car 1.
+We have to find the distance in km, between car 2 and B when car 1 reaches B.
+If car 1 reaches B, car 2 will take 12 minutes to reach b.
+Distance between car 2 and B is 25 × 1515 = 5 kms
+The distance, in km, between car 2 and B when car 1 reaches B is 5 kms.",,,True,https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/distance1.png | https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/distance2.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,44b04d0f-6137-49a9-846d-264d50de35b6
+,Quant,"Time, Speed & Distance",True,2018,2,,,,,"Time, Speed and Distance",CAT 2018 Slot 2 Question 28,,"On a long stretch of east-west road, A and B are two points such that B is 350 km west of A. One car starts from A and another from B at the same time. If they move towards each other, then they meet after 1 hour. If they both move towards east, then they meet in 7 hrs. The difference between their speeds, in km per hour, is",,,,,tita,,50,match,"Given that A and B are two points such that B is 350 km west of A. One car starts from A and another from B at the same time.
+They meet after one hour or their relative velocity is (a + b)km/hr and their relative distance is 350kms
+a + b = 35013501 which is equal to 350 kms/hr
+If they both move towards east, then they meet in 7 hrs.
+We have to find the difference between their speeds, in km per hour. B is catching upon A, so once again their relative distance will be 350kms.
+Relative speed = b – a , B travels faster so that it can meet a.
+⟹ 350b−a350�−� = 7
+⟹ b - a = 50 km/hr
+We know that b + a = 350 km/hr
+By this we can find the values of a and b but they have asked for only the difference between their speeds which is b – a = 50km/hr",,,True,https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/speed1.png | https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/speed2.png,https://iimking.com/cat-previous-year-questions-time-speed-distance/,52903e1e-f0db-41bf-b04a-cc0b5332243b
+,Quant,"Time, Speed & Distance",,2024,,2,,,,,,,"A bus is 3.5 hours late when traveling at 60 km/hr. The next day, it travels 2/3 of the distance in 1/3 of the time and the remaining at 40 km/hr to reach on time. What is the scheduled arrival time?",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,f31066c0-9a6e-4c7f-a492-dba13ec8455d
+,Quant,"Time, Speed & Distance",,2024,,9,,,,,,,"A train travelled a certain distance at uniform speed. If speed increased by 6 km/hr, time reduces by 4 hrs. If speed decreased by 6 km/hr, time increases by 6 hrs. Find the distance in km.",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,63c2c5df-2435-4e54-9a88-26f3c987da8e
+,Quant,"Time, Speed & Distance",,2024,,,,,,,,,"Two places A and B are 45 kms apart and connected by a straight road. Anil goes from A to B while Sunil goes from B to A. Starting at the same time, they cross each other in exactly 1 hour 30 minutes. If Anil reaches B exactly 1 hour 15 minutes after Sunil reaches A, the speed of Anil, in km per hour, is.",12,16,14,18,mcq,,,not_checked,,,,False,,https://iimking.com/quant/,0e3fcdfa-8f36-4ae5-8cb8-af8c20a4df00

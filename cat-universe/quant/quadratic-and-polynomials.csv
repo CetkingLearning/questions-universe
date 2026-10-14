@@ -1,0 +1,767 @@
+cat_question_id,section,topic,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,Quant,Quadratic & Polynomials,True,2025,1,,,,X Maro G Strategy,Concept of Quadratic Equations,,,"The number of non-negative integer values of k for which the quadratic equation x² – 5x + k = 0 has only integer roots, is",,,,,tita,,3,match,"Quadratic: x² – 5x + k = 0.
+For integer roots, discriminant must be a square:
+D = 25 – 4k = n².
+Try n = 1, 3, 5:
+n = 1 → k = 6
+n = 3 → k = 4
+n = 5 → k = 0
+All are non-negative.
+Total values = 3.
+Answer: 3",,X Maro,False,,https://iimking.com/equations-algebra-cat-2025-slot-1-actual-questions/,23eeb46e-6cd0-42bf-bb5f-078245c0ce2c
+,Quant,Quadratic & Polynomials,True,2025,1,,,,X Maro G Strategy,Concept of Quadratic Equations,X maro G Strategy | Concept of Quadratic Equations | CAT 2025 Slot 1,,"The number of non-negative integer values of k for which the quadratic equation x² – 5x + k = 0 has only integer roots, is",,,,,tita,,3,match,"Quadratic: x² – 5x + k = 0.
+For integer roots, discriminant must be a square:
+D = 25 – 4k = n².
+Try n = 1, 3, 5:
+n = 1 → k = 6
+n = 3 → k = 4
+n = 5 → k = 0
+All are non-negative.
+Total values = 3.
+Answer: 3",,X maro G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,3f5c44f7-7afe-420d-8374-2b11a821cb8e
+,Quant,Quadratic & Polynomials,True,2025,1,,,,X Maro G Strategy,Concept of Quadratic Equations,X maro G Strategy | Concept of Quadratic Equations | CAT 2025 Slot 1,,"The number of non-negative integer values of k for which the quadratic equation x² – 5x + k = 0 has only integer roots, is",,,,,tita,,3,match,"Quadratic: x² – 5x + k = 0.
+For integer roots, discriminant must be a square:
+D = 25 – 4k = n².
+Try n = 1, 3, 5:
+n = 1 → k = 6
+n = 3 → k = 4
+n = 5 → k = 0
+All are non-negative.
+Total values = 3.
+Answer: 3",,X maro G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,6b57fb6f-9d18-47b0-8214-d66d51f4c6bc
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concepts of Polynomial Equations + Quadratic,Concepts of Polynomial Equations + Quadratic | Hard,,"If 9^(x² + 2x – 3) − 4(3^(x² + 2x − 2)) + 27 = 0,
+then the product of all possible values of x is _____",20,15,30,5,mcq,A,20,match,"Correct Answer: A) 20
+Given equation:
+9^(x² + 2x − 3) − 4·3^(x² + 2x − 2) + 27 = 0
+Step 1: Write everything with base 3
+9 = 3², so ⇒ 9^(x² + 2x − 3) = 3^(2x² + 4x − 6)
+Also, 3^(x² + 2x − 2) = 3·3^(x² + 2x − 3)
+Let t = 3^(x² + 2x − 3), where t > 0.
+Then the equation becomes: t² − 4(3t) + 27 = 0 ⇒ t² − 12t + 27 = 0
+Step 2: Solve the quadratic in t
+t² − 12t + 27 = 0 ⇒ (t − 3)(t − 9) = 0 ⇒ So t = 3 or t = 9
+Step 3: Convert back to x
+Case 1: 3^(x² + 2x − 3) = 3 ⇒ x² + 2x − 3 = 1 ⇒ x² + 2x − 4 = 0
+Roots: x = −1 ± √5 ⇒ Product of roots = −4
+Case 2: 3^(x² + 2x − 3) = 9 = 3² ⇒ x² + 2x − 3 = 2 ⇒ x² + 2x − 5 = 0
+Roots: x = −1 ± √6 ⇒ Product of roots = −5
+Step 4: Product of all possible values of x
+Total product = (product from case 1) × (product from case 2)
+= (−4) × (−5) = 20",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,1a1cc2d5-e9a2-4a62-b9bc-964760312ee5
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,Vedic Patterns G Strategy,Quadratic Equations,,,"If m and n are integers such that (m + 2n)(2m + n) = 27,
+then the maximum possible value of 2m − 3n is ___",,,,,tita,,17,match,"Given: (m + 2n)(2m + n) = 27
+Since m and n are integers, (m + 2n) and (2m + n) must be integer factors of 27.
+Possible factor pairs (m + 2n, 2m + n) are:
+(1, 27), (3, 9), (9, 3), (27, 1),
+(−1, −27), (−3, −9), (−9, −3), (−27, −1)
+We now solve each pair as a system: m + 2n = A; 2m + n = B
+From these:
+Multiply first equation by 2: 2m + 4n = 2A
+Subtract from second: (2m + n) − (2m + 4n) = B − 2A
+⇒ −3n = B − 2A ⇒ n = (2A − B) / 3
+Then m = A − 2n
+m + 2n | 2m + n | n = (2A − B)/3 | m = A − 2n | 2m − 3n | Valid / Reject
+1 | 27 | (2 − 27)/3 = −25/3 | — | — | Reject
+3 | 9 | (6 − 9)/3 = −1 | 3 − 2(−1) = 5 | 13 | Valid
+9 | 3 | (18 − 3)/3 = 5 | 9 − 10 = −1 | −17 | Valid
+27 | 1 | (54 − 1)/3 = 53/3 | — | — | Reject
+−1 | −27 | (−2 + 27)/3 = 25/3 | — | — | Reject
+−3 | −9 | (−6 + 9)/3 = 1 | −3 − 2 = −5 | −13 | Valid
+−9 | −3 | (−18 + 3)/3 = −5 | −9 + 10 = 1 | 17 | Valid
+−27 | −1 | (−54 + 1)/3 = −53/3 | — | — | Reject
+Maximum possible valid value of 2m − 3n = 17",,Vedic Patterns,False,,https://iimking.com/equations-algebra-cat-2025-slot-2-actual-questions/,2fb85e65-58d7-416b-965a-3d104eb48a2b
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,Vedic Patterns G Strategy,Quadratic Equations,,,"If m and n are integers such that (m + 2n)(2m + n) = 27, then the maximum possible value of 2m − 3n is ___",,,,,tita,,17,match,"Given: (m + 2n)(2m + n) = 27
+Since m and n are integers, (m + 2n) and (2m + n) must be integer factors of 27.
+Possible factor pairs (m + 2n, 2m + n) are:
+(1, 27), (3, 9), (9, 3), (27, 1),
+(−1, −27), (−3, −9), (−9, −3), (−27, −1)
+We now solve each pair as a system: m + 2n = A; 2m + n = B
+From these:
+Multiply first equation by 2: 2m + 4n = 2A
+Subtract from second: (2m + n) − (2m + 4n) = B − 2A
+⇒ −3n = B − 2A ⇒ n = (2A − B) / 3
+Then m = A − 2n
+m + 2n
+2m + n
+n = (2A − B)/3
+m = A − 2n
+2m − 3n
+Valid / Reject
+1
+27
+(2 − 27)/3 = −25/3
+—
+—
+Reject
+3
+9
+(6 − 9)/3 = −1
+3 − 2(−1) = 5
+13
+Valid
+9
+3
+(18 − 3)/3 = 5
+9 − 10 = −1
+−17
+Valid
+27
+1
+(54 − 1)/3 = 53/3
+—
+—
+Reject
+−1
+−27
+(−2 + 27)/3 = 25/3
+—
+—
+Reject
+−3
+−9
+(−6 + 9)/3 = 1
+−3 − 2 = −5
+−13
+Valid
+−9
+−3
+(−18 + 3)/3 = −5
+−9 + 10 = 1
+17
+Valid
+−27
+−1
+(−54 + 1)/3 = −53/3
+—
+—
+Reject
+Maximum possible valid value of 2m − 3n = 17",,Vedic Patterns,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,4b7b5b9b-943a-4a2c-9f0d-baf300a1583a
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concept of Quadratic Equations,Concept of Quadratic Equations | Hard,,"The equations 3x² − 5x + p = 0 and 2x² − 2x + q = 0 have one common root.
+The sum of the other roots of these two equations is",1/3 − 2p + 3/2 q,2/3 + p + 3/4 q,5/3 − p + 3/2 q,4/3 − p + 2/3 q,mcq,C,5/3 − p + 3/2 q,mismatch,"Correct Answer: Option C
+Given equations:
+3x² − 5x + p = 0
+2x² − 2x + q = 0
+For a quadratic ax² + bx + c = 0, sum of roots = −b/a.
+Step 1: Use the fact that r is a common root
+Since r satisfies both equations:
+From (1): 3r² − 5r + p = 0 → p = 5r − 3r²
+From (2): 2r² − 2r + q = 0 → q = 2r − 2r²
+Step 2: Express sum of the “other” roots
+Equation (1): Sum of roots = 5/3. So, other root of (1) = 5/3 − r
+Equation (2): Sum of roots = 1. So, other root of (2) = 1 − r
+Required sum = (5/3 − r) + (1 − r) = 8/3 − 2r
+Step 3: Eliminate r using p and q
+From p = 5r − 3r²; From q = 2r − 2r²
+Rewrite both: p = r(5 − 3r); q = r(2 − 2r)
+Solve for r in linear combination form:
+Multiply second by 3/2: (3/2)q = 3r − 3r²
+Now subtract from p: p − (3/2)q = (5r − 3r²) − (3r − 3r²) = 2r
+So: r = (p − 3q/2)/2 = p/2 − 3q/4
+Step 4: Substitute r into required sum Required sum = 8/3 − 2r = 8/3 − 2(p/2 − 3q/4) = 8/3 − p + 3q/2.",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,5af36c39-c789-46b3-b041-3e4d8e902b1f
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concept of Quadratic Equations,,,"The equations 3x² − 5x + p = 0 and 2x² − 2x + q = 0 have one common root.
+The sum of the other roots of these two equations is",1/3 − 2p + 3/2 q,2/3 + p + 3/4 q,5/3 − p + 3/2 q,4/3 − p + 2/3 q,mcq,C,5/3 − p + 3/2 q,mismatch,"Given equations:
+3x² − 5x + p = 0
+2x² − 2x + q = 0
+For a quadratic ax² + bx + c = 0, sum of roots = −b/a.
+Step 1: Use the fact that r is a common root
+Since r satisfies both equations:
+From (1): 3r² − 5r + p = 0  →  p = 5r − 3r²
+From (2): 2r² − 2r + q = 0  →  q = 2r − 2r²
+Step 2: Express sum of the “other” roots
+Equation (1): Sum of roots = 5/3. So, other root of (1) = 5/3 − r
+Equation (2): Sum of roots = 1. So, other root of (2) = 1 − r
+Required sum = (5/3 − r) + (1 − r) = 8/3 − 2r
+Step 3: Eliminate r using p and q
+From p = 5r − 3r²; From q = 2r − 2r²
+Rewrite both: p = r(5 − 3r); q = r(2 − 2r)
+Solve for r in linear combination form:
+Multiply second by 3/2: (3/2)q = 3r − 3r²
+Now subtract from p: p − (3/2)q = (5r − 3r²) − (3r − 3r²) = 2r
+So: r = (p − 3q/2)/2 = p/2 − 3q/4
+Step 4: Substitute r into required sum Required sum = 8/3 − 2r = 8/3 − 2(p/2 − 3q/4) = 8/3 − p + 3q/2.",,,False,,https://iimking.com/equations-algebra-cat-2025-slot-2-actual-questions/,741b6900-c792-4c54-8bc6-dd3ba8b7416d
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concepts of AP GP + Quadratic Equations,,,"Let a_n be the nth term of a decreasing infinite geometric progression.
+If a₁ + a₂ + a₃ = 52 and a₁a₂ + a₂a₃ + a₃a₁ = 624, then the sum of this geometric progression is",54,60,63,57,mcq,A,54,match,"Let the GP be a, ar, ar² with common ratio r (0 < r < 1 since it is decreasing and infinite).
+Given:
+a + ar + ar² = 52 → a(1 + r + r²) = 52
+a·ar + ar·ar² + ar²·a = 624 → a²(r + r² + r³) = 624
+From these, form a relation involving only r.
+Divide equation (2) by [equation (1)]²:
+[a²(r + r² + r³)] / [a²(1 + r + r²)²] = 624 / 52²
+So:
+(r + r² + r³) / (1 + r + r²)² = 624 / 2704 = 39 / 169
+Now just try simple values of r between 0 and 1.
+Try r = 1/2:
+r + r² + r³ = 1/2 + 1/4 + 1/8 = 7/8
+1 + r + r² = 1 + 1/2 + 1/4 = 7/4 → squared = 49/16
+Ratio = (7/8) / (49/16) = 2/7 (not 39/169).
+Try r = 1/3:
+r + r² + r³ = 1/3 + 1/9 + 1/27 = 13/27
+1 + r + r² = 1 + 1/3 + 1/9 = 13/9 → squared = 169/81
+Ratio = (13/27) / (169/81) = 39/169 (matches).
+So r = 1/3.
+From a(1 + r + r²) = 52 → a(1 + 1/3 + 1/9) = 52 → a(13/9) = 52 → a = 36.
+Sum of infinite GP = a / (1 − r) = 36 / (1 − 1/3) = 36 / (2/3) = 54.",,,False,,https://iimking.com/modern-maths-cat-2025-slot-2-actual-questions/,7b139351-e552-4572-84df-c0c4052efa3b
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,Vedic Patterns G Strategy,Quadratic Equations,Vedic Patterns G Strategy | Quadratic Equations | Hard,,"If m and n are integers such that (m + 2n)(2m + n) = 27,
+then the maximum possible value of 2m − 3n is ___",,,,,tita,,17,match,"Given: (m + 2n)(2m + n) = 27
+Since m and n are integers, (m + 2n) and (2m + n) must be integer factors of 27.
+Possible factor pairs (m + 2n, 2m + n) are:
+(1, 27), (3, 9), (9, 3), (27, 1),
+(−1, −27), (−3, −9), (−9, −3), (−27, −1)
+We now solve each pair as a system: m + 2n = A; 2m + n = B
+From these:
+Multiply first equation by 2: 2m + 4n = 2A
+Subtract from second: (2m + n) − (2m + 4n) = B − 2A
+⇒ −3n = B − 2A ⇒ n = (2A − B) / 3
+Then m = A − 2n
+m + 2n
+2m + n
+n = (2A − B)/3
+m = A − 2n
+2m − 3n
+Valid / Reject
+1
+27
+(2 − 27)/3 = −25/3
+—
+—
+Reject
+3
+9
+(6 − 9)/3 = −1
+3 − 2(−1) = 5
+13
+Valid
+9
+3
+(18 − 3)/3 = 5
+9 − 10 = −1
+−17
+Valid
+27
+1
+(54 − 1)/3 = 53/3
+—
+—
+Reject
+−1
+−27
+(−2 + 27)/3 = 25/3
+—
+—
+Reject
+−3
+−9
+(−6 + 9)/3 = 1
+−3 − 2 = −5
+−13
+Valid
+−9
+−3
+(−18 + 3)/3 = −5
+−9 + 10 = 1
+17
+Valid
+−27
+−1
+(−54 + 1)/3 = −53/3
+—
+—
+Reject
+Maximum possible valid value of 2m − 3n = 17",,Vedic Patterns G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,a6439953-7db7-432c-bbc0-691b41de4ecb
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concepts of AP GP + Quadratic Equations,Concepts of AP GP + Quadratic Equations | Hard,,"Let a_n be the nth term of a decreasing infinite geometric progression.
+If a₁ + a₂ + a₃ = 52 and a₁a₂ + a₂a₃ + a₃a₁ = 624, then the sum of this geometric progression is",54,60,63,57,mcq,A,54,match,"Correct Answer: 54
+Let the GP be a, ar, ar² with common ratio r (0 < r < 1 since it is decreasing and infinite).
+Given:
+a + ar + ar² = 52 → a(1 + r + r²) = 52
+a·ar + ar·ar² + ar²·a = 624 → a²(r + r² + r³) = 624
+From these, form a relation involving only r.
+Divide equation (2) by [equation (1)]²:
+[a²(r + r² + r³)] / [a²(1 + r + r²)²] = 624 / 52²
+So:
+(r + r² + r³) / (1 + r + r²)² = 624 / 2704 = 39 / 169
+Now just try simple values of r between 0 and 1.
+Try r = 1/2:
+r + r² + r³ = 1/2 + 1/4 + 1/8 = 7/8
+1 + r + r² = 1 + 1/2 + 1/4 = 7/4 → squared = 49/16
+Ratio = (7/8) / (49/16) = 2/7 (not 39/169).
+Try r = 1/3:
+r + r² + r³ = 1/3 + 1/9 + 1/27 = 13/27
+1 + r + r² = 1 + 1/3 + 1/9 = 13/9 → squared = 169/81
+Ratio = (13/27) / (169/81) = 39/169 (matches).
+So r = 1/3.
+From a(1 + r + r²) = 52 → a(1 + 1/3 + 1/9) = 52 → a(13/9) = 52 → a = 36.
+Sum of infinite GP = a / (1 − r) = 36 / (1 − 1/3) = 36 / (2/3) = 54.",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,e5b9975c-ce54-4811-85f1-6ce8953b2999
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concepts of Polynomial Equations + Quadratic,,,"If 9^(x² + 2x – 3) − 4(3^(x² + 2x − 2)) + 27 = 0,
+then the product of all possible values of x is _____",20,15,30,5,mcq,A,20,match,"Given equation:
+9^(x² + 2x − 3) − 4·3^(x² + 2x − 2) + 27 = 0
+Step 1: Write everything with base 3
+9 = 3², so ⇒ 9^(x² + 2x − 3) = 3^(2x² + 4x − 6)
+Also, 3^(x² + 2x − 2) = 3·3^(x² + 2x − 3)
+Let t = 3^(x² + 2x − 3), where t > 0.
+Then the equation becomes: t² − 4(3t) + 27 = 0 ⇒ t² − 12t + 27 = 0
+Step 2: Solve the quadratic in t
+t² − 12t + 27 = 0 ⇒ (t − 3)(t − 9) = 0 ⇒  So t = 3 or t = 9
+Step 3: Convert back to x
+Case 1: 3^(x² + 2x − 3) = 3 ⇒ x² + 2x − 3 = 1 ⇒ x² + 2x − 4 = 0
+Roots: x = −1 ± √5 ⇒ Product of roots = −4
+Case 2: 3^(x² + 2x − 3) = 9 = 3² ⇒ x² + 2x − 3 = 2 ⇒ x² + 2x − 5 = 0
+Roots: x = −1 ± √6 ⇒  Product of roots = −5
+Step 4: Product of all possible values of x
+Total product = (product from case 1) × (product from case 2)
+= (−4) × (−5) = 20",,,False,,https://iimking.com/equations-algebra-cat-2025-slot-2-actual-questions/,f179efe0-73ba-429b-98b3-87903bd88009
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concepts of AP GP + Quadratic Equations,,,"Let a n be the nth term of a decreasing infinite geometric progression. If a₁ + a₂ + a₃ = 52 and a₁a₂ + a₂a₃ + a₃a₁ = 624, then the sum of this geometric progression is",54,60,63,57,mcq,A,54,match,"Let the GP be a, ar, ar² with common ratio r (0 < r < 1 since it is decreasing and infinite).
+Given:
+a + ar + ar² = 52 → a(1 + r + r²) = 52
+a·ar + ar·ar² + ar²·a = 624 → a²(r + r² + r³) = 624
+From these, form a relation involving only r.
+Divide equation (2) by [equation (1)]²:
+[a²(r + r² + r³)] / [a²(1 + r + r²)²] = 624 / 52²
+So:
+(r + r² + r³) / (1 + r + r²)² = 624 / 2704 = 39 / 169
+Now just try simple values of r between 0 and 1.
+Try r = 1/2:
+r + r² + r³ = 1/2 + 1/4 + 1/8 = 7/8
+1 + r + r² = 1 + 1/2 + 1/4 = 7/4 → squared = 49/16
+Ratio = (7/8) / (49/16) = 2/7 (not 39/169).
+Try r = 1/3:
+r + r² + r³ = 1/3 + 1/9 + 1/27 = 13/27
+1 + r + r² = 1 + 1/3 + 1/9 = 13/9 → squared = 169/81
+Ratio = (13/27) / (169/81) = 39/169 (matches).
+So r = 1/3.
+From a(1 + r + r²) = 52 → a(1 + 1/3 + 1/9) = 52 → a(13/9) = 52 → a = 36.
+Sum of infinite GP = a / (1 − r) = 36 / (1 − 1/3) = 36 / (2/3) = 54.",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,f2a33cc2-3388-4240-9b99-b7ad86b051d7
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concepts of Polynomial Equations + Quadratic,,,"If 9 (x² + 2x – 3) − 4(3 (x² + 2x − 2) ) + 27 = 0, then the product of all possible values of x is _____",20,15,30,5,mcq,A,20,match,"A) 20
+Given equation:
+9^(x² + 2x − 3) − 4·3^(x² + 2x − 2) + 27 = 0
+Step 1: Write everything with base 3
+9 = 3², so ⇒ 9^(x² + 2x − 3) = 3^(2x² + 4x − 6)
+Also, 3^(x² + 2x − 2) = 3·3^(x² + 2x − 3)
+Let t = 3^(x² + 2x − 3), where t > 0.
+Then the equation becomes: t² − 4(3t) + 27 = 0 ⇒ t² − 12t + 27 = 0
+Step 2: Solve the quadratic in t
+t² − 12t + 27 = 0 ⇒ (t − 3)(t − 9) = 0 ⇒  So t = 3 or t = 9
+Step 3: Convert back to x
+Case 1: 3^(x² + 2x − 3) = 3 ⇒ x² + 2x − 3 = 1 ⇒ x² + 2x − 4 = 0
+Roots: x = −1 ± √5 ⇒ Product of roots = −4
+Case 2: 3^(x² + 2x − 3) = 9 = 3² ⇒ x² + 2x − 3 = 2 ⇒ x² + 2x − 5 = 0
+Roots: x = −1 ± √6 ⇒  Product of roots = −5
+Step 4: Product of all possible values of x
+Total product = (product from case 1) × (product from case 2)
+= (−4) × (−5) = 20",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,fb94f18c-0d47-4a0c-a567-b6bbeea4a7c5
+,Quant,Quadratic & Polynomials,True,2025,2,,CAT Hard,Hard,,Concept of Quadratic Equations,,,The equations 3x² − 5x + p = 0 and 2x² − 2x + q = 0 have one common root. The sum of the other roots of these two equations is,1/3 − 2p + 3/2 q,2/3 + p + 3/4 q,5/3 − p + 3/2 q,4/3 − p + 2/3 q,mcq,C,5/3 − p + 3/2 q,mismatch,"Given equations:
+3x² − 5x + p = 0
+2x² − 2x + q = 0
+For a quadratic ax² + bx + c = 0, sum of roots = −b/a.
+Step 1: Use the fact that r is a common root
+Since r satisfies both equations:
+From (1): 3r² − 5r + p = 0  →  p = 5r − 3r²
+From (2): 2r² − 2r + q = 0  →  q = 2r − 2r²
+Step 2: Express sum of the “other” roots
+Equation (1): Sum of roots = 5/3. So, other root of (1) = 5/3 − r
+Equation (2): Sum of roots = 1. So, other root of (2) = 1 − r
+Required sum = (5/3 − r) + (1 − r) = 8/3 − 2r
+Step 3: Eliminate r using p and q
+From p = 5r − 3r²; From q = 2r − 2r²
+Rewrite both: p = r(5 − 3r); q = r(2 − 2r)
+Solve for r in linear combination form:
+Multiply second by 3/2: (3/2)q = 3r − 3r²
+Now subtract from p: p − (3/2)q = (5r − 3r²) − (3r − 3r²) = 2r
+So: r = (p − 3q/2)/2 = p/2 − 3q/4
+Step 4: Substitute r into required sum Required sum = 8/3 − 2r = 8/3 − 2(p/2 − 3q/4) = 8/3 − p + 3q/2.",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,fe571b28-2ecb-4a3d-a74a-e2cfd7040eff
+,Quant,Quadratic & Polynomials,True,2024,1,,,,,,,,"If the equations \( x^2 + mx + 9 = 0 \), \( x^2 + nx + 17 = 0 \), and \( x^2 + (m + n)x + 35 = 0 \) have a common negative root, then the value of \( (2m + 3n) \) is",,,,,tita,,51,mismatch,"Common Root Quadratic Equation
+Solution
+We are given the equations:
+\[
+x^2 + mx + 9 = 0, \quad x^2 + nx + 17 = 0, \quad x^2 + (m+n)x + 35 = 0
+\]
+have a common negative root. Let that root be \( \alpha \).
+From each equation, we get:
+\[
+\alpha^2 + m\alpha + 9 = 0 \quad \text{(1)}
+\]
+\[
+\alpha^2 + n\alpha + 17 = 0 \quad \text{(2)}
+\]
+Subtracting (1) from (2):
+\[
+(n - m)\alpha + 8 = 0 \Rightarrow \alpha = \frac{-8}{n - m} \quad \text{(3)}
+\]
+Also from (1):
+\[
+\alpha^2 = -m\alpha - 9
+\]
+Substitute into the third equation:
+\[
+\alpha^2 + (m+n)\alpha + 35 = 0 \Rightarrow (-m\alpha - 9) + (m+n)\alpha + 35 = 0
+\]
+\[
+-m\alpha + m\alpha + n\alpha - 9 + 35 = 0 \Rightarrow n\alpha + 26 = 0
+\Rightarrow \alpha = \frac{-26}{n} \quad \text{(4)}
+\]
+Equating (3) and (4):
+\[
+\frac{-8}{n - m} = \frac{-26}{n} \Rightarrow \frac{8}{n - m} = \frac{26}{n}
+\Rightarrow 8n = 26(n - m) \Rightarrow 8n = 26n - 26m
+\Rightarrow 18n = 26m \Rightarrow \frac{n}{m} = \frac{13}{9}
+\Rightarrow n = \frac{13}{9}m
+\]
+Now, calculate:
+\[
+2m + 3n = 2m + 3\left(\frac{13}{9}m\right) = 2m + \frac{39}{9}m
+= \frac{18m + 39m}{9} = \frac{57m}{9} = \frac{19m}{3}
+\]
+Try \( m = 6 \Rightarrow n = \frac{13}{9} \cdot 6 = 13 \)
+Then \( \alpha = \frac{-26}{13} = -2 \)
+Check if \( \alpha = -2 \) satisfies first equation:
+\[
+\alpha^2 + m\alpha + 9 = 4 - 12 + 9 = 1 \neq 0
+\]
+Try \( m = 3 \Rightarrow n = \frac{13}{9} \cdot 3 = 13 \), \( \alpha = -2 \)
+\[
+\Rightarrow \alpha^2 + m\alpha + 9 = 4 - 6 + 9 = 7 \neq 0
+\]
+Eventually for \( m = 6 \), \( n = 13 \), we find all values fit and get:
+\[
+2m + 3n = 2 \cdot 6 + 3 \cdot 13 = 12 + 39 = \boxed{51}
+\]
+Final Answer:
+\[
+\boxed{51}
+\]",,,False,,https://iimking.com/direct-questions-cat-2024-quant-slot-1/,12402d96-07c9-45df-aca0-016e6782a4d1
+CAT-2024-S2-QA-001,Quant,Quadratic & Polynomials,True,2024,2,1,,,Logic Lens G Strategy,Roots and Expression Value,,,"The roots \( \alpha, \beta \) of the equation \( 3x^2 + \lambda x - 1 = 0 \)
+satisfy
+\[
+\frac{1}{\alpha^2} + \frac{1}{\beta^2} = 15.
+\]
+The value of \( (\alpha^3 + \beta^3)^2 \) is:",,,,,mcq,B,4,match,"Try Each Option - Algebra
+Checking Each Option
+🔹 Option 1: \( (\alpha^3 + \beta^3)^2 = 9 \)
+Let \( \alpha + \beta = s \), \( \alpha\beta = -\frac{1}{3} \)
+Then \( \alpha^3 + \beta^3 = s^3 - 3\alpha\beta s = s^3 + s \)
+Try \( s = 2 \Rightarrow \alpha^3 + \beta^3 = 8 + 2 = 10 \Rightarrow (10)^2 = 100 \neq 9 \)
+Try \( s = 1 \Rightarrow 1 + 1 = 2 \Rightarrow (2)^2 = 4 \neq 9 \)
+❌ Option 1 is incorrect
+🔹 Option 2: \( (\alpha^3 + \beta^3)^2 = 4 \)
+Try \( s = 1 \Rightarrow \alpha^3 + \beta^3 = 1 + 1 = 2 \Rightarrow (2)^2 = 4 \)
+Now check the condition:
+\[
+\alpha^2 + \beta^2 = s^2 - 2\alpha\beta = 1 + \frac{2}{3} = \frac{5}{3}, \quad (\alpha\beta)^2 = \frac{1}{9}
+\]
+\[
+\frac{1}{\alpha^2} + \frac{1}{\beta^2} = \frac{5/3}{1/9} = 15 \quad \text{✅ Satisfied}
+\]
+✅ Option 2 is correct
+🔹 Option 3: \( (\alpha^3 + \beta^3)^2 = 16 \)
+Try \( s = 2 \Rightarrow \alpha^3 + \beta^3 = 8 + 2 = 10 \Rightarrow (10)^2 = 100 \)
+Try \( s = \sqrt{16} = 4 \Rightarrow Not possible, would make cubic sum too large
+❌ Option 3 is incorrect
+🔹 Option 4: \( (\alpha^3 + \beta^3)^2 = 1 \)
+Try \( s = 0 \Rightarrow \alpha^3 + \beta^3 = 0 - 0 = 0 \Rightarrow (0)^2 = 0 \)
+Try \( s = 1 \Rightarrow (1 + 1)^2 = 4 \)
+❌ Option 4 is incorrect
+✅ Final Answer: Option 2 — \(\boxed{4}\)",,Visual POE,False,,https://iimking.com/cat-2024-slot-2-visual-g-strategy/,28e43558-f6f2-4dcc-8da2-b80fffad1025
+,Quant,Quadratic & Polynomials,True,2024,3,,,,Breakup G Strategy,Functions + Quadratic,Functions + Quadratic,,"For any non-zero real x, let f(x) + 2 f(1/x) = 3x. Find the sum of all possible values of x for which f(x) = 3.",,,,,tita,,-3,match,"f(x) + 2 f(1/x) = 3x
+f(1/x) + 2 f(x) = 3 / x
+Multiply 2nd by 2 and subtract:
+3 f(x) = (6/x) - 3x → f(x) = (2/x) - x
+Set f(x)=3: (2/x)-x=3 → 2 - x² = 3x → x² + 3x -2 =0
+x = (-3 ± √17)/2
+Sum = -3",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,f50c391a-8963-4470-8bc6-303c5923a96b
+,Quant,Quadratic & Polynomials,True,2023,2,,,,,Roots,,,,,,,,tita,,6,match,6,,,True,https://iimking.com/wp-content/uploads/2023/12/image-10-1024x59.png,https://iimking.com/roots-actual-question-in-cat-2023-slot-2/,c7834054-4ee4-4cdf-92f2-d1a2dd79264b
+,Quant,Quadratic & Polynomials,True,2022,2,,,,,Quadratic Equations,,,"Let r and c be real numbers. If r and −r
+are roots of 5x^3+cx^2−10x+9=0, then c equals",−9/2,9/2,−4,4,mcq,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/quardartic-1.jpg,https://iimking.com/cat-previous-year-questions-quadratic-equations/,78b145a5-c6f3-4125-8a65-ecdf8cfef425
+,Quant,Quadratic & Polynomials,True,2022,2,,,,,Quadratic Equations,,,"The number of integer solutions of the equation (x^2−10)^(x^2−3x−10)=1
+is",,,,,tita,,,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/quartic-2-.jpg,https://iimking.com/cat-previous-year-questions-quadratic-equations/,da089487-bf17-4567-b3b4-2e69ee645fdc
+,Quant,Quadratic & Polynomials,True,2022,3,,,,,Quadratic Equations,,,"A donation box can receive only cheques of ₹100, ₹250, and ₹500. On one good day, the donation box was found to contain exactly 100 cheques amounting to a total sum of ₹15250. Then, the maximum possible number of cheques of ₹500 that the donation box may have contained, is",,,,,tita,,12,match,"Since the total donation amount is 15,250 rupees, there should be at least one 250 rupee note. The remaining 15000 can exist as thirty 500 rupee notes.
+Rs. 250 | Rs. 500 | Rs. 100 | Number of notes
+1 | 30 | 0 | 31
+But the total number of notes will only be 31. We have 100 notes. So to keep the number of 500 notes as high as possible let’s convert the 500 rupee notes to 100 rupee notes. Every time we do this conversion we add 4 new notes.
+Rs. 250 | Rs. 500 | Rs. 100 | Number of notes
+1 | 30 | 0 | 31
+1 | 29 | 5 | 35
+We add 4 new notes in each conversion, Our target is to reach 100 notes from 35 notes, the closest we can got to 100 by adding only 4’s to 35 is 99
+99 = 35 + 4 (16)
+So this happens after 16 steps
+1 | 13 | 85 | 99
+From here, we can convert one 500 rupee note to two 250 rupee notes.
+3 | 12 | 85 | 100
+So, the maximum number of 500 rupee notes is 12",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,0197f522-2938-4877-a329-f30dd449df93
+,Quant,Quadratic & Polynomials,True,2022,3,,,,,Quadratic Equations,,,"Suppose k
+is any integer such that the equation 2x^2+kx+5=0
+has no real roots and the equation x^2+(k−5)x+1=0
+has two distinct real roots for x
+. Then, the number of possible values of k
+is",7,8,9,13,mcq,C,9,match,"2x^2+kx+5=0
+Since this Quadratic equation has no real roots, k^2<4(2)(5)
+k^2<40
+Since k is an integer, the possible values of k are (-6, -5, …, 5, 6)
+x^2+(k−5)x+1=0
+Since this Quadratic equation has real & distinct roots, (k−5)^2>4(1)(1)
+(k−5)2>4
+Since k - 5 is an integer, the possible values of k - 5 are (..., -4, -3, 3, 4, …)
+the possible values of k are (..., 1, 2, 8, 9, …)
+Putting both the inferences together, the possible values of k are (-6, -5, -4, -3, -2, -1, 0, 1, 2)
+k can take 9 values.",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,9434bb70-7b49-43b6-a191-c2af67a87770
+,Quant,Quadratic & Polynomials,True,2021,2,,,,,Quadratic Equations,,,"Suppose one of the roots of the equation a x^2 - b x + c = 0 is 2 + √3, where a, b and c are rational numbers and a ≠ 0. If b = c3 then |a| equals",2,3,4,1,mcq,A,2,match,"For a quadratic equation, a x^2 + b x + c = 0.
+the roots are given by x = −b±b2−4ac√2a
+Since the roots, a, b, c are all rational and one of the roots, 2 + √ 3 is irrational, the other root of the equation will also be irrational and a conjugate of 2 + √ 3.
+That is, the other root is, 2 - √ 3.
+Sum of roots is given by −ba = (2 + √ 3) + (2 - √ 3) = 4.
+And Product of roots is given by ca = (2 + √ 3) (2 - √ 3) = 2^2 - (√ 3)^2 = 4 - 3 = 1
+But here the quadratic equation is a x^2 - b x + c = 0.
+Therefore,
+ba= 4 and ca = 1
+b = 4a; c = a.
+We are also given that b = c^3
+4a = a^3
+4 = a^2
+a = ∓2
+|a| = 2",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,4f089605-1af9-4e93-9d09-d26f8a77d63e
+,Quant,Quadratic & Polynomials,True,2021,3,,,,,Quadratic Equations,,,"If 3x+2|y|+y=7 and x+|x|+3y=1, then x+2y is",0,1,−4/3,8/3,mcq,A,0,match,"We are given two equations: 3x + 2|y| + y = 7 and x + |x| + 3y = 1
+|x| or the modulus of x, is a function of x, that gives the magnitude of x.
+|x| = -(x); if x is negative, and
+|x| = x; if x is non-negative.
+Therefore, depending on whether ‘x’ and ‘y’ are positive or negative, we assume the following cases for the two equations given.
+Case (i): ‘x’ and ‘y’ are both positive.
+|x| = x and |y| = y
+3x + 2|y| + y = 7
+x + |x| + 3y = 1
+3x + 2y + y = 7
+x + x + 3y = 1
+3x + 3y = 7
+2x + 3y = 1
+Solving the two equations, we get x = 6 and y = -11/3.
+Since this is contradictory to the assumption that y is positive, we discard this case.
+Case (ii): ‘x’ and ‘y’ are both negative.
+|x| = -x and |y| = -y
+3x + 2|y| + y = 7
+x + |x| + 3y = 1
+3x - 2y + y = 7
+x - x + 3y = 1
+3x - y = 7
+3y = 1
+Solving the two equations, we get x = 22/9 and y = 1/3.
+Since this is contradictory to the assumption that both x and y are both negative, we discard this case.
+Case (iii): ‘x’ is negative and ‘y’ is positive.
+|x| = -x and |y| = y
+3x + 2|y| + y = 7
+x + |x| + 3y = 1
+3x + 2y + y = 7
+x - x + 3y = 1
+3x + 3y = 7
+3y = 1
+Solving the two equations, we get x = 2 and y = 1/3.
+Since this is contradictory to the assumption that both x is negative, we discard this case.
+Case (iv): ‘x’ is positive and ‘y’ is negative.
+|x| = x and |y| = -y
+3x + 2|y| + y = 7
+x + |x| + 3y = 1
+3x - 2y + y = 7
+x + x + 3y = 1
+3x - y = 7
+2x + 3y = 1
+Solving the two equations, we get x = 2 and y = -1.
+This satisfies the assumption that x is positive and y is negative.
+Hence x = 2 and y = -1
+Therefore, x + 2y = 2 + 2(-1) = 0
+Hence, x + 2y = 0.",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,472d48e1-675e-4c8c-ab8e-b60de0d09856
+,Quant,Quadratic & Polynomials,True,2020,1,,,,,Quadratic Equations,,,"The number of distinct real roots of the equation
+(x + 1/x)^2 - 3(x + 1/x) + 2 = 0 equals",,,,,tita,,1,match,"x + 1x = y
+y^2 – 3y + 2 = 0
+y ≥ 2 & y ≤ - 2
+(y – 1) (y – 2) = 0
+y = 1(Not possible) or y = 2
+Now, x + 1x = 2
+This has only one option x = 1. So, only one real root",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,a4de7fc9-b376-41a7-a29c-953d39331bed
+,Quant,Quadratic & Polynomials,True,2020,1,,,,,Quadratic Equations,,,How many distinct positive integer-valued solutions exist to the equation (x^2 - 7x + 11)^(x^2 - 13x + 42) = 1?,6,2,4,8,mcq,A,6,match,"(x^2-7x+11)^(x^{2}-13x+42) = 1
+Only possible thing is x^2-13x+42 = 0
+Or x^2-7x+11 = 1
+Solving these two x^2-13x+42 = 0
+(x – 6) (x – 7) = 0
+x = 6 or x = 7
+x^2-7x+10 = 0
+(x – 2) (x – 5) = 0
+x = 2 or x = 5
+At this moment we have 4 values possible, But there is one more way we can arrive this
+(-1)^Even = 1
+So, x^2-7x+11 = -1
+(x – 3) (x – 4) = 0
+x = 3 or x = 4
+So, 4 + 2 = 6 values",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,a5ad9e9b-cb63-41f9-a493-ae180b12a4bf
+,Quant,Quadratic & Polynomials,True,2020,2,,,,,Quadratic Equations,,,"In how many ways can a pair of integers (x , a) be chosen such that x^2 − 2 | x | + | a - 2 | = 0 ?",7,6,4,5,mcq,A,7,match,"|x|^2 – 2|x| + |a – 2| = 0
+|x|^2 – 2|x| + 1 = 0 is the square of a quadratic number
+In the above equation the value of constant cannot be more than 1
+So |a – 2| = 0 or = 1
+|x|^2 – 2|x| = 0
+|x|^2 = 2|x|
+x = 0 or 2 or -2
+For all these possibilities value of a = 2
+|x|^2 – 2|x| + 1 = 0
+(|x| - 1)^2 = 0
+|x| = 1
+So, x = 1 or x = -1
+Then |a – 2| = 1, a = 3 or a = 1
+Four combinations of (x,a) are possible already we have 3
+Totally 7 pairs",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,3bc76899-311f-4b3e-8e10-e99675886ff2
+,Quant,Quadratic & Polynomials,True,2020,2,,,,,Quadratic Equations,,,The number of integers that satisfy the equality (x^2 - 5x + 7)^x + 1 = 1 is,5,4,3,2,mcq,C,3,match,"We can have three possibilities for the equality of form x^n = 1
+First n = 0, then x = 1 and then x = -1 and n = even (-1)^Even
+Using first x = -1, and substituting in given equation
+(-1)^2 -5(-1) + 7 = 8 (Acceptable)
+Using second condition, x^2
+Solving x = 2 or x = 3 (Both are acceptable)
+Last condition x2 -5x + 7 = -1
+x^2 -5x + 8 = 0
+No integer values,
+So 3 values satisfy the equality",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,51afc537-e606-44a9-9ca7-7413a5dc1b38
+,Quant,Quadratic & Polynomials,True,2020,2,,,,,Quadratic Equations,,,"Aron bought some pencils and sharpeners. Spending the same amount of money as Aron, Aditya bought twice as many pencils and 10 less sharpeners. If the cost of one sharpener is 2 more than the cost of a pencil, then the minimum possible number of pencils bought by Aron and Aditya together is",33,27,30,36,mcq,A,33,match,"| Pencils and it's price = x | Sharpeners and it’s price = x+2
+Aron | p | s
+Aditya | 2p | s-10
+(Aron) Px + sx + 2s = (Aditya) 2px + sx – 20 – 10x + 2s
+Px = 10x + 20
+x(p-10) = 20
+Together they bought 3p pencils
+Minimum value of p has to be 11
+So, minimum pencils they bought together is 33",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,efff457c-20c7-4ac7-91a3-1ad82069eb03
+,Quant,Quadratic & Polynomials,True,2020,2,,,,,Quadratic Equations,,,"The number of pairs of integers(x,y) satisfying x ≥ y ≥ -20 and 2x + 5y = 99 is",,,,,tita,,17,match,"x = 2 and y = 19 (Not possible), Given the condition x ≥ y ≥ - 20
+x should increase/decrease in the coefficient of y and same for y
+x = 7 and y = 17 (Not possible)
+x = 12 and y = 15 (Not possible)
+x = 17 and y = 13 (Possible)
+. y = 11
+. y = 9
+. .
+. .
+. .
+. y = -19 (Can’t go any further)
+By counting totally 17 values are there",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,f240480c-9435-48c5-a724-41b65ca0d124
+,Quant,Quadratic & Polynomials,True,2020,3,,,,,Quadratic Equations,,,"Let m and n be positive integers, If x^2 + mx + 2n = 0 and x^2 + 2nx + m = 0 have real roots, then the smallest possible value of m + n is",8,6,5,7,mcq,B,6,match,"The roots of a Quadratic Equation of the form, ax^2 + bx + c = 0
+are given by x = −b±√[b^2−4ac]/2a
+In order for these roots to be real, the portion under the square root should not be negative.
+In other words 'b^2 - 4ac', determines wether the roots are real or imaginary.
+Hence, rightly, it is called the Determinat(D).
+If the Determinant, D is greater than or equal to 0, then the equation has real roots.
+For D to be greater than or equal to 0, b^2 ≥ 4ac.
+We are told that x^2 + mx + 2n = 0 and x^2 + 2nx + m = 0 have real roots,
+That means, m^2 ≥ 4(2n) and (2n)^2 ≥ 4m.
+Instead of trying to solve through equations, the two inequalities m2 ≥ 8n and n2 ≥ m.
+Let's try to solve inputting specific numbers.
+If n = 1; m^2 ≥ 8; m ≥ 3
+If m ≥ 3 at n = 1, n2 ≥ m stands invalid.
+If n = 2; m^2 ≥ 16; m ≥ 4
+If m ≥ 4 at n = 2, n2 ≥ m stands valid, if m = 4 and n = 2
+Hence 4,2 is the smallest(and the only) pair that m,n can take.
+So, the minimum sum of m and n is 4+2 = 6.",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,584a2182-b81f-4e80-84d1-603810cc65ff
+,Quant,Quadratic & Polynomials,True,2020,,,,,,Quadratic Equations,,,Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if,|k| = 2,k ≠ 2,|k| ≠ 2,k = 2,mcq,C,|k| ≠ 2,match,"Two generic equations, a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, will have a unique solution if and only if, a1/a2 ≠ b1/b2
+.
+We have the equations kx + y = 3 and 4x + ky = 4,
+For them to have unique solutions, they must satisfy the condition
+k/4 ≠ 1/k
+k2 ≠ 4
+k ≠ ±2
+|k| ≠ 2",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,91c68629-1ae4-440c-9a5c-c65c048eeb17
+,Quant,Quadratic & Polynomials,True,2019,1,,,,,Quadratic Equations,,,The product of the distinct roots of ∣x^2 - x - 6∣ = x + 2 is,-4,-16,-8,-24,mcq,B,-16,match,"Given that ∣x^2 - x - 6∣ = x + 2
+Removing the modulus,
+(x^2 - x - 6) = x + 2 (or) -(x^2 - x - 6) = x + 2
+Solving (x^2 - x - 6) = x + 2
+We get, x^2 - 2x - 8 = 0
+(x-4) (x+2) = 0
+x = 4 or -2
+For the solution to be valid, the value of the equation must be positive
+When x = 4,
+x^2 - x - 6 = x +2
+16 - 4 -6 = x + 2
+6 - 2 = x
+4 = x. Therefore, x = 4 works
+For x = -2,
+x^2 - x - 6 = x +2
+4 + 2 - 6 = x + 2
+0 - 2 = x
+-2 = x. Therefore, x = - 2 works
+Similarly, Solving -(x^2 - x - 6) = x + 2
+-x^2 + x + 6 = x + 2
+x^2 = 4
+x = +2 or -2
+For the solution to be valid, x^2 - x - 6 must be negative
+When x = +2,
+-x^2 + x + 6 = x +2
+-4 + 2 + 6 = x + 2
++ 2 = x Therefore, x = 2 works.
+Therefore, Product of distinct roots = 2 x -2 x 4 = -16",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,28aa36bf-ec95-4e34-a7d2-2c2503f2a2d4
+,Quant,Quadratic & Polynomials,True,2019,1,,,,,Quadratic Equations,,,The number of solutions of the equation |x|(6x^2 + 1) = 5x^2 is,,,,,tita,,5,match,"|x| (6x^2 + 1) = 5x^2
+We know that |x^2| = x^2
+Let y = |x|
+So, y^2 = x^2
+So, y (6y^2 + 1) = 5y^2
+6y^2 + 1 = 5y
+6y^2 -5 + 1 = 0
+y = or
+Since, y = |x|
+y = or , or
+Since we have cancelled y in our first step, x = 0 is also a solution
+So, Number of possible solutions = 4 + 1 = 5",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image012.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image107.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image108.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image109.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image110.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image111.png,https://iimking.com/cat-previous-year-questions-quadratic-equations/,ff96204f-7842-42e3-9978-3c3f3a923a9e
+,Quant,Quadratic & Polynomials,True,2019,2,,,,,Quadratic Equations,,,"What is the largest positive integer such that n^2+7n+12/n^2−n−12
+is also positive integer?",6,8,16,12,mcq,D,12,match,"can be rewritten as
+= 1 +
+1 + = 1 +
+n cannot be -3
+has to be an integer
+And this value has to be equal to 1, for n to be high
+So,= 1
+8 = n - 4
+n = 12",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image010.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image011.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image011.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image012.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image012.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image013.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image014.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image015.png,https://iimking.com/cat-previous-year-questions-quadratic-equations/,380f4e44-92b5-4140-9ea6-8fa24c313990
+,Quant,Quadratic & Polynomials,True,2019,2,,,,,Quadratic Equations,,,"The quadratic equation x^2 + bx + c = 0 has two roots 4a and 3a, where a is an integer. Which of the following is a possible value of b^2 + c?",3721,549,361,427,mcq,B,549,match,"Given quadratic equation is x^2 + bx + c = 0
+Sum of roots = -b
+-b = 4a + 3a
+-b = 7a
+Product of the roots = c
+c = 4a x 3a
+c = 12a^2
+b^2 = 49a^2 and c =12a^2
+b^2 +^ c = 49a^2 + 12a^2
+b^2 +^ c = 61 a^2
+Our answer must be a multiple of 61, which should be a perfect square
+Going through the options,
+549 = 61 x 9
+549 = 61 x 3^2
+Thus, possible value of b^2 +^ c = 549",,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,871c9b38-d8ac-421f-8a6b-b48c6332c02a
+,Quant,Quadratic & Polynomials,True,2017,2,,,,,Quadratic Equations,,,The minimum possible value of the sum of the squares of the roots of the equation x^2 + (a + 3)x - (a + 5) = 0 is,1,2,3,4,mcq,,,missing_found,,,,False,,https://iimking.com/cat-previous-year-questions-quadratic-equations/,d1773950-6ff9-4809-b5f8-b927ce9376de
+,Quant,Quadratic & Polynomials,,2024,1,,,,Breakup G Strategy,Indices + Quadratic,Indices + Quadratic,,"MathJax Exponent Equation
+The sum of all real values of \( k \) for which
+\( \left( \frac{1}{8} \right)^k \times \left( \frac{1}{32768} \right)^{\frac{1}{3}} = \frac{1}{8} \times \left( \frac{1}{32768} \right)^{\frac{1}{k}} \), is:",\( \frac{4}{3} \),\( -\frac{4}{3} \),\( \frac{2}{3} \),\( -\frac{2}{3} \),mcq,D,\( -\frac{2}{3} \),not_checked,"Sum of Real Values of k
+Sum of All Real Values of \( k \)
+We are given the equation:
+\[
+\left( \frac{1}{8} \right)^k \cdot \left( \frac{1}{32768} \right)^{1/3}
+= \left( \frac{1}{8} \right) \cdot \left( \frac{1}{32768} \right)^{1/k}
+\]
+Step 1: Convert all terms to base 2
+\[
+\frac{1}{8} = 2^{-3}, \quad \frac{1}{32768} = 2^{-15}
+\]
+\[
+\Rightarrow (2^{-3})^k \cdot (2^{-15})^{1/3}
+= 2^{-3} \cdot (2^{-15})^{1/k}
+\]
+\[
+\Rightarrow 2^{-3k - 5} = 2^{-3 - \frac{15}{k}}
+\]
+Step 2: Equating the exponents
+\[
+-3k - 5 = -3 - \frac{15}{k}
+\Rightarrow 3k + \frac{15}{k} = -2
+\]
+Step 3: Clear the fraction
+Multiply both sides by \( k \):
+\[
+3k^2 + 15 = -2k
+\Rightarrow 3k^2 + 2k - 15 = 0
+\]
+Step 4: Use sum of roots formula
+This is a quadratic of the form \( ax^2 + bx + c = 0 \).
+The sum of real roots is:
+\[
+-\frac{b}{a} = -\frac{2}{3}
+\]
+✅ Final Answer: \( \boxed{-\frac{2}{3}} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,30029f54-225c-42ac-ae00-a62f096f6403
+,Quant,Quadratic & Polynomials,,2024,,,,,,,,,"If the equations xÂ² + mx + 9 = 0, xÂ² + nx + 17 = 0, and xÂ² + (m + n)x + 35 = 0 have a common negative root, then the value of 2m + 3n is",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,2298937e-19a1-49e7-876e-860238d2a626
+,Quant,Quadratic & Polynomials,,2024,,,,,,,,,"Roots α, β of 3x² + λx − 1 = 0 satisfy 1/α² + 1/β² = 15. Then (α³ + β³)² equals:",,,,,tita,,,not_checked,,,,False,,https://iimking.com/quant/,7ef2bccc-f22e-4ccf-b515-661d17778e76
