@@ -7,7 +7,7 @@ Read-only export of Supabase table `public.cat_import_questions` (project `suqci
 1. Open the topic file you need (e.g. `quant/geometry.csv`).
 2. Filter `is_actual_cat = True` to keep only real CAT questions, then copy the rows you want.
 3. Paste those rows into ChatGPT as the seed for the ladder.
-4. `cat_question_id` (e.g. `CAT-2024-S2-QA-015`) is the ID to put in `parent_cat_id` for any ladder question you create from it. Rows without a `cat_question_id` (non-CAT or missing year/slot/number) are still identified by `supabase_id`.
+4. `supabase_id` (last column, always present and unique) is the ID to put in `parent_cat_id` for any ladder question you create. `cat_question_id` (e.g. `CAT-2024-S2-QA-015`) is a human-readable label only — it is blank on many rows and sometimes repeats, so never use it as the link.
 
 Option columns: `option_a`–`option_d` hold the option text (keys A–D). If a question had 5 or 6 options, options E/F are appended to `option_d` separated by ` || `. TITA questions have blank options; the answer is in `correct_answer`.
 
