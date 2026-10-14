@@ -1,0 +1,12 @@
+year,slots_expected,questions_expected_varc,rows_stored,unique_questions,duplicate_rows,rc_rows_stored,rc_expected_approx,verdict,what_to_do
+2017,2,68,69,55,14,48,48,"SHORT after dedup — 55 unique vs 68",Re-import the missing 13 from iimking or another source
+2018,2,68,69,65,4,55,48,"nearly complete — 65 unique vs 68",Check the 3 missing
+2019,2,68,70,66,4,65,48,"nearly complete — 66 unique vs 68",Check the 2 missing
+2020,3,78,80,76,4,70,54,"nearly complete — 76 unique vs 78",Check the 2 missing
+2021,3,72,49,49,0,46,48,"SHORT — 49 of 72. Slot 2 has only 1 row; 24 rows carry no slot and all 24 share ONE context_hash",Re-import 2021 slot 2 and 3; fix the 24 no-slot rows
+2022,3,72,95,78,17,56,48,"OVER then SHORT — 95 rows but 78 unique vs 72; slot 2 has only 10 rows",De-duplicate; re-import slot 2
+2023,3,72,75,69,6,51,48,"nearly complete — 69 unique vs 72",Check the 3 missing
+2024,3,72,52,34,18,0,48,"WORST GAP — only 34 unique of 72, and ZERO Reading Comprehension questions",Import all of CAT 2024 VARC RC (~48 questions) — it is entirely absent
+2025,3,72,186,83,103,119,48,"HEAVILY DUPLICATED — 186 rows but only 83 unique vs 72",De-duplicate 2025 first; it is the year students care about most
+(no year),-,-,2,2,0,0,-,2 rows with no exam_year,Assign year/slot or mark practice
+TOTAL,23,642,747,577,170,510,438,"577 unique vs 642 expected — about 65 questions missing, 170 duplicate rows stored",

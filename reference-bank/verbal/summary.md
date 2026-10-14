@@ -26,7 +26,7 @@ not a real core type). 25 are flagged `proposed_addition` for you to accept or r
 | Bible taxonomy | 33 chapters → **447 core types**, enumerated, supplied by you | ~340 core types but the Bible itself says these are **estimated, not enumerated** |
 | CAT IDs | 69 paper + 570 sequence assigned | **none** — `cat_question_id` NULL on all 747 |
 | Cetking chapters on CAT rows | `ck_chapter` filled, 7 unassigned | **`ck_chapter` empty on all 859** |
-| Answers verified | 2025 verified by you; others match a second source | **0 of 747 verified.** No Career Launcher cross-check was ever run on Verbal |
+| Answers verified | 2025 verified by you; others match a second source | **679 of 747 match** a second source (cracku / 2iim / Career Launcher, URL stored per row); **33 mismatch · 21 missing_found · 12 not_found · 2 not_checked** = 68 rows need your decision |
 | Fine typing of CAT rows | by chapter | **424 of 510 RC rows have no question type at all** |
 
 So this master is the **first real enumeration of Verbal**, not a merge into an existing authority. That is why
@@ -87,7 +87,10 @@ Verified foreign keys, all preserved (the `V-` id is an *additional* key, not a 
    or standalone `V-CR-ARG`? Keywords → Why Mention This?
 6. **The 25 `proposed_addition` rows** — accept, reject, or park.
 7. **Roots & Prefixes batches** — 5 nodes are test batches (Roots D&E, F&G, H&I, Life & People), not core types.
-8. **Verbal answer verification** — 0 of 747 verified. Run the second-source check like Quant, or you do 2025 first?
+8. **Verbal answer exceptions** — 68 of 747 rows need your call: 33 `mismatch` (our answer disagrees with the
+   source), 21 `missing_found` (source supplied an answer we lacked — adopt?), 12 `not_found`, 2 `not_checked`.
+   A review sheet is being built. Also: can a `match` row show the "✓ Answer verified" badge on Shabda, the way
+   Quant does?
 9. **The 424 untagged RC rows** — tag them against the 506-row master before or after the Sheet is frozen?
 10. **Verbal CAT IDs** — Quant got `CAT-2025-S1-QA-031` style IDs. Same for Verbal (`-VA-`)?
 
