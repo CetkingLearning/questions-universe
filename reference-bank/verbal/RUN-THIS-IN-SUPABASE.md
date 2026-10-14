@@ -1,89 +1,90 @@
 # How to run the Verbal taxonomy SQL yourself — click by click
 
-**Why this file exists.** On 15 Oct 2026 I could not create the table from this session. Schema changes
-were refused four times: `apply_migration` cancelled three times, and an `execute_sql` call containing
-`CREATE TABLE` cancelled once — while a plain `INSERT` in the same session went through fine. So writing
-rows is allowed here, creating tables is not. **Nothing was created and nothing was left half-done**: no
-`verbal_master_taxonomy`, no `ck_core_id` columns, no dangling Control Room session.
+## Where things stand (15 Oct 2026)
 
-Two ways forward. Either grant the schema-change approval when the prompt appears and I run it, or run it
-yourself in four clicks below. Both end in exactly the same place.
+**Run 1 is DONE.** You ran `verbal_master_taxonomy.sql` and `verbal_cr_question_tagging.sql` and both
+succeeded. Verified from my side: 143 taxonomy rows, 93 core types, no orphans, and 249 Critical Reasoning
+questions tagged. Critical Reasoning is live as 7 chapters × 2 core types.
+
+**Run 2 is waiting for you.** You then confirmed "yes chapters in RC", so Reading Comprehension needs
+reshaping: Evidence and Summary/TSPM stop being sub-sections and become chapters inside RC.
 
 ---
 
-## Step 1 — open the Supabase SQL editor
+## Run 2 — reshape Reading Comprehension
 
-https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
+**Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
 
-(That is the Cetking Learn project. If it asks you to log in, it is the same account you used on 10 Oct to
-upload the question CSV.)
+**Step 2.** Open this link, **Ctrl+A** then **Ctrl+C**:
 
-## Step 2 — run the first file
+https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_master_taxonomy_RESHAPE_rc.sql
 
-Open this link, press **Ctrl+A** then **Ctrl+C** to copy all of it:
+**Step 3.** Paste into the editor and press **Run**. Expect `Success. No rows returned`.
 
-https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_master_taxonomy.sql
+### What it does
 
-Paste it into the SQL editor and press **Run** (or Ctrl+Enter).
+Deletes all 143 taxonomy rows and reloads **131** — one transaction, so it is all-or-nothing. Verbal goes
+from 8 sub-sections to 6:
 
-**What it does:** creates the table `verbal_master_taxonomy` and the view
-`verbal_master_taxonomy_chapters`, then loads 143 rows — 1 section, 8 sub-sections, 41 chapters,
-93 core types, including the restructured Critical Reasoning (7 chapters × 2 core types).
+| Sub-section | Chapters | Core types |
+|---|---:|---:|
+| Reading Comprehension | 3 | 13 |
+| Paragraph | 5 | 9 |
+| Critical Reasoning | 7 | 14 |
+| Vocabulary | 11 | 42 |
+| Grammar | 9 | 9 |
+| Verbal General | 1 | 1 |
 
-**It checks itself.** The last part of the file counts what it loaded and deliberately fails if the numbers
-are wrong, which rolls the whole thing back. So either you get the full correct load or you get nothing —
-it cannot leave the table half-filled.
+RC's three chapters are **Evidence based**, **TSPM based**, and **CAT level RC**.
 
-**Expected result:** `Success. No rows returned`.
+### Why it is safe for the work already done
 
-## Step 3 — run the second file
+The 14 Critical Reasoning core-type ids reload **unchanged**, so the 249 questions you already tagged keep
+pointing at the right core types. The file asserts exactly that before committing — if even one tagged
+question would be orphaned, it raises `RESHAPE ABORTED` and rolls the whole thing back. I tested this against
+a copy of your current live state (143 rows + 249 tagged questions) and all 249 still resolved afterwards.
 
-Same thing with:
-
-https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_cr_question_tagging.sql
-
-**What it does:** adds two columns (`ck_core_id`, `ck_tag_source`) to `cat_import_questions` and
-`cat_verbal_pyq_questions`, then writes the core-type id onto **249 Critical Reasoning questions** —
-188 from the 506-row master and 61 from the iimking import. It does not touch any answer, option,
-passage or existing column, and it also fails-and-rolls-back if the counts are off.
-
-**Run it after file 1**, because its checks look up the ids in the new table.
-
-**Expected result:** `Success. No rows returned`.
-
-## Step 4 — see that it worked
-
-Paste this and Run:
+**Step 4.** Check it, or just tell me and I'll verify:
 
 ```sql
-select level, count(*) from public.verbal_master_taxonomy group by 1 order by 2;
+select subsection_name,
+       count(*) filter (where level='chapter')   as chapters,
+       count(*) filter (where level='core_type') as core_types
+  from public.verbal_master_taxonomy
+ where level in ('chapter','core_type')
+ group by 1 order by 1;
 
-select chapter_name, core_types, cat_pyq_in_chapter
-  from public.verbal_master_taxonomy_chapters
- where subsection_name = 'Critical Reasoning' order by sort_order;
-
-select ck_core_id, count(*) from (
-  select ck_core_id from public.cat_verbal_pyq_questions where ck_core_id is not null
-  union all
-  select ck_core_id from public.cat_import_questions     where ck_core_id is not null
-) z group by 1 order by 1;
+select count(*) as tagged_still_resolving
+  from (select ck_core_id from public.cat_import_questions     where ck_core_id is not null
+        union all
+        select ck_core_id from public.cat_verbal_pyq_questions where ck_core_id is not null) z
+  join public.verbal_master_taxonomy t on t.master_id = z.ck_core_id;
 ```
 
-You should see 143 rows / 93 core types, the 7 Critical Reasoning chapters with 2 core types each, and
-249 tagged questions across 8 core-type ids.
+Expect the six rows above, and **249**.
 
 ---
 
-## If something goes wrong
+## Why you are running these by hand
 
-Nothing here is destructive, and both files run inside a single transaction, so a failure leaves the
-database exactly as it was. If you want to undo a successful run:
+My own tool calls could not make schema changes in this session: `apply_migration` was cancelled three
+times and an `execute_sql` containing `CREATE TABLE` once, while a plain `INSERT` went through. Your runs
+work fine, so this is the reliable route for schema changes.
+
+Worth being clear about one thing: **the two SQL errors you hit were my bugs, not a Supabase lock.** I had
+passed a plain string to `change_events.details` (it is `jsonb`) and set `sessions.status = 'finished'`
+(only `active` / `completed` / `abandoned` are allowed). I had tested against a local stub whose column
+types I invented instead of reading yours. The stub is now generated from your real schema.
+
+## Undo, if ever needed
 
 ```sql
-drop view  if exists public.verbal_master_taxonomy_chapters;
-drop table if exists public.verbal_master_taxonomy;
+-- back to the 143-row shape: re-run the previous file
+--   reference-bank/verbal/verbal_master_taxonomy.sql
+-- remove the CR question tags:
 update public.cat_import_questions     set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
 update public.cat_verbal_pyq_questions set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
+-- remove the taxonomy entirely:
+drop view  if exists public.verbal_master_taxonomy_chapters;
+drop table if exists public.verbal_master_taxonomy;
 ```
-
-Tell me once it has run and I will verify from my side and record the Control Room handover.
