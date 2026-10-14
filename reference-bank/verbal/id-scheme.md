@@ -42,7 +42,7 @@ because they are 11 and 9 separate chapters with separate books and separate tes
 | `V-SM` | `SUM` Non-RC Summary · `TSP` TSPM based |
 | `V-PG` | `JUM` Para Jumbles · `OMO` Odd Man Out · `COM` Para Completion & Sentence Insertion · `JOI` Sentence Joining & Matching |
 | `V-EV` | `WMT` Why Mention This · `TRF` Truth & Facts based |
-| `V-CR` | `INF` Inference · `WST` Strength/Weaken · `CEF` Cause Effect Reasoning · `SIM` Similarity · `TRC` Truth Claim Conclusions · `ASM` Assumptions · `COA` Course of Action · `ARG` Arguments · `FLW` Flaw & Paradox |
+| `V-CR` | **7 chapters, restructured by Rav 15 Oct 2026:** `ARG` Arguments · `ASM` Assumptions · `CEF` Cause Effect Reasoning · `COA` Course of Action · `INF` Inference Based Questions · `SIM` Similarity · `TRC` Truth Claim Conclusions. **Each one has exactly 2 core types: `-001` Single Statements and `-002` Passage based.** Retired: `WST` Strength/Weaken and `FLW` Flaw & Paradox, both folded into `ARG-002`. See `CR-RESTRUCTURE.md`. |
 | `V-VO` | `SYN` `OWS` `IDM` `SPL` `ROT` `FIB` `CLZ` `CTX` `WRL` `HFW` `UNT` |
 | `V-GR` | `SVA` `SIP` `ERR` `FOS` `VCE` `SPH` `POS` `GFB` `UNT` |
 | `V-GN` | `INT` Strategy & Intro |

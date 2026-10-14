@@ -108,19 +108,19 @@ question_taxonomy,8f3be00a-7ea3-40e0-bf4d-780b1ecea680,Verbal | Vocabulary | Rea
 question_taxonomy,bdbcd98f-c195-49ed-b469-5b807d022c6f,Verbal | Vocabulary | Sentence Completion | Two-Dimensional | Dual-Blank Semantic Logic,matched,V-VO-FIB-005,
 question_taxonomy,5e8e93c2-2ace-48ba-addd-1b18dbdb22c9,Verbal | Vocabulary | Word Relationships | Two-Dimensional | Relationship Matrix / Odd Pair,matched,V-VO-WRL-002,
 ck_topic_hierarchy,a2048102-7489-48e6-8d06-e1b37458644c,Verbal | RC | Why Mention This (source=rav),matched,V-EV-WMT-001,
-ck_topic_hierarchy,d6ff75c3-004a-48a2-a7cd-c74cae2f1488,Verbal | RC | Inference (source=rav),matched,V-CR-INF-001,
-ck_topic_hierarchy,a96409d2-0ca5-4176-8259-1c0c5439c477,Verbal | RC | Weaken Strengthening (source=rav),matched,V-CR-WST-001,
-ck_topic_hierarchy,fe6e81ce-7fb8-418f-8b37-c50ea0417426,Verbal | RC | Cause Effect Reasoning (source=rav),matched,V-CR-CEF-001,
+ck_topic_hierarchy,d6ff75c3-004a-48a2-a7cd-c74cae2f1488,Verbal | RC | Inference (source=rav),matched,V-CR-INF-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+ck_topic_hierarchy,a96409d2-0ca5-4176-8259-1c0c5439c477,Verbal | RC | Weaken Strengthening (source=rav),matched,V-CR-ARG-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+ck_topic_hierarchy,fe6e81ce-7fb8-418f-8b37-c50ea0417426,Verbal | RC | Cause Effect Reasoning (source=rav),matched,V-CR-CEF-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 ck_topic_hierarchy,11bf0d19-f07e-43dc-9ba1-6f8e694196ea,Verbal | RC | Truth Facts (source=rav),matched,V-EV-TRF-001,
 ck_topic_hierarchy,70cf7694-ba29-4841-be6e-657fa0d70c0a,Verbal | RC | TSPM (source=rav),matched,V-SM-TSP-004,
-ck_topic_hierarchy,303d3700-8329-4007-966a-1a15b40f84e4,Verbal | RC | Similarity (source=rav),matched,V-CR-SIM-001,
+ck_topic_hierarchy,303d3700-8329-4007-966a-1a15b40f84e4,Verbal | RC | Similarity (source=rav),matched,V-CR-SIM-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 ck_topic_hierarchy,591b39ae-ac5b-47c4-acb8-2f227e1c5798,Verbal | RC | RC Practice (source=proposed),matched,V-RC-PAS-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
 ck_topic_hierarchy,75ce548d-8944-47b9-b22c-83c52170cca6,Verbal | Non-RC | Summary (source=rav),matched,V-SM-SUM-001,
 ck_topic_hierarchy,c626c17e-0343-423b-979f-6d40b4709724,Verbal | Non-RC | Odd Man Out (source=rav),matched,V-PG-OMO-001,
 ck_topic_hierarchy,255462fc-bede-4c3f-bee2-f396bf8fc636,Verbal | Non-RC | Jumbled (source=rav),matched,V-PG-JUM-001,
 ck_topic_hierarchy,4f3f369f-03de-460d-b29d-2668db1669c8,Verbal | Non-RC | Completion (source=rav),matched,V-PG-COM-001,
-ck_topic_hierarchy,277af30e-9938-4901-b0b9-b400fbf63b95,Verbal | Critical Reasoning | Arguments (source=proposed),matched,V-CR-ARG,videos attach here via dyntube_videos.hierarchy_id — keep this row
-ck_topic_hierarchy,80229880-afce-46ef-8ca1-6b99f8d9ea88,Verbal | Critical Reasoning | Assumptions (source=proposed),matched,V-CR-ASM,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,277af30e-9938-4901-b0b9-b400fbf63b95,Verbal | Critical Reasoning | Arguments (source=proposed),matched,V-CR-ARG-001,videos attach here via dyntube_videos.hierarchy_id — keep this row [remapped 15 Oct 2026 for the CR 7x2 restructure]
+ck_topic_hierarchy,80229880-afce-46ef-8ca1-6b99f8d9ea88,Verbal | Critical Reasoning | Assumptions (source=proposed),matched,V-CR-ASM-001,videos attach here via dyntube_videos.hierarchy_id — keep this row [remapped 15 Oct 2026 for the CR 7x2 restructure]
 ck_topic_hierarchy,00cb6256-05d5-4e3b-9d1d-a8d1ea8ec12e,Verbal | Critical Reasoning | Conclusions & Inference (source=proposed),matched,V-CR-TRC-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
 ck_topic_hierarchy,687b91a6-98f8-4b1d-87be-12af8040539d,Verbal | Critical Reasoning | Course of Action (source=proposed),matched,V-CR-COA-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
 ck_topic_hierarchy,1ac9d4c3-768d-46ca-b176-a7d7328c2a05,Verbal | Critical Reasoning | Cause & Effect (source=proposed),matched,V-CR-CEF-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
@@ -147,11 +147,11 @@ cat_verbal_paper_pattern_clean,1,Non RC | Summary | Summary,matched,V-SM-SUM-001
 cat_verbal_paper_pattern_clean,2,Non RC | Paragraph | Odd Man Out,matched,V-PG-OMO-001,
 cat_verbal_paper_pattern_clean,3,Non RC | Paragraph | Jumbled,matched,V-PG-JUM-001,
 cat_verbal_paper_pattern_clean,4,Non RC | Paragraph | Completion,matched,V-PG-COM-001,
-cat_verbal_paper_pattern_clean,6,RC | Critical Reasoning | Inference,matched,V-CR-INF-001,
-cat_verbal_paper_pattern_clean,7,RC | Critical Reasoning | Weakening Strengthening,matched,V-CR-WST-001,
-cat_verbal_paper_pattern_clean,8,RC | Critical Reasoning | Cause Effect Reasoning,matched,V-CR-CEF-001,
+cat_verbal_paper_pattern_clean,6,RC | Critical Reasoning | Inference,matched,V-CR-INF-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+cat_verbal_paper_pattern_clean,7,RC | Critical Reasoning | Weakening Strengthening,matched,V-CR-ARG-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+cat_verbal_paper_pattern_clean,8,RC | Critical Reasoning | Cause Effect Reasoning,matched,V-CR-CEF-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 cat_verbal_paper_pattern_clean,10,RC | Summary | TSPM,matched,V-SM-TSP-004,
-cat_verbal_paper_pattern_clean,11,RC | Critical Reasoning | Similarity,matched,V-CR-SIM-001,
+cat_verbal_paper_pattern_clean,11,RC | Critical Reasoning | Similarity,matched,V-CR-SIM-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 cat_verbal_paper_pattern_clean,5,RC | Evidence | Why Mention This,matched,V-EV-WMT-001,
 cat_verbal_paper_pattern_clean,9,RC | Evidence | Truth Facts,matched,V-EV-TRF-001,
 shabda_shortcuts,verbal-summary,"Summary → Summary, TSPM",matched,V-SM,G Strategy family = sub-section. Slug keeps working.
@@ -163,7 +163,7 @@ shabda_shortcuts,verbal-critical-reasoning,"Critical Reasoning → Inference, We
 "book_universe_chapters (Verbal White Book, book 3)",510b2c9b-86da-4ecc-9d44-55378469dfaf,ch 3 · ‘Meaning of this’ · p21–30 · slug=verbal-evidence,matched,V-EV-WMT,
 "book_universe_chapters (Verbal White Book, book 3)",8cc88008-2d2f-4a4d-ad03-ed3a62e94e6d,ch 4 · Truth & Facts based · p31–34 · slug=verbal-evidence,matched,V-EV-TRF,
 "book_universe_chapters (Verbal White Book, book 3)",9aa4fd49-c859-477e-9133-0a65feb5dc3f,ch 5 · Cause Effect Reasoning · p35–40 · slug=verbal-critical-reasoning,matched,V-CR-CEF,
-"book_universe_chapters (Verbal White Book, book 3)",d039e751-fe73-4227-99a8-19f4b30ecce5,ch 6 · Strength/Weaken Arguments · p41–49 · slug=verbal-critical-reasoning,matched,V-CR-WST,
+"book_universe_chapters (Verbal White Book, book 3)",d039e751-fe73-4227-99a8-19f4b30ecce5,ch 6 · Strength/Weaken Arguments · p41–49 · slug=verbal-critical-reasoning,matched,V-CR-ARG,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 "book_universe_chapters (Verbal White Book, book 3)",bda8e6ed-1902-47fe-b7f2-c72dfcfe4a23,ch 7 · Except Based Questions · p50–57 · slug=verbal-critical-reasoning,matched,V-RC-EXC,
 "book_universe_chapters (Verbal White Book, book 3)",6094cc27-a145-482c-b129-fd71208014b2,ch 8 · Non RC Summary based · p58–66 · slug=verbal-summary,matched,V-SM-SUM,
 "book_universe_chapters (Verbal White Book, book 3)",0826e8af-5e60-4cf8-94ef-dab2e502c517,ch 9 · Non RC Odd Man Out · p67–72 · slug=verbal-paragraph,matched,V-PG-OMO,
@@ -196,11 +196,11 @@ cat_import_questions.question_type (actual CAT Verbal),50 rows,Odd Man Out,match
 cat_import_questions.question_type (actual CAT Verbal),44 rows,RC,matched,V-RC-PAS-002,
 cat_import_questions.question_type (actual CAT Verbal),39 rows,Reading Comprehension,matched,V-RC-PAS-002,
 cat_import_questions.question_type (actual CAT Verbal),34 rows,Para Jumble,matched,V-PG-JUM-001,
-cat_import_questions.question_type (actual CAT Verbal),25 rows,Cause-Effect / Reasoning,matched,V-CR-CEF-001,
+cat_import_questions.question_type (actual CAT Verbal),25 rows,Cause-Effect / Reasoning,matched,V-CR-CEF,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 cat_import_questions.question_type (actual CAT Verbal),17 rows,Paragraph Completion,matched,V-PG-COM-001,
-cat_import_questions.question_type (actual CAT Verbal),15 rows,Inference,matched,V-CR-INF-001,
+cat_import_questions.question_type (actual CAT Verbal),15 rows,Inference,matched,V-CR-INF,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 cat_import_questions.question_type (actual CAT Verbal),9 rows,Para Completion,matched,V-PG-COM-001,
-cat_import_questions.question_type (actual CAT Verbal),5 rows,Argument,matched,V-CR-WST-001,VERIFY — could be V-CR-ARG (standalone argument) instead
+cat_import_questions.question_type (actual CAT Verbal),5 rows,Argument,matched,V-CR-ARG-001,"RESOLVED 15 Oct 2026: all 9 iimking ""Argument"" rows have NO passage, so they are Arguments | Single Statements (V-CR-ARG-001) — not the Weakening Strengthening rows they were provisionally mapped to."
 cat_import_questions.question_type (actual CAT Verbal),4 rows,Sentence Insertion,matched,V-PG-COM-002,
 cat_import_questions.question_type (actual CAT Verbal),3 rows,Keywords,matched,V-EV-WMT-001,"VERIFY — iimking-only word, looks like Why Mention This"
 cat_import_questions.question_type (actual CAT Verbal),3 rows,Odd One Out,matched,V-PG-OMO-001,
@@ -218,10 +218,10 @@ cat_verbal_pyq_questions.g_strategy_question,47 rows,Jumbled,matched,V-PG-JUM-00
 cat_verbal_pyq_questions.g_strategy_question,27 rows,Completion,matched,V-PG-COM-001,
 cat_verbal_pyq_questions.g_strategy_question,57 rows,Why Mention This,matched,V-EV-WMT-001,
 cat_verbal_pyq_questions.g_strategy_question,53 rows,Truth Facts,matched,V-EV-TRF-001,
-cat_verbal_pyq_questions.g_strategy_question,98 rows,Inference,matched,V-CR-INF-001,
-cat_verbal_pyq_questions.g_strategy_question,34 rows,Weakening Strengthening,matched,V-CR-WST-001,
-cat_verbal_pyq_questions.g_strategy_question,44 rows,Cause Effect Reasoning,matched,V-CR-CEF-001,
-cat_verbal_pyq_questions.g_strategy_question,12 rows,Similarity,matched,V-CR-SIM-001,
+cat_verbal_pyq_questions.g_strategy_question,98 rows,Inference,matched,V-CR-INF-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+cat_verbal_pyq_questions.g_strategy_question,34 rows,Weakening Strengthening,matched,V-CR-ARG-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+cat_verbal_pyq_questions.g_strategy_question,44 rows,Cause Effect Reasoning,matched,V-CR-CEF-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
+cat_verbal_pyq_questions.g_strategy_question,12 rows,Similarity,matched,V-CR-SIM-002,[remapped 15 Oct 2026 for the CR 7x2 restructure]
 verbal-bible (memory),-,"Verbal Bible SUB-SECTION 3 ""Grammar"" — 10 chapters, 82 types",NOTE,,Master keeps 9 Grammar chapters (V-GR). The Bible lists ~82 core types; only 4 have live rows. Rav to say which Grammar core types Cetking actually teaches.
 verbal-bible (memory),-,"Verbal Bible SUB-SECTION 4 ""Vocabulary"" — 6 chapters, 66 types",NOTE,,Master keeps 11 Vocabulary chapters (V-VO) with 38 core types that have live rows or question_taxonomy rows. The rest of the Bible 66 are not yet created.
 verbal-bible (memory),-,Verbal Bible counts (110 subchapters / ~340 core types),NOTE,,"The Bible itself says these counts are ESTIMATED, not enumerated like Quant 447. So Verbal has no frozen 447-style number yet — this master is the first enumeration (92 core types)."
@@ -234,13 +234,13 @@ AXIS (not a taxonomy level),is_except,true 92 / false 414,NOTE,,"Question FORM f
 AXIS (not a taxonomy level),direct_indirect,from his sheet,NOTE,,"Kept raw, no master row."
 AXIS (not a taxonomy level),arena_difficulty / arena_ready,on cat_verbal_pyq_questions,NOTE,,"Arena reuse flags, already in the table."
 ADDENDUM (15 Oct 2026),20 names,Verbal G Strategy names — a THIRD naming system,NOTE,,"These were not in the ChatGPT handover, so my first pass missed them. There are three different naming systems for the same Verbal strategies: the PYQ table's 11 core types, cat_card_map's 8 names, and these 20 stored on the questions. 12 of the 20 are NOT in cat_card_map, so those questions can never reach a Shabda card. 21 of the invisible rows are actual CAT questions."
-cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),25 rows (25 actual CAT),Cause Effect Result Reasoning,matched,V-CR-CEF-001,"in cat_card_map: YES → verbal-critical-reasoning. card_map name for the core type ""Cause Effect Reasoning"" — three names for one thing."
+cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),25 rows (25 actual CAT),Cause Effect Result Reasoning,matched,V-CR-CEF,"in cat_card_map: YES → verbal-critical-reasoning. card_map name for the core type ""Cause Effect Reasoning"" — three names for one thing. [remapped 15 Oct 2026 for the CR 7x2 restructure]"
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),25 rows (5 actual CAT),TSPM,matched,V-SM-TSP-004,in cat_card_map: YES → verbal-summary. the one name that is identical everywhere.
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),20 rows (0 actual CAT),Why Mention,matched,V-EV-WMT-001,"in cat_card_map: YES → verbal-evidence. card_map name for ""Why Mention This"". All 20 rows are PRACTICE, not actual CAT."
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),14 rows (8 actual CAT),Truth Claims & Conclusions,matched,V-CR-TRC-001,"in cat_card_map: YES → verbal-critical-reasoning. maps to Truth Claim Conclusions, NOT to Evidence > Truth Facts — easy to confuse, check with Rav."
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),12 rows (12 actual CAT),CRAFT,matched,V-PG-OMO-001,RESOLVED 15 Oct 2026: CRAFT = Odd Man Out. All 12 CRAFT rows are Odd One Out questions (CAT 2024/2025) and are exactly the 12 verify_status=not_found rows in the answer review. CONFIRM this reading. They are also why the Paragraph card shows 1 question instead of 12.
-cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),11 rows (11 actual CAT),Strengthen Weakening,matched,V-CR-WST-001,"in cat_card_map: YES → verbal-critical-reasoning. card_map word order is reversed vs the PYQ table (""Weakening Strengthening"")."
-cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),9 rows (7 actual CAT),Similarity,matched,V-CR-SIM-001,in cat_card_map: YES → verbal-critical-reasoning.
+cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),11 rows (11 actual CAT),Strengthen Weakening,matched,V-CR-ARG-002,"in cat_card_map: YES → verbal-critical-reasoning. card_map word order is reversed vs the PYQ table (""Weakening Strengthening""). [remapped 15 Oct 2026 for the CR 7x2 restructure]"
+cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),9 rows (7 actual CAT),Similarity,matched,V-CR-SIM-002,in cat_card_map: YES → verbal-critical-reasoning. [remapped 15 Oct 2026 for the CR 7x2 restructure]
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),1 rows (1 actual CAT),Continuation ParaJumbles,matched,V-PG-JUM-001,in cat_card_map: YES → verbal-paragraph. only 1 row.
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),5 rows (0 actual CAT),Summary Essence Tone,matched,V-SM (family),"in cat_card_map: NO. NOT in cat_card_map, so these can never reach a card. All 5 rows are practice. practice rows only — lower priority"
 cat_import_questions.g_strategy_official / shortcut (Verbal G Strategy NAMES),4 rows (4 actual CAT),Hidden Depth,UNMATCHED,,in cat_card_map: NO. NOT in cat_card_map — 4 actual-CAT questions invisible to students. Open since 10 Oct 2026. DECIDE which core type this is. ADD to cat_card_map or these questions can never reach a Shabda card
