@@ -316,7 +316,8 @@ end $$;
 
 insert into control_room.change_events (request_id, session_id, actor, event_kind, object_schema, object_name, operation, details)
 select cr.id, cr.session_id, 'claude', 'schema_and_data', 'public', 'verbal_master_taxonomy', 'CREATE+INSERT',
-  'Created table + view verbal_master_taxonomy_chapters, schema mirroring quant_master_taxonomy. Loaded 143 rows (1 section, 8 subsections, 41 chapters, 93 core types). Verified counts, parent integrity and core_type_id in-transaction. All rows status=from_bible_unfrozen; 23 core types proposed_addition. No existing object or row changed. Outstanding: (1) 424 actual-CAT RC rows have no question_type — 248 can be tagged from cat_verbal_pyq_questions, see reference-bank/verbal/TAGGING-PLAN.md; (2) 68 answer rows need Rav (33 mismatch, 21 missing_found, 12 not_found, 2 not_checked); (3) CAT 2024 Verbal has ZERO RC rows; (4) CAT 2025 has 186 rows for 100 unique; (5) 12 of the 20 Verbal G Strategy names are absent from cat_card_map, so 18 actual-CAT questions cannot reach a Shabda card; (6) 4 Arena mappings still pending; (7) 10 open decisions in reference-bank/verbal/summary.md. Next: Rav freezes chapters, then backfill cat_import_questions.ck_subsection/ck_chapter from this table.'
+  jsonb_build_object('summary',
+  'Created table + view verbal_master_taxonomy_chapters, schema mirroring quant_master_taxonomy. Loaded 143 rows (1 section, 8 subsections, 41 chapters, 93 core types). Verified counts, parent integrity and core_type_id in-transaction. All rows status=from_bible_unfrozen; 23 core types proposed_addition. No existing object or row changed. Outstanding: (1) 424 actual-CAT RC rows have no question_type — 248 can be tagged from cat_verbal_pyq_questions, see reference-bank/verbal/TAGGING-PLAN.md; (2) 68 answer rows need Rav (33 mismatch, 21 missing_found, 12 not_found, 2 not_checked); (3) CAT 2024 Verbal has ZERO RC rows; (4) CAT 2025 has 186 rows for 100 unique; (5) 12 of the 20 Verbal G Strategy names are absent from cat_card_map, so 18 actual-CAT questions cannot reach a Shabda card; (6) 4 Arena mappings still pending; (7) 10 open decisions in reference-bank/verbal/summary.md. Next: Rav freezes chapters, then backfill cat_import_questions.ck_subsection/ck_chapter from this table.')
 from control_room.change_requests cr
 where cr.title = 'Verbal master taxonomy: new table public.verbal_master_taxonomy + 143 rows'
 order by cr.created_at desc limit 1;
@@ -329,7 +330,7 @@ update control_room.change_requests
 -- Scoped to THIS file's own session row only. An earlier version matched every
 -- active 'claude' session, which would have closed a parallel session's row too.
 update control_room.sessions
-   set status='finished', finished_at=now(), last_seen_at=now(),
+   set status='completed', finished_at=now(), last_seen_at=now(),
        notes = coalesce(notes,'') || ' | Done: verbal_master_taxonomy created and loaded.'
  where id = (select id from control_room.sessions
               where actor='claude' and status='active'

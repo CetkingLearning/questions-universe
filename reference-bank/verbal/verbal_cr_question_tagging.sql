@@ -98,12 +98,13 @@ order by s.started_at desc limit 1;
 
 insert into control_room.change_events (request_id, session_id, actor, event_kind, object_schema, object_name, operation, details)
 select cr.id, cr.session_id, 'claude', 'schema_and_data', 'public', 'cat_import_questions + cat_verbal_pyq_questions', 'ALTER+UPDATE',
-  'Verbal CR restructured to 7 chapters x 2 core types. Tagged 188 rows in cat_verbal_pyq_questions (Inference 98 -> V-CR-INF-002, Cause Effect 44 -> V-CR-CEF-002, Weakening Strengthening 34 -> V-CR-ARG-002, Similarity 12 -> V-CR-SIM-002; all sit on a passage) and 61 rows in cat_import_questions (Cause-Effect 13 passage / 12 single, Inference 20 passage / 1 single, Argument 9 single, Truth Claims & Conclusions 6 single). Merged away: V-CR-WST and V-CR-FLW into Arguments | Passage based; Must-Be-True into Inference; Identify Conclusion/Premise into Arguments | Single Statements; Necessary Assumption into Assumptions | Single Statements. OUTSTANDING: about 136 more CR questions are still hiding in the 424 untyped RC rows (Inference 53, Weakening Strengthening 38, Cause Effect 32, Similarity 13 by text match against the 506-row master) and are NOT tagged here — they need Rav to approve the wider tagging first. Also: the cat_card_questions qkey bug must be fixed before any tagging reaches the cards (reference-bank/verbal/CARD-KEY-BUG.md).'
+  jsonb_build_object('summary',
+  'Verbal CR restructured to 7 chapters x 2 core types. Tagged 188 rows in cat_verbal_pyq_questions (Inference 98 -> V-CR-INF-002, Cause Effect 44 -> V-CR-CEF-002, Weakening Strengthening 34 -> V-CR-ARG-002, Similarity 12 -> V-CR-SIM-002; all sit on a passage) and 61 rows in cat_import_questions (Cause-Effect 13 passage / 12 single, Inference 20 passage / 1 single, Argument 9 single, Truth Claims & Conclusions 6 single). Merged away: V-CR-WST and V-CR-FLW into Arguments | Passage based; Must-Be-True into Inference; Identify Conclusion/Premise into Arguments | Single Statements; Necessary Assumption into Assumptions | Single Statements. OUTSTANDING: about 136 more CR questions are still hiding in the 424 untyped RC rows (Inference 53, Weakening Strengthening 38, Cause Effect 32, Similarity 13 by text match against the 506-row master) and are NOT tagged here — they need Rav to approve the wider tagging first. Also: the cat_card_questions qkey bug must be fixed before any tagging reaches the cards (reference-bank/verbal/CARD-KEY-BUG.md).')
 from control_room.change_requests cr
 where cr.title = 'Verbal CR: ck_core_id on cat_import_questions + cat_verbal_pyq_questions, 249 CR rows tagged'
 order by cr.created_at desc limit 1;
 
-update control_room.sessions set status='finished', finished_at=now(), last_seen_at=now()
+update control_room.sessions set status='completed', finished_at=now(), last_seen_at=now()
  where actor='claude' and status='active' and purpose like 'Verbal CR restructure%';
 
 commit;
