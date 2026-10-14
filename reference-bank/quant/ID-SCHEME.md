@@ -1,6 +1,6 @@
-# Quant master taxonomy – ID scheme
+# Quant master taxonomy – ID scheme (v2, 5 levels, 15 Oct 2026)
 
-Every level of the Quant taxonomy gets a short, human-readable ID. IDs are built left to right, so any ID tells you exactly where it sits.
+Every level of the Quant taxonomy gets a short, human-readable ID. IDs are built left to right, so any ID tells you exactly where it sits. The sub-topic (core type) ID is the full chain: section → sub-section → chapter → topic → core type.
 
 ## Levels
 
@@ -9,8 +9,9 @@ Every level of the Quant taxonomy gets a short, human-readable ID. IDs are built
 | Section | `Q` | `Q` = Quant |
 | Sub-section | `Q-` + 2 letters | `Q-AR` = Arithmetic |
 | Chapter | sub-section ID + `-` + 3 letters | `Q-AR-PER` = Percentages |
-| Core type | chapter ID + `-` + 3-digit number | `Q-AR-PER-001` = Percentage Basics |
-| Question (future) | core type ID + `-` + level code + `-` + 4-digit number | `Q-AR-PER-001-E-0001` |
+| Topic (new) | chapter ID + `-` + 2-digit number | `Q-AR-PER-01` = Percentage Basics |
+| Sub-topic = core type | topic ID + `-` + 3-digit number | `Q-AR-PER-01-001` = Percentage Basics (the core type) |
+| Question (future) | core type ID + `-` + level code + `-` + 4-digit number | `Q-AR-PER-01-001-E-0001` |
 
 ## Sub-section codes
 
@@ -26,20 +27,28 @@ Modern Maths: `PNC` Permutation & Combination, `PRB` Probability, `SET` Set Theo
 Geo Mensu: `GEO` Geometry, `MEN` Mensuration, `COG` Coordinate Geometry, `TRG` Trigonometry
 DI/DS: `DIN` Data Interpretation, `DSF` Data Sufficiency, `DCM` Data Comparison (proposed – CET pattern, only in Supabase sources)
 
+## Topics (the new level)
+
+- A topic is a teacher's "section of the chapter", grouped by solution structure (e.g. Averages: Read Total / Mix Totals / Repair Total; Time & Work: Fundamentals / Left Work / Scheduling & Efficiency / Mandays & Wages).
+- 3–5 topics per chapter (4 is the target); a chapter with ≤5 core types may have 1–2.
+- Where Arena (War Room) already had sub_topics for a chapter, they became the topics; Arena's names are kept in `topic_aliases`.
+- Topic numbers are `01`, `02`, … in teaching order inside the chapter.
+
 ## Core-type numbering
 
-- Numbers follow the Bible's `sort_order` inside each chapter: `001`, `002`, … in the order the Bible lists them.
-- Core types that are NOT in the Bible (found only in `question_taxonomy`, `taxonomy_universe_nodes` or Arena) get the next free number after the Bible's last one in that chapter, e.g. Percentages has 28 Bible core types, so the proposed "Percentage Max-Min" becomes `Q-AR-PER-029`.
-- Numbers are permanent once Ravneet accepts them. If a proposed row is rejected its number is simply retired (not reused), so IDs already printed anywhere never change meaning.
+- Core types are numbered `001`, `002`, … **inside their topic**, in Bible order (the Bible's `sort_order`, which is also the v1 order).
+- Core types that are NOT in the Bible (proposed additions) keep their position after the Bible core types of the same topic.
+- Every v1 ID (e.g. `Q-AR-PER-006`) is kept in the `old_core_type_id` column so anything printed with a v1 ID can still be traced.
+- Numbers are permanent once Ravneet accepts them. If a proposed row is rejected its number is retired (not reused).
 
 ## Question IDs (future – documented, not generated)
 
 `<core type ID>-<level>-<serial>` where level is one of `L0` (foundation), `E` (easy), `M` (medium), `H` (hard), `C` (CAT-level), and serial is a 4-digit running number within that core type + level.
 
-## Five examples
+## Five examples (one per level)
 
-1. `Q-AR-PER-001` – Quant › Arithmetic › Percentages › Percentage Basics (Bible QB-P-001).
-2. `Q-TW-TNW-012` – Quant › TS&W › Time & Work › Mandays (Arena also has a "Mandays" topic; it maps here).
-3. `Q-AL-SRD-015` – Quant › Algebra › Surds & Indices › Square Root Basics – a *proposed addition* (exists only in question_taxonomy / universe nodes), numbered after the Bible's 14 Surds core types.
-4. `Q-DS-DCM` – Quant › DI/DS › Data Comparison – a *proposed chapter* (CET pattern) with no core types yet.
-5. `Q-AR-PER-001-E-0001` – the first Easy question under Percentage Basics (future question ID; nothing generated yet).
+1. `Q` – Section: Quant.
+2. `Q-AR` – Sub-section: Quant › Arithmetic.
+3. `Q-AR-PER` – Chapter: Quant › Arithmetic › Percentages.
+4. `Q-AR-PER-02` – Topic: Quant › Arithmetic › Percentages › Percentage Change (Arena alias "Percentages > Percentage Change").
+5. `Q-AR-PER-02-003` – Sub-topic / core type: Quant › Arithmetic › Percentages › Percentage Change › Successive Change (v1 id `Q-AR-PER-006`, Bible QB-P-006).
