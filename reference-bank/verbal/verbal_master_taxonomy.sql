@@ -25,7 +25,7 @@ select s.id,
 from control_room.sessions s where s.actor='claude' and s.status='active'
 order by s.started_at desc limit 1;
 
--- ─── STEP 2 · the table ──────────────────────────────────────────────────────
+-- ─── STEP 2 · the table ─────────────────────────────────────────────────────
 create table if not exists public.verbal_master_taxonomy (
   core_id            text primary key,          -- V · V-PG · V-PG-JUM · V-PG-JUM-001
   level              text not null check (level in ('section','subsection','chapter','core_type')),
@@ -292,6 +292,6 @@ update control_room.sessions
 
 commit;
 
--- ─── rollback, if ever needed ────────────────────────────────────────────────
+-- ─── rollback, if ever needed ───────────────────────────────────────
 -- drop view if exists public.verbal_master_taxonomy_chapters;
 -- drop table if exists public.verbal_master_taxonomy;
