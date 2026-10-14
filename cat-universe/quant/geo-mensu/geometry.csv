@@ -1,0 +1,1301 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S1-QA-010,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,CAT Medium,Medium,Logic Lens G Strategy,,,,"The (x, y) coordinates of vertices P, Q and R of a parallelogram PQRS are (-3, -2), (1, -5) and (9, 1), respectively. If the diagonal SQ intersects the x-axis at (a, 0), then the value of a is",10/3,27/7,13/4,29/9,mcq,D,29/9,,,,match,"For a parallelogram P-Q-R-S in that order, S = P + R − Q.
+P = (−3, −2), Q = (1, −5), R = (9, 1) ⇒ S = (−3+9−1, −2+1−(−5)) = (5, 4).
+Line SQ passes through Q(1, −5) and S(5, 4). Slope = (4 − (−5)) / (5 − 1) = 9/4.
+Equation: y + 5 = (9/4)(x − 1). Put y = 0 to find x-intercept: 5 = (9/4)(x − 1).
+x − 1 = 20/9 ⇒ x = 1 + 20/9 = 29/9.
+Answer: 29/9 (option 4).",,Visual Lens,False,,https://iimking.com/cat-2025-slot-1-visual-lens-g-strategy/,955ca115-98d4-4e7a-8b34-8cb88cb444b7
+CAT-2025-S1-QA-011,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,CAT Medium,Medium,Logic Lens G Strategy,,,,"In the set of consecutive odd numbers {1, 3, 5, …, 57}, there is a number k such that the sum of all the elements less than k is equal to the sum of all the elements greater than k. Then, k equals",37,43,39,41,mcq,,,D,ai_unverified,2m^2+2m+1=841 => m=20 => k=41,missing_found,,,Visual Lens,False,,https://iimking.com/number-system-cat-2025-slot-1-actual-questions/,44b1875f-d9a8-403c-a457-a31fda5b62f6
+CAT-2025-S1-QA-012,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,,,Logic Lens G Strategy,,,,"In the set of consecutive odd numbers {1, 3, 5, …, 57}, there is a number k such that the sum of all the elements less than k is equal to the sum of all the elements greater than k. Then, k equals",37,43,39,41,mcq,,,D,ai_unverified,2m^2+2m+1=841 => m=20 => k=41,missing_found,,,Visual Lens,False,,https://iimking.com/cat-2025-slot-1-visual-lens-g-strategy/,46f2b76d-71a3-4687-8fc8-6fcb869b346e
+CAT-2025-S1-QA-018,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,,,,Concepts of Rhombus + Algebra,,,"If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is ____",,,,,tita,,60,,,,match,"Let the diagonals be d1 and d2.
+Area of a rhombus = 1/2 × d1 × d2 = 396 → d1 × d2 = 792.
+In a rhombus, diagonals bisect each other at right angles.
+So by Pythagoras: (d1/2)^2 + (d2/2)^2 = 36^2.
+Multiply by 4: d1^2 + d2^2 = 4 × 1296 = 5184.
+Use identity: (d1 − d2)^2 = (d1^2 + d2^2) − 2(d1 × d2).
+Substitute: (d1 − d2)^2 = 5184 − 2×792 = 5184 − 1584 = 3600.
+So |d1 − d2| = √3600 = 60.
+Final Answer: 60",,,False,,https://iimking.com/geometry-mensuration-cat-2025-slot-1-actual-questions/,58f30b27-e994-4bb9-8238-f7e83333ee68
+CAT-2025-S1-QA-048,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Rhombus + Algebra,Breakup G Strategy | Rhombus + Algebra | MEDIUM | CAT 2025 Slot 1,,"If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is ____",,,,,tita,,60,,,,match,"Let the diagonals be d1 and d2.
+Area of a rhombus = 1/2 × d1 × d2 = 396 → d1 × d2 = 792.
+In a rhombus, diagonals bisect each other at right angles.
+So by Pythagoras: (d1/2)^2 + (d2/2)^2 = 36^2.
+Multiply by 4: d1^2 + d2^2 = 4 × 1296 = 5184.
+Use identity: (d1 − d2)^2 = (d1^2 + d2^2) − 2(d1 × d2).
+Substitute: (d1 − d2)^2 = 5184 − 2×792 = 5184 − 1584 = 3600.
+So |d1 − d2| = √3600 = 60.
+Final Answer: 60",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,ff49ef3f-324c-4879-85fc-6cf00bfb4b2b
+CAT-2025-S1-QA-049,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Rhombus + Algebra,Breakup G Strategy | Rhombus + Algebra | MEDIUM | CAT 2025 Slot 1,,"If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is ____",,,,,tita,,60,,,,match,"Let the diagonals be d1 and d2.
+Area of a rhombus = 1/2 × d1 × d2 = 396 → d1 × d2 = 792.
+In a rhombus, diagonals bisect each other at right angles.
+So by Pythagoras: (d1/2)^2 + (d2/2)^2 = 36^2.
+Multiply by 4: d1^2 + d2^2 = 4 × 1296 = 5184.
+Use identity: (d1 − d2)^2 = (d1^2 + d2^2) − 2(d1 × d2).
+Substitute: (d1 − d2)^2 = 5184 − 2×792 = 5184 − 1584 = 3600.
+So |d1 − d2| = √3600 = 60.
+Final Answer: 60",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,068d801d-3a02-4c72-bd63-4d3d80e9045f
+CAT-2025-S1-QA-070,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Rhombus + Algebra,Breakup G Strategy | Rhombus + Algebra | MEDIUM | CAT 2025 Slot 1,,"If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is ____",,,,,tita,,60,,,,match,"Let the diagonals be d1 and d2.
+Area of a rhombus = 1/2 × d1 × d2 = 396 → d1 × d2 = 792.
+In a rhombus, diagonals bisect each other at right angles.
+So by Pythagoras: (d1/2)^2 + (d2/2)^2 = 36^2.
+Multiply by 4: d1^2 + d2^2 = 4 × 1296 = 5184.
+Use identity: (d1 − d2)^2 = (d1^2 + d2^2) − 2(d1 × d2).
+Substitute: (d1 − d2)^2 = 5184 − 2×792 = 5184 − 1584 = 3600.
+So |d1 − d2| = √3600 = 60.
+Final Answer: 60",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,a08c2ac9-344c-4c14-94bd-f962372255a4
+CAT-2025-S1-QA-072,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,1,,,,,Concepts of Rhombus + Algebra,Concepts of Rhombus + Algebra,,"If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is ____",,,,,tita,,60,,,,match,"Let the diagonals be d1 and d2.
+Area of a rhombus = 1/2 × d1 × d2 = 396 → d1 × d2 = 792.
+In a rhombus, diagonals bisect each other at right angles.
+So by Pythagoras: (d1/2)^2 + (d2/2)^2 = 36^2.
+Multiply by 4: d1^2 + d2^2 = 4 × 1296 = 5184.
+Use identity: (d1 − d2)^2 = (d1^2 + d2^2) − 2(d1 × d2).
+Substitute: (d1 − d2)^2 = 5184 − 2×792 = 5184 − 1584 = 3600.
+So |d1 − d2| = √3600 = 60.
+Final Answer: 60",,,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,50c10b33-9ceb-4e0e-80f6-85f2eb708989
+CAT-2025-S2-QA-002,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,Hexagon Area,,,"Let ABCDEF be a regular hexagon and P and Q be the midpoints of AB and CD, respectively.
+Then, the ratio of the areas of trapezium PBCQ and hexagon ABCDEF is _______",,,,,tita,B,5 : 24,,,,match,"Correct answer is B) 5 : 24
+Let area of the hexagon is 6E, where E represents the area of any one of the six congruent central triangles, such as triangle OBC.
+The area of trapezium PBCQ is obtained by decomposing it into simpler regions. It consists of the full area of triangle OBC along with suitable fractional parts of the triangles adjacent to the base BC.
+This decomposition gives: Area(PBCQ) = 5E/4.
+Therefore, the required ratio of areas is: (5E/4) ÷ 6E = 5/24.",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/12/Hexagon-Quant-CAT-2025-Slot-2-Question.jpg,https://iimking.com/geometry-mensuration-cat-2025-slot-2-actual-questions/,6aa20802-8b76-4386-9701-06658adf9d2a
+CAT-2025-S2-QA-009,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Easy,Easy,Logic Lens G Strategy,Hexagon Area,,,"Let ABCDEF be a regular hexagon and P and Q be the midpoints of AB and CD, respectively.
+Then, the ratio of the areas of trapezium PBCQ and hexagon ABCDEF is _______",,,,,tita,B,5 : 24,,,,match,"Correct answer is B) 5 : 24
+Let area of the hexagon is 6E, where E represents the area of any one of the six congruent central triangles, such as triangle OBC.
+The area of trapezium PBCQ is obtained by decomposing it into simpler regions. It consists of the full area of triangle OBC along with suitable fractional parts of the triangles adjacent to the base BC.
+This decomposition gives: Area(PBCQ) = 5E/4.
+Therefore, the required ratio of areas is: (5E/4) ÷ 6E = 5/24.",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/12/Hexagon-Quant-CAT-2025-Slot-2-Question.jpg,https://iimking.com/visual-lens/,e45f4b19-3011-41bc-a937-81efc897bb86
+CAT-2025-S2-QA-013,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Easy,Easy,Logic Lens G Strategy,,,,"Let f(x) = x/(2x − 1) and g(x) = x/(x − 1). Then, the domain of the function
+h(x) = f(g(x)) + g(f(x)) is all real numbers except","−1, 1, and 1/2","−1/2, 1/2, and 1",1/2 and 1,"1/2, 1, and 3/2",mcq,A,"−1, 1, and 1/2",,,,match,"Correct Answer A) −1, 1, and 1/2
+x value | f(x) | g(x) | f(g(x)) | g(f(x)) | h(x) | Reason
+−1 | ✅ | ✅ | ❌ |   |   | g(−1) = 1/2 → f(1/2) undefined
+−1/2 | ✅ | ✅ | ✅ | ✅ | ✅ | No denominator becomes zero
+1/2 | ❌ |   |   |   |   | f(1/2) undefined
+1 | ✅ | ❌ |   |   |   | g(1) undefined
+3/2 | ✅ | ✅ | ✅ | ✅ | ✅ | All steps valid
+This confirms x is not valid on −1, 1, and 1/2",,Visual POE,False,,https://iimking.com/visual-lens/,808f7144-78f1-43fc-a261-d700d4ec7de4
+CAT-2025-S2-QA-018,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,,,Logic Lens G Strategy,Triangle,,,"In a triangle ABC, points D and E are on the sides BC and AC, respectively. BE and AD intersect at point T such that AD : AT = 4 : 3, and BE : BT = 5 : 4. Point F lies on AC such that DF is parallel to BE. Then, BD : CD is",9 : 4,7 : 4,11 : 4,15 : 4,mcq,C,11 : 4,,,,match,"Correct answer: C) 11:4
+Given, AD : AT = 4 : 3 ⇒ AT : TD = 3 : 1 and BE : BT = 5 : 4 ⇒ BT : TE = 4 : 1
+By the mass points method, masses are assigned inversely to the segments.
+From AT : TD = 3 : 1 ⇒ Mass at A : Mass at D = 1 : 3.
+From BT : TE = 4 : 1, ⇒ Mass at B : Mass at E = 1 : 4.
+Choosing consistent masses,
+A = 5/4, D = 15/4 and B = 1, E = 4, so mass at T = 5.
+Since D lies on BC, Mass at D = Mass at B + Mass at C
+15/4 = 1 + Mass at C ⇒ Mass at C = 11/4.
+Therefore, BD : DC = Mass at C : Mass at B ⇒ (11/4) : 1 ⇒ 11 : 4.",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/12/Triangle-Quant-CAT-2025-Slot-2-Question-1.jpg,https://iimking.com/geometry-mensuration-cat-2025-slot-2-actual-questions/,1014201e-61cf-47da-85c0-4bf0ea7a0c33
+CAT-2025-S2-QA-023,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,,Concept of Angles of Circles,,,"Two tangents drawn from a point P touch a circle with center O at points Q and R. Points A and B lie on PQ and PR, respectively, such that AB is also a tangent drawn to the same circle. If ∠AOB = 50°, then ∠APB is _____",,,,,tita,,80,,,,match,"Correct Answer 80
+From P, PQ and PR are tangents to the circle with centre O, so OQ ⟂ PQ and OR ⟂ PR.
+AB is also a tangent, touching the circle at S, hence OS ⟂ AB.
+From an external point, the line joining the centre bisects the angle between tangents.
+Thus OA bisects ∠QOS and OB bisects ∠ROS.
+Let AOQ = AOS = x and BOR = BOS = y.
+Given ∠AOB = x + y = 50°.
+Then ∠QOS = 2x, ∠ROS = 2y and hence ∠QOR = 2(x + y) = 100°.
+In quadrilateral ORPQ, angles at Q and R are 90°, so
+∠QOR + ∠APB = 180°.
+Therefore, ∠APB = 180° − 100° = 80°.",,,False,,https://iimking.com/geometry-mensuration-cat-2025-slot-2-actual-questions/,c1309650-029a-45a4-960f-220296ef63d3
+CAT-2025-S2-QA-026,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,Triangle,,,"In a triangle ABC, points D and E are on the sides BC and AC, respectively. BE and AD intersect at point T such that AD : AT = 4 : 3, and BE : BT = 5 : 4. Point F lies on AC such that DF is parallel to BE. Then, BD : CD is",9 : 4,7 : 4,11 : 4,15 : 4,mcq,C,11 : 4,,,,match,"Correct answer: C) 11:4
+Given, AD : AT = 4 : 3 ⇒ AT : TD = 3 : 1 and BE : BT = 5 : 4 ⇒ BT : TE = 4 : 1
+By the mass points method, masses are assigned inversely to the segments.
+From AT : TD = 3 : 1 ⇒ Mass at A : Mass at D = 1 : 3.
+From BT : TE = 4 : 1, ⇒ Mass at B : Mass at E = 1 : 4.
+Choosing consistent masses,
+A = 5/4, D = 15/4 and B = 1, E = 4, so mass at T = 5.
+Since D lies on BC, Mass at D = Mass at B + Mass at C
+15/4 = 1 + Mass at C ⇒ Mass at C = 11/4.
+Therefore, BD : DC = Mass at C : Mass at B ⇒ (11/4) : 1 ⇒ 11 : 4.",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/12/Triangle-Quant-CAT-2025-Slot-2-Question-1.jpg,https://iimking.com/visual-lens/,432e220f-f840-4d00-a2cb-217f31994f89
+CAT-2025-S2-QA-046,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,Hexagon Area,Visual Lens G Strategy | Hexagon Area | Moderate,,"Let ABCDEF be a regular hexagon and P and Q be the midpoints of AB and CD, respectively.
+Then, the ratio of the areas of trapezium PBCQ and hexagon ABCDEF is _______",,,,,tita,,5 : 24,,,,match,"Correct answer is B) 5 : 24
+Let area of the hexagon is 6E, where E represents the area of any one of the six congruent central triangles, such as triangle OBC.
+The area of trapezium PBCQ is obtained by decomposing it into simpler regions. It consists of the full area of triangle OBC along with suitable fractional parts of the triangles adjacent to the base BC.
+This decomposition gives: Area(PBCQ) = 5E/4.
+Therefore, the required ratio of areas is: (5E/4) ÷ 6E = 5/24.",,Visual Lens G Strategy,True,https://iimking.com/wp-content/uploads/2025/12/Hexagon-Quant-CAT-2025-Slot-2-Question.jpg,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,cc45017d-5929-4349-9197-608015b093e3
+CAT-2025-S2-QA-047,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,,,Logic Lens G Strategy,Triangle,Visual Lens G Strategy | Triangle,,"In a triangle ABC, points D and E are on the sides BC and AC, respectively. BE and AD intersect at point T such that AD : AT = 4 : 3, and BE : BT = 5 : 4. Point F lies on AC such that DF is parallel to BE. Then, BD : CD is",9 : 4,7 : 4,11 : 4,15 : 4,mcq,C,11 : 4,,,,match,"Correct answer: C) 11:4
+Given, AD : AT = 4 : 3 ⇒ AT : TD = 3 : 1 and BE : BT = 5 : 4 ⇒ BT : TE = 4 : 1
+By the mass points method, masses are assigned inversely to the segments.
+From AT : TD = 3 : 1 ⇒ Mass at A : Mass at D = 1 : 3.
+From BT : TE = 4 : 1, ⇒ Mass at B : Mass at E = 1 : 4.
+Choosing consistent masses,
+A = 5/4, D = 15/4 and B = 1, E = 4, so mass at T = 5.
+Since D lies on BC, Mass at D = Mass at B + Mass at C
+15/4 = 1 + Mass at C ⇒ Mass at C = 11/4.
+Therefore, BD : DC = Mass at C : Mass at B ⇒ (11/4) : 1 ⇒ 11 : 4.",,Visual Lens G Strategy,True,https://iimking.com/wp-content/uploads/2025/12/Triangle-Quant-CAT-2025-Slot-2-Question-1.jpg,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,41a4d08f-b5eb-46d3-800e-7baaf2ced9b8
+CAT-2025-S2-QA-048,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,,Concept of Angles of Circles,Concept of Angles of Circles | Moderate,,"Two tangents drawn from a point P touch a circle with center O at points Q and R. Points A and B lie on PQ and PR, respectively, such that AB is also a tangent drawn to the same circle. If ∠AOB = 50°, then ∠APB is _____",,,,,tita,,80,,,,match,"Correct Answer 80
+From P, PQ and PR are tangents to the circle with centre O, so OQ ⟂ PQ and OR ⟂ PR.
+AB is also a tangent, touching the circle at S, hence OS ⟂ AB.
+From an external point, the line joining the centre bisects the angle between tangents.
+Thus OA bisects ∠QOS and OB bisects ∠ROS.
+Let AOQ = AOS = x and BOR = BOS = y.
+Given ∠AOB = x + y = 50°.
+Then ∠QOS = 2x, ∠ROS = 2y and hence ∠QOR = 2(x + y) = 100°.
+In quadrilateral ORPQ, angles at Q and R are 90°, so
+∠QOR + ∠APB = 180°.
+Therefore, ∠APB = 180° − 100° = 80°.",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,f72d8b99-8fee-466d-b549-75e646bd911d
+CAT-2025-S2-QA-067,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,Logic Lens G Strategy,Hexagon Area,,,"Let ABCDEF be a regular hexagon and P and Q be the midpoints of AB and CD, respectively. Then, the ratio of the areas of trapezium PBCQ and hexagon ABCDEF is _______",,,,,mcq,B,5 : 24,,,,match,"Let area of the hexagon is 6E, where E represents the area of any one of the six congruent central triangles, such as triangle OBC.
+The area of trapezium PBCQ is obtained by decomposing it into simpler regions. It consists of the full area of triangle OBC along with suitable fractional parts of the triangles adjacent to the base BC.
+This decomposition gives: Area(PBCQ) = 5E/4.
+Therefore, the required ratio of areas is: (5E/4) ÷ 6E = 5/24.",,Visual Lens,True,https://iimking.com/wp-content/uploads/2025/12/Hexagon-Quant-CAT-2025-Slot-2-Question.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,b0c032a8-3a49-4288-a210-6c8f439f8b56
+CAT-2025-S2-QA-068,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,,,Logic Lens G Strategy,Triangle,,,"In a triangle ABC, points D and E are on the sides BC and AC, respectively. BE and AD intersect at point T such that AD : AT = 4 : 3, and BE : BT = 5 : 4. Point F lies on AC such that DF is parallel to BE. Then, BD : CD is",9 : 4,7 : 4,11 : 4,15 : 4,mcq,C,11 : 4,,,,match,"Given, AD : AT = 4 : 3 ⇒ AT : TD = 3 : 1 and BE : BT = 5 : 4 ⇒ BT : TE = 4 : 1
+By the mass points method, masses are assigned inversely to the segments.
+From AT : TD = 3 : 1 ⇒ Mass at A : Mass at D = 1 : 3.
+From BT : TE = 4 : 1, ⇒ Mass at B : Mass at E = 1 : 4.
+Choosing consistent masses,
+A = 5/4, D = 15/4 and B = 1, E = 4, so mass at T = 5.
+Since D lies on BC, Mass at D = Mass at B + Mass at C
+15/4 = 1 + Mass at C ⇒ Mass at C = 11/4.
+Therefore, BD : DC = Mass at C : Mass at B ⇒ (11/4) : 1 ⇒ 11 : 4.",,Visual Lens,True,https://iimking.com/wp-content/uploads/2025/12/Triangle-Quant-CAT-2025-Slot-2-Question-1.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,331959ad-a365-45a5-af3d-1fc22b669eaf
+CAT-2025-S2-QA-069,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,2,,CAT Medium,Moderate,,Concept of Angles of Circles,,,"Two tangents drawn from a point P touch a circle with center O at points Q and R. Points A and B lie on PQ and PR, respectively, such that AB is also a tangent drawn to the same circle. If ∠AOB = 50°, then ∠APB is _____",,,,,tita,,80,,,,match,"From P, PQ and PR are tangents to the circle with centre O, so OQ ⟂ PQ and OR ⟂ PR.
+AB is also a tangent, touching the circle at S, hence OS ⟂ AB.
+From an external point, the line joining the centre bisects the angle between tangents.
+Thus OA bisects ∠QOS and OB bisects ∠ROS.
+Let AOQ = AOS = x and BOR = BOS = y.
+Given ∠AOB = x + y = 50°.
+Then ∠QOS = 2x, ∠ROS = 2y and hence ∠QOR = 2(x + y) = 100°.
+In quadrilateral ORPQ, angles at Q and R are 90°, so
+∠QOR + ∠APB = 180°.
+Therefore, ∠APB = 180° − 100° = 80°.",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,8e87db44-4e64-40e1-92ee-df2511b67363
+CAT-2025-S3-QA-002,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,,,Logic Lens G Strategy,Concept of similarities,,,"In a triangle ABC, AB=AC=12 cm and D is a point on side BC such that AD= 8 cm. If AD is extended to point E such that angle ACB = angle AEB , then length in cm of AE is :",16,18,14,20,mcq,B,18,,,,match,"Based on the information in the question triangle ABD ≈ triangle AEB , Thus :
+AB/AE = AD/AB ,
+12/AE = 8/12 = 2/3
+Only option 2 satisfies the condition. Thus option 2 is the answer",,Visual POE,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,3b277428-a3ad-41e1-99bf-aa8bbe7d5bc8
+CAT-2025-S3-QA-008,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Easy,Easy,Logic Lens G Strategy,,,,"In a triangle ABC, AB=AC=12 cm and D is a point on side BC such that AD= 8 cm. If AD is extended to point E such that angle ACB = angle AEB , then length in cm of AE is :",16,18,14,20,mcq,B,18,,,,match,"Based on the information in the question triangle ABD ≈ triangle AEB , Thus :
+AB/AE = AD/AB ,
+12/AE = 8/12 = 2/3
+Only option 2 satisfies the condition. Thus option 2 is the answer",,Visual lens G Strategy,False,,https://iimking.com/geometry-cat-2025-slot-3-actual-questions/,21fb6170-56a9-48f3-b23f-a1885be8acb7
+CAT-2025-S3-QA-013,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Triplets + Area of Triangles,,,"A triangle ABC is formed with AB = AC  = 50 cm and BC = 80 cm. Then, the length, in cm , of all three altitudes of the triangle ABC is….. …",,,,,tita,,126,,,,match,"Give AB = AC = 50 cm , BC = 80 cm
+The altitude from A to BC
+Half of BC: 80 / 2 = 40 cm
+Use Pythagoras' theorem to find altitude h:
+h² + 40² = 50²
+h² + 1600 = 2500
+h² = 900 , h = 30 cm
+Altitude from A to BC = 30 cm
+The altitudes from B and C
+Area of the triangle using the altitude from A:
+Area = (1/2) × 80 × 30 = 1200 cm²
+Using area to find the altitude from B:
+1200 = (1/2) × 50 × h
+h = 1200 / 25 = 48 cm
+Altitude from B to AC = 48 cm
+Altitude from C to AB = 48 cm
+Sum = 30 + 48 + 48 = 126
+Answer 126",,Visual POE,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,a0fb2796-7bf1-4c61-be98-a09fb4d3151a
+CAT-2025-S3-QA-017,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,,,,"A triangle ABC is formed with AB = AC  = 50 cm and BC = 80 cm. Then, the length, in cm , of all three altitudes of the triangle ABC is….. …",,,,,tita,,126,,,,match,"Give AB = AC = 50 cm , BC = 80 cm
+The altitude from A to BC
+Half of BC: 80 / 2 = 40 cm
+Use Pythagoras' theorem to find altitude h:
+h² + 40² = 50²
+h² + 1600 = 2500
+h² = 900 , h = 30 cm
+Altitude from A to BC = 30 cm
+The altitudes from B and C
+Area of the triangle using the altitude from A:
+Area = (1/2) × 80 × 30 = 1200 cm²
+Using area to find the altitude from B:
+1200 = (1/2) × 50 × h
+h = 1200 / 25 = 48 cm
+Altitude from B to AC = 48 cm
+Altitude from C to AB = 48 cm
+Sum = 30 + 48 + 48 = 126
+Answer 126",,Visual G Strategy,False,,https://iimking.com/geometry-cat-2025-slot-3-actual-questions/,2294ff63-b24d-4c1a-a4de-906199386983
+CAT-2025-S3-QA-021,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,,,,"ABCD is a trapezium in which AB is parallel to DC and AD is perpendicular to AB and AB = 3DC. If a circle inscribed in a trapezium touching all the sides has a radius 3cm , then the area in sq cm , of the trapezium is :",48,36√2,54,30√3,mcq,A,48,,,,match,"Given:
+Let the trapezium be ABCD.
+AB || DC (The parallel sides are the bases).
+AD perpendicular to AB (The trapezium is a right-angle trapezium). AB = 3DC. If AB = x , then DC = 3x
+The circle inscribed in the trapezium has a radius r = 3cm
+Height = 2r = 2 × 3 = 6cm
+For cyclic quadrilateral Sum of parallel sides= Sum of non-parallel sides
+AB + DC = AD + BC
+3x + x = 6 + BC
+BC = 4x - 6  —-- I
+In Triangle AEB with base BE , height CE and hypotenuse BC
+BE = DC - AB = 3x - x = 2x , CE = 6cm , BC = 4x - 6
+Using Pythagoras:
+(2x)² + (6)² = (4x - 6)²
+On solving we have x = 4cm
+Area of trapezium = ½ * (AB + DC) × AD
+= ½ .(4x) .6 = 48cm² ,  This option 1 is the answer",,Visual G Strategy,False,,https://iimking.com/geometry-cat-2025-slot-3-actual-questions/,3059e6a2-f08a-48b7-80d9-767a06085e2b
+CAT-2025-S3-QA-024,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Easy,Easy,Logic Lens G Strategy,,,,"If (x²+ 1/x²) = 25 and x > 0, then the value of (x⁷ + 1/x⁷) is:",44856√3,44853√3,44859√3,44850√3,mcq,B,44853√3,,,,match,"Given x² + 1/x² = 25 , x > 0
+Using identity (a + b)² = a² + b² + 2ab
+I. x + 1/x:
+(x + 1/x)² = x² + 2 + 1/x² = 25 + 2 = 27
+So, x + 1/x = 3√3
+II. x³ + 1/x³:
+x³ + 1/x³ = (x + 1/x) * (x² + 1/x²) - (x + 1/x)
+x³ + 1/x³ = (3√3) * 25 - 3√3 = 72√3
+III.x⁴ + 1/x⁴:
+x⁴ + 1/x⁴ = (x² + 1/x²)² - 2
+x⁴ + 1/x⁴ = 25² - 2 = 625 - 2 = 623
+IV.x⁷ + 1/x⁷:
+x⁷ + 1/x⁷ = (x³ + 1/x³) * (x⁴ + 1/x⁴) - (x + 1/x)
+x⁷ + 1/x⁷ = (72√3) * 623 - 3√3 = 44853√3",,Square ±2,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,2ab3c8c5-bdde-43f4-aafa-8bff23672cbe
+CAT-2025-S3-QA-033,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Cyclic quadrilateral+ Area of trapezium,,,"ABCD is a trapezium in which AB is parallel to DC and AD is perpendicular to AB and AB = 3DC. If a circle inscribed in a trapezium touching all the sides has a radius 3cm , then the area in sq cm , of the trapezium is :",48,36√2,54,30√3,mcq,A,48,,,,match,"Given:
+Let the trapezium be ABCD.
+AB || DC (The parallel sides are the bases).
+AD perpendicular to AB (The trapezium is a right-angle trapezium). AB = 3DC. If AB = x , then DC = 3x
+The circle inscribed in the trapezium has a radius r = 3cm
+Height = 2r = 2 × 3 = 6cm
+For cyclic quadrilateral Sum of parallel sides= Sum of non-parallel sides
+AB + DC = AD + BC
+3x + x = 6 + BC
+BC = 4x - 6  —-- I
+In Triangle AEB with base BE , height CE and hypotenuse BC
+BE = DC - AB = 3x - x = 2x , CE = 6cm , BC = 4x - 6
+Using Pythagoras:
+(2x)² + (6)² = (4x - 6)²
+On solving we have x = 4cm
+Area of trapezium = ½ * (AB + DC) × AD
+= ½ .(4x) .6 = 48cm² ,  This option 1 is the answer",,Visual POE,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,571ff9f5-4371-4c23-8907-5102bdfc09dd
+CAT-2025-S3-QA-043,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Easy,Easy,Square ±2 G Strategy,,Square ±2 G Strategy | Easy,,"If (x²+ 1/x²) = 25 and x > 0, then the value of (x⁷ + 1/x⁷) is:",44856√3,44853√3,44859√3,44850√3,mcq,B,44853√3,,,,match,"Correct Answer: 44853√3
+Given x² + 1/x² = 25 , x > 0
+Using identity (a + b)² = a² + b² + 2ab
+I. x + 1/x:
+(x + 1/x)² = x² + 2 + 1/x² = 25 + 2 = 27
+So, x + 1/x = 3√3
+II. x³ + 1/x³:
+x³ + 1/x³ = (x + 1/x) * (x² + 1/x²) - (x + 1/x)
+x³ + 1/x³ = (3√3) * 25 - 3√3 = 72√3
+III.x⁴ + 1/x⁴:
+x⁴ + 1/x⁴ = (x² + 1/x²)² - 2
+x⁴ + 1/x⁴ = 25² - 2 = 625 - 2 = 623
+IV.x⁷ + 1/x⁷:
+x⁷ + 1/x⁷ = (x³ + 1/x³) * (x⁴ + 1/x⁴) - (x + 1/x)
+x⁷ + 1/x⁷ = (72√3) * 623 - 3√3 = 44853√3",,Square ±2 G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,a9dc108f-55f9-47b9-a296-b9f21ce1a916
+CAT-2025-S3-QA-045,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Easy,Easy,Logic Lens G Strategy,(Concept of similarities),Visual lens G Strategy (Concept of similarities) | Easy,,"In a triangle ABC, AB=AC=12 cm and D is a point on side BC such that AD= 8 cm. If AD is extended to point E such that angle ACB = angle AEB , then length in cm of AE is :",16,18,14,20,mcq,B,18,,,,match,"Based on the information in the question triangle ABD ≈ triangle AEB , Thus :
+AB/AE = AD/AB ,
+12/AE = 8/12 = 2/3
+Only option 2 satisfies the condition. Thus option 2 is the answer",,Visual lens G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,0695b0c4-4f4d-48cb-aa2e-e81d9217f2be
+CAT-2025-S3-QA-046,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Triplets + Area of Triangles,Visual G Strategy | Triplets + Area of Triangles | Moderate,,"A triangle ABC is formed with AB = AC = 50 cm and BC = 80 cm. Then, the length, in cm , of all three altitudes of the triangle ABC is….. …",,,,,tita,,126,,,,match,"Give AB = AC = 50 cm , BC = 80 cm
+The altitude from A to BC
+Half of BC: 80 / 2 = 40 cm
+Use Pythagoras' theorem to find altitude h:
+h² + 40² = 50²
+h² + 1600 = 2500
+h² = 900 , h = 30 cm
+Altitude from A to BC = 30 cm
+The altitudes from B and C
+Area of the triangle using the altitude from A:
+Area = (1/2) × 80 × 30 = 1200 cm²
+Using area to find the altitude from B:
+1200 = (1/2) × 50 × h
+h = 1200 / 25 = 48 cm
+Altitude from B to AC = 48 cm
+Altitude from C to AB = 48 cm
+Sum = 30 + 48 + 48 = 126
+Answer 126",,Visual G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,8b8f6de9-8473-42f3-863c-6c3c43d844d6
+CAT-2025-S3-QA-047,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Cyclic quadrilateral+ Area of trapezium,Visual G Strategy | Cyclic quadrilateral+ Area of trapezium | Moderate,,"ABCD is a trapezium in which AB is parallel to DC and AD is perpendicular to AB and AB = 3DC. If a circle inscribed in a trapezium touching all the sides has a radius 3cm , then the area in sq cm , of the trapezium is :",48,36√2,54,30√3,mcq,A,48,,,,match,"Given:
+Let the trapezium be ABCD.
+AB || DC (The parallel sides are the bases).
+AD perpendicular to AB (The trapezium is a right-angle trapezium). AB = 3DC. If AB = x , then DC = 3x
+The circle inscribed in the trapezium has a radius r = 3cm
+Height = 2r = 2 × 3 = 6cm
+For cyclic quadrilateral Sum of parallel sides= Sum of non-parallel sides
+AB + DC = AD + BC
+3x + x = 6 + BC
+BC = 4x - 6 —-- I
+In Triangle AEB with base BE , height CE and hypotenuse BC
+BE = DC - AB = 3x - x = 2x , CE = 6cm , BC = 4x - 6
+Using Pythagoras:
+(2x)² + (6)² = (4x - 6)²
+On solving we have x = 4cm
+Area of trapezium = ½ * (AB + DC) × AD
+= ½ .(4x) .6 = 48cm² , This option 1 is the answer",,Visual G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,dabcea35-2c52-45ec-b2be-83e677fed975
+CAT-2024-S1-QA-002,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2024,1,,,,Logic Lens G Strategy,,,,"Let \( x, y, \) and \( z \) be real numbers satisfying:
+\( 4(x^2 + y^2 + z^2) = a \),
+\( 4(x - y - z) = 3 + a \).
+Then \( a \) equals:",\( 1 \),\( 4 \),\( 3 \),\( 1 \dfrac{1}{3} \),mcq,C,\( 3 \),,,,match,"Hit and Trial Table - MathJax
+Hit and Trial Table for Solving Using Options
+Given equations:
+\[
+4(x^2 + y^2 + z^2) = a \quad \text{and} \quad 4(x - y - z) = 3 + a
+\]
+Option
+\( a \)
+\( x^2 + y^2 + z^2 = \frac{a}{4} \)
+\( x - y - z = \frac{3 + a}{4} \)
+Trial Values for \( x, y, z \)
+Result
+1
+\( 1 \)
+\( \frac{1}{4} \)
+\( 1 \)
+\( x = 1, y = 0, z = 0 \)
+❌ Too large for (1)
+2
+\( 4 \)
+\( 1 \)
+\( \frac{7}{4} \)
+\( x = 2, y = \frac{1}{8}, z = \frac{1}{8} \)
+❌ Doesn't satisfy (1)
+3 ✅
+\( 3 \)
+\( \frac{3}{4} \)
+\( \frac{3}{2} \)
+Algebra confirms consistency
+✅ Correct
+4
+\( \frac{4}{3} \)
+\( \frac{1}{3} \)
+\( \frac{13}{12} \)
+No simple values fit both equations
+❌ Invalid
+✅ Final Answer:
+\[
+\boxed{3} \quad \text{(Option 3)}
+\]",,Visual POE,False,,https://iimking.com/cat-2024-visual-g-strategy/,db0fbae1-2173-445a-b388-6f6aa6e3f1b9
+CAT-2024-S1-QA-006,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2024,1,,,,Logic Lens G Strategy,,,,"The surface area of a closed rectangular box, which is inscribed in a sphere, is 846 sq cm,
+and the sum of the lengths of all its edges is 144 cm.
+The volume, in cubic cm, of the sphere is:",\( 1125\pi \),\( 750\pi\sqrt{2} \),\( 1125\pi\sqrt{2} \),\( 750\pi \),mcq,C,\( 1125\pi\sqrt{2} \),,,,match,"Sphere Volume - Option-Based Solution
+\( 1125\pi = 3534.29 \)
+\( 750\pi\sqrt{2} = 3332.16 \)
+\( 1125\pi\sqrt{2} = 4998.24 \)
+\( 750\pi = 2356.19 \)
+Volume of Sphere Inscribed with a Rectangular Box
+Given:
+Surface area of the box = 846 cm²
+Sum of all edges = 144 cm
+Box is inscribed in a sphere → Diagonal of box = Diameter of sphere
+Step 1: Let dimensions be \( l, w, h \)
+\[
+4(l + w + h) = 144 \Rightarrow l + w + h = 36 \tag{1}
+\]
+\[
+2(lw + wh + hl) = 846 \Rightarrow lw + wh + hl = 423 \tag{2}
+\]
+Step 2: Use identity for cube diagonal
+\[
+(l + w + h)^2 = l^2 + w^2 + h^2 + 2(lw + wh + hl)
+\]
+Substituting (1) and (2):
+\[
+36^2 = l^2 + w^2 + h^2 + 2(423) \Rightarrow 1296 = l^2 + w^2 + h^2 + 846
+\]
+\[
+\Rightarrow l^2 + w^2 + h^2 = 450 \Rightarrow D = \sqrt{450} = 15\sqrt{2}
+\]
+Step 3: Volume of Sphere
+\[
+V = \frac{4}{3} \pi r^3 = \frac{\pi D^3}{6}
+\Rightarrow V = \frac{\pi (15\sqrt{2})^3}{6}
+= \frac{\pi \cdot 3375 \cdot 2\sqrt{2}}{6}
+= \frac{6750\sqrt{2} \pi}{6}
+= \boxed{1125\pi\sqrt{2}}
+\]
+Step 4: Test Options
+Option 1: \(1125\pi\)
+\[
+D^3 = \frac{6 \cdot 1125\pi}{\pi} = 6750 \Rightarrow D \approx \sqrt[3]{6750} \approx 18.8
+\Rightarrow D^2 \approx 354.2 \neq 450 \Rightarrow \text{❌}
+\]
+Option 2: \(750\pi\sqrt{2}\)
+\[
+D^3 = 6 \cdot 750\sqrt{2} \approx 6363 \Rightarrow D \approx 18.6
+\Rightarrow D^2 \approx 345.6 \neq 450 \Rightarrow \text{❌}
+\]
+Option 3: \(1125\pi\sqrt{2}\)
+\[
+D^3 = 6 \cdot 1125\sqrt{2} \approx 9544.5 \Rightarrow D \approx \sqrt[3]{9544.5} \approx 21.21
+\Rightarrow D^2 = 450 \Rightarrow \text{✅ Matches}
+\]
+Option 4: \(750\pi\)
+\[
+D^3 = 4500 \Rightarrow D \approx 16.5 \Rightarrow D^2 \approx 272.25 \neq 450 \Rightarrow \text{❌}
+\]
+✅ Final Answer: \( \boxed{1125\pi\sqrt{2}} \) (Option 3)",,Visual POE,False,,https://iimking.com/cat-2024-visual-g-strategy/,c3ea0eb1-a984-4101-8bd4-92cca6ec29ff
+CAT-2024-S1-QA-010,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2024,1,,,,Logic Lens G Strategy,,,,"A shop wants to sell a certain quantity (in kg) of grains. It sells half the quantity and an additional 3 kg of these grains to the first customer. Then, it sells half of the remaining quantity and an additional 3 kg of these grains to the second customer. Finally, when the shop sells half of the remaining quantity and an additional 3 kg of these grains to the third customer, there are no grains left. The initial quantity, in kg, of grains is",36,18,50,42,mcq,D,42,,,,match,"Grain Selling Problem - Option Check
+Checking Each Option for Grain Selling
+Rule: Each customer takes half of the current quantity plus 3 kg.
+🔹 Option 1: \( x = 36 \)
+First: \( \frac{36}{2} + 3 = 21 \Rightarrow \text{Remaining} = 15 \)
+Second: \( \frac{15}{2} + 3 = 10.5 \Rightarrow \text{Remaining} = 4.5 \)
+Third: \( \frac{4.5}{2} + 3 = 5.25 \) but only 4.5 left → Invalid
+🔹 Option 2: \( x = 18 \)
+First: \( \frac{18}{2} + 3 = 12 \Rightarrow \text{Remaining} = 6 \)
+Second: \( \frac{6}{2} + 3 = 6 \Rightarrow \text{Remaining} = 0 \)
+Third: No grains left to sell → Invalid
+🔹 Option 3: \( x = 50 \)
+First: \( \frac{50}{2} + 3 = 28 \Rightarrow \text{Remaining} = 22 \)
+Second: \( \frac{22}{2} + 3 = 14 \Rightarrow \text{Remaining} = 8 \)
+Third: \( \frac{8}{2} + 3 = 7 \Rightarrow \text{Remaining} = 1 \) → Invalid
+✅ Option 4: \( x = 42 \)
+First: \( \frac{42}{2} + 3 = 24 \Rightarrow \text{Remaining} = 18 \)
+Second: \( \frac{18}{2} + 3 = 12 \Rightarrow \text{Remaining} = 6 \)
+Third: \( \frac{6}{2} + 3 = 6 \Rightarrow \text{Remaining} = 0 \) → Valid ✅
+🎯 Final Answer: \( \boxed{42} \)",,Visual POE,False,,https://iimking.com/cat-2024-visual-g-strategy/,a3b6f48b-d4aa-4f69-b4a2-af5fac6f7722
+CAT-2024-S2-QA-002,paper,Geo Mensu,Geometry,topic_map,Geometry,True,2024,2,2,,,Logic Lens G Strategy,Trapezium + Triangles,,,"ABCD is a trapezium in which AB is parallel to CD. The sides AD and BC when extended, intersect at point E. If AB = 2 cm, CD = 1 cm, and perimeter of ABCD is 6 cm, then the perimeter, in cm, of ΔAEB is",9,7,8,10,mcq,C,8,,,,match,"Perimeter of Triangle AEB
+Finding the Perimeter of \( \triangle AEB \)
+Given:
+ABCD is a trapezium with \( AB \parallel CD \)
+AB = 2 cm, CD = 1 cm
+Perimeter of trapezium ABCD = 6 cm
+AD and BC extended intersect at point E
+Step 1: Use similarity
+Since \( AB \parallel CD \), triangles \( \triangle AEB \sim \triangle DCE \). Thus,
+\[
+\frac{AB}{CD} = \frac{AE}{ED} = \frac{BE}{EC} = \frac{2}{1}
+\]
+Step 2: Assign variables
+Let \( AD = x \), \( BC = y \)
+So total perimeter of ABCD:
+\[
+AB + BC + CD + DA = 2 + y + 1 + x = 6 \Rightarrow x + y = 3 \tag{1}
+\]
+Since the ratio is 2:1, we get:
+\[
+AE = 2x, \quad BE = 2y
+\]
+Step 3: Perimeter of \( \triangle AEB \)
+\[
+\text{Perimeter} = AE + BE + AB = 2x + 2y + 2 = 2(x + y + 1)
+\]
+From equation (1), \( x + y = 3 \):
+\[
+\text{Perimeter} = 2(3 + 1) = \boxed{8}
+\]
+✅ Final Answer: \( \boxed{8 \text{ cm}} \)",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/06/image-1-1024x981.png,https://iimking.com/cat-2024-slot-2-visual-g-strategy/,86fb96a5-dae1-400e-9592-866979b8e512
+CAT-2024-S2-QA-003,paper,Geo Mensu,Geometry,topic_map,Geometry,True,2024,2,3,,,Logic Lens G Strategy,,,,"The coordinates of the three vertices of a triangle are: (1, 2), (7, 2), and (1, 10). Then the radius of the in circle of the triangle is ________",,,,,tita,,2,,,,match,"Inradius of Triangle
+Problem:
+The coordinates of the vertices of a triangle are: \( (1, 2), (7, 2), (1, 10) \).
+Find the radius of the incircle of the triangle.
+Solution:
+When plotted, the triangle clearly forms a right-angled triangle with the right angle at point \( (1, 2) \).
+This is because two sides are aligned along the x-axis and y-axis.
+Let side \( a \) be the vertical leg:
+\[
+a = 10 - 2 = 8
+\]
+Let side \( b \) be the horizontal leg:
+\[
+b = 7 - 1 = 6
+\]
+Using the Pythagorean Theorem:
+\[
+\text{Hypotenuse } h = \sqrt{a^2 + b^2} = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} = 10
+\]
+The inradius of a right triangle is given by:
+\[
+r = \frac{a + b - h}{2}
+\]
+Substituting the values:
+\[
+r = \frac{8 + 6 - 10}{2} = \frac{4}{2} = 2
+\]
+Final Answer:
+The radius of the incircle is: \( \boxed{2} \)",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/06/image-28-991x1024.png | https://iimking.com/wp-content/uploads/2025/06/image-29-991x1024.png,https://iimking.com/cat-2024-slot-2-visual-g-strategy/,f68f9d97-afa9-4362-8ba1-7d78d9f801fa
+CAT-2024-S2-QA-004,paper,Geo Mensu,Geometry,topic_map,Geometry,True,2024,2,4,,,Logic Lens G Strategy,,,,"A vessel contained a certain amount of a solution of acid and water. When 2 litres of water was added to it, the new solution had 50% acid concentration. When 15 litres of acid was further added to this new solution, the final solution had 80% acid concentration. The ratio of water and acid in the original solution was",5 : 4,5 : 3,3 : 5,4 : 5,mcq,C,3 : 5,,,,match,"Acid-Water Mixture Solution
+Let the original quantities of acid and water be \( A \) and \( W \) litres respectively.
+Step 1: After adding 2 litres of water, the concentration of acid becomes 50%.
+\( \frac{A}{A + W + 2} = \frac{1}{2} \)
+\( \Rightarrow 2A = A + W + 2 \Rightarrow A = W + 2 \quad \text{(Equation 1)} \)
+Step 2: Then, 15 litres of acid is added and acid becomes 80% of the solution:
+\( \frac{A + 15}{A + W + 17} = \frac{4}{5} \)
+\( \Rightarrow 5(A + 15) = 4(A + W + 17) \)
+\( \Rightarrow 5A + 75 = 4A + 4W + 68 \)
+\( \Rightarrow A = 4W - 7 \quad \text{(Equation 2)} \)
+Step 3: Solving equations:
+From (1): \( A = W + 2 \)
+Plug into (2):
+\( W + 2 = 4W - 7 \Rightarrow 3W = 9 \Rightarrow W = 3 \)
+\( \Rightarrow A = 5 \)
+So, the original ratio of Water : Acid = \( 3 : 5 \)",,Visual POE,False,,https://iimking.com/cat-2024-slot-2-visual-g-strategy/,0abbe8e7-3c27-4d8b-bfdc-32cd2b52316c
+CAT-2024-S3-QA-004,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2024,3,,,,Logic Lens G Strategy,,,,"After two successive increments, Gopal’s salary became 187.5% of his initial salary. If the percentage of salary increase in the second increment was twice of that in the first increment, then the percentage of salary increase in the first increment was ?",25,20,27.5,30,mcq,A,25,,,,match,"Using Options
+1)  25 => 1.25 x 1.5 (second increment double of first) = 1.875 Answer
+2)  20 => 1.2 x 1.4 = 1.68 XX
+3)  27.5 => 1.275 x 1.55 = 1.976 XX
+4)  30 => 1.3 x 1.6 = 2.08 xxx",,Visual POE,False,,https://iimking.com/cat-2024-slot-3-visual-poe-g-strategy/,3325cf4b-dafd-4842-aeb8-4de380f814ab
+CAT-2024-S3-QA-005,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2024,3,,,,Logic Lens G Strategy,,,,"A regular octagon ABCDEFGH has sides of length 6 cm each. Then the area, in sq. cm, of the square ACEG is",36(2 + √2),36(1 + √2),72(2 + √2),72(1 + √2),mcq,A,36(2 + √2),,,,match,"If AH is 6 than AG visually looks around 10 or 11. therefore the area of square should be around 100 to 121
+Expression Values
+Calculated Values:
+\( 1.\quad 36(2 + \sqrt{2}) \approx 122.91 \) Correct Answer
+\( 2.\quad 36(1 + \sqrt{2}) \approx 86.91 \)
+\( 3.\quad 72(2 + \sqrt{2}) \approx 245.82 \)
+\( 4.\quad 72(1 + \sqrt{2}) \approx 173.82 \)",,Visual POE,True,https://iimking.com/wp-content/uploads/2025/06/image-2.png,https://iimking.com/cat-2024-slot-3-visual-poe-g-strategy/,9595bfeb-7df2-4212-9dbf-3113a5843651
+CAT-2024-S3-QA-008,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2024,3,,,,Logic Lens G Strategy,,,,"The midpoints of sides AB, BC, and AC in ΔABC are M, N, and P, respectively. The medians drawn from A, B, and C intersect the line segments MP, MN and NP at X, Y, and Z, respectively. If the area of ΔABC is 1440 sq cm, then the area, in sq cm, of ΔXYZ is",,,,,tita,,90,,,,match,"Area of Triangle XYZ
+The points M, N, and P are the midpoints of sides AB, BC, and AC of triangle \( \triangle ABC \). Therefore, triangle \( \triangle MNP \) is the medial triangle.
+All 4 Triangles look similar therefore area will be 1/4, ie 1/4 of 1440 = 360 and 1/4 of 360 = 90.
+It is a known geometric property that the area of the medial triangle is one-fourth that of the original triangle. So,
+\[
+\text{Area}_{\triangle MNP} = \frac{1}{4} \cdot \text{Area}_{\triangle ABC} = \frac{1}{4} \cdot 1440 = 360 \, \text{cm}^2
+\]
+Now, medians from vertices A, B, and C intersect the opposite sides of the medial triangle at points X, Y, and Z. These intersecting points lie in such a way that triangle \( \triangle XYZ \) is formed within triangle \( \triangle MNP \).
+It is a known fact that if medians from vertices of a triangle intersect the opposite sides of the medial triangle, then the triangle formed by those intersection points has one-fourth the area of the medial triangle:
+\[
+\text{Area}_{\triangle XYZ} = \frac{1}{4} \cdot \text{Area}_{\triangle MNP} = \frac{1}{4} \cdot 360 = \boxed{90 \, \text{cm}^2}
+\]
+Final Answer:
+\[
+\boxed{90 \, \text{cm}^2}
+\]",,Visual POE,False,,https://iimking.com/cat-2024-slot-3-visual-poe-g-strategy/,19bbf335-9c57-410e-ba58-03626b12b9b6
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2024,,,,,,,,,"ABCD is a rectangle with sides AB = 56 cm and BC = 45 cm, and E is the midpoint of side CD. What is the length, in cm, of the radius of the incircle of \( \triangle ADE \)?",,,,,tita,,10,,,,match,"Step 1: Understand the Geometry of the Problem
+- \( AB = 56 \, \text{cm}, BC = 45 \, \text{cm} \).
+- \( CD = AB = 56 \, \text{cm} \), \( DA = BC = 45 \, \text{cm} \).
+- \( E \) is the midpoint of \( CD \), so \( CE = ED = \frac{56}{2} = 28 \, \text{cm} \).
+Step 2: Sides of \( \triangle ADE \)
+- \( AD = 45 \, \text{cm}, DE = 28 \, \text{cm} \).
+- \( AE = \sqrt{AD^2 + ED^2} = \sqrt{45^2 + 28^2} = \sqrt{2025 + 784} = 53 \, \text{cm}. \)
+Step 3: Semiperimeter (\( s \))
+- \( s = \frac{AD + DE + AE}{2} = \frac{45 + 28 + 53}{2} = 63 \, \text{cm}. \)
+Step 4: Area of \( \triangle ADE \)
+- Using Heron's formula:
+\[
+\text{Area} = \sqrt{s(s - AD)(s - DE)(s - AE)} = \sqrt{63(63 - 45)(63 - 28)(63 - 53)}
+\]
+- Simplify: \( \text{Area} = \sqrt{63 \cdot 18 \cdot 35 \cdot 10} = \sqrt{396900} = 630 \, \text{cm}^2. \)
+Step 5: Radius of Incircle (\( r \))
+- \( r = \frac{\text{Area}}{s} = \frac{630}{63} = 10 \, \text{cm}. \)
+Final Answer:
+The radius of the incircle is \( \boxed{10 \, \text{cm}} \).",,,False,,https://iimking.com/cat-2024-actual-questions-incircle-geometry/,f1dcea3f-6b96-4e39-aab9-0df0c8112c9a
+CAT-2023-S1-QA-017,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,1,,,,,,,"The minor angle between the hour and minute hands of a clock was observed at 8:48 am. The minimum duration, in minutes, after 8:48 am when this angle increases by 50% is:",18 minutes,20 minutes,24 minutes,30 minutes,mcq,C,24 minutes,,,,mismatch,"### Solution: Minor Angle Between Clock Hands
+The given time is 8:48 AM. The angle made by the hour hand w.r.t 12 is 8 * 30° + 0.5 * 48° = 240° + 24° = 264°. The minute hand is at 48 * 6° = 288°. Thus, the initial angle is 24°. To increase by 50%, the angle must be 36°. Additional minutes required: (12 / 11) * 24 = 24 minutes.",,,False,,https://iimking.com/cat-2023-quant-geometry-actual-questions/,81faa0bb-cb90-44d3-8d7a-e30056f47a81
+CAT-2023-S1-QA-018,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,1,,,Logic Lens G Strategy,,,,The number of all natural numbers up to 1000 with non-repeating digits is:,648,585,738,504,mcq,C,738,,,,match,"Answer: C. 738
+Detailed Solution:
+- **1-digit numbers:** 9
+- **2-digit numbers:** 9 choices for the tens place, 9 remaining choices for the units place = 81.
+- **3-digit numbers:** 9 choices for the hundreds place, 9 remaining choices for the tens place, and 8 choices for the units place = 648.
+Total = 9 + 81 + 648 = **738**.",,Visual POE,False,,https://iimking.com/visual-poe-quant-g-strategy-cat-2023-slot-1/,68008040-ee81-4c9d-afa6-2d470c12db4d
+CAT-2023-S1-QA-021,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,2,,,,,,,"A quadrilateral ABCD is inscribed in a circle such that AB : CD = 2 : 1 and BC : AD = 5 : 4. If AC and BD intersect at the point E, then AE : CE equals:",4/3,5/3,8/5,7/6,mcq,C,8/5,,,,match,"### Solution: Cyclic Quadrilateral
+Given ABCD is a cyclic quadrilateral. Using properties of cyclic quadrilaterals, similar triangles AED and BEC imply AE/CE = AD/BC = 8/5, as derived from the given ratios .",,,False,,https://iimking.com/cat-2023-quant-geometry-actual-questions/,b5c783bd-83d9-423a-99f6-a0c27ad8957a
+CAT-2023-S1-QA-022,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,2,,,Logic Lens G Strategy,,,,"Brishti went on an 8-hour trip in a car. Before the trip, the car had travelled a total of x km, where x is a palindromic number. At the end of the trip, the car had travelled a total of 26862 km. If Brishti never drove at more than 110 kmph, then the greatest possible average speed at which she drove during the trip, in kmph, was:",110,80,90,100,mcq,D,100,,,,match,"Answer: D. 100
+Detailed Solution:
+- Before the trip: least palindromic number greater than 25982 is 26062.
+- Distance during the trip = 26862 - 26062 = 800 km.
+- Average speed = 800 km / 8 hours = **100 kmph**.",,Visual POE,False,,https://iimking.com/visual-poe-quant-g-strategy-cat-2023-slot-1/,ef357835-143e-41e8-a11a-b9eb88bc1182
+CAT-2023-S1-QA-025,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,3,,,,,,,"A circle has its center at (0, 0) and passes through the point (3, 4). What is the angle formed between the radius and the line passing through the center?",30°,45°,60°,90°,mcq,D,90°,,,,not_found,"### Solution: Circle and Right Angle Triangle
+A circle with radius passing through (3,4) implies that the triangle formed with the origin and this point is a right-angled triangle by the Pythagorean theorem.",,,False,,https://iimking.com/cat-2023-quant-geometry-actual-questions/,9ec1695c-30aa-42d3-9f7a-f24f6785d15b
+CAT-2023-S1-QA-026,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,3,,,Logic Lens G Strategy,,,,"If \(\frac{\sqrt{5x + 9}}{\sqrt{5x - 9}} = 3(\sqrt{2} + 1)\), then find the value of \( \sqrt{10x + 9} \):",3√7,3√5,4√3,7√3,mcq,A,3√7,,,,match,"Answer: A. 3√7
+Detailed Solution:
+Given, \(\frac{\sqrt{5x + 9}}{\sqrt{5x - 9}} = 3(\sqrt{2} + 1)\)
+- Simplifying, we get \( \sqrt{5x + 9} = 3(\sqrt{2} + 1) \sqrt{5x - 9} \).
+- Solving, we find that \( x = 9 \).
+- Therefore, \( \sqrt{10x + 9} = 3√7 \).",,Visual POE,False,,https://iimking.com/visual-poe-quant-g-strategy-cat-2023-slot-1/,6c0f0ca2-a5f4-4202-a394-ee0ad857fd36
+CAT-2023-S1-QA-029,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,4,,,,,,,"In a right-angle triangle, if the base is 6 units and height is 9 units, then the area of the triangle is:",24 sq. units,27 sq. units,30 sq. units,36 sq. units,mcq,B,27 sq. units,,,,not_found,"### Solution: Right-Angle Triangle
+Area of a right-angle triangle = (1/2) * base * height. Substituting the values, we get (1/2) * 6 * 9 = 27 square units.",,,False,,https://iimking.com/cat-2023-quant-geometry-actual-questions/,438d695c-e5ed-45e5-a719-095acb915692
+CAT-2023-S1-QA-031,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,1,4,,,Logic Lens G Strategy,,,,"A quadrilateral ABCD is inscribed in a circle such that AB : CD = 2 : 1 and BC : AD = 5 : 4. If AC and BD intersect at the point E, then AE : CE equals:",2 : 1,5 : 8,1 : 2,8 : 5,mcq,D,8 : 5,,,,match,"Answer: D. 8 : 5
+Detailed Solution:
+- Using properties of similar triangles and cyclic quadrilaterals:
+- The given ratio implies that the required ratio of AE : CE is **8 : 5**.",,Visual POE,False,,https://iimking.com/visual-poe-quant-g-strategy-cat-2023-slot-1/,70d0b8e6-fbec-456e-998b-28e40559200a
+CAT-2023-S2-QA-017,paper,Geo Mensu,Geometry,topic_map,Geometry,True,2023,2,17,,,Logic Lens G Strategy,Geometry - Triangles,,,"A triangle is drawn with its vertices on the circle \( C \) such that one of its sides is a diameter of \( C \) and the other two sides have their lengths in the ratio \( a : b \). If the radius of the circle is \( r \), then the area of the triangle is:",\( \frac{2 a b r^2}{a^2 + b^2} \),\( \frac{a^2 + b^2}{4 a b r^2} \),\( \frac{a b r^2}{a^2 + b^2} \),\( \frac{a b r^2}{2 (a^2 + b^2)} \),mcq,A,\( \frac{2 a b r^2}{a^2 + b^2} \),,,,match,"Answer: A. \( \frac{2 a b r^2}{a^2 + b^2} \)
+Detailed Solution:
+Using the property that the diameter of a circle forms a right angle with the chord, and the formula for area, we get:
+\[ \text{Area} = \frac{2 a b r^2}{a^2 + b^2} \].",,Visual POE,True,https://iimking.com/wp-content/uploads/2024/10/image-3.png,https://iimking.com/visual-poe-g-strategy-cat-slot-2/,ec4d4a5c-724b-4cc5-9d0e-8c8737cfc7e8
+CAT-2023-S2-QA-018,paper,Geo Mensu,Geometry,topic_map,Geometry,True,2023,2,18,,,Logic Lens G Strategy,Geometry - Quadrilaterals & Polygons,,,"In a rectangle \( ABCD \), \( AB = 9 \) cm and \( BC = 6 \) cm. \( P \) and \( Q \) are two points on \( BC \) such that the areas of the figures \( ABP, APQ, \) and \( AQCD \) are in geometric progression. If the area of the figure \( AQCD \) is four times the area of triangle \( ABP \), then \( BP : PQ : QC \) is:",2 : 4 : 1,1 : 2 : 4,1 : 1 : 2,1 : 2 : 1,mcq,A,2 : 4 : 1,,,,match,"Answer: A. 2 : 4 : 1
+Detailed Solution:
+Given that the areas are in a geometric progression, we assume the areas as \( A, Ar, \) and \( Ar^2 \).
+If \( AQCD = 4 \times \text{Area of } ABP \), solving for \( r \), we get \( r = 2 \).
+Thus, the ratio of \( BP : PQ : QC \) is 2 : 4 : 1.",,Visual POE,False,,https://iimking.com/visual-poe-g-strategy-cat-slot-2/,3e43fe37-9068-42ba-81ad-3c2083ece914
+CAT-2023-S2-QA-026,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,2,,,,,,,,"In a rectangle ABCD, AB = 9 cm and BC = 6 cm. P and Q are two points on BC such that the areas of the figures ABP, APQ, and AQCD are in geometric progression. If the area of the figure AQCD is four times the area of triangle ABP, then BP : PQ : QC is",1 : 2 : 1,1 : 2 : 4,1 : 1 : 2,2 : 4 : 1,mcq,D,2 : 4 : 1,,,,match,Option 4,,,False,,https://iimking.com/2d-actual-question-in-cat-2023-slot-2/,9483fdbd-8ce4-41b3-9022-e692c742cdc4
+CAT-2023-S3-QA-031,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,3,,,,,Geometry,,,,,,,,,,1,,,,not_found,,,,True,https://iimking.com/wp-content/uploads/2023/12/image-33.png | https://iimking.com/wp-content/uploads/2023/12/image-34.png,https://iimking.com/geometry-slot-3/,280e7386-9c72-419f-bd91-1dc12cb3ab64
+CAT-2023-S3-QA-033,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,3,,,,,Geometry,,,,,,,,,,1,,,,not_found,,,,True,https://iimking.com/wp-content/uploads/2023/12/image-35.png | https://iimking.com/wp-content/uploads/2023/12/image-36.png,https://iimking.com/geometry-slot-3/,e35cf14c-bfd4-4858-a482-81e53bbe2068
+CAT-2023-S3-QA-036,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2023,3,,,,,Geometry,,,"In a regular polygon, any interior angle exceeds the exterior angle by 120 degrees.
+Then, the number of diagonals of this polygon is",,,,,tita,,54,,,,match,,,,False,,https://iimking.com/geometry-slot-3/,a0ccae20-3055-4f84-af83-17bc71d09ff7
+CAT-2022-S1-QA-008,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,1,,,,,Geometry - Quadrilaterals & Polygons,,,"A trapezium ABCD has side AD parallel to BC. ∠BAD = 90°, BC = 3 cm and AD = 8 cm. If the perimeter of this trapezium is 36 cm, then its area, in sq cm, is",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-15.png | https://iimking.com/wp-content/uploads/2023/11/image-16.png,https://iimking.com/cat-previous-year-questions-polygon/,e0658aec-ade9-43c7-9f6e-80ae8fd672c5
+CAT-2022-S1-QA-009,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,1,,,,,Geometry - Circles,,,"All the vertices of a rectangle lie on a circle of radius R. If the perimeter of the rectangle is P, then the area of the rectangle is:",P^2/8 - 2PR,P^2/8- 2R^2,P^2/8- R^2/2,P^2/16-R^2,mcq,B,P^2/8- 2R^2,,,,match,"Let the dimensions of the rectangle inscribed in the circle be a and b.
+We are being asked to express the Area of the rectangle in terms of Perimeter and Radius.
+Area of the rectangle = a * b
+Perimeter, P = 2(a + b)
+a + b = P2�2
+(a+b)2=P24(�+�)2=�24
+a2+b2+2ab=P24�2+�2+2��=�24
+Since the vertices of the rectangle subtend right angle on the circle,
+a2+b2=(2R)2=4R2�2+�2=(2�)2=4�2
+a2+b2+2ab=P24�2+�2+2��=�24
+4R2+2ab=P244�2+2��=�24
+ab=P28−2R2��=�28−2�2
+Area of the rectangle = ab = p28−2R2",,,True,https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-Quant/figa/image058.png,https://iimking.com/cat-previous-year-questions-circle/,d97b5221-1491-4252-ad83-e756a852df8e
+CAT-2022-S2-QA-004,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,2,,,,,Geometry - Triangles,,,"In triangle ABC, altitudes AD and BE are drawn to the corresponding bases. If ∠BAC = 45° and ∠ABC = θ, then AD/BE equals",1,√2 cosθ,√2 sinθ,(sinθ + cosθ)/√2,mcq,C,√2 sinθ,,,,match,"To find the ratio AD/BE in triangle ABC, we can use trigonometry and the information given in the problem.
+First, let's draw a diagram of triangle ABC with altitudes AD and BE:
+A
+|\
+| \
+|  \
+D |   \ E
+|    \
+|     \
+|      \
+---B------C
+We are given that ∠BAC = 45° and ∠ABC = θ. Since AD and BE are altitudes, they are perpendicular to their respective bases, BC and AC. This means that ∠ADC = 90° and ∠BEC = 90°.
+Now, let's consider triangle ADC and triangle BEC separately:
+In triangle ADC:
+∠DAC = 45° (complementary to ∠BAC).
+∠ADC = 90° (given).
+In triangle BEC:
+∠ECB = θ (given).
+∠BEC = 90° (given).
+We can use the trigonometric ratios in these right triangles to find the lengths of AD and BE.
+For triangle ADC:
+AD/AC = tan(∠DAC) = tan(45°) = 1.
+For triangle BEC:
+BE/BC = tan(∠ECB) = tan(θ).
+Now, we have the ratios AD/AC and BE/BC. We want to find AD/BE, so let's divide these ratios:
+AD/BE = (AD/AC) / (BE/BC) = 1 / tan(θ) = 1 / (sin(θ) / cos(θ)) = cos(θ) / sin(θ).
+Therefore, the correct answer is (c) √2 sinθ.",,,False,,https://iimking.com/cat-2022-qa-slot-2-geometry-triangles-cat-question/,c8c663a6-e537-42c6-90aa-83ebc110d8c9
+CAT-2022-S2-QA-007,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,2,,,,,Geometry - Triangles,,,"The length of each side of an equilateral triangle ABC is 3 cm. Let D be a point on BC such that the area of triangle ADC is half the area of triangle ABD. Then the length of AD, in cm, is",√7,√6,√5,√8,mcq,A,√7,,,,match,"To solve this problem, we'll use the information that the area of triangle ADC is half the area of triangle ABD. Since triangle ABC is equilateral, all its angles are 60 degrees, and we can use trigonometry to find the length of AD.
+Let's denote the length of AD as x. Since triangle ADC is half the area of triangle ABD, we can write:
+(1/2) * AD * DC = (1/2) * AB * BD
+We know that AB = 3 cm, and BD = BC - CD. Since triangle ABC is equilateral, BC = 3 cm, so BD = 3 - CD. We can rewrite the equation as:
+(1/2) * x * DC = (1/2) * 3 * (3 - CD)
+Now, we need to find DC in terms of x. We can use trigonometry to find it. In triangle ADC, we have:
+tan(60 degrees) = DC / x
+tan(60 degrees) = √3
+So, DC = x * √3.
+Substituting this back into the equation:
+(1/2) * x * x * √3 = (1/2) * 3 * (3 - x * √3)
+Simplify the equation:
+x^2 * √3 = 9 - 3x * √3
+Now, isolate x:
+x^2 * √3 + 3x * √3 - 9 = 0
+Divide the entire equation by √3:
+x^2 + 3x - 3√3 = 0
+We can use the quadratic formula to solve for x:
+x = [-b ± √(b^2 - 4ac)] / (2a)
+In this case, a = 1, b = 3, and c = -3√3. Plugging these values into the formula:
+x = [-3 ± √(3^2 - 4 * 1 * (-3√3))] / (2 * 1)
+x = [-3 ± √(9 + 12√3)] / 2
+Now, simplify further:
+x = (-3 ± √(9 + 12√3)) / 2
+x = (-3 ± √3√7) / 2
+So, the length of AD is x = (-3 ± √3√7) / 2, and since we are dealing with a length, the negative value is not meaningful in this context. Therefore, the length of AD is:
+x = (3 + √3√7) / 2
+So, the correct answer is (a) √7.",,,False,,https://iimking.com/cat-2022-qa-slot-2-geometry-triangles-cat-question/,b8987476-b5ec-4c10-8c98-e39510acb042
+CAT-2022-S2-QA-008,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,2,,,,,Geometry - Quadrilaterals & Polygons,,,Regular polygons A and B have number of sides in the ratio 1 : 2 and interior angles in the ratio 3 : 4. Then the number of sides of B equals,,,,,tita,,10,,,,match,"Correct Answer: 10
+Let the number of sides of polygons A and B be n and 2n, respectively
+The number of sides of polygon B is 2*5, i.e. 10",,,True,https://iimking.com/wp-content/uploads/2023/11/image-17.png,https://iimking.com/cat-previous-year-questions-polygon/,a3402e5a-0d3d-4842-944b-72abaace19f4
+CAT-2022-S3-QA-009,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,3,,,,,Geometry - Circles,,,"In a triangle ABC, AB = AC = 8 cm. A circle drawn with BC as diameter passes through A. Another circle drawn with the center at A passes through B and C. Then, the area of the overlapping region between the two circles is:",16(π - 1),32(π - 1),16π,32π,mcq,,,B,ai_unverified,Near half of BC-circle 16pi + big-circle segment beyond BC (16pi-32) = 32(pi-1),missing_found,"Tore,
+Certainly, let's rephrase it:
+To determine the radius of the circle centered at A and the area of the overlapping region between the two circles, we first note that since AB = AC = 8 cm, triangle ABC is an isosceles triangle. The circle with BC as its diameter is the circumcircle of triangle ABC, and its center is denoted as O. The radius of this circumcircle, OA, also serves as the altitude from A to BC. Let the point of intersection of OA and BC be D. Consequently, triangle AOD is a right triangle, with AO as the hypotenuse. Therefore, AD measures 4 cm.
+As triangle ABC is isosceles, AD serves as both the altitude and median, also bisecting angle BAC. Angle BAD is a right angle. Let's label the center of the circle with A as its center as P. Since AP is the radius of this circle, we must calculate AP.
+Triangle ABP is a right triangle, and since AB = AC = 8 cm, it is an isosceles right triangle. Thus, angle BAP is also a right angle. Given that angle BAD is a right angle, and angle BAP is a right angle, angles BAD and BAP are congruent. This allows us to determine that triangles BAD and BAP are similar.
+Utilizing the properties of similar triangles, we can establish the following proportion: BD / BA = BA / BP. As we have BD = AD = 4 cm and BA = 8 cm, we can insert these values into the proportion: 4 / 8 = 8 / BP. Simplifying the proportion, we get 1/2 = 8 / BP. Cross-multiplying, we find BP = 16 cm. Thus, the radius of the circle with center at A is 16 cm.
+With the radii known, we can now find the area of the overlapping region between the two circles. The area of a circle is determined by the formula A = πr^2. The area of the circumcircle is A1 = π(8 cm)^2 = 64π cm^2, while the area of the circle with center at A is A2 = π(16 cm)^2 = 256π cm^2.
+To calculate the area of the overlapping region, we subtract the area of the circle with center at A from the area of the circumcircle: Area of overlapping region = A1 - A2 = 64π cm^2 - 256π cm^2 = -192π cm^2. Therefore, the area of the overlapping region between the two circles is -192π cm^2.",,,False,,https://iimking.com/cat-previous-year-questions-circle/,bc3a07e2-34ed-4586-8216-d86e698c3762
+CAT-2022-S3-QA-013,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,3,,,,,Geometry - Triangles,,,"Two ships are approaching a port along straight routes at constant speeds. Initially, the two ships and the port formed an equilateral triangle with sides of length 24 km. When the slower ship travelled 8 km, the triangle formed by the new positions of the two ships and the port became right-angled.
+When the faster ship reaches the port, the distance, in km, between the other ship and the port will be",6,8,12,4,mcq,C,12,,,,match,"Let's analyze the situation step by step:
+Initially, the two ships and the port formed an equilateral triangle with sides of length 24 km. This means that each side of the equilateral triangle was 24 km.
+When the slower ship traveled 8 km, the triangle formed by the new positions of the two ships and the port became right-angled. This implies that the slower ship moved 8 km along one of the sides of the original equilateral triangle, creating a right triangle with the other ship and the port.
+Since the original triangle was equilateral, each of its angles was 60 degrees. Therefore, the right triangle formed is a 30-60-90 triangle.
+Now, let's consider the properties of a 30-60-90 triangle. In a 30-60-90 triangle, the side opposite the 30-degree angle is half the length of the hypotenuse, and the side opposite the 60-degree angle is √3/2 times the length of the hypotenuse.
+In this case, the hypotenuse is the side of the original equilateral triangle, which has a length of 24 km. So, the shorter leg (opposite the 30-degree angle) is 12 km (half of 24 km), and the longer leg (opposite the 60-degree angle) is 12√3 km (√3/2 times 24 km).
+Now, the slower ship has traveled 8 km along one of the legs of this right triangle, so the distance between the slower ship and the port (the remaining part of the shorter leg) is 12 km - 8 km = 4 km.
+When the faster ship reaches the port, the distance between the other ship (slower ship) and the port is the remaining part of the longer leg, which is 12√3 km.
+So, the correct answer is (c) 12.",,,False,,https://iimking.com/cat-2022-qa-slot-2-geometry-triangles-cat-question/,95665534-d482-4060-950c-d4ba88c9280e
+CAT-2022-S3-QA-015,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,3,,,,,Geometry - Quadrilaterals & Polygons,,,"The lengths of all four sides of a quadrilateral are integer valued. If three of its sides are of length 1 cm, 2 cm and 4 cm, then the total number o possible lengths of the fourth side is",5,4,3,6,mcq,A,5,,,,match,"The correct answer is A:5
+To determine the possible lengths of the fourth side of the quadrilateral,we need to consider the triangle inequality theorem.According to this theorem, the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.This principle also holds for quadrilaterals. 
+Given the lengths of the three sides as 1cm, 2cm, and 4cm, we can consider all the possible combinations of these sides as two sides of the quadrilateral.Let's check each case: 
+1cm+2cm> 4cm (True) 
+1cm+4cm> 2cm (True) 
+2cm+4cm> 1 cm (True) 
+Since all three combinations satisfy the triangle inequality theorem,any of them can form a valid triangle,and consequently,a quadrilateral with the given side lengths. 
+Now,let's consider the possible lengths of the fourth side for each combination: 
+For 1cm+2cm> 4cm: 
+The fourth side can have a length between |1cm-2cm|+1 and 1cm+2cm-1. 
+This gives us a range of possible lengths: 1 to 2cm. 
+For 1cm+4cm> 2cm: 
+The fourth side can have a length between |1cm - 4cm|+1 and 1cm+ 4cm- 1. 
+This gives us a range of possible lengths: 2 to 4cm. 
+For 2cm+ 4cm> 1cm: 
+The fourth side can have a length between |2cm- 4cm|+ 1 and 2cm+ 4cm- 1. 
+This gives us a range of possible lengths: 3 to 5cm. 
+Now,let's combine the ranges from all three cases: 1-2cm,2-4cm, and 3-5cm. 
+The possible integer lengths for the fourth side are: 1, 2, 3, 4, 5. 
+Therefore, the total number of possible lengths for the fourth side is 5.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,124d51df-bd11-4c85-9e0d-c0238338811f
+CAT-2022-S3-QA-016,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2022,3,,,,,Geometry - Triangles,,,"Suppose the medians BD and CE of a triangle ABC intersect at a point O. If area of triangle ABC is 108 sq. cm., then, the area of the triangle EOD, in sq. cm., is",,,,,tita,,3 sq. cm,,,,mismatch,"To find the area of triangle EOD, we need to use the fact that the medians of a triangle divide each other into segments of a 2:1 ratio.
+Given that medians BD and CE intersect at point O, O divides each median into two segments, with the ratio of 2:1.
+Let M be the midpoint of side BC. Since O divides BD into a 2:1 ratio, we can say that BO = 2(OD). Similarly, since O divides CE into a 2:1 ratio, we can say that CO = 2(OE).
+Now, let's consider triangle ABC and triangle BOC (the smaller triangle formed by the medians). The area of triangle BOC is 1/4 the area of triangle ABC because it has 1/4 of the base (BC) and the same height (from O to side BC).
+So, the area of triangle BOC = (1/4) * 108 sq. cm = 27 sq. cm.
+Now, triangle BOC is similar to triangle EOD because they share the same height (the distance from O to side BC) and have parallel sides. Since the sides of triangle EOD are 1/3 of the sides of triangle BOC, the area of triangle EOD will be (1/3)^2 = 1/9 of the area of triangle BOC.
+Area of triangle EOD = (1/9) * 27 sq. cm = 3 sq. cm.
+So, the area of triangle EOD is 3 sq. cm.",,,False,,https://iimking.com/cat-2022-qa-slot-2-geometry-triangles-cat-question/,d8518250-96b8-4f63-ae1b-c7046086da03
+,,Geo Mensu,Geometry,ai_split,Algebra,True,2022,,,,,X Maro G Strategy,,,,"All the vertices of a rectangle lie on a circle of radius R. If the perimeter of the rectangle is P, then the area of the rectangle is",,,,,,,,,needs_image,Blank key and question has images; not attempted,missing_found,"l^2 + b^2 = (2R)^2
+And, 2(l+b) = P
+Squaring
+4(l^2 + b^2 + 2lb) = P^2
+4R^2 + 2lb = P^2/4
+lb = P^2/8 – 2R^2",,X Maro,True,https://iimking.com/wp-content/uploads/2023/10/image-10.png,https://iimking.com/cat-quant-x-maro/,dec9b18d-4c34-42fc-b4e3-8ff68db30626
+CAT-2021-S1-QA-011,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,1,,,,,Geometry - Circles,,,"A circle of diameter 8 inches is inscribed in a triangle ABC where ∠ABC = 90°. If BC = 10 inches, then the area of the triangle in square inches is.",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/12.jpg,https://iimking.com/cat-previous-year-questions-circle/,b985a0d8-8158-422b-a353-87313ff27c54
+CAT-2021-S1-QA-013,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,1,,,,,Geometry - Quadrilaterals & Polygons,,,"Suppose the length of each side of a regular hexagon ABCDEF is 2 cm. If T is the mid point of CD, then the length of AT, in cm, is",√14,√12,√13,√15,mcq,C,√13,,,,match,"T is the midpoint of CD in the given regular hexagon ABCDEF
+CT=DT=2/2=1
+Draw AT, AD and AC
+By the property of hexagon,
+AD=2×BC=2×2=4=2×=2×2=4
+∠ABC=∠BCD=120^∘∠=∠=120^∘
+We have, AB=BC=CD=2
+∠ACD=120^∘−30^∘=90^∘∠=120^∘−30^∘=90^∘
+ACD is a right triangle and AT is its median
+AC^2=AD^2−CD^2= 4^2 - 2^2 = 12
+Using Apollonius's theorem,
+AC^2+AD^2=2(AT^2+DT^2)
+12 + 4^2 = 2(AT^2+1^2)
+AT = √13
+Ans: ≈3.605551 cm",,,True,https://iimking.com/wp-content/uploads/2023/11/image-19.png | https://iimking.com/wp-content/uploads/2023/11/image-20.png,https://iimking.com/cat-previous-year-questions-polygon/,a3be4a0f-2219-41f9-a039-afb621ed25d3
+CAT-2021-S2-QA-016,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,2,,,,,Geometry - Quadrilaterals & Polygons,,,"The sides AB and CD of a trapezium ABCD are parallel, with AB being the smaller side. P is the midpoint of CD and ABPD is a parallelogram. If th difference between the areas of the parallelogram ABPD and the triangle BPC is 10 sq cm, then the area, in sq cm, of the trapezium ABCD is",20,30,40,25,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,"It is given that: 
+DP =x 
+∴ AB =x
+Now DP=CP So CD = 2x
+Now, if we denote the height of the trapezium as 'h,' 
+we can express the area of parallelogram ABPD as 'xh'
+Now, based on the given condition",,,True,https://iimking.com/wp-content/uploads/2023/11/image-22.png | https://iimking.com/wp-content/uploads/2023/11/image-23.png | https://iimking.com/wp-content/uploads/2023/11/image-24.png | https://iimking.com/wp-content/uploads/2023/11/image-25.png,https://iimking.com/cat-previous-year-questions-polygon/,7b58c04d-741e-4986-a074-0721c427ae55
+CAT-2021-S2-QA-018,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,2,,,,,Geometry - Triangles,,,"Let D and E be points on sides AB and AC, respectively, of a triangle ABC, such that AD : BD = 2 : 1 and AE : CE = 2 : 3. If the area of the triangle ADE is 8 sq cm, then the area of the triangle ABC, in sq cm, is",,,,,tita,,248/15 square centimeters,,,,mismatch,"To find the area of triangle ABC, we can use the ratios of the areas of triangles ADE, ABD, and ACE, along with the given information.
+First, let's express the ratios of areas:
+Area of triangle ADE = 8 sq cm (given).
+AD : BD = 2 : 1, which means the heights of triangles ADE and ABD are in the same ratio. Therefore, the area of triangle ABD is 2/3 of the area of triangle ADE. So, the area of triangle ABD is (2/3) * 8 sq cm = 16/3 sq cm.
+AE : CE = 2 : 3, which means the heights of triangles ADE and ACE are in the same ratio. Therefore, the area of triangle ACE is 2/5 of the area of triangle ADE. So, the area of triangle ACE is (2/5) * 8 sq cm = 16/5 sq cm.
+Now, we have found the areas of triangles ADE, ABD, and ACE. To find the area of triangle ABC, we need to add these areas together, as follows:
+Area of triangle ABC = Area of triangle ABD + Area of triangle ACE + Area of triangle ADE
+Area of triangle ABC = (16/3) sq cm + (16/5) sq cm + 8 sq cm
+Now, let's find a common denominator for the fractions:
+Area of triangle ABC = (80/15) sq cm + (48/15) sq cm + (120/15) sq cm
+Area of triangle ABC = (80 + 48 + 120) / 15 sq cm
+Area of triangle ABC = 248 / 15 sq cm
+So, the area of triangle ABC is 248/15 square centimeters.",,,False,,https://iimking.com/cat-2022-qa-slot-2-geometry-triangles-cat-question/,c2515b13-0760-4726-9dd0-ed13e96aabd7
+CAT-2021-S2-QA-019,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,2,,,,,Geometry - Quadrilaterals & Polygons,,,"If a rhombus has area 12 sq cm and side length 5 cm, then the length, in cm, of its longer diagonal is",√13 + √12,√37 + √13,(√13 + √12)/2,(√37 + √13)/2,mcq,A,√13 + √12,,,,mismatch,"Answer: A
+All the sides of the rhombus are equal.
+The area of a rhombus is 12 cm^2.
+Considering d1 to be the length of the longer diagonal, d2 to be the length of the shorter diagonal.
+The area of a rhombus is
+d1*d2 = 24.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-26.png | https://iimking.com/wp-content/uploads/2023/11/image-27.png,https://iimking.com/cat-previous-year-questions-polygon/,775b8fe3-480e-4811-9171-7c2a0c47e874
+CAT-2021-S3-QA-022,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,3,,,,,Geometry - Quadrilaterals & Polygons,,,"A park is shaped like a rhombus and has area 96 sq m. If 40 m of fencing is needed to enclose the park, the cost, in INR, of laying electric wires alon its two diagonals, at the rate of ₹125 per m, is",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-28.png,https://iimking.com/cat-previous-year-questions-polygon/,7096c925-84a4-4174-9773-bbf100a27d7f
+CAT-2021-S3-QA-023,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2021,3,,,,,Geometry - Quadrilaterals & Polygons,,,"Let ABCD be a parallelogram. The lengths of the side AD and the diagonal AC are 10 cm and 20 cm, respectively. If the angle ∠ADC is equal to 30° the the area of the parallelogram is sq. cm. is",25(√3 + √15)/2,25(√5 + √15),25(√3 + √15),25(√5 + √15)/2,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-29.png,https://iimking.com/cat-previous-year-questions-polygon/,7eb64e23-8bfc-43ae-aa7e-e23115366e91
+CAT-2020-S1-QA-018,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2020,1,,,,,Geometry - Quadrilaterals & Polygons,,,A circle is inscribed in a rhombus with diagonals 12 cm and 16 cm. The ratio of the area of circle to the area of rhombus is,5π/18,2π/15,3π/25,6π/25,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-31.png | https://iimking.com/wp-content/uploads/2023/11/image-32.png,https://iimking.com/cat-previous-year-questions-polygon/,d8e305d2-8d9d-411c-89c9-3f0747a15dc5
+CAT-2020-S2-QA-007,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2020,2,,,,,Geometry - Circles,,,"Let C1 and C2 be concentric circles such that the diameter of C1 is 2 cm longer than that of C2. If a chord of C1 has length 6 cm and is a tangent to C2, then the diameter, in cm, of C1 is:",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/15.jpg,https://iimking.com/cat-previous-year-questions-circle/,498b1016-0e7f-4502-848c-8a2b88cdb8cb
+CAT-2020-S2-QA-009,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2020,2,,,,,Geometry - Circles,,,"Let C be a circle of radius 5 meters having center at O. Let PQ be a chord of C that passes through points A and B where A is located 4 meters north of O and B is located 3 meters east of O. Then, the length of PQ, in meters, is nearest to:",8.8,6.6,7.8,7.2,mcq,A,8.8,,,,match,"O is the center of the circle and radius of circle = 5
+In triangle AOB, using pythagorean triplet AB = 5
+OR = 3×453×45 = 2.4
+Since OR if from the center it bisects the chord,
+PR = RQ
+Now in triangle POR,
+5^2 = PR^2 + (2.4)^2
+PR = √{19.24}
+PQ = 2 √{19.24}
+PQ ≅ 8.8",,,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/figa/q9_triangle_in_circle_1.png | https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-2-Quant/figa/q9_triangle_in_circle_2.png,https://iimking.com/cat-previous-year-questions-circle/,58b3a6ab-4089-47a6-be8d-63dfbb2b5d6e
+CAT-2020-S2-QA-017,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2020,2,,,,,Geometry - Quadrilaterals & Polygons,,,"The sum of the perimeters of an equilateral triangle and a rectangle is 90 cm. The area, T, of the triangle and the area, R, of the rectangle, both in s cm, satisfy the relationship R = T². If the sides of the rectangle are in the ratio 1 : 3, then the length, in cm, of the longer side of the rectangle, is",27,24,18,21,mcq,A,27,,,,match,"Let the sides of the rectangle be ""a"" and ""3a"" m.
+Hence the perimeter of the rectangle is 8a. Let the side of the equilateral triangle be ""m"" cm.
+Hence the perimeter of the equilateral triangle is ""3m"" cm. Now we know that 8a+3m=90......(1)
+Hence a=9 and the longer side of the rectangle will be 3a=27cm",,,True,https://iimking.com/wp-content/uploads/2023/11/image-33.png,https://iimking.com/cat-previous-year-questions-polygon/,5f10e77d-188d-4739-9ee7-0c2639520f52
+CAT-2020-S3-QA-016,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2020,3,,,,,Geometry - Circles,,,"The vertices of a triangle are (0, 0), (4, 0), and (3, 9). The area of the circle passing through these three points is:",123π/7,205π/9,14π/3,12π/5,mcq,,,B,ai_unverified,"Circumcentre (2,13/3), R^2=205/9",missing_found,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,8d4141ee-e8ae-42e0-87b3-7cce093405b3
+CAT-2020-S3-QA-028,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2020,3,,,,,Geometry - Quadrilaterals & Polygons,,,"In a trapezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC = 5 cm, BC = 4 cm, the area of the trapezium in sq.cm is",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,"Given, BC = DE = 4
+CD = BE = 5",,,True,https://iimking.com/wp-content/uploads/2023/11/image-35.png | https://iimking.com/wp-content/uploads/2023/11/image-36.png,https://iimking.com/cat-previous-year-questions-polygon/,1041022d-cb53-4db4-825e-1ce4de06e10a
+CAT-2019-S1-QA-020,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2019,1,,,,,Geometry - Circles,,,"In a circle of radius 11 cm, CD is a diameter and AB is a chord of length 20.5 cm. If AB and CD intersect at a point E inside the circle and CE has a length of cm, then the difference of the lengths of BE and AE, in cm, is:",0.5 cm,2.5 cm,3.5 cm,1.5 cm,mcq,,,,needs_human,CE length missing from question text (import lost it); if CE=7 answer is A (0.5),missing_found,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,23a0d772-ee45-4e25-b327-1b12f1254770
+CAT-2019-S1-QA-021,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2019,1,,,,,Geometry - Circles,,,"AB is a diameter of a circle of radius 5 cm. Let P and Q be two points on the circle so that the length of PB is 6 cm, and the length of AP is twice that of AQ. Then the length, in cm, of QB is nearest to:",7.8 cm,8.5 cm,9.3 cm,9.1 cm,mcq,,,D,ai_unverified,"AP=8 (right angle at P), AQ=4, QB=sqrt(100-16)=sqrt84=9.17",missing_found,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,042d1a02-16a5-4ffb-a6b4-ed8ebc8ca000
+CAT-2019-S2-QA-021,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2019,2,,,,,Geometry - Circles,,,"Two circles, each of radius 4 cm, touch externally. Each of these two circles is touched externally by a third circle. If these three circles have a common tangent, then the radius of the third circle, in cm, is:",π/3,1,1/√2,√2,mcq,,,B,ai_unverified,Three circles on common tangent: 1/sqrt(r)=1/sqrt4+1/sqrt4=1 => r=1,missing_found,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,e175b105-fd1e-450a-867f-9a65e28d4577
+CAT-2019-S2-QA-026,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2019,2,,,,,Geometry - Quadrilaterals & Polygons,,,"Let A and B be two regular polygons having a and b sides, respectively. If b = 2a and each interior angle of B is 3/2 times each interior angle of A, the each interior angle, in degrees, of a regular polygon with a + b sides is",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-37.png,https://iimking.com/cat-previous-year-questions-polygon/,da355da3-de0f-4654-a716-d91fcca51ea7
+CAT-2018-S1-QA-021,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,1,,,,,Geometry - Circles,,,"In a circle, two parallel chords on the same side of a diameter have lengths 4 cm and 6 cm. If the distance between these chords is 1 cm, then the radius of the circle, in cm, is:",√12,√13,√11,√14,mcq,B,√13,,,,match,"Method of solving this CAT Question from Geometry
+Geometry - Finding the radius of the circle
+Given that Chords lie on the same side of diameter with lengths 4 cms and 6 cms
+Draw a perpendicular from the origin to both the chords and mark the points of intersection as P and Q respectively
+Consider radius of circle as ‘r’ and distance OP as ‘x’
+Draw lines from origin to the end of the chord and mark the points as D and B respectively
+Thus, △OQB and △OPD form a right Triangle
+Applying Pythagoras Theorem on both triangles,
+(x+1)2 +22 = r2 ---(1)
+x2 +32 = r2 ---(2)
+We find that there is an increase and decrease by 1 in both equations
+So, x2 = 22 , x=2
+r2= 22+32 = 4+9 = 13
+r = √13 cms
+The question is ""In a circle, two parallel chords on the same side of a diameter have lengths 4 cm and 6 cm. If the distance between these chords is 1 cm, then the radius of the circle, in cm, is""
+Hence, the answer is √13 cms",,,False,,https://iimking.com/cat-previous-year-questions-circle/,d92dcecd-2363-4bf3-9385-76647ec01e8a
+CAT-2018-S1-QA-022,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,1,,,,,Geometry - Circles,,,"In a circle with center O and radius 1 cm, an arc AB makes an angle 60 degrees at O. Let R be the region bounded by the radii OA, OB, and the arc AB. C and D are two points on OA and OB, respectively, such that OC = OD and the area of triangle OCD is half that of R. Then the length of OC, in cm, is:",(π/6)1/2,(π/3√3)1/2,(π/4√3)1/2,(π/4)1/2,mcq,D,(π/4)1/2,,,,mismatch,"Method of solving this CAT Question from Geometry
+Given ∠AOB = 60°
+Area of Sector AOB = 6036060360 × π × 12 = π6π6 ---(1)
+Given OC = OD => ∠OCD = ∠ODC = 60°
+△OCD is an Equilateral Triangle with side = a
+Area(△OCD) = √34√34 × a × a ---(2)
+Its given that Area(OCD) = 1212 × Area(OAB)
+a^2√34√34 = π6×2π6×2
+a = (π3√3π3√3)^1212
+The question is ""In a circle with centre O and radius 1 cm, an arc AB makes an angle 60 degrees at O. Let R be the region bounded by the radii OA, OB and the arc AB. If C and D are two points on OA and OB, respectively, such that OC = OD and the area of triangle OCD is half that of R, then the length of OC, in cm, is""
+Hence, the answer is π3√3π3√3^1212 cm
+Choice D is the correct answer.",,,True,https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-1-Quant/figa/sector.png,https://iimking.com/cat-previous-year-questions-circle/,8e5f4a2d-f3d9-4fd2-8da7-8f0ea6c78fa1
+CAT-2018-S1-QA-023,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,1,,,,,Geometry - Quadrilaterals & Polygons,,,"Points E, F, G, H lie on the sides AB, BC, CD, and DA, respectively, of a square ABCD. If EFGH is also a square whose area is 62.5% of that of ABCD an CG is longer than EB, then the ratio of length of EB to that of CG is",2 : 5,4 : 9,3 : 8,1 : 3,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,"It is given that EFGH is also a square whose area is 62.5% of that of ABCD. Let us assume that E divides AB in x : 1. Because of symmetry we can se that points F, G and H divide BC, CD and DA in x : 1.  Because of symmetry we can se that points F, G and H divide BC, CD and DA in x : 1.
+Let us assume that 'x+1' is the length of side of square ABCD.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-38.png | https://iimking.com/wp-content/uploads/2023/11/image-39.png,https://iimking.com/cat-previous-year-questions-polygon/,9d4cc705-9b63-4505-a163-54f6d313fafa
+CAT-2018-S1-QA-024,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,1,,,,,Geometry - Quadrilaterals & Polygons,,,"In a parallelogram ABCD of area 72 sq cm, the sides CD and AD have lengths 9 cm and 16 cm, respectively. Let P be a point on CD such that AP i perpendicular to CD. Then the area, in sq cm, of triangle APD is",12√3,24√3,18√3,32√3,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,"Area of the parallelogram ABCD = (base) (height)
+= CD × AP = 72 sq.cm.
+⇒ 72 = 9 × (AP) ⇒ AP = 8cm",,,True,https://iimking.com/wp-content/uploads/2023/11/image-42.png | https://iimking.com/wp-content/uploads/2023/11/image-41.png,https://iimking.com/cat-previous-year-questions-polygon/,8a70919b-afb2-40d2-94f7-cd7675e866cf
+CAT-2018-S1-QA-029,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,1,,,,,Geometry - Quadrilaterals & Polygons,,,"Let ABCD be a rectangle inscribed in a circle of radius 13 cm. Which one of the following pairs can represent, in cm, the possible length and breadth o ABCD?","24, 12","24, 10","25, 10","25, 9",mcq,A,"24, 12",,,,mismatch,"We know that AC is the diameter and ABC = 90°. AC = 2*13 = 26 cm.
+In right angle triangle ABC,
+Let us check with the options. Therefore, we can say that option A is the correct answer.
+Therefore, we can say that option A is the correct answer.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-43.png | https://iimking.com/wp-content/uploads/2023/11/image-44.png | https://iimking.com/wp-content/uploads/2023/11/image-45.png,https://iimking.com/cat-previous-year-questions-polygon/,66388ca9-7ef7-4055-b483-d99dfbbcf2a5
+CAT-2018-S2-QA-027,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,2,,,,,Geometry - Circles,,,"A chord of length 5 cm subtends an angle of 60° at the center of a circle. The length, in cm, of a chord that subtends an angle of 120° at the center of the same circle is:",5√3 cm,6√2 cm,2π cm,8 cm,mcq,B,6√2 cm,,,,mismatch,"Method of solving this CAT Question from Geometry
+Given that a chord of length 5 cm subtends an angle of 60° at the centre of a circle.
+We have to find the length of a chord that subtends an angle of 120° at the centre of the same circle
+sin 60° = BCOB����
+⟹ √32√32 = BC5��5
+⟹ BC = 5√325√32 and AC = 5√325√32
+So AB = 5√325√32 + 5√325√32 = 5√3
+The length of a chord that subtends an angle of 120° at the centre of the same circle is 5√3
+The question is ""A chord of length 5 cm subtends an angle of 60° at the centre of a circle. The length, in cm, of a chord that subtends an angle of 120° at the centre of the same circle is""
+Hence, the answer is 5√3
+Choice B is the correct answer.",,,True,https://online.2iim.com/CAT-question-paper/CAT-2018-Question-Paper-Slot-2-Quant/figa/length.png,https://iimking.com/cat-previous-year-questions-circle/,a4aeec25-ac96-46a3-aa1b-3416318cf576
+CAT-2018-S2-QA-032,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,2,,,,,Geometry - Circles,,,"In a triangle ABC, a circle with diameter BC is drawn, intersecting AB and AC at points P and Q, respectively. If the lengths of AB, AC, and CP are 30 cm, 25 cm, and 20 cm respectively, then the length of BQ, in cm, is:",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-102.png,https://iimking.com/cat-previous-year-questions-circle/,912c383d-4828-456c-95f9-e84eab508a7a
+CAT-2018-S2-QA-035,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,2,,,,,Geometry - Quadrilaterals & Polygons,,,"A parallelogram ABCD has area 48 sqcm. If the length of CD is 8 cm and that of AD is s cm, then which one of the following is necessarily true?",s ≠ 6,s ≥ 6,5 ≤ s ≤ 7,s ≤ 6,mcq,,,B,ai_unverified,48=8*s*sin(theta) => s=6/sin(theta) >= 6,missing_found,"Answer:
+As,sin0 < 1
+Step-by-step explanation:
+Area of parellogram ABCD= 2*Area of triangle ACD
+48= 2* area of triangle ACD
+Area of triangle of ACD =24 because 48/2=24
+(1/2) * CD * DA * SinADC =24
+=(1/2) *8* DA *SinADC =24
+Ad *SinADC =6
+ANSWER
+As,sin0 < 1",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,475df541-0bf4-47d6-97ee-63c5993ce4e6
+CAT-2018-S2-QA-037,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2018,2,,,,,Geometry - Quadrilaterals & Polygons,,,The area of a rectangle and the square of its perimeter are in the ratio 1 ∶ 25. Then the lengths of the shorter and longer sides of the rectangle are i the ratio ?,1 : 3,2 : 9,1 : 4,3 : 8,mcq,C,1 : 4,,,,match,"Let 'a' and 'b' be the length of sides of the rectangle, (a > b)
+Area of the rectangle = a*b
+Perimeter of the rectangle = 2*(a+b)
+=>a*b/(2*(a + b))^2 = 1/25
+=> 25ab = 4(a + b)^2
+=> 4a^2 - 17ab + 4b^2 = 0
+=> (4a - b)(a - 4b) = 0
+=> a = 4b or b/4
+We initially assumed that a > b, therefore a ≠ 4. Hence, a = 4b => b: a = 1: 4",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,e5d592d4-3209-40b0-a941-1bc3c014b8b3
+CAT-2017-S1-QA-021,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,1,,,,,Geometry - Triangles,,,"From a triangle ABC with sides of lengths 40 ft, 25 ft and 35 ft, a triangular portion GBC is cut off where G is the centroid of ABC. The area, in sq ft, of the remaining portion of triangle ABC is:",225√3,500/√3,275√3,250√3,mcq,,,B,ai_unverified,Heron area 250sqrt3; GBC is 1/3 => remaining 500/sqrt3,missing_found,"To find the area of the remaining portion of triangle ABC after the triangular portion GBC is cut off, we can use the fact that the centroid divides the medians of a triangle into a 2:1 ratio. This means that G is closer to the centroid of the base BC, and BG is two-thirds of the median.
+First, let's calculate the area of triangle ABC using Heron's formula:
+Semi-perimeter, s = (40 + 25 + 35) / 2 = 50 ft.
+Area of triangle ABC = √[s(s - a)(s - b)(s - c)]
+Area of triangle ABC = √[50(50 - 40)(50 - 25)(50 - 35)]
+Area of triangle ABC = √[50 * 10 * 25 * 15]
+Area of triangle ABC = √[375000]
+Area of triangle ABC = 250√3 ft²
+Now, let's calculate the area of triangle GBC, which is two-thirds the area of triangle GBC:
+Area of triangle GBC = (2/3) * (1/2) * (25 ft) * (40 ft) = (2/3) * 500 ft² = (1000/3) ft².
+To find the area of the remaining portion of triangle ABC, subtract the area of triangle GBC from the area of triangle ABC:
+Remaining Area = Area of triangle ABC - Area of triangle GBC
+Remaining Area = (250√3 ft²) - (1000/3 ft²)
+Now, let's find a common denominator:
+Remaining Area = (750√3/3 ft²) - (1000/3 ft²)
+Remaining Area = (750√3 - 1000)/3 ft²
+We can simplify this further:
+Remaining Area = (250(3√3 - 4))/3 ft²
+Now, this is the area of the remaining portion of triangle ABC. To compare it to the answer choices, we'll further simplify it:
+Remaining Area = (750√3 - 1000)/3 ft²
+Remaining Area = (250/3)(3√3 - 4) ft²
+Now, compare this to the answer choices:
+(a) 225√3
+(b) 500/√3
+(c) 275√3
+(d) 250√3
+It seems like the correct answer is not among the given choices. There might be a typo in the answer choices, or there's a discrepancy in the question. The area of the remaining portion of triangle ABC is (250/3)(3√3 - 4) square feet.",,,False,,https://iimking.com/cat-2017-qa-slot-1-geometry-triangles-cat-question/,9fa8e317-38bf-46ae-823f-0614ab036f79
+CAT-2017-S1-QA-022,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,1,,,,,Geometry - Triangles,,,"Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has length 6 cm then the area, in sq. cm, of the region enclosed by BPC and BQC is:",9π - 18,18,9π,9,mcq,A,9π - 18,,,,mismatch,"To find the area of the region enclosed by arcs BPC and BQC, you can follow these steps:
+First, observe that triangle ABC is a right-angled isosceles triangle, which means that angle ABC is 90 degrees, and angles CAB and CBA are both 45 degrees.
+Since BQC is a semicircle with diameter BC, angle BQC is 90 degrees.
+Now, notice that arc BPC spans from BC to BQC, and the angles formed by the two arcs at the center of the circle (point A) are equal. Therefore, angle BAC is also 90 degrees.
+The enclosed region consists of a quarter-circle (BQC) and a right-angled isosceles triangle (ABC).
+Now, let's calculate the area of each part:
+Area of quarter-circle BQC:
+The radius of the quarter-circle is half of BC, which is half of AB, i.e., 3 cm. So, the area of the quarter-circle is (1/4)πr^2, where r is the radius.
+Area of BQC = (1/4)π(3 cm)^2 = (1/4)π(9 cm^2) = (9/4)π square cm.
+Area of right-angled isosceles triangle ABC:
+The legs of the triangle are both 6 cm (since it's an isosceles triangle with AB = BC = 6 cm), and the area of a right-angled triangle is (1/2)base*height.
+Area of ABC = (1/2)(6 cm)(6 cm) = 18 square cm.
+Now, calculate the total area of the region enclosed by BPC and BQC:
+Total Area = Area of BQC (quarter-circle) + Area of ABC (triangle)
+Total Area = (9/4)π square cm + 18 square cm
+Now, let's express the answer in terms of π:
+Total Area = (9/4)π square cm + 18 square cm
+Total Area = (9/4)π + 18 square cm
+So, the area of the region enclosed by BPC and BQC is (9/4)π + 18 square cm, which corresponds to option (a) 9π - 18.",,,False,,https://iimking.com/cat-2017-qa-slot-1-geometry-triangles-cat-question/,860fa7d3-e354-4ebd-93e6-ec62bd8d8473
+CAT-2017-S1-QA-023,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,1,,,,,Geometry - Triangles,,,"Let ABC be a right-angled triangle with BC as the hypotenuse. Lengths of AB and AC are 15 km and 20 km, respectively. The minimum possible time, in minutes, required to reach the hypotenuse from A at a speed of 30 km per hour is:",,,,,tita,,70 minutes,,,,mismatch,"To find the minimum possible time required to reach the hypotenuse from A, you can use the concept of minimizing travel time along two different paths: one directly along the hypotenuse and the other by traveling along the legs of the right-angled triangle.
+First, calculate the time required to travel directly along the hypotenuse:
+The hypotenuse BC has a length of 25 km (by the Pythagorean theorem).
+Time = Distance / Speed
+Time = 25 km / 30 km/hour
+Time = (5/6) hour
+Now, let's calculate the time required to travel along the legs and reach point C and then move along the hypotenuse:
+Travel along AC:
+Distance = 20 km
+Time = Distance / Speed
+Time = 20 km / 30 km/hour
+Time = (2/3) hour
+Travel along BC:
+Distance = 15 km (remaining distance to the hypotenuse)
+Time = Distance / Speed
+Time = 15 km / 30 km/hour
+Time = (1/2) hour
+Total time for this path = Time along AC + Time along BC
+Total time = (2/3) hour + (1/2) hour
+Now, let's find the common denominator:
+Total time = (4/6) hour + (3/6) hour
+Total time = (7/6) hour
+Now, convert the time to minutes (since 1 hour = 60 minutes):
+Total time = (7/6) * 60 minutes
+Total time = 70 minutes
+So, the minimum possible time required to reach the hypotenuse from A is 70 minutes.",,,False,,https://iimking.com/cat-2017-qa-slot-1-geometry-triangles-cat-question/,88fd0258-0094-4bd9-aa2b-3446e3921277
+CAT-2017-S1-QA-031,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,1,,,,,Geometry - Circles,,,"Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semicircle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has a length of 6 cm, then the area, in sq. cm, of the region enclosed by BPC and BQC is:",9π - 18,18,9π,9,mcq,B,18,,,,match,"Method of solving this CAT Question from Geometry
+Given that ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC and let BPC be an arc of a circle centred at A and lying between BC and BQC.
+If AB has length 6 cm then the area, in sq. cm, of the region enclosed by BPC and BQC has to be found.
+i.e. the shaded region is,
+Area of semicircle BQC = π (3√(2))^2
+= 18π218π2
+= 9π
+Area of BPC = π4π4 × 6^2 - Area of triangle
+= 9π - 9π - 18
+= 18
+The question is ""Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has length 6 cm then the area, in sq. cm, of the region enclosed by BPC and BQC is :""
+Hence, the answer is 18
+Choice B is the correct answer.",,,True,https://online.2iim.com/CAT-question-paper/CAT-2017-Question-Paper-Slot-1-Quant/figa/area.png,https://iimking.com/cat-previous-year-questions-circle/,f461c28a-8be5-4aaa-ba7c-bbc840818527
+CAT-2017-S2-QA-019,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,2,,,,,Geometry - Triangles,,,"Let P be an interior point of a right-angled isosceles triangle ABC with hypotenuse AB. If the perpendicular distance of P from each of AB, BC, and CA is 4(√2 - 1) m, then the area, in sq cm, of the triangle ABC is",,,,,tita,,96 - 64√2 square units,,,,mismatch,"To find the area of the right-angled isosceles triangle ABC, we can use the information about the perpendicular distance of point P from each of its sides.
+Let's denote the length of each side of the triangle as ""a."" Since it's an isosceles right-angled triangle, we know that the two legs are congruent, so a = a.
+Let's denote the perpendicular distance of point P from each side as ""h.""
+Given that the perpendicular distance of P from AB is 4(√2 - 1) m, we have h = 4(√2 - 1) m.
+Now, we can use the properties of a right-angled isosceles triangle to relate the side length ""a"" and the height ""h.""
+In a right-angled isosceles triangle, if ""a"" is the length of the legs and ""h"" is the perpendicular distance from the hypotenuse to the vertex (where the right angle is), then the relationship is:
+a^2 = 2 * h^2
+Now, we can calculate the value of ""a"":
+a^2 = 2 * (4(√2 - 1))^2
+a^2 = 2 * 32 * (2 - 2√2 + 1)
+a^2 = 64 * (3 - 2√2)
+Taking the square root of both sides:
+a = √[64 * (3 - 2√2)]
+a = 8√[3 - 2√2]
+Now that we have found the side length ""a,"" we can calculate the area of the triangle:
+Area of triangle ABC = (1/2) * a^2
+Area = (1/2) * (8√[3 - 2√2])^2
+Area = (1/2) * 64 * (3 - 2√2)
+Area = 32 * (3 - 2√2)
+Now, we can simplify further:
+Area = 32 * 3 - 32 * 2√2
+Area = 96 - 64√2
+So, the area of the triangle ABC is 96 - 64√2 square units.",,,False,,https://iimking.com/cat-2017-qa-slot-1-geometry-triangles-cat-question/,a38b11b7-39a5-4bea-b8dd-40b269db3396
+CAT-2017-S2-QA-031,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,2,,,,,Geometry - Quadrilaterals & Polygons,,,Let ABCDEF be a regular hexagon with each side of length 1 cm. The area (in sq cm) of a square with AC as one side is,3√2,3,4,√3,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,"AC is base of an isoceles triangle ABC where AB and BC are side lengths of a regular hexagon. Interior angles of hexagon are 120^∘ each, therefore base angles are 30^∘ each.
+By cosine rule,",,,True,https://iimking.com/wp-content/uploads/2023/11/image-47.png | https://iimking.com/wp-content/uploads/2023/11/image-48.png,https://iimking.com/cat-previous-year-questions-polygon/,3c06dc98-70f9-4d1b-9963-c929f04d4b34
+CAT-2017-S2-QA-034,sequence,Geo Mensu,Geometry,topic_map,Geometry,True,2017,2,,,,,Geometry - Quadrilaterals & Polygons,,,"ABCD is a quadrilateral inscribed in a circle with centre O. If ∠COD = 120 degrees and ∠BAC = 30 degrees, then the value of ∠BCD (in degrees) is",,,,,tita,,90,,,,match,"Following the conditions of question, we get the figure as:
+∠COD = 120^0 (Given)
+Then, ∠DAC = 60^0 (Half of ∠COD i.e. 120^0)
+Therefore, ∠BAD = 30^0+60^0=90^0
+Hence, ∠BCD = 180^0 - ∠BAD (Opposite angles of a cyclic quadrilateral are supplementary angles).
+∠BCD = 180^0–90^0=90^0",,,True,https://iimking.com/wp-content/uploads/2023/11/image-49.png,https://iimking.com/cat-previous-year-questions-polygon/,5c756025-b8b5-404b-b152-8830d7721b75
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2008,,,,,,Geometry - Circles,,,"Two circles, both of radii 1 cm, intersect such that the circumference of each one passes through the center of the circle of the other. What is the area (in sq cm) of the intersecting region?",π/3,2π/3,4π/3,2π/3 || √3/2 || √3/2,mcq,C,4π/3,,,,not_checked,"Method of solving this CAT Question from Triangles: A clear understanding of circles, squares and equilateral triangles will help to solve.
+In-radius of equilateral triangle of side a = a2√3�2√3
+Diameter of larger circle = a2√3�2√3
+Let us say common tangent PQ touches the two circle at R, center of smaller circle is I.
+Now, PQ is parallel to BC. AR is perpendicular to PQ. Triangle PQR is also an equilateral triangle and AORID is a straight line. (Try to establish each of these observations. Just to maintain the rigour.)
+AD = √32√32a
+RD = a√3�√3
+AR = √32√32a - a√3�√3 = 3a−2a2√33�−2�2√3 = a2√3�2√3
+AR = 1313 AD
+Radius of smaller circle = 1313 radius of larger circle
+Radius of smaller circle = 1313 * a2√3�2√3 = a6√3�6√3
+Area of smaller circle = πr^2
+π (a6√3�6√3)^2 = πa2108π�2108
+Area of triangle = √34√34a^2
+Ratio = πa2108π�2108 : √34√34a^2 = π:27√3
+The question is "" What is the ratio of the area of the smaller circle to that of the equilateral triangle?""
+Hence, the answer is π:27√3.
+Choice C is the correct answer.",,,True,https://iim-cat-questions-answers.2iim.com/quant/geometry/geometry-triangles/figa/geometry-triangles_4.1.jpg | https://iim-cat-questions-answers.2iim.com/quant/geometry/geometry-triangles/figa/geometry-triangles_4.2.jpg,https://iimking.com/cat-previous-year-questions-circle/,15e3eea7-5a99-4f89-8890-2a020c34e035
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2008,,,,,,Geometry - Quadrilaterals & Polygons,,,"Consider a square ABCD with midpoints E, F, G, H of AB, BC, CD and DA respectively. Let L denote the line passing through F and H. Consider points and Q, on L and inside ABCD, such that the angles APD and BQC both equal 120°. What is the ratio of the area of ABQCDP to the remaining area insid ABCD?",4√2 3,2 + √3,10−3√3 9,1 + 1√3 || 2√3 − 1,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-50.png | https://iimking.com/wp-content/uploads/2023/11/image-51.png,https://iimking.com/cat-previous-year-questions-polygon/,63ed2fae-ea67-4072-b389-67e7a502902b
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2007,,,,,,Geometry - Quadrilaterals & Polygons,,,"Each question is followed by two statements A and B. Answer each question using the following instructions.
+Mark (1) if the question can be answered by using statement A alone but not by using statement B alone. Mark (2) if the question can be answered by using statement B alone but not by using statement A alone.
+Mark (3) if the question can be answered by using both the statements together but not by using either of the statements alone. Mark (4) if the question cannot be answered on the basis of the two statements.
+Rahim plans to draw a square JKLM with a point O on the side JK but is not successful. Why is Rahim unable to draw the square?
+A. The length of OM is twice that of OL.
+B. The length of OM is 4 cm.",1,2,3,4 || 5,mcq,A,1,,,,not_checked,"If the side of the square is x cm, then the maximum length of OM is √2​x
+The minimum length of OL is x
+So, OM can never be 2 times OL
+So, using statement A alone, we can conclude that Rahim is unable to draw the square.
+Using statement B alone, we cannot answer the question.
+So, option a) is the correct answer.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,3829385f-710b-4a8f-93d6-af427d28d304
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2007,,,,,,Geometry - Circles,,,Two circles with centers P and Q cut each other at two distinct points A and B. The circles have the same radii and neither P nor Q falls within the intersection of the circles. What is the smallest range that includes all possible values of the angle AQP in degrees?,Between 0 and 90,Between 0 and 30,Between 0 and 60,Between 0 and 75 || Between 0 and 45,mcq,,,C,ai_unverified,cos(AQP)=d/2r with r<=d<2r => 0 to 60 degrees,not_checked,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,bba4bb15-df0b-4a60-893b-7885d7a4993e
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2006,,,,,,Geometry - Circles,,,"A semicircle is drawn with AB as its diameter. From C, a point on AB, a line perpendicular to AB is drawn meeting the circumference of the semicircle at D. Given that AC = 2 cm and CD = 6 cm, the area of the semicircle (in sq. cm.) will be:",32π,50π,40.5π,81π || Undeterminable,mcq,B,50π,,,,not_checked,"OC=r−2
+(r−2)2+62=r2⇒r=10
+Semicircle area =πr22=50πcm2",,,True,https://meritnation-question-images.s3.ap-southeast-1.amazonaws.com/toppr_ext/questions/840666_108083_ans_233784f6c37f4bdcb2b80bd5526fdefc.png,https://iimking.com/cat-previous-year-questions-circle/,df4a9b15-cc57-472a-b881-42453f707d81
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2006,,,,,,Geometry - Quadrilaterals & Polygons,,,An equilateral triangle BPC is drawn inside a square ABCD. What is the value of the angle APD in degrees?,75,90,120,135 || 150,mcq,E,150,,,,not_checked,"All Sides of Square are equal  and all angles are equal to 90°
+All Sides of a equilateral triangle are equal  and all angles are equal to 60°
+Angles opposites to equal sides of triangle  are equal
+Sum of angles of  a triangle is 180°
+ABCD is square  , APD is Equilateral triangle
+AB = BC = CD = AD = BP = CP
+∠ABC = 90°  ,  ∠CBP  =  60°
+∠ABC = ∠ABP  + ∠CBP
+Hence ∠ABP   = 30°
+∠BAP = ∠BPA  as AB = BP
+∠BAP + ∠BPA  + ∠ABP  = 180°
+Hence ∠BAP = ∠BPA = 75°
+Similarly ∠CPD = 75°
+∠BPC = 60°
+Sum of all angles at a point is 360°
+Hence ∠APD = 150°",,,True,https://iimking.com/wp-content/uploads/2023/11/image-52.png,https://iimking.com/cat-previous-year-questions-polygon/,ef53e8d8-8add-433e-a4ec-74cc326bdf99
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2005,,,,,,Geometry - Circles,,,"P, Q, S, and R are points on the circumference of a circle of radius r, such that PQR is an equilateral triangle and PS is a diameter of the circle. What is the perimeter of the quadrilateral PQSR?",2r(1 + √3),2r(2 + √3),r(1 + √5),2r + √3,mcq,A,2r(1 + √3),,,,not_checked,"P, Q, R, S are points on the circumference of a circle of radius r center O.
+This circle becomes the circumcircle for equilateral ∆QPR.
+Let s be the side of ∆QPR.
+Diameter of the circle = PS = 2r
+r = s /√3
+s= r√3
+QR is the chord of circle . If M is the mid point of QR, then
+PM⊥QR; SM⊥QR
+MQ= MR= s/2 = (r/2)√3
+PM = Height of equilateral triangle = s(√3/2) = (r√3) (√3/2) = 3r/2
+In the right angle ∆SQM ,
+QS² = SM²+MQ² ——(1)
+SM=PS-PM= 2r-(3/2)r = r/2
+From (1).
+QS² = (r/2)²+[ (r/2)√3]²
+QS=r ; Hence, RS=r
+Perimeter of PQSR,
+L = PQ+QS+RS+PR = s+r+r+s = 2r√3 + 2r
+L=2r(1+√3 )
+Interestingly, area of quadrilateral = (1/2) (r√3) (3r/2) + (1/2) (r√3) (r/2) = r²√3
+Ans: Perimeter of the quadrilateral PQSR=2r(1+√3 )",,,False,,https://iimking.com/cat-previous-year-questions-circle/,600c6d2f-205c-4a26-93ee-5492d144ed4e
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2005,,,,,,Geometry - Circles,,,What is the distance in cm between two parallel chords of lengths 32 cm and 24 cm in a circle of radius 20 cm?,1 or 7,2 or 14,3 or 21,4 or 28,mcq,D,4 or 28,,,,not_checked,"The distances of the chords from the center are 12 cm and 16 cm respectively. If the chords lie on the same side of the center, the distance between the chords is 4 cm, if they lie on opposite
+sides of the center, the distance between them is 28 cm....",,,False,,https://iimking.com/cat-previous-year-questions-circle/,8fcbcef6-877d-4738-8760-bbce20cabe8a
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2005,,,,,,Geometry - Circles,,,"Two identical circles intersect such that their centers, and the points at which they intersect, form a square of side 1 cm. The area in sq. cm of the portion that is common to the two circles is:",π,π - 1,π,√2 - 1,mcq,,,B,ai_unverified,Common area = pi/2 - 1 (option text garbled; B is pi/2-1 per solution),not_checked,"Answer : (b)  π 2 − 1​​� 2 − 1
+Since each side of the square AOBO′ = 1 cm,
+so radius OA = O′A = 1 cm ∴ Area of each circle = πr2  = π sq. cm
+Area of sector AOB  =  90 o 360 o 90 � 360 �  × π =  π 4 π 4
+⇒ Area of sector AO'B =  π 4 π 4
+∴ Common area = Area of sector AOB + Area of sector  AO'B – Area of square
+=  π 4 π 4  +  π 4 π 4  -1  =  π 2 − 1",,,False,,https://iimking.com/cat-previous-year-questions-circle/,94bbb1c5-9c24-4b13-8891-f2c45d93b6bf
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2005,,,,,,Geometry - Circles,,,"Four points A, B, C, and D lie on a straight line in the X-Y plane, such that AB = BC = CD, and the length of AB is 1 meter. An ant at A wants to reach a sugar particle at D. But there are insect repellents kept at points B and C. The ant would not go within one meter of any insect repellent. The minimum distance in meters the ant must traverse to reach the sugar particle is:",3√2,1 + π,4π/3,5,mcq,,,B,ai_unverified,Ant walks 1m-radius arcs around B and C: half circle each quarter... classic CAT 2001 answer 1+pi,not_checked,"We have a standard expression for time of descent when a body is released from rest. t=√2hg ..........(i)
+Let AB=h⟹AC=2h and AD=3h
+Time for descent up to B from A: tAB=√2hg
+Time for descent up to C from A: tAC=√4hg=√2hg×√2
+Time for descent up to D from A: tAD=√6hg=√2hg×√3
+Time taken along BC: tBC=tAC−tAB=√2hg×(√2−1)
+Time taken along CD: tCD=tAD−tAC=√2hg×(√3−√2)
+Hence the ratio tAB:tBC:tCD=1:√2−1:√3−√2",,,False,,https://iimking.com/cat-previous-year-questions-circle/,bf83f4cd-d2fc-4ca0-aa62-0b0ec94fe8de
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2005,,,,,,Geometry - Circles,,,"In the following figure, the diameter of the circle is 3 cm. AB and MN are two diameters such that MN is perpendicular to AB. In addition, CG is perpendicular to AB such that AE:EB = 1:2, and DF is perpendicular to MN such that NL:LM = 1:2. The length of DH in cm is:",2√2 - 1,(2√2 - 1)/2,(3√2 - 1)/2,(2√2 - 1)/3,mcq,B,(2√2 - 1)/2,,,,not_checked,"AB=MN=3cmAEEB=NLLM=12AB=3cm⇒AE+EB⇒3AE+2AE=3AE=1cmNL=1cmOA=AB2=1.5cmON=MN2=1.5cmOE=OA−AE=1.5−1=0.5cmOL=ON−LN=0.5cmQuatrilateral EOLG is squareHL=EO=0.5cmJoin ODΔOLD,OD2=OL2+DL2DL2=(1.5)2−(0.5)2DL=√2cmDH=DL−HL−√2−12=2√2−12",,,True,https://iimking.com/wp-content/uploads/2023/10/1.png,https://iimking.com/cat-previous-year-questions-circle/,def172f4-9d0e-4bcc-b365-f6aa4f0354f8
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2004,,,,,,Geometry - Circles,,,"In the adjoining figure, I and II are circles with centers P and Q respectively. The two circles touch each other and have a common tangent that touches them at points R and S respectively. This common tangent meets the line joining P and Q at O. The diameters of I and II are in the ratio 4 : 3. It is also known that the length of PO is 28 cm.
+What is the ratio of the length of PQ to that of QO?",1 : 4,1 : 3,3 : 8,3 : 4,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,"Let the radius of circles I and II be 4R and 3R respectively. Triangles PRO and QSO are similar. PR/QS = 4/3. Therefore, PO/QO = PR/QS => PO/QO = 4/3 => 28/(28-7R) = 4/3 => 4-R = 3 => R = 1 Ra
+1 Radius of smaller circle = 3R = 3…",,,True,https://iimking.com/wp-content/uploads/2023/10/2.png,https://iimking.com/cat-previous-year-questions-circle/,6190d797-3e37-4f1c-92b5-1359339a7871
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2004,,,,,,Geometry - Circles,,,"In the adjoining figure, I and II are circles with centers P and Q respectively. The two circles touch each other and have a common tangent that touches them at points R and S respectively. This common tangent meets the line joining P and Q at O. The diameters of I and II are in the ratio 4 : 3. It is also known that the length of PO is 28 cm.
+The length of SO is .",8√3 cm,10√3 cm,12√3 cm,14√3 cm,mcq,C,12√3 cm,,,,not_checked,Hence answer C),,,False,,https://iimking.com/cat-previous-year-questions-circle/,844ea11f-56e0-4065-88c6-862877b4ac35
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2004,,,,,,Geometry - Circles,,,"In the adjoining figure, I and II are circles with centers P and Q respectively. The two circles touch each other and have a common tangent that touches them at points R and S respectively. This common tangent meets the line joining P and Q at O. The diameters of I and II are in the ratio 4 : 3. It is also known that the length of PO is 28 cm.
+What is the radius of the circle II?",2 cm,3 cm,4 cm,5 cm,mcq,,,B,ai_unverified,"OP:OQ=4:3 => OQ=21, PQ=7=7k => r2=3",not_checked,"Let's denote the radius of circle I as r and the radius of circle II as R. Since the diameters of I and II are in the ratio 4:3, we can write:
+r = 4k
+R = 3k
+Now, we know that the length of PO is 28 cm, and PO is the sum of the radii of both circles. So, we can write:
+PO = r + R
+28 = 4k + 3k
+28 = 7k
+Now, we can solve for k:
+k = 28 / 7
+k = 4
+Now that we have found the value of k, we can determine the radius of circle II (R):
+R = 3k
+R = 3 * 4
+R = 12 cm
+So, the radius of circle II is 12 cm.",,,False,,https://iimking.com/cat-previous-year-questions-circle/,98e52580-5dc8-49e3-b523-97b51fdf642c
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"In the given figure, EADF is a rectangle, and ABC is a triangle whose vertices lie on the sides of EADF, and AE = 22, BE = 6, CF = 16, and BF = 2. Find the length of the line joining the mid-points of the sides AB and BC.",4√2,5,3.5,None of these,mcq,B,5,,,,not_checked,"The correct option is B 5
+Option (b)
+EF = AD = 8
+(EADF is a rectangle)
+CD = (22 – 16) = 6
+So in the right angled triangle ADC, AD = 8 and CD = 6.
+Therefore AC = 10
+Therefore length of the line joining the mid – points of
+AB and BC = 12 (10) = 5",,,True,https://iimking.com/wp-content/uploads/2023/11/image-70.png,https://iimking.com/cat-previous-year-questions-polygon/,08bdf9ea-02b9-4fd3-a824-2d983be1261f
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Let S1 be a square of side a. Another square S2 is formed by joining the mid-points of the sides of S1. The same process is applied to S2 to form yet another square S3, and so on. If A1, A2, A3… are the areas and P1, P2, P3… are the perimeters of S1, S2, S3… respectively, then the ratio P1+P2+P3+…..",2(1+√2)a,2(2−√2)a,2(2+√2)a,2(1+2√2)a,mcq,C,2(2+√2)a,,,,not_checked,"he correct option is C
+Option (c)
+From the given condition in question
+Area and perimeter of S_1 = a^2, 4a
+Area and perimeter of S_2 =
+Area and perimeter of S_3 =
+Area and perimeter of S_4
+These are 2 infinite GPs , which can be solved as follows
+Required ratio
+=
+=
+=  ^→   ^→",,,True,https://tnl-content-images.s3-us-west-2.amazonaws.com/xml-migration/9505b49d06d6fefc0223de4b799f043122-7-11-3-rid22.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid24.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid25.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid26.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid27.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid28.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid29.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid30.png | https://search-static.byjusweb.com/question-images/byjus/xml-migration/2ddaea124285e97090b0bff5d1d7d5a322-7-11-3-rid31.png,https://iimking.com/cat-previous-year-questions-polygon/,0abfa802-f0db-47f2-97a5-6ff7f801ecf4
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,Let ABCDEF be a regular hexagon. What is the ratio of the area of the triangle ACE to that of the hexagon ABCDEF?,1/3,1/2,2/3,5/6,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/10/45.png | https://iimking.com/wp-content/uploads/2023/11/image-57.png | https://iimking.com/wp-content/uploads/2023/11/image-58.png | https://iimking.com/wp-content/uploads/2023/11/image-59.png | https://iimking.com/wp-content/uploads/2023/11/image-60.png,https://iimking.com/cat-previous-year-questions-polygon/,16276601-b0ea-48e5-8eab-03727e4bc000
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,Which of the following values of x do not satisfy the inequality (x² – 3x + 2 > 0) at all?,1 ≤ x ≤ 2,–1 ≥ x ≥ –2,0 ≤ x ≤ 2,0 ≥ x ≥ –2,mcq,A,1 ≤ x ≤ 2,,,,not_checked,"The correct option is A 1 ≤ x ≤ 2
+Given inequality is x^2 − 3x + 2 > 0
+⇒x^2 − 2x − x + 2 > 0
+⇒x (x−2) − 1(x−2) > 0
+⇒(x−2)(x−1)>0⇒x<1,x>2",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,1bdca064-a82b-4db5-aa0d-d897a69cd9df
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"The figure below shows two concentric circles with centre O. PQRS is a square inscribed in the outer circle. It also circumscribes the inner circle touching it at points B, C, D, and A. What is the ratio of the perimeter of the outer circle to that of polygon ABCD?",π/4,3π/2,π/2,π,mcq,C,π/2,,,,not_checked,"The correct option is C π/2
+Let the diagonal of PQRS be 2r.
+Therefore, side =r√2.
+Now, ABCD is a square. And side r√2/2×√2 = r.
+Perimeter of ABCD = 4r.
+Circumference of bigger circle = 2 πr.
+Therefore, required ratio π/2",,,True,https://iimking.com/wp-content/uploads/2023/11/image-63.png,https://iimking.com/cat-previous-year-questions-polygon/,1e46552f-e459-4dcf-9176-b24beaeff138
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"PQRS is a square. SR is a tangent (at point S) to the circle with center O, and TR = OS. Then the ratio of the area of the circle to the area of the square is",π/3,11/7,3π,7/11,mcq,A,π/3,,,,not_checked,"It is given that PQRS is a square and SR is tangent to circle with centre O.
+Lets assume the radius of circle be r.
+Now, we know that TR − OS = r
+Therefore, OR = OT + TR = r + r = 2r
+ΔOSR is right angled triangle,
+Hence, OR^2−OS^2=SR^2
+⇒SR^2=4r^2−r^2
+=3r^2⇒SR=√3r
+Now the side of square is √3r
+Area of square, As=√3r^2
+⇒As=3s^2
+Area of circle: Ac=πr^2
+Area of circle / Area of square= πr^2 / 3r^2 = π / 3",,,True,https://iimking.com/wp-content/uploads/2023/11/image-74.png,https://iimking.com/cat-previous-year-questions-polygon/,27aa7e83-57d1-4eb2-96fa-8c9819c961bf
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Let the consecutive vertices of a square S be A, B, C & D. Let E, F & G be the mid-points of the sides AB, BC & AD, respectively, of the square. Then the ratio of the area of the quadrilateral EFDG to that of the square S is nearest to",1/2,1/3,1/4,1/8,mcq,A,1/2,,,,not_checked,"(A)
+Quadrilateral EFDG can be split into 2 triangles i.e. GEF and GDF Area of triangle GEF is half the area of AGFB [since all the 4 triangles in AGFB are similar] Area of triangle GDF is half the area of GDCF Hence, the area of quadrilateral EGDF is half the area of square ABCD.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-75.png,https://iimking.com/cat-previous-year-questions-polygon/,2dffddc1-9b67-4fc5-8cc8-bd74e26024ff
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"In the above diagram, ABCD is a rectangle with AE = EF = FB. What is the ratio of the area of the triangle CEF and that of the rectangle?",1/6,1/8,1/9,None of these,mcq,B,1/8,,,,not_checked,"The correct option is B 1:6
+Option (B) is correct option.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,47ff8c99-a1c6-4f80-bfbd-2a47df6d8702
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Based on the figure below, what is the value of x, if y = 10?",0,11,12,None of these,mcq,B,11,,,,not_checked,"The correct option is B 11
+AB2=(x+4)2+(x−3)2=2x2+25+2x
+Since solving this equation is very difficult. So, it is a better approach (Time saving) to put the values given in the options and try to find out a solution.
+Hence, trying out we get 11 as the value of x .",,,True,https://search-static.byjusweb.com/question-images/byjus/infinitestudent-images/ckeditor_assets/pictures/73515/content_3.jpg,https://iimking.com/cat-previous-year-questions-polygon/,4db7e9d8-49d2-4e3c-8b5b-4971e0381cb2
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,AB > AF > BF ; CD > DE > CE ; and BF = 6√5 cm. Which is the closest pair of points among all the six given points?,"B, F","C, D","A, B",None of these,mcq,D,None of these,,,,not_checked,"The correct option is D None of these
+(C, E) is the closest pair.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,4ef97a56-6f9e-420d-b753-f5f1dae7edab
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,The figure shows the rectangle ABCD with a semicircle and a circle inscribed inside it as shown. What is the ratio of the area of the circle to that of the semicircle?,(√2 − 1)² : 1,2(√2 − 1)² : 1,(√2 − 1)² : 2,None of these,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-72.png,https://iimking.com/cat-previous-year-questions-polygon/,75f97108-dfce-451a-88fc-78ddda6291c9
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Four friends start from four towns, which are at the four corners of an imaginary rectangle. They meet at a point that falls inside the rectangle after traveling distances of 40, 50, and 60 meters. The maximum distance that the fourth could have traveled is (approximately)…",67 meters,52 meters,22.5 meters,Cannot be determined,mcq,,,A,ai_unverified,British flag: d^2=50^2+60^2-40^2=4500 => 67 (max when 40 is opposite),not_checked,"The maximum distance covered by D would be 70 meters. This is because the four friends are starting from the corners of a rectangle, and the distance between two opposite corners of a rectangle is the maximum distance that can be covered by one of the friends. Since the distances covered by A, B, and C are 40, 50, and 60 meters respectively, the distance between two opposite corners must be greater than those distances. The only remaining option is 70 meters.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,7fbc7150-ed93-402a-9e17-2ade11d59846
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Data is provided followed by two statements – I and II – both resulting in a value, say I and II.
+As your answer, Type 1, if I > II. Type 2, if I < II. Type 3, if I = II. Type 4, if nothing can be said.
+In ΔACD, AD = AC, and ∠C = 2∠E. The distance between parallel lines AB and CD is h. Then
+I. Area of parallelogram ABCD
+II. Area of ΔADE",,,,,tita,,Type 1,,,,not_checked,"To determine the relationship between the areas of parallelogram ABCD and triangle ΔADE, we need to consider the information provided in the question.
+Given:
+In ΔACD, AD = AC, and ∠C = 2∠E.
+
+The distance between parallel lines AB and CD is h.
+Now, let's analyze the statements:
+I. Area of parallelogram ABCD
+To calculate the area of a parallelogram, we can use the formula: Area = base × height. In this case, the base is CD, and the height is h (the distance between AB and CD). So, the area of parallelogram ABCD is CD × h.
+II. Area of ΔADE
+To calculate the area of a triangle, we can use the formula: Area = (1/2) × base × height. In this case, the base is AD, and the height is h (the distance between AB and CD). So, the area of triangle ΔADE is (1/2) × AD × h.
+Now, let's compare I and II:
+I. Area of parallelogram ABCD = CD × h
+II. Area of ΔADE = (1/2) × AD × h
+We are given that AD = AC, and in ΔACD, ∠C = 2∠E. This means that ΔACD is isosceles, and ∠C is twice the size of ∠E. In an isosceles triangle, the height bisects the base, so we can say that CD = 2h and AD = h.
+Now, we can calculate the areas:
+I. Area of parallelogram ABCD = CD × h = 2h × h = 2h^2
+II. Area of ΔADE = (1/2) × AD × h = (1/2) × h × h = (1/2)h^2
+Now, let's compare I and II:
+I. 2h^2
+II. (1/2)h^2
+2h^2 > (1/2)h^2
+So, I is greater than II.
+Therefore, the answer is Type 1: I > II.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,8be7cb9a-420a-4b49-b5f7-9b4b3333a25d
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"There is a circle of radius 1 cm. Each member of a sequence of regular polygons S1(n), n = 4, 5, 6, …, where n is the number of sides of the polygon, is circumscribing the circle, and each member of the sequence of regular polygons S2(n), n = 4, 5, 6, …, where n is the number of sides of the polygon, is inscribed in the circle. Let L1(n) and L2(n) denote the perimeters of the corresponding polygons of S1(n) and S2(n), then {L1(13)+2π} is",Greater than π and less than 1,Greater than 1 and less than 2,Greater than 2,Less than π,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,"The perimeter of the circle is equal to 2π
+The perimeter of the polygon inscribing the circle is always greater than the perimeter of the circle => L1(13) > 2π.
+The perimeter of the polygon inscribed in the circle is always less than the perimeter of the circle => L2(13) < 2 π.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-64.png,https://iimking.com/cat-previous-year-questions-polygon/,a286ef05-acfe-4236-9c6d-2bad6c2954d5
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Directions: Each question is followed by two statements I and II. Mark:
+1. if the question can be answered by any one of the statements alone but cannot be answered by using the other statement alone.
+2. if the question can be answered by using either statement alone.
+3. if the question can be answered by using both the statements together but cannot be answered by using either statement alone.
+4. if the question cannot be answered even by using both the statements together.
+Mr. X starts walking northwards along the boundary of a field from point A on the boundary, and after walking for 150 m reaches B, and then walks westwards, again along the boundary, for another 100 m when he reaches C. What is the maximum distance between any pair of points on the boundary of the field?
+I. The field is rectangular in shape.
+II. The field is a polygon, with C as one of its vertices and A as the mid-point of a side.",1,2,3,4,mcq,C,3,,,,not_checked,"Using only statement A, we know that the shape of th field is rectangle. We cannot infer anything else with only statement A.
+Using only statement B, we know that C is one of the vertices, but we do not know how many vertices exist.
+Using both A and B, we know that the field is rectangular in shape and the length and breadth are 300 metres and 100 metres.
+Hence, we can find the value of the diagonal which is the maximum distance between any two points inside the field. Hence, option C is the answer.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,a29278cb-ae1c-4df3-8c5b-2902db926bd3
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"The adjoining figure shows a set of concentric squares. If the diagonal of the innermost square is 2 units, and if the distance between the corresponding corners of any two successive squares is 1 unit, find the difference between
+the areas of the eighth and the seventh squares, counting from the innermost square.",10√2 sq. units,30 sq. units,35√2 sq. units,None of these,mcq,B,30 sq. units,,,,not_checked,"Since the diagonal of innermost square =2 units,
+∴ Diagonal of the 7th square =2×7=14 units
+⇒ Diagonal of the 8th square =2×8=16 units
+Area of 8th square − Area of 7th square=1 / 2× 16^2 − 1 / 2×14^2
+=128−98=30 sq. units.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,a75f3137-01b5-49ed-80b7-7fb7aa047e91
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"The length of the circumference of a circle equals the perimeter of a triangle of equal sides, and also the perimeter of a square. The areas covered by the circle, triangle, and square are c, t, and s, respectively. Then,",s > t > c,c > t > s,c > s > t,s > c > t,mcq,C,c > s > t,,,,not_checked,"Circumference of circle = 2π (radius)
+Perimeter of Equilateral Triangle = 3 ( side)
+Perimeter of square = 4 ( side)
+Area of circle =  π (radius)²
+Area of Equilateral Triangle = √3 ( side)² / 4
+Area of square =   ( side)²
+Step 1:
+Assume that Circumference of circle = Perimeter of Triangle = Perimeter of Square = P
+Step 2
+Find radius of circle from circumference and then find area of the circle
+2π (radius) = P
+=> radius  = P/2 π
+Area of circle =  π (radius)²
+= π (P/2 π)²
+= P²/4π
+≈ 0.08P
+Step 3:
+Find side of Equilateral triangle from perimeter and then find area of the triangle
+3 (side) = P
+=> side  = P/3
+Area of Triangle = √3 ( side)² / 4
+= √3 ( P/3)² / 4
+= √3 P² / 36
+≈ 0.05P
+Step 4:
+Find side of square from perimeter and then find area of the square
+4 (side) = P
+=> side  = P/4
+Area of Square =   ( side)²
+=  ( P/4)²
+=  P² / 16
+= 0.0625P
+Hence 0.05P < 0.0625P < 0.08P
+Hence Triangle covered  the least area and Circle Covered maximum area",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,b2772f9c-7b20-4d9f-9b74-3cf600124237
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"In a rectangle, the difference between the sum of the adjacent sides and the diagonal is half the length of the longer side. What is the ratio of the shorter to the longer side?",,,,,tita,,3:4,,,,not_checked,"Let the length of the longer side of the rectangle be ′b′
+The length of the short side of the rectangle be ′a′
+As the right angled triangle obeys the Pythagoras theorem, hence the length of the diagonal can be obtained.
+The length of the diagonal of the rectangle is √a^2+b^2
+The sum of the adjacent sides of the rectangle = a+b
+Given that the difference between the sum of adjacent sides and the diagonal is half the length of longer side, is given below:
+The ratio of the shorter to the longer side is 3:4.",,,True,https://iimking.com/wp-content/uploads/2023/11/image-68.png | https://iimking.com/wp-content/uploads/2023/11/image-69.png,https://iimking.com/cat-previous-year-questions-polygon/,c07c5967-cd4d-4dc0-a542-c0e0e50c12bf
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,ABCD is a rhombus with the diagonals AC and BD intersecting at the origin on the x-y plane. The equation of the straight line AD is x + y = 1. What is the equation of BC?,x + y = –1,x – y = –1,x + y = 1,None of the above,mcq,A,x + y = –1,,,,not_checked,"The equation of line BC, x+y=-1
+A is correct option.
+Step-by-step explanation:
+ABCD is a rhombus with diagonals AC and BD intersecting at the origin on x-y plane.
+Please see the attachment for figure.
+In the given, ABCD is rhombus. Side AD and BC are opposite sides of rhombus.
+Opposite sides of rhombus are parallel. AD || BC
+If the equation of line AD, x+y=1
+As we know the slope of parallel line is equal.
+Equation of line BC, x+y=k
+Intersection of diagonals AC and BD at original. Coordinate A and C should be equi-distance from origin because diagonals bisect each other.
+Therefore, Coordinate C: (0,-1)  and Coordinate B: (-1,0)
+Hence, The equation of line BC, x+y=-1",,,True,https://iimking.com/wp-content/uploads/2023/11/image-62.png,https://iimking.com/cat-previous-year-questions-polygon/,d55ec76e-c2c5-4013-8817-e4f2196b9a0a
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"A rectangle PRSU is divided into two smaller rectangles PQTU and QRST by the line TQ. PQ = 10 cm, QR = 5 cm, and RS = 10 cm. Points A, B, F are within rectangle PQTU, and points C, D, E are within the rectangle QRST. The closest pair of points among the pairs (A, C), (A, D), (A, E), (F, C), (F, D), (F, E), (B, C), (B, D), (B, E) are 10√3 cm apart.","The closest pair of points among the six given points cannot be (F, C)",Distance between A and B is greater than that between F and C.,"The closest pair of points among the six given points is (C, D), (D, E), or (C, E).",None of the above,mcq,A,"The closest pair of points among the six given points cannot be (F, C)",,,,not_checked,"The correct option is A The closest pair of points among the six given points cannot be (F, C).
+The diagonal length of a rectancle PUSR = 5√13 = 18 (approx)
+Among given eight pairs the shortest distance = 10√3
+So, the six points A, B, F, C, D and E are near corner of rectangle PUSR.
+So, (F,C) cannot be the shortest distance.",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,df089ab9-04ae-4869-b03a-a3fb1ecf1bcf
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"A square tin sheet of side 12 inches is converted into a box with open top in the following steps – the sheet is placed horizontally. Then, equal size squares, each of side x inches, are cut from the four corners of the sheet. Finally, the four resulting sides are bent vertically upwards in the shape of box. If x is an integer, then what value of x maximizes the volume of the box?",3,4,1,2,mcq,D,2,,,,not_checked,"Volume of box = (12 - 2x) * (12 -2x) *  x
+= 144x - 48 + 4
+differentiate => 144 - 96x + 12
+solve for x
+=> 144 -96x + 12 = 0
+=>  - 8x + 12 = 0
+=> x = 6, 2
+put x in volume x = 6 , v = 0
+x = 2, v = 128 ans",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,ea92b32a-b7db-4b8e-b347-b956eaf14580
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"If ABCD is a square and BCE is an equilateral triangle, what is the measure of ∠DEC?",15°,30°,20°,45°,mcq,A,15°,,,,not_checked,"The correct option is A 15^∘
+Given ABCD is a square and BCE is an equilateral triangle
+∠BCD=90^∘ [Interior angle of a square]
+∠BCE=60^∘ [Interior angle of an equilateral triangle]
+∴∠DCE=90^∘+60^∘=150^∘
+BC = CD (Sides of a square) ------ (1)
+BC = CE (Sides of an equilateral triangle) ------ (2).
+From (1) and (2),
+DC = EC
+In ΔDCE, DC = CE
+⇒∠CDE=∠CED --------- (3) [Angles opposite equal sides]
+Also, In ΔDCE
+∠DCE+∠CDE+∠CED=180^∘ --------- (4) [Angle sum property]
+From (3) and (4),
+2∠DEC+∠CED=180^∘
+⇒2∠DEC=180∘−150^∘=30^∘
+∠DEC=1 / 2(30^∘) = 15^∘",,,True,https://iimking.com/wp-content/uploads/2023/11/image-71.png,https://iimking.com/cat-previous-year-questions-polygon/,eded26a8-fa10-4925-bc4a-b3368f564fac
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"In the following figure, the area of the isosceles right triangle ABE is 7 sq.cm. If EC = 3BE, then the area of rectangle ABCD (in sq. cm.) is",64,82,26,56,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-61.png,https://iimking.com/cat-previous-year-questions-polygon/,f8063de3-af9d-4463-b62e-6b78bdc17543
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Four identical coins are placed in a square. For each coin, the ratio of area to circumference is the same as the ratio of circumference to area. Then find the area of the square that is not covered by the coins.",16(π - 1),16(8 - π),16(4 - π),16(4 − π),mcq,C,16(4 - π),,,,not_checked,"The correct option is C 16(4−π)
+Let r be the radius of each circle.
+Then by given condition,
+πR^2 / 2πR = 2πR / πR^2
+⇒R^2=4⇒R=2
+∴ The length of the side of the square = 8
+Now the area covered by 4 coins =4×π(2)^2=16π
+and area of the square = 64
+∴ The area which is not covered by the coins
+= 64 - 16π = 16 (4 - π)",,,True,https://iimking.com/wp-content/uploads/2023/11/image-66.png,https://iimking.com/cat-previous-year-questions-polygon/,fb5abd12-7412-47c8-ae7f-69bffb541a1b
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,Consider the five points comprising the vertices of a square and the intersection point of its diagonals. How many triangles can be formed using these points?,4,6,8,10,mcq,C,8,,,,not_checked,"o form a triangle, 3 points out of 5 can be chosen in 5C3=10 ways.
+But out of these, the three points lying on the 2 diagonals will be collinear.
+∴ 10−2=8 triangles can be formed",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,fd56ae6e-6a5e-4c4b-b88a-0558405bf02e
+,,Geo Mensu,Geometry,topic_map,Geometry,True,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"In the adjoining figure, AC + AB = 5AD, and AC – AD = 8. Then the area of the rectangle ABCD is",36,50,60,Cannot be answered,mcq,C,60,,,,not_checked,"AB = x = CD,
+AD = y = BC,
+AC = z
+By Pythagoras theorem
+z^2 = x^2 + y^2 -------(1)
+Given
+AC + AB = 5AD
+2 + x = 5y
+z = 5y−x -------(2)
+squaring on both sides
+z^2 = 25y^2 + x^2 − 10xy  --------(3)
+Subtract equation (1) from (3)
+we get z^2 = 25y^2 + x^2−10xy − z^2= −y^2 − x^2 − 0
+24y^2 − 10xy = 0
+x / y = 12 / 5
+AC−AD = 8
+z − y =8
+z=8+5
+z=13
+Area = 12 × 5 = 60 sq.units",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,ffb12ea1-86c0-4c90-916a-d95fb8d468a8

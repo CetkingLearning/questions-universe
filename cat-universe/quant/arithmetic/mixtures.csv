@@ -1,0 +1,278 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S2-QA-011,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2025,2,,CAT Medium,Moderate,Breakup G Strategy,Mixtures + Equations,,,"A mixture of coffee and cocoa, 16% of which is coffee, costs Rs 240 per kg. Another mixture of coffee and cocoa, of which 36% is coffee, costs Rs 320 per kg. If a new mixture of coffee and cocoa costs Rs 376 per kg, then the quantity, in kg, of coffee in 10 kg of this new mixture is",6,2.5,5,4,mcq,C,5,,,,match,"Correct Answer (c) 5 kg
+Let the price of coffee be C and that of cocoa be K (per kg).
+From the first mixture (16% coffee, price 240):
+0.16C + 0.84K = 240
+From the second mixture (36% coffee, price 320):
+0.36C + 0.64K = 320
+Multiply both equations by 100:
+16C + 84K = 24000
+36C + 64K = 32000
+Solve these two:
+From the pair, you get K = 176 and then C = 576.
+Now for the new mixture with price 376 and coffee fraction x:
+576x + 176(1 − x) = 376→576x + 176 − 176x = 376 → 400x = 200 → x = 0.5
+So the new mixture has 50% coffee.
+Therefore, in 10 kg of the new mixture, coffee = 0.5 × 10 = 5 kg.
+Shortcut method:
+Coffee % goes from 16% → 36%, Price goes from 240 → 320
+So an increase of 20% coffee increases price by 80 ⇒ Each 1% coffee increases price by 4.
+Now compare old price to new price  → Price of new mixture = 376   →  Difference from cheaper mixture = 376 − 240 = 136
+So increase in coffee %  = 136 ÷ 4 = 34%
+Hence coffee % in new mixture = 16% + 34% = 50%
+So in 10 kg, coffee = 50% of 10 = 5 kg",,Breakup,False,,https://iimking.com/arithmetic-2-cat-2025-slot-2-quant/,9cec41e8-fd9b-486a-9a09-5ccc82bd7f8a
+CAT-2025-S2-QA-036,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2025,2,,CAT Medium,Moderate,Breakup G Strategy,Mixtures + Equations,Breakup G Strategy | Mixtures + Equations | Moderate,,"A mixture of coffee and cocoa, 16% of which is coffee, costs Rs 240 per kg. Another mixture of coffee and cocoa, of which 36% is coffee, costs Rs 320 per kg. If a new mixture of coffee and cocoa costs Rs 376 per kg, then the quantity, in kg, of coffee in 10 kg of this new mixture is",6,2.5,5,4,mcq,C,5,,,,match,"Correct Answer (c) 5 kg
+Let the price of coffee be C and that of cocoa be K (per kg).
+From the first mixture (16% coffee, price 240):
+0.16C + 0.84K = 240
+From the second mixture (36% coffee, price 320):
+0.36C + 0.64K = 320
+Multiply both equations by 100:
+16C + 84K = 24000
+36C + 64K = 32000
+Solve these two:
+From the pair, you get K = 176 and then C = 576.
+Now for the new mixture with price 376 and coffee fraction x:
+576x + 176(1 − x) = 376→576x + 176 − 176x = 376 → 400x = 200 → x = 0.5
+So the new mixture has 50% coffee.
+Therefore, in 10 kg of the new mixture, coffee = 0.5 × 10 = 5 kg.
+Shortcut method:
+Coffee % goes from 16% → 36%, Price goes from 240 → 320
+So an increase of 20% coffee increases price by 80 ⇒ Each 1% coffee increases price by 4.
+Now compare old price to new price → Price of new mixture = 376 → Difference from cheaper mixture = 376 − 240 = 136
+So increase in coffee % = 136 ÷ 4 = 34%
+Hence coffee % in new mixture = 16% + 34% = 50%
+So in 10 kg, coffee = 50% of 10 = 5 kg",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,201b2e88-cd8b-40c4-a359-f17553c4bf5b
+CAT-2025-S2-QA-057,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2025,2,,CAT Medium,Moderate,Breakup G Strategy,Mixtures + Equations,,,"A mixture of coffee and cocoa, 16% of which is coffee, costs Rs 240 per kg. Another mixture of coffee and cocoa, of which 36% is coffee, costs Rs 320 per kg. If a new mixture of coffee and cocoa costs Rs 376 per kg, then the quantity, in kg, of coffee in 10 kg of this new mixture is",6,2.5,5,4,mcq,C,5,,,,match,"Let the price of coffee be C and that of cocoa be K (per kg).
+From the first mixture (16% coffee, price 240):
+0.16C + 0.84K = 240
+From the second mixture (36% coffee, price 320):
+0.36C + 0.64K = 320
+Multiply both equations by 100:
+16C + 84K = 24000
+36C + 64K = 32000
+Solve these two:
+From the pair, you get K = 176 and then C = 576.
+Now for the new mixture with price 376 and coffee fraction x:
+576x + 176(1 − x) = 376→576x + 176 − 176x = 376 → 400x = 200 → x = 0.5
+So the new mixture has 50% coffee.
+Therefore, in 10 kg of the new mixture, coffee = 0.5 × 10 = 5 kg.
+Shortcut method:
+Coffee % goes from 16% → 36%, Price goes from 240 → 320
+So an increase of 20% coffee increases price by 80 ⇒ Each 1% coffee increases price by 4.
+Now compare old price to new price  → Price of new mixture = 376   →  Difference from cheaper mixture = 376 − 240 = 136
+So increase in coffee %  = 136 ÷ 4 = 34%
+Hence coffee % in new mixture = 16% + 34% = 50%
+So in 10 kg, coffee = 50% of 10 = 5 kg",,Breakup,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,5a42137a-ec9a-432f-94a6-75b65013a022
+CAT-2025-S3-QA-039,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Mixture + Equation,,,"Vessels A and B contain 60 litres of alcohol and 60 litres of water, respectively. A certain volume is taken out from A and poured into B. After mixing well, an equal volume is taken out from B and poured into A. If the ratio of alcohol and water in A is 15:4, then the volume, in litres, initially taken out from A, is [TITA]",,,,,tita,,16,,,,match,"Given vessels A and B contain 60 litres of alcohol and 60 litres of water, respectively.
+Assum x litres of alcohol from A is transferred to B
+After the first transfer (from A to B):
+Vessel A: 60 - x liters of alcohol, 60 liters of water.
+Vessel B: x liters of alcohol, 60 liters of water.
+After the second transfer (from B to A):
+Alcohol transferred back to A: x * (x / (60 + x)).
+Water transferred to A: x * (60 / (60 + x)).
+Alcohol and water in A after the second transfer:
+Alcohol in A: 60 - x + (x² / (60 + x)).
+Water in A: 60 + (60x / (60 + x)).
+Set up ratio equation (15:4):
+(60 - x + (x² / (60 + x))) / (60 + (60x / (60 + x))) = 15 / 4
+Solve for x: x = 16 liters",,Breakup,False,,https://iimking.com/arithmetic-2-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,fa33ee93-119e-426c-956d-a2e21f71a2d8
+CAT-2025-S3-QA-056,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,Mixture + Equation,Breakup G Strategy : Mixture + Equation | Moderate,,"Vessels A and B contain 60 litres of alcohol and 60 litres of water, respectively. A certain volume is taken out from A and poured into B. After mixing well, an equal volume is taken out from B and poured into A. If the ratio of alcohol and water in A is 15:4, then the volume, in litres, initially taken out from A, is [TITA]",,,,,tita,,16,,,,match,"Correct Answer: 16
+Given vessels A and B contain 60 litres of alcohol and 60 litres of water, respectively.
+Assum x litres of alcohol from A is transferred to B
+After the first transfer (from A to B):
+Vessel A: 60 - x liters of alcohol, 60 liters of water.
+Vessel B: x liters of alcohol, 60 liters of water.
+After the second transfer (from B to A):
+Alcohol transferred back to A: x * (x / (60 + x)).
+Water transferred to A: x * (60 / (60 + x)).
+Alcohol and water in A after the second transfer:
+Alcohol in A: 60 - x + (x² / (60 + x)).
+Water in A: 60 + (60x / (60 + x)).
+Set up ratio equation (15:4):
+(60 - x + (x² / (60 + x))) / (60 + (60x / (60 + x))) = 15 / 4
+Solve for x: x = 16 liters",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,ffd92bd9-3b66-4a37-aac0-2e7af2b7f7c0
+CAT-2024-S1-QA-005,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2024,1,,,,,Mixtures,Interactive Quiz: Milk and Water Ratio,,"A glass is filled with milk. Two-thirds of its content is poured out and replaced with water.
+If this process of pouring out two-thirds the content and replacing with water is repeated
+three more times, then the final ratio of milk to water in the glass is:",1 : 27,1 : 81,1 : 26,1 : 80,mcq,D,1 : 80,,,,match,"Step 1: Concept of Dilution and Replacement
+When a fraction of a liquid is replaced repeatedly, the amount of the original liquid
+left after \( n \) repetitions is given by:
+\[
+\text{Remaining Fraction of Original Liquid} = \left( 1 - \text{Fraction Replaced} \right)^n
+\]
+Step 2: Apply the formula
+Fraction replaced = \( \frac{2}{3} \), so the remaining fraction = \( 1 - \frac{2}{3} = \frac{1}{3} \).
+Number of repetitions, \( n = 4 \).
+\[
+\text{Fraction of Milk Remaining} = \left( \frac{1}{3} \right)^4 = \frac{1}{81}
+\]
+Step 3: Fraction of water
+Since the total content in the glass is always 1:
+\[
+\text{Fraction of Water} = 1 - \text{Fraction of Milk Remaining} = 1 - \frac{1}{81} = \frac{80}{81}
+\]
+Step 4: Final Ratio of Milk to Water
+\[
+\text{Milk : Water} = \frac{1}{81} : \frac{80}{81} = 1 : 80
+\]
+Final Answer:
+The final ratio of milk to water is \( \boxed{1 : 80} \).",,,False,,https://iimking.com/cat-2024-actual-questions-mixtures/,d2eb22ce-6e13-447d-be3d-be575a93a95c
+CAT-2024-S3-QA-013,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2024,3,,,,Breakup G Strategy,Milk and Water,Milk and Water,,"A 300 litre container. Water x litres, rest milk. Remove 2x litres solution, refill water. Final solution 72% milk. Find x.",,,,,tita,,30,,,,match,"Set up quadratic: x² - 450x +12600=0
+x=30",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,a8dad313-eafd-49c9-87ee-6af432963487
+CAT-2023-S1-QA-024,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2023,1,2,,,,,,,"A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing it with cocoa powder. The same process is repeated to form mixture Q. If the ratio of coffee and cocoa in the mixture Q is 16:9, then the ratio of cocoa in mixture P to that in mixture Q is:",4/9,5/9,2/3,3/4,mcq,B,5/9,,,,match,"Using the given information and performing the replacements, the final ratio of cocoa in mixture P to Q is 5/9.",,,False,,https://iimking.com/cat-2023-quant-arithmetic-actual-questions/,cd2cbb3b-14a5-4346-a03a-d73e58d33911
+CAT-2023-S2-QA-030,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2023,2,,,,,,,,"A container has 40 liters of milk. Then, 4 liters are removed from the container and replaced with 4 liters of water. This process of replacing 4 liters of the liquid in the container with an equal volume of water is continued repeatedly. The smallest number of times of doing this process, after which the volume of milk in the container becomes less than that of water, is",,,,,tita,,7,,,,match,Ans 7,,,False,,https://iimking.com/mixtures-actual-questions-in-cat-2023-slot-2/,12ec63d6-ba0d-4a7f-a063-bd89288b4914
+CAT-2022-S1-QA-013,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2022,1,,,,,Mixture & Alligation,,,"A mixture contains lemon juice and sugar syrup in equal proportion. If a new mixture is created by adding this mixture and sugar syrup in the ratio 1 : 3, then the ratio of lemon juice and sugar syrup in the new mixture is",1 : 6,1 : 4,1 : 5,1 : 7,mcq,D,1 : 7,,,,match,"The concentration of sugar syrup in the mixture is 1/2
+. (The mixture has equal quantities of lemon juice and sugar syrup)
+The concentration of sugar syrup in pure sugar syrup is 1.
+The initial mixture and the pure sugar syrup are mixed in a ratio 1 : 3 to form a new mixture.
+That is 2 items with sugar syrup concentrations 1/2
+and 1 respectively are mixed in the ratio 1 : 3 to form a new mixture. So the concentration of sugar syrup in such a new mixture is 1/2∗1+1∗3/1+3=3.5/4=7/8
+The concentration of sugar syrup in the new mixture is 7/8
+, that means out of 8 units of volume of the new mixture, 7 units are sugar syrup and the remaining one unit is lemon juice.
+Hence the ratio of lemon juice to sugar syrup in the new mixture is 1 : 7
+Alternate Approach:
+We are mixing a mixture of lemon juice and sugar syrup with pure sugar syrup in a ratio 1 : 3.
+That means, we mix 1 unit of this mixture with 3 units of pure sugar syrup.
+This is equivalent to mixing 2 units of the mixture with 6 units of pure sugar syrup.
+Mixture alternate approach 1
+But what do we know about this mixture of lemon juice and sugar syrup?
+We know that it contains equal quantities of lemon juice and sugar syrup. This means we can consider two units of this mixture as a unit each of lemon juice and sugar syrup.
+Mixture alternate approach 2
+Clearly, the new mixture contains one unit of lemon juice and 7 units of sugar syrup.
+Hence, the ratio of lemon juice to sugar syrup in the new mixture is 1 : 7",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,bf946834-f5aa-46da-a7e1-dcd1b361fa90
+CAT-2022-S2-QA-009,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2022,2,,,,,Mixture & Alligation,,,"There are two containers of the same volume, first container half-filled with sugar syrup and the second container half-filled with milk. Half the content of the first container is transferred to the second container, and then the half of this mixture is transferred back to the first container. Next, half the content of the first container is transferred back to the second container. Then the ratio of sugar syrup and milk in the second container is",5 : 6,5 : 4,6 : 5,4 : 5,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,"Let the half volume of each container be 80 cc.
+Why 80cc though? Why not some other value?
+We know that the process of shifting half volumes is happening three times overall.
+(1/2)3=1/8(1/2)3=1/8.
+So it would be wise to assume the initial volume to be some multiple of 8 so that we don’t have to deal with fractions later on.",,,True,https://iimking.com/wp-content/uploads/2023/10/mix2.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,d7825b1e-64fa-456d-8262-8f5e423aa5c2
+CAT-2022-S3-QA-005,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2022,3,,,,,Mixture & Alligation,,,"A glass contains 500 cc of milk and a cup contains 500 cc of water. From the glass, 150 cc of milk is transferred to the cup and mixed thoroughly. Next, 150 cc of this mixture is transferred from the cup to the glass. Now, the amount of water in the glass and the amount of milk in the cup are in the ratio",3 : 10,10 : 3,1 : 1,10 : 13,mcq,C,1 : 1,,,,match,in the glass and the amount of milk in the cup will be in the ratio 1 : 1.,,,True,https://iimking.com/wp-content/uploads/2023/10/mix.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,3f4986ef-0958-4faa-bd93-b499acd3fcc8
+CAT-2021-S1-QA-016,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2021,1,,,,,Mixture & Alligation,,,"The strength of an indigo solution in percentage is equal to the amount of indigo in grams per 100 cc of water. Two 800 cc bottles are filled with indigo solutions of strengths 33% and 17%, respectively. A part of the solution from the first bottle is thrown away and replaced by an equal volume of the solution from the second bottle. If the strength of the indigo solution in the first bottle has now changed to 21% then the volume, in cc, of the solution left in the second bottle is",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/mixssssss.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,2c3ae825-f9ac-4f3d-be5e-d0805dd1aaa0
+CAT-2021-S2-QA-015,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2021,2,,,,,Mixture & Alligation,,,"From a container filled with milk, 9 litres of milk are drawn and replaced with water. Next, from the same container, 9 litres are drawn and again replaced with water. If the volumes of milk and water in the container are now in the ratio of 16 : 9, then the capacity of the container, in litres, is",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/mixxxxxxxxx.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,4f4faccb-4634-4e56-b835-2f8a25d92230
+CAT-2021-S3-QA-014,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2021,3,,,,,Mixture & Alligation,,,"If a certain weight of an alloy of silver and copper is mixed with 3 kg of pure silver, the resulting alloy will have 90% silver by weight. If the same weight of the initial alloy is mixed with 2 kg of another alloy which has 90% silver by weight, the resulting alloy will have 84% silver by weight. Then, the weight of the initial alloy, in kg, is",3,2.5,4,3.5,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/misssssss.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,fc4f56a0-05ad-4fc8-b3a7-731db48db3f1
+CAT-2021-S3-QA-016,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2021,3,,,,,Average,,,"If a certain weight of an alloy of silver and copper is mixed with 3 kg of pure silver, the resulting alloy will have 90% silver by weight. If the same weight of the initial alloy is mixed with 2 kg of another alloy which has 90% silver by weight, the resulting alloy will have 84% silver by weight. Then, the weight of the initial alloy, in kg, is",3,2.5,4,3.5,mcq,A,3,,,,match,"Let the weight of Silver in the initial Alloy be Ag kgs
+and the weight of Copper in the initial Alloy be Cu kgs
+So, the total weight of the initial Alloy = (Ag + Cu) kgs
+This Alloy is mixed with 3kgs of Pure Silver to form a new mixture.
+Total weight of the mixture = (Ag + Cu) + 3 kgs
+Weight of Silver in the mixture = (Ag + 3) kgs
+Since this mixture contains 90% Silver,
+Weight of Silver  Total weight of the Mixture =90100
+Ag+3/Ag+Cu+3=90/100
+— (1)
+The initial Alloy is mixed with 2kgs of another alloy having 90% Silver by weight.
+Total weight of the mixture = (Ag + Cu) + 2 kgs
+Weight of Silver in the mixture = (Ag + 90% of 2) kgs = (Ag + 1.8) kgs
+Since this mixture contains 84% Silver,
+Weight of Silver  /Total weight of the Mixture =84/100
+Ag+1.8/Ag+Cu+2=84/100
+— (2)
+Simplifying (1)
+Ag+3/Ag+Cu+3=90/100
+Ag+3/Ag+Cu+3=9/10
+10(Ag + 3) = 9(Ag + Cu + 3)
+Ag + 3 = 9 Cu
+Ag = 9 Cu - 3
+Simplifying (1)
+Ag+1.8/Ag+Cu+2=84/100
+Ag+1.8/Ag+Cu+2=21/25
+25(Ag + 1.8) = 21(Ag + Cu + 2)
+4 Ag + 3 = 21 Cu
+Ag = 21Cu−3/4
+9 Cu - 3 = 21Cu−3/4
+4(9 Cu - 3) = 21 Cu - 3
+36 Cu - 12 = 21 Cu - 3
+15 Cu = 9
+Cu = 9/15= 3/5
+= 0.6
+Ag = 9 Cu - 3 = 9(0.6) - 3 = 5.4 - 3 = 2.4
+The weight of the initial Alloy = Ag + Cu = 2.4 + 0.6 = 3 kgs",,,False,,https://iimking.com/cat-previous-year-questions-average/,fc0d39bb-cafd-43e8-a6b5-0a10823a1b9f
+CAT-2020-S1-QA-017,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2020,1,,,,,Mixture & Alligation,,,"An alloy is prepared by mixing metals A, B, C in the proportion 3 : 4 : 7 by volume. Weights of the same volume of metals A, B, C are in the ratio 5 : 2 : 6. In 130 kg of the alloy, the weight, in kg, of the metal C is",84,48,96,70,mcq,A,84,,,,match,"A : B : C
+3 : 4 : 7 (Volume)
+5 : 2 : 6 (1L of each)
+15 : 8 : 42 (Total)
+Totally 65kg
+Asked in 130 kg C’s weightage
+In 65 kg C’s weight = 42kg, So in 130kg C’s weightage = 84kg",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,4c29610f-2d76-4c7e-a64e-859780c2aa0c
+CAT-2020-S3-QA-018,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2020,3,,,,,Mixture & Alligation,,,"Two alcohol solutions, A and B, are mixed in the proportion 1:3 by volume. The volume of the mixture is then doubled by adding solution A such that the resulting mixture has 72% alcohol. If solution A has 60% alcohol, then the percentage of alcohol in solution B is",94%,92%,90%,89%,mcq,B,92%,,,,match,"We are told that the A and B are mixed in the ratio 1:3
+That means, one unit of A is mixed with 3 units of B
+Observe that the total Volume is 1 + 3 = 4 units.
+The volume is doubled by adding A, this implies that a quantity of 4 units of A is added to the existing 4units of the mixture.
+The total volume will now be 4 + 4 = 8 units.
+Of which three units are B and the rest 5 units are A. Hence the ratio of A to B in the final mixture is 5 : 3
+We are told that A has a concentration of 60% alcohol and the final mixture has a concentration of 72% alcohol
+Therefore, 5×ConcentrationofA+3×ConcentrationofB/5+3 = 72
+5×60+3×ConcentrationofB/5+3 = 72
+300+3×ConcentrationofB/8 = 72
+300 + 3 × Concentration of B = 576
+3 × Concentration of B = 576 - 300 = 276
+3 × Concentration of B = 276 = 270 + 6
+3 × Concentration of B = 270 + 6
+Concentration of B = 270/3
++ 6/3
+Concentration of B = 90 + 2 = 92.",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,7b551944-40a2-41a2-8d3c-dfe72e133c51
+CAT-2019-S1-QA-023,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2019,1,,,,,Mixture & Alligation,,,"A chemist mixes two liquids 1 and 2. One litre of liquid 1 weighs 1 kg and one litre of liquid 2 weighs 800 gm. If half litre of the mixture weighs 480 gm, then the percentage of liquid 1 in the mixture, in terms of volume, is",70,85,80,75,mcq,C,80,,,,match,"In Liquid L1 - 1L = 1000 grams
+So, 1000 mL = 1000 grams
+1 mL = 1 gram
+x mL = x grams
+In Liquid L2 - 1L = 800 grams
+1000 mL = 800 grams
+1mL = 0.8 grams
+(500-x) mL = (500-x) x 0.8 grams
+Total mass = x + 400 - 0.8x = 480 grams
+0.2x = 80 grams
+x = 400 grams
+Therefore, Liquid 1 has 400 mL and Liquid 2 has 500 - 400 = 100 Ml
+Therefore, Percentage of Liquid 1 = x 100 = 80%",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,250eed13-8edc-4a5d-b7da-88cf803541ff
+CAT-2019-S2-QA-020,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2019,2,,,,,Mixture & Alligation,,,"The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. Each of three vessels A, B, C contains 500 ml of salt solution of strengths 10%, 22%, and 32%, respectively. Now, 100 ml of the solution in vessel A is transferred to vessel B. Then, 100 ml of the solution in vessel B is transferred to vessel C. Finally, 100 ml of the solution in vessel C is transferred to vessel A. The strength, in percentage, of the resulting solution in vessel A is",15,12,13,14,mcq,D,14,,,,match,"Vessels A, B and C contains salt solution of strengths 10%, 22% and 32% respectively
+It is also given that the amount of salt solution = 500 ml
+So, Vessels A, B and C contains salt of 50 grams, 110 grams and 160 grams respectively
+100 ml of Solution is transferred from A to B:
+A would have 400 ml, B would have 600 ml of solution
+Amount salt from A which is transferred to B = = 10 grams
+So, Total salt in B = 110 + 10 = 120 grams (After first transfer)
+Total salt in A = 40 grams (After first transfer)
+Now, 100 ml from Vessel B is transferred to Vessel C
+So similarly, of salt would transfer from B to C
+Total Salt in B = 120 - 20 = 100 grams (After second transfer)
+Total Salt in C = 160 + 20 = 180 grams (After second transfer)
+Now, 100 ml from Vessel C is transferred to Vessel A
+So similarly, of salt would transfer from C to A
+Total Salt in C = 160 - 30 = 130 grams (After third transfer)
+Total Salt in A = 40 + 30 = 70 grams (After third transfer)
+So, Vessel A contains 70 grams Salt in 500 ml solution
+Strength of Salt Solution in Vessel A = 14%",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,deb665d5-1ac8-4c2b-9eca-f04e196e90cb
+CAT-2018-S1-QA-026,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2018,1,,,,,Mixture & Alligation,,,"A trader sells 10 litres of a mixture of paints A and B, where the amount of B in the mixture does not exceed that of A. The cost of paint A per litre is Rs. 8 more than that of paint B. If the trader sells the entire mixture for Rs. 264 and makes a profit of 10%, then the highest possible cost of paint B, in Rs. per litre, is",20,16,22,26,mcq,A,20,,,,match,"B cannot be assigned any more than this as the amount of B would become more than A
+Example: Let us assign B to be Rs. 21 and A to be Rs. 29 which would result in a ratio of 3:5 where B amounts more than A, which doesn’t satisfy the condition
+Max possible cost of Paint B = Rs. 20 per litre",,,True,https://iimking.com/wp-content/uploads/2023/10/aligation-14-1-1.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,8f777a73-eb1e-45c5-8113-43762fc7560d
+CAT-2018-S2-QA-023,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2018,2,,,,,Mixture & Alligation,,,"A 20% ethanol solution is mixed with another ethanol solution, say, S of unknown concentration in the proportion 1:3 by volume. This mixture is then mixed with an equal volume of 20% ethanol solution. If the resultant mixture is a 31.25% ethanol solution, then the unknown concentration of S is",50%,55%,48%,52%,mcq,A,50%,,,,match,"Here to find the solution, do the second thing first and then go to the first thing
+The second one is mixed in the ratio 1 : 1 so that the final thing should be bang in the middle
+The question is ""A 20% ethanol solution is mixed with another ethanol solution, say, S of unknown concentration in the proportion 1:3 by volume. This mixture is then mixed with an equal volume of 20% ethanol solution. If the resultant mixture is a 31.25% ethanol solution, then the unknown concentration of S is""
+Hence, the answer is 50%",,,True,https://iimking.com/wp-content/uploads/2023/10/mixture-aligations.1.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,4a262251-4157-4afe-8498-7e8e179ec96c
+CAT-2018-S2-QA-025,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2018,2,,,,,Mixture & Alligation,,,A jar contains a mixture of 175 ml water and 700 ml alcohol. Gopal takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now,25.4,20.5,30.3,35.2,mcq,D,35.2,,,,match,"Given that a jar contains a mixture of 175 ml water and 700 ml alcohol.
+It is given that 10% of the mixture is removed and it is substituted by water of the same amount and the process is repeated once again
+Now we have to find the percentage of water in the mixture.
+Since the mixture is removed and substituted with water, we can deal with alcohol and the second step we can find how much amount of alcohol is retained and not about how much amount of alcohol is removed
+As 10% of alcohol is removed, 90% of alcohol is retained
+So alcohol remaining = 700 × 90% × 90%
+⟹ 700 × 0.9 × 0.9 = 567
+We totally have 875 ml overall mixture and of this 567 ml is alcohol.
+Remaining 875 – 567 = 308 is the amount of water.
+We have to find the percentage of water in the mixture i.e. 308875
+Approximately 308 is 30% of 1000 so by this we know that 308 is more than 30%
+Hence 35.2% is the percentage of water in the given mixture.
+The question is ""A jar contains a mixture of 175 ml water and 700 ml alcohol. Gopal takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now""
+Hence, the answer is 35.2%",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,0de464eb-2bd6-422f-9635-e517f3c23ff7
+CAT-2018-S2-QA-030,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2018,2,,,,,Mixture & Alligation,,,"The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. If three salt solutions A, B, C are mixed in the proportion 1 : 2 : 3, then the resulting solution has strength 20%. If instead the proportion is 3 : 2 : 1, then the resulting solution has strength 30%. A fourth solution, D, is produced by mixing B and C in the ratio 2 : 7. The ratio of the strength of D to that of A is",3 : 10,1 : 3,2 : 5,1 : 4,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/10/aligationssssssss.jpg,https://iimking.com/cat-previous-year-questions-mixture-alligation/,e0345b92-45f2-48e5-bd5e-ab3de1a09e05
+CAT-2017-S2-QA-028,sequence,Arithmetic,Mixtures,ai_split,Averages & Mixtures,True,2017,2,,,,,Mixture & Alligation,,,Bottle 1 contains a mixture of milk and water in 7 : 2 ratio and Bottle 2 contains a mixture of milk and water in 9 : 4 ratio. In what ratio of volumes should the liquids in Bottle 1 and Bottle 2 be combined to obtain a mixture of milk and water in 3 : 1 ratio?,27 : 14,27 : 13,27 : 16,27 : 18,mcq,B,27 : 13,,,,match,"Bottle 1 and bottle 2 contains mixture of milk and water in the ratio 7 : 2 and 9 : 4 respectively.
+We have to find by what ratio bottle 1 and Bottle 2 should be combined to obtain a mixture of milk and water in the ratio 3 : 1
+For this we can consider milk to the whole mixture or else water to the whole mixture.
+⟹ 7/9 - 3/4
+Taking LCM we get 28−27/36 = 1/36
+⟹ 3/4- 9/13
+LCM is 52 so 39−36/52 = 3/52
+3/52 : 1/36
+⟹ 3/52
+× 36./1
+= 27 : 13
+Bottle 1 and 2 are mixed in the ratio 27 : 13",,,False,,https://iimking.com/cat-previous-year-questions-mixture-alligation/,b9dd1306-21ea-4cc6-8fe7-0a5dbfcd024e

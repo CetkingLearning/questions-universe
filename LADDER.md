@@ -20,4 +20,4 @@ Every real CAT question in `cat-universe/` is the top of a ladder. Rajat builds 
 7. Output goes in `chapters/<chapter>/questions.csv` on a branch → pull request. Ravneet and Claude audit; nothing is live until Ravneet approves.
 
 ## Starting chapter
-**Equations** — CAT questions are in `cat-universe/quant/linear-and-simple-equations.csv` and `cat-universe/quant/quadratic-and-polynomials.csv`. Begin with `is_actual_cat = true` rows, most recent year first.
+**Equations** — CAT questions are in `cat-universe/quant/algebra/equations.csv` and `cat-universe/quant/algebra/quadratic-equations.csv`. Begin with `is_actual_cat = true` rows, most recent year first.

@@ -1,0 +1,186 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S1-QA-031,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2025,1,,CAT Easy,Easy,Vedic Patterns G Strategy,Concepts of Logs DPAC,,,The number of distinct integers n for which log_(1/4) of (n² − 7n + 11) > 0 is _____.,,,,,tita,,0,,,,match,"log_(1/4) of (n² − 7n + 11) > 0 is _____.
+Using DPAC Strategy: Cycle
+n² − 7n + 11 < (1/4)^0 → n² − 7n + 11 < 1
+Now we need values of n which satisfy 0 < n² − 7n + 11 < 1
+Compute E(n) = n² − 7n + 11 for nearby integers:
+n = 1 → E = 5 (not in (0,1))
+n = 2 → E = 1 (equals 1, excluded)
+n = 3 → E = −1 (negative, excluded)
+n = 4 → E = −1 (negative, excluded)
+n = 5 → E = 1 (equals 1, excluded)
+For n ≤ 0 or n ≥ 6, E ≥ 5 (too large).
+Therefore no integer n satisfies 0 < E < 1. Final answer: 0.
+Note: Official OG says answer is 2. Which is challenged by Cetking",,Vedic Pattern,False,,https://iimking.com/modern-maths-cat-2025-slot-1-actual-questions/,dc9d039d-3782-448d-8e3b-6197dc0f1d7c
+CAT-2025-S2-QA-012,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2025,2,,CAT Hard,Hard,,Concepts of Logs + Maxima Minima,,,"If log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is",36,48,96,24,mcq,B,48,,,,match,"Correct Answer B (48)
+Given log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4 x, y, z > 0
+Step 1: Convert all logs to the same base (base 8)
+64 = 8²; 512 = 8³
+Convert log₆₄(x²) to base 8: log₆₄(x²) = (1/2) log₈(x²) = log₈x
+Convert 3 log₅₁₂(√(y)z) to base 8: 3 log₅₁₂(√(y)z) = 3 (1/3) log₈(√(y)z) = log₈(√(y)z)
+Substitute the converted terms back into the original equation: log₈x + log₈(√y) + log₈(√(y)z) = 4 Combine the logarithmic terms using the property logₐA + logₐB = logₐ(AB): log₈(x ⋅ √y ⋅ √y ⋅ z) = 4 => log₈(xyz) = 4
+Convert the logarithmic equation to an exponential equation: xyz = 8⁴ => xyz = 4096
+Apply the Arithmetic Mean - Geometric Mean (AM-GM) inequality.
+For positive real numbers x, y, and z, the minimum value of their sum occurs when x = y = z.
+(x + y + z) / 3 ≥ ³√(xyz)
+Substitute the value of xyz: (x + y + z) / 3 ≥ ³√(4096)
+Calculate the cube root: Since 16³ = 4096, we have: (x + y + z) / 3 ≥ 16
+Solve for the minimum value of (x + y + z): x + y + z ≥ 3 × 16 x + y + z ≥ 48",,,False,,https://iimking.com/modern-maths-cat-2025-slot-2-actual-questions/,6ab1e6a1-4515-4da4-899d-75c24f7e8617
+CAT-2025-S2-QA-050,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2025,2,,CAT Hard,Hard,,Concepts of Logs + Maxima Minima,Concepts of Logs + Maxima Minima | Hard,,"If log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is",36,48,96,24,mcq,B,48,,,,match,"Correct Answer B (48)
+Given log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4 x, y, z > 0
+Step 1: Convert all logs to the same base (base 8)
+64 = 8²; 512 = 8³
+Convert log₆₄(x²) to base 8: log₆₄(x²) = (1/2) log₈(x²) = log₈x
+Convert 3 log₅₁₂(√(y)z) to base 8: 3 log₅₁₂(√(y)z) = 3 (1/3) log₈(√(y)z) = log₈(√(y)z)
+Substitute the converted terms back into the original equation: log₈x + log₈(√y) + log₈(√(y)z) = 4 Combine the logarithmic terms using the property logₐA + logₐB = logₐ(AB): log₈(x ⋅ √y ⋅ √y ⋅ z) = 4 => log₈(xyz) = 4
+Convert the logarithmic equation to an exponential equation: xyz = 8⁴ => xyz = 4096
+Apply the Arithmetic Mean - Geometric Mean (AM-GM) inequality.
+For positive real numbers x, y, and z, the minimum value of their sum occurs when x = y = z.
+(x + y + z) / 3 ≥ ³√(xyz)
+Substitute the value of xyz: (x + y + z) / 3 ≥ ³√(4096)
+Calculate the cube root: Since 16³ = 4096, we have: (x + y + z) / 3 ≥ 16
+Solve for the minimum value of (x + y + z): x + y + z ≥ 3 × 16 x + y + z ≥ 48",,,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,299ff032-b718-4ae3-8166-88db5a2ec4f7
+CAT-2025-S2-QA-071,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2025,2,,CAT Hard,Hard,,Concepts of Logs + Maxima Minima,,,"If log₆₄(x²) + log₈(√y) + 3 log₅₁₂(√(y)z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is",36,48,96,24,mcq,B,48,,,,match,"Given log₆₄(x²) + log₈(√y) + 3 log₅₁₂( √(y)z) = 4 x, y, z > 0
+Step 1: Convert all logs to the same base (base 8)
+64 = 8²; 512 = 8³
+Convert log₆₄(x²) to base 8: log₆₄(x²) = (1/2) log₈(x²) = log₈x
+Convert 3 log₅₁₂(√(y)z) to base 8: 3 log₅₁₂(√(y)z) = 3 (1/3) log₈(√(y)z) = log₈(√(y)z)
+Substitute the converted terms back into the original equation: log₈x + log₈(√y) + log₈(√(y)z) = 4 Combine the logarithmic terms using the property logₐA + logₐB = logₐ(AB): log₈(x ⋅ √y ⋅ √y ⋅ z) = 4 => log₈(xyz) = 4
+Convert the logarithmic equation to an exponential equation: xyz = 8⁴ => xyz = 4096
+Apply the Arithmetic Mean - Geometric Mean (AM-GM) inequality.
+For positive real numbers x, y, and z, the minimum value of their sum occurs when x = y = z.
+(x + y + z) / 3 ≥ ³√(xyz)
+Substitute the value of xyz: (x + y + z) / 3 ≥ ³√(4096)
+Calculate the cube root: Since 16³ = 4096, we have: (x + y + z) / 3 ≥ 16
+Solve for the minimum value of (x + y + z): x + y + z ≥ 3 × 16 x + y + z ≥ 48",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,214256c3-a318-4f45-80c4-aa168f2eee0c
+CAT-2025-S3-QA-022,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,DPAC Logarithm + Equations,Breakup G Strategy | DPAC Logarithm + Equations | Hard,,"The sum of all possible real values of x for which
+log_(x-3)(x² - 9) = log_(x-3)(x + 1) + 2 is :",√33,-3,(3+√33)/2,3,mcq,C,(3+√33)/2,,,,match,"log_(x-3)((x²−9)/(x+1)) = 2
+By definition of log :
+(x²−9)/(x+1) = (x−3)²
+Now equating :
+(x²−9)/(x+1) = x²−6x+9
+x²−9 = (x²−6x+9)(x+1)
+Solve the cubic equation:
+x³−6x²+3x+18 = 0
+Factor the cubic equation:
+(x−3)(x²−3x−6) = 0
+Solve x²−3x−6 = 0 using the quadratic formula:
+x = (3 ± √33)/2
+Sum of solutions:
+Sum = (3 + √33)/2
+Option 3 is the answer",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,83f8c08d-4a30-4353-9e61-0303fcdfbf10
+CAT-2025-S3-QA-035,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2025,3,,CAT Hard,Hard,Logic Lens G Strategy,DPAC Logarithm + Equations,,,"The sum of all possible real values of x for which
+log_x-3(x² - 9) = log_x-3(x + 1) + 2 is :",√33,-3,(3+√33)/2,3,mcq,,,C,ai_unverified,x^2-9=(x+1)(x-3)^2 => x^2-3x-6=0; only x=(3+sqrt33)/2 >3 valid,missing_found,,,Breakup,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,366b0cfe-d1e0-4ac4-b6b3-09b2f59a4464
+CAT-2023-S1-QA-004,paper,Algebra,Logarithms,ai_split,Algebra,True,2023,1,4,,,,,,,"If x and y are positive real numbers such that log_x(x² + 12) = 4 and 3log_y(x) = 1, then x + y equals:",8,9,10,11,mcq,C,10,,,,match,"For given log equations and conditions, x + y equals 10.",,,False,,https://iimking.com/cat-2023-quant-algebra-actual-questions-slot-1/,ad2ad7f0-c28b-4043-80e3-1369af32c05e
+CAT-2023-S1-QA-019,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2023,1,1,,,,Logarithms & Exponents,,,,20,68,10,11,mcq,C,10,,,,match,Ans- 10,,,True,https://iimking.com/wp-content/uploads/2023/12/q1.jpg,https://iimking.com/cat-2023-quant-logarithms-exponents-actual-questions/,a3be4354-fb36-4ee3-abea-06654a7d0e6e
+CAT-2023-S2-QA-028,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2023,2,,,,,Logarithm,,,,,,,,,,7,,,,match,7,,,True,https://iimking.com/wp-content/uploads/2023/12/image-9-1024x46.png,https://iimking.com/logarithm-actual-question-in-cat-2023-slot-2/,40ac158d-815e-4c25-a063-3f3656fb4999
+CAT-2023-S3-QA-021,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2023,3,,,,,,,,,,,,,,,1,,,,not_found,,,,True,https://iimking.com/wp-content/uploads/2023/12/image-20.png | https://iimking.com/wp-content/uploads/2023/12/image-21.png,https://iimking.com/log-quants-cat-2023-slot-3/,1bea605c-3420-4f47-b07c-3adfd03732de
+CAT-2022-S2-QA-001,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2022,2,1,,,,Logarithms and Exponents,,,"The number of distinct integer values of n satisfying 4−log^2n/3−log4^n<0, is",,,,,tita,,47,,,,match,"4−logn23−logn4<04−log^2n/3−log4<0
+If logn2=4;n=24=16log2^n=4=2^4=16;
+If logn4=3;n=4^3=64log4^n=3=4^3=64;
+For any value of n < 16, the numerator is positive. For any value of n > 16, it is negative.
+For any value of n < 64, the denominator is positive. For any value of n > 64, it is negative.
+For a fraction to be negative, the numerator and the denominator must be of opposite signs.
+In this case, n should be between 16 and 64.
+The number of values that n can take = 63 - 16 = 47.",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,6c94abf3-f626-44ee-adc7-0f00b223f231
+CAT-2021-S2-QA-003,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2021,2,3,,,,Logarithms and Exponents,,,If log2^[3 + log3^{4 + log4^(x - 1)}] - 2 = 0 then 4x equals,,,,,tita,,5,,,,match,"log_2[3+log_3{4+log_4(x-1)}]- 2= 0
+log_2[3 + log_3{4 + log_4(x - 1)}] = 2
+3 + log_3{4 + log_4(x - 1)} = 4 ( ∵ log_aN = x ⇒ N = a^x )
+log_3{4 + log_4(x - 1)} = 1
+4 + log_4(x - 1) = 3
+log_4(x - 1) = -1
+x - 1 = 1414
+4x = 5",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,74d3f24d-c1f5-4a09-9e39-8b48dee02483
+CAT-2021-S3-QA-002,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2021,3,2,,,,Logarithms and Exponents,,,"For a real number a, if log15^a+log32^a/(log15a)(log32a)=
+= 4 then a must lie in the range",4 < a < 5,3 < a < 4,a > 5,2 < a < 3,mcq,A,4 < a < 5,,,,match,"loga15^a+loga32^a/(loga15^a×loga32^a)
+= 4
+1/loga32^a+1/loga15^15
+= 4
+log32^a+log15^a
+= 4
+log(32×15)^a
+= 4
+a^4 = 32 × 15 = 480
+We know that, 44 = 256 and 54 = 625
+256 < 480 < 625
+44 < a4 < 54
+4 < a < 5",,,False,,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,1ecabe8b-35be-44b8-b097-ca8476606008
+,,Algebra,Logarithms,ai_split,Algebra,True,2021,,,,,X Maro G Strategy,,,,"For a real number a, if log15a+log32a/(log15a)(log32a)=
+= 4 then a must lie in the range",4 < a < 5,3 < a < 4,a > 5,2 < a < 3,mcq,A,4 < a < 5,,,,match,"loga15+loga32/(loga15×loga32)
+= 4
+1loga32+1loga15
+= 4
+log32a+log15a
+= 4
+log(32×15)a
+= 4
+a^4 = 32 × 15 = 480
+We know that, 4^4 = 256 and 5^4 = 625
+256 < 480 < 625
+4^4 < a^4 < 5^4
+4 < a < 5.",,X Maro,False,,https://iimking.com/cat-2021-quant-x-maro-g-strategy/,5c7db7d6-6a34-4f83-916c-a14afc380102
+,,Algebra,Logarithms,ai_split,Algebra,True,2021,,,,,X Maro G Strategy,,,,If log_2[3 + log_3{4 + log_4(x - 1)}] - 2 = 0 then 4x equals TITA,,,,,tita,,5,,,,match,"log_2[3+log_3{4+log_4(x-1)}]- 2= 0
+log_2[3 + log_3{4 + log_4(x - 1)}] = 2
+3 + log_3{4 + log_4(x - 1)} = 4 ( ∵ log_aN = x ⇒ N = a^x )
+log_3{4 + log_4(x - 1)} = 1
+4 + log_4(x - 1) = 3
+log_4(x - 1) = -1
+x - 1 = 1414
+4x = 5",,X Maro,False,,https://iimking.com/cat-2021-quant-x-maro-g-strategy/,5f10d254-4c30-4fa5-84bd-6f763c6dcb84
+CAT-2020-S1-QA-008,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2020,1,8,,,,Logarithms and Exponents,,,"If log4^5 = (log4^y) (log6^ √5), then y equals",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-q9999.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,a283658a-d8c3-4543-a715-a34ccd4eed3a
+CAT-2020-S1-QA-010,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2020,1,10,,,,Logarithms and Exponents,,,"If y is a negative number such that 2^y^2log3^5 = 5^log2^3, then y equals",log2 (1/3),log2 (1/5),−log2 (1/3),−log2 (1/5),mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log100000.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,a3c62c01-4a7a-4996-a469-cba1344dc1a1
+CAT-2020-S3-QA-005,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2020,3,5,,,,Logarithms and Exponents,,,"Let loga^30 = A, loga^53 = -B and log2^a = 1/3, then log3^a equals",2/A+B−3,A+B−3/2,A+B/2 - 3,2/A+B - 3,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-q7.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,c4836f85-3dce-4c79-9a44-2ff934665f24
+CAT-2020-S3-QA-006,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2020,3,6,,,,Logarithms and Exponents,,,"2×4×8×16/(log2^4)^2(log4^8)^3(log8^16)^4
+equals",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-question-8.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,3b12e989-a3ba-485d-9572-f3916f3ddc2a
+CAT-2020-S3-QA-007,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2020,3,7,,,,Logarithms and Exponents,,,"If a,b,c are non-zero and 14^a = 36^b = 84^c, then 6b(1/c - 1/a) is equal to",,,,,tita,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-questions89.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,2932272e-2d11-42c0-9ddc-76ddb30101a1
+,,Algebra,Logarithms,ai_split,Algebra,True,2020,,2,,,X Maro G Strategy,,,,"If log4 5 = (log4 y) (log6 √5), then y equals",,,,,tita,,36,,,,match,"log4^5 = log4^y × log6^√5
+log4^5 ÷ log4^y = logy^5 = log6^√5 = k (Let’s assume this as k)
+6^k = √5 ---> On squaring this {6^k}^2 = 5
+log4^5 = log4^y × log6√5
+logy^5 = log6√5
+logy^5 = k
+y^k = 5
+{6^k}^2 = y^k = 5
+{6^2}k = y^k
+36^k = y^k
+y = 36.
+The question is ""If log4^ 5 = (log4 ^y) (log6^ √5), then y equals""
+Hence, the answer is, "" 36""",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,f4491e31-3c9d-4550-b0cd-e7dc49eb9841
+,,Algebra,Logarithms,ai_split,Algebra,True,2020,,9,,,X Maro G Strategy,,,,"If y is a negative number such that 2y2log35 = 5log23, then y equals",log2 (1/3),log2 (1/5),−log2 (1/3),−log2 (1/5),mcq,A,log2 (1/3),,,,match,"Taking log on both sides
+y^2log35 log 2 = log23 log 5
+Choosing the base to be 3
+y^2 log35 log3^2 = log23 log35
+y^2 log32 = log23 (Cancelling log35)
+y^2 = log23/log32
+y^2 = (log23)^2
+y = - log23 (Given y is a negative number)
+y = log2^1/3",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,fc8550ab-3270-445b-9bc0-8baa374b7a3e
+,,Algebra,Logarithms,ai_split,Algebra,True,2020,,11,,,X Maro G Strategy,,,,"The value of loga^a/b + logb^b/a, for 1 < a ≤ b cannot be equal to",-0.5,1,0,-1,mcq,B,1,,,,match,"logaa – logab
+logbb – logba
+Adding
+2 – { loga^b + 1/ logb^a} [loga^b + 1/ logb^a] = [x + 1/x] and value is ≥ 2 and ≤ -2
+From the options,
+x + 1/x ≠ 1
+for 1 < a ≤ b cannot be equal to""
+Hence, the answer is, ""1""
+",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,482a0644-e8ab-49ac-8a6d-bcb852147b54
+,,Algebra,Logarithms,ai_split,Algebra,True,2020,,18,,,X Maro G Strategy,,,,"Let loga30  = A, loga5/3= -B and log2a = 1/3, then log3a equals",2/A+B−3,A+B−3/2,A+B/2 -3,2/A+B -3,mcq,,,A,ai_unverified,"log_a2=3; log_a3+log_a5=A-3, log_a5-log_a3=-B => log_a3=(A+B-3)/2 => log_3 a=2/(A+B-3)",missing_found,"Let loga30 = A be equation 1.
+And  loga5/3 = -B be equation 2.
+We are told that log2a = ⅓
+Log2a = ⅓   implies loga2= 3
+Dividing eqn(1) and eq(2) by loga2 = 3
+We get; log230 = A/3 and
+log25/3= -B/3
+log230= log2(5 × 3 × 2)
+A/3= log25 + log23 + log22
+A/3=  log25 + log23 + 1, let's call this equation 3
+log25/3= log25 - log23
+-B/3=  log25 - log23, let's call this equation 4
+Solving equations 3 and 4 we get, log23 = A+B−3/6
+Dividing this by  log2a = 1/3 we get,
+Log2a= A+B−3/2
+log2a=A+B−3/2 implies  loga2=  2/A+B−3.",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,ef97e498-bf93-4fe3-af8c-539cbcffbb17
+CAT-2019-S1-QA-012,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2019,1,12,,,,Logarithms and Exponents,,,"If (5.55)^x = (0.555)^y = 1000, then the value of 1/x - 1/y is",1,1/3,2/3,3,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-1222222.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,23066a4c-db08-43c4-821b-3646bd066ba2
+CAT-2019-S1-QA-029,sequence,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2019,1,13,,,,Logarithms and Exponents,,,"Let x and y be positive real numbers such that log^5(x + y) + log^5(x - y) = 3, and log^2y - log^2x = 1 - log2^3. Then xy equals",25,150,250,100,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/Question-13333.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,e5717125-0f61-4e9c-9a73-a925d1fb7aed
+CAT-2018-S2-QA-014,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2018,2,14,,,,Logarithms and Exponents,,,"If p^3 = q^4 = r^5 = s^6, then the value of logs^ (pqr) is equal to",24/5,1,47/10,16/5,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/questionsssssslogsss.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,f5ca09c6-ad56-424e-b66f-5f6abc4d674a
+CAT-2017-S2-QA-015,paper,Algebra,Logarithms,ai_split,Logarithms & Indices,True,2017,2,15,,,,Logarithms and Exponents,,,"If x is a real number such that log3^5 = log5^(2 + x), then which of the following is true?",0 < x < 3,23 < x < 30,x > 30,3 < x < 23,mcq,,,,needs_image,Blank key and question has images; not attempted,missing_found,,,,True,https://iimking.com/wp-content/uploads/2023/11/log-155555.jpg,https://iimking.com/cat-previous-year-questions-logarithms-and-exponents/,c821597b-8db7-4bd6-9b48-4c87477efe8c

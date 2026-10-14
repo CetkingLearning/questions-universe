@@ -1,0 +1,254 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S2-QA-022,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Averages + Linear Equation,,,"The average number of copies of a book sold per day by a shopkeeper is 60 in the initial seven days and 63 in the initial eight days, after the book launch. On the ninth day, she sells 11 copies less than the eighth day, and the average number of copies sold per day from second day to ninth day becomes 66. The number of copies sold on the first day of the book launch is ____",,,,,tita,,49,,,,match,"First 7 days avg = 60 ⇒ total = 7 × 60 = 420
+First 8 days avg = 63 ⇒ total = 8 × 63 = 504
+8th day sales = 504 − 420 = 84
+9th day sales = 84 − 11 = 73
+Avg from 2nd to 9th day = 66 ⇒ total (2nd–9th) = 8 × 66 = 528
+Total (1st–9th) = 504 + 73 = 577
+1st day sales = 577 − 528 = 49",,Breakup,False,,https://iimking.com/arithmetic-2-cat-2025-slot-2-quant/,1bd0f4b3-9a58-4a02-9e67-9477a9232847
+CAT-2025-S2-QA-037,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Averages + Linear Equation,Breakup G strategy | Averages + Linear Equation | Easy,,"The average number of copies of a book sold per day by a shopkeeper is 60 in the initial seven days and 63 in the initial eight days, after the book launch. On the ninth day, she sells 11 copies less than the eighth day, and the average number of copies sold per day from second day to ninth day becomes 66. The number of copies sold on the first day of the book launch is ____",,,,,tita,,49,,,,match,"Correct Answer: 49 copies
+First 7 days avg = 60 ⇒ total = 7 × 60 = 420
+First 8 days avg = 63 ⇒ total = 8 × 63 = 504
+8th day sales = 504 − 420 = 84
+9th day sales = 84 − 11 = 73
+Avg from 2nd to 9th day = 66 ⇒ total (2nd–9th) = 8 × 66 = 528
+Total (1st–9th) = 504 + 73 = 577
+1st day sales = 577 − 528 = 49",,Breakup G strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,9fbb59ae-e2b8-4d03-8092-c0664432e853
+CAT-2025-S2-QA-058,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2025,2,,CAT Easy,Easy,Breakup G Strategy,Averages + Linear Equation,,,"The average number of copies of a book sold per day by a shopkeeper is 60 in the initial seven days and 63 in the initial eight days, after the book launch. On the ninth day, she sells 11 copies less than the eighth day, and the average number of copies sold per day from second day to ninth day becomes 66. The number of copies sold on the first day of the book launch is ____",,,,,tita,,49,,,,match,"First 7 days avg = 60 ⇒ total = 7 × 60 = 420
+First 8 days avg = 63 ⇒ total = 8 × 63 = 504
+8th day sales = 504 − 420 = 84
+9th day sales = 84 − 11 = 73
+Avg from 2nd to 9th day = 66 ⇒ total (2nd–9th) = 8 × 66 = 528
+Total (1st–9th) = 504 + 73 = 577
+1st day sales = 577 − 528 = 49",,Breakup,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,f52b33f0-f08d-4d16-beb0-89fdd1aac2c9
+CAT-2024-S3-QA-010,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2024,3,,,,Breakup G Strategy,Average Problem,Average Problem,,"The average of three distinct real numbers is 28. If the smallest number is increased by 7 and the largest number is reduced by 10, the order of the numbers remains unchanged, and the new arithmetic mean becomes 2 more than the middle number, while the difference between the largest and the smallest numbers becomes 64. Then, the largest number in the original set of three numbers is _____",,,,,tita,,70,,,,match,"Sum = 84. Let numbers a
+Solve → b=25, a+c=59
+(c-10)-(a+7)=64 → c-a=81
+Add: 2c=140 → c=70
+Answer: 70",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,b6364dbc-b70f-40e2-9428-57bc95a403ca
+CAT-2022-S1-QA-014,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2022,1,,,,,Average,,,"The average of three integers is 13 . When a natural number n
+is included, the average of these four integers remains an odd integer. The minimum possible value of n
+is",3,4,5,1,mcq,C,5,,,,match,"Let the four integers be I1,I2,I3
+and I4
+.
+We know that the average of I1,I2,I3
+is 13.
+If I4
+is also 13, the average will be unchanged. The new average is also 13.
+If I4
+is 13 + 4, the average will increase by 1. The new average is 14.
+If I4
+is 13 + 4(2), the average will increase by 2. The new average is 15.
+If I4
+is 13 + 4(x), the average will increase by x. The new average is 13 + x.
+If I4
+is 13 - 4, the average will decrease by 1. The new average is 12.
+If I4
+is 13 - 4(2), the average will decrease by 2. The new average is 11.
+If I4
+is 13 - 4(x), the average will decrease by x. The new average is 13 - x.
+We observe that for the average to remain odd and an integer, I4
+should be 13±8x
+where x is a whole number. Since we intend to find the smallest value of I4
+, the question transpires to be What is the maximum value of x such that 13 - 8x is a natural number?
+The maximum value of x is 1. Therefore, the minimum value of 13 - 8x is 5.
+That minimum value of I4
+such that it satisfies all the given conditions is 5.",,,False,,https://iimking.com/cat-previous-year-questions-average/,fad103d2-75c4-48c2-bcef-bf66ab7695f2
+CAT-2022-S2-QA-011,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2022,2,,,,,Average,,,"Manu earns ₹4000 per month and wants to save an average of ₹550 per month in a year. In the first nine months, his monthly expense was ₹3500, and he foresees that, tenth month onward, his monthly expense will increase to ₹3700. In order to meet his yearly savings target, his monthly earnings, in rupees, from the tenth month onward should be",4200,4400,4300,4350,mcq,B,4400,,,,match,"On average, Manu targets saving ₹550 per month.
+In the first 9 months, Manu earns ₹4000 per month and spends ₹3500.
+So, he ends up saving only ₹450 per month. In other words, he misses his target by ₹50 per month.
+So he saves ₹50 ×
+9 = ₹450 less than his target.
+In the next 3 months of the year, his expenses are ₹3700 per month. To save ₹550 per month in these three months, his income should be ₹3700 + ₹550 = ₹4250 per month.
+But also, he should earn some more to compensate for the ₹450 he was short of in the first 9 months. This ₹450 is earned over a span of 3 months. Or he should earn ₹150 extra each month.
+So Manu’s income in the last 3 months = ₹4250 + ₹150 = ₹4400",,,False,,https://iimking.com/cat-previous-year-questions-average/,08ded0cb-e42e-4839-95b9-e4daffba354c
+CAT-2022-S3-QA-004,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2022,3,,,,,Average,,,"In an examination, the average marks of students in sections A and B are 32 and 60, respectively. The number of students in section A is 10 less than that in section B. If the average marks of all the students across both the sections combined is an integer, then the difference between the maximum and minimum possible number of students in section A is",,,,,tita,,63,,,,match,"Let the possible average marks of all the students combined be a.
+We know that 32 < a < 60.
+If the overall average is ‘a’, the ratio of the number of students in class A to the number of students in class B is (60 - a) : (a - 32).
+Also when there are equal numbers of students in class A and class B, the value of a is simply 60+32/2=46
+. If there are more students in class B than class A, the value of a is greater than 46 and if there are fewer students in class B than class A, the value of a is less than 46.
+Since there are 10 more students in class B than class A, 46 < a < 60.
+The extreme values of the number of students depend on the extreme values of a.
+When a = 47, the ratio of students in class A to class B is 13 : 15
+15x - 13x = 10
+2x = 10
+x = 5
+Total number of students in class A = 13x = 65.
+When a = 56, the ratio of students in class A to class B is 1 : 6
+6x - x = 10
+5x = 10
+x = 2
+Total number of students in class A = x = 2.
+The difference between the maximum and minimum possible number of students in section A is 65 - 2 = 63",,,False,,https://iimking.com/cat-previous-year-questions-average/,3a652d4b-e517-4152-b58d-ced620f8814f
+CAT-2022-S3-QA-007,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2022,3,,,,,Average,,,"Consider six distinct natural numbers such that the average of the two smallest numbers is 14, and the average of the two largest numbers is 28. Then, the maximum possible value of the average of these six numbers is",22.5,23.5,24,23,mcq,A,22.5,,,,match,"We know the sum of the first pair of numbers is 14 * 2 = 28
+Sum of the last pair of numbers is 28 * 2 = 56
+To maximize the average of all the 6 numbers, we must try to maximize the two numbers in between. This is possible when the last pair of numbers are 27 and 29.
+The maximum average case is
+a, b, 25, 26, 27, 29
+Where a + b = 28
+The average of these 6 numbers is 22.5",,,False,,https://iimking.com/cat-previous-year-questions-average/,9aebd718-cd86-43dd-95a0-c861a1cb064a
+CAT-2021-S1-QA-022,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2021,1,,,,,Average,,,"Onion is sold for 5 consecutive months at the rate of Rs 10, 20, 25, 25, and 50 per kg, respectively. A family spends a fixed amount of money on onion for each of the first three months, and then spends half that amount on onion for each of the next two months. The average expense for onion, in rupees per kg, for the family over these 5 months is closest to",18,26,16,20,mcq,A,18,,,,match,"Given that onion is sold for 5 consecutive months at the rate of Rs 10, 20, 25, 25, and 50 per kg respectively.
+Let’s consider the amount spend on onions in these five months to be 100, 100, 100, 50, 50.
+Hence, the number of kgs in these five months should be 10, 5, 4, 2, 1 respectively.
+The average expense on onions per kg over these five months is given by
+=  total expense on onions in these five months/  total number of kgs of onions
+= 400/22
+= 18.181818
+Therefore, the closest average would be 18.",,,False,,https://iimking.com/cat-previous-year-questions-average/,cc261971-25d8-41b3-bbfa-316f4ff94f7b
+CAT-2021-S2-QA-025,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2021,2,,,,,Average,,,"In a football tournament, a player has played a certain number of matches and 10 more matches are to be played. If he scores a total of one goal over the next 10 matches, his overall average will be 0.15 goals per match. On the other hand, if he scores a total of two goals over the next 10 matches, his overall average will be 0.2 goals per match. The number of matches he has played is",,,,,tita,,10,,,,match,"Let the number of matches already played be x, then over the next ten matches if one more goal is scored, the average goals become 0.15. Further if the player scores two goals the average becomes 0.2.
+From this we can see that one extra goal is increasing the average by 0.05 (0.2 - 0.15). Hence it can be said that the total number of matches played till the end is 20.
+Therefore, x + 10 = 20
+Hence, x = 10",,,False,,https://iimking.com/cat-previous-year-questions-average/,75ef21ce-6594-4438-86df-0fadf2886a4c
+CAT-2021-S3-QA-021,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2021,3,,,,,Average,,,"The arithmetic mean of scores of 25 students in an examination is 50. Five of these students top the examination with the same score. If the scores of the other students are distinct integers with the lowest being 30, then the maximum possible score of the toppers is",,,,,tita,,92,,,,match,"The arithmetic mean of the scores of 25 students = 50
+Sum of scores of these students = 25 × 50 = 1250
+For the scores of the top 5 students to be as high as possible, the score of the bottom 20 students should be as low as possible.
+The minimum score is 30, and the scores of the bottom 20 students are distinct integers.
+In order for the bottom 20 scores to be as low as possible, they must be,
+30, 31, 32, … 49
+Sum of the bottom 20 scores
+= 30 + 31 + 32 + … + 49
+= (30 + 0) + (30 + 1) + (30 + 2) + … + (30 + 19)
+= 20 × 30 + (0 + 1 + 2 + 3 + … + 19)
+= 600 + 19×20/2
+= 600 + 190
+= 790
+Therefore, the maximum sum of the scores of the top 5 students = 1250 - 790 = 460
+The maximum score of the five toppers, since they all scored the same marks = 460/5
+= 92.",,,False,,https://iimking.com/cat-previous-year-questions-average/,e9394e99-de46-4b09-ab29-a8d7c31e6974
+,,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2021,,3,,,Vedic Patterns G Strategy,Onion Price – Weighted Average,,,"Onion is sold for 5 consecutive months at the rates:
+₹10, ₹20, ₹25, ₹25, ₹50 per kg.
+A family spends a fixed amount on onion for each of the first 3 months,
+and then spends half that amount on onion for each of the last 2 months.
+What is the average price per kg of onion for the family?",16,26,20,18,mcq,D,18,,,,match,"Assume spend in first 3 months is ₹100 each,
+then spend in month 4 and 5 is ₹50 each.
+Month | Price (₹/kg) | Spend (₹) | Quantity Bought (kg)
+1 | 10 | 100 | 10
+2 | 20 | 100 | 5
+3 | 25 | 100 | 4
+4 | 25 | 50 | 2
+5 | 50 | 50 | 1
+Total Spend = ₹400
+Total Quantity = 10 + 5 + 4 + 2 + 1 = 22 kg
+Average price per kg = 400 ÷ 22 ≈ 18.18
+Correct Option: 4) 18",,Vedic Tables,False,,https://iimking.com/cat-2021-vedic-tables-g-strategy/,61b66282-9f6a-478f-a514-000d427d8a59
+CAT-2020-S1-QA-020,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2020,1,,,,,Average,,,"Let A, B and C be three positive integers such that the sum of A and the mean of B and C is 5. In addition, the sum of B and the mean of A and C is 7. Then the sum of A and B is",6,4,7,5,mcq,A,6,,,,match,"a + b+c/2 = 5 ---> 2a + b + c = 10
+b + a+c/2 = 7 ---> 2b + a + c = 14
+Solving these two, we get b – a = 4
+b = a + 4
+Substituting this in the first equation
+2a + a + 4 + c = 10
+3a + c = 6
+Given all three as positive integers, maximum value we can get for a = 1
+Ex: When substituting a = 2, c = 0 (Not possible)
+So a = 1, then b = 5
+Sum of a + b = 6",,,False,,https://iimking.com/cat-previous-year-questions-average/,3776f70d-2b82-4b52-ae9a-bff1ef425d7c
+CAT-2020-S2-QA-022,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2020,2,,,,,Average,,,"In a group of 10 students, the mean of the lowest 9 scores is 42 while the mean of the highest 9 scores is 47. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by",5,3,4,6,mcq,C,4,,,,match,"Here a2 to a9 is common to both the terms
+So, a1 + (a2 to a9) = 42 × 9
+a10 + (a2 to a9) = 47 × 9
+Solving these two a10 - a1 = 45
+a1, a2, a3,………………………, a9, (a1 + 45)
+One instance is every number is 42
+42, 42, …………………, 42, 42+45 (a1 to a9 are equal) -----------(1)
+Another instance is every number is 47
+47 – 45, 47, …………………, 47, 47 (a2 to a10 are equal) ---------(2)
+Mean of (1) = 46.5
+Mean of (2) = 42.5
+(1) – (2) = 4",,,False,,https://iimking.com/cat-previous-year-questions-average/,88733378-39c3-44af-8f7d-bc88246e7ee7
+CAT-2020-S3-QA-021,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2020,3,,,,,Average,,,"Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age, in years, is",,,,,tita,,18,,,,match,"Let's consider Tom's age to be 'x' years.
+Dick is thrice as old as Tom,
+Dick's age = 3 × x = 3x
+Harry is twice as old as Dick,
+Harry's age = 2 × 3x = 6x
+Dick's age is 1 year less than the average age of all three,
+3x = Average(x, 3x, 6x) - 1
+3x = x+3x+6x/3
+- 1
+3x = 10x/3
+- 1
+1 = 10x/3 - 3x
+1 = 10x−9x/3
+1 = x/3
+3 = x
+x = 3
+Harry's age = 6x = 6 × 3 = 18 years.",,,False,,https://iimking.com/cat-previous-year-questions-average/,18a6e1fc-4f28-4b9b-8523-7c93d6ea0456
+CAT-2020-S3-QA-024,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2020,3,,,,,Average,,,"A batsman played n + 2 innings and got out on all occasions. His average score in these n + 2 innings was 29 runs and he scored 38 and 15 runs in the last two innings. The batsman scored less than 38 runs in each of the first n innings. In these n innings, his average score was 30 runs and lowest score was x runs. The smallest possible value of x is",1,3,2,4,mcq,C,2,,,,match,"The average score of the last 2 innings = 38+15/2
+= 26.5
+The average of the first n innings = 30
+The average of all the n+2 innings = 29
+29(n + 2) = n(30) + 2(26.5)
+n = 5 (You may choos eto use the allegation method too)
+The average of the first 5 innings = 30 and in none of the innings did the batsman score 38 or above.
+Let's assume the scores of the 5 innings of the batsman in ascending order to be 30, 30, 30, 30, 30. (This complies with the avberage being 30)
+The maximum score that he can score is 37 runs, Let's distribute the score of the first innings among the rest 4, as 7 per innings so that the score of the first innings is minimized.
+Now the scores will be 2, 37, 37, 37, 37
+Now we can't distribute the score of the first innings anymore, because, that makes the score of atleast one of the remainin 4 overs 38 or greater.
+Hence the least score of any inning is 2.",,,False,,https://iimking.com/cat-previous-year-questions-average/,0d4c4b20-b9a4-46e2-a5cc-6998c7bf46e9
+CAT-2019-S1-QA-032,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2019,1,,,,,Average,,,Ramesh and Gautam are among 22 students who write an examination. Ramesh scores 82.5. The average score of the 21 students other than Gautam is 62. The average score of all the 22 students is one more than the average score of the 21 students other than Ramesh. The score of Gautam is,51,53,49,48,mcq,A,51,,,,match,"It is given that, a1, a2, a3,..... Ramesh, Gautham, ...., a22 writes an examination
+Given that, Average score of the 21 students other than Gautham = 62
+So, Total Score - Gautham's score = 62 x 21
+Ramesh scored 82.5
+It is given that, when Ramesh leaves, the average score drops down by 1 mark.
+Which means that Ramesh scored more than the Overall class average.
+Since his departure has resulted in the decrease of the overall class average by 1, his score is 21 more than the average.
+Overall Class average = 82.5 - 21 = 61.5 marks
+Total Score - Gautham's score = 62 x 21
+61.5 x 22 - 62 x 21 = Gautham's score
+1353 - 1302 = Gautham's score
+Gautham's score = 51 marks",,,False,,https://iimking.com/cat-previous-year-questions-average/,1203894b-367b-4c68-907d-5e9fec339398
+CAT-2019-S2-QA-029,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2019,2,,,,,Average,,,"The average of 30 integers is 5. Among these 30 integers, there are exactly 20 which do not exceed 5. What is the highest possible value of the average of these 20 integers?",4,5,4.5,3.5,mcq,C,4.5,,,,match,"We are told that exactly 20 of the 30 integers do not exceed 5...
+That means exactly 10 of the 30 integers do exceed 5.
+In order to keep the average of the 20 integers as high as possible, we need to keep the average of the 10 integers above 5 as low as possible. Since we are dealing with integers, the least value that the 10 integers above 5 can take is 6.
+So, the sum of the 10 integers = 10 * 6 = 60
+So the sum of the remainng 20 integers = Total sum - 60 = 5 * 50 - 60 = 90
+Hence the average of the remaining 20 is 90/20 = 4.5",,,False,,https://iimking.com/cat-previous-year-questions-average/,4c602785-6718-4d4c-8d12-4719fe74c951
+CAT-2018-S1-QA-027,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2018,1,,,,,Average,,,"A CAT aspirant appears for a certain number of tests. His average score increases by 1 if the first 10 tests are not considered, and decreases by 1 if the last 10 tests are not considered. If his average scores for the first 10 and the last 10 tests are 20 and 30, respectively, then the total number of tests taken by him is",,,,,tita,,60,,,,match,"Let there be 'n' tests and the Overall Average score be k
+Average (n) = k => Total marks = nk
+So, when we ignore the first 10 questions,
+Average (n-10) = k+1
+Similarly, if we ignore the last 10 questions,
+Average (first (n-10)) = k-1
+It is given that when the first 10 tests are not considered, the overall average increases by 1 (Each question carries 20 marks)
+Total marks – 20×10 = (k+1) (n-10)
+kn – 200 = (k+1) (n-10) ---(1)
+Similarly, If the last 10 tests are not considered, the overall average decreases by 1 (Each question carries 30 marks)
+kn - 300 = (k-1) (n-10) ---(2)
+Solving (1) and (2), we get
+kn - 200 = (k+1) (n-10)
+(-) kn - 300 = (k-1) (n-10)
+-------------------------------------
+100 = 2(n-10)
+50 = n-10
+n = 60 questions",,,False,,https://iimking.com/cat-previous-year-questions-average/,c14cf354-75b1-4ee8-ae91-1994c0f06ba1
+CAT-2018-S1-QA-030,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2018,1,,,,,Average,,,"In an apartment complex, the number of people aged 51 years and above is 30 and there are at most 39 people whose ages are below 51 years. The average age of all the people in the apartment complex is 38 years. What is the largest possible average age, in years, of the people whose ages are below 51 years?",25,26,27,28,mcq,D,28,,,,match,"Given that the Average age of all the residents in the complex = 38 years
+Number of people having ages 51 and above = 30
+Number of people having ages below 51 ≤ 39
+Since we need to maximize the average age of people below 51 and to maintain the combined average as 38 years, we need to consider the ages of people above 51 as 51 (Any more than that would lower the other value)
+Also, We need to take the Number of people having ages below as 39 (Again, for maximizing the value)
+Averages - Finding the largest average age
+So, 13 : 38-x = 39 : 30 = 13 : 10
+38 - x = 10
+x = 28
+Average age of people whose ages are below 51 = 28 years",,,False,,https://iimking.com/cat-previous-year-questions-average/,630491c1-365c-45d2-8a3e-71b9d2fc228d
+CAT-2017-S1-QA-033,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2017,1,,,,,Average,,,An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest weighs 53 kg. What is the maximum possible number of people in the group?,,,,,tita,,11,,,,match,"Given that an elevator has a weight limit of 630 kg.
+It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest weighs 53 kg.
+We have to find the maximum possible number of people in the group.
+We can take one person to be 57 kg and since they have asked for the maximum possible number of people it can accommodate in the lift we can take more no. of people with lightest weight.
+So, at least one guy with 57 kg.
+⟹ 630 – 57 = 573
+⟹ 573/53
+= 10.8 or at most there can 10 people.
+Hence, 10 + 1 = 11 people
+The maximum possible number of people in the group is 11.",,,False,,https://iimking.com/cat-previous-year-questions-average/,b1f08dbe-6b62-4f66-a309-2f988ddb7b2a
+CAT-2017-S2-QA-030,sequence,Arithmetic,Averages,ai_split,Averages & Mixtures,True,2017,2,,,,,Average,,,"The average height of 22 toddlers increases by 2 inches when two of them leave this group. If the average height of these two toddlers is one-third the average height of the original 22, then the average height, in inches, of the remaining 20 toddlers is",30,28,32,26,mcq,C,32,,,,match,"From the given data let us assume the average height of 22 toddlers to be a
+If two of them leaves this group then average height of 20 toddlers increases by 2 so a + 2
+If the average height of two toddlers who leaves the group is one third the average height of the original 22
+No.of toddlers × average = Total
+Hence we can write the equation in such a way that,
+22a = 20(a + 2) + 2a/3
+2a – 2a/3
+= 40
+⟹ 4a/3
+= 40
+a = 30
+We need to find the average of remaining 20 toddlers.
+⟹ a + 2 = 30 + 2 = 32",,,False,,https://iimking.com/cat-previous-year-questions-average/,570c8e27-b4c4-403b-baf3-06418b2c7dd3

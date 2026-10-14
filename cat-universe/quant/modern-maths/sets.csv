@@ -1,0 +1,167 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S3-QA-026,sequence,Modern Maths,Sets,topic_map,Set Theory,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Set theory + Maximum/Minimum,,,"In a class of 150 students, 75 students chose physics, 111 students chose mathematics and 40 students chose chemistry. All students chose at least one of the three subjects and at least one student chose all three subjects. The number of students who chose both physics and chemistry is equal to  the number of students who chose both chemistry and mathematics, and this is equal to half the number of students who chose both mathematics and physics. What is the maximum possible number of students who chose physics but not mathematics?",40,35,55,30,mcq,B,35,,,,match,"Given Information: Physics students = 75, Mathematics students = 111 , Chemistry students = 40
+Assume:  x - number of students who chose both Physics and Mathematics , y - students who chose both Mathematics and Chemistry , z -  student who chose both Physics and Chemistry , t - number of students who chose all three subjects
+And z = y , y = x/2 (Given)
+Using Set formula (the total number of students who chose at least one subject)
+|P ∪ M ∪ C| = |P| + |M| + |C| − |P ∩ M| − |M ∩ C| − |P ∩ C| + |P ∩ M ∩ C|
+Substitute the values:
+150 = 75 + 111 + 40 - x - y - z + t
+Now, substitute z = y and y = x/2:
+150 = 75 + 111 + 40 - x - (x/2) - (x/2) + t
+150 = 226 - x - x + t
+150 = 226 - 2x + t
+2x - 76 = t (Equation 1)
+We want to maximize 75 - x , (students who chose only Physics but not mathematics). Using options :
+1.40  , 75 - x = 40 , x = 35 , t can not be negative
+2.35  , 75 - x = 35 , x = 40 , t = 4
+3.55  , 75 - x = 55 , x= 20 , t can not be negative
+4.30  , 75 - x = 30 , x = 45 , t = 14
+Since 75 - x  is maximum at option 2 thus option 2 is the answer",,Visual POE,False,,https://iimking.com/cat-2025-slot-3-quant-visual-lens-g-strategy/,3f65949b-1e45-4f5c-a088-0b5c10d86e95
+CAT-2025-S3-QA-032,sequence,Modern Maths,Sets,topic_map,Set Theory,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Set theory + Maximum/Minimum,,,"In a class of 150 students, 75 students chose physics, 111 students chose mathematics and 40 students chose chemistry. All students chose at least one of the three subjects and at least one student chose all three subjects. The number of students who chose both physics and chemistry is equal to  the number of students who chose both chemistry and mathematics, and this is equal to half the number of students who chose both mathematics and physics. What is the maximum possible number of students who chose physics but not mathematics?",40,35,55,30,mcq,B,35,,,,match,"Given Information: Physics students = 75, Mathematics students = 111 , Chemistry students = 40
+Assume:  x - number of students who chose both Physics and Mathematics , y - students who chose both Mathematics and Chemistry , z -  student who chose both Physics and Chemistry , t - number of students who chose all three subjects
+And z = y , y = x/2 (Given)
+Using Set formula (the total number of students who chose at least one subject)
+|P ∪ M ∪ C| = |P| + |M| + |C| − |P ∩ M| − |M ∩ C| − |P ∩ C| + |P ∩ M ∩ C|
+Substitute the values:
+150 = 75 + 111 + 40 - x - y - z + t
+Now, substitute z = y and y = x/2:
+150 = 75 + 111 + 40 - x - (x/2) - (x/2) + t
+150 = 226 - x - x + t
+150 = 226 - 2x + t
+2x - 76 = t (Equation 1)
+We want to maximize 75 - x , (students who chose only Physics but not mathematics). Using options :
+1.40  , 75 - x = 40 , x = 35 , t can not be negative
+2.35  , 75 - x = 35 , x = 40 , t = 4
+3.55  , 75 - x = 55 , x= 20 , t can not be negative
+4.30  , 75 - x = 30 , x = 45 , t = 14
+Since 75 - x  is maximum at option 2 thus option 2 is the answer",,Visual POE,False,,https://iimking.com/algebra-equations-actual-questions-cat-2025-slot-3-quant/,312dbf93-b81c-42d2-b608-cdd3ca59991f
+CAT-2025-S3-QA-044,sequence,Modern Maths,Sets,topic_map,Set Theory,True,2025,3,,CAT Medium,Moderate,Logic Lens G Strategy,Set theory + Maximum/Minimum,Visual lens G Strategy | Set theory + Maximum/Minimum | Moderate,,"In a class of 150 students, 75 students chose physics, 111 students chose mathematics and 40 students chose chemistry. All students chose at least one of the three subjects and at least one student chose all three subjects. The number of students who chose both physics and chemistry is equal to the number of students who chose both chemistry and mathematics, and this is equal to half the number of students who chose both mathematics and physics. What is the maximum possible number of students who chose physics but not mathematics?",40,35,55,30,mcq,B,35,,,,match,"Given Information: Physics students = 75, Mathematics students = 111 , Chemistry students = 40
+Assume: x - number of students who chose both Physics and Mathematics , y - students who chose both Mathematics and Chemistry , z - student who chose both Physics and Chemistry , t - number of students who chose all three subjects
+And z = y , y = x/2 (Given)
+Using Set formula (the total number of students who chose at least one subject)
+|P ∪ M ∪ C| = |P| + |M| + |C| − |P ∩ M| − |M ∩ C| − |P ∩ C| + |P ∩ M ∩ C|
+Substitute the values:
+150 = 75 + 111 + 40 - x - y - z + t
+Now, substitute z = y and y = x/2:
+150 = 75 + 111 + 40 - x - (x/2) - (x/2) + t
+150 = 226 - x - x + t
+150 = 226 - 2x + t
+2x - 76 = t (Equation 1)
+We want to maximize 75 - x , (students who chose only Physics but not mathematics). Using options :
+1.40 , 75 - x = 40 , x = 35 , t can not be negative
+2.35 , 75 - x = 35 , x = 40 , t = 4
+3.55 , 75 - x = 55 , x= 20 , t can not be negative
+4.30 , 75 - x = 30 , x = 45 , t = 14
+Since 75 - x is maximum at option 2 thus option 2 is the answer",,Visual lens G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,2a6c3a6e-277c-438d-b08e-95925e0158a0
+CAT-2018-S2-QA-016,sequence,Modern Maths,Sets,topic_map,Set Theory,True,2018,2,,,,,Modern Math - Sets,,,"If A = {62n - 35n - 1: n = 1, 2, 3, …} and B = {35(n - 1) : n = 1,2,3,…} then which of the following is true?",Every member of A is in B and at least one member of B is not in A,At least one member of A is not in B,Every member of B is in A.,Neither every member of A is in B nor every member of B is in A,mcq,B,At least one member of A is not in B,,,,mismatch,"Consider the sets A and B:
+A = {62^n - 35^n - 1: n = 1, 2, 3, …}
+B = {35(n - 1): n = 1, 2, 3, …}
+Let's analyze the sets A and B:
+A is defined by the expression 62^n - 35^n - 1, where n is a positive integer. It includes terms where both 62^n and 35^n are involved.
+B is defined by the expression 35(n - 1), where n is a positive integer.
+Now, let's analyze the statements:
+A. Every member of A is in B and at least one member of B is not in A.
+This statement is not true because A and B are defined differently, and not every member of A is in B.
+B. At least one member of A is not in B.
+This statement is true because the elements in A involve both 62^n and 35^n, while B only involves 35(n - 1). So, not all members of A are in B.
+C. Every member of B is in A.
+This statement is not true because B is a subset of A, and not all members of B are in A.
+D. Neither every member of A is in B nor every member of B is in A.
+This statement is not accurate because it's clear that A contains elements that are not in B, and B contains elements that are in A. So, it's not a ""neither…nor"" situation.
+Therefore, the correct answer is (B) ""At least one member of A is not in B.""",,,False,,https://iimking.com/cat-previous-year-questions-sets/,21084018-66b0-489b-82d2-ab7d6da8c8ce
+CAT-2018-S2-QA-017,sequence,Modern Maths,Sets,topic_map,Set Theory,True,2018,2,,,,,Modern Math - Sets,,,"For two sets A and B, let AΔB denote the set of elements which belong to A or B but not both. If P = {1,2,3,4}, Q = {2,3,5,6,}, R = {1,3,7,8,9}, S
+{2,4,9,10}, then the number of elements in (PΔQ)Δ(RΔS) is",6,8,9,7,mcq,D,7,,,,match,"To find the number of elements in (PΔQ)Δ(RΔS), let's break it down step by step.
+Find PΔQ (the set of elements belonging to P or Q but not both):
+PΔQ = {1, 2, 3, 4} Δ {2, 3, 5, 6}
+PΔQ includes elements that belong to either P or Q but not both. So, it contains {1, 4, 5, 6}.
+Find RΔS (the set of elements belonging to R or S but not both):
+RΔS = {1, 3, 7, 8, 9} Δ {2, 4, 9, 10}
+RΔS includes elements that belong to either R or S but not both. So, it contains {1, 3, 7, 8, 2, 4, 10}.
+Now, find (PΔQ)Δ(RΔS) (the set of elements belonging to PΔQ or RΔS but not both):
+(PΔQ)Δ(RΔS) = {1, 4, 5, 6} Δ {1, 3, 7, 8, 2, 4, 10}
+(PΔQ)Δ(RΔS) includes elements that belong to either (PΔQ) or (RΔS) but not both. The combined set {1, 4, 5, 6} and {1, 3, 7, 8, 2, 4, 10} contains elements {5, 6, 3, 7, 8, 2, 10}.
+Calculate the number of elements in the resulting set:
+The number of elements in (PΔQ)Δ(RΔS) is 7.
+So, the correct answer is (D) 7.",,,False,,https://iimking.com/cat-previous-year-questions-sets/,5a5f764b-c28e-41d9-8d30-7ce1ffe0ad8a
+,,Modern Maths,Sets,topic_map,Set Theory,True,2007,,,,,,Modern Math - Sets,,,"Consider the set S = {2, 3, 4, …, 2n + 1}, where n is a positive integer larger than 2007. Define X as the average of the odd integers in S and Y as th average of the even integers in S. What is the value of X – Y?",0,1,n/2,n + 1/2n || 2008,mcq,A,0,,,,not_checked,"Let's analyze the set S and calculate the values of X and Y:
+Set S = {2, 3, 4, …, 2n + 1}
+X is defined as the average of the odd integers in S, and Y is defined as the average of the even integers in S.
+The number of odd integers in the set S:
+There are n + 1 odd integers in the set S because it starts with 3 (an odd integer) and ends with 2n + 1 (also an odd integer).
+The number of even integers in the set S:
+There are n even integers in the set S because it starts with 2 (an even integer) and ends with 2n (also an even integer).
+Now, let's calculate the values of X and Y:
+X = (3 + 5 + 7 + … + (2n + 1)) / (n + 1)
+Y = (2 + 4 + 6 + … + 2n) / n
+To calculate X - Y:
+X - Y = [(3 + 5 + 7 + … + (2n + 1)) / (n + 1)] - [(2 + 4 + 6 + … + 2n) / n]
+Now, we need to simplify the expression. Notice that there is a common factor of 2 in the even terms:
+X - Y = [(3 + 5 + 7 + … + (2n + 1)) / (n + 1)] - [2(1 + 2 + 3 + … + n) / n]
+Using the formula for the sum of the first n positive integers:
+X - Y = [(3 + 5 + 7 + … + (2n + 1)) / (n + 1)] - [2(n(n + 1) / 2) / n]
+X - Y = [(3 + 5 + 7 + … + (2n + 1)) / (n + 1)] - (n + 1)
+Now, consider the numerator in the first term. This is an arithmetic progression starting from 3 and ending at (2n + 1) with a common difference of 2.
+The sum of an arithmetic progression with the first term a, last term l, and common difference d is given by the formula:
+Sum = (n/2) * [2a + (n - 1)d]
+In this case:
+a = 3 (the first odd integer)
+l = 2n + 1 (the last odd integer)
+d = 2 (the common difference)
+Sum = (n/2) * [2(3) + (n - 1)(2)]
+Sum = (n/2) * [6 + 2n - 2]
+Sum = (n/2) * (4 + 2n)
+Now, substitute this value back into the expression for X - Y:
+X - Y = [((n/2) * (4 + 2n)) / (n + 1)] - (n + 1)
+Simplify further:
+X - Y = [2(n/2) * (2 + n) / (n + 1)] - (n + 1)
+Now, simplify:
+X - Y = (n/2) * (2 + n) / (n + 1) - (n + 1)
+X - Y = (n/2) * (2 + n - 2(n + 1)) / (n + 1)
+X - Y = (n/2) * (2 + n - 2n - 2) / (n + 1)
+X - Y = (n/2) * (n - 2) / (n + 1)
+Now, we can see that (n + 1) is larger than 2, and n is a positive integer larger than 2007.
+Therefore, as n gets larger, the value of X - Y approaches 0.
+So, the correct answer is (A) 0.",,,False,,https://iimking.com/cat-previous-year-questions-sets/,002c28cf-f1bc-4234-85f6-6add51487832
+,,Modern Maths,Sets,topic_map,Set Theory,True,2006,,,,,,Modern Math - Sets,,,"Consider the set S = {1, 2, 3, …, 1000}. How many arithmetic progressions can be formed from the elements of S that start with 1 and end with 1000 and have at least 3 elements?",4,6,7,8,mcq,C,7,,,,not_checked,"The nth term is a + (n-1)d
+1000 = 1 + (n-1)d
+So, (n-1)d = 999
+999 = 3^3 * 37
+So, the number of factors is 4*2 = 8
+Since there should be at least 3 terms in the series, d cannot be 999.
+So, the number of possibilities is 7...",,,False,,https://iimking.com/cat-previous-year-questions-sets/,057a267a-fa70-46a3-9940-e7dc41ebbc1a
+,,Modern Maths,Sets,topic_map,Set Theory,True,2005,,,,,,Modern Math - Sets,,,"Let S be a set of positive integers such that every element n of S satisfies the conditions a. 1000 ≤ n ≤ 1200
+b. every digit in n is odd
+Then how many elements of S are divisible by 3?",9,10,11,12,mcq,D,12,,,,not_checked,"To find out how many elements of S are divisible by 3, we need to identify the positive integers within the range [1000, 1200] where every digit is odd. Let's break it down step by step.
+The conditions are:
+a. 1000 ≤ n ≤ 1200
+b. Every digit in n is odd
+For a number to be divisible by 3, the sum of its digits must be divisible by 3.
+First, let's find the possible odd digits that can be used to create such numbers. The odd digits are 1, 3, 5, 7, and 9.
+Now, we will consider the number of ways to form a 4-digit number where every digit is an odd digit (1, 3, 5, 7, or 9). There are 5 choices for each of the four digits.
+So, the total number of 4-digit numbers with all odd digits = 5 * 5 * 5 * 5 = 625.
+However, we need to consider the range [1000, 1200]. So, we need to remove the numbers that do not fit within this range.
+Let's calculate how many numbers do not fit within this range:
+Numbers less than 1000: There are 125 numbers in this category (1XXX to 9XX).
+Numbers greater than 1200: There are 125 numbers in this category (12XX to 99X).
+Now, we need to remove these numbers from the total number of 4-digit numbers with all odd digits:
+Total = 625 - 125 - 125 = 375.
+Now, to find out how many of these are divisible by 3, we need to calculate the number of multiples of 3 in this range. To do that, we'll find the first and last multiples of 3 and calculate the count.
+The first multiple of 3 in this range is 1002 (3 * 334), and the last multiple of 3 is 1197 (3 * 399).
+Now, we'll find the count of multiples of 3 within this range:
+Count of multiples of 3 = (Last multiple - First multiple) / 3 + 1
+Count of multiples of 3 = (1197 - 1002) / 3 + 1
+Count of multiples of 3 = 195 / 3 + 1
+Count of multiples of 3 = 65 + 1
+Count of multiples of 3 = 66
+So, there are 66 numbers within the range [1000, 1200] that are divisible by 3 and satisfy the given conditions.
+The correct answer is (D) 12.",,,False,,https://iimking.com/cat-previous-year-questions-sets/,c4b787cb-fa82-491c-9017-cf771e4e93f2
+,,Modern Maths,Sets,topic_map,Set Theory,True,2003,,,,,,Modern Math - Sets,,,"Let T be the set of integers {3, 11, 19, 27, …, 451, 459, 467} and S be a subset of T such that the sum of no two elements of S is 470. The maximu possible number of elements in S is",32,28,29,30,mcq,,,,needs_image,Blank key and question has images; not attempted,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-138.png,https://iimking.com/cat-previous-year-questions-sets/,777e8c7b-fa2e-45e5-87ed-c76bd50bd077
+,,Modern Maths,Sets,topic_map,Set Theory,True,2003,,,,,,Modern Math - Sets,,,"Consider the sets Tn = {n, n + 1, n + 2, n + 3, n + 4}, where n = 1, 2, 3, … , 96.
+How many of these sets contain 6 or any integral multiple thereof (i.e., any one of the numbers 6, 12, 18, …)?",80,81,82,83,mcq,A,80,,,,not_checked,"The correct option is A 80
+Option (a)
+Calculating “n” which does not satisfy the requisite condition (i.e. the value of “n” which will not yield subsets with an integral multiple of 6).The terms will fall in an AP with n =1 as the first term. The general form of the AP is 6k+1.The last term will be 91. Thus, total number of sets which do not satisfy the condition= 90/6 = 15+1 = 16.Total number of terms = 96.Thus, number of sub sets possible = 96 - 16 = 80.",,,False,,https://iimking.com/cat-previous-year-questions-sets/,929ae5f7-722f-4031-8622-21cdc20ba594
+,,Modern Maths,Sets,topic_map,Set Theory,True,2000,,,,,,Modern Math - Sets,,,"The set of all positive integers is the union of two disjoint subsets
+{f(1), f(2) ….f(n),……} and {g(1), g(2),……,g(n),. }, where
+f (1) < f(2) <…< f(n) ….., and g(1) < g(2) <…< g(n) , and
+g(n) = f(f(n)) + 1 for all n ≥ 1. What is the value of g(1)?",Zero,Two,One,Cannot be determined,mcq,B,Two,,,,not_checked,"The correct option is B
+f(x) is a set of all odd numbers and g(x) is a set of all even numbers. Thus, g(1) = f(f(1)) + 1 = 2.",,,False,,https://iimking.com/cat-previous-year-questions-sets/,aac55394-45bc-4c59-8737-51168801b426

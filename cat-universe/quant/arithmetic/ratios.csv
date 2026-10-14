@@ -1,0 +1,228 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S1-QA-037,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Ratio + Table,,,"The ratio of the number of students in the morning shift and afternoon shift of a school was 13 : 9. After 21 students moved from the morning shift to the afternoon shift, this ratio became 19 : 14. Next, some new students joined the morning and afternoon shifts in the ratio 3 : 8 and then the ratio of the number of students in the morning shift and the afternoon shift became 5 : 4. The number of new students who joined is",88,121,99,110,mcq,C,99,,,,match,"Solve using Matrix table | Answer 3. 99
+Stage | Morning Shift | Afternoon Shift | Ratio | Explanation
+Initial | 13k | 9k | 13 : 9 | Given initial ratio
+After 21 move M → A | 13k − 21 | 9k + 21 | 19 : 14 | 13k – 21/9k + 21 = 19/14 k=63
+After solving k = 63 | 798 | 588 | 19 : 14 | Substitute k = 63 into expressions
+New students join (3x, 8x) | 798 + 3x | 588 + 8x | 5 : 4 | 798 + 3x/588 + 8x = 5/4 x = 9
+Total new students | 3x | 8x | Total: 11x | 11x = 11 × 9 = 99",,Breakup,False,,https://iimking.com/arithmetic-cat-2025-slot-1-quant-breakup-g-strategy/,1dfb26bb-2eb3-4e1b-bfec-28309c43c91c
+CAT-2025-S1-QA-038,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Ratio + Table,Breakup G Strategy | Ratio + Table | MEDIUM | CAT 2025 Slot 1,,"The ratio of the number of students in the morning shift and afternoon shift of a school was 13 : 9. After 21 students moved from the morning shift to the afternoon shift, this ratio became 19 : 14. Next, some new students joined the morning and afternoon shifts in the ratio 3 : 8 and then the ratio of the number of students in the morning shift and the afternoon shift became 5 : 4. The number of new students who joined is",88,121,99,110,mcq,C,99,,,,match,"Solve using Matrix table | Answer 3. 99
+Stage
+Morning Shift
+Afternoon Shift
+Ratio
+Explanation
+Initial
+13k
+9k
+13 : 9
+Given initial ratio
+After 21 move M → A
+13k − 21
+9k + 21
+19 : 14
+13k – 21/9k + 21 = 19/14 k=63
+After solving k = 63
+798
+588
+19 : 14
+Substitute k = 63 into expressions
+New students join (3x, 8x)
+798 + 3x
+588 + 8x
+5 : 4
+798 + 3x/588 + 8x = 5/4 x = 9
+Total new students
+3x
+8x
+Total: 11x
+11x = 11 × 9 = 99",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,87d7b678-c5a2-4900-b907-be784945c736
+CAT-2025-S1-QA-039,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Ratio + Table,Breakup G Strategy | Ratio + Table | MEDIUM | CAT 2025 Slot 1,,"The ratio of the number of students in the morning shift and afternoon shift of a school was 13 : 9. After 21 students moved from the morning shift to the afternoon shift, this ratio became 19 : 14. Next, some new students joined the morning and afternoon shifts in the ratio 3 : 8 and then the ratio of the number of students in the morning shift and the afternoon shift became 5 : 4. The number of new students who joined is",88,121,99,110,mcq,C,99,,,,match,"Solve using Matrix table | Answer 3. 99
+Stage
+Morning Shift
+Afternoon Shift
+Ratio
+Explanation
+Initial
+13k
+9k
+13 : 9
+Given initial ratio
+After 21 move M → A
+13k − 21
+9k + 21
+19 : 14
+13k – 21/9k + 21 = 19/14 k=63
+After solving k = 63
+798
+588
+19 : 14
+Substitute k = 63 into expressions
+New students join (3x, 8x)
+798 + 3x
+588 + 8x
+5 : 4
+798 + 3x/588 + 8x = 5/4 x = 9
+Total new students
+3x
+8x
+Total: 11x
+11x = 11 × 9 = 99",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,deca52f2-617d-4fb7-bb0e-230bc8a70729
+CAT-2025-S2-QA-014,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,2,,CAT Medium,Medium,Breakup G Strategy,Ratios + Table,,,"The ratio of expenditures of Lakshmi and Meenakshi is 2 : 3, and the ratio of income of Lakshmi to expenditure of Meenakshi is 6 : 7. If excess of income over expenditure is saved by Lakshmi and Meenakshi, and the ratio of their savings is 4 : 9, then the ratio of their incomes is",3 : 5,5 : 6,7 : 8,2 : 1,mcq,A,3 : 5,,,,match,"Correct answer A) 3 : 5
+Let Lakshmi’s expenditure = 2x, Meenakshi’s expenditure = 3x (since their expenditures are in ratio 2:3).
+Lakshmi’s income is given to be in ratio 6:7 with Meenakshi’s expenditure  so Lakshmi’s income = (6/7) × (3x) = (18/7) x.
+Then Lakshmi’s saving = income − expenditure = (18/7 x) − 2x = (4/7) x.
+Let Meenakshi’s income = y, so her saving = y − 3x.
+Given their savings ratio is 4:9 , (4/7 x) : (y − 3x) = 4 : 9.
+So (4/7 x) / (y − 3x) = 4/9 , solving gives y = (30/7) x.
+Hence incomes are (18/7 x) : (30/7 x) = 18 : 30 = 3 : 5",,Breakup,False,,https://iimking.com/arithmetic-1-cat-2025-slot-2-quant-breakup-g-strategy/,5c34a8d1-48c3-447f-9ced-40d0b068c1e8
+CAT-2025-S2-QA-016,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,2,,CAT Medium,Medium,Breakup G Strategy,Ratios + Table,Breakup G strategy | Ratios + Table | Medium,,"The ratio of expenditures of Lakshmi and Meenakshi is 2 : 3, and the ratio of income of Lakshmi to expenditure of Meenakshi is 6 : 7. If excess of income over expenditure is saved by Lakshmi and Meenakshi, and the ratio of their savings is 4 : 9, then the ratio of their incomes is",3 : 5,5 : 6,7 : 8,2 : 1,mcq,A,3 : 5,,,,match,"Correct answer A) 3 : 5
+Let Lakshmi’s expenditure = 2x, Meenakshi’s expenditure = 3x (since their expenditures are in ratio 2:3).
+Lakshmi’s income is given to be in ratio 6:7 with Meenakshi’s expenditure so Lakshmi’s income = (6/7) × (3x) = (18/7) x.
+Then Lakshmi’s saving = income − expenditure = (18/7 x) − 2x = (4/7) x.
+Let Meenakshi’s income = y, so her saving = y − 3x.
+Given their savings ratio is 4:9 , (4/7 x) : (y − 3x) = 4 : 9.
+So (4/7 x) / (y − 3x) = 4/9 , solving gives y = (30/7) x.
+Hence incomes are (18/7 x) : (30/7 x) = 18 : 30 = 3 : 5",,Breakup G strategy,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,a23e80f7-b8fa-4c52-be7a-39c6230ecc06
+CAT-2025-S2-QA-053,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,2,,CAT Medium,Medium,Breakup G Strategy,Ratios + Table,,,"The ratio of expenditures of Lakshmi and Meenakshi is 2 : 3, and the ratio of income of Lakshmi to expenditure of Meenakshi is 6 : 7. If excess of income over expenditure is saved by Lakshmi and Meenakshi, and the ratio of their savings is 4 : 9, then the ratio of their incomes is",3 : 5,5 : 6,7 : 8,2 : 1,mcq,A,3 : 5,,,,match,"Let Lakshmi’s expenditure = 2x, Meenakshi’s expenditure = 3x (since their expenditures are in ratio 2:3).
+Lakshmi’s income is given to be in ratio 6:7 with Meenakshi’s expenditure  so Lakshmi’s income = (6/7) × (3x) = (18/7) x.
+Then Lakshmi’s saving = income − expenditure = (18/7 x) − 2x = (4/7) x.
+Let Meenakshi’s income = y, so her saving = y − 3x.
+Given their savings ratio is 4:9 , (4/7 x) : (y − 3x) = 4 : 9.
+So (4/7 x) / (y − 3x) = 4/9 , solving gives y = (30/7) x.
+Hence incomes are (18/7 x) : (30/7 x) = 18 : 30 = 3 : 5",,Breakup,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,345c0150-6a1f-4b0c-a6c4-ffb65793b59e
+CAT-2025-S3-QA-009,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2025,3,,,,Breakup G Strategy,Ratios,Breakup G Strategy: Ratios,,"The ratio of the number of coins in boxes A and B was 17:7. After 108 coins were shifted from box A to box B, this ratio became 37:20. The number of coins to be further shifted from box A to box B to make this ratio 1:1 is:
+[TITA]",,,,,tita,,272,,,,match,"Correct Answer: 272
+Let the number of coins in Box A be 17x and in Box B be 7x.
+After shifting 108 coins:
+New number of coins in A = 17x - 108, in B = 7x + 108.
+The ratio becomes 37:20, so we set up the equation:
+(17x - 108) / (7x + 108) = 37 / 20
+Solving this gives x = 76.
+Coins in A = 17 * 76 = 1292, and in B = 7 * 76 = 532.
+After shifting 108 coins:
+A has 1184 coins, and B has 640 coins.
+To make the ratio 1:1:
+Set up the equation for the 1:1 ratio:
+(1184 - y) / (640 + y) = 1
+Solving gives y = 272.
+Answer 272",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,e7679ace-83fd-47b2-a197-fb566327f34e
+CAT-2023-S2-QA-024,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2023,2,,,,,Ratio,,,"In a company, 20% of the employees work in the manufacturing department. If the total salary obtained by all the manufacturing employees is one-sixth of the total salary obtained by all the employees in the company, then the ratio of the average salary obtained by the manufacturing employees to the average salary obtained by the non-manufacturing employees is",6 : 5,5 : 6,5 : 4,4 : 5,mcq,D,4 : 5,,,,match,"If 20% of employees work in the manufacturing department, and the total salary of manufacturing employees is one-sixth of the total salary of all employees, then the ratio of the average salary of manufacturing employees to non-manufacturing employees is 4:5.",,,False,,https://iimking.com/ratio-actual-question-in-cat-2023-slot-2/,a39389e7-1df5-46bb-8272-2f33000370f3
+CAT-2023-S2-QA-036,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2023,2,,,,,Ratio,,,"The price of a precious stone is directly proportional to the square of its weight. Sita has a precious stone weighing 18 units. If she breaks it into four pieces with each piece having distinct integer weight, then the difference between the highest and lowest possible values of the total price of the four pieces will be 288000. Then, the price of the original precious stone is",1944000,1620000,1296000,972000,mcq,C,1296000,,,,match,Option 3,,,False,,https://iimking.com/ratio-actual-question-in-cat-2023-slot-2/,76b9f34a-1289-48d4-93dd-70c2a886d135
+CAT-2023-S3-QA-015,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2023,3,15,,,Vedic Patterns G Strategy,"Arithmetic - Ratio, Proportion & Variation",,,"Two collectors A and B collect coins weekly in the ratio 3:4. If A collects a multiple of 7 in 5 weeks and B collects a multiple of 24 in 3 weeks, what is the minimum number of coins collected by A in one week?",35,42,49,56,mcq,B,42,,,,match,"The minimum number of coins collected by A in one week is 42.
+The least common multiple of the constraints gives \( x = 14 \), making \( 3x = 42 \).",,,False,,https://iimking.com/vedic-tables-g-strategy-cat-2023-slot-3/,c10012b0-fa24-4430-9173-915b523308f8
+CAT-2023-S3-QA-026,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2023,3,,,,,,,,"Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2 : 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be",16,21,17,24,mcq,C,17,,,,match,,,,False,,https://iimking.com/ratio-cat-2023-actual-question-slot-3/,1e106172-66ad-44d3-904e-ff28081e54a0
+CAT-2023-S3-QA-034,sequence,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2023,3,,,,,,,,"The number of coins collected per week by two coin-collectors A and B are in the ratio 3 : 4. If the total number of coins collected by A in 5 weeks is a multiple of 7, and the total number of coins collected by B in 3 weeks is a multiple of 24, then the minimum possible number of coins collected by A in one week is",,,,,tita,,42,,,,match,,,,False,,https://iimking.com/ratio-cat-2023-actual-question-slot-3/,2b803c47-f5a4-46ca-9ace-03996ed37e85
+CAT-2022-S1-QA-001,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2022,1,1,,,,Ratio,,,"Pinky is standing in a queue at a ticket counter. Suppose the ratio of the number of persons standing ahead of Pinky to the number of persons standing behind her in the queue is 3 : 5. If the total number of persons in the queue is less than 300, then the maximum possible number of persons standing ahead of Pinky is",,,,,tita,,111,,,,match,"The ratio of the number of persons standing ahead of Pinky to the number of persons standing behind her in the queue is 3 : 5.
+Let’s assume that there are 3x number of people ahead of Pinky, then the number of people behind her will be 5x.
+The total number of people in the queue is 8x + 1.
+Since the total number of people in the queue is less than 300.
+8x + 1 < 300
+x≤37
+To find the maximum number of people ahead of Pinky, we take the maximum possible value of x, which is 37.
+Therefore, the maximum number of people ahead of Pinky is 3 * 37 = 111",,,False,,https://iimking.com/cat-previous-year-questions-ratio/,a3a290bc-3288-4d60-bf31-9dc2242112a4
+CAT-2022-S1-QA-002,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2022,1,2,,,,Ratio,,,"In a village, the ratio of number of males to females is 5 : 4. The ratio of number of literate males to literate females is 2 : 3. The ratio of the number of illiterate males to illiterate females is 4 : 3. If 3600 males in the village are literate, then the total number of females in the village is",,,,,tita,,"43,200",,,,match,"The ratio of the number of males to females is 5 : 4
+The ratio of the number of literate males to literate females is 2 : 3.
+The ratio of the number of illiterate males to illiterate females is 4 : 3.
+Let,
+The number of males to females is 5x, 4x
+The number of literate males to literate females is 2y, 3y.
+The number of illiterate males to illiterate females is 4z, 3z.
+We know that the ratio of the number of males to females is 5 : 4
+2y+4z/3y+3z=5/4
+4(2y + 4z) = 5(3y + 3z)
+8y + 16z = 15y + 15z
+z = 7y
+3600 males in the village are literate.
+2y = 3600
+y = 1800
+Total number of females = 24y = 24(1800) = 43,200",,,True,https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-Quant/figa/image033.png | https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-1-Quant/figa/image035.png,https://iimking.com/cat-previous-year-questions-ratio/,7c2631f7-1a5f-425d-8a9d-e5e3b8171af3
+CAT-2021-S1-QA-004,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2021,1,4,,,,Ratio,,,The amount Neeta and Geeta together earn in a day equals what Sita alone earns in 6 days. The amount Sita and Neeta together earn in a day equals what Geeta alone earns in 2 days. The ratio of the daily earnings of the one who earns the most to that of the one who earns the least is,7 : 3,11 : 3,11 : 7,3 : 2,mcq,B,11 : 3,,,,match,"Let's consider the one-day earnings of Neeta, Geeta, Sita to be n, g, s respectively.
+The amount Neeta and Geeta together earn in a day equals what Sita alone earns in 6 days
+n + g = 6(s) → eq(1)
+The amount Sita and Neeta together earn in a day equals what Geeta alone earns in 2 days
+s + n = 2(g) → eq(2)
+By solving eq (1) & (2) you will get the ratio n : g : s = 11 : 7 : 3
+The ratio of the daily earnings of the one who earns the most to that of the one who earns the least is 11:3",,,False,,https://iimking.com/cat-previous-year-questions-ratio/,29c6ad1d-5a73-4435-902e-e0de1fc0f353
+CAT-2021-S3-QA-003,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2021,3,3,,,,Ratio,,,"One part of a hostel's monthly expenses is fixed, and the other part is proportional to the number of its boarders. The hostel collects ₹ 1600 per month from each boarder. When the number of boarders is 50, the profit of the hostel is ₹ 200 per boarder, and when the number of boarders is 75, the profit of the hostel is ₹ 250 per boarder. When the number of boarders is 80, the total profit of the hostel, in INR, will be",20800,20200,20500,20000,mcq,C,20500,,,,match,"Let the fixed cost be ₹ F and the variable cost be ₹ V.
+Since the profit per border is ₹200 when there are 50 borders
+The expenses of the Hostel is,
+F + 50(V) = 50 (1600 - 200)
+F + 50(V) = 50 (1400) — (1)
+Since the profit per border is ₹250 when there are 75 borders
+The expenses of the Hostel is,
+F + 75(V) = 75 (1600 - 250)
+F + 75(V) = 75 (1350) — (2)
+(2) - (1)
+25(V) = 75(1350) - 50(1400)
+25(V) = 25( 3(1350) - 2(1400) )
+V = 3(1350) - 2(1400)
+V = 4050 - 2800
+V = 1250
+F + 75(V) = 75 (1350)
+F + 75(1250) = 75 (1350)
+F = 75(100) = 7500
+The Expenditure for 80 borders will be,
+= F + 80(V)
+= 7500 + 80(1250)
+The revenue collected from 80 students is,
+= 80(1600)
+Hence, the profit is,
+= 80(1600) - (7500 + 80(1250))
+= 80(1600 - 1250) - 7500
+= 80(350) - 7500
+= 100(8×35 - 75)
+= 20500
+Hence the total profit when there are 80 borders is ₹20500.",,,False,,https://iimking.com/cat-previous-year-questions-ratio/,77f2087e-115e-42b0-8254-833005de0396
+CAT-2020-S1-QA-006,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2020,1,6,,,,Ratio,,,"A solution, of volume 40 litres, has dye and water in the proportion 2 : 3. Water is added to the solution to change this proportion to 2 : 5. If one-fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining solution to bring the proportion back to 2 : 3?",,,,,tita,,8,,,,match,"40 litres is split in ratio 2:3
+So dye = 16 l and water = 24 l
+Now proportion is 2:5
+Already in the ratios 2:3
+2 : 5
+Now, 16 l of dye : 40 l of water
+16 l of water is added
+1414th is removed from the proportion
+12 l of dye : 30 l of water
+Now how many dye has to be added to make 2 : 3
+2 : 3
+12 l of dye : 30 l of water
+Multiplication factor is 10 (3 × 10 = 30)
+2 × 10 = 20 l of dye in total,
+So 8 l of dye has to be added",,,False,,https://iimking.com/cat-previous-year-questions-ratio/,50db050a-8c4a-4e01-ac0e-d96c781ee67c
+CAT-2020-S2-QA-005,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2020,2,5,,,,Ratio,,,"A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then Sunil’s share, in rupees, is",,,,,tita,,,800,ai_unverified,"A:S:M=6:4:5, 2k=400 => k=200, Sunil=4k=800",missing_found,"A : S : M
+3 : 2
+4 : 5
+6 : 4 : 5
+Given difference 6k – 4k = 2k = 400
+k = 800",,,False,,https://iimking.com/cat-previous-year-questions-ratio/,8a3b4c44-6a45-40ac-8197-f3335f8a9b85
+CAT-2019-S1-QA-009,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2019,1,9,,,,Ratio,,,"Amala, Bina, and Gouri invest money in the ratio 3 : 4 : 5 in fixed deposits having respective annual interest rates in the ratio 6 : 5 : 4. What is their total interest income (in Rs) after a year, if Bina's interest income exceeds Amala's by Rs 250?",7000,6000,6350,7250,mcq,D,7250,,,,match,"We know, Interest income Amount invested
+And Interest income Interest rate
+Therefore, Interest income must be in the ratio of the product of their Amount invested and Interest rate.
+So, Ratios of Interest incomes of Amala, Bina and Gouri = 18: 20: 20
+Bina's Interest income exceeds Amala by 250 Rs.
+So, 20 x - 18 x = 250
+2x = 250
+So, Total Interest income = 250 x (9 + 10 + 10) = 7250 Rs.
+Total Interest Income = Rs. 7250",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image079.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image080.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-Quant/figa/image080.png,https://iimking.com/cat-previous-year-questions-ratio/,48f81913-16c0-4d29-aaef-8b5d266d891f
+CAT-2019-S2-QA-007,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2019,2,7,,,,Ratio,,,"In an examination, Rama's score was one-twelfth of the sum of the scores of Mohan and Anjali. After a review, the score of each of them increased by 6. The revised scores of Anjali, Mohan, and Rama were in the ratio 11:10:3. Then Anjali's score exceeded Rama's score by",26,32,24,35,mcq,B,32,,,,match,"It is given that the scores of Anjali, Mohan and Rama after review were in the ratio 11: 10: 3
+So, let their values be 11x, 10x and 3x respectively.
+It is known that their score increased by 6 after review.
+So, scores before review = 11x-6, 10x-6 and 3x-6 respectively
+Now, from the data given
+(11x - 6 + 10x - 6) x = 3x - 6
+21x - 12 = 36x - 72
+60 = 15x
+x = 4
+So, marks after revision are 44, 40 and 12 respectively.
+Therefore, Anjali's score exceeded Rama's by 44 - 12 = 32 marks",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image042.png,https://iimking.com/cat-previous-year-questions-ratio/,60edbc66-e637-46cd-86b8-d9255f18b6b0
+CAT-2019-S2-QA-008,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2019,2,8,,,,Ratio,,,"The salaries of Ramesh, Ganesh and Rajesh were in the ratio 6:5:7 in 2010, and in the ratio 3:4:3 in 2015. If Ramesh’s salary increased by 25% during 2010-2015, then the percentage increase in Rajesh’s salary during this period is closest to",7,8,9,10,mcq,A,7,,,,match,"The salaries of Ramesh, Ganesh and Rajesh were in the ratio 6: 5: 7 in 2010
+In 2015, their salaries are in the ratio 3: 4: 3 respectively.
+It is also given that; Ramesh's salary increases by 25% during 2010 - 2015
+So, Ramesh's salary in 2015 = x 6 = 7.5
+Salary in 2015 = 3: 4: 3 (Given)
+Salary in 2015 = 7.5: x: y (From data)
+3 in order to jump to 7.5, must be multiplied by 2.5
+So, multiplying 2.5 to all the other values,
+Salary in 2015 = 7.5: 10: 7.5
+Percentage increase in Rajesh's salary during 2010 - 2015 = Percentage increase from 7 to 7.5 = x 100, which is close to 7%",,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image043.png | https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-2-Quant/figa/image059.png,https://iimking.com/cat-previous-year-questions-ratio/,05474149-631f-4595-aeda-93bfcc172dbc
+CAT-2018-S2-QA-010,paper,Arithmetic,Ratios,topic_map,Ratio & Variation,True,2018,2,10,,,,Ratio,,,"There are two drums, each containing a mixture of paints A and B. In drum 1, A and B are in the ratio 18 : 7. The mixtures from drums 1 and 2 are mixed in the ratio 3 : 4 and in this final mixture, A and B are in the ratio 13 : 7. In drum 2, then A and B were in the ratio",251 : 163,239 : 161,220 : 149,229 : 141,mcq,,,B,ai_unverified,3(18/25)+4x=7(13/20) => x=239/400 => 239:161,missing_found,,,,False,,https://iimking.com/cat-previous-year-questions-ratio/,2c902450-1153-442e-871e-2bebc6145a90

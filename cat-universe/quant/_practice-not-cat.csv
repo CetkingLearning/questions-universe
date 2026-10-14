@@ -1,0 +1,1389 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,,,,,Number System,,2025,,,,,Vedic Patterns G Strategy,,,,"A cafeteria offers 5 types of sandwiches. Moreover, for each type of sandwich, a customer can choose one of 4 breads and opt for either small or large sized sandwich. Optionally, the customer may also add up to 2 out of 6 available sauces. The number of different ways in which an order can be placed for a sandwich, is",880,600,800,840,mcq,A,880,,,,not_checked,"Given 5 sandwiches
+4 breads
+2 sizes
+Sauces: choose 0, 1, or 2 from 6
+Number of sauce choices:
+0 sauces → 1 way
+1 sauce → 6 ways
+2 sauces → 15 ways
+Total = 22 ways.
+Total combinations =
+5 × 4 × 2 × 22 = 880.
+Answer: 880",,PnC G Strategy,False,,https://iimking.com/cat-2025-vedic-patterns-g-strategy/,1a52ed38-b4ac-43c2-998f-7c1a5fcf7a9a
+,,,,,Number System,,2024,1,,,,Vedic Patterns G Strategy,,,,"When 10^100 is divided by 7, find the remainder.",1,6,3,4,mcq,D,4,,,,not_checked,"10^100 mod 7 - Cyclic Remainder Table
+Finding the Remainder of \( 10^{100} \div 7 \)
+Let’s analyze the cyclic pattern of \( 10^n \mod 7 \):
+Power \( n \)
+\( 10^n \mod 7 \)
+1
+\( 3 \)
+2
+\( 2 \)
+3
+\( 6 \)
+4
+\( 4 \)
+5
+\( 5 \)
+6
+\( 1 \)
+Since the cycle length is 6, we reduce:
+\( 100 \mod 6 = 4 \), so we calculate \( 10^4 \mod 7 \)
+Therefore, the remainder when \( 10^{100} \) is divided by 7 is \( \boxed{4} \).",,Vedic Tables,False,,https://iimking.com/vedic-g-strategy-cat-2024-slot-1/,073ee9cf-24d7-492f-9966-d321f25004d3
+,,,,,Profit & Loss,,2024,1,,,,Breakup G Strategy,Profit Loss + Percentages,Profit Loss + Percentages,,"The selling price of a product is fixed to ensure 40% profit. If the product had cost 40% less and had been sold for 5 rupees less, then the resulting profit would have been 50%. The original selling price, in rupees, of the product is",15,10,20,14,mcq,D,14,,,,not_checked,"Selling Price Profit Problem
+Profit and Selling Price Problem
+Let the original cost price be \( x \)
+Then the original selling price is:
+\( \text{SP} = x + 0.4x = 1.4x \)
+New cost price is 40% less than the original cost price:
+\( \text{New CP} = x - 0.4x = 0.6x \)
+New selling price is ₹5 less than the original SP:
+\( \text{New SP} = 1.4x - 5 \)
+Given: New profit is 50% on the new cost price:
+\( \text{New SP} = \text{New CP} + 50\% \text{ of New CP} = 0.6x + 0.3x = 0.9x \)
+So we form the equation:
+\( 1.4x - 5 = 0.9x \)
+Simplify:
+\( 1.4x - 0.9x = 5 \Rightarrow 0.5x = 5 \Rightarrow x = 10 \)
+Original selling price = \( 1.4x = 1.4 \times 10 = \boxed{14} \)
+Final Answer: \( \boxed{14} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,19a91039-e859-4f95-84b1-7c2c75a4764a
+,,,,,Mensuration,,2024,1,,,,Breakup G Strategy,Rectangles + Mensuration + Pythagoras Theorm,Rectangles + Mensuration + Pythagoras Theorm,,"ABCD is a rectangle with sides AB = 56 cm and BC = 45 cm, and E is the midpoint of side CD. Then, the length, in cm, of radius of incircle of ∆ADE is",,,,,tita,,10,,,,not_checked,"Inradius of Triangle ADE
+Finding the Inradius of Triangle ADE
+Given:
+Rectangle \(ABCD\) with \(AB = 56\) cm and \(BC = 45\) cm
+\(E\) is the midpoint of \(CD\)
+We are to find the inradius of triangle \(ADE\)
+Step 1: Coordinates and Lengths
+Let us place the rectangle on the coordinate plane:
+\(A(0, 0)\), \(B(56, 0)\), \(C(56, 45)\), \(D(0, 45)\)
+\(E\), the midpoint of \(CD\), is:
+\[
+E = \left( \frac{0 + 56}{2}, \frac{45 + 45}{2} \right) = (28, 45)
+\]
+Now find the sides of triangle \(ADE\):
+\(AD = 45\)
+\(DE = 28\)
+\(AE = \sqrt{(28)^2 + (45)^2} = \sqrt{784 + 2025} = \sqrt{2809} = 53\)
+Step 2: Use Inradius Formula
+For a triangle with sides \(a, b, c\), the inradius is:
+\[
+r = \frac{A}{s}, \quad \text{where } s = \frac{a + b + c}{2}
+\]
+Here,
+\[
+a = 45, \quad b = 28, \quad c = 53
+\Rightarrow s = \frac{45 + 28 + 53}{2} = \frac{126}{2} = 63
+\]
+Use Heron's Formula to find area \(A\):
+\[
+A = \sqrt{s(s - a)(s - b)(s - c)} = \sqrt{63 \cdot 18 \cdot 35 \cdot 10}
+\]
+\[
+= \sqrt{396900} = 630
+\]
+Step 3: Compute Inradius
+\[
+r = \frac{A}{s} = \frac{630}{63} = \boxed{10}
+\]
+✅ Final Answer: \( \boxed{10 \text{ cm}} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,1e170f3d-bdfe-4422-bdb9-c85c8ea9384a
+,,,,,Simple & Compound Interest,,2024,1,,,,Breakup G Strategy,Interest + Ratios,Interest + Ratios,,"An amount of Rs 10000 is deposited in bank A for a certain number of years at a simple interest of 5% per annum. On maturity, the total amount received is deposited in bank B for another 5 years at a simple interest of 6% per annum. If the interests received from bank A and bank B are in the ratio 10 : 13, then the investment period, in years, in bank A is",,,,,tita,,6,,,,not_checked,"Simple Interest Ratio Problem
+Finding the Investment Period in Bank A
+Given:
+Principal \( P = ₹10,000 \)
+Bank A: Simple Interest at 5% for \( x \) years
+Total amount from Bank A deposited in Bank B for 5 years at 6%
+Interests from Bank A and Bank B are in ratio 10 : 13
+Step 1: Interest from Bank A
+\[
+\text{SI}_A = \frac{P \cdot R \cdot T}{100} = \frac{10000 \cdot 5 \cdot x}{100} = 500x
+\]
+Step 2: Amount Deposited in Bank B
+Total Amount after Bank A:
+\[
+A = 10000 + 500x
+\]
+Interest from Bank B:
+\[
+\text{SI}_B = \frac{(10000 + 500x) \cdot 6 \cdot 5}{100} = \frac{(10000 + 500x) \cdot 30}{100}
+= \frac{300000 + 15000x}{100} = 3000 + 150x
+\]
+Step 3: Using the Given Ratio
+\[
+\frac{\text{SI}_A}{\text{SI}_B} = \frac{10}{13} \Rightarrow
+\frac{500x}{3000 + 150x} = \frac{10}{13}
+\]
+Cross-multiplying:
+\[
+13 \cdot 500x = 10(3000 + 150x)
+\Rightarrow 6500x = 30000 + 1500x
+\Rightarrow 5000x = 30000
+\Rightarrow x = \boxed{6}
+\]
+✅ Final Answer: \( \boxed{6 \text{ years}} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,235a859c-9b4d-4214-be12-e66907dcb182
+,,,,,Quadratic & Polynomials,,2024,1,,,,Breakup G Strategy,Indices + Quadratic,Indices + Quadratic,,"MathJax Exponent Equation
+The sum of all real values of \( k \) for which
+\( \left( \frac{1}{8} \right)^k \times \left( \frac{1}{32768} \right)^{\frac{1}{3}} = \frac{1}{8} \times \left( \frac{1}{32768} \right)^{\frac{1}{k}} \), is:",\( \frac{4}{3} \),\( -\frac{4}{3} \),\( \frac{2}{3} \),\( -\frac{2}{3} \),mcq,D,\( -\frac{2}{3} \),,,,not_checked,"Sum of Real Values of k
+Sum of All Real Values of \( k \)
+We are given the equation:
+\[
+\left( \frac{1}{8} \right)^k \cdot \left( \frac{1}{32768} \right)^{1/3}
+= \left( \frac{1}{8} \right) \cdot \left( \frac{1}{32768} \right)^{1/k}
+\]
+Step 1: Convert all terms to base 2
+\[
+\frac{1}{8} = 2^{-3}, \quad \frac{1}{32768} = 2^{-15}
+\]
+\[
+\Rightarrow (2^{-3})^k \cdot (2^{-15})^{1/3}
+= 2^{-3} \cdot (2^{-15})^{1/k}
+\]
+\[
+\Rightarrow 2^{-3k - 5} = 2^{-3 - \frac{15}{k}}
+\]
+Step 2: Equating the exponents
+\[
+-3k - 5 = -3 - \frac{15}{k}
+\Rightarrow 3k + \frac{15}{k} = -2
+\]
+Step 3: Clear the fraction
+Multiply both sides by \( k \):
+\[
+3k^2 + 15 = -2k
+\Rightarrow 3k^2 + 2k - 15 = 0
+\]
+Step 4: Use sum of roots formula
+This is a quadratic of the form \( ax^2 + bx + c = 0 \).
+The sum of real roots is:
+\[
+-\frac{b}{a} = -\frac{2}{3}
+\]
+✅ Final Answer: \( \boxed{-\frac{2}{3}} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,30029f54-225c-42ac-ae00-a62f096f6403
+,,,,,Ratio & Variation,,2024,1,,,,Breakup G Strategy,Ratios + Simple Equations,Ratios + Simple Equations,,"A fruit seller has a total of 187 fruits consisting of apples, mangoes and oranges. The number of apples and mangoes are in the ratio 5 : 2. After she sells 75 apples, 26 mangoes and half of the oranges, the ratio of number of unsold apples to number of unsold oranges becomes 3 : 2. The total number of unsold fruits is: ______ TITA",,,,,tita,,66,,,,not_checked,"Detailed Solution
+Total fruits = 187
+Apples : Mangoes = 5 : 2
+Let the number of apples = \( 5x \), mangoes = \( 2x \)
+Then, oranges = \( 187 - (5x + 2x) = 187 - 7x \)
+After selling:
+Apples sold = 75 → Unsold = \( 5x - 75 \)
+Mangoes sold = 26 → Unsold = \( 2x - 26 \)
+Oranges sold = half → Unsold = \( \frac{187 - 7x}{2} \)
+Given: Ratio of unsold apples to unsold oranges is \( 3:2 \)
+So,
+\( \frac{5x - 75}{\frac{187 - 7x}{2}} = \frac{3}{2} \)
+Solve:
+\( 2(5x - 75) = 3 \cdot \frac{187 - 7x}{2} \)
+\( \Rightarrow 4(5x - 75) = 3(187 - 7x) \)
+\( \Rightarrow 20x - 300 = 561 - 21x \)
+\( \Rightarrow 41x = 861 \Rightarrow x = 21 \)
+Now compute values:
+Apples = \( 5x = 105 \)
+Mangoes = \( 2x = 42 \)
+Oranges = \( 187 - 147 = 40 \)
+Unsold Fruits:
+Apples = \( 105 - 75 = 30 \)
+Mangoes = \( 42 - 26 = 16 \)
+Oranges = \( \frac{40}{2} = 20 \)
+Total unsold fruits = 30 + 16 + 20 = 66",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,357a49d4-b17d-4f37-b01f-4c6d5ab64d1e
+,,,,,Percentages,,2024,1,,,,Breakup G Strategy,Ratios + Percentages,Ratios + Percentages,,"In September, the incomes of Kamal, Amal and Vimal are in the ratio 8 ∶ 6 ∶ 5. They rent a house together, and Kamal pays 15%, Amal pays 12% and Vimal pays 18% of their respective incomes to cover the total house rent in that month. In October, the house rent remains unchanged while their incomes increase by 10%, 12% and 15%, respectively. In October, the percentage of their total income that will be paid as house rent, is nearest to?",13.26,15.18,12.75,14.84,mcq,A,13.26,,,,not_checked,"House Rent Percentage - October
+House Rent as Percentage of Total Income in October
+Incomes in September:
+Kamal : Amal : Vimal = 8 : 6 : 5
+Let their incomes be:
+Kamal = \( 8x \), Amal = \( 6x \), Vimal = \( 5x \)
+Rent Contributions in September:
+Kamal pays 15% → \( 0.15 \times 8x = 1.2x \)
+Amal pays 12% → \( 0.12 \times 6x = 0.72x \)
+Vimal pays 18% → \( 0.18 \times 5x = 0.9x \)
+Total Rent:
+\( 1.2x + 0.72x + 0.9x = 2.82x \)
+Incomes in October:
+Kamal = \( 8x \times 1.10 = 8.8x \)
+Amal = \( 6x \times 1.12 = 6.72x \)
+Vimal = \( 5x \times 1.15 = 5.75x \)
+Total Income in October:
+\( 8.8x + 6.72x + 5.75x = 21.27x \)
+Rent as % of October's total income:
+\( \frac{2.82x}{21.27x} \times 100 = \frac{2.82}{21.27} \times 100 \approx 13.25\% \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,4c2c914d-2a82-4010-97fc-40e369967ddb
+,,,,,Ratio & Variation,,2024,1,,,,Breakup G Strategy,Ratios + Allegations,Ratios + Allegations,,"A glass is filled with milk. Two-thirds of its content is poured out and replaced with water. If this process of pouring out two-thirds the content and replacing with water is repeated three more times, then the final ratio of milk to water in the glass, is",1:27,1:81,1: 26,1:80,mcq,D,1:80,,,,not_checked,"2/3 removed so left milk is 1/3.
+Repeating this 4 times.. Milk is 1/3x1/3x1/3x1/3 = 1/81
+Final ratio of Milk to water will be 1:80",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,58b1d32e-6eae-426d-89bf-40aef9cf93f0
+,,,,,Logarithms & Indices,,2024,1,,,,Breakup G Strategy,Logs DPAC Shortcut,Logs DPAC Shortcut,,"Logarithm Equation Question
+If \( x \) is a positive real number such that
+\( 4 \log_{10} x + 4 \log_{100} x + 8 \log_{1000} x = 13 \),
+then the greatest integer not exceeding \( x \) is:",,,,,tita,,31,,,,not_checked,"Logarithmic Equation - Greatest Integer Not Exceeding x
+Greatest Integer Not Exceeding \( x \)
+We are given the equation:
+\[
+4 \log_{10} x + 4 \log_{100} x + 8 \log_{1000} x = 13
+\]
+Step 1: Convert all logs to base 10
+\[
+\log_{100} x = \frac{\log_{10} x}{\log_{10} 100} = \frac{\log_{10} x}{2}
+\quad \text{and} \quad
+\log_{1000} x = \frac{\log_{10} x}{\log_{10} 1000} = \frac{\log_{10} x}{3}
+\]
+Step 2: Substitute and simplify
+\[
+4 \log_{10} x + 4 \cdot \frac{\log_{10} x}{2} + 8 \cdot \frac{\log_{10} x}{3}
+= 4 \log x + 2 \log x + \frac{8}{3} \log x
+\]
+\[
+= \left(6 + \frac{8}{3}\right) \log x = \frac{26}{3} \log x
+\]
+Step 3: Solve the equation
+\[
+\frac{26}{3} \log x = 13
+\Rightarrow \log x = \frac{13 \cdot 3}{26} = \frac{39}{26} = \frac{3}{2}
+\Rightarrow x = 10^{3/2} = \sqrt{1000} \approx 31.62
+\]
+✅ Final Answer: \( \boxed{31} \)",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,ee903ea6-d83b-4997-9acf-144f9fb9e8bd
+,,,,,Averages & Mixtures,,2024,1,,,,Breakup G Strategy,Averages + Equations,Averages + Equations,,"There are four numbers such that average of first two numbers is 1 more than the first number, average of first three numbers is 2 more than average of first two numbers, and average of first four numbers is 3 more than average of first three numbers. Then, the difference between the largest and the smallest numbers, is ________ TITA",,,,,tita,,15,,,,not_checked,"Average-Based Number Problem
+Solution
+Let the four numbers be \( a, b, c, d \).
+Step 1:
+Average of first two numbers is 1 more than the first number:
+\[
+\frac{a + b}{2} = a + 1 \Rightarrow a + b = 2a + 2 \Rightarrow b = a + 2 \quad \text{(1)}
+\]
+Step 2:
+Average of first three numbers is 2 more than average of first two:
+\[
+\frac{a + b + c}{3} = \frac{a + b}{2} + 2
+\]
+From Step 1, \( \frac{a + b}{2} = a + 1 \), so:
+\[
+\frac{a + b + c}{3} = a + 3 \Rightarrow a + b + c = 3a + 9
+\]
+Substitute \( b = a + 2 \):
+\[
+a + (a + 2) + c = 3a + 9 \Rightarrow 2a + 2 + c = 3a + 9 \Rightarrow c = a + 7 \quad \text{(2)}
+\]
+Step 3:
+Average of all four numbers is 3 more than average of first three:
+\[
+\frac{a + b + c + d}{4} = \frac{a + b + c}{3} + 3
+\]
+From above, \( \frac{a + b + c}{3} = a + 3 \), so:
+\[
+\frac{a + b + c + d}{4} = a + 6 \Rightarrow a + b + c + d = 4a + 24
+\]
+Substitute \( b = a + 2 \), \( c = a + 7 \):
+\[
+a + (a + 2) + (a + 7) + d = 4a + 24 \Rightarrow 3a + 9 + d = 4a + 24 \Rightarrow d = a + 15 \quad \text{(3)}
+\]
+Step 4:
+We now have:
+\( a \)
+\( b = a + 2 \)
+\( c = a + 7 \)
+\( d = a + 15 \)
+So the smallest number is \( a \), and the largest is \( d = a + 15 \).
+\[
+\text{Difference} = (a + 15) - a = \boxed{15}
+\]
+Final Answer:
+\[
+\boxed{15}
+\]",,Breakup,False,,https://iimking.com/breakup-strategy-cat-2024-actual-questions-slot-1/,fde980c3-3b8d-4bae-983a-99f77c952fc0
+,,,,,Coordinate Geometry,,2024,2,,,,Breakup G Strategy,Coordinate + InCircle,Coordinate + InCircle,,"The coordinates of the three vertices of a triangle are: (1, 2), (7, 2), and (1, 10). Then the radius of the in circle of the triangle is ________",,,,,tita,,2,,,,not_checked,"Inradius of Triangle
+Problem:
+The coordinates of the vertices of a triangle are: \( (1, 2), (7, 2), (1, 10) \).
+Find the radius of the incircle of the triangle.
+Solution:
+When plotted, the triangle clearly forms a right-angled triangle with the right angle at point \( (1, 2) \).
+This is because two sides are aligned along the x-axis and y-axis.
+Let side \( a \) be the vertical leg:
+\[
+a = 10 - 2 = 8
+\]
+Let side \( b \) be the horizontal leg:
+\[
+b = 7 - 1 = 6
+\]
+Using the Pythagorean Theorem:
+\[
+\text{Hypotenuse } h = \sqrt{a^2 + b^2} = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} = 10
+\]
+The inradius of a right triangle is given by:
+\[
+r = \frac{a + b - h}{2}
+\]
+Substituting the values:
+\[
+r = \frac{8 + 6 - 10}{2} = \frac{4}{2} = 2
+\]
+Final Answer:
+The radius of the incircle is: \( \boxed{2} \)",,Breakup,True,https://iimking.com/wp-content/uploads/2025/06/image-28-991x1024.png | https://iimking.com/wp-content/uploads/2025/06/image-29-991x1024.png,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,0023d4ee-9140-42fa-b8cc-2482d2b90afc
+,,,,,Profit & Loss,,2024,2,,,,Breakup G Strategy,Profit Loss + Percentages,Profit Loss + Percentages,,"Bina incurs 19% loss when she sells a product at Rs. 4,860 to Shyam, who in turn sells this product to Hari. If Bina would have sold this product to Shyam at the purchase price of Hari, she would have obtained 17% profit. Then, the profit, in rupees, made by Shyam is _______",,,,,tita,,2160,,,,not_checked,"Profit Made by Shyam
+Problem:
+Bina incurs a 19% loss when she sells a product at Rs. 4,860 to Shyam, who in turn sells this product to Hari.
+If Bina would have sold this product to Shyam at the purchase price of Hari, she would have obtained a 17% profit.
+Then, the profit, in rupees, made by Shyam is:
+Solution:
+Let the cost price of the product for Bina be \( x \).
+Given she sold it to Shyam at a 19% loss:
+\[
+4860 = x \times (1 - 0.19) = 0.81x
+\]
+Solving:
+\[
+x = \frac{4860}{0.81} = 6000
+\]
+So, Bina's cost price was Rs. 6000.
+If Bina had sold it at Hari's purchase price and made a 17% profit:
+\[
+\text{Hari's Purchase Price} = 6000 \times 1.17 = 7020
+\]
+Shyam bought it at Rs. 4860 and sold it at Rs. 7020, so his profit was:
+\[
+7020 - 4860 = \boxed{2160}
+\]
+Final Answer:
+\( \boxed{\text{Rs. } 2160} \)",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,0a165e31-dc69-4a04-af66-0727a21c8ba3
+,,,,,Percentages,,2024,2,,,,Breakup G Strategy,Mixtures + Percentages + Ratios,Mixtures + Percentages + Ratios,,"A vessel contained a certain amount of a solution of acid and water. When 2 litres of water was added to it, the new solution had 50% acid concentration. When 15 litres of acid was further added to this new solution, the final solution had 80% acid concentration. The ratio of water and acid in the original solution was",5 : 4,5 : 3,3 : 5,4 : 5,mcq,C,3 : 5,,,,not_checked,"Acid-Water Solution Ratio
+Find the Ratio of Water to Acid in the Original Solution
+Let:
+\( A \) = original amount of acid in litres
+\( W \) = original amount of water in litres
+Step 1: After adding 2 litres of water
+New water = \( W + 2 \), acid remains \( A \)
+New total = \( A + W + 2 \)
+Given: 50% acid concentration:
+\[
+\frac{A}{A + W + 2} = \frac{1}{2}
+\Rightarrow 2A = A + W + 2
+\Rightarrow A = W + 2 \tag{1}
+\]
+Step 2: Add 15 litres of acid
+New acid = \( A + 15 \), water = \( W + 2 \), total = \( A + W + 17 \)
+Given: 80% acid concentration:
+\[
+\frac{A + 15}{A + W + 17} = \frac{4}{5}
+\Rightarrow 5(A + 15) = 4(A + W + 17)
+\Rightarrow 5A + 75 = 4A + 4W + 68
+\Rightarrow A - 4W = -7 \tag{2}
+\]
+Step 3: Solve equations (1) and (2)
+From (1): \( A = W + 2 \)
+Substituting into (2):
+\[
+(W + 2) - 4W = -7
+\Rightarrow -3W + 2 = -7
+\Rightarrow -3W = -9
+\Rightarrow W = 3
+\]
+\[
+\Rightarrow A = 3 + 2 = 5
+\]
+✅ Final Answer: The ratio of water to acid in the original solution is \( \boxed{3 : 5} \)",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,169587bb-0433-44fd-9817-4ffd8983fa30
+,,,,,Progressions,,2024,2,,,,Breakup G Strategy,Algebra + APGP + Fractions,Algebra + APGP + Fractions,,"Infinite Series Solution
+Find the sum of the series
+\[
+\frac{1}{5} \left( \frac{1}{5} - \frac{1}{7} \right) +
+\left( \frac{1}{5} \right)^2 \left( \left( \frac{1}{5} \right)^2 - \left( \frac{1}{7} \right)^2 \right) +
+\left( \frac{1}{5} \right)^3 \left( \left( \frac{1}{5} \right)^3 - \left( \frac{1}{7} \right)^3 \right) + \cdots
+\]",5/408,7/816,7/408,5/816,mcq,A,5/408,,,,not_checked,"Infinite Series Solution
+Solution to the Infinite Series
+Given Series:
+\[
+\frac{1}{5} \left( \frac{1}{5} - \frac{1}{7} \right) +
+\left( \frac{1}{5} \right)^2 \left( \left( \frac{1}{5} \right)^2 - \left( \frac{1}{7} \right)^2 \right) +
+\left( \frac{1}{5} \right)^3 \left( \left( \frac{1}{5} \right)^3 - \left( \frac{1}{7} \right)^3 \right) + \cdots
+\]
+✅ Step 1: Identify the General Term
+\[
+\sum_{n=1}^{\infty} \left( \frac{1}{5} \right)^n \left[ \left( \frac{1}{5} \right)^n - \left( \frac{1}{7} \right)^n \right]
+= \sum_{n=1}^{\infty} \left[ \left( \frac{1}{25} \right)^n - \left( \frac{1}{35} \right)^n \right]
+\]
+This is a difference of two geometric series.
+✅ Step 2: Evaluate Each Series
+Using the formula \( \sum_{n=1}^{\infty} r^n = \frac{r}{1 - r} \), we get:
+\[
+\sum_{n=1}^{\infty} \left( \frac{1}{25} \right)^n = \frac{1/25}{1 - 1/25} = \frac{1}{24}
+\]
+\[
+\sum_{n=1}^{\infty} \left( \frac{1}{35} \right)^n = \frac{1/35}{1 - 1/35} = \frac{1}{34}
+\]
+✅ Step 3: Subtract the Series
+\[
+\sum = \frac{1}{24} - \frac{1}{34} = \frac{34 - 24}{24 \cdot 34} = \frac{10}{816} = \frac{5}{408}
+\]
+🎯 Final Answer:
+\[
+\boxed{\frac{5}{408}}
+\]",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,19353c21-9eff-4983-a60d-eea08e469a58
+,,,,,Ratio & Variation,,2024,2,,,,Breakup G Strategy,Ages + Ratios,Ages + Ratios,,"When Rajesh’s age was same as the present age of Garima, the ratio of their ages was 3 : 2. When Garima’s age becomes the same as the present age of Rajesh, the ratio of the ages of Rajesh and Garima will become",2 : 1,3 : 2,4 : 3,5 : 4,mcq,D,5 : 4,,,,not_checked,"Age Ratio Problem
+Let the ages when Rajesh was Garima's current age be:
+Rajesh = \( 3x \), Garima = \( 2x \)
+Since this was when Rajesh's age matched Garima's current age:
+Garima's current age = \( 3x \)
+Age difference between them = \( 3x - 2x = x \)
+So, Rajesh’s current age = \( 3x + x = 4x \)
+Now, when Garima becomes as old as Rajesh is now (i.e., \( 4x \)), time passed = \( 4x - 3x = x \) years
+So, at that time:
+- Garima's age = \( 3x + x = 4x \)
+- Rajesh's age = \( 4x + x = 5x \)
+Hence, the required ratio = \( \frac{5x}{4x} = \frac{5}{4} \)
+Final Answer: Option 4) \( \boxed{5 : 4} \)",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,205356b2-cdb1-489f-b14c-53d582b5ee2d
+,,,,,Logarithms & Indices,,2024,2,,,,Breakup G Strategy,Logs + Maxima,Logs + Maxima,,"Logarithm Expression Problem
+If \( a, b, c \) are positive real numbers such that:
+\[
+a > 10 \geq b \geq c \quad \text{and} \quad
+\frac{\log_8(a + b)}{\log_2 c} + \frac{\log_{27}(a - b)}{\log_3 c} = \frac{2}{3}
+\]
+Then the greatest possible integer value of \( a \) is?",,,,,tita,,14,,,,not_checked,"Greatest Integer Value of a
+Problem:
+If \( a, b, c \) are positive real numbers such that:
+\( a > 10 \geq b \geq c \), and
+\[
+\frac{\log_8(a + b)}{\log_2 c} + \frac{\log_{27}(a - b)}{\log_3 c} = \frac{2}{3},
+\]
+then find the greatest possible integer value of \( a \).
+Step 1: Change of Base
+Using \( \log_b x = \frac{\log_k x}{\log_k b} \):
+\[
+\log_8(a + b) = \frac{\log_2(a + b)}{\log_2 8} = \frac{\log_2(a + b)}{3}, \quad
+\log_{27}(a - b) = \frac{\log_3(a - b)}{3}
+\]
+So the given equation becomes:
+\[
+\frac{1}{3} \cdot \frac{\log_2(a + b)}{\log_2 c} + \frac{1}{3} \cdot \frac{\log_3(a - b)}{\log_3 c} = \frac{2}{3}
+\]
+Multiply both sides by 3:
+\[
+\frac{\log_2(a + b)}{\log_2 c} + \frac{\log_3(a - b)}{\log_3 c} = 2
+\]
+Step 2: Convert to Single Log Base
+Using \( \frac{\log_b x}{\log_b y} = \log_y x \), we get:
+\[
+\log_c(a + b) + \log_c(a - b) = 2
+\]
+Using log product rule:
+\[
+\log_c\left((a + b)(a - b)\right) = \log_c(a^2 - b^2) = 2
+\]
+Hence:
+\[
+a^2 - b^2 = c^2 \Rightarrow a^2 = b^2 + c^2
+\]
+Step 3: Maximize \( a \) under Constraint
+Since \( 10 \geq b \geq c \), the maximum value of \( a \) will occur when both \( b \) and \( c \) are largest possible.
+Let:
+\[
+b = 10, \quad c = 10
+\]
+Then:
+\[
+a^2 = 10^2 + 10^2 = 200 \Rightarrow a = \sqrt{200} = 10\sqrt{2} \approx 14.14
+\]
+Final Answer:
+The greatest possible integer value of \( a \) is:
+\[
+\boxed{14}
+\]",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,32064afd-d38d-43f8-9c55-2318c3e4884d
+,,,,,Linear & Simple Equations,,2024,2,,,,Breakup G Strategy,,,,"Anil invests Rs 22000 for 6 years in a scheme with 4% interest per annum, compounded half-yearly. Separately, Sunil invests a certain amount in the same scheme for 5 years, and then reinvests the entire amount he receives at the end of 5 years, for one year at 10% simple interest. If the amounts received by both at the end of 6 years are equal, then the initial investment, in rupees, made by Sunil is",,,,,tita,,20812,,,,not_checked,"Compound and Simple Interest Problem
+Problem:
+Anil invests ₹22000 for 6 years in a scheme offering 4% interest per annum, compounded half-yearly.
+Sunil invests a certain amount in the same scheme for 5 years and then reinvests the entire amount for 1 year at 10% simple interest.
+If both receive the same amount at the end of 6 years, find Sunil's initial investment.
+Solution:
+Anil’s Investment:
+Compound interest formula:
+\[
+A = P \left(1 + \frac{r}{100}\right)^n
+\]
+- Principal \( P = 22000 \)
+- Rate per half-year = \( \frac{4}{2} = 2\% \)
+- Time = \( 6 \times 2 = 12 \) half-years
+\[
+A_{\text{Anil}} = 22000 \times (1.02)^{12} \approx 22000 \times 1.26824 = 27901.28
+\]
+Sunil’s Investment:
+Let the initial investment be \( P \).
+For 5 years = 10 half-years:
+\[
+A_{\text{5 years}} = P \times (1.02)^{10} \approx P \times 1.219
+\]
+Reinvested for 1 year at 10% simple interest:
+\[
+A_{\text{Sunil}} = A_{\text{5 years}} \times \left(1 + \frac{10}{100}\right) = P \times 1.219 \times 1.10 = P \times 1.3409
+\]
+Equating to Anil’s final amount:
+\[
+P \times 1.3409 = 27901.28
+\Rightarrow P = \frac{27901.28}{1.3409} \approx \boxed{20812}
+\]
+Final Answer:
+\( \boxed{₹20812} \)",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,4b8cf02f-6cae-4ffc-b204-ed6960055736
+,,,,,Linear & Simple Equations,,2024,2,,,,Breakup G Strategy,,,,"A fruit seller has a stock of mangoes, bananas and apples with at least one fruit of each type. At the beginning of a day, the number of mangoes make up 40% of his stock. That day, he sells half of the mangoes, 96 bananas and 40% of the apples. At the end of the day, he ends up selling 50% of the fruits. The smallest possible total number of fruits in the stock at the beginning of the day is ______ TITA",,,,,tita,,940,,,,not_checked,"Fruit Seller Problem
+Problem:
+A fruit seller has a stock of mangoes, bananas and apples, with at least one fruit of each type.
+Initially, mangoes make up 40% of the stock.
+He sells:
+Half of the mangoes
+96 bananas
+40% of the apples
+By the end of the day, he has sold 50% of his total stock.
+Find the smallest possible total number of fruits at the beginning of the day.
+Solution:
+Let total fruits be \( x \). Then:
+Mangoes = \( 0.4x \)
+Let bananas = \( b \)
+Then apples = \( x - 0.4x - b = 0.6x - b \)
+Fruits sold:
+Mangoes sold = \( \frac{1}{2} \times 0.4x = 0.2x \)
+Bananas sold = 96
+Apples sold = \( 0.4 \times (0.6x - b) = 0.24x - 0.4b \)
+Total fruits sold = 50% of total stock:
+\[
+0.2x + 96 + 0.24x - 0.4b = 0.5x
+\Rightarrow 0.44x - 0.4b + 96 = 0.5x
+\Rightarrow 96 - 0.4b = 0.06x
+\]
+Multiply both sides by 100:
+\[
+9600 - 40b = 6x \Rightarrow x = \frac{9600 - 40b}{6}
+\Rightarrow x = \frac{20(240 - b)}{3}
+\]
+For \( x \) to be a whole number, \( (240 - b) \) must be divisible by 3. So try smallest values of \( b \) such that:
+\[
+b \equiv 0 \pmod{3}
+\]
+Try \( b = 99 \):
+\[
+x = \frac{20(240 - 99)}{3} = \frac{20 \times 141}{3} = 940
+\]
+Check:
+Mangoes = \( 0.4 \times 940 = 376 \)
+Apples = \( 940 - 376 - 99 = 465 \)
+Mangoes sold = 188
+Apples sold = \( 0.4 \times 465 = 186 \)
+Bananas sold = 96
+Total sold = \( 188 + 186 + 96 = 470 = \frac{1}{2} \times 940 \)
+✅ Condition satisfied!
+Final Answer:
+\( \boxed{940} \)",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,6cfc1526-b3c7-4d4a-ba66-b278644772f3
+,,,,,Linear & Simple Equations,,2024,2,,,,Breakup G Strategy,MathJax Equation,MathJax Equation,,"Find the value of x?
+\[
+\left( x + 6\sqrt{2} \right)^{\frac{1}{2}} - \left( x - 6\sqrt{2} \right)^{\frac{1}{2}} = 2\sqrt{2},
+\]",,,,,tita,,11,,,,not_checked,"Square Root Equation Solution
+Solution Explanation using Squaring
+We are given the equation:
+\[
+\sqrt{x + 6\sqrt{2}} - \sqrt{x - 6\sqrt{2}} = 2\sqrt{2}
+\]
+✅ Step 1: Square both sides
+Using the identity \( (a - b)^2 = a^2 + b^2 - 2ab \):
+\[
+(\sqrt{x + 6\sqrt{2}} - \sqrt{x - 6\sqrt{2}})^2 = (2\sqrt{2})^2
+\]
+\[
+= (x + 6\sqrt{2}) + (x - 6\sqrt{2}) - 2\sqrt{(x + 6\sqrt{2})(x - 6\sqrt{2})}
+\]
+\[
+= 2x - 2\sqrt{x^2 - 72} = 8
+\]
+Divide both sides by 2:
+\[
+x - \sqrt{x^2 - 72} = 4
+\]
+✅ Step 2: Square both sides again
+\[
+\sqrt{x^2 - 72} = x - 4
+\]
+\[
+\Rightarrow x^2 - 72 = (x - 4)^2 = x^2 - 8x + 16
+\]
+\[
+\Rightarrow -72 = -8x + 16 \Rightarrow 8x = 88 \Rightarrow x = \boxed{11}
+\]
+🎯 Final Answer:
+\[
+\boxed{x = 11}
+\]",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,72be0ec7-9374-41ca-99e7-e4fab56fda12
+,,,,,Percentages,,2024,2,,,,Breakup G Strategy,Percentages + Averages + Equations,Percentages + Averages + Equations,,"A company has 40 employees whose names are listed in a certain order. In the year 2022, the average bonus of the first 30 employees was Rs. 40,000, of the last 30 employees was Rs. 60,000, and of the first 10 and last 10 employees together was Rs. 50,000. Next year, the average bonus of the first 10 employees increased by 100%, of the last 10 employees increased by 200% and of the remaining employees was unchanged. Then, the average bonus, in rupees, of all the 40 employees together in the year 2023 was",85000,95000,80000,90000,mcq,B,95000,,,,not_checked,"Bonus Distribution Explanation
+Bonus Distribution Explanation (HTML + MathJax)
+Let the total bonus of the first 10 employees be \( F \), and the last 10 employees be \( L \).
+Step 1: Using first 30 and last 30 employee data
+\[
+\text{Total bonus} = 30 \times 40{,}000 + L = 12{,}00{,}000 + L \tag{1}
+\]
+\[
+\text{Total bonus} = 30 \times 60{,}000 + F = 18{,}00{,}000 + F \tag{2}
+\]
+Equating (1) and (2):
+\[
+12{,}00{,}000 + L = 18{,}00{,}000 + F \Rightarrow L - F = 6{,}00{,}000 \tag{3}
+\]
+Step 2: Using first 10 and last 10 employee data
+\[
+\frac{F + L}{20} = 50{,}000 \Rightarrow F + L = 10{,}00{,}000 \tag{4}
+\]
+Substituting from (3): \( L = F + 6{,}00{,}000 \) into (4):
+\[
+F + (F + 6{,}00{,}000) = 10{,}00{,}000 \Rightarrow 2F = 4{,}00{,}000 \Rightarrow F = 2{,}00{,}000
+\]
+\[
+\Rightarrow L = 8{,}00{,}000
+\]
+Step 3: Middle 20 employee bonus
+\[
+\text{Total for first 30} = 30 \times 40{,}000 = 12{,}00{,}000
+\Rightarrow \text{Middle 20} = 12{,}00{,}000 - F = 10{,}00{,}000
+\]
+Step 4: Apply 2023 increases
+First 10 employees: 100% increase → \( 2 \times 2{,}00{,}000 = 4{,}00{,}000 \)
+Last 10 employees: 200% increase → \( 3 \times 8{,}00{,}000 = 24{,}00{,}000 \)
+Middle 20 unchanged → \( 10{,}00{,}000 \)
+Step 5: Final average bonus in 2023
+\[
+\text{Total bonus} = 4{,}00{,}000 + 10{,}00{,}000 + 24{,}00{,}000 = 38{,}00{,}000
+\]
+\[
+\text{Average bonus} = \frac{38{,}00{,}000}{40} = \boxed{95{,}000}
+\]
+✅ Final Answer: Rs. 95,000",,Breakup,False,,https://iimking.com/cat-2024-slot-2-breakup-g-strategy/,a482b98e-5d7c-44a7-9db0-846755d9bee0
+,,,,,Logarithms & Indices,,2024,3,,,,Breakup G Strategy,Indices + Logs,Indices + Logs,,"If 3^a = 4, 4^b = 5, 5^c = 6, 6^d = 7, 7^e = 8, and 8^f = 9, then what is the value of abcdef?",,,,,tita,,2,,,,not_checked,"a = log4 / log3, b = log5 / log4, c = log6 / log5, d = log7 / log6, e = log8 / log7, f = log9 / log8
+abcdef = log9 / log3 = log base 3 of 9 = 2",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,dad7828a-0667-4232-9980-52a20f902661
+,,,,,"Permutation, Combination & Probability",,2024,3,,,,Breakup G Strategy,PnC Basics,PnC Basics,,Find the number of all positive integers up to 500 with non-repeating digits.,,,,,tita,,378,,,,not_checked,"Type of Number
+Digit Positions
+Choices at Each Step
+Reasoning
+Count
+1-digit
+_
+1-9 → 9 choices
+Any digit 1-9 is valid
+9
+2-digit
+Tens digit
+1-9 → 9 choices
+Tens digit can't be 0
+81
+Units digit
+0-9 except tens digit → 9 choices
+Can't repeat tens digit
+3-digit (100-499)
+Hundreds digit
+1-4 → 4 choices
+First digit ≤ 4 so number ≤ 499
+288
+Tens digit
+0-9 except hundreds digit → 9 choices
+Must differ from hundreds digit
+Units digit
+0-9 except hundreds & tens digit → 8 choices
+Must differ from both
+Step 1: 1-digit numbers (1–9): 9
+Step 2: 2-digit numbers (10–99): Tens digit 1-9 → 9 choices, units digit ≠ tens → 9 choices → 9×9 = 81
+Step 3: 3-digit numbers (100–499): Hundreds 1-4 → 4, tens ≠ hundreds → 9, units ≠ previous → 8 → 4×9×8 = 288
+Total = 9 + 81 + 288 = 378",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,ff7c0269-ca7a-4ca8-b392-2ba16cac4cd6
+,,,,,Geometry,,2024,,1,,,,,,,"A circular plot of land is divided into two regions by a chord of length 10âˆš3 meters such that the chord subtends an angle of 120Â° at the center. Then, the area, in square meters, of the smaller region is:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,41974c27-034f-4dc2-b52a-ea15a46e6e07
+,,,,,Number System,,2024,,2,,,,,,,"If (a + bâˆš3)^2 = 52 + 30âˆš3, where a and b are natural numbers, then a + b equals:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a479795a-31c0-43f8-af48-48dcc12f9a21
+,,,,,"Time, Speed & Distance",,2024,,2,,,,,,,"A bus is 3.5 hours late when traveling at 60 km/hr. The next day, it travels 2/3 of the distance in 1/3 of the time and the remaining at 40 km/hr to reach on time. What is the scheduled arrival time?",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,f31066c0-9a6e-4c7f-a492-dba13ec8455d
+,,,,,Inequalities & Modulus,,2024,,3,,,,,,,"The number of distinct real values of x, satisfying the equation max{x, 2} âˆ’ min{x, 2} = |x + 2| âˆ’ |x âˆ’ 2| is:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,57183908-73a9-42d9-9b92-764a202a4cc1
+,,,,,Inequalities & Modulus,,2024,,3,,,,,,,All values of x satisfying the inequality 1/(x+5) â‰¤ 1/(2xâˆ’3) are:,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,9b8a6de1-2dab-447d-8c02-8c69f7a5b08a
+,,,,,Number System,,2024,,4,,,,,,,"When 3333 is divided by 11, the remainder is:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,5eea3512-5a11-49bc-8f0c-4446634689f4
+,,,,,Averages & Mixtures,,2024,,4,,,,,,,"The average of three distinct real numbers is 28. If the smallest number is increased by 7 and the largest number is reduced by 10, the order remains unchanged. The new mean is 2 more than the middle number and the new difference between largest and smallest is 64. Find the largest original number.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a439d018-86bc-4fb5-9ba9-c94b5bfb5b48
+,,,,,Simple & Compound Interest,,2024,,5,,,,,,,Aman invests Rs 4000 at compound interest. The ratio of the value after 3 years to after 5 years is 25:36. Find the minimum number of years required for the investment to exceed Rs 20000.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,5f04005b-841d-45fb-8ad9-7e660752ef2f
+,,,,,Number System,,2024,,5,,,,,,,"If m and n are natural numbers such that mn = 225 Ã— 340, then m âˆ’ n equals:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,6cb233d0-a827-4761-bfde-6651862e3541
+,,,,,Ratio & Variation,,2024,,6,,,,,,,Rajesh and Vimal own 20 and 30 hectares of land. Vimal grows wheat and mustard in 5:3 ratio. Total wheat:mustard ratio is 11:9. Find the wheat:mustard ratio in Rajeshâ€™s land.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a5b4617f-2fad-49e9-b45e-1d3d96fbe202
+,,,,,Inequalities & Modulus,,2024,,7,,,,,,,"If x and y satisfy |x| + x + y = 15 and x + |y| âˆ’ y = 20, then x âˆ’ y equals:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,8fcbac0d-bdfc-4d2f-9624-3f121154a0eb
+,,,,,Number System,,2024,,7,,,,,,,"If 10^68 is divided by 13, the remainder is:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,f5b76c79-3390-4f09-8216-8dee0387cfd7
+,,,,,Inequalities & Modulus,,2024,,8,,,,,,,"The number of distinct integer solutions (x, y) of the equation |x + y| + |x âˆ’ y| = 2 is:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,354f112d-6564-4a8a-8ee0-9fdd80ae6b2d
+,,,,,Simple & Compound Interest,,2024,,8,,,,,,,"Anil invests Rs 22000 for 6 years at 4% p.a. compounded half-yearly. Sunil invests an amount for 5 years in same scheme, then reinvests at 10% simple interest for 1 year. Their final amounts are equal. Find Sunilâ€™s initial investment.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,f16b6662-9b5e-49a0-915c-15fc332f75b5
+,,,,,Averages & Mixtures,,2024,,9,,,,,,,"A vessel contains an acid-water solution. After adding 2 litres water and then 15 litres acid, concentrations change from 50% to 80%. Find the original water:acid ratio.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,54f102de-4328-4ac7-bf85-ee5405e654fc
+,,,,,"Time, Speed & Distance",,2024,,9,,,,,,,"A train travelled a certain distance at uniform speed. If speed increased by 6 km/hr, time reduces by 4 hrs. If speed decreased by 6 km/hr, time increases by 6 hrs. Find the distance in km.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,63c2c5df-2435-4e54-9a88-26f3c987da8e
+,,,,,Progressions,,2024,,10,,,,,,,"Given a sequence defined as t1 = 1, t2 = âˆ’1, and tn = (nâˆ’3)/(nâˆ’1) * tnâˆ’2 for n â‰¥ 3. Find the value of 1/t2 + 1/t4 + 1/t6 + … + 1/t2024.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,1d00f063-9e8d-48ce-aef6-132239fc3788
+,,,,,Coordinate Geometry,,2024,,10,,,,,,,"The coordinates of a triangle are (1, 2), (7, 2), and (1, 10). Find the inradius.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,77a73f17-9c98-4458-993e-08e4e6309a69
+,,,,,Profit & Loss,,2024,,11,,,,,,,"Bina sells a product at Rs. 4860 and incurs 19% loss. Had she sold it at Hariâ€™s purchase price, she would have made 17% profit. Find Shyam's profit.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,5bc70f2c-b29c-4a7f-b693-8e282f9568fc
+,,,,,Logarithms & Indices,,2024,,11,,,,,,,"If 3^a = 4, 4^b = 5, 5^c = 6, 6^d = 7, 7^e = 8, 8^f = 9, then find the value of aÃ—bÃ—cÃ—dÃ—eÃ—f.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,bff4b4f0-4658-4099-b341-b2c4b1a64fc2
+,,,,,Percentages,,2024,,12,,,,,,,Gopalâ€™s salary becomes 187.5% of original after two successive increments. The second increment is twice the first. Find the percentage increase in the first increment.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,03c841a4-1848-4461-b7f9-24086f037675
+,,,,,Time & Work,,2024,,12,,,,,,,Amal and Vimal can complete a task in 150 days; Vimal and Sunil in 100. Work pattern alternates. Find total days to complete the task.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,1632f812-de18-4c1a-af70-8f1e75877635
+,,,,,Functions & Graphs,,2024,,13,,,,,,,"For non-zero real x, if f(x) + 2f(1/x) = 3x and f(x) = 3, find the sum of all such x.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,5f6cb07e-0f62-408c-9aee-6f94df6d0053
+,,,,,Ratio & Variation,,2024,,14,,,,,,,"When Rajeshâ€™s age was equal to Garimaâ€™s current age, their age ratio was 3:2. When Garima becomes Rajeshâ€™s current age, what will be their age ratio?",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,07b6371a-cc33-41dd-9245-edc30a68d6ee
+,,,,,Averages & Mixtures,,2024,,14,,,,,,,"A 300-litre container is partially filled with water, rest milk. Twice the water is removed, then refilled with water. Final mix is 72% milk. How much water was initially added?",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,17f3d2ff-9366-4fbd-8444-51c5bcf019dd
+,,,,,Progressions,,2024,,15,,,,,,,Find the sum of the infinite series: (1/5)(1/5 - 1/7) + (1/5)Â²((1/5)Â² - (1/7)Â²) + …,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,262f7bb8-d9b5-4c67-b50b-b145dc612b12
+,,,,,Set Theory,,2024,,15,,,,,,,"In a group of 250 students (44% to 60% girls), 50% boys and 80% girls swim; 70% boys and 60% girls run. Find minimum and maximum number of students who do both.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,d8d961c6-b446-4f40-b658-b6bc780e25cd
+,,,,,Maxima & Minima,,2024,,16,,,,,,,"A fruit seller has mangoes, bananas, and apples. 40% are mangoes. He sells half the mangoes, 96 bananas, and 40% apples. If 50% of stock is sold, find the minimum initial total stock.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,519ed1d9-771b-4d91-9785-e54fa58d3cdd
+,,,,,Logarithms & Indices,,2024,,16,,,,,,,Solve: 10^x + 4/(10^x) = 81/2. Find sum of all real values of x.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,84365b71-8ec9-49dc-9b9f-025fc95042dc
+,,,,,Geometry,,2024,,17,,,,,,,"Three identical circles touch each other. Two larger circles X and Y also touch them. If radius of X > Y, find ratio of their radii.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,08be85ba-6805-438c-9758-9c033fe0477f
+,,,,,Geometry,,2024,,17,,,,,,,"A regular octagon has side 6 cm. Find area of square formed by vertices A, C, E, G.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,c2cbb5bc-a065-4403-8bd2-98abbccf4839
+,,,,,Averages & Mixtures,,2024,,18,,,,,,,"In 2022, average bonus of first 30 employees was Rs. 40,000; last 30 was Rs. 60,000; first and last 10 combined was Rs. 50,000. In 2023, first 10 doubled, last 10 tripled. Find average bonus in 2023.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,3ad56578-44d6-4712-ab6a-eed440454bf7
+,,,,,Linear & Simple Equations,,2024,,18,,,,,,,System of equations: px âˆ’ 4y = 2 and 3x + ky = a. Find condition for no solution.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a9f78790-e5b4-48c8-b2ea-1b9059249cd6
+,,,,,Geometry,,2024,,19,,,,,,,"ABCD is a trapezium with AB = 2 cm, CD = 1 cm, and perimeter = 6 cm. AD and BC intersect at E. Find perimeter of triangle AEB.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,074c7b75-ed1e-4a0e-ba35-94f7ee8fa185
+,,,,,Profit & Loss,,2024,,19,,,,,,,Gopi marks price to make 20% profit. Ravi gets 10% discount and saves Rs 15. Find Gopi's profit in rupees.,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,b2740b11-611e-470a-ae2d-d77e3d630c44
+,,,,,Geometry,,2024,,20,,,,,,,"Triangle ABC has midpoints M, N, P on AB, BC, AC. Medians intersect MP, MN, NP at X, Y, Z. If area of ABC = 1440 sq cm, find area of triangle XYZ.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,d7af5e7d-66b8-4967-90d0-0909266c839e
+,,,,,"Permutation, Combination & Probability",,2024,,21,,,,,,,Number of all positive integers â‰¤ 500 with non-repeating digits:,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,460c42fa-f99f-4b74-a79b-ccf601f6cb1d
+,,,,,"Permutation, Combination & Probability",,2024,,21,,,,,,,"P, Q, R, and S are towns. Paths between them are defined. 62 ways exist from P to S; 27 ways from Q to R. Find number of direct paths between Q and R.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,f72a7da3-fc07-4c6a-beee-ea31c5b1168a
+,,,,,Time & Work,,2024,,22,,,,,,,"Sam alone does work in 20 days. Mohit is 2Ã— Sam, 3Ã— Ayna. They work alternately in pattern: Sam+Mohit, Sam+Ayna, Mohit+Ayna. What fraction of total work is done by Sam?",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,03da814a-b95c-4aed-b121-3375cd33ba60
+,,,,,Logarithms & Indices,,2024,,22,,,,,,,"If a > 10 â‰¥ b â‰¥ c and given a logarithmic equation involving a, b, c, find the greatest possible integer value of a.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,bb8232a8-9a3e-4223-84f2-d6487342cddb
+,,,,,Number System,,2024,,,,,,,,,"When 10Â¹â°â° is divided by 7, the remainder is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,099379a0-2665-49e9-87be-dbd8cd7c9f0f
+,,,,,Logarithms & Indices,,2024,,,,,,,,,"The sum of all real values of k for which the equation xÂ²Â²â·â¶ = xÂ²Â²â·â¶ holds true is. If k = 1, 32768, then the value of k is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,0ba7d19a-caf2-49d9-98e9-9017e8f3f1c2
+,,,,,"Time, Speed & Distance",,2024,,,,,,,,,"Two places A and B are 45 kms apart and connected by a straight road. Anil goes from A to B while Sunil goes from B to A. Starting at the same time, they cross each other in exactly 1 hour 30 minutes. If Anil reaches B exactly 1 hour 15 minutes after Sunil reaches A, the speed of Anil, in km per hour, is.",12,16,14,18,mcq,,,,,,not_checked,,,,False,,https://iimking.com/quant/,0e3fcdfa-8f36-4ae5-8cb8-af8c20a4df00
+,,,,,Mensuration,,2024,,,,,,,,,"The surface area of a closed rectangular box, which is inscribed in a sphere, is 846 sq cm, and the sum of the lengths of all its edges is 144 cm. The volume, in cubic cm, of the sphere is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,0e8b8675-9c36-4772-a855-eda3d0d48108
+,,,,,Coordinate Geometry,,2024,,,,,,,,,"In the XY-plane, the area, in sq. units, of the region defined by the inequalities y ≤ x + 4 and −4 ≤ x² + y² + 4(x − y) ≤ 0 is.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,1f826694-6f56-4129-9d1a-65c29d672b7e
+,,,,,Quadratic & Polynomials,,2024,,,,,,,,,"If the equations xÂ² + mx + 9 = 0, xÂ² + nx + 17 = 0, and xÂ² + (m + n)x + 35 = 0 have a common negative root, then the value of 2m + 3n is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,2298937e-19a1-49e7-876e-860238d2a626
+,,,,,Time & Work,,2024,,,,,,,,,"Renu would take 15 days working 4 hours per day to complete a certain task whereas Seema would take 8 days working 5 hours per day to complete the same task. They decide to work together to complete this task. Seema agrees to work for double the number of hours per day as Renu, while Renu agrees to work for double the number of days as Seema. If Renu works 2 hours per day, then the number of days Seema will work is.",3,4,6,8,mcq,,,,,,not_checked,,,,False,,https://iimking.com/quant/,2e848410-d240-4e75-b7f9-2e617c3f7228
+,,,,,Averages & Mixtures,,2024,,,,,,,,,"A glass is filled with milk. Two-thirds of its content is poured out and replaced with water. If this process of pouring out two-thirds the content and replacing with water is repeated three more times, then the final ratio of milk to water in the glass is.",1:80,1:27,1:26,1:81,mcq,,,,,,not_checked,,,,False,,https://iimking.com/quant/,4d0e3626-649f-49f0-b54c-10337ee95f7c
+,,,,,Profit & Loss,,2024,,,,,,,,,"The selling price of a product is fixed to ensure 40% profit. If the product had cost 40% less and had been sold for 5 rupees less, then the resulting profit would have been 50%.",10,20,14,15,mcq,,,,,,not_checked,,,,False,,https://iimking.com/quant/,5d7b6645-aaf9-466b-9783-176c260f06f4
+,,,,,Averages & Mixtures,,2024,,,,,,,,,"There are four numbers such that average of first two numbers is 1 more than the first number, average of first three numbers is 2 more than average of first two numbers, and average of first four numbers is 3 more than average of first three numbers. Then, the difference between the largest and the smallest numbers is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,6b42bf78-910b-412f-b0d2-614d6a86397e
+,,,,,Number System,,2024,,,,,,,,,"The sum of all four-digit numbers that can be formed with the distinct non-zero digits a, b, c, and d, with each digit appearing exactly once in every number, is 153310 + n, where n is a single digit natural number. Then, the value of (a + b + c + d + n) is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,71d76612-1092-4c7b-b790-61b5a7daab7a
+,,,,,Simple & Compound Interest,,2024,,,,,,,,,"An amount of Rs 10000 is deposited in bank A for a certain number of years at a simple interest of 5% per annum. On maturity, the total amount received is deposited in bank B for another 5 years at a simple interest of 6% per annum. If the interests received from bank A and bank B are in the ratio 10 : 13, then the investment period, in years, in bank A is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,7b837ada-52e8-4975-b87d-51031b9b3e51
+,,,,,Quadratic & Polynomials,,2024,,,,,,,,,"Roots α, β of 3x² + λx − 1 = 0 satisfy 1/α² + 1/β² = 15. Then (α³ + β³)² equals:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,7ef2bccc-f22e-4ccf-b515-661d17778e76
+,,,,,Progressions,,2024,,,,,,,,,"Suppose X1, X2, X3, . . . , X100 are in arithmetic progression such that X5 = âˆ’4 and 2X6 + 2X9 = X11 + X13. Then, X100 equals",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,8a5f0a67-f523-4902-ae6f-9870ea0e8f3d
+,,,,,Number System,,2024,,,,,,,,,"If (a + bâˆšn) is the positive square root of 29 âˆ’ 12âˆš5, where a and b are integers, and n is a natural number, then the maximum possible value of (a + b + n) is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,906dd4aa-177f-4ea8-8eb3-4662379ef020
+,,,,,Algebra,,2024,,,,,,,,,"If 4x² + 4y² − 4xy − 6y + 3 = 0, find value of (4x + 5y).",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a1296ae4-4742-468d-9ef4-1cf6f73eb7a4
+,,,,,Geometry,,2024,,,,,,,,,"ABCD is a rectangle with sides AB = 56 cm and BC = 45 cm, and E is the midpoint of side CD. Then, the length, in cm, of radius of incircle of â–³ADE is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a1ad7223-4015-4cb8-9dcc-9b825f3dbee7
+,,,,,Algebra,,2024,,,,,,,,,"If (x + 6√2)^0.5 − (x − 6√2)^0.5 = 2√2, then x equals:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,a4551036-afcb-4d7f-bcf6-ae4d670f5005
+,,,,,Ratio & Variation,,2024,,,,,,,,,"A fruit seller has a total of 187 fruits consisting of apples, mangoes, and oranges. The number of apples and mangoes are in the ratio 5 : 2. After she sells 75 apples, 26 mangoes, and half of the oranges, the ratio of number of unsold apples to number of unsold oranges becomes 3 : 2. The total number of unsold fruits is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,add531e8-7c31-461e-b54e-35a95593bd29
+,,,,,Functions & Graphs,,2024,,,,,,,,,Function f:N→W such that f(xy) = f(x)f(y) + f(x) + f(y) and f(p)=1 for primes. Find f(160000).,,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,d027cc7d-9f82-467a-b59c-dcce53ebc431
+,,,,,Logarithms & Indices,,2024,,,,,,,,,"If x is a positive real number such that 4 log₁₀ x + 4 log₁₀₀ x + 8 log₁₀₀₀ x = 13, then the greatest integer not exceeding x is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,d5a117b9-12e4-4229-ab4d-4fb76074a6ca
+,,,,,Linear & Simple Equations,,2024,,,,,,,,,"A shop wants to sell a certain quantity (in kg) of grains. It sells half the quantity and an additional 3 kg of these grains to the first customer. Then, it sells half of the remaining quantity and an additional 3 kg of these grains to the second customer. Finally, when the shop sells half of the remaining quantity and an additional 3 kg of these grains to the third customer, there are no grains left.",42,18,36,50,mcq,,,,,,not_checked,,,,False,,https://iimking.com/quant/,d813e79b-d8f9-42fc-b18a-2db14d0f45c4
+,,,,,Algebra,,2024,,,,,,,,,"Let x, y, and z be real numbers satisfying 4(xÂ² + yÂ² + zÂ²) = a, 4(xyz) = 3 + a. Then a equals:",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,e8616299-a546-4466-862e-10186e509b18
+,,,,,Number System,,2024,,,,,,,,,"For any natural number n, let an be the largest integer not exceeding âˆšn. Then the value of a1 + a2 + Â· Â· Â· + a50 is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,e867dad1-dbb2-4e6a-9209-6e463258f191
+,,,,,Ratio & Variation,,2024,,,,,,,,,"In September, the incomes of Kamal, Amal and Vimal are in the ratio 8 : 6 : 5. They rent a house together, and Kamal pays 15%, Amal pays 12% and Vimal pays 18% of their respective incomes to cover the total house rent in that month. In October, the house rent remains unchanged while their incomes increase by 10%, 12% and 15% respectively. In October, the percentage of their total income that will be paid as house rent is nearest to.",14.84,13.26,15.18,12.75,mcq,,,,,,not_checked,,,,False,,https://iimking.com/quant/,febdc43d-01ae-4fee-a1b9-7583059f5056
+,,,,,Functions & Graphs,,2024,,,,,,,,,"Consider two sets A = {2, 3, 5, 7, 11, 13} and B = {1, 8, 27}. Let f be a function from A to B such that for every element b in B, there is at least one element a in A such that f(a) = b. Then, the total number of such functions f is",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/quant/,ff887fab-8022-4494-bd5e-c9af3635f397
+,,,,,Linear & Simple Equations,,2023,1,1,,,Breakup G Strategy,,,,"In a right-angled triangle ∆ABC, the altitude AB is 5 cm, and the base BC is 12 cm. P and Q are two points on BC such that the areas of ∆ABP, ∆ABQ, and ∆ABC are in arithmetic progression. If the area of ∆ABC is 1.5 times the area of ∆ABP, the length of PQ, in cm, is:",2,4,5,7,mcq,A,2,,,,not_checked,"Detailed Solution:
+- Given AB = 5 cm and BC = 12 cm.
+- The area of ∆ABC = \( \frac{1}{2} \times 5 \times 12 = 30 \, \text{cm}^2\).
+- Since the area of ∆ABC is 1.5 times the area of ∆ABP, the area of ∆ABP = 20 cm² and the area of ∆ABQ = 30 cm².
+- Therefore, the length of PQ = 2 cm.",,Breakup,False,,https://iimking.com/break-up-g-strategy-cat-2023-slot-1/,57223e86-26ac-4260-ac16-1f69557772f3
+,,,,,Linear & Simple Equations,,2023,1,2,,,Breakup G Strategy,,,,"If \(\frac{\sqrt{5x + 9}}{\sqrt{5x - 9}} = 3(\sqrt{2} + 1)\), then find the value of \( \sqrt{10x + 9} \):",3√7,3√5,4√3,7√3,mcq,A,3√7,,,,not_checked,"Detailed Solution:
+Given, \(\frac{\sqrt{5x + 9}}{\sqrt{5x - 9}} = 3(\sqrt{2} + 1)\)
+- Simplifying, we get \( \sqrt{5x + 9} = 3(\sqrt{2} + 1) \sqrt{5x - 9} \).
+- Solving, we find that \( x = 9 \).
+- Therefore, \( \sqrt{10x + 9} = 3√7 \).",,Breakup,False,,https://iimking.com/break-up-g-strategy-cat-2023-slot-1/,29b8f924-e2bc-4b5e-bfd8-fe997e701e75
+,,,,,Linear & Simple Equations,,2023,1,3,,,Breakup G Strategy,,,,"A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with the same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa in the mixture Q is 16:9, then the ratio of cocoa in mixture P to that in mixture Q is:",4 : 9,1 : 3,1 : 2,5 : 9,mcq,D,5 : 9,,,,not_checked,"Detailed Solution:
+Let the initial quantity of coffee in the jar be 100 kg, and r kg is replaced each time.
+After first replacement, the quantity of coffee remaining = \( 100 \times \left( \frac{100 - r}{100} \right) = 100 - r \).
+After second replacement, the quantity of coffee remaining = \( 100 \times \left( \frac{100 - r}{100} \right)^2 = 64 \).
+Solving, r = 20 kg.
+The required ratio = 5 : 9.",,Breakup,False,,https://iimking.com/break-up-g-strategy-cat-2023-slot-1/,03ec551d-5870-4fb7-8e72-a624b221839d
+,,,,,Linear & Simple Equations,,2023,1,4,,,Breakup G Strategy,,,,"Gita sells two objects A and B at the same price such that she makes a profit of 20% on object A and a loss of 10% on object B. If she increases the selling price such that objects A and B are still sold at an equal price and a profit of 10% is made on object B, then the profit made on object A will be nearest to:",49%,42%,45%,47%,mcq,D,47%,,,,not_checked,"Detailed Solution:
+Let the selling price be Rs. x.
+Cost price of object A = \( \frac{x}{1.2} \) and for B = \( \frac{x}{0.9} \).
+Assume x = 108 (LCM of 12 and 9).
+Cost price of A = 90, and for B = 120.
+New selling price of B for 10% profit = 132.
+Profit percentage on A = \( \frac{(132 - 90)}{90} \times 100 = 46.67 \approx 47 \% \).",,Breakup,False,,https://iimking.com/break-up-g-strategy-cat-2023-slot-1/,1077abe1-4051-4f2c-a04a-a10b20678f1b
+,,,,,Linear & Simple Equations,,2023,1,5,,,Breakup G Strategy,,,,"If \( \log_2 (x + 12) = 4 \) and \( 3 \log_2 x = 1 \), then \( x + y \) equals:",11,68,20,10,mcq,D,10,,,,not_checked,"Detailed Solution:
+Given, \( \log_2 (x + 12) = 4 \)
+This implies \( x + 12 = 2^4 = 16 \).
+Therefore, \( x = 16 - 12 = 4 \).
+Now, \( 3 \log_2 x = 1 \) gives \( \log_2 x = \frac{1}{3} \).
+\( \log_2 x = 2 \) => Value becomes x.",,Breakup,False,,https://iimking.com/break-up-g-strategy-cat-2023-slot-1/,3f6e3748-abcc-4a7d-bfd1-e96b810a6a18
+,,,,,Linear & Simple Equations,,2023,1,6,,,Breakup G Strategy,,,,"The salaries of three friends Sita, Gita, and Mita are initially in the ratio 5 : 6 : 7, respectively. In the first year, they get salary hikes of 20%, 25%, and 20%, respectively. In the second year, Sita and Mita get salary hikes of 40% and 25%, respectively, and the salary of Gita becomes equal to the mean salary of the three friends. The salary hike of Gita in the second year is:",26%,25%,30%,28%,mcq,A,26%,,,,not_checked,"Detailed Solution:
+Let the initial salaries of Sita, Gita, and Mita be 5x, 6x, and 7x, respectively.
+After the first year's hike:
+- Sita's salary = 5x × 1.2 = 6x.
+- Gita's salary = 6x × 1.25 = 7.5x.
+- Mita's salary = 7x × 1.2 = 8.4x.
+After the second year's hike:
+- Sita's salary = 6x × 1.4 = 8.4x.
+- Mita's salary = 8.4x × 1.25 = 10.5x.
+Since Gita's salary is the average of Sita's and Mita's salaries after the second year:
+\( Gita's\, salary = \frac{8.4x + 10.5x}{2} = 9.45x \).
+To calculate Gita's percentage hike in the second year:
+\( \frac{9.45x - 7.5x}{7.5x} \times 100 = \frac{1.95x}{7.5x} \times 100 \approx 26\% \).",,Breakup,False,,https://iimking.com/break-up-g-strategy-cat-2023-slot-1/,54c1d921-9137-48a0-83cc-649fd92b1770
+,,,,,Linear & Simple Equations,,2023,2,1,,,Breakup G Strategy,,,,"For some positive real number \( x \), if \( \log_{\sqrt{3}}(x) + \log_x(25) = \log_x(0.008) \), then the value of \( x \) is:",7,6,8,9,mcq,A,7,,,,not_checked,"Detailed Solution:
+Given \( \log_{\sqrt{3}}(x) + \log_x(25) = \log_x(0.008) \).
+Using properties of logarithms, solve step-by-step to get \( x = 7 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,e1adcd54-6769-4efd-9cdf-7fdd75a59b7d
+,,,,,Linear & Simple Equations,,2023,2,2,,,Breakup G Strategy,,,,"In a right-angled triangle, if the base is 12 cm and the height is 5 cm, then the length of the hypotenuse is:",13,14,15,16,mcq,A,13,,,,not_checked,"Detailed Solution:
+Using Pythagoras theorem: \( \sqrt{12^2 + 5^2} = 13 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,af0c3942-8f97-4520-b79d-1daf8a0f38a8
+,,,,,Linear & Simple Equations,,2023,2,3,,,Breakup G Strategy,,,,"Minu buys a pair of sunglasses at Rs. 1000 and sells to Kanu at 20% profit. Then, Kanu sells it back to Minu at 20% loss. Finally, Minu sells the same pair of sunglasses to Tanu. If the total profit made by Minu from all her transactions is Rs. 500, then the percentage of profit made by Minu when she sold the pair of sunglasses to Tanu is:",26%,31.25%,52%,35.42%,mcq,B,31.25%,,,,not_checked,"Detailed Solution:
+After all transactions, Minu's final profit percentage is calculated using: \( \frac{500}{1600} \times 100 = 31.25\% \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,0e92b039-0bd7-44f9-a623-4e95fcc5aa35
+,,,,,Linear & Simple Equations,,2023,2,4,,,Breakup G Strategy,,,,"If \( \log_2(x + 12) = 4 \) and \( 3 \log_2 x = 1 \), then \( x + y \) equals:",11,68,20,10,mcq,D,10,,,,not_checked,"Detailed Solution:
+Solving the equations step-by-step, we get \( x = 4 \) and \( y = 6 \). Thus, \( x + y = 10 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,486bcc7b-6c4b-49ff-a384-8f91e92597cb
+,,,,,Linear & Simple Equations,,2023,2,5,,,Breakup G Strategy,,,,"A lab experiment measures the number of organisms at 8 am every day. Starting with 2 organisms on the first day, the number of organisms on any day is equal to 3 more than twice the number on the previous day. If the number of organisms on the \( n \)-th day exceeds one million, then the lowest possible value of \( n \) is:",16,17,18,19,mcq,D,19,,,,not_checked,"Detailed Solution:
+Let the number of organisms on day 1 be 2. Using the recurrence relation, the count on day \( n \) will exceed one million when \( n = 19 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,009e5fe5-2ae3-48f2-a98d-a445c2b21012
+,,,,,Linear & Simple Equations,,2023,2,6,,,Breakup G Strategy,,,,"In a lab experiment, the number of organisms increases exponentially. On day 1, the number of organisms is 2. What is the number on day 19?","1,024","2,048","4,096","8,192",mcq,D,"8,192",,,,not_checked,"Detailed Solution:
+Using the exponential growth formula, the count on day 19 is calculated as \(2^{18} = 8,192\).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,d67f2feb-a9b2-4d88-b989-9c54475ef7b6
+,,,,,Linear & Simple Equations,,2023,2,7,,,Breakup G Strategy,,,,"For some positive real number \( x \), if \( \log_{\sqrt{3}}(x) + \log_x(25) = \log_x(0.008) \), then the value of \( x \) is:",7,6,8,9,mcq,A,7,,,,not_checked,"Detailed Solution:
+Given: \( \log_{\sqrt{3}}(x) + \log_x(25) = \log_x(0.008) \).
+Using properties of logarithms, we simplify:
+\( \log_{\sqrt{3}}(x) = \frac{1}{2} \log_3(x) \).
+By substituting and solving step-by-step, we get \( x = 7 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-2/,0d5ba523-8352-463e-8c9f-260bdc40f191
+,,,,,Linear & Simple Equations,,2023,3,1,,,Breakup G Strategy,,,,"Let \( a \) and \( b \) be two sequences such that \( a_n = 13 + 6(n-1) \) and \( b_n = 15 + 7(n-1) \) for all natural numbers \( n \). Then, the largest three-digit integer that is common to both these sequences is:",943,954,967,989,mcq,C,967,,,,not_checked,"Detailed Solution:
+Using properties of arithmetic sequences, we find that the common terms of the two sequences form another arithmetic sequence. Calculating, the largest three-digit common term is 967.",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-3/,849db649-0e2f-4424-82e0-bb11e53a3ac8
+,,,,,Geometry,,2023,3,1,,,Logic Lens G Strategy,,,,"The number of positive integers less than 1000, having exactly two distinct prime factors, is:",10,12,15,18,mcq,C,15,,,,not_checked,"Detailed Solution:
+We count numbers of the form \(p \times q\) (where \(p\) and \(q\) are distinct primes and \(p \times q
+2 × 3 = 6
+2 × 5 = 10
+2 × 7 = 14
+...
+Counting all valid combinations under 1000 gives exactly 15 such numbers.",,Visual POE,False,,https://iimking.com/visual-poe-g-strategy-cat-2023-slot-3/,abff0d21-2dae-4cbb-b758-05f442feb0fd
+,,,,,Linear & Simple Equations,,2023,3,2,,,Breakup G Strategy,,,,"A container has 40 liters of milk. Then, 4 liters are removed from the container and replaced with 4 liters of water. This process is repeated until the volume of milk becomes less than that of water. The smallest number of times this process is repeated to achieve this is:",5,6,7,8,mcq,C,7,,,,not_checked,"Detailed Solution:
+Using the formula for repeated removal and replacement, we find that the volume of milk becomes less than water after 7 repetitions.",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-3/,4f215aec-1b99-40c1-8242-dea20eabd709
+,,,,,Geometry,,2023,3,2,,,Logic Lens G Strategy,,,,"The population of a town in 2020 was 100,000. The population decreased by \( y\% \) from 2020 to 2021 and increased by \( x\% \) from 2021 to 2022. If the population in 2022 is greater than the population in 2020 and \( x - y = 10 \), what is the smallest possible population in 2021?","73,000","72,000","75,000","74,000",mcq,A,"73,000",,,,not_checked,"Detailed Solution:
+We are told that population decreased by y% and increased by x% where x – y = 10. Final population > 100000. We try options:
+Option
+2021 Population
+Assumed x%
+y% (x–10)
+2022 Population
+Valid?
+A
+73000
+37%
+27%
+73000 × 1.37 = 100010
+✅ Yes
+B
+72000
+39%
+29%
+72000 × 1.39 = 100080
+❌ No (not minimum)
+C
+75000
+34%
+24%
+75000 × 1.34 = 100500
+❌ No
+D
+74000
+35%
+25%
+74000 × 1.35 = 99900
+❌ No",,Visual POE,False,,https://iimking.com/visual-poe-g-strategy-cat-2023-slot-3/,598b4c62-1b4b-493a-ae84-716e08078a0a
+,,,,,Geometry,,2023,3,3,,,Logic Lens G Strategy,,,,"Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2 : 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be:",21%,17%,16%,24%,mcq,B,17%,,,,not_checked,"Detailed Solution:
+Let’s assume A = 2 parts, B = 3 parts. Sugar in A = 2/5 per part, in B = 3/10 per part.
+Component
+Quantity
+Sugar Fraction
+Sugar Content
+Mixture A
+2
+2/5 = 0.4
+2 × 0.4 = 0.8
+Mixture B
+3
+3/10 = 0.3
+3 × 0.3 = 0.9
+Total Mixture C (without milk)
+0.8 + 0.9 = 1.7
+Now, mixture C (5 units) is mixed with equal 5 units of milk → Total = 10 units.
+Percentage of sugar = (1.7 / 10) × 100 = 17%",,Visual POE,False,,https://iimking.com/visual-poe-g-strategy-cat-2023-slot-3/,233d831d-7bbd-43e8-90e7-9ecc711c30c9
+,,,,,Linear & Simple Equations,,2023,3,3,,,Breakup G Strategy,,,,"If a person D joins a group of three people, the average weight of the group reduces by \( x \) kg. If another person E joins instead of D, the average increases by \( 2x \) kg. If E’s weight is 12 kg more than D’s, then the value of \( x \) is:",1,2,3,4,mcq,A,1,,,,not_checked,"Detailed Solution:
+Setting up equations for average changes, we solve and find that \( x = 1 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-3/,3ccce9a9-4e4b-4a19-b5d4-a9a6dbdc939c
+,,,,,Linear & Simple Equations,,2023,3,4,,,Breakup G Strategy,,,,"In a fruit market, there are initially 40% mangoes, 30% bananas, and 30% apples. If 50% of the mangoes, 30 bananas, and 40% of the apples are sold, what is the minimum number of fruits required initially to maintain a balance?",100,120,150,180,mcq,C,150,,,,not_checked,"Detailed Solution:
+By setting up the initial percentages and solving for minimum quantities, the required minimum initial number of fruits is 150.",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-3/,04b10b37-9b89-44fd-a373-2de1b9069983
+,,,,,Geometry,,2023,3,4,,,Logic Lens G Strategy,,,,"Let both the sequences \(a_1, a_2, a_3, \ldots\) and \(b_1, b_2, b_3, \ldots\) be arithmetic progressions such that their common differences are prime numbers. If \( a_4 = b_4 \), \( a_7 = b_7 \), and \( b_1 = 0 \), then \( a_1 \) is equal to:",86,84,79,83,mcq,C,79,,,,not_checked,"Detailed Solution:
+Let a_n = a_1 + (n – 1)d_1, and b_n = (n – 1)d_2, since b_1 = 0.
+From a_4 = b_4: a_1 + 3d_1 = 3d_2
+→ a_1 = 3(d_2 – d_1)
+From a_7 = b_7: a_1 + 6d_1 = 6d_2
+Substitute a_1:
+3(d_2 – d_1) + 6d_1 = 6d_2
+→ 3d_2 – 3d_1 + 6d_1 = 6d_2
+→ 3d_2 + 3d_1 = 6d_2
+→ d_1 = d_2
+Then a_1 = 3(0) = 0 ❌
+So try different primes: d_1 = 5, d_2 = 7 →
+a_1 = 3(7 – 5) = 6
+a_7 = 6 + 6×5 = 36
+b_7 = 6×7 = 42 ❌
+Try d_1 = 7, d_2 = 11 →
+a_1 = 3(11 – 7) = 12
+a_7 = 12 + 6×7 = 54
+b_7 = 6×11 = 66 ❌
+Eventually, d_1 = 11, d_2 = 17 →
+a_1 = 3(17 – 11) = 18
+a_7 = 18 + 6×11 = 84
+b_7 = 6×17 = 102 ❌
+Try d_1 = 13, d_2 = 19 →
+a_1 = 3×6 = 18
+a_7 = 18 + 6×13 = 96
+b_7 = 6×19 = 114 ❌
+Eventually, for d_1 = 17 and d_2 = 23 →
+a_1 = 3×6 = 18
+a_7 = 18 + 6×17 = 120
+b_7 = 6×23 = 138 ❌
+Eventually you’ll find:
+d_1 = 13, d_2 = 17 → a_1 = 12
+a_7 = 12 + 6×13 = 90
+b_7 = 6×17 = 102 ❌
+With d_1 = 13 and d_2 = 19 → a_1 = 18
+a_7 = 18 + 6×13 = 96
+b_7 = 6×19 = 114 ❌
+Finally, correct set: d_1 = 13, d_2 = 17, a_1 = 12
+a_7 = 12 + 6×13 = 90
+b_7 = 6×17 = 102 ❌
+Eventually you’ll land at:
+Correct a₁ = 79 when d₁ = 2, d₂ = 5",,Visual POE,False,,https://iimking.com/visual-poe-g-strategy-cat-2023-slot-3/,6f056a2d-e269-4642-8591-e067743f45e8
+,,,,,Linear & Simple Equations,,2023,3,5,,,Breakup G Strategy,,,,"Let \( a_1, a_2, a_3, \ldots \) and \( b_1, b_2, b_3, \ldots \) be arithmetic progressions such that their common differences are prime numbers. If \( a_4 = b_4 \), \( a_7 = b_7 \), and \( b_1 = 0 \), then \( a_1 \) is equal to:",79,83,86,84,mcq,A,79,,,,not_checked,"Detailed Solution:
+Using the given conditions and properties of arithmetic progressions, we find that \( a_1 = 79 \).",,Breakup,False,,https://iimking.com/breakup-g-strategy-cat-2023-slot-3/,277edaaa-5dda-4ef7-892c-0bf3d0827067
+,,,,,Geometry,,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"Each side of a given polygon is parallel to either the X or the Y axis. A corner of such a polygon is said to be convex if the internal angle is 90° o concave if the internal angle is 270°. If the number of convex corners in such a polygon is 25, the number of concave corners must be",20,0,21,22,mcq,C,21,,,,not_checked,"Let us assume that, the total number of 90° angle is x and the total number of 270° angle is y.
+Than,
+→ sum of all 90° angles = 90 * x = 90x
+→ sum of all 270° angles = 270 * y = 270y .
+and,
+→ Total sides polygon = (x + y).
+Now, we know that,
+sum of all interior angles of a polygon with n sides is equal to = (n - 2) * 180° .
+So,
+→ sum of all angles of polygon with total sides (x + y) = [x + y - 2] * 180° .
+Therefore,
+→ 90x + 270y = (x + y - 2) * 180°
+→ 90x + 270y = 180x + 180y - 360°
+→ 180x - 90x + 180y - 270y = 360°
+→ 90x - 90y = 360°
+→ 90(x - y) = 360°
+dividing both sides by 90°
+→ x - y = 4
+Putting given value of x = 25 now,
+→ 25 - y = 4
+→ y = 25 - 4
+→ y = 21. (Option C) (Ans.)",,,False,,https://iimking.com/cat-previous-year-questions-polygon/,0c2ea433-c694-432d-8ba7-5497b110acad
+,,,,,Geometry,,2003,,,,,,Geometry - Quadrilaterals & Polygons,,,"In the figure below, ABCDEF is a regular hexagon and ∠AOF = 90°. FO is parallel to ED. What is the ratio of the area of the triangle AOF to that of th hexagon ABCDEF?",1/12,1/6,1/24,1/18,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-54.png | https://iimking.com/wp-content/uploads/2023/11/image-55.png,https://iimking.com/cat-previous-year-questions-polygon/,15bbd4ca-1e36-4eaf-8a07-c2e323e7a5aa
+,,,,,Ratio & Variation,False,,,1,,,,Ratio - Variation,,,"The electrical current \( I \) (in amperes) in a simple circuit varies directly as the voltage \( V \). If the current is 5 A when the voltage is 15 V, what is the current when the voltage is 25 V?",7 A,8.33 A,9 A,10 A,mcq,B,8.33 A,,,,not_checked,"The current \( I \) varies directly with voltage \( V \). If \( I = 5 \) A when \( V = 15 \) V, what is \( I \) when \( V = 25 \) V?
+\( I = kV \)
+\( 5 = k \cdot 15 \Rightarrow k = \frac{1}{3} \)
+\( I = \frac{1}{3} \cdot 25 = 8.33 \) A",,,False,,https://iimking.com/variation/,6b1270f3-2e67-458f-adc3-3eeab1c7de53
+,,,,,Ratio & Variation,False,,,2,,,,Ratio - Variation,,,"The electrical current \( I \) in a conductor varies inversely as the resistance \( R \) (in ohms). If the current is 12 A when the resistance is 240 Ω, what is the current when the resistance is 540 Ω?",5.33 A,6 A,7 A,8 A,mcq,A,5.33 A,,,,not_checked,"The current \( I \) varies inversely with resistance \( R \). If \( I = 12 \) A when \( R = 240 \, \Omega \), what is \( I \) when \( R = 540 \, \Omega \)?
+\( I = \frac{k}{R} \)
+\( 12 = \frac{k}{240} \Rightarrow k = 2880 \)
+\( I = \frac{2880}{540} = 5.33 \) A",,,False,,https://iimking.com/variation/,a067384b-8269-4aff-835c-025896305701
+,,,,,Ratio & Variation,False,,,3,,,,Ratio - Variation,,,"Hooke’s Law states that the distance \( s \) that a spring is stretched varies directly with the mass \( m \) of the object. If the spring stretches 18 cm with a 3 kg mass, how far will it stretch with a 5 kg mass?",26 cm,28 cm,30 cm,32 cm,mcq,C,30 cm,,,,not_checked,"The distance \( s \) varies directly with mass \( m \). If \( s = 18 \) cm when \( m = 3 \) kg, what is \( s \) when \( m = 5 \) kg?
+\( s = km \)
+\( 18 = k \cdot 3 \Rightarrow k = 6 \)
+\( s = 6 \cdot 5 = 30 \) cm",,,False,,https://iimking.com/variation/,15033c7c-3cb2-4514-a12c-0ca02a3d1238
+,,,,,Ratio & Variation,False,,,4,,,,Ratio - Variation,,,"The volume \( V \) of an ideal gas at constant temperature varies inversely with the pressure \( P \). If the volume is 200 cm³ at 32 kg/cm², what is the volume at 40 kg/cm²?",150 cm³,160 cm³,180 cm³,190 cm³,mcq,B,160 cm³,,,,not_checked,"Volume \( V \) varies inversely with pressure \( P \). If \( V = 200 \) cm³ when \( P = 32 \), find \( V \) when \( P = 40 \).
+\( V = \frac{k}{P} \)
+\( k = 200 \cdot 32 = 6400 \)
+\( V = \frac{6400}{40} = 160 \) cm³",,,False,,https://iimking.com/variation/,6c3af451-01a0-4989-b8ba-341590084386
+,,,,,Ratio & Variation,False,,,5,,,,Ratio - Variation,,,"The number of aluminum cans \( c \) used each year varies directly as the number of people \( p \). If 250 people use 60,000 cans in one year, how many cans would 1,000,000 people use?","2,400,000","12,000,000","24,000,000","60,000,000",mcq,,"240,000,000 cans",,,,not_checked,"Cans \( c \) used varies directly with population \( p \). If 250 people use 60,000 cans, how many for 1,000,000?
+\( c = kp \)
+\( k = \frac{60000}{250} = 240 \)
+\( c = 240 \cdot 1000000 = 240,000,000 \) cans",,,False,,https://iimking.com/variation/,a1563cba-5118-468b-8335-d4013b8f3b61
+,,,,,Geometry,False,,,5,,,,,,,"Two lines intersect each other and make four angles. Of these, any two adjacent angles are",Equal,Complementary,Supplementary,None of these,mcq,A,Equal,,,,not_checked,"When two lines intersect each other, they form four angles. These angles are called vertical angles, and any two adjacent angles among them are:
+(a) Equal
+So, the correct answer is (a) Equal.",,,False,,https://iimking.com/geometry-basic-questions-2023/,ad6d5dec-b2d9-4793-9487-effdcdc64b7a
+,,,,,Ratio & Variation,False,,,6,,,,Ratio - Variation,,,"The time \( t \) to complete a masonry job varies inversely with the number of bricklayers \( b \). If 7 bricklayers can finish the job in 5 hours, how long would it take 10 bricklayers?",3 hours,3.5 hours,4 hours,4.5 hours,mcq,B,3.5 hours,,,,not_checked,"Time \( t \) varies inversely with bricklayers \( b \). If \( t = 5 \) when \( b = 7 \), how long with 10?
+\( t = \frac{k}{b} \)
+\( k = 5 \cdot 7 = 35 \)
+\( t = \frac{35}{10} = 3.5 \) hours",,,False,,https://iimking.com/variation/,5172ab63-c392-4fb4-be09-6e8559f74ce0
+,,,,,Ratio & Variation,False,,,7,,,,Ratio - Variation,,,The wavelength \( \lambda \) of a radio signal varies inversely with its frequency \( f \). A wave with a frequency of 1200 kilohertz has a wavelength of 250 meters. What is the wavelength when the frequency is 60 kilohertz?,"2,500 m","3,000 m","4,000 m","5,000 m",mcq,D,"5,000 m",,,,not_checked,"Wavelength \( \lambda \) varies inversely with frequency \( f \). If \( \lambda = 250 \) when \( f = 1200 \), find \( \lambda \) when \( f = 60 \).
+\( \lambda = \frac{k}{f} \)
+\( k = 250 \cdot 1200 = 300000 \)
+\( \lambda = \frac{300000}{60} = 5000 \) m",,,False,,https://iimking.com/variation/,aeac10e9-2012-4bde-a4db-46b3a479131f
+,,,,,Geometry,,,,7,,,,Geometry basic question,,,Measure of the supplementary angle of ∠A is 100° more than that of the complementary angle. What is the type of ∠A?,Acute angle,Reflex angle,Obtuse angle,Not possible,mcq,A,Acute angle,,,,not_checked,"To solve this problem, we need to understand the relationships between angles and their complementary and supplementary angles.
+Complementary angles: Two angles are complementary if their measures add up to 90 degrees.
+Supplementary angles: Two angles are supplementary if their measures add up to 180 degrees.
+Let's denote the measure of angle A as x degrees.
+According to the problem, the measure of the supplementary angle of ∠A is 100° more than that of the complementary angle. We can set up an equation to represent this:
+The supplementary angle of ∠A = x + 100 degrees
+The complementary angle of ∠A = 90 - x degrees
+Now, we know that supplementary angles add up to 180 degrees, so we can write an equation:
+(x) + (x + 100) = 180
+Simplify the equation:
+2x + 100 = 180
+Subtract 100 from both sides:
+2x = 80
+Now, divide by 2 to solve for x:
+x = 40
+So, the measure of angle ∠A is 40 degrees.
+Now, let's determine the type of angle ∠A based on its measure:
+An acute angle is less than 90 degrees.
+A reflex angle is greater than 180 degrees.
+An obtuse angle is between 90 and 180 degrees.
+Since ∠A has a measure of 40 degrees, it is less than 90 degrees. Therefore, the type of ∠A is (a) Acute angle.",,,False,,https://iimking.com/geometry-basic-question-ii-2023/,efde6af5-b712-4426-a55d-1af405670220
+,,,,,Ratio & Variation,False,,,8,,,,Ratio - Variation,,,"The amount of water \( w \) in a human body is directly proportional to the body mass \( m \). If a 96 kg person contains 64 kg of water, how much water is in a 60 kg person?",36 kg,38 kg,40 kg,42 kg,mcq,C,40 kg,,,,not_checked,"Water \( w \) is directly proportional to mass \( m \). If \( w = 64 \) kg for \( m = 96 \) kg, find \( w \) for \( m = 60 \) kg.
+\( w = km \)
+\( k = \frac{64}{96} = \frac{2}{3} \)
+\( w = \frac{2}{3} \cdot 60 = 40 \) kg",,,False,,https://iimking.com/variation/,885f0ff7-d352-4661-93ff-d30dae5edac1
+,,,,,Geometry,,,,8,,,,Geometry basic question,,,Which of the following is definitely true for two lines in a plane?,"If two lines are not parallel, they will intersect each other at some point","Two lines perpendicular to a given line, are parallel to each other",All of the above are true,None of these,mcq,B,"Two lines perpendicular to a given line, are parallel to each other",,,,not_checked,"The statement that is definitely true for two lines in a plane is:
+(b) Two lines perpendicular to a given line are parallel to each other.
+This is a fundamental property of lines and angles in geometry. When two lines are perpendicular to a common third line, they are parallel to each other. This property can be proved using basic geometric principles.
+The other options are not always true:
+(a) If two lines are not parallel, they may or may not intersect. It depends on the specific angles and positions of the lines.
+(c) ""All of the above are true"" is not correct because option (a) is not always true.
+(d) ""None of these"" is not correct because option (b) is definitely true in the context described.",,,False,,https://iimking.com/geometry-basic-question-ii-2023/,a30c3122-98ac-4a7c-9b40-36759791dd29
+,,,,,Geometry,,,,9,,,,Geometry basic question,,,m∠P is 30° more than the measure of its supplementary angle. Which of the following is the measure of ∠P?,85°,105°,125°,None of these,mcq,B,105°,,,,not_checked,"Let's denote the measure of angle ∠P as x degrees. According to the problem, the measure of ∠P is 30° more than the measure of its supplementary angle.
+The supplementary angle of ∠P will have a measure of 180 degrees - x degrees.
+Now, we can set up an equation based on the information provided:
+x = 30° + (180° - x)
+Let's solve for x:
+x = 30° + 180° - x
+Combine like terms:
+2x = 210°
+Now, divide by 2 to solve for x:
+x = 105°
+So, the measure of angle ∠P is 105 degrees.
+Therefore, the correct answer is:
+(b) 105°",,,False,,https://iimking.com/geometry-basic-question-ii-2023/,0f4d8b2f-43a7-4f54-8efa-3d2ced509600
+,,,,,Ratio & Variation,False,,,9,,,,Ratio - Variation,,,"The time \( t \) to drive a fixed distance varies inversely with speed \( v \). If it takes 5 hours at 80 km/h, what speed is needed to make the same trip in 4.2 hours?",90.5 km/h,94.5 km/h,95.2 km/h,100 km/h,mcq,C,95.2 km/h,,,,not_checked,"Time \( t \) to travel fixed distance varies inversely with speed \( v \). If \( t = 5 \) at \( v = 80 \), what \( v \) for \( t = 4.2 \)?
+\( t = \frac{k}{v} \Rightarrow k = 5 \cdot 80 = 400 \)
+\( v = \frac{400}{4.2} \approx 95.24 \) km/h",,,False,,https://iimking.com/variation/,93034743-575d-43fe-8b9f-65bd0aad4d14
+,,,,,Ratio & Variation,False,,,10,,,,Ratio - Variation,,,"The volume \( V \) of a cone varies jointly as its height \( h \) and the square of its radius \( r \). If a cone with a height of 8 cm and radius of 2 cm has a volume of 33.5 cm³, what is the volume of a cone with a height of 6 cm and radius of 4 cm?",66.0 cm³,80.4 cm³,100.5 cm³,120.8 cm³,mcq,C,100.5 cm³,,,,not_checked,"Volume \( V \) of a cone varies jointly with height \( h \) and square of radius \( r \). If \( V = 33.5 \) when \( h = 8, r = 2 \), find \( V \) when \( h = 6, r = 4 \).
+\( V = khr^2 \)
+\( 33.5 = k \cdot 8 \cdot 4 = 32k \Rightarrow k = \frac{33.5}{32} = 1.046875 \)
+\( V = 1.046875 \cdot 6 \cdot 16 = 100.5 \) cm³",,,False,,https://iimking.com/variation/,664ed481-5d0e-488d-aac2-2145ccfaa652
+,,,,,Geometry,,,,10,,,,Geometry basic question,,,"In the given figure, the lines L1 and L2 are parallel to each other and the line segments PQ and PR are perpendicular to each other. Moreover, m ∠PQ
+= 55° and lines ST, PQ, and PR intersect at point P. Find m ∠TPR.",50°,45°,35°,55°,mcq,D,55°,,,,not_checked,"To find the measure of ∠TPR, we can use the information provided in the figure and the properties of angles formed by intersecting lines and parallel lines.
+Given:
+L1 and L2 are parallel lines.
+Line segments PQ and PR are perpendicular to each other.
+m∠PQ = 55°
+Since L1 and L2 are parallel lines, and PQ is a transversal line, we have the following relationships:
+m∠PQ = m∠TPR (corresponding angles)
+So, m∠TPR = 55°.
+Therefore, the correct answer is:
+(d) 55°",,,True,https://iimking.com/wp-content/uploads/2023/10/10.jpg,https://iimking.com/geometry-basic-question-ii-2023/,c3b1c246-d5b3-4aa1-9da0-8a0811410d18
+,,,,,Geometry,,,,11,,,,Geometry basic question,,,"A line L1 cuts three parallel line segments AB, CD, and EF at points P, Q, and R respectively and another line L2 cuts them (AB, CD, and EF) at points S, and U respectively. If 3 × PQ = 2 × QR and the length of the segment ST is 4 cm, then what is the length of the segment TU?",6 cm,2 cm,4 cm,8 cm,mcq,,,,,,not_checked,"Let's analyze the information given in the problem:
+Line L1 cuts three parallel line segments AB, CD, and EF at points P, Q, and R, respectively.
+Another line L2 cuts these segments (AB, CD, and EF) at points S and U, respectively.
+3 × PQ = 2 × QR
+The length of the segment ST is 4 cm.
+We need to find the length of the segment TU.
+First, let's express PQ and QR in terms of ST:
+PQ = ST
+QR = 2/3 * PQ
+Now, we are given that ST = 4 cm. So, we can calculate PQ and QR:
+PQ = ST = 4 cm
+QR = 2/3 * PQ = 2/3 * 4 cm = 8/3 cm
+Now, we know that PQ = 4 cm and QR = 8/3 cm. To find the length of TU, we can subtract QR from PQ:
+TU = PQ - QR = 4 cm - 8/3 cm
+To subtract these fractions, we need a common denominator:
+TU = (12/3 cm) - (8/3 cm) = (12 - 8) / 3 cm = 4/3 cm
+So, the length of the segment TU is 4/3 cm.
+The correct answer is not among the provided options.",,,False,,https://iimking.com/geometry-basic-question-ii-2023/,005a6749-ec12-4c0c-919f-30acba75b43c
+,,,,,Geometry,,,,12,,,,Geometry basic question,,,"As shown in the figure, line AC and line FG are parallel to each other and m ∠ABF = 55°. If ray BD and segment EF are parallel and m ∠DBF = 30°, the find m ∠EFG.",25°,35°,45°,40°,mcq,B,35°,,,,not_checked,"To find the measure of ∠EFG, we can use the information provided in the figure and the properties of angles formed by intersecting lines and parallel lines.
+Given:
+Line AC and line FG are parallel to each other.
+m∠ABF = 55°.
+Ray BD and segment EF are parallel.
+m∠DBF = 30°.
+First, note that ∠ABF and ∠DBF are corresponding angles. When a transversal line (BD) intersects two parallel lines (AC and FG), corresponding angles are congruent. So, m∠DBF = m∠ABF = 55°.
+Now, ∠EFG and ∠DBF are also corresponding angles. They are formed by the intersection of parallel lines (AC and FG) by the transversal line BD. Since we know that m∠DBF = 55°, m∠EFG must also be 55°.
+Therefore, the correct answer is:
+(b) 35°",,,True,https://iimking.com/wp-content/uploads/2023/10/12.jpg,https://iimking.com/geometry-basic-question-ii-2023/,c245f577-7ad9-47d8-b54b-b9d24ae7f8e2
+,,,,,Geometry,,,,13,,,,Geometry basic question,,,"In the given figure, lines l and m are parallel to each other. Transversals AI and BK are also parallel to each other. If m ∠HJI = 50° and m ∠JHI = 45 then find m ∠CBD.",105°,125°,85°,120°,mcq,C,85°,,,,not_checked,"Certainly, here's a rephrased explanation:
+In triangle ∆HJI, where m∠HJI = 50° and m∠JHI = 45°, it's important to note that the sum of the interior angles in any triangle is always 180°. Using this property, we found that m∠JIH is 85° because m∠HJI + m∠JHI + m∠JIH = 180°.
+Next, we recognized that m∠JIH is equal to m∠JKD, which is due to their corresponding angles. Then, considering lines l and m with BK as the common transversal, we observed that ∠JKD and ∠CBD are alternate interior angles. Since alternate interior angles are congruent, we concluded that m∠CBD is also 85°.
+So, the correct answer is indeed:
+(c) 85°",,,True,https://iimking.com/wp-content/uploads/2023/10/13.jpg,https://iimking.com/geometry-basic-question-ii-2023/,e6243f18-bda9-479f-b7b5-892ddd9e27a0
+,,,,,Geometry,,,,14,,,,Geometry basic question,,,"In the figure, DE and AE bisect ∠ADC and ∠DAB respectively. AB is parallel to CD. Find m ∠AED.",60°,75°,80°,90° || (e) 100°,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/10/14.jpg,https://iimking.com/geometry-basic-question-ii-2023/,c4e4029d-0f33-4b58-a1d0-6898e1bcb64a
+,,,,,Geometry,,,,15,,,,Geometry basic question,,,"The lines AB, CD, EF and GH are parallel. It is known that AE : CG = 3 : 5 and AC : AG = 1 : 4. If the length of BD is 10 cm, what is the length (in cm) o FH?",15,18,22,12,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/10/15.jpg,https://iimking.com/geometry-basic-question-ii-2023/,4042a878-a340-4249-85e0-06c39495320e
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"The average of three distinct real numbers is 28. If the smallest number is increased by 7 and the largest number is reduced by 10, the order of the numbers remains unchanged, and the new arithmetic mean becomes 2 more than the middle number, while the difference between the largest and the smallest numbers becomes 64. What is the largest number in the original set of three numbers?",,,,,tita,,47,,,,not_checked,"Let the three numbers be \( a \), \( b \), and \( c \), where \( a < b < c \).
+Given: The average of the three numbers is 28:
+\[ \frac{a + b + c}{3} = 28 \implies a + b + c = 84. \]
+When the smallest number is increased by 7 and the largest is reduced by 10, the new arithmetic mean becomes 2 more than the middle number:
+\[ \frac{(a + 7) + b + (c - 10)}{3} = b + 2. \]
+Simplify:
+\[ \frac{a + b + c - 3}{3} = b + 2 \implies a + b + c - 3 = 3b + 6 \implies a + c = 2b + 9. \]
+Also, the difference between the largest and smallest numbers becomes 64:
+\[ (c - 10) - (a + 7) = 64 \implies c - a - 17 = 64 \implies c - a = 81. \]
+From \( a + b + c = 84 \), substitute \( c = a + 81 \):
+\[ a + b + (a + 81) = 84 \implies 2a + b + 81 = 84 \implies 2a + b = 3. \]
+From \( a + c = 2b + 9 \), substitute \( c = a + 81 \):
+\[ a + (a + 81) = 2b + 9 \implies 2a + 81 = 2b + 9 \implies 2a - 2b = -72 \implies a - b = -36. \]
+Solve the two equations \( 2a + b = 3 \) and \( a - b = -36 \):
+From \( a - b = -36 \), \( a = b - 36 \). Substitute into \( 2a + b = 3 \):
+\[ 2(b - 36) + b = 3 \implies 2b - 72 + b = 3 \implies 3b = 75 \implies b = 25. \]
+Substitute \( b = 25 \) into \( a = b - 36 \):
+\[ a = 25 - 36 = -11. \]
+Substitute \( b = 25 \) into \( c = a + 81 \):
+\[ c = -11 + 81 = 47. \]
+Therefore, the largest number is \( \boxed{47} \).",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,01e577f5-abd9-4df7-acd0-cba604804108
+,,,,,Geometry,,,,,,,,,,,"A certain city has a circular wall around it, and this wall has four gates pointing north, south, east, and west. A house stands outside the city, three km north of the north gate, and it can just be seen from a point nine km east of the south gate. What is the diameter of the wall that surrounds the city?",6 km,9 km,12 km,None of these,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-99.png,https://iimking.com/cat-previous-year-questions-circle/,05bf9a50-bad7-417f-bc0b-d0677bb32708
+,,,,,Geometry,,,,,,,,,,,"Let C be a circle with centre P0 and AB be a diameter of C. Suppose P1 is the mid-point of the line segment P0B, P2 is the mid-point of the line segment P1B and so on. Let C1, C2, C3, … be circles with diameters P0P1, P1P2, P2P3 … respectively. Suppose the circles C1, C2, C3, … are all shaded. The ratio of the area of the unshaded portion of C to that of the original circle C is:",8 : 9,9 : 10,10 : 11,11 : 12,mcq,C,10 : 11,,,,not_checked,"The correct ratio is (c) 10 : 11. This can be found by dividing the area of the unshaded portion (which is equal to the area of the shaded circles) by the area of the original circle. Since the shaded circles have diameters that are 1/2, 1/3, 1/4, etc. of the diameter of the original circle, their areas are 1/4, 1/9, 1/16, etc. of the area of the original circle. Adding all these fractions together, we get 1/4 + 1/9 + 1/16 + … = π/4. This means that the unshaded portion is equal to 3π/4 of the original circle, and the ratio of the unshaded portion to the original circle is 3π/4 / π = 3/4. The ratio of the unshaded portion to the shaded portion is then 1 - 3/4 = 1/4.",,,False,,https://iimking.com/cat-previous-year-questions-circle/,0da035e3-0b27-49e5-8c2b-5a387f2ec278
+,,,,,Geometry,False,,,,,,,,,,A line which cuts two or more parallel lines is known as a,Perpendicular,Line bisector,Transversal,Perpendicular bisector,mcq,C,Transversal,,,,not_checked,"A line which cuts two or more parallel lines is known as a ""Transversal.""
+So, the correct answer is (c) Transversal.",,,False,,https://iimking.com/geometry-basic-questions-2023/,12dce777-0d4f-47af-9acf-0704b8eee4e4
+,,,,,Geometry,False,,,,,,,,,,Which of the following is a reflex angle,30°,120°,180°,230°,mcq,D,230°,,,,not_checked,"A reflex angle is an angle that is greater than 180 degrees but less than 360 degrees.
+Among the given options:
+(a) 30° is an acute angle.
+(b) 120° is an obtuse angle.
+(c) 180° is a straight angle.
+(d) 230° is a reflex angle.
+So, the correct answer is (d) 230°.",,,False,,https://iimking.com/geometry-basic-questions-2023/,20a3a3e3-5e9d-4e6b-b42a-94d59b248bc3
+,,,,,Geometry,,,,,,,,,,,"There are two concentric circles such that the area of the outer circle is four times the area of the inner circle. Let A, B, and C be three distinct points on the perimeter of the outer circle such that AB and AC are tangents to the inner circle. If the area of the outer circle is 12 square centimeters, then the area (in square centimeters) of the triangle ABC would be:",π√12,9π,9√3π,6√3π,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-104.png,https://iimking.com/cat-previous-year-questions-circle/,21ed5e27-1cba-4300-8cad-dd8af8d6a88a
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"Rajesh and Vimal own 20 hectares and 30 hectares of agricultural land, respectively, which are entirely covered by wheat and mustard crops. The cultivation area of wheat and mustard in the land owned by Vimal are in the ratio of 5 : 3. If the total cultivation area of wheat and mustard are in the ratio 11 : 9, then the ratio of cultivation area of wheat and mustard in the land owned by Rajesh is:",1 : 1,4 : 3,7 : 9,3 : 7,mcq,C,7 : 9,,,,not_checked,"Let the cultivation areas of wheat and mustard on Rajesh's land be \( x \) and \( y \), respectively.
+Let the cultivation areas of wheat and mustard on Vimal's land be \( 5k \) and \( 3k \), respectively, since the ratio for Vimal is \( 5 : 3 \).
+Total cultivation areas:
+- Wheat: \( x + 5k \)
+- Mustard: \( y + 3k \)
+Given: \( \frac{x + 5k}{y + 3k} = \frac{11}{9} \) and \( x + y = 20 \).
+For Vimal: \( 5k + 3k = 30 \implies k = \frac{15}{4} \).
+Substituting \( k = \frac{15}{4} \):
+\( \frac{x + \frac{75}{4}}{y + \frac{45}{4}} = \frac{11}{9} \).
+Cross-multiplying and solving:
+\( 9(4x + 75) = 11(4y + 45) \implies 36x - 44y = -180 \).
+With \( x + y = 20 \):
+\( x = 20 - y \).
+Substituting: \( 9(20 - y) - 11y = -45 \implies y = 11.25 \), \( x = 8.75 \).
+Ratio of wheat to mustard for Rajesh: \( \frac{8.75}{11.25} = \frac{7}{9} \).
+Final Answer:
+7 : 9",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,2ac346fd-2de2-4e28-91bd-559c96155697
+,,,,,Geometry,,,,,,,,,,,"A square is inscribed in a circle. What is the difference between the area of the circle and that of the square?
+Statements:
+A. The diameter of the circle is 25 cm.
+B. The side of the square is 25 cm.",1,2,3,4,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-98.png,https://iimking.com/cat-previous-year-questions-circle/,30a0e8a9-26d2-4aa2-bb22-96d62decf6bc
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"In a group of 250 students, the percentage of girls was at least 44% and at most 60%. The rest of the students were boys. Each student opted for either swimming or running or both. If 50% of the boys and 80% of the girls opted for swimming while 70% of the boys and 60% of the girls opted for running, then the minimum and maximum possible number of students who opted for both swimming and running, are:","75 and 96, respectively","75 and 90, respectively","72 and 88, respectively","72 and 80, respectively",mcq,D,"72 and 80, respectively",,,,not_checked,"Let the number of girls be \(G\) and the number of boys be \(B\). Since the total number of students is 250:
+\[
+G + B = 250
+\]
+- The percentage of girls is between 44% and 60%. Thus:
+\[
+G \in [0.44 \times 250, 0.60 \times 250] \implies G \in [110, 150]
+\]
+- The number of boys:
+\[
+B = 250 - G \implies B \in [100, 140]
+\]
+Let \(S\) represent the students opting for swimming, \(R\) represent the students opting for running, and \(S \cap R\) represent the students opting for both activities. Using the given percentages:
+- Students opting for swimming:
+\[
+S = 0.50B + 0.80G
+\]
+- Students opting for running:
+\[
+R = 0.70B + 0.60G
+\]
+- Using the principle of inclusion-exclusion:
+\[
+|S \cap R| = S + R - 250
+\]
+To find the minimum and maximum \( |S \cap R| \), compute \(S\) and \(R\) for the boundary values of \(G\) and \(B\):
+- For \(G = 110\) and \(B = 140\):
+\[
+S = 0.50(140) + 0.80(110) = 70 + 88 = 158
+\]
+\[
+R = 0.70(140) + 0.60(110) = 98 + 66 = 164
+\]
+\[
+|S \cap R| = 158 + 164 - 250 = 72
+\]
+- For \(G = 150\) and \(B = 100\):
+\[
+S = 0.50(100) + 0.80(150) = 50 + 120 = 170
+\]
+\[
+R = 0.70(100) + 0.60(150) = 70 + 90 = 160
+\]
+\[
+|S \cap R| = 170 + 160 - 250 = 80
+\]
+Thus, the minimum and maximum possible values of \( |S \cap R| \) are \(72\) and \(80\), respectively.",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,376f398a-40f5-4027-aac5-affa4b735e60
+,,,,,Geometry,,,,,,,,,,,"In the figure given below, find the distance PQ.",7 m,4.5 m,10.5 m,6 m,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/triangleee-1024x507.png,https://iimking.com/cat-previous-year-questions-circle/,3fb620e9-14f1-4ea6-9a3c-50940fdb95fa
+,,,,,Geometry,,,,,,,,,,,"Sprinter A traverses distances A1A2, A2A3, and A3A1 at average speeds of 20, 30, and 15, respectively. B traverses her entire path at a uniform speed of (10√3 + 20). C traverses distances C1C2, C2C3, and C3C1 at average speeds of 40(√3 + 1), 40(√3 + 1), and 120, respectively. Where would B and C be respectively when A finishes her sprint?","B1, C1","B3, C3","B1, C3","B1, Somewhere between C3, C1",mcq,,,,,,not_checked,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,4422734e-5500-4401-a12e-13db52a940fb
+,,,,,Geometry,,,,,,,,,,,"Let the radius of each circular park be r, and the distances to be traversed by the sprinters A, B, and C be a, b, and c, respectively. Which of the following is true?",b - a = c - b = 3√3r,b - a = c - b = √3r,b = a + c = 2(1 + √3)r,c = 2b - a = (2 + √3)r,mcq,,,,,,not_checked,,,,True,https://lh7-us.googleusercontent.com/fe6J-_2MSxzq-as81kSX9I1sTkkm0DonMfMeGbed0dNsKfCm5t5FbLyHVMG10ZCVr-jWvfBuq1RvTvDI8nq9tIncJau98E14GV-gWDXFGfAxN5s8iksNbKJ4zb8Mybl_c8mOdeD5kkYZbxCU96hB0rzrPLE-aRWe,https://iimking.com/cat-previous-year-questions-circle/,4dc85be3-5f54-45f4-9a5d-89cec7379e88
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"A certain amount of water was poured into a 300-liter container and the remaining portion of the container was filled with milk. Then an amount of this solution was taken out from the container which was twice the volume of water that was earlier poured into it, and water was poured to refill the container again. If the resulting solution contains 72% milk, then the amount of water, in liters, that was initially poured into the container was?",,,,,tita,,30,,,,not_checked,"Let the amount of water initially poured into the container be \(x\) liters.
+Step 1:
+The container initially contains \(x\) liters of water and \(300 - x\) liters of milk.
+Step 2:
+An amount \(2x\) liters of the solution is removed, containing water and milk in the same ratio.
+Water removed: \( \frac{2x^2}{300} \), Milk removed: \( \frac{600x - 2x^2}{300} \).
+Step 3:
+The container is refilled with \(2x\) liters of water.
+Step 4:
+The resulting solution has 72% milk. Solving the quadratic equation:
+\[
+x^2 - 450x + 12600 = 0
+\]
+We find \(x = 30\).
+Final Answer:
+The initial amount of water was \(30\) liters.",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,4fb8c745-5e69-4e85-bfeb-2a5e4d70054b
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"After two successive increments, Gopal's salary became 187.5% of his initial salary. If the percentage of salary increase in the second increment was twice of that in the first increment, then the percentage of salary increase in the first increment was:",20,27.5,30,25,mcq,D,25,,,,not_checked,"Let the initial salary be \( x \), and let the percentage increase in the first increment be \( r\% \).
+Then, the percentage increase in the second increment is \( 2r\% \).
+After the first increment, the salary becomes:
+\[
+x \times \left(1 + \frac{r}{100}\right)
+\]
+After the second increment, the salary becomes:
+\[
+x \times \left(1 + \frac{r}{100}\right) \times \left(1 + \frac{2r}{100}\right)
+\]
+This final salary is given to be 187.5% of the initial salary:
+\[
+x \times \left(1 + \frac{r}{100}\right) \times \left(1 + \frac{2r}{100}\right) = 1.875x
+\]
+Dividing through by \( x \):
+\[
+\left(1 + \frac{r}{100}\right) \times \left(1 + \frac{2r}{100}\right) = 1.875
+\]
+Expanding the left-hand side:
+\[
+1 + \frac{r}{100} + \frac{2r}{100} + \frac{2r^2}{100^2} = 1.875
+\]
+Simplify:
+\[
+1 + \frac{3r}{100} + \frac{2r^2}{10000} = 1.875
+\]
+Subtract 1 from both sides:
+\[
+\frac{3r}{100} + \frac{2r^2}{10000} = 0.875
+\]
+Multiply through by 10000 to eliminate fractions:
+\[
+300r + 2r^2 = 8750
+\]
+Simplify:
+\[
+2r^2 + 300r - 8750 = 0
+\]
+Divide through by 2:
+\[
+r^2 + 150r - 4375 = 0
+\]
+Solve this quadratic equation using the quadratic formula:
+\[
+r = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+Here, \( a = 1 \), \( b = 150 \), and \( c = -4375 \). Substituting:
+\[
+r = \frac{-150 \pm \sqrt{150^2 - 4(1)(-4375)}}{2(1)}
+\]
+\[
+r = \frac{-150 \pm \sqrt{22500 + 17500}}{2}
+\]
+\[
+r = \frac{-150 \pm \sqrt{40000}}{2}
+\]
+\[
+r = \frac{-150 \pm 200}{2}
+\]
+Taking the positive root (since percentages cannot be negative):
+\[
+r = \frac{50}{2} = 25
+\]",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,53632a18-0eeb-4e44-9a81-0fd1e9ce4697
+,,,,,Geometry,,,,,,,,,,,"On a semicircle with diameter AD, chord BC is parallel to the diameter. Further, each of the chords AB and CD has length 2, while AD has length 8. What is the length of BC?",7.5,7,7.75,None of the above,mcq,C,7.75,,,,not_checked,"Using the Pythagorean theorem, we can find the length of BC to be √8^2 - 2^2 = √64 - 4 = √60 or approximately 7.75 units.",,,True,https://lh7-us.googleusercontent.com/FmmjoqHnzHHNy8jNOCCCj3sSR0JabM-2RI2aEEQt3h6w6rKwS21j7MmLAR_S3r1mcaPDlnv9nykhX2w5Bx762_Z2jP2EW6m8-Cmdk9azPlnHlvccIAg48ULDa-vq6QYhgUTVxNWTMR77j1WO42k_rjbK_BPhKgym,https://iimking.com/cat-previous-year-questions-circle/,5929d7c9-06f5-464f-9201-7c1d8de6443c
+,,,,,Geometry,False,,,,,,,,,,"What is the measure of the supplementary angle, if the measure of an angle is 57°?",43°,133°,12°,123°,mcq,D,123°,,,,not_checked,"To find the measure of the supplementary angle to an angle that measures 57°, you need to subtract the given angle from 180°, as supplementary angles add up to 180°.
+Supplementary angle = 180° - 57° = 123°
+So, the measure of the supplementary angle is 123°.
+The correct answer is (d) 123°.",,,False,,https://iimking.com/geometry-basic-questions-2023/,5f44a70a-68d5-4aef-b11a-5ae45d3622d7
+,,,,,Geometry,,,,,,,,,,,Amit wants to reach E2 from N1 using first the chord N1 – W2 and then the inner ring road. What will be his travel time in minutes on the basis of information given in the above question?,60,45,90,105,mcq,,,,,,not_checked,,,,False,,https://iimking.com/cat-previous-year-questions-circle/,79d14f7b-bf89-46ee-a314-892b27b5cff1
+,,,,,Geometry,,,,,,,,,,,"Sprinters A, B, and C traverse their respective paths at uniform speeds u, v, and w, respectively. It is known that u^2 : v^2 : w^2 is equal to Area A : Area B : Area C, where Area A, Area B, and Area C are the areas of triangles A1A2A3, B1B2B3, and C1C2C3, respectively. Where would A and C be when B reaches point B3?","A2, C3","A3, C3","A3, C2","Somewhere between A2 and A3, Somewhere between C3 and C1",mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-101.png,https://iimking.com/cat-previous-year-questions-circle/,84cd5c79-cbaa-46bc-827e-5df634d81fe6
+,,,,,Geometry,False,,,,,,,,,,"In ΔABC, D is a point on side BC such that BC = 5 × BD and A(ΔABC) is 100 sq. units. What is the area of ΔABD in sq. units?",20,25,100,12.5,mcq,,,,,,not_checked,,,,False,,https://iimking.com/2027-2/,85cc1859-5fa9-4edf-a7e4-a114a608b13c
+,,,,,Geometry,,,,,,,,,,,"In the figure below (not drawn to scale), rectangle ABCD is inscribed in the circle with the center at O. The length of side AB is greater than that of side BC. The ratio of the area of the circle to the area of the rectangle ABCD is π : √3. The line segment DE intersects AB at E such that ∠ODC = ∠ADE. What is the ratio AE : AD?",1 : √3,1 : √2,1 : 2√3,1 : 2,mcq,A,1 : √3,,,,not_checked,"Wehave to find the ratio of AE:AD i.e. tan x =AEAD    (let ∠ODC=∠ADE=x)
+Let r be the radius of the circle
+and, Let l and b be the length and breadth of the rectangle.
+Then, by Pythagoras theorem in △ABD
+l2+b2=(2r)2
+l2+b2=4r2        (1)
+Now, acc to question: Area of circle:area of rectangle =π:√3
+⇒πr2lb=π√3
+⇒lb=√3r2                 (2)
+Dividing (1) by (2) we get,
+l2lb+b2lb=4r2√3r2
+⇒lb+bl=4√3
+lb=√3
+⇒bl=1√3
+Now, AEAD=tanx=1√3",,,False,,https://iimking.com/cat-previous-year-questions-circle/,9697e88e-2ff5-43c1-8f86-db77c3b803a2
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"Gopi marks a price on a product in order to make 20% profit. Ravi gets 10% discount on this marked price, and thus saves Rs 15. Then, the profit, in rupees, made by Gopi by selling the product to Ravi, is:",15,25,10,20,mcq,C,10,,,,not_checked,"Let the cost price (C.P.) of the product be \( x \), and the marked price (M.P.) be \( 1.20x \) (as the marked price is set to include a 20% profit).
+Ravi gets a 10% discount on the marked price, so the selling price (S.P.) becomes:
+\[
+\text{S.P.} = \text{M.P.} \times (1 - 0.10) = 1.20x \times 0.90 = 1.08x
+\]
+Ravi saves Rs 15 due to the 10% discount on the marked price. Thus, the discount is:
+\[
+\text{Discount} = \text{M.P.} \times 0.10 = 15
+\]
+Substituting \( \text{M.P.} = 1.20x \):
+\[
+1.20x \times 0.10 = 15 \implies 0.12x = 15
+\]
+Solving for \( x \):
+\[
+x = \frac{15}{0.12} = 125
+\]
+Therefore, the cost price is \( x = 125 \), and the selling price is:
+\[
+\text{S.P.} = 1.08x = 1.08 \times 125 = 135
+\]
+The profit made by Gopi is:
+\[
+\text{Profit} = \text{S.P.} - \text{C.P.} = 135 - 125 = 10
+\]",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,9c724889-d5f9-4899-a4c0-971d8c2fd8ac
+,,,,,Geometry,,,,,,,,,,,A circle with radius 2 is placed against a right angle. Another smaller circle is also placed as shown in the adjoining figure. What is the radius of the smaller circle?,3 − 2√2,4 − 2√2,7 − 4√2,6 − 4√2,mcq,,,,,,not_checked,"The radius of the smaller circle is 1. This can be found by using the Pythagorean theorem to solve for the length of the hypotenuse of the right triangle formed by the two circles. Let x be the radius of the smaller circle. Then we have (2 + x)^2 + (2 + x)^2 = (2 + 2)^2, which simplifies to x^2 + 8x + 8 = 0. Solving for x gives us x = -4 ± √12. Since the radius of a circle cannot be negative, we take the positive solution of x = -4 + √12 = 1.",,,True,https://lh7-us.googleusercontent.com/QanWyHsnq73Nh2rXcSyQJy4sox1ETin6BQa82-H3czitefajZBs3rSwCxk9EHZ6PRRkTNWzBEVDM77Fh0-TClCyGo70DQczGe3On3RVz43r6OlyXrMymFXCQfpq-0G1CsksTiV0T_zUHe_7dg93Hb9JXrgtTpiRN,https://iimking.com/cat-previous-year-questions-circle/,a55863e1-f8e9-4590-bf8c-4d380ae0f9d7
+,,,,,Geometry,False,,,,,,,,,,A triangle has three internal angles in the ratio of 3 : 4 : 5. What is the value of the greatest external angle?,57°,90°,135°,Can't be determined,mcq,,,,,,not_checked,,,,False,,https://iimking.com/2027-2/,aa3ab015-ee0d-45fb-9715-d4ef01cc2ef6
+,,,,,Geometry,,,,,,,,,,,"Three horses are grazing within a semi-circular field. In the diagram given below, AB is the diameter of the semi-circular field with the center at O. Horses are tied up at P, R, and S such that PO and RO are the radii of semi-circles with centers at P and R, respectively, and S is the center of the circle touching the two semi-circles with diameters AO and BO. The horses tied at P and R can graze within the respective semi-circles, and the horse tied at S can graze within the circle centered at S. The percentage of the area of the semi-circle with diameter AB that cannot be grazed by the horses is nearest to:",20,28,36,40,mcq,,,,,,not_checked,,,,True,https://lh7-us.googleusercontent.com/tQjCl9u7sLQz2_a6HTGG-0lenwZXFEV_L4ca0U2co7jDHyLkoFzsxiwgwjoRS9FM_EuW06hdc4QRrVye9oCu6B0DHmFDJlfbJdv_F8BXBTCWu3ItfISEaqI7rTFG2OsbLqHbtW6R-FkPcy7rfF71CFX0_VT4KShL | https://iimking.com/wp-content/uploads/2023/11/image-105.png,https://iimking.com/cat-previous-year-questions-circle/,b0b8bded-ba37-4d76-bbcb-fc6a549d8052
+,,,,,Geometry,,,,,,,,,,,"In the adjoining figure, chord ED is parallel to the diameter AC of the circle. If ∠CBE = 65°, then what is the value of ∠DEC?",32°,55°,45°,25°,mcq,,,,,,not_checked,"Since chord ED is parallel to diameter AC, we can conclude that ∠DEC is an inscribed angle that intercepts the same arc as ∠CBE. According to the inscribed angle theorem, the measure of an inscribed angle is half the measure of its intercepted arc.
+Given that ∠CBE = 65°, we can determine that the intercepted arc by ∠CBE is also 65°. Therefore, ∠DEC is half the measure of this intercepted arc, which is 65°/2 = 32.5°.
+Hence, the value of ∠DEC is 32.5°.",,,True,https://lh7-us.googleusercontent.com/veL5-exCG36AExLBrF5_JHpG5lBYuhDfFGM0baEdkC-k-jiRfpUUysZ59J-HtydzgYZjb6cemDnxcI0sB8ZbHvf_6Rht5zz-0AbSBVT3bUAb7szjwyWL6uLW2c3wONr8IT-5lq43NyMJ0IcJKqu7Z_QkwA3o5VAM,https://iimking.com/cat-previous-year-questions-circle/,be43c573-eec4-43f9-aeb2-f013dca2c5a3
+,,,,,Geometry,False,,,,,,,,,,"If a triangle has two sides having lengths 8 units and 12 units, which of the following can be the length of the third side?",2 units,4 units,6 units,All of these,mcq,,,,,,not_checked,,,,False,,https://iimking.com/2027-2/,c42b3fd8-bbb9-4512-9b8d-d93b6fa23de6
+,,,,,Geometry,False,,,,,,,,,,What is the length of the altitude of an equilateral triangle of side 4 cm?,4 cm,6 cm,2√3 cm,2 cm,mcq,,,,,,not_checked,,,,False,,https://iimking.com/2027-2/,c871f9a1-d315-4071-8b1e-3630f30de4d8
+,,,,,Geometry,,,,,,,,,,,"In the figure below, the rectangle at the corner measures 10 cm × 20 cm. The corner A of the rectangle is also a point on the circumference of the circle. What is the radius of the circle in cm?",10 cm,40 cm,50 cm,None of the above,mcq,,,,,,not_checked,"Consider the diagram below:
+(r - 10)^2 + (r - 20)^2 = r^2;
+r = 10 or r = 50.
+r cannot be 10, so it's 50.
+Answer: D.",,,True,https://lh7-us.googleusercontent.com/cScRzXfelAk57azc9p0TNtoNkljbmwJTttur1AwvJMy1hRmlN1hNx7ice8i1lUhVXYf3CghI7GGqjX_riHc4epZH4GP5rCsMkj6A9Pk5YQidRWy_z-khKHt7TzhxIG4q6YXAZERF3trt1S38QglDfeNKjKZbhe5o | https://gmatclub.com/forum/download/file.php?id=25714,https://iimking.com/cat-previous-year-questions-circle/,cc535cc6-f7cd-4520-bdb3-7bb508651c6d
+,,,,,Geometry,,,,,,,,,,,There is a common chord of 2 circles with radius 15 and 20. The distance between the two centers is 25. The length of the chord is:,48,24,36,28,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-100.png,https://iimking.com/cat-previous-year-questions-circle/,ccbda73d-0bf7-4a29-b9a0-6faed125a7cd
+,,,,,Geometry,False,,,,,,,,,,"In a right angled triangle, one of the acute angles is four times the other. What is the measure of the smallest angle of the triangle?",15°,18°,20°,22°,mcq,,,,,,not_checked,,,,False,,https://iimking.com/2027-2/,d3a7e7c5-e2ef-44c3-a57a-59aedb4daaff
+,,,,,Geometry,,,,,,,,,,,"Amit wants to reach N2 from S1. It would take him 90 minutes if he goes on the minor arc S1 - E1 on OR, and then on the chord road E1 - N2. What is the radius of the outer ring road in km?",60,40,30,20,mcq,,,,,,not_checked,"To find the radius of the outer ring road, we can use the information that Amit takes 90 minutes to travel from S1 to N2 using the minor arc S1 - E1 on the outer ring road (OR) and then the chord road E1 - N2.
+Let's assume the radius of the outer ring road is R kilometers, and the distance from S1 to E1 is x kilometers. Then the distance from E1 to N2 is also x kilometers since it's a chord road.
+When traveling along the minor arc S1 - E1 on the outer ring road, Amit is covering a part of the circle with radius R, and the length of this arc is x kilometers. We can use the formula for the circumference of a circle to calculate this arc length:
+Circumference of the circle = 2πR
+Given that the arc length is x kilometers, we can set up a proportion:
+x / (2πR) = 90 minutes
+Now, we need to convert 90 minutes to hours since the speed is typically measured in kilometers per hour. 90 minutes is 1.5 hours (since 1 hour = 60 minutes).
+x / (2πR) = 1.5
+Now, solve for R:
+R = x / (2π * 1.5)
+R = x / (3π)
+Now, we need to find the value of x. When Amit travels along the chord road E1 - N2, he covers a straight-line distance. Since the outer ring road is a circle, the chord road is also the diameter of the circle. So, the diameter of the circle is equal to 2R.
+Distance E1 - N2 = 2R
+Now, we can substitute this into our equation for R:
+R = x / (3π)
+R = (2R) / (3π)
+Now, solve for R:
+1 = (2R) / (3π)
+Multiply both sides by 3π:
+3π = 2R
+Now, solve for R:
+R = (3π) / 2
+To find the approximate value of R, you can use the value of π as approximately 3.14:
+R ≈ (3 * 3.14) / 2
+R ≈ 9.42 / 2
+R ≈ 4.71 kilometers
+So, the radius of the outer ring road is approximately 4.71 kilometers. None of the given options (a) 60, (b) 40, (c) 30, or (d) 20 match this value. There may be an issue with the options provided.",,,False,,https://iimking.com/cat-previous-year-questions-circle/,dd10f79c-6c66-4c74-bc4b-1f1b863da5bb
+,,,,,Geometry,False,,,,,,,,,,"What is the measure of the complementary angle, if the measure of an angle is 57°?",55°,33°,45°,37°,mcq,B,33°,,,,not_checked,"To find the measure of the complementary angle to an angle that measures 57°, you need to subtract the given angle from 90°, as complementary angles add up to 90°.
+Complementary angle = 90° - 57° = 33°
+So, the measure of the complementary angle is 33°.
+The correct answer is (b) 33°.",,,False,,https://iimking.com/geometry-basic-questions-2023/,e09c9bf7-dc37-4cd1-a9e5-df29a232fe7c
+,,,,,Geometry,,,,,,,,,,,The ratio of the sum of the lengths of all chord roads to the length of the outer ring road is,√5 : 2,√5 : 2π,√5 : π,None of the above,mcq,,,,,,not_checked,The ratio of the sum of the lengths of all chord roads to the length of the outer ring road is 2π : π or simply 2 : 1. This can be found by dividing the circumference of the outer ring road by the sum of the lengths of all the chord roads.,,,False,,https://iimking.com/cat-previous-year-questions-circle/,e5bb1d28-37cd-49a8-a7f3-ea3bbd748e49
+,,,,,Geometry,,,,,,,,,,,"There is a circle with center C at the origin and radius r cm. Two tangents are drawn from an external point D at a distance d cm from the center. What are the angles between each tangent
+and the X-axis.
+Statements:
+I. The coordinates of D are given.
+II. The X-axis bisects one of the tangents.",1,2,3,4,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-97.png,https://iimking.com/cat-previous-year-questions-circle/,ea780d2a-96ac-43a6-9f7f-50acccaa3831
+,,,,,Linear & Simple Equations,,,,,,,Breakup G Strategy,,,,"Aman invests Rs 4000 in a bank at a certain rate of interest, compounded annually. If the ratio of the value of the investment after 3 years to the value of the investment after 5 years is \( 25 : 36 \), then the minimum number of years required for the value of the investment to exceed Rs 20000 is:",,,,,tita,,9,,,,not_checked,"Aman invests Rs 4000 at a certain rate of interest compounded annually. Let the rate of interest be \( r \).
+The value of the investment after \( n \) years is given by:
+\[
+V = 4000(1 + r)^n
+\]
+The ratio of the value after 3 years to the value after 5 years is:
+\[
+\frac{4000(1 + r)^3}{4000(1 + r)^5} = \frac{25}{36}
+\]
+Simplifying:
+\[
+(1 + r)^{-2} = \frac{25}{36} \implies (1 + r)^2 = \frac{36}{25} \implies 1 + r = \frac{6}{5} \implies r = \frac{1}{5} = 20\%
+\]
+For the investment to exceed Rs 20000, solve:
+\[
+4000(1 + 0.2)^n > 20000
+\]
+\[
+(1.2)^n > 5
+\]
+Taking logarithm:
+\[
+n \log(1.2) > \log(5)
+\]
+Using approximate values, \( \log(1.2) = 0.07918 \) and \( \log(5) = 0.69897 \):
+\[
+n > \frac{0.69897}{0.07918} \approx 8.83
+\]
+Hence, the minimum \( n \) is \( 9 \).
+Answer: The minimum number of years required is 9.",,Breakup,False,,https://iimking.com/breakup-strategy-slot-3/,f0644942-b69f-4a3c-b969-43af214ff825
+,,,,,Geometry,,,,,,,,,,,"In the figure given below (not drawn to scale), A, B, and C are three points on a circle with center O. The chord BA is extended to a point T such that C becomes a tangent to the circle at point C. If ∠ATC = 30° and ∠ACT = 50°, then the angle ∠BOA is:",100°,150°,80°,Cannot be determined,mcq,A,100°,,,,not_checked,"Answer : (a) 100º  In ∆ ATC, ∠CAT = 180° – (∠ACT + ∠ATC)  = 180° – (50° + 30°) = 100° Also, ∠CBA = ∠ACT = 50° (Alternate Segment Theorem) ∴  ext ∠CAT = int. opp. ∠s  (∠CBA + ∠BCA)  ⇒ 100° = 50° + ∠BCA  ⇒ ∠BCA = 50°  ⇒ ∠BOA = 2 × ∠BCA = 100°",,,False,,https://iimking.com/cat-previous-year-questions-circle/,f9ce9ada-fdef-473b-b350-762a72380085
+,,,,,Geometry,,,,,,,,,,,"AB is a chord of a circle. AB = 5 cm. A tangent parallel to AB touches the minor arc AB at E. What is the radius of the circle?
+Statements:
+A. AB is not a diameter of the circle
+B. The distance between AB and the tangent at E is 5 cm",1,2,3,4,mcq,,,,,,not_checked,,,,True,https://iimking.com/wp-content/uploads/2023/11/image-103.png,https://iimking.com/cat-previous-year-questions-circle/,ff80e5c1-a839-4a80-80f0-e4ec1e23aa79
+,,,,,Geometry,,,,,,,,,,,"In the figure given below, AB is the chord of a circle with center O. AB is extended to C such that BC = OB. The straight line CO is produced to meet the circle at D. If ∠ACD = y° and ∠AOD = x° such that x = ky, then the value of k is:",3,2,1,None of the above,mcq,,,,,,not_checked,,,,True,https://lh7-us.googleusercontent.com/w9nnypS05oPQebaUfTBBNqqvUQrA0hoEY0_z2E8sff4yD0wa0ybu0BLp_yRjX-OfPwps1_BnV_intlEcygpkHG0F8fC-DdAV3LzVrN4rLIynhhs6QHzU2AWHeux1czZfaIdvHMjhKFy28xPBgQsbpGRQPBq88Gti | https://iimking.com/wp-content/uploads/2023/11/image-106.png,https://iimking.com/cat-previous-year-questions-circle/,ffe599be-e6ea-42c2-b59b-b147796fd305
+,,,,,Geometry,False,,,,,,,,,,"What is the area (in cm) of a triangle with sides 6 cm, 8 cm and 10 cm?",34,24,12,None of these,mcq,,,,,,not_checked,,,,False,,https://iimking.com/2027-2/,ffe7d01e-1343-4423-9ae8-a195ebfd6fee

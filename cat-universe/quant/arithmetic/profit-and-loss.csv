@@ -1,0 +1,294 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+CAT-2025-S2-QA-024,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2025,2,,CAT Easy,Easy,Logic Lens G Strategy,Profit Loss,Visual Lens G Strategy 1.2/0.8 | Profit Loss | Easy,,"An item with a cost price of Rs. 1650 is sold at a certain discount on a fixed marked price to earn a profit of 20% on the cost price. If the discount was doubled, the profit would have been Rs. 110. The rate of discount, as a percentage, at which the profit percentage would be equal to the rate of discount, is nearest to",12,18,16,14,mcq,D,14,,,,match,"Correct Answer D) 14
+Given: CP = 1650, MP = 2200
+Condition: profit % = discount %
+Discount %
+SP = MP × (1 − d)
+Profit (SP − 1650)
+Profit %
+Match?
+A. 12%
+2200 × 0.88 = 1936
+286
+≈ 17%
+❌
+B. 18%
+2200 × 0.82 = 1804
+154
+≈ 9%
+❌
+C. 16%
+2200 × 0.84 = 1848
+198
+≈ 12%
+❌
+D. 14%
+2200 × 0.86 = 1892
+242
+≈ 14.7%
+✅",,Visual Lens G Strategy 1.2/0.8,False,,https://iimking.com/full-quant-cat-2025-slot-2-question-paper-pdf-with-detailed-solutions/,3573c54a-3f86-4a3e-918a-cff5219d53d5
+CAT-2025-S2-QA-027,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2025,2,,CAT Easy,Easy,Logic Lens G Strategy,Profit Loss,,,"An item with a cost price of Rs. 1650 is sold at a certain discount on a fixed marked price to earn a profit of 20% on the cost price. If the discount was doubled, the profit would have been Rs. 110. The rate of discount, as a percentage, at which the profit percentage would be equal to the rate of discount, is nearest to",12,18,16,14,mcq,D,14,,,,match,"Correct Answer D) 14
+Given: CP = 1650, MP = 2200
+Condition: profit % = discount %
+Discount % | SP = MP × (1 − d) | Profit (SP − 1650) | Profit % | Match?
+A. 12% | 2200 × 0.88 = 1936 | 286 | ≈ 17% | ❌
+B. 18% | 2200 × 0.82 = 1804 | 154 | ≈ 9% | ❌
+C. 16% | 2200 × 0.84 = 1848 | 198 | ≈ 12% | ❌
+D. 14% | 2200 × 0.86 = 1892 | 242 | ≈ 14.7% | ✅",,Visual POE,False,,https://iimking.com/arithmetic-1-cat-2025-slot-2-quant-breakup-g-strategy/,0665213c-c7d5-42a2-8f43-530e7902a57e
+CAT-2025-S2-QA-054,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2025,2,,CAT Easy,Easy,Logic Lens G Strategy,Profit Loss,,,"An item with a cost price of Rs. 1650 is sold at a certain discount on a fixed marked price to earn a profit of 20% on the cost price. If the discount was doubled, the profit would have been Rs. 110. The rate of discount, as a percentage, at which the profit percentage would be equal to the rate of discount, is nearest to",12,18,16,14,mcq,D,14,,,,match,"Given: CP = 1650, MP = 2200
+Condition: profit % = discount %
+Discount %
+SP = MP × (1 − d)
+Profit (SP − 1650)
+Profit %
+Match?
+A. 12%
+2200 × 0.88 = 1936
+286
+≈ 17%
+❌
+B. 18%
+2200 × 0.82 = 1804
+154
+≈ 9%
+❌
+C. 16%
+2200 × 0.84 = 1848
+198
+≈ 12%
+❌
+D. 14%
+2200 × 0.86 = 1892
+242
+≈ 14.7%
+✅",,Visual Lens 1.2/0.8,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,2a179c1b-a7ac-420e-8b3d-503e04703d44
+CAT-2025-S3-QA-015,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,1.2 / 0.8 Percentage + Profit Loss,Breakup G Strategy | 1.2 / 0.8 Percentage + Profit Loss | Moderate,,"The monthly sales of a product from January to April were 120, 135, 150 and 165 units respectively. The cost per unit of the product was Rs 240 per unit and a fixed marked price was used for the product in all the four months. However, 20%, 10% and 5% discount on the marked price was offered in January, February, March respectively while no discount were given in April.If the total profit from January to April was Rs 138825, then the marked price (in Rs) is equal to, say:",515,525,520,510,mcq,B,525,,,,match,"Correct Answer: 2
+Given: Units sold: January (120), February (135), March (150), April (165)
+Cost per unit: Rs 240
+Discounts: 20% (January), 10% (February), 5% (March), 0% (April)
+Total profit: Rs 138,825
+Let M be the marked price.
+Revenue for Each Month
+January: 120 × 0.80M = 96M
+February: 135 × 0.90M = 121.5M
+March: 150 × 0.95M = 142.5M
+April: 165 × M = 165M
+Total Revenue = 96M + 121.5M + 142.5M + 165M = 525M
+Total Cost = (120 + 135 + 150 + 165) × 240 = 136800
+Profit = Revenue - Cost
+138825 = 525M - 136800
+525M = 275625
+M = 275625 / 525 = 525
+The marked price M = Rs 525, so the correct answer is Option 2.",,Breakup G Strategy,False,,https://iimking.com/full-cat-2025-quant-slot-3-actual-questions-pdf-with-detailed-solutions/,258a16b5-bb80-40f3-a909-5be89971b2ab
+CAT-2024-S1-QA-007,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2024,1,,,,,,,,"The selling price of a product is fixed to ensure 40% profit. If the product had cost 40% less and had been sold for 5 rupees less, then the resulting profit would have been 50%. The original selling price, in rupees, of the product is",15,10,20,14,mcq,D,14,,,,match,"Selling Price Profit Problem
+Profit and Selling Price Problem
+Let the original cost price be \( x \)
+Then the original selling price is:
+\( \text{SP} = x + 0.4x = 1.4x \)
+New cost price is 40% less than the original cost price:
+\( \text{New CP} = x - 0.4x = 0.6x \)
+New selling price is ₹5 less than the original SP:
+\( \text{New SP} = 1.4x - 5 \)
+Given: New profit is 50% on the new cost price:
+\( \text{New SP} = \text{New CP} + 50\% \text{ of New CP} = 0.6x + 0.3x = 0.9x \)
+So we form the equation:
+\( 1.4x - 5 = 0.9x \)
+Simplify:
+\( 1.4x - 0.9x = 5 \Rightarrow 0.5x = 5 \Rightarrow x = 10 \)
+Original selling price = \( 1.4x = 1.4 \times 10 = \boxed{14} \)
+Final Answer: \( \boxed{14} \)",,,False,,https://iimking.com/direct-questions-cat-2024-quant-slot-1/,0372892f-222f-411f-9df2-af4803446888
+CAT-2024-S3-QA-011,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2024,3,,,,Breakup G Strategy,Gopi and Ravi Profit,Gopi and Ravi Profit,,"Gopi marks a price on a product in order to make 20% profit. Ravi gets 10% discount on this marked price, and thus saves Rs 15. Then, the profit, in rupees, made by Gopi by selling the product to Ravi is:",,,,,tita,,22.5,,,,mismatch,"10% of M = 15 → M=150
+SP=135, CP=112.5
+Profit = 22.5",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,e96e55bc-07ab-4963-9c2e-cb672b5c1973
+CAT-2023-S1-QA-014,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2023,1,1,,,,,,,"Gita sells two objects A and B at the same price such that she makes a profit of 20% on object A and a loss of 10% on object B. If she increases the selling price such that a 10% profit is made on object B, then the profit made on object A will be nearest to:",37%,42%,47%,52%,mcq,C,47%,,,,match,"Given, Gita sold two objects and changed the selling price, resulting in a profit percentage on object A being approximately 47%.",,,False,,https://iimking.com/cat-2023-quant-arithmetic-actual-questions/,30c0f9f1-0cc3-4e29-b871-f0c6c4d1e929
+CAT-2023-S2-QA-027,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2023,2,,,,,,,,"Minu purchases a pair of sunglasses at Rs.1000 and sells to Kanu at 20% profit. Then, Kanu sells it back to Minu at 20% loss. Finally, Minu sells the same pair of sunglasses to Tanu. If the total profit made by Minu from all her transactions is Rs.500, then the percentage of profit made by Minu when she sold the pair of sunglasses to Tanu is",52%,26%,31.25%,35.42%,mcq,C,31.25%,,,,match,Option 3,,,False,,https://iimking.com/profit-and-loss-actual-question-in-cat-2023-slot-2/,73e7fd15-6fcd-48a7-ac55-c6d1092e4ec7
+CAT-2023-S2-QA-038,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2023,2,,,,,,,,"Jayant bought a certain number of white shirts at the rate of Rs 1000 per piece and a certain number of blue shirts at the rate of Rs 1125 per piece. For each shirt, he then set a fixed market price which was 25% higher than the average cost of all the shirts. He sold all the shirts at a discount of 10% and made a total profit of Rs 51000. If he bought both colors of shirts, then the maximum possible total number of shirts that he could have bought is",,,,,tita,,407,,,,match,407,,,False,,https://iimking.com/profit-and-loss-actual-question-in-cat-2023-slot-2/,184844e1-7b6c-4413-bb8b-3d616054c7b2
+,,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2023,,,,,,,,,"A merchant purchases a cloth at a rate of Rs.100 per meter and receives 5 cm length of cloth free for every 100 cm length of cloth purchased by him. He sells the same cloth at a rate of Rs.110 per meter but cheats his customers by giving 95 cm length of cloth for every 100 cm length of cloth purchased by the customers. If the merchant provides a 5% discount, the resulting profit earned by him is",15.5%,9.7%,2%,16%,mcq,A,15.5%,,,,match,,,,False,,https://iimking.com/profit-and-loss-quants-actual-cat-2023-question/,acbb05f2-b707-4783-9ba6-4da49f75326d
+CAT-2022-S1-QA-007,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2022,1,,,,,Profit and Loss,,,"Amal buys 110 kg of syrup and 120 kg of juice, syrup being 20% less costly than juice, per kg. He sells 10 kg of syrup at 10% profit and 20 kg of juice at 20% profit. Mixing the remaining juice and syrup, Amal sells the mixture at ₹ 308.32 per kg and makes an overall profit of 64%. Then, Amal's cost price for syrup, in rupees per kg, is",,,,,tita,,160,,,,match,"Let the Cost Price of Juice be rupees x per kg.
+Since the Cost Price of Syrup is 20% less than the Cost Price of Juice, Cost Price of Syrup is 0.8x per kg.
+Total Cost Price of Syrup = 110 * 0.8 x = 88 x
+Total Coat Price of Juice = 120 * x = 120x
+Total Cost Price = 88x + 120x = 208x
+Since the Overall Profit Percentage is 64%.
+Total Profit = 0.64(208x) = 133.12x
+The profit generated on selling 10 kgs of Syrup which costs 0.8x rupees per kg at 10% Profit = 0.1 * 10 * 0.8x = 0.8x
+The profit generated on selling 20 kgs of Juice which costs x rupees per kg at 20% Profit = 0.2 * 20 * x = 4x
+The remaining profit (133.12x - (0.8x + 4x) = 128.32x) is generated by selling 100 kgs of Syrup and 100 kgs of Juice at ₹ 308.32 per kg.
+The total Selling Price of 100 kgs of Syrup and 100 kgs of Juice is 200 * 308.32 = 2(30832)
+Cost Price of 100 kgs of Syrup = 0.8x * 100 = 80x
+Cost Price of 100 kgs of Juice = x * 100 = 100x
+Total Cost Price = 80x + 100x = 180x
+Profit = Selling Price - Cost Price
+128.32x = 2(30832) - 180x
+308.32x = 2(30832)
+x = 200
+Cost Price of Syrup per kg = 0.8 x = 0.8(200) = ₹160 per kg.",,,True,https://iimking.com/wp-content/uploads/2023/10/profit-loss.jpg,https://iimking.com/cat-previous-year-questions-profit-and-loss/,c18c232e-e1bf-4365-82db-6b4b25cd288e
+CAT-2021-S1-QA-015,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2021,1,,,,,Profit and Loss,,,"Identical chocolate pieces are sold in boxes of two sizes, small and large. The large box is sold for twice the price of the small box. If the selling price per gram of chocolate in the large box is 12% less than that in the small box, then the percentage by which the weight of chocolate in the large box exceeds that in the small box is nearest to",127,135,124,144,mcq,A,127,,,,match,"Let's consider the selling prices of small and large chocolate boxes be ‘x’ and ‘2x’ respectively.
+Let's also consider the weights of the small and large chocolate boxes to be 100(to make it easy) and y respectively.
+Given that, the selling price per gram of chocolate in the large box is 12% less than that in the small box.
+Therefore, x/100 x 0.88 = 2xy
+y = 2000.88
+y ≅ 227
+Hence, the weight of chocolate in a large box exceeds 127% of that of a small box.
+Hence the answer is 127.",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,4db8544c-e104-43d0-83c6-1d76e79a2307
+CAT-2021-S1-QA-017,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2021,1,,,,,Profit and Loss,,,"Amal purchases some pens at ₹ 8 each. To sell these, he hires an employee at a fixed wage. He sells 100 of these pens at ₹ 12 each. If the remaining pens are sold at ₹ 11 each, then he makes a net profit of ₹ 300, while he makes a net loss of ₹ 300 if the remaining pens are sold at ₹ 9 each. The wage of the employee, in INR, is",,,,,tita,,1000,,,,match,"Let’s consider the total number of pens to be
+(100 +x)
+Let's consider the fixed-wage of the labour to be ‘w’
+case (i): the net profit is 300
+CP = 8(100 +x) + w
+SP = 12 x 100 + 11 x = 1200 + 11x
+Profit = SP - CP
+300 = 1200 + 11x - 8(100 +x) - w
+w - 3x = 100 → eq(1)
+Case (ii): the net loss is 300
+CP = 8(100 +x) + w
+SP = 12 x 100 + 9 x = 1200 + 9x
+Loss = CP - SP
+300 = 8(100 +x) + w - 1200 - 9x
+w - x = 700 → eq(2)
+By solving equation (1) & (2) we get w = 1000.
+Therefore, the wage of the employee is 1000.
+Alternate solution:
+We can also do this with a little intuition. The Rs 2 decrease per pen results in 300 loss from the case of 300 profit.
+The net value of 600 resulted by selling the remaining pens at Rs 2 lesser.
+If the number of remaining pens is x, then 2x = 600
+So, x = 300.
+Total pens = 100 + 300 = 400.
+We can get the wage of an employee(w) by considering profit/loss
+Profit = 300
+100(12) + 300(11) - 400(8) -w = 300
+w = 1000",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,766ab4c1-3190-4cb0-8981-96e0f6f2083b
+CAT-2021-S2-QA-011,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2021,2,,,,,Profit and Loss,,,"Anil, Bobby and Chintu jointly invest in a business and agree to share the overall profit in proportion to their investments. Anil's share of investment is 70%. His share of profit decreases by ₹ 420 if the overall profit goes down from 18% to 15%. Chintu's share of profit increases by ₹ 80 if the overall profit goes up from 15% to 17%. The amount, in INR, invested by Bobby is",2400,2200,2000,1800,mcq,C,2000,,,,match,"Anil's share of investment is 70%. His share of profit decreases by ₹ 420 if the overall profit goes down from 18% to 15%.
+Let‘s consider the total amount invested by the three to be ‘x’
+So, 70% of (18% of x - 15% of x) = 420.
+70% of 3% of x = 420
+x = 20,000.
+Chintu's share of profit increases by ₹ 80 if the overall profit goes up from 15% to 17%.
+Let’s consider the chintu’s percentage share to be ‘c’.
+So, c% of 2% of 20,000 = 80.
+c = 20%.
+Therefore, the percentage of the amount invested by Bobby is 10%
+Hence, 10% of 20,000 is 2000.",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,72efc9ca-e024-4b9d-8c1d-7cf700c0f6f9
+CAT-2021-S2-QA-013,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2021,2,,,,,Profit and Loss,,,"Raj invested ₹ 10000 in a fund. At the end of first year, he incurred a loss but his balance was more than ₹ 5000. This balance, when invested for another year, grew and the percentage of growth in the second year was five times the percentage of loss in the first year. If the gain of Raj from the initial investment over the two year period is 35%, then the percentage of loss in the first year is",15,5,10,70,mcq,C,10,,,,match,"Let the total investment be P, then at the end of the first year, after a loss of x percentage the value of the investment becomes
+P(1 - x)
+Then in the next year the value of the investment increases by 5x
+So, the overall value of the investment becomes
+P(1 - x)(1 + 5x)
+This is an increase of 35% from the initial investment amount.
+Hence,
+1.35 P = P (1 - x)(1 + 5x)
+Going by the options we can see that the equation is satisfied when x = 10
+Hence 10 is the answer.",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,5a6745f0-c4c2-48fe-b366-cb0b310963c4
+CAT-2021-S3-QA-009,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2021,3,,,,,Profit and Loss,,,"A shop owner bought a total of 64 shirts from a wholesale market that came in two sizes, small and large. The price of a small shirt was INR 50 less than that of a large shirt. She paid a total of INR 5000 for the large shirts, and a total of INR 1800 for the small shirts. Then, the price of a large shirt and a small shirt together, in INR, is",150,225,175,200,mcq,D,200,,,,match,"Let the number of small shirts be ‘x’
+then the number of large shirts becomes 64 - x.
+Let the price of a small shirt be ‘y’
+then the price of a large shirt becomes y + 50
+Money spent on small shirts = xy = 1800
+Money spent on large shirts = (64 - x) (y + 50) = 5000
+(64 - x) (y + 50) = 5000
+64y + 3200 - xy - 50x = 5000
+64y + 3200 - 1800 - 50x = 5000
+64y + 1400 - 50x = 5000
+64y - 50x = 3600
+32y - 25x = 1800
+32y - 25(1800/y) = 1800
+32y2 - 1800y - 25(1800) = 0
+4y2 - 9(25)y - 25(9)(25) = 0
+y = 75
+Price of a small shirt = ‘y’ = 75
+Price of a small shirt = ‘y + 50’ = 125
+The price of a large shirt and a small shirt together, in INR = 75 + 125 = 200",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,8361e893-7346-42e5-9753-445e464ba827
+CAT-2020-S1-QA-019,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2020,1,,,,,Profit and Loss,,,"A person spent Rs 50000 to purchase a desktop computer and a laptop computer. He sold the desktop at 20% profit and the laptop at 10% loss. If overall he made a 2% profit then the purchase price, in rupees, of the desktop is",,,,,tita,,20000,,,,match,"D = Price of Desktop and L = Price of Laptop
+0.2 D – 0.1 L = 2 % of 50000
+0.2 D – 0.1 L = 1000
+2D – L = 10000
+D + L = 50000
+Solving D = 20000",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,7488d782-4459-4b54-9c22-8acf37e37317
+CAT-2020-S2-QA-013,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2020,2,,,,,Profit and Loss,,,"Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been",60,50,55,54,mcq,B,50,,,,match,"Let’s take Selling Price = P
+= (8 × 0.8 P) + 4 × {0.8P - 14
+(0.8)P}
+= {(8 × 0.8 P) + 4 × (0.6P)}
+Total Selling Price = 8.8 P
+CP = 8.8P/1.1 = 8P (Since he makes 10% profit)
+SP = 12P
+So, Profit from 8P to 12P = 4P/8P
+= 50%",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,65bb74c9-facd-45aa-b972-f572ef9f91f0
+CAT-2020-S3-QA-017,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2020,3,,,,,Profit and Loss,,,"A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to",35,31,22,25,mcq,D,25,,,,match,"Let the price of Sugar per kilogram be 'x' rupees.
+The man marks it up by 20% and sells 5 kilograms.
+Marked Price = 1.2 × x = 1.2x
+Therefore, the sale price of these 5 kgs totally would be = 5 × 1.2 × x = 6x
+He then gives a discount of 10% on the markup and sells 15 kgs at that price. So, the price per kg now would be 0.9 × 1.2 × x = 1.08x
+Therefore, the sale price of these 15 kgs totally would be = 15 × 1.08x = 16.2x
+He then looses 3 kgs of Sugar
+Therefore, the sale price of these 3 kgs = 0.
+There is 35 - 5 - 15 - 3 = 12 kgs of sugar remaining.
+Let's say it is sold at px price.
+So, the sale price of these 12 kgs will be = 12 × px
+The overall profit for the Man is 15%, So the Sale Price of the entire 35 kgs is 35 × 1.15 × x = 40.25x
+Summing up and equating all the sale prices...
+40.25x = 6x + 16.2x + 0x + 12 × px
+40.25x = 22.2x + 12 × px
+18.05x = 12 × px
+Let's approximate this to
+18x = 12 × px p = 32
+= 1.5
+Very importantly, px is attained after marking up the marked price.
+Therefore, px = y × Marked Price
+1.5x = y × 1.2x
+y = 54
+= 1.25
+In other words we can say that the marked price was increased by 25%.",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,4c361d33-e243-4f1f-b5c6-0fd01e3a5ecd
+CAT-2019-S1-QA-027,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2019,1,,,,,Profit and Loss,,,"On selling a pen at 5% loss and a book at 15% gain, Karim gains Rs. 7. If he sells the pen at 5% gain and the book at 10% gain, he gains Rs. 13. What is the cost price of the book in Rupees?",80,85,100,95,mcq,A,80,,,,match,"From the question, let us frame the following equations
+-P x 5% + b x 15% = 7 ---(1)
+P x 5% + b x 10% = 13 --- (2)
+________________________
+(+)
+b x (25%) = 20
+Price of Book = b = Rs. 80",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,5cf1e7f6-41ba-42e1-ab57-6205451e45ac
+CAT-2019-S2-QA-023,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2019,2,,,,,Profit and Loss,,,"Mukesh purchased 10 bicycles in 2017, all at the same price. He sold six of these at a profit of 25% and the remaining four at a loss of 25%. If he made a total profit of Rs. 2000, then his purchase price of a bicycle, in Rupees, was",2000,6000,8000,4000,mcq,D,4000,,,,match,"Let the cost price of one bicycle = Rs. x
+Total cost price = Rs. 10x
+He made a total profit of 25% on 6 cycles and 25% loss on 4 cycles and made a profit of Rs. 2000
+So, 2000 = 6 x - 4 x
+2000 =
+x = Rs. 4000",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,916c211f-d48b-4e23-99f8-0cb3f4f8564e
+CAT-2019-S2-QA-025,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2019,2,,,,,Profit and Loss,,,"A shopkeeper sells two tables, each procured at cost price p, to Amal and Asim at a profit of 20% and at a loss of 20%, respectively. Amal sells his table to Bimal at a profit of 30%, while Asim sells his table to Barun at a loss of 30%. If the amounts paid by Bimal and Barun are x and y, respectively, then (x -y) / p equals",1,1.2,0.7,0.50,mcq,A,1,,,,match,"The Shopkeeper procures the table at price 'p'
+He gains 20% on the transaction with Amal
+So, Amal buys the table at '1.2p'
+Amal sells athe table at 30% profit,
+So the Selling Price of Amal = 1.3 * 1.2p = 1.56p
+x = 1.56p
+The Shopkeeper looses 20% on the transaction with Asim
+So, Asim buys the table at '0.8p'
+Asim sells athe table at 30% loss,
+So the Selling Price of Asim = 0.7 * 0.8p = 0.56p
+y = 0.56p
+(x-y)/p = (1.56p - 0.56p)/p = 1.",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,22732039-53d5-48df-b904-3522dc4391d9
+CAT-2017-S2-QA-023,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2017,2,,,,,Profit and Loss,,,"The manufacturer of a table sells it to a wholesale dealer at a profit of 10%. The wholesale dealer sells the table to a retailer at a profit of 30%. Finally, the retailer sells it to a customer at a profit of 50%. If the customer pays Rs 4290 for the table, then its manufacturing cost (in Rs) is",1500,2000,2500,3000,mcq,B,2000,,,,match,"given that the manufacturer of a table sells it to the whole sale dealer at a profit of 10%
+CAT 2017 Question Paper Quants Slot 2 Profit and Loss
+Then the whole sale dealer sells to a retailer at a profit of 30%
+CAT 2017 Question Paper Quants Slot 2 Profit and Loss
+The retailer sells to a customer at a profit of 50%
+CAT 2017 Question Paper Quants Slot 2 Profit and Loss
+If the customer pays Rs.4290 for the table then 1.1 × 1.3 × 1.5X = 4290
+⟹ 1110
+× 1310
+× 32
+X = 4290
+⟹ X = 4290 × 1011
+× 1013
+× 23
+X(Manufacturing cost) = Rs. 2000
+The question is ""The manufacturer of a table sells it to a wholesale dealer at a profit of 10%. The wholesale dealer sells the table to a retailer at a profit of 30%. Finally, the retailer sells it to a customer at a profit of 50%. If the customer pays Rs 4290 for the table, then its manufacturing cost (in Rs) is""
+Hence, the answer is 2000
+Choice B is the correct answer",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,00c3c0c2-8d2d-4a22-9eb3-0e295f6923a9
+CAT-2017-S2-QA-025,sequence,Arithmetic,Profit & Loss,topic_map,Profit & Loss,True,2017,2,,,,,Profit and Loss,,,Mayank buys some candies for Rs 15 a dozen and an equal number of different candies for Rs 12 a dozen. He sells all for Rs 16.50 a dozen and makes a profit of Rs 150. How many dozens of candies did he buy altogether?,50,30,25,45,mcq,A,50,,,,match,"Given that Mayank buys some candies for Rs.15 a dozen and equal number of different candies for Rs.12 a dozen.
+Let us assume that there are n dozens,
+Cost price of the candies = 15n + 12n = 27n
+In total he buys 2n dozens of candies.
+A dozen is sold at Rs.16.50
+Selling price of candies = 2n × 16.50 = 33n
+Profit = Selling price - Cost Price
+Profit = 33n - 27n = 6n = 150
+n = 1506
+= 25
+Therefore the no. of candies Mayank bought altogether is 2n = 2 × 25 = 50 dozens",,,False,,https://iimking.com/cat-previous-year-questions-profit-and-loss/,62aba8da-58d5-4212-a08e-bb928bad0711

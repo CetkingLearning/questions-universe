@@ -1,0 +1,51 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
+,,Modern Maths,Probability,ai_split,"Permutation, Combination & Probability",True,2004,,,,,,Modern Math - Permutation & Combination,,,"Each question is followed by two statements, A and B. Answer each question using the following instructions
+Choose 1 if the question can be answered by using one of the statements alone but not by using the other statement alone.
+Choose 2 if the question can be answered by using either of the statements alone.
+Choose 3 if the question can be answered by using both statements together but not by either statement alone.
+Choose 4 if the question cannot be answered on the basis of the two statements.
+Tarak is standing 2 steps to the left of a red mark and 3 steps to the right of a blue mark. He tosses a coin. If it comes up heads, he moves one step t the right; otherwise he moves one step to the left. He keeps doing this until he reaches one of the two marks, and then he stops. At which mark doe he stop?
+He stops after 21 coin tosses.
+He obtains three more tails than heads.",1,2,3,4,mcq,D,4,,,,not_checked,"To determine at which mark Tarak stops, we need to consider both statements together:
+Statement A: He stops after 21 coin tosses.
+This statement alone does not provide enough information about the initial position of Tarak concerning the red and blue marks. It only tells us the number of coin tosses, but we need to know the starting position to decide which mark he reaches.
+Statement B: No information is provided in Statement B.
+Now, when we combine both statements, we know that Tarak stops after 21 coin tosses. However, without any information about the starting position concerning the red and blue marks, we still cannot determine at which mark he stops.
+So, the correct answer is 4: The question cannot be answered based on the two statements.",,,False,,https://iimking.com/cat-previous-year-questions-permutation-combination/,0b5a0917-b501-40bd-8d7c-1c788b4d36c4
+,,Modern Maths,Probability,ai_split,"Permutation, Combination & Probability",True,1995,,,,,,Probability,,,"If a 4 digit number is formed with digits 1, 2, 3 and 5. What is the probability that the number is divisible by 25, if repetition of digits is not allowed?",1/12,1/4,1/6,None of these,mcq,A,1/12,,,,not_checked,"For the number to be divided by 25 it should have 25 as last two digits, so it means that we have fixed the last two digits of the number and the total number of doing this is 1.
+Now talking about the first two digits and they can be any number from the given choices so we can fill that two spaces by two numbers and total number of ways of doing this are 2!.
+So the total number which are formed by the given numbers and are also get divided by 25 are 2!= 2
+Now total number which can be formed by given four digits are 4!= 24
+Now probability of getting a number which is divisible by 25= (total number which get divided by 25/total number formed)
+=> 2/24
+=>1/12",,,False,,https://iimking.com/cat-previous-year-questions-probability/,4b9f8dd0-186b-4695-acd9-9b4c416731b8
+,,Modern Maths,Probability,ai_split,"Permutation, Combination & Probability",True,1994,,,,,,Probability,,,"Data is provided followed by two statements – I and II – both resulting in a value, say I and II.
+As your answer, Type 1, if I > II. Type 2, if I < II. Type 3, if I = II.
+Type 4, if nothing can be said.
+The probability of encountering 54 Sundays in a leap year.
+The probability of encountering 53 Sundays in a non-leap year.",,,,,tita,,Type 1,,,,not_checked,"To compare the probabilities of encountering 54 Sundays in a leap year and 53 Sundays in a non-leap year, we can analyze both situations:
+I. The probability of encountering 54 Sundays in a leap year:
+In a leap year, there are 366 days, and these 366 days can start on any day of the week. Therefore, there are 7 possibilities for the day on which the year starts. To have 54 Sundays, there must be 2 days that are not Sundays. Since there are 7 possibilities for the starting day, the number of ways to select 2 days out of the 7 days for non-Sundays is given by the combination formula C(7, 2).
+II. The probability of encountering 53 Sundays in a non-leap year:
+In a non-leap year, there are 365 days, and these 365 days can also start on any day of the week. There are 7 possibilities for the day on which the year starts. To have 53 Sundays, there must be 1 day that is not a Sunday. Therefore, the number of ways to select 1 day out of the 7 days for the non-Sunday is given by the combination formula C(7, 1).
+Let's compare these probabilities:
+I. Probability of 54 Sundays in a leap year = C(7, 2)
+II. Probability of 53 Sundays in a non-leap year = C(7, 1)
+We can calculate these values:
+I. C(7, 2) = 21
+II. C(7, 1) = 7
+Now, let's compare I and II:
+I (21) > II (7)
+So, the answer is Type 1, which means that the probability of encountering 54 Sundays in a leap year is greater than the probability of encountering 53 Sundays in a non-leap year.",,,False,,https://iimking.com/cat-previous-year-questions-probability/,0230b693-073a-4441-8bc1-701a9f999b7a
+,,Modern Maths,Probability,ai_split,"Permutation, Combination & Probability",True,1993,,,,,,Probability,,,"A box contains 6 red balls, 7 green balls and 5 blue balls. Each ball is of a different size. The probability that the red ball selected is the smallest red bal is",1/18,1/3,1/6,2/3,mcq,C,1/6,,,,not_checked,"To calculate the probability that the red ball selected is the smallest red ball, let's consider the total number of ways to select a red ball and the number of ways to select the smallest red ball.
+Total number of red balls = 6
+Number of ways to select the smallest red ball = 1 (there is only one smallest red ball)
+Probability = (Number of ways to select the smallest red ball) / (Total number of red balls)
+Probability = 1/6
+So, the correct answer is 1/6.",,,True,https://lh7-us.googleusercontent.com/lDcZtqab8Ee_qgs-qFDtATpxQFiWs8AG9F9kaRkT-HGhqMeN7niLnDnizybesLLAVcxoPOjby1L1c1rGOu3ZkQ46PWRjY6ZDa1QjQv1dMCjQqeH8mqORJ5iJTFWyIBrjQsuJAuKIFgIsoDNx_FgkcxQLj6DM29Xc | https://lh7-us.googleusercontent.com/J9JQRQT7Xm2qRKpLXOirdDLMsbHbCGPLxF7jp5ysdcyeneARFkgxTIGAn2Nw0rg1ACreWVABsRhLKew8nqQMqIUNusiT4mzd2JShVZ4RH9FXXB0hUzGVt_QkMzxUdL92bp1r-_GWFYfe0NMZ05KhTHimTYTZvuIN | https://lh7-us.googleusercontent.com/lXhzAGaogQFbHNebmCyfj9W9Z3gAb-k7eFB5bjGglu6uKHqYveNPHFc3CzHMxItKmfFxdIIAttRSbQTcWBpl02iKLVYxRX5MJowPS4nlQIq87i7prDBYFnOEaYrA2O8SyIQPI9SdrIsve8ZS4RhpAhNTdDNKZXQ7,https://iimking.com/cat-previous-year-questions-probability/,b9f3e531-9058-4459-a036-42e8040fc455
+,,Modern Maths,Probability,ai_split,"Permutation, Combination & Probability",True,1991,,,,,,Probability,,,A player rolls a die and receives the same number of rupees as the number of dots on the face that turns up. What should the player pay for each roll he wants to make a profit of one rupee per throw of the die in the long run?,Rs. 2.50,Rs. 2,Rs. 3.50,Rs. 4,mcq,C,Rs. 3.50,,,,not_checked,"To make a profit of one rupee per throw of the die in the long run, the player should pay an amount equal to the expected value of the die roll. The expected value of a fair six-sided die roll is calculated by taking the average of all possible outcomes.
+The expected value = (1/6) * (1) + (1/6) * (2) + (1/6) * (3) + (1/6) * (4) + (1/6) * (5) + (1/6) * (6)
+Expected value = (1/6) * (1 + 2 + 3 + 4 + 5 + 6)
+Expected value = (21/6)
+Expected value = 7/2 = Rs. 3.50
+So, the player should pay Rs. 3.50 to make a profit of one rupee per throw of the die in the long run.",,,False,,https://iimking.com/cat-previous-year-questions-probability/,eaba995d-c4a6-4121-b46a-0ef64b2a9595

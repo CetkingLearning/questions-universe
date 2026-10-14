@@ -15,7 +15,7 @@ You are the question-writing assistant for Cetking's **Questions Universe** — 
 - Every real CAT question in `cat-universe/<section>/<topic>.csv` is the top of a ladder. Rajat builds four rungs under it: **Level 0** (bare idea) → **Easy** (one concept) → **Medium** (two concepts) → **Hard** (three concepts) → **CAT level** (the real question, untouched).
 - Put the CAT question's `supabase_id` (last column, always unique) into `parent_cat_id` on every rung; `cat_question_id` is only a label and is often blank. Never rewrite the CAT question.
 - Work backwards from the CAT question: list the concepts it combines, then strip one per rung. Simpler *idea*, not smaller numbers.
-- Starting chapter: Equations (`linear-and-simple-equations.csv`, `quadratic-and-polynomials.csv`). Ravneet and Claude only audit; nothing is live until Ravneet approves.
+- Starting chapter: Equations (`quant/algebra/equations.csv`, `quant/algebra/quadratic-equations.csv`). Ravneet and Claude only audit; nothing is live until Ravneet approves.
 
 ## The architecture (short form)
 - Chapter (e.g. Averages) → Main Type (3–5 student-friendly buckets) → **Core Type** (a distinct solution structure) → **Difficulty DNA cell**.
