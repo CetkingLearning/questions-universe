@@ -1,24 +1,24 @@
-cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page,question_pattern
 CAT-2025-S1-DILR-001,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,1,1,CAT Hard,Difficult,Wide Wordy,Wide Arrangement,Round Table Arrangement,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
 1. The four friends occupy adjacent chairs only at the end of Turn 2 and Turn 6.
-2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",What is the number of the chair initially occupied by Bashir? ______,,,,,tita,,4,,,,match,"1. Correct Answer: 4. Reason: The starting constraints (A and C adjacent; B and D each with empty neighbours) combined with the fixed post-move facts (D at chair 2 after Turn 1, D at chair 4 after Turn 5, and C at chair 7 after Turn 2) produce a unique initial arrangement that satisfies all conditions: A = 6, B = 4, C = 7, D = 2. Any other initial placement for B forces a clash with the “adjacent after Turn 2 / Turn 6” conditions or the specified Davies positions. Hence Bashir starts at chair 4.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,76be6d9b-0a43-41aa-b82f-9f0f3a981930,a365bc567a9b4fb8,L-AR-WDW,,,
+2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",What is the number of the chair initially occupied by Bashir? ______,,,,,tita,,4,,,,match,"1. Correct Answer: 4. Reason: The starting constraints (A and C adjacent; B and D each with empty neighbours) combined with the fixed post-move facts (D at chair 2 after Turn 1, D at chair 4 after Turn 5, and C at chair 7 after Turn 2) produce a unique initial arrangement that satisfies all conditions: A = 6, B = 4, C = 7, D = 2. Any other initial placement for B forces a clash with the “adjacent after Turn 2 / Turn 6” conditions or the specified Davies positions. Hence Bashir starts at chair 4.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,76be6d9b-0a43-41aa-b82f-9f0f3a981930,a365bc567a9b4fb8,L-AR-WDW,,,,
 CAT-2025-S1-DILR-002,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,1,2,CAT Hard,Difficult,Wide Wordy,Wide Arrangement,Round Table Arrangement,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
 1. The four friends occupy adjacent chairs only at the end of Turn 2 and Turn 6.
-2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",Who sits on the chair numbered 4 at the end of Turn 3?,Bashir,Chhavi,Davies,No one,mcq,D,No one,,,,match,"2. Correct Answer: No one. Reason: Using the valid move sequence, positions after Turn 3 are A = 1, B = 3, C = 6, D = 2. Davies moves into chair 4 only on Turn 4. Therefore at the end of Turn 3 chair 4 is empty; none of the four friends occupies it.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,73107bd7-f929-4825-b6c6-5c0e56f54368,a365bc567a9b4fb8,L-AR-WDW,,,
+2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",Who sits on the chair numbered 4 at the end of Turn 3?,Bashir,Chhavi,Davies,No one,mcq,D,No one,,,,match,"2. Correct Answer: No one. Reason: Using the valid move sequence, positions after Turn 3 are A = 1, B = 3, C = 6, D = 2. Davies moves into chair 4 only on Turn 4. Therefore at the end of Turn 3 chair 4 is empty; none of the four friends occupies it.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,73107bd7-f929-4825-b6c6-5c0e56f54368,a365bc567a9b4fb8,L-AR-WDW,,,,
 CAT-2025-S1-DILR-003,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,1,3,CAT Hard,Difficult,Wide Wordy,Wide Arrangement,Round Table Arrangement,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
 1. The four friends occupy adjacent chairs only at the end of Turn 2 and Turn 6.
-2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",Which of the chairs are occupied at the end of Turn 6?,"Chairs numbered 1, 2, 3, and 4","Chairs numbered 1, 2, 6, and 7","Chairs numbered 2, 3, 4, and 5","Chairs numbered 4, 5, 6, and 7",mcq,D,"Chairs numbered 4, 5, 6, and 7",,,,match,"3. Correct Answer: chairs 4, 5, 6, and 7. Reason: After Turn 6 the positions are A = 7, B = 5, C = 6, D = 4. That set {4,5,6,7} is the contiguous block of four chairs required by the condition “adjacent only at end of Turn 6.” This matches the required adjacency and the computed move sequence.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,2202f4f1-968c-4669-86fe-06d976a8df07,a365bc567a9b4fb8,L-AR-WDW,,,
+2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",Which of the chairs are occupied at the end of Turn 6?,"Chairs numbered 1, 2, 3, and 4","Chairs numbered 1, 2, 6, and 7","Chairs numbered 2, 3, 4, and 5","Chairs numbered 4, 5, 6, and 7",mcq,D,"Chairs numbered 4, 5, 6, and 7",,,,match,"3. Correct Answer: chairs 4, 5, 6, and 7. Reason: After Turn 6 the positions are A = 7, B = 5, C = 6, D = 4. That set {4,5,6,7} is the contiguous block of four chairs required by the condition “adjacent only at end of Turn 6.” This matches the required adjacency and the computed move sequence.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,2202f4f1-968c-4669-86fe-06d976a8df07,a365bc567a9b4fb8,L-AR-WDW,,,,
 CAT-2025-S1-DILR-004,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,1,4,CAT Hard,Difficult,Wide Wordy,Wide Arrangement,Round Table Arrangement,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
 1. The four friends occupy adjacent chairs only at the end of Turn 2 and Turn 6.
-2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",Which of the following BEST describes the friends sitting on chairs adjacent to the one occupied by Bashir at the end of Turn 7?,Aslam and Chhavi,Chhavi and Davies,Davies only,Chhavi only,mcq,C,Davies only,,,,match,"4. Correct Answer: Davies only. Reason: At end of Turn 7 Bashir is at chair 5 in both valid end-states; his neighbours are chairs 4 and 6. Chair 4 is occupied by Davies, chair 6 is empty in both possible final placements for Chhavi (C ends at 1 or 3). Thus only Davies sits adjacent to Bashir.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,37e34b7f-97bb-450b-b20c-d532d6abbb23,a365bc567a9b4fb8,L-AR-WDW,,,
+2. Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.",Which of the following BEST describes the friends sitting on chairs adjacent to the one occupied by Bashir at the end of Turn 7?,Aslam and Chhavi,Chhavi and Davies,Davies only,Chhavi only,mcq,C,Davies only,,,,match,"4. Correct Answer: Davies only. Reason: At end of Turn 7 Bashir is at chair 5 in both valid end-states; his neighbours are chairs 4 and 6. Chair 4 is occupied by Davies, chair 6 is empty in both possible final placements for Chhavi (C ends at 1 or 3). Thus only Davies sits adjacent to Bashir.",,Wide Wordy,False,,https://iimking.com/round-table-wide-wordy-cat-2025-dilr-slot-1/,37e34b7f-97bb-450b-b20c-d532d6abbb23,a365bc567a9b4fb8,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2025,1,,CAT Hard,Difficult,Wide Arrangement,,DILR SET: Round Table Arrangement | Wide Arrangement | CAT 2025 DILR Slot 1 | Difficult,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
@@ -93,7 +93,7 @@ B moves to 5; all four adjacent at Turn6 ✔
 7
 5
 1 or 3
-4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,01e7f04f-c6a4-4ac1-8b77-a17a23766e87,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
+4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,01e7f04f-c6a4-4ac1-8b77-a17a23766e87,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
 ,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2025,1,,CAT Hard,Difficult,Wide Arrangement,,DILR SET: Round Table Arrangement | Wide Arrangement | CAT 2025 DILR Slot 1 | Difficult,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
@@ -168,7 +168,7 @@ B moves to 5; all four adjacent at Turn6 ✔
 7
 5
 1 or 3
-4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,b60d1fff-da76-4aa4-af46-88a527d013a9,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
+4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,b60d1fff-da76-4aa4-af46-88a527d013a9,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
 ,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2025,1,,CAT Hard,Difficult,Wide Arrangement,,DILR SET: Round Table Arrangement | Wide Arrangement | CAT 2025 DILR Slot 1 | Difficult,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
@@ -243,7 +243,7 @@ B moves to 5; all four adjacent at Turn6 ✔
 7
 5
 1 or 3
-4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,c27e114f-e006-483c-958a-6bcabdb681f8,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),76be6d9b-0a43-41aa-b82f-9f0f3a981930,
+4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,c27e114f-e006-483c-958a-6bcabdb681f8,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),76be6d9b-0a43-41aa-b82f-9f0f3a981930,,
 ,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2025,1,,CAT Hard,Difficult,Wide Arrangement,,DILR SET: Round Table Arrangement | Wide Arrangement | CAT 2025 DILR Slot 1 | Difficult,"A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that are sitting on.
 The friends take turns moving either clockwise or counterclockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).
 The following information is known.
@@ -318,35 +318,35 @@ B moves to 5; all four adjacent at Turn6 ✔
 7
 5
 1 or 3
-4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,df9b2eb0-9b38-477b-9661-8072d36046e8,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
+4",,Wide Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,df9b2eb0-9b38-477b-9661-8072d36046e8,a365bc567a9b4fb8,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
 CAT-2025-S2-DILR-001,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,1,CAT Medium,Moderate,Wide Wordy,Wide Wordy,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
 1. B1 and B6 each made a ping on H4, but B5 did not.
 2. B4 made a ping on H3, but B1 did not.
 3. All balls, except B3, made pings on H1.
-4. None of the balls, except B2, made a ping on H2.","What was the total number of pings made by B1, B2, and B3?",,,,,tita,,6,,,,match,"From the conditions, B2 is the only ball that pings H2, so B2’s diameter is the smallest. All balls except B3 ping H1, so B3 is the largest ball. From H4, B1 and B6 ping but B5 does not, implying B5 is larger than both B1 and B6, and H4 lies between them in size. From H3, B4 pings but B1 does not, so B4 is smaller than B1, and H3 lies between them. Using all constraints, B1 pings exactly on H1 and H4 (2 pings), B2 pings on all four hoops (4 pings), and B3 pings on none (0 pings). Hence total pings by B1, B2, and B3 = 2 + 4 + 0 = 6.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,e01a15cb-769e-47d0-bbeb-0929551de7ae,14451a50bc3abd25,L-AR-WDW,,,
+4. None of the balls, except B2, made a ping on H2.","What was the total number of pings made by B1, B2, and B3?",,,,,tita,,6,,,,match,"From the conditions, B2 is the only ball that pings H2, so B2’s diameter is the smallest. All balls except B3 ping H1, so B3 is the largest ball. From H4, B1 and B6 ping but B5 does not, implying B5 is larger than both B1 and B6, and H4 lies between them in size. From H3, B4 pings but B1 does not, so B4 is smaller than B1, and H3 lies between them. Using all constraints, B1 pings exactly on H1 and H4 (2 pings), B2 pings on all four hoops (4 pings), and B3 pings on none (0 pings). Hence total pings by B1, B2, and B3 = 2 + 4 + 0 = 6.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,e01a15cb-769e-47d0-bbeb-0929551de7ae,14451a50bc3abd25,L-AR-WDW,,,,
 CAT-2025-S2-DILR-002,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,2,CAT Medium,Moderate,Wide Wordy,Wide Wordy,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
 1. B1 and B6 each made a ping on H4, but B5 did not.
 2. B4 made a ping on H3, but B1 did not.
 3. All balls, except B3, made pings on H1.
-4. None of the balls, except B2, made a ping on H2.",Which of the following statements about the relative sizes of the balls is NOT NECESSARILY true?,B4 < B5 < B3,B1 < B6 < B3,B2 < B1 < B5,B1 < B5 < B3,mcq,B,B1 < B6 < B3,,,,match,"From the deductions, B2 is the smallest and B3 is the largest ball. We also have B4 < B1 and B1 < B5, giving B4 < B1 < B5 < B3 as a necessary chain. The relative order of B1 and B6, however, is not fixed: both B1 and B6 ping H4 and fail H3, so both lie on the same side of those hoops without a strict comparison between them. Therefore, the statement “B1 < B6 < B3” is not necessarily true, while the other options are consistent with all valid configurations.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,4bb1e0ed-83aa-4428-8bea-2b598fd30bcd,14451a50bc3abd25,L-AR-WDW,,,
+4. None of the balls, except B2, made a ping on H2.",Which of the following statements about the relative sizes of the balls is NOT NECESSARILY true?,B4 < B5 < B3,B1 < B6 < B3,B2 < B1 < B5,B1 < B5 < B3,mcq,B,B1 < B6 < B3,,,,match,"From the deductions, B2 is the smallest and B3 is the largest ball. We also have B4 < B1 and B1 < B5, giving B4 < B1 < B5 < B3 as a necessary chain. The relative order of B1 and B6, however, is not fixed: both B1 and B6 ping H4 and fail H3, so both lie on the same side of those hoops without a strict comparison between them. Therefore, the statement “B1 < B6 < B3” is not necessarily true, while the other options are consistent with all valid configurations.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,4bb1e0ed-83aa-4428-8bea-2b598fd30bcd,14451a50bc3abd25,L-AR-WDW,,,,
 CAT-2025-S2-DILR-003,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,3,CAT Medium,Moderate,Wide Wordy,Wide Wordy,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
 1. B1 and B6 each made a ping on H4, but B5 did not.
 2. B4 made a ping on H3, but B1 did not.
 3. All balls, except B3, made pings on H1.
-4. None of the balls, except B2, made a ping on H2.",Which of the following statements about the relative sizes of the hoops is true?,H2 < H3 < H4 < H1,H1 < H3 < H4 < H2,H1 < H4 < H3 < H2,H2 < H4 < H3 < H1,mcq,A,H2 < H3 < H4 < H1,,,,match,"From H2, only B2 pings, so H2 is the smallest hoop. From H1, all except B3 ping, and since B3 is the largest ball, H1 must be the largest hoop. From H3 and H4, we know H3 allows B4 but not B1, while H4 allows B1 and B6 but not B5. This places the hoops in increasing order as H2 < H3 < H4 < H1. Hence option 1 is correct.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,44f4cbd4-5e7a-4bc4-ac59-a848f8f74e24,14451a50bc3abd25,L-AR-WDW,,,
+4. None of the balls, except B2, made a ping on H2.",Which of the following statements about the relative sizes of the hoops is true?,H2 < H3 < H4 < H1,H1 < H3 < H4 < H2,H1 < H4 < H3 < H2,H2 < H4 < H3 < H1,mcq,A,H2 < H3 < H4 < H1,,,,match,"From H2, only B2 pings, so H2 is the smallest hoop. From H1, all except B3 ping, and since B3 is the largest ball, H1 must be the largest hoop. From H3 and H4, we know H3 allows B4 but not B1, while H4 allows B1 and B6 but not B5. This places the hoops in increasing order as H2 < H3 < H4 < H1. Hence option 1 is correct.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,44f4cbd4-5e7a-4bc4-ac59-a848f8f74e24,14451a50bc3abd25,L-AR-WDW,,,,
 CAT-2025-S2-DILR-004,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,4,CAT Medium,Moderate,Wide Wordy,Wide Wordy,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
 1. B1 and B6 each made a ping on H4, but B5 did not.
 2. B4 made a ping on H3, but B1 did not.
 3. All balls, except B3, made pings on H1.
-4. None of the balls, except B2, made a ping on H2.",What BEST can be said about the total number of pings from all the tests undertaken?,12 or 13 or 14,At least 9,12 or 13,13 or 14,mcq,C,12 or 13,,,,match,"From the full ordering, pings can be counted ball by ball. B1 pings on H1 and H4 (2). B2 pings on all four hoops (4). B3 pings on none (0). B4 pings on H1, H3, and possibly H4 (2 or 3). B5 pings on H1 only (1). B6 pings on H1 and H4, and may or may not ping H3 (2 or 3). Adding these, the total number of pings is either 12 or 13 depending on whether B6 (or B4) fits through H3. No configuration allows fewer than 12 or more than 13. Therefore, the best statement is “12 or 13”.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,d301f6a8-6562-4c42-a9e8-62618b96a577,14451a50bc3abd25,L-AR-WDW,,,
+4. None of the balls, except B2, made a ping on H2.",What BEST can be said about the total number of pings from all the tests undertaken?,12 or 13 or 14,At least 9,12 or 13,13 or 14,mcq,C,12 or 13,,,,match,"From the full ordering, pings can be counted ball by ball. B1 pings on H1 and H4 (2). B2 pings on all four hoops (4). B3 pings on none (0). B4 pings on H1, H3, and possibly H4 (2 or 3). B5 pings on H1 only (1). B6 pings on H1 and H4, and may or may not ping H3 (2 or 3). Adding these, the total number of pings is either 12 or 13 depending on whether B6 (or B4) fits through H3. No configuration allows fewer than 12 or more than 13. Therefore, the best statement is “12 or 13”.",,Wide Wordy,False,,https://iimking.com/balls-and-hoops-cat-2025-slot-2-dilr-wide-wordy-moderate/,d301f6a8-6562-4c42-a9e8-62618b96a577,14451a50bc3abd25,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -656,7 +656,7 @@ Final Deductions
 Ball order (small → large):
 B2 < B4 < B1 < B6 < B5 < B3
 Hoop order (small → large):
-H2 < H3 < H4 < H1",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,38b227ca-9389-4664-aef0-2da085b5578a,14451a50bc3abd25,L-AR-WDW,,e01a15cb-769e-47d0-bbeb-0929551de7ae,
+H2 < H3 < H4 < H1",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,38b227ca-9389-4664-aef0-2da085b5578a,14451a50bc3abd25,L-AR-WDW,,e01a15cb-769e-47d0-bbeb-0929551de7ae,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,,,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -965,7 +965,7 @@ So total pings = 12 or 13
 (Source: Step 7 optional passes)
 Final Deductions
 Ball order (small → large):
-B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,5642ecb6-0732-4730-b74e-9a8f4b94b351,14451a50bc3abd25,L-AR-WDW,,4bb1e0ed-83aa-4428-8bea-2b598fd30bcd,
+B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,5642ecb6-0732-4730-b74e-9a8f4b94b351,14451a50bc3abd25,L-AR-WDW,,4bb1e0ed-83aa-4428-8bea-2b598fd30bcd,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,,,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -1276,7 +1276,7 @@ Final Deductions
 Ball order (small → large):
 B2 < B4 < B1 < B6 < B5 < B3
 Hoop order (small → large):
-H2 < H3 < H4 < H1",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,685fd994-2e32-449e-bc17-74144c004bbd,14451a50bc3abd25,L-AR-WDW,,e01a15cb-769e-47d0-bbeb-0929551de7ae,
+H2 < H3 < H4 < H1",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,685fd994-2e32-449e-bc17-74144c004bbd,14451a50bc3abd25,L-AR-WDW,,e01a15cb-769e-47d0-bbeb-0929551de7ae,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -1584,7 +1584,7 @@ So total pings = 12 or 13
 (Source: Step 7 optional passes)
 Final Deductions
 Ball order (small → large):
-B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,70d72361-3fb3-48b3-a15a-1864cf6bb81c,14451a50bc3abd25,L-AR-WDW,,4bb1e0ed-83aa-4428-8bea-2b598fd30bcd,
+B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,70d72361-3fb3-48b3-a15a-1864cf6bb81c,14451a50bc3abd25,L-AR-WDW,,4bb1e0ed-83aa-4428-8bea-2b598fd30bcd,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,,,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -1893,7 +1893,7 @@ So total pings = 12 or 13
 (Source: Step 7 optional passes)
 Final Deductions
 Ball order (small → large):
-B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,7be16691-98c2-444d-a0a3-6802efe3236c,14451a50bc3abd25,L-AR-WDW,,44f4cbd4-5e7a-4bc4-ac59-a848f8f74e24,
+B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,7be16691-98c2-444d-a0a3-6802efe3236c,14451a50bc3abd25,L-AR-WDW,,44f4cbd4-5e7a-4bc4-ac59-a848f8f74e24,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -2201,7 +2201,7 @@ So total pings = 12 or 13
 (Source: Step 7 optional passes)
 Final Deductions
 Ball order (small → large):
-B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,a2883655-bf18-44a9-9d18-9a246e82d5d7,14451a50bc3abd25,L-AR-WDW,,d301f6a8-6562-4c42-a9e8-62618b96a577,
+B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,a2883655-bf18-44a9-9d18-9a246e82d5d7,14451a50bc3abd25,L-AR-WDW,,d301f6a8-6562-4c42-a9e8-62618b96a577,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -2509,7 +2509,7 @@ So total pings = 12 or 13
 (Source: Step 7 optional passes)
 Final Deductions
 Ball order (small → large):
-B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,bb8d8a4d-ccd8-4899-886f-39a0c3167a4f,14451a50bc3abd25,L-AR-WDW,,44f4cbd4-5e7a-4bc4-ac59-a848f8f74e24,
+B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,bb8d8a4d-ccd8-4899-886f-39a0c3167a4f,14451a50bc3abd25,L-AR-WDW,,44f4cbd4-5e7a-4bc4-ac59-a848f8f74e24,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,,,Wide Wordy,,Balls and Hoops,"There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.
 Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.
 The following additional information is known:
@@ -2818,7 +2818,7 @@ So total pings = 12 or 13
 (Source: Step 7 optional passes)
 Final Deductions
 Ball order (small → large):
-B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,ef2223f2-c9f5-46ba-8887-229d6ac33edf,14451a50bc3abd25,L-AR-WDW,,d301f6a8-6562-4c42-a9e8-62618b96a577,
+B2 < B4 < B1 < B6 < B5 < B3",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,ef2223f2-c9f5-46ba-8887-229d6ac33edf,14451a50bc3abd25,L-AR-WDW,,d301f6a8-6562-4c42-a9e8-62618b96a577,,
 CAT-2025-S2-DILR-001,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,1,CAT Medium,Moderate,Wide Wordy,,Musicians | CAT 2025 Slot 2 DILR | Wide Wordy | Moderate,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -2865,7 +2865,7 @@ Musician | M (3 years) | S (4 years) | R (2 years) |
 Ananya (A) | 2013–2015 | 2021–2024 | 2019–2020 |
 Bhaskar (B) | 2022–2024 | 2013–2016 | 2019–2020 |
 Charu (C) | 2015–2017 | 2018–2021 | 2013–2014 |
-Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,c02e5e61-e170-4c4f-8602-916898834026,cd8de007bf921e9f,L-AR-WDW,,,
+Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,c02e5e61-e170-4c4f-8602-916898834026,cd8de007bf921e9f,L-AR-WDW,,,,
 CAT-2025-S2-DILR-002,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,2,CAT Hard,Hard,Wide Wordy,,Musicians | CAT 2025 Slot 2 DILR | Wide Wordy | Moderate,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -2912,7 +2912,7 @@ Musician | M (3 years) | S (4 years) | R (2 years) |
 Ananya (A) | 2013–2015 | 2021–2024 | 2019–2020 |
 Bhaskar (B) | 2022–2024 | 2013–2016 | 2019–2020 |
 Charu (C) | 2015–2017 | 2018–2021 | 2013–2014 |
-Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,b0a5b430-a030-4141-b0a8-baddf6c1a71b,cd8de007bf921e9f,L-AR-WDW,,,
+Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,b0a5b430-a030-4141-b0a8-baddf6c1a71b,cd8de007bf921e9f,L-AR-WDW,,,,
 CAT-2025-S2-DILR-003,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,3,CAT Medium,Moderate,Wide Wordy,,Musicians | CAT 2025 Slot 2 DILR | Wide Wordy | Moderate,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -2959,7 +2959,7 @@ Musician | M (3 years) | S (4 years) | R (2 years) |
 Ananya (A) | 2013–2015 | 2021–2024 | 2019–2020 |
 Bhaskar (B) | 2022–2024 | 2013–2016 | 2019–2020 |
 Charu (C) | 2015–2017 | 2018–2021 | 2013–2014 |
-Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,a9cbaf71-9149-4e92-a88e-13c2e4028aab,cd8de007bf921e9f,L-AR-WDW,,,
+Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,a9cbaf71-9149-4e92-a88e-13c2e4028aab,cd8de007bf921e9f,L-AR-WDW,,,,
 CAT-2025-S2-DILR-004,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,4,CAT Medium,Moderate,Wide Wordy,,Musicians | CAT 2025 Slot 2 DILR | Wide Wordy | Moderate,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3006,7 +3006,7 @@ Musician | M (3 years) | S (4 years) | R (2 years) |
 Ananya (A) | 2013–2015 | 2021–2024 | 2019–2020 |
 Bhaskar (B) | 2022–2024 | 2013–2016 | 2019–2020 |
 Charu (C) | 2015–2017 | 2018–2021 | 2013–2014 |
-Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,cc56771e-7866-4a4b-81ed-845d1e918361,cd8de007bf921e9f,L-AR-WDW,,,
+Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,cc56771e-7866-4a4b-81ed-845d1e918361,cd8de007bf921e9f,L-AR-WDW,,,,
 CAT-2025-S2-DILR-005,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,5,CAT Hard,Hard,Wide Wordy,,Musicians | CAT 2025 Slot 2 DILR | Wide Wordy | Moderate,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3053,7 +3053,7 @@ Musician | M (3 years) | S (4 years) | R (2 years) |
 Ananya (A) | 2013–2015 | 2021–2024 | 2019–2020 |
 Bhaskar (B) | 2022–2024 | 2013–2016 | 2019–2020 |
 Charu (C) | 2015–2017 | 2018–2021 | 2013–2014 |
-Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,98843f39-d7f3-47b4-a0e4-13d4a914e7ce,cd8de007bf921e9f,L-AR-WDW,,,
+Devendra (D) | 2020–2022 | 2015–2018 | 2013–2014 |",,Wide Wordy,False,,https://iimking.com/musicians-cat-2025-slot-2-dilr-wide-wordy-moderate/,98843f39-d7f3-47b4-a0e4-13d4a914e7ce,cd8de007bf921e9f,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3115,7 +3115,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,1506cd8f-d949-4261-9ac4-f16e64856611,cd8de007bf921e9f,L-AR-WDW,,cc56771e-7866-4a4b-81ed-845d1e918361,
+2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,1506cd8f-d949-4261-9ac4-f16e64856611,cd8de007bf921e9f,L-AR-WDW,,cc56771e-7866-4a4b-81ed-845d1e918361,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3176,7 +3176,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,3e11c925-22ff-4438-98da-f2e837a78493,cd8de007bf921e9f,L-AR-WDW,,,
+2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,3e11c925-22ff-4438-98da-f2e837a78493,cd8de007bf921e9f,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3237,7 +3237,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,423e4b57-031c-4ea0-8ecb-d444d892aef9,cd8de007bf921e9f,L-AR-WDW,,a9cbaf71-9149-4e92-a88e-13c2e4028aab,
+2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,423e4b57-031c-4ea0-8ecb-d444d892aef9,cd8de007bf921e9f,L-AR-WDW,,a9cbaf71-9149-4e92-a88e-13c2e4028aab,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3299,7 +3299,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,6c19070a-6aae-45e4-88cf-20a29241fef7,cd8de007bf921e9f,L-AR-WDW,,a9cbaf71-9149-4e92-a88e-13c2e4028aab,
+2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,6c19070a-6aae-45e4-88cf-20a29241fef7,cd8de007bf921e9f,L-AR-WDW,,a9cbaf71-9149-4e92-a88e-13c2e4028aab,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3360,7 +3360,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,6ff67fcd-0c70-49ad-bafc-04242fce6202,cd8de007bf921e9f,L-AR-WDW,,cc56771e-7866-4a4b-81ed-845d1e918361,
+2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,6ff67fcd-0c70-49ad-bafc-04242fce6202,cd8de007bf921e9f,L-AR-WDW,,cc56771e-7866-4a4b-81ed-845d1e918361,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3421,7 +3421,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,94cb0d38-c415-42f4-a421-efa8cd947e9c,cd8de007bf921e9f,L-AR-WDW,,c02e5e61-e170-4c4f-8602-916898834026,
+2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,94cb0d38-c415-42f4-a421-efa8cd947e9c,cd8de007bf921e9f,L-AR-WDW,,c02e5e61-e170-4c4f-8602-916898834026,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3482,7 +3482,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,9aae199f-9dd8-482f-8d92-2e3693b9c111,cd8de007bf921e9f,L-AR-WDW,,b0a5b430-a030-4141-b0a8-baddf6c1a71b,
+2013–2014",,Wide Wordy,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,9aae199f-9dd8-482f-8d92-2e3693b9c111,cd8de007bf921e9f,L-AR-WDW,,b0a5b430-a030-4141-b0a8-baddf6c1a71b,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3544,7 +3544,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,9b6cdfb6-0cbe-4e7f-b045-99436d96e6df,cd8de007bf921e9f,L-AR-WDW,,3e11c925-22ff-4438-98da-f2e837a78493,
+2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,9b6cdfb6-0cbe-4e7f-b045-99436d96e6df,cd8de007bf921e9f,L-AR-WDW,,3e11c925-22ff-4438-98da-f2e837a78493,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3606,7 +3606,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,9d7713e8-f707-4e8a-9300-57f47ad2f47c,cd8de007bf921e9f,L-AR-WDW,,c02e5e61-e170-4c4f-8602-916898834026,
+2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,9d7713e8-f707-4e8a-9300-57f47ad2f47c,cd8de007bf921e9f,L-AR-WDW,,c02e5e61-e170-4c4f-8602-916898834026,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Wide Wordy,,Musicians,"Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year.
 In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.
 The following additional facts are known.
@@ -3668,7 +3668,7 @@ Charu (C)
 Devendra (D)
 2020–2022
 2015–2018
-2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,a914a09c-2912-4d76-9d72-bd5c507a7a60,cd8de007bf921e9f,L-AR-WDW,,b0a5b430-a030-4141-b0a8-baddf6c1a71b,
+2013–2014",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,a914a09c-2912-4d76-9d72-bd5c507a7a60,cd8de007bf921e9f,L-AR-WDW,,b0a5b430-a030-4141-b0a8-baddf6c1a71b,,
 CAT-2025-S3-DILR-016,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,16,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -3978,7 +3978,7 @@ Farhan
 10
 Farhan
 Immediately to the left / Immediately to the right
-Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,2c8a82ea-3e30-44f4-833b-cfb2842c459a,acb682f5f3d86ff7,L-AR-WDW,,,
+Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,2c8a82ea-3e30-44f4-833b-cfb2842c459a,acb682f5f3d86ff7,L-AR-WDW,,,,
 CAT-2025-S3-DILR-017,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,17,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -4288,7 +4288,7 @@ Farhan
 10
 Farhan
 Immediately to the left / Immediately to the right
-Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,6229bd01-2aee-450a-a5a8-2c2d30387da7,acb682f5f3d86ff7,L-AR-WDW,,,
+Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,6229bd01-2aee-450a-a5a8-2c2d30387da7,acb682f5f3d86ff7,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -4598,7 +4598,7 @@ Farhan
 10
 Farhan
 Immediately to the left / Immediately to the right
-Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,be1cc83b-623c-466d-b7c7-a935bbbcee98,acb682f5f3d86ff7,L-AR-WDW,,,
+Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,be1cc83b-623c-466d-b7c7-a935bbbcee98,acb682f5f3d86ff7,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -4908,7 +4908,7 @@ Farhan
 10
 Farhan
 Immediately to the left / Immediately to the right
-Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,c2b9aa34-ab36-400d-b2aa-b5b74c56a890,acb682f5f3d86ff7,L-AR-WDW,,,
+Chirag",,Wide Wordy,False,,https://iimking.com/full-cat-2025-dilr-slot-3-actual-questions-pdf-with-detailed-solutions/,c2b9aa34-ab36-400d-b2aa-b5b74c56a890,acb682f5f3d86ff7,L-AR-WDW,,,,
 CAT-2025-S3-DILR-001,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,1,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -5036,7 +5036,7 @@ Round | Passer | Pass type | Receiver |
 7 | Farhan | Immediately to the left | Gaurav |
 8 | Gaurav | Immediately to the left | Diya |
 9 | Diya | Second to the right / Immediately to the right | Farhan |
-10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,f7507e63-c13b-4796-afcc-96d05df2fe64,dfcbd7ba86d339ac,L-AR-WDW,,,
+10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,f7507e63-c13b-4796-afcc-96d05df2fe64,dfcbd7ba86d339ac,L-AR-WDW,,,,
 CAT-2025-S3-DILR-002,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,2,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -5164,7 +5164,7 @@ Round | Passer | Pass type | Receiver |
 7 | Farhan | Immediately to the left | Gaurav |
 8 | Gaurav | Immediately to the left | Diya |
 9 | Diya | Second to the right / Immediately to the right | Farhan |
-10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,a3159339-cc89-4edc-81f3-a9e75807f705,dfcbd7ba86d339ac,L-AR-WDW,,,
+10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,a3159339-cc89-4edc-81f3-a9e75807f705,dfcbd7ba86d339ac,L-AR-WDW,,,,
 CAT-2025-S3-DILR-003,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,3,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -5292,7 +5292,7 @@ Round | Passer | Pass type | Receiver |
 7 | Farhan | Immediately to the left | Gaurav |
 8 | Gaurav | Immediately to the left | Diya |
 9 | Diya | Second to the right / Immediately to the right | Farhan |
-10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,f83a5204-5d75-4eb8-92b1-5d00d64ca2f5,dfcbd7ba86d339ac,L-AR-WDW,,,
+10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,f83a5204-5d75-4eb8-92b1-5d00d64ca2f5,dfcbd7ba86d339ac,L-AR-WDW,,,,
 CAT-2025-S3-DILR-004,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2025,3,4,CAT Hard,Hard,Wide Wordy,,Game Passing the buck | DILR CAT 2025 Slot 3 | Wide Wordy | Hard,"Seven children, Aarav, Bina, Chirag, Diya, Eshan, Farhan, and Gaurav, are sitting in a circle facing inside (not necessarily in the same order) and playing a game of ‘Passing the Buck’.
 The game is played over 10 rounds. In each round, the child holding the Buck must pass it directly to a child sitting in one of the following positions:
 • Immediately to the left;
@@ -5420,7 +5420,7 @@ Round | Passer | Pass type | Receiver |
 7 | Farhan | Immediately to the left | Gaurav |
 8 | Gaurav | Immediately to the left | Diya |
 9 | Diya | Second to the right / Immediately to the right | Farhan |
-10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,2a3a3567-7b1a-4469-bc34-096ecd447fc6,dfcbd7ba86d339ac,L-AR-WDW,,,
+10 | Farhan | Immediately to the left / Immediately to the right | Chirag |",,Wide Wordy,False,,https://iimking.com/game-passing-the-buck-dilr-cat-2025-slot-3-wide-wordy-hard/,2a3a3567-7b1a-4469-bc34-096ecd447fc6,dfcbd7ba86d339ac,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2024,,1,,,Wide Wordy,Wide Arrangement,QUIET Tournament,"The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round.
 The following additional facts are known about the schedule of games in the tournament.
 Each team played against a team from the other group in Round 8.
@@ -5430,7 +5430,7 @@ Team 1 played Team 5 ONLY once and that was in Round 2.
 Team 3 played Team 4 in Round 3. Team 1 played Team 6 in Round 6.
 In Round 8, Team 3 played Team 6, while Team 2 played Team 5.",How many rounds were there in the tournament?,,,,,tita,,8,,,,match,"✅ Q1: How many rounds were there in the tournament?
 From the final table, clearly, there are 8 rounds.
-Answer: 8",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,0f1c787d-4792-48cc-8c15-e9b658338e49,a3dde245d286ed29,L-AR-WDW,,,
+Answer: 8",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,0f1c787d-4792-48cc-8c15-e9b658338e49,a3dde245d286ed29,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2024,,2,,,Wide Wordy,Wide Arrangement,QUIET Tournament,"The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round.
 The following additional facts are known about the schedule of games in the tournament.
 Each team played against a team from the other group in Round 8.
@@ -5441,7 +5441,7 @@ Team 3 played Team 4 in Round 3. Team 1 played Team 6 in Round 6.
 In Round 8, Team 3 played Team 6, while Team 2 played Team 5.",What is the number of the team that played Team 1 in Round 5?,,,,,tita,,4,,,,match,"✅ Q2: What is the number of the team that played Team 1 in Round 5?
 From the table:
 Round 5 → Match 3 = 1 vs 4
-Answer: 4",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,f87d40db-73f6-4759-9ef1-7c94f0964500,a3dde245d286ed29,L-AR-WDW,,,
+Answer: 4",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,f87d40db-73f6-4759-9ef1-7c94f0964500,a3dde245d286ed29,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2024,,3,,,Wide Wordy,Wide Arrangement,QUIET Tournament,"The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round.
 The following additional facts are known about the schedule of games in the tournament.
 Each team played against a team from the other group in Round 8.
@@ -5455,7 +5455,7 @@ Group A: 4, 2, 3
 
 Group B: 1, 5, 6
 So, from 2, 3, 4, 5 → Team 5 was not in the same group (it was in Group B).
-Answer: 1) 5",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,9952618a-68d6-4f70-a2d8-255de36a37e7,a3dde245d286ed29,L-AR-WDW,,,
+Answer: 1) 5",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,9952618a-68d6-4f70-a2d8-255de36a37e7,a3dde245d286ed29,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2024,,4,,,Wide Wordy,Wide Arrangement,QUIET Tournament,"The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round.
 The following additional facts are known about the schedule of games in the tournament.
 Each team played against a team from the other group in Round 8.
@@ -5466,7 +5466,7 @@ Team 3 played Team 4 in Round 3. Team 1 played Team 6 in Round 6.
 In Round 8, Team 3 played Team 6, while Team 2 played Team 5.",What is the number of the team that played Team 1 in Round 7?,,,,,tita,,3,,,,match,"✅ Q4: What is the number of the team that played Team 1 in Round 7?
 From the table:
 Round 7 → Match 3 = 1 vs 3
-Answer: 3",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,a2f74c7a-03ce-4f4f-8957-7f4c06d45a17,a3dde245d286ed29,L-AR-WDW,,,
+Answer: 3",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,a2f74c7a-03ce-4f4f-8957-7f4c06d45a17,a3dde245d286ed29,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2024,,5,,,Wide Wordy,Wide Arrangement,QUIET Tournament,"The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round.
 The following additional facts are known about the schedule of games in the tournament.
 Each team played against a team from the other group in Round 8.
@@ -5478,7 +5478,7 @@ In Round 8, Team 3 played Team 6, while Team 2 played Team 5.",What is the numbe
 From the table:
 Round 3 → Match 2 = 6 vs 1
 So, Team 6 played Team 1 in Round 3.
-Answer: 1",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,503e0ce9-f3ec-43af-82c5-97ee74dcb660,a3dde245d286ed29,L-AR-WDW,,,
+Answer: 1",,Wordy Wide Arrangement,False,,https://iimking.com/quiet-tournament-cat-2024-wide-arrangement-g-strategy-actual-paper/,503e0ce9-f3ec-43af-82c5-97ee74dcb660,a3dde245d286ed29,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2020,,1,,,Wide Wordy,Wide Arrangement,16 Patients,"Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient’s blood sample is distributed
 If a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.","Suppose vial C tests positive and vials A, E and H test negative. Which patient has the disease?",Patient 8,Patient 2,Patient 6,Patient 14,mcq,C,Patient 6,,,,match,"✅ Q.17
 Given:
@@ -5503,7 +5503,7 @@ Vial H patients = 1, 3, 5, 7, 9, 11, 13, 15
 Now intersect:
 In C, but not in A, E, H
 → Left with Patient 6
-✅ Answer: (3) Patient 6",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,b2c26fb3-d080-438a-a4c3-50d53a20ba5a,f3c23711c4ab2ba7,L-AR-WDW,,,
+✅ Answer: (3) Patient 6",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,b2c26fb3-d080-438a-a4c3-50d53a20ba5a,f3c23711c4ab2ba7,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2020,,2,,,Wide Wordy,Wide Arrangement,16 Patients,"Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient’s blood sample is distributed
 If a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",Suppose vial A tests positive and vials D and G test negative. Which of the following vials should we test next to identify the patient with the disease?,Vial E,Vial H,Vial C,Vial B,mcq,A,Vial E,,,,match,"✅ Q.18
 Given:
@@ -5530,7 +5530,7 @@ Patient 13: vials A, C, F, H
 Patient 15: vials A, C, E, H
 → Difference = vial F vs E
 So test either E or F
-✅ Answer: (1) Vial E",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,87f2f1a7-366e-49f8-a350-c574d15db173,f3c23711c4ab2ba7,L-AR-WDW,,,
+✅ Answer: (1) Vial E",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,87f2f1a7-366e-49f8-a350-c574d15db173,f3c23711c4ab2ba7,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2020,,3,,,Wide Wordy,Wide Arrangement,16 Patients,"Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient’s blood sample is distributed
 If a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",Which of the following combinations of test results is NOT possible?,"Vials B and D positive, vials F and H negative","Vials A and E positive, vials C and D negative","Vials A and G positive, vials D and E negative","Vial B positive, vials C, F and H negative",mcq,B,"Vials A and E positive, vials C and D negative",,,,match,"✅ Q.19
 Which combination is not possible?
@@ -5542,7 +5542,7 @@ D negative ⇒ eliminate 1–6, 9–12
 → Eliminated: 1–8, 9–12, 13–16 ⇒ all 16 patients!
 Contradiction. No one left.
 ❌ Option 2 is NOT possible
-✅ Answer: (2) A & E positive, C & D negative",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,ffa2679f-c24a-4cd2-bd06-91646e1e17de,f3c23711c4ab2ba7,L-AR-WDW,,,
+✅ Answer: (2) A & E positive, C & D negative",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,ffa2679f-c24a-4cd2-bd06-91646e1e17de,f3c23711c4ab2ba7,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2020,,4,,,Wide Wordy,Wide Arrangement,16 Patients,"Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient’s blood sample is distributed
 If a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",Suppose one of the lab assistants accidentally mixed two patients' blood samples before they were distributed to the vials. Which of the following correctly represents the set of all possible numbers of positive test results out of the eight vials?,"{5, 6, 7, 8}","{4, 5, 6, 7}","{4, 5}","{4, 5, 6, 7, 8",mcq,D,"{4, 5, 6, 7, 8",,,,match,"✅ Q.20
 One lab assistant mixed 2 patients’ blood
@@ -5579,16 +5579,16 @@ But if we pick 2 patients with no overlapping vials, their union covers 8 vials
 Minimum overlap ⇒ 8
 Max overlap (same person) = 4
 So possible values: 4, 5, 6, 7, 8
-✅ Answer: (4) {4, 5, 6, 7, 8}",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,2e00189c-6e53-4fe9-bbfd-c75fad8b514b,f3c23711c4ab2ba7,L-AR-WDW,,,
-CAT-2019-S1-DILR-001,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,1,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.",Which digit does the letter A represent?(TITA),,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160574/39s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,3df4a0ad-0a1e-4f26-b130-bdc74df6ce3a,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
-CAT-2019-S1-DILR-002,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,2,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.",Which digit does the letter B represent? (TITA),,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160575/40s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,f17bc71f-ccac-4b74-a4e9-8fba843ed6b0,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
-CAT-2019-S1-DILR-003,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,3,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.","Which among the digits 3, 4, 6 and 7 cannot be represented by the letter D? (TITA)",,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160576/41s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,9981be61-10a2-4804-a2fe-25d548cb69e4,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
-CAT-2019-S1-DILR-004,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,4,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.","Which among the digits 4, 6, 7 and 8 cannot be represented by the letter G? (TITA)",,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160577/42s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,262f2b7a-da56-4371-b85c-ebccc48edbbc,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,
+✅ Answer: (4) {4, 5, 6, 7, 8}",,Wordy Wide Arrangement,True,https://online.2iim.com/CAT-question-paper/CAT-2020-Question-Paper-Slot-3-DILR/figa/756_489168_0_1011658_mm_psg_table.jpg,https://iimking.com/16-patients-cat-2020-dilr-set/,2e00189c-6e53-4fe9-bbfd-c75fad8b514b,f3c23711c4ab2ba7,L-AR-WDW,,,,
+CAT-2019-S1-DILR-001,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,1,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.",Which digit does the letter A represent?(TITA),,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160574/39s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,3df4a0ad-0a1e-4f26-b130-bdc74df6ce3a,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
+CAT-2019-S1-DILR-002,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,2,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.",Which digit does the letter B represent? (TITA),,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160575/40s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,f17bc71f-ccac-4b74-a4e9-8fba843ed6b0,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
+CAT-2019-S1-DILR-003,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,3,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.","Which among the digits 3, 4, 6 and 7 cannot be represented by the letter D? (TITA)",,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160576/41s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,9981be61-10a2-4804-a2fe-25d548cb69e4,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
+CAT-2019-S1-DILR-004,,Arrangement,Wide Wordy,set_majority,Arrangements,True,2019,1,4,,,,,Set 7 : Letter coding,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.","Which among the digits 4, 6, 7 and 8 cannot be represented by the letter G? (TITA)",,,,,tita,,,,,,missing_found,,,,True,https://online.2iim.com/CAT-question-paper/CAT-2019-Question-Paper-Slot-1-DILR/figa/Letter-coding-1.png | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160577/42s.gif,https://iimking.com/cat-di-lr-cat-2019-question-paper-slot-1/,262f2b7a-da56-4371-b85c-ebccc48edbbc,258f01b661a5f589,L-AR-WDW,set-level: moved to L-AR-WDW to keep the set together (this row said L-AR),,,
 CAT-2019-S1-DILR-005,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,1,5,,,Wide Wordy,Wide Arrangement,6digits,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.",Which digit does the letter A represent?,,,,,tita,,1,,,,match,"Q.5: Which digit does the letter A represent?
-✅ Answer: 1 (Given directly)",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,8ed459dc-b4c6-49f5-a5dd-1b6c0d4da8b3,258f01b661a5f589,L-AR-WDW,,,
+✅ Answer: 1 (Given directly)",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,8ed459dc-b4c6-49f5-a5dd-1b6c0d4da8b3,258f01b661a5f589,L-AR-WDW,,,,
 CAT-2019-S1-DILR-006,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,1,6,,,Wide Wordy,Wide Arrangement,6digits,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.",Which digit does the letter B represent?,,,,,tita,,9,,,,match,"Q.6: Which digit does the letter B represent?
 From Case II:
-✅ Answer: 9",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,482bccfb-59f3-4e61-8ab7-8a50936dcd56,258f01b661a5f589,L-AR-WDW,,,
+✅ Answer: 9",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,482bccfb-59f3-4e61-8ab7-8a50936dcd56,258f01b661a5f589,L-AR-WDW,,,,
 CAT-2019-S1-DILR-007,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,1,7,,,Wide Wordy,Wide Arrangement,6digits,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.","Which among the digits 3, 4, 6, and 7 cannot be represented by the letter D?",3,4,6,7,mcq,A,3,,,,mismatch,"Q.7: Which among the digits 3, 4, 6, and 7 cannot be represented by the letter D?
 D is not used in the valid solution — so we look at which digits are already used:
 Used digits:
@@ -5604,7 +5604,7 @@ From the given options:
 
 So 3 and 7 cannot be D
 Among these, both 3 and 7 are already used.
-✅ Answer: 3",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,14d18c8c-465f-4330-8adf-78e82bbf9a35,258f01b661a5f589,L-AR-WDW,,,
+✅ Answer: 3",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,14d18c8c-465f-4330-8adf-78e82bbf9a35,258f01b661a5f589,L-AR-WDW,,,,
 CAT-2019-S1-DILR-008,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,1,8,,,Wide Wordy,Wide Arrangement,6digits,"The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.","Which among the digits 4, 6, 7 and 8 cannot be represented by the letter G?",4,6,7,8,mcq,A,4,,,,mismatch,"Q.8: Which among the digits 4, 6, 7 and 8 cannot be represented by the letter G?
 From Case II:
 G = 8
@@ -5615,7 +5615,7 @@ From the given options:
 4, 6, 7, 8 → All but 8 cannot be G
 ✅ Correct Answer: 4, 6, and 7 cannot be G
 If single-choice is expected:
-✅ Pick any one of 4, 6, 7 — say, 4",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,dbd1bc4c-6c02-48de-9593-1ba8be5c9db6,258f01b661a5f589,L-AR-WDW,,,
+✅ Pick any one of 4, 6, 7 — say, 4",,Wordy Wide Arrangement,True,https://iimking.com/wp-content/uploads/2025/06/image-25.png,https://iimking.com/6digits-wide-arrangement-g-strategy-cat-2019-dilr-slot-1/,dbd1bc4c-6c02-48de-9593-1ba8be5c9db6,258f01b661a5f589,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,,1,,,Wide Wordy,Wide Arrangement,Crime based DILR,,Which digit does the letter A represent?,,,,,tita,,1,,,,match,"Answer: 1
 Solution:
 As we can see that F + F gives F unit digit it is possible only when F = 0 So F has to be 0.
@@ -5631,7 +5631,7 @@ B IS 9
 
 D can never be 7 because J,G or K are always 7
 
-G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,60f744c6-802f-4f92-b004-5901cae94c75,60f744c6-802f-4f92-b004-5901cae94c75,L-AR-WDW,,,
+G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,60f744c6-802f-4f92-b004-5901cae94c75,60f744c6-802f-4f92-b004-5901cae94c75,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,,2,,,Wide Wordy,Wide Arrangement,Crime based DILR,,Which digit does the letter B represent?,,,,,tita,,9,,,,match,"Answer: 9
 Solution:
 As we can see that F + F gives F unit digit it is possible only when F = 0 So F has to be 0.
@@ -5647,7 +5647,7 @@ B IS 9
 
 D can never be 7 because J,G or K are always 7
 
-G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,ffb49d71-c1d4-49de-a6be-eafe1d3104c1,ffb49d71-c1d4-49de-a6be-eafe1d3104c1,L-AR-WDW,,,
+G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,ffb49d71-c1d4-49de-a6be-eafe1d3104c1,ffb49d71-c1d4-49de-a6be-eafe1d3104c1,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,,3,,,Wide Wordy,Wide Arrangement,Crime based DILR,,"Which among the digits 3, 4, 6 and 7 cannot be represented by the letter D?",3,4,6,7,mcq,D,7,,,,match,"Answer: 7
 Solution:
 As we can see that F + F gives F unit digit it is possible only when F = 0 So F has to be 0.
@@ -5663,7 +5663,7 @@ B IS 9
 
 D can never be 7 because J,G or K are always 7
 
-G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,56cd7790-849e-461c-82ad-5b7fd48e00fe,56cd7790-849e-461c-82ad-5b7fd48e00fe,L-AR-WDW,,,
+G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,56cd7790-849e-461c-82ad-5b7fd48e00fe,56cd7790-849e-461c-82ad-5b7fd48e00fe,L-AR-WDW,,,,
 ,,Arrangement,Wide Wordy,gstrategy,Arrangements,True,2019,,4,,,Wide Wordy,Wide Arrangement,Crime based DILR,,"Which among the digits 4, 6, 7 and 8 cannot be represented by the letter G?",4,6,7,8,mcq,B,6,,,,match,"Answer: 6
 Solution:
 As we can see that F + F gives F unit digit it is possible only when F = 0 So F has to be 0.
@@ -5679,4 +5679,4 @@ B IS 9
 
 D can never be 7 because J,G or K are always 7
 
-G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,89d0a2a6-26b8-48ca-9bfd-bea66a37ddb3,89d0a2a6-26b8-48ca-9bfd-bea66a37ddb3,L-AR-WDW,,,
+G cannot be represented by 6",,Wordy Wide Arrangement,True,https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38dr.gif | https://clsite-file.s3.amazonaws.com/LSTQuestionImg/774161/1160570/35-38drr.gif,https://iimking.com/crime-based-dilr-cat-2019-set/,89d0a2a6-26b8-48ca-9bfd-bea66a37ddb3,89d0a2a6-26b8-48ca-9bfd-bea66a37ddb3,L-AR-WDW,,,,

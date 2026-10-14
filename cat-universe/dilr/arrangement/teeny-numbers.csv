@@ -1,4 +1,4 @@
-cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,set_key,master_chapter_id,chapter_notes,dup_of,from_trashed_page,question_pattern
 CAT-2025-S1-DILR-001,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,1,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -8,7 +8,7 @@ The following information is known.
 4. No one responded “Yes” more than twice.
 5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
 6. Clive tapped more times in total than Badal.",How many taps did Clive receive for his question? ____,,,,,tita,,7,,,,match,"1. How many taps did Clive receive for his question? — 7
-From total taps 40 and Alia’s received = 9 plus Badal/Dilshan/Ehsaan equal (call R), we have 9 + C + 3R = 40. The only integer solution in the feasible range is R = 8 and C = 7. So Clive’s column sum (taps received) is 7, matching the final table.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,db069c75-8a44-402e-8e08-8222d3c61d35,0a7367f53b1a6732,L-AR-TNN,,,
+From total taps 40 and Alia’s received = 9 plus Badal/Dilshan/Ehsaan equal (call R), we have 9 + C + 3R = 40. The only integer solution in the feasible range is R = 8 and C = 7. So Clive’s column sum (taps received) is 7, matching the final table.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,db069c75-8a44-402e-8e08-8222d3c61d35,0a7367f53b1a6732,L-AR-TNN,,,,
 CAT-2025-S1-DILR-002,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,2,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -18,7 +18,7 @@ The following information is known.
 4. No one responded “Yes” more than twice.
 5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
 6. Clive tapped more times in total than Badal.",Which two people tapped an equal number of times in total?,Alia and Badal,Badal and Dilshan,Clive and Ehsaan,Dilshan and Clive,mcq,A,Alia and Badal,,,,match,"2. Which two people tapped an equal number of times in total? — Alia and Badal (Option 1)
-Row totals come from known totals: A = 6, D = 11, E = 9 and B + C = 14 (since rows must sum to 40). With Clue “Clive tapped more than Badal” the unique split is B = 6, C = 8. Thus Alia and Badal each made 6 taps.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,36706d31-b17b-4df2-add8-6c592c50b18a,0a7367f53b1a6732,L-AR-TNN,,,
+Row totals come from known totals: A = 6, D = 11, E = 9 and B + C = 14 (since rows must sum to 40). With Clue “Clive tapped more than Badal” the unique split is B = 6, C = 8. Thus Alia and Badal each made 6 taps.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,36706d31-b17b-4df2-add8-6c592c50b18a,0a7367f53b1a6732,L-AR-TNN,,,,
 CAT-2025-S1-DILR-003,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,3,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -28,7 +28,7 @@ The following information is known.
 4. No one responded “Yes” more than twice.
 5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
 6. Clive tapped more times in total than Badal.",What was Clive’s response to Ehsaan’s question?,Maybe,No,Yes,Cannot be determined,mcq,B,No,,,,match,"3. What was Clive’s response to Ehsaan’s question? — No (Option 2)
-In the filled table C→E = 2. That assignment satisfies column/row totals, the reciprocity constraints for A and E (no matching answers), and the requirement that each column contain at least one 1, one 2, and one 3. So Clive answered “No” to Ehsaan.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,3959e33f-cfb0-4b63-925e-47745667fec2,0a7367f53b1a6732,L-AR-TNN,,,
+In the filled table C→E = 2. That assignment satisfies column/row totals, the reciprocity constraints for A and E (no matching answers), and the requirement that each column contain at least one 1, one 2, and one 3. So Clive answered “No” to Ehsaan.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,3959e33f-cfb0-4b63-925e-47745667fec2,0a7367f53b1a6732,L-AR-TNN,,,,
 CAT-2025-S1-DILR-004,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,4,CAT Medium,Moderate,Teeny Numbers,Teeny Numbers Arrangement,Tapping Game 5 People,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -38,7 +38,7 @@ The following information is known.
 4. No one responded “Yes” more than twice.
 5. No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.
 6. Clive tapped more times in total than Badal.",How many “Yes” responses were received across all the questions? ____,,,,,tita,,6,,,,match,"4. How many “Yes” responses were received across all the questions? — 6
-Count all 1-tap entries in the final table: A row has two 1s, B row two 1s, C row one 1, D row zero 1s, E row one 1 → total 2+2+1+0+1 = 6. This satisfies the constraints and the column diversity requirement.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,1b812189-35bd-4d33-a28f-dfa88a0e992d,0a7367f53b1a6732,L-AR-TNN,,,
+Count all 1-tap entries in the final table: A row has two 1s, B row two 1s, C row one 1, D row zero 1s, E row one 1 → total 2+2+1+0+1 = 6. This satisfies the constraints and the column diversity requirement.",,Teeny Numbers,False,,https://iimking.com/tapping-game-5-people-teeny-numbers-arrangement-cat-2025-dilr-slot-1/,1b812189-35bd-4d33-a28f-dfa88a0e992d,0a7367f53b1a6732,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -120,7 +120,7 @@ Column total (taps received)
 7
 8
 8
-40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,122ea179-9197-481d-8e43-5188e955b663,0a7367f53b1a6732,L-AR-TNN,,db069c75-8a44-402e-8e08-8222d3c61d35,
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,122ea179-9197-481d-8e43-5188e955b663,0a7367f53b1a6732,L-AR-TNN,,db069c75-8a44-402e-8e08-8222d3c61d35,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -202,7 +202,7 @@ Column total (taps received)
 7
 8
 8
-40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,58d15b2b-4f14-4f53-8ce4-3c853044c693,0a7367f53b1a6732,L-AR-TNN,,36706d31-b17b-4df2-add8-6c592c50b18a,
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,58d15b2b-4f14-4f53-8ce4-3c853044c693,0a7367f53b1a6732,L-AR-TNN,,36706d31-b17b-4df2-add8-6c592c50b18a,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -284,7 +284,7 @@ Column total (taps received)
 7
 8
 8
-40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,8c450f4e-5bc0-4168-b55f-2a3dfca7a501,0a7367f53b1a6732,L-AR-TNN,,3959e33f-cfb0-4b63-925e-47745667fec2,
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,8c450f4e-5bc0-4168-b55f-2a3dfca7a501,0a7367f53b1a6732,L-AR-TNN,,3959e33f-cfb0-4b63-925e-47745667fec2,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,1,,CAT Medium,Moderate,Teeny Numbers,,DILR Set 1: Tapping Game 5 People | Teeny Numbers Arrangement | CAT 2025 Slot 1 | Moderate,"Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.
 A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”
 The following information is known.
@@ -366,7 +366,7 @@ Column total (taps received)
 7
 8
 8
-40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,e64f96b3-cf99-411e-830d-86470c084ab9,0a7367f53b1a6732,L-AR-TNN,,1b812189-35bd-4d33-a28f-dfa88a0e992d,
+40",,Teeny Numbers Arrangement,False,,https://iimking.com/full-cat-2025-dilr-slot-1-actual-questions-pdf-with-detailed-solutions/,e64f96b3-cf99-411e-830d-86470c084ab9,0a7367f53b1a6732,L-AR-TNN,,1b812189-35bd-4d33-a28f-dfa88a0e992d,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -653,7 +653,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,0f7cc72c-0c10-431a-ac54-3af819f94a4f,31c90e2abe9147fd,L-AR-TNN,,,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,0f7cc72c-0c10-431a-ac54-3af819f94a4f,31c90e2abe9147fd,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -941,7 +941,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,23a8fabd-c695-43b4-a617-8309509aafd0,31c90e2abe9147fd,L-AR-TNN,,0f7cc72c-0c10-431a-ac54-3af819f94a4f,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,23a8fabd-c695-43b4-a617-8309509aafd0,31c90e2abe9147fd,L-AR-TNN,,0f7cc72c-0c10-431a-ac54-3af819f94a4f,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -1233,7 +1233,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,440b84d7-3413-409f-a968-7682f5ed07af,31c90e2abe9147fd,L-AR-TNN,,,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,440b84d7-3413-409f-a968-7682f5ed07af,31c90e2abe9147fd,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -1527,7 +1527,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,5a786f28-1858-4a78-9538-f9a75170b7d5,31c90e2abe9147fd,L-AR-TNN,,,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,5a786f28-1858-4a78-9538-f9a75170b7d5,31c90e2abe9147fd,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -1821,7 +1821,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,609814b3-f5cd-4844-9210-5c7f0266cb6b,31c90e2abe9147fd,L-AR-TNN,,5a786f28-1858-4a78-9538-f9a75170b7d5,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,609814b3-f5cd-4844-9210-5c7f0266cb6b,31c90e2abe9147fd,L-AR-TNN,,5a786f28-1858-4a78-9538-f9a75170b7d5,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -2113,7 +2113,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,61b2b129-e7f2-4cc6-ba1c-0fec2b8b6392,31c90e2abe9147fd,L-AR-TNN,,440b84d7-3413-409f-a968-7682f5ed07af,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,61b2b129-e7f2-4cc6-ba1c-0fec2b8b6392,31c90e2abe9147fd,L-AR-TNN,,440b84d7-3413-409f-a968-7682f5ed07af,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -2404,7 +2404,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,64ce00be-2d9a-4bc4-8bba-99c3c811e116,31c90e2abe9147fd,L-AR-TNN,,440b84d7-3413-409f-a968-7682f5ed07af,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,64ce00be-2d9a-4bc4-8bba-99c3c811e116,31c90e2abe9147fd,L-AR-TNN,,440b84d7-3413-409f-a968-7682f5ed07af,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -2693,7 +2693,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,31c90e2abe9147fd,L-AR-TNN,,,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,31c90e2abe9147fd,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -2986,7 +2986,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,75489dd1-b5f1-4617-9447-9d247224f98d,31c90e2abe9147fd,L-AR-TNN,,5a786f28-1858-4a78-9538-f9a75170b7d5,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,75489dd1-b5f1-4617-9447-9d247224f98d,31c90e2abe9147fd,L-AR-TNN,,5a786f28-1858-4a78-9538-f9a75170b7d5,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -3276,7 +3276,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,83dbf38e-e9b7-4b7f-b949-5672de8e5db0,31c90e2abe9147fd,L-AR-TNN,,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,83dbf38e-e9b7-4b7f-b949-5672de8e5db0,31c90e2abe9147fd,L-AR-TNN,,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -3564,7 +3564,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,9b84ceab-88a0-43bb-a3b4-6d03a9b67b37,31c90e2abe9147fd,L-AR-TNN,,0f7cc72c-0c10-431a-ac54-3af819f94a4f,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/research-papers-graphs-traditional-cat-2025-dilr-slot-1-hard/,9b84ceab-88a0-43bb-a3b4-6d03a9b67b37,31c90e2abe9147fd,L-AR-TNN,,0f7cc72c-0c10-431a-ac54-3af819f94a4f,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Research Papers,"The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.
 The following additional facts are known.
 1. Each of the authors wrote at least one of each of the four types of papers.
@@ -3854,7 +3854,7 @@ Total
 4
 3
 2
-35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,a311ee28-986c-4c5d-848e-d78e082b9acb,31c90e2abe9147fd,L-AR-TNN,,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,
+35",,Teeny Numbers,True,https://iimking.com/wp-content/uploads/2025/12/Research-Papers-Graphs-Traditional-CAT-2025-DILR-Slot-2-Hard.jpg,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,a311ee28-986c-4c5d-848e-d78e082b9acb,31c90e2abe9147fd,L-AR-TNN,,6f6c4ada-bd23-4d51-b727-8ac0f8ff9836,,
 CAT-2025-S2-DILR-001,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,1,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Whimshire? ____,,,,,tita,,45,,,,match,"Correct Answer: 45
 Explanation: Fogglia must have the lowest PI and cannot have its NUR PM greater than either city, so assigning it the smallest PMs (NUR 10, cities 20 and 30) gives PI 35, the minimum possible. Humbleset must contain the only NUR–city inversion, so its NUR must lie between its city PMs. Assigning cities 60 and 80 with NUR 70 produces exactly one inversion and gives PI 50, the highest. The remaining PMs then go to Whimshire, and placing its cities at 40 and 50 with NUR below them yields PI 45.
@@ -3924,7 +3924,7 @@ Final Working Table
 State | City 1 | City 2 | NUR | PI |
 Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
 Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
-Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,623447f9-596b-4d97-b572-2f4d0e88324e,cd476cec1153cb6c,L-AR-TNN,,,
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,623447f9-596b-4d97-b572-2f4d0e88324e,cd476cec1153cb6c,L-AR-TNN,,,,
 CAT-2025-S2-DILR-002,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,2,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Fogglia? ______,,,,,tita,,35,,,,match,"Correct Answer: 35
 Explanation: Fogglia is explicitly stated to have the lowest PI and must also have its NUR PM lower than both cities’ PMs. Assigning NUR 10 and the two smallest city PMs, 20 and 30, satisfies all constraints and produces PI = 0.5×10 + 0.25×20 + 0.25×30 = 35. Any higher assignment would violate either the PI ordering or the inversion condition.
@@ -3994,7 +3994,7 @@ Final Working Table
 State | City 1 | City 2 | NUR | PI |
 Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
 Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
-Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,c9165841-0ebb-4ab9-a4eb-7341b08a056b,cd476cec1153cb6c,L-AR-TNN,,,
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,c9165841-0ebb-4ab9-a4eb-7341b08a056b,cd476cec1153cb6c,L-AR-TNN,,,,
 CAT-2025-S2-DILR-003,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,3,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Humbleset? _____,,,,,tita,,50,,,,match,"Correct Answer: 50
 Explanation: Humbleset has the highest PI and is the only state where a NUR PM exceeds a city PM. This requires placing the NUR between its two cities. Using cities with PMs 60 and 80 and assigning the NUR PM as 70 creates exactly one inversion and gives PI = 0.5×70 + 0.25×60 + 0.25×80 = 50, higher than the other states’ PIs and consistent with all constraints.
@@ -4064,7 +4064,7 @@ Final Working Table
 State | City 1 | City 2 | NUR | PI |
 Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
 Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
-Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,eaf9f798-fca5-4d7f-84af-b39521eec2a8,cd476cec1153cb6c,L-AR-TNN,,,
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,eaf9f798-fca5-4d7f-84af-b39521eec2a8,cd476cec1153cb6c,L-AR-TNN,,,,
 CAT-2025-S2-DILR-004,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,4,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",Which pair of cities definitely belong to the same state?,"Mumpypore, Zingaloo","Noodleton, Quackford","Splutterville, Quackford","Blusterburg, Mumpypore",mcq,B,"Noodleton, Quackford",,,,match,"Correct Answer: (2) Noodleton, Quackford
 Explanation: If we force all three state PIs to be integers and respect the ordering Fogglia < Whimshire < Humbleset, the only consistent set of PIs is 20, 50, and 70. Humbleset must have the highest PI, 70. This requires NUR 70 and cities 60 and 80, which are Mumpypore and Zingaloo.
@@ -4136,7 +4136,7 @@ Final Working Table
 State | City 1 | City 2 | NUR | PI |
 Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
 Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
-Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,1416e570-c772-4579-bca7-91b064e7af7d,cd476cec1153cb6c,L-AR-TNN,,,
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,1416e570-c772-4579-bca7-91b064e7af7d,cd476cec1153cb6c,L-AR-TNN,,,,
 CAT-2025-S2-DILR-005,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,5,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities | Teeny Numbers | CAT 2025 DILR Slot 2 | Hard,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",For how many of the cities and NURs is it possible to identify their PM and the state they belong to? ____,,,,,tita,,9,,,,match,"Correct Answer: 9
 Explanation: Applying all constraints fixes Fogglia’s PMs as 10, 20, and 30, Humbleset’s as 60, 70, and 80, and Whimshire receives the remaining PMs. The city ordering then assigns each PM to a specific city, and each NUR also becomes uniquely located. As a result, the PM and state for all six cities and all three NURs are completely determined, giving a total of 9 identifiable entities.
@@ -4206,7 +4206,7 @@ Final Working Table
 State | City 1 | City 2 | NUR | PI |
 Fogglia | Blusterburg (20) | Splutterville (40) | 10 | 20 |
 Whimshire | Noodleton (30) | Quackford (50) | 30 | 50 |
-Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,06a2c1df-4d7b-4c2b-a66e-c11f193f3be2,cd476cec1153cb6c,L-AR-TNN,,,
+Humbleset | Mumpypore (60) | Zingaloo (80) | 70 | 70 |",,Teeny Numbers,False,,https://iimking.com/pollution-2-cities-teeny-numbers-cat-2025-dilr-slot-2-hard/,06a2c1df-4d7b-4c2b-a66e-c11f193f3be2,cd476cec1153cb6c,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Humbleset?,,,,,tita,,50,,,,match,"Correct Answer: 50
 Explanation: Humbleset has the highest PI and is the only state where a NUR PM exceeds a city PM. This requires placing the NUR between its two cities. Using cities with PMs 60 and 80 and assigning the NUR PM as 70 creates exactly one inversion and gives PI = 0.5×70 + 0.25×60 + 0.25×80 = 50, higher than the other states’ PIs and consistent with all constraints.
@@ -4356,7 +4356,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,175dce0f-8eff-4733-aa2f-1ac71aeafb8d,cd476cec1153cb6c,L-AR-TNN,,,
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,175dce0f-8eff-4733-aa2f-1ac71aeafb8d,cd476cec1153cb6c,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",For how many of the cities and NURs is it possible to identify their PM and the state they belong to?,,,,,tita,,9,,,,match,"Correct Answer: 9
 Explanation: Applying all constraints fixes Fogglia’s PMs as 10, 20, and 30, Humbleset’s as 60, 70, and 80, and Whimshire receives the remaining PMs. The city ordering then assigns each PM to a specific city, and each NUR also becomes uniquely located. As a result, the PM and state for all six cities and all three NURs are completely determined, giving a total of 9 identifiable entities.
@@ -4506,7 +4506,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,31fd06e3-baa2-477a-8c19-c53a5131d939,cd476cec1153cb6c,L-AR-TNN,,,
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,31fd06e3-baa2-477a-8c19-c53a5131d939,cd476cec1153cb6c,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Whimshire?,,,,,tita,,45,,,,match,"Correct Answer: 45
 Explanation: Fogglia must have the lowest PI and cannot have its NUR PM greater than either city, so assigning it the smallest PMs (NUR 10, cities 20 and 30) gives PI 35, the minimum possible. Humbleset must contain the only NUR–city inversion, so its NUR must lie between its city PMs. Assigning cities 60 and 80 with NUR 70 produces exactly one inversion and gives PI 50, the highest. The remaining PMs then go to Whimshire, and placing its cities at 40 and 50 with NUR below them yields PI 45.
@@ -4656,7 +4656,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,428187df-c77e-44ef-976f-9eb4f49e74e6,cd476cec1153cb6c,L-AR-TNN,,,
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,428187df-c77e-44ef-976f-9eb4f49e74e6,cd476cec1153cb6c,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Fogglia?,,,,,tita,,35,,,,match,"Correct Answer: 35
 Explanation: Fogglia is explicitly stated to have the lowest PI and must also have its NUR PM lower than both cities’ PMs. Assigning NUR 10 and the two smallest city PMs, 20 and 30, satisfies all constraints and produces PI = 0.5×10 + 0.25×20 + 0.25×30 = 35. Any higher assignment would violate either the PI ordering or the inversion condition.
@@ -4806,7 +4806,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,4a6aa285-57c3-4130-8962-2c05f4ada44d,cd476cec1153cb6c,L-AR-TNN,,,
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,4a6aa285-57c3-4130-8962-2c05f4ada44d,cd476cec1153cb6c,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",For how many of the cities and NURs is it possible to identify their PM and the state they belong to?,,,,,tita,,9,,,,match,"Explanation: Applying all constraints fixes Fogglia’s PMs as 10, 20, and 30, Humbleset’s as 60, 70, and 80, and Whimshire receives the remaining PMs. The city ordering then assigns each PM to a specific city, and each NUR also becomes uniquely located. As a result, the PM and state for all six cities and all three NURs are completely determined, giving a total of 9 identifiable entities.
 Table Steps Explanation
@@ -4955,7 +4955,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,4f2532ae-d216-42d6-a0d8-25e6a244633c,cd476cec1153cb6c,L-AR-TNN,,31fd06e3-baa2-477a-8c19-c53a5131d939,
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,4f2532ae-d216-42d6-a0d8-25e6a244633c,cd476cec1153cb6c,L-AR-TNN,,31fd06e3-baa2-477a-8c19-c53a5131d939,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Whimshire?,,,,,tita,,45,,,,match,"Explanation: Fogglia must have the lowest PI and cannot have its NUR PM greater than either city, so assigning it the smallest PMs (NUR 10, cities 20 and 30) gives PI 35, the minimum possible. Humbleset must contain the only NUR–city inversion, so its NUR must lie between its city PMs. Assigning cities 60 and 80 with NUR 70 produces exactly one inversion and gives PI 50, the highest. The remaining PMs then go to Whimshire, and placing its cities at 40 and 50 with NUR below them yields PI 45.
 Table Steps Explanation
@@ -5104,7 +5104,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,56c1a03e-4d44-4382-8f66-5c8665d1dbe4,cd476cec1153cb6c,L-AR-TNN,,428187df-c77e-44ef-976f-9eb4f49e74e6,
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,56c1a03e-4d44-4382-8f66-5c8665d1dbe4,cd476cec1153cb6c,L-AR-TNN,,428187df-c77e-44ef-976f-9eb4f49e74e6,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Fogglia?,,,,,tita,,35,,,,match,"Explanation: Fogglia is explicitly stated to have the lowest PI and must also have its NUR PM lower than both cities’ PMs. Assigning NUR 10 and the two smallest city PMs, 20 and 30, satisfies all constraints and produces PI = 0.5×10 + 0.25×20 + 0.25×30 = 35. Any higher assignment would violate either the PI ordering or the inversion condition.
 Table Steps Explanation
@@ -5253,7 +5253,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,658d135d-3743-40bc-9305-cfbad5410e02,cd476cec1153cb6c,L-AR-TNN,,4a6aa285-57c3-4130-8962-2c05f4ada44d,
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,658d135d-3743-40bc-9305-cfbad5410e02,cd476cec1153cb6c,L-AR-TNN,,4a6aa285-57c3-4130-8962-2c05f4ada44d,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",Which pair of cities definitely belong to the same state?,"Mumpypore, Zingaloo","Noodleton, Quackford","Splutterville, Quackford","Blusterburg, Mumpypore",mcq,B,"Noodleton, Quackford",,,,match,"Explanation: If we force all three state PIs to be integers and respect the ordering Fogglia < Whimshire < Humbleset, the only consistent set of PIs is 20, 50, and 70. Humbleset must have the highest PI, 70. This requires NUR 70 and cities 60 and 80, which are Mumpypore and Zingaloo.
 Fogglia must have the lowest PI, 20. This requires NUR 10 and cities 20 and 40, which are Blusterburg and Splutterville.
@@ -5404,7 +5404,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,9f68f2c7-d667-455a-b9ac-18d41a4c0789,cd476cec1153cb6c,L-AR-TNN,,1416e570-c772-4579-bca7-91b064e7af7d,
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,9f68f2c7-d667-455a-b9ac-18d41a4c0789,cd476cec1153cb6c,L-AR-TNN,,1416e570-c772-4579-bca7-91b064e7af7d,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Medium,Moderate,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",What is the PI of Humbleset?,,,,,tita,,50,,,,match,"Explanation: Humbleset has the highest PI and is the only state where a NUR PM exceeds a city PM. This requires placing the NUR between its two cities. Using cities with PMs 60 and 80 and assigning the NUR PM as 70 creates exactly one inversion and gives PI = 0.5×70 + 0.25×60 + 0.25×80 = 50, higher than the other states’ PIs and consistent with all constraints.
 Table Steps Explanation
@@ -5553,7 +5553,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,b6711763-d620-4dc6-810e-beb380964f52,cd476cec1153cb6c,L-AR-TNN,,175dce0f-8eff-4733-aa2f-1ac71aeafb8d,
+70",,Teeny Numbers,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,b6711763-d620-4dc6-810e-beb380964f52,cd476cec1153cb6c,L-AR-TNN,,175dce0f-8eff-4733-aa2f-1ac71aeafb8d,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2025,2,,CAT Hard,Hard,Teeny Numbers,,Pollution 2 Cities,"The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.
 The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities. There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset. The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.",Which pair of cities definitely belong to the same state?,"Mumpypore, Zingaloo","Noodleton, Quackford","Splutterville, Quackford","Blusterburg, Mumpypore",mcq,B,"Noodleton, Quackford",,,,match,"Correct Answer: (2) Noodleton, Quackford
 Explanation: If we force all three state PIs to be integers and respect the ordering Fogglia < Whimshire < Humbleset, the only consistent set of PIs is 20, 50, and 70. Humbleset must have the highest PI, 70. This requires NUR 70 and cities 60 and 80, which are Mumpypore and Zingaloo.
@@ -5705,7 +5705,7 @@ Humbleset
 Mumpypore (60)
 Zingaloo (80)
 70
-70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,f1b52349-3660-4f63-ba39-eec01d19423f,cd476cec1153cb6c,L-AR-TNN,,1416e570-c772-4579-bca7-91b064e7af7d,
+70",,Teeny Numbers,False,,https://iimking.com/full-cat-2025-dilr-slot-2-actual-questions-pdf-with-detailed-solutions/,f1b52349-3660-4f63-ba39-eec01d19423f,cd476cec1153cb6c,L-AR-TNN,,1416e570-c772-4579-bca7-91b064e7af7d,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,1,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
 P1: timely arrival
 P2: behaviour
@@ -5717,7 +5717,7 @@ The following additional facts are known.
 Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan has got a rating of 5 in exactly two parameters.
 None of drivers has got the same rating in three parameters.","If Damodaran does not get a bonus, what is the maximum possible value of his final rating?",3.2,3.4,3.6,3.8,mcq,C,3.6,,,,match,"Q.1 If Damodaran does not get a bonus , it means he must get at least 1 rating in one parameter .
 Now he has rating 3 in P2. So in rest 4 parameter he should get rating 1 in one parameter and to maximize his overall rating he must get 5 rating in 2 other parameters and 4 in the rest parameters.
-So maximum possible rating = (3+5+5+4+1)/5 = 18/5 = 3.6",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,abd50ef6-571a-4af1-aee3-ee0c7ecb4921,4780c82c138a0db3,L-AR-TNN,,,
+So maximum possible rating = (3+5+5+4+1)/5 = 18/5 = 3.6",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,abd50ef6-571a-4af1-aee3-ee0c7ecb4921,4780c82c138a0db3,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,2,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
 P1: timely arrival
 P2: behaviour
@@ -5730,7 +5730,7 @@ Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan 
 None of drivers has got the same rating in three parameters.","If Eman gets a bonus, what is the minimum possible value of his final rating?",3.0,2.8,3.4,3.2,mcq,A,3.0,,,,match,"Q.2 As Eman has got rating 2 in P5. He gets bonus so he should get at least one 5 rating . Also he shouldn’t get ration 1 in any parameters.
 Now as no one gets same rating in three parameters, to minimize Eman’s rating , he should get rating 2 in 2 parameters and rating 3 in other 2 parameters .
 Final Rating = (2+2+3+3+5)/5 = 15/5 = 3.0
-Correct Option 1) 3.0",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,624d475c-bccf-4865-8e52-322c35ee6c05,4780c82c138a0db3,L-AR-TNN,,,
+Correct Option 1) 3.0",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,624d475c-bccf-4865-8e52-322c35ee6c05,4780c82c138a0db3,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,3,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
 P1: timely arrival
 P2: behaviour
@@ -5754,7 +5754,7 @@ Salary of Damodaran = 1300 + 150*3 = Rs 1750
 Minimum possible final rating of Eman = (5+3+2+2+3)/5 = 15/5 = 3
 Salary of Eman =1100 + 200*3 = Rs 1700
 So minimum possible salary = 1700
-Correct option 2) 1700",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,8180d424-56f8-4967-947a-a1f4f2c16685,4780c82c138a0db3,L-AR-TNN,,,
+Correct option 2) 1700",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,8180d424-56f8-4967-947a-a1f4f2c16685,4780c82c138a0db3,L-AR-TNN,,,,
 ,,Arrangement,Teeny Numbers,gstrategy,Arrangements,True,2020,,4,,,Teeny Numbers,Numbers Teeny Arrangement,Rating Set,"The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:
 P1: timely arrival
 P2: behaviour
@@ -5778,4 +5778,4 @@ Salary of Damodaran = 1300 + 150*4.2 = Rs 1930
 Maximum possible final rating of Eman = (5+2+5+4+4)/5 = 20/5 = 4.0
 Salary of Eman =1100 + 200*4 = Rs 1900
 So Maximum possible salary = 1960
-Correct option 1) 1960",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,b9e7ac57-03e8-40af-b595-d686a6128ccb,4780c82c138a0db3,L-AR-TNN,,,
+Correct option 1) 1960",,Numbers Teeny Arrangement,True,https://iimking.com/wp-content/uploads/2023/10/image-33.png | https://iimking.com/wp-content/uploads/2023/10/image-34.png,https://iimking.com/rating-set-cat-2020-dilr/,b9e7ac57-03e8-40af-b595-d686a6128ccb,4780c82c138a0db3,L-AR-TNN,,,,
