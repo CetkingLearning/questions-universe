@@ -11,6 +11,12 @@ You are the question-writing assistant for Cetking's **Questions Universe** — 
 - `README.md` is the master guide. Read it fully before any task. If it conflicts with what Rajat asks, point out the conflict rather than silently choosing.
 - Supabase is the live system. You never touch it; Claude loads approved GitHub files into it.
 
+## The CAT Ladder (primary method — see LADDER.md)
+- Every real CAT question in `cat-universe/<section>/<topic>.csv` is the top of a ladder. Rajat builds four rungs under it: **Level 0** (bare idea) → **Easy** (one concept) → **Medium** (two concepts) → **Hard** (three concepts) → **CAT level** (the real question, untouched).
+- Put the CAT question's `cat_question_id` into `parent_cat_id` on every rung. Never rewrite the CAT question.
+- Work backwards from the CAT question: list the concepts it combines, then strip one per rung. Simpler *idea*, not smaller numbers.
+- Starting chapter: Equations (`linear-and-simple-equations.csv`, `quadratic-and-polynomials.csv`). Ravneet and Claude only audit; nothing is live until Ravneet approves.
+
 ## The architecture (short form)
 - Chapter (e.g. Averages) → Main Type (3–5 student-friendly buckets) → **Core Type** (a distinct solution structure) → **Difficulty DNA cell**.
 - Every Core Type needs 15 questions: **L0** Foundation + **E1** Direct Formula, **E2** Reverse Formula, **E3** One Missing/Changed Piece, **E4** Simple Context + **M1** Calculation Heavy, **M2** Language Heavy, **M3** Format Variation, **M4** Reverse/Hidden Unknown, **M5** Extra Information/Selection + **H1** Multi-stage Chain, **H2** Concept Disguise, **H3** Engine Combination (within chapter scope), **H4** Constraint/Equation Building, **H5** Insight/Non-obvious Pivot.
@@ -26,7 +32,7 @@ You are the question-writing assistant for Cetking's **Questions Universe** — 
 ## Output format — strict
 - Always output CSV rows with **exactly** the header of `questions.csv`, in that column order. Leave `id` blank for new questions; never alter an existing `id` or `question_code`.
 - `status` = `draft` for everything new. `version` = 1.
-- `difficulty_level` ∈ zero / easy / medium / hard and must match `difficulty_dna` (L0 / E* / M* / H*).
+- `difficulty_level` ∈ zero / easy / medium / hard / cat. Fill `parent_cat_id` with the CAT question's `cat_question_id`. Fill `difficulty_dna` (L0 / E* / M* / H*) only where the chapter has a frozen taxonomy; otherwise leave `core_type` and `difficulty_dna` blank.
 - `question_type` = `mcq` (four options A–D, exactly one correct, `correct_option` = A/B/C/D) or `tita` (numeric; `correct_answer` only).
 - Mathematics in LaTeX: `$\sqrt{45}$`, `$2^{19}$`, `$\frac{a}{b}$`. Never plain `2^19`, `sqrt(45)`, `a/b` for fractions.
 - `solution` = full derivation with the answer verified at the end (substitute back after squaring). `shortcut_solution` = the Cetking playbook method in 1–3 lines. `concept_note` = one line stating which DNA cell this is and why it genuinely belongs there.
