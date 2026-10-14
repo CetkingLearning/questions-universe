@@ -1,0 +1,235 @@
+source_table,source_id,source_path_as_stored,status,master_id,action_for_rav
+taxonomy_universe_nodes,TX_013FC9435DE36F128021,Vocabulary | One-Word Substitution | Person-Descriptors,matched,V-VO-OWS-001,
+taxonomy_universe_nodes,TX_028E81E2599FD8FB7E27,Vocabulary Builder | Roots & Prefixes | Life & People,matched,V-VO-ROT-003,
+taxonomy_universe_nodes,TX_03762175A6427618BD27,Vocabulary | Idioms & Phrases | Correct Idiom in Context,matched,V-VO-IDM-003,
+taxonomy_universe_nodes,TX_03A411EBE0DF96A14A73,Vocabulary Usage | Spelling | 5B Commonly Confused Spellings,matched,V-VO-SPL-002,
+taxonomy_universe_nodes,TX_08D3B55DC0CCA628A57A,Vocabulary | Spelling | Correct Spelling Recognition,matched,V-VO-SPL-003,
+taxonomy_universe_nodes,TX_0AC2476046C891B8D941,Reading Comprehension | TSPM | Purpose of Passage,matched,V-SM-TSP-003,
+taxonomy_universe_nodes,TX_0BA2D548031924FFF6ED,Grammar | Spotting Error | Spotting Error,matched,V-GR-ERR-001,
+taxonomy_universe_nodes,TX_120652D25FFA2D4536E4,Vocabulary Usage | Spelling | 5A Standard Spelling Correction,matched,V-VO-SPL-001,
+taxonomy_universe_nodes,TX_142F195A602E6B68A89C,Vocabulary | Spelling | 5A Standard Spelling Correction,matched,V-VO-SPL-001,
+taxonomy_universe_nodes,TX_171DF40A497AFFC03EF6,Subject Verb Agreement | Grammar | SVA,matched,V-GR-SVA-001,
+taxonomy_universe_nodes,TX_254C7F3505E216C5552C,Vocabulary | Contextual Meaning | Sentence-Based Contextual Meaning,matched,V-VO-CTX-001,
+taxonomy_universe_nodes,TX_2C110D9B275E64C98836,Vocabulary | One-Word Substitution | Action/Process Descriptors,matched,V-VO-OWS-002,
+taxonomy_universe_nodes,TX_2E148904C23EA9CCEADB,Vocabulary | Spelling | 5B Commonly Confused Spellings,matched,V-VO-SPL-002,
+taxonomy_universe_nodes,TX_3098B6B9FB48511E2172,Vocabulary | Integrated Vocabulary | Match the Following,matched,V-VO-WRL-003,
+taxonomy_universe_nodes,TX_362FC62717143950FF1B,Vocabulary | Fill in the Blanks | Register-Based Blank,matched,V-VO-FIB-003,
+taxonomy_universe_nodes,TX_3C3BD4B598096A5F2C77,Vocabulary | Roots | Root Meaning Identification,matched,V-VO-ROT-001,
+taxonomy_universe_nodes,TX_40AF871CFB2CC9C90F64,Reading | Reading Comprehension II | Reading Comprehension II,matched,V-RC-PAS-001,
+taxonomy_universe_nodes,TX_41461B520AD21097DE93,Vocabulary | Contextual Meaning | Meaning Across Contexts,matched,V-VO-CTX-002,
+taxonomy_universe_nodes,TX_525F163E2B8F7DA64ECA,Vocabulary,matched,V-VO-UNT-001,
+taxonomy_universe_nodes,TX_52D31C01BD3CEBAB1B2F,Vocabulary Builder | Roots & Prefixes | Roots D & E,matched,V-VO-ROT-003,
+taxonomy_universe_nodes,TX_5A40C8F93719AB890831,Vocabulary | Synonym | Synonym,matched,V-VO-SYN-004,
+taxonomy_universe_nodes,TX_6230B3D1342E1D0461D4,Paragraph-Based | Paragraph Summary | Summary,matched,V-SM-SUM-001,
+taxonomy_universe_nodes,TX_6533326DF349B4A0305B,Vocabulary | Reading Vocabulary | Paragraph Inference plus Synonym,matched,V-VO-CTX-008,
+taxonomy_universe_nodes,TX_654FFCCA94AFA48C8E6F,Vocabulary | Polysemy and Usage | One Word Fits Three Statements,matched,V-VO-CTX-005,
+taxonomy_universe_nodes,TX_6754781603168668C32A,Vocabulary | Fill in the Blanks | Collocation-Based Blank,matched,V-VO-FIB-002,
+taxonomy_universe_nodes,TX_6B9A4D8A235B86405C3C,Reading Comprehension | TSPM | Scope of Passage,matched,V-SM-TSP-002,
+taxonomy_universe_nodes,TX_6E527492C7BB3528095C,Idioms | Idioms | Idiom Meaning Identification,matched,V-VO-IDM-004,
+taxonomy_universe_nodes,TX_6F4E31F49F7CB4A1E9E6,Vocabulary Builder | Fill Blanks | Register-Based Blank,matched,V-VO-FIB-003,
+taxonomy_universe_nodes,TX_70C6C798C1C239B8DF3A,Vocabulary | Synonym-Antonym Integration | Correct Synonym-Antonym Pair,matched,V-VO-SYN-003,
+taxonomy_universe_nodes,TX_750E8621AA829A758026,Vocabulary | Antonym | Antonym,matched,V-VO-SYN-005,
+taxonomy_universe_nodes,TX_79EDFC16AC9900C1601C,Vocabulary | Antonyms | Direct Antonym,matched,V-VO-SYN-002,
+taxonomy_universe_nodes,TX_7A498A9E62688B83EBB5,Vocabulary Builder | Roots & Prefixes | Roots F & G,matched,V-VO-ROT-003,
+taxonomy_universe_nodes,TX_7A7A7D2F7914A526BC6E,Vocabulary Builder | Roots & Prefixes | Roots H & I,matched,V-VO-ROT-003,
+taxonomy_universe_nodes,TX_7E4CB6FE1EF81961382B,Vocabulary | Idioms & Phrases | Idiom Identification (Definition to Idiom),matched,V-VO-IDM-002,
+taxonomy_universe_nodes,TX_7E76EC7D491D23CF172E,Idioms & Phrases | Idioms & Phrases | Idiom Meaning (Usage),matched,V-VO-IDM-001,
+taxonomy_universe_nodes,TX_7F8C88820DCCA661AB3A,Idioms & Phrases | Idioms & Phrases | Correct Idiom in Context,matched,V-VO-IDM-003,
+taxonomy_universe_nodes,TX_818FEC7B04DD820944F6,Vocabulary | Cloze | Single-Blank Cloze,matched,V-VO-CLZ-001,
+taxonomy_universe_nodes,TX_82071801A275FF69DBD0,Vocabulary Builder | Fill Blanks | Single Word Blank,matched,V-VO-FIB-001,
+taxonomy_universe_nodes,TX_8623C329E2CFF73086DC,Vocabulary Usage | One-Word Substitution | Action/Process Descriptors,matched,V-VO-OWS-002,
+taxonomy_universe_nodes,TX_884905C672C10CC6F2AD,Reading | Reading Comprehension I | Reading Comprehension I,matched,V-RC-PAS-001,
+taxonomy_universe_nodes,TX_89D644A9DB4D12E158C7,Vocabulary | One-Word Substitution | Abstract Concept Descriptors,matched,V-VO-OWS-003,
+taxonomy_universe_nodes,TX_93AFFF61EBF96BB7F05F,Vocabulary | Roots | Root-Word Multi-Match,matched,V-VO-ROT-002,
+taxonomy_universe_nodes,TX_93C34634B557249B3D26,Idioms & Phrases | Idioms & Phrases | Idiom Identification (Definition to Idiom),matched,V-VO-IDM-002,
+taxonomy_universe_nodes,TX_950D9763AEC4CF6FA295,Vocabulary | Synonyms | Direct Synonym,matched,V-VO-SYN-001,
+taxonomy_universe_nodes,TX_97333F8BE5E3C21271D4,Vocabulary Builder | Fill Blanks | Collocation-Based Blank,matched,V-VO-FIB-002,
+taxonomy_universe_nodes,TX_9D03A9449074EC8C7E33,Vocabulary Builder | Roots & Prefixes | Roots and Prefixes,matched,V-VO-ROT-003,
+taxonomy_universe_nodes,TX_9FB3898F6D0928299FB5,Vocabulary | Sentence Completion | Sentence Completion,matched,V-VO-FIB-006,
+taxonomy_universe_nodes,TX_A139F618539BF19ECBA2,Reading | Paragraphs | Summary,matched,V-SM-SUM-001,
+taxonomy_universe_nodes,TX_A79F3DD72CE0D2433950,Vocabulary | High Frequency Words | High Frequency Words,matched,V-VO-HFW-001,
+taxonomy_universe_nodes,TX_AA8FFB524B877506A3E8,Vocabulary | One-Word Substitution | Definition to Word,matched,V-VO-OWS-004,
+taxonomy_universe_nodes,TX_AAA9F79BDAC1B682CD81,Vocabulary Usage | One-Word Substitution | Abstract Concept Descriptors,matched,V-VO-OWS-003,
+taxonomy_universe_nodes,TX_B05D6414FFECFC95564E,Vocabulary Builder | Antonym & Synonym | Antonym Synonym,matched,V-VO-SYN-003,
+taxonomy_universe_nodes,TX_B5201D8A4964FD11391A,Reading Comprehension | TSPM | Tone of Passage,matched,V-SM-TSP-001,
+taxonomy_universe_nodes,TX_BDBE709E8B0360E7C562,Vocabulary | Confusables | Contextual Confusable Choice,matched,V-VO-CTX-007,
+taxonomy_universe_nodes,TX_BE0AB3B251899BABE5E0,Vocabulary Usage | One-Word Substitution | Person-Descriptors,matched,V-VO-OWS-001,
+taxonomy_universe_nodes,TX_C0DE0A76188A1461DCB5,Grammar | Figures of Speech | Figure of Speech,matched,V-GR-FOS-001,
+taxonomy_universe_nodes,TX_C93EABE27BB73C9DAF40,Grammar | Subject Verb Agreement | SVA,matched,V-GR-SVA-001,
+taxonomy_universe_nodes,TX_C96A0961189770CBC565,Vocabulary | Usage | Multiple Usage Accuracy,matched,V-VO-CTX-003,
+taxonomy_universe_nodes,TX_D166688B95F65A65BD57,Vocabulary | Idioms Phrases | Idioms Phrases,matched,V-VO-IDM-005,
+taxonomy_universe_nodes,TX_D41ABD3502D22F791968,Vocabulary | Word Relationships | Relationship Matrix / Odd Pair,matched,V-VO-WRL-002,
+taxonomy_universe_nodes,TX_D645AA472ABB2F8E21AB,Vocabulary | Spelling Test | Spelling Test,matched,V-VO-SPL-004,
+taxonomy_universe_nodes,TX_D6E1AF30B60E1E0C4B36,Grammar | Sentence Improvement | Sentence Improvement,matched,V-GR-SIP-001,
+taxonomy_universe_nodes,TX_D777BC8B02CDD2FA8A6B,Vocabulary | Sentence Completion | Dual-Blank Semantic Logic,matched,V-VO-FIB-005,
+taxonomy_universe_nodes,TX_E09D48931CE4231B275C,Vocabulary | Sentence Completion | Single-Blank Contextual Vocabulary,matched,V-VO-FIB-004,
+taxonomy_universe_nodes,TX_E921A2E22250BC847947,Critical Reasoning | Truth Claim Conclusions | Truth Claim Conclusions,matched,V-CR-TRC-001,
+taxonomy_universe_nodes,TX_EB5E039D3F36E61321E9,Vocabulary | Sentence Compatibility | Count the Fitting Options,matched,V-VO-CTX-006,
+taxonomy_universe_nodes,TX_EEF803EDAA9BA073102C,Vocabulary | Cloze Tests | Cloze Tests,matched,V-VO-CLZ-002,
+taxonomy_universe_nodes,TX_F25C8DFC0A148EE7328E,Vocabulary | Idioms & Phrases | Idiom Meaning (Usage),matched,V-VO-IDM-001,
+taxonomy_universe_nodes,TX_F2FA7CBE3B46DE79FB4E,Vocabulary | Semantic Classification | Odd One Out,matched,V-VO-WRL-001,
+taxonomy_universe_nodes,TX_F7417487E302EC14A6DF,Vocabulary | Vocab Usage | Vocab Usage,matched,V-VO-CTX-004,
+taxonomy_universe_nodes,TX_F8B97346857792CA857D,Paragraph-based | Odd Man Out | Odd Man Out,matched,V-PG-OMO-001,
+taxonomy_universe_nodes,TX_FA62EC71C6AF41C0EDEF,Grammar,matched,V-GR-UNT-001,
+taxonomy_universe_nodes,TX_FAE6E0C5DE267C124137,Vocabulary | Fill in the Blanks | Single Word Blank,matched,V-VO-FIB-001,
+taxonomy_universe_nodes,TX_FB2DD9FF1758ECEB0923,Reading | Para Jumbles | Para Jumbles,matched,V-PG-JUM-001,
+question_taxonomy,b24f39f4-f554-436a-9615-43972c15b28b,Language Skills | Vocabulary | High Frequency Words | NMAT Brown Book 2026 | High Frequency Words,matched,V-VO-HFW-001,
+question_taxonomy,ef3e7920-43b8-4d67-875b-c1d706a811ff,Language Skills | Vocabulary | Synonym | NMAT Brown Book 2026 | Synonym,matched,V-VO-SYN-001,
+question_taxonomy,0858ae2d-88dc-4278-87e3-bcd6829f5d98,Language Skills | Vocabulary | Antonym | NMAT Brown Book 2026 | Antonym,matched,V-VO-SYN-002,
+question_taxonomy,b9c9228a-dc89-43ae-aff4-f73667637fbb,Language Skills | Vocabulary | Vocab Usage | NMAT Brown Book 2026 | Vocab Usage,matched,V-VO-CTX-004,
+question_taxonomy,73b9970a-0f39-4dc8-81f6-ccf9c2cad547,Language Skills | Vocabulary | Idioms Phrases | NMAT Brown Book 2026 | Idioms Phrases,matched,V-VO-IDM-005,
+question_taxonomy,d537e8c8-d058-47dc-b649-3367b0965379,Language Skills | Vocabulary | Spelling Test | NMAT Brown Book 2026 | Spelling Test,matched,V-VO-SPL-004,
+question_taxonomy,1e504202-57c3-4b18-8032-0fc36e48f4a1,Language Skills | Vocabulary | Sentence Completion | NMAT Brown Book 2026 | Sentence Completion,matched,V-VO-FIB-004,
+question_taxonomy,9fead923-cff1-400b-953e-f3ac65075d3e,Language Skills | Vocabulary | Cloze Tests | NMAT Brown Book 2026 | Cloze Tests,matched,V-VO-CLZ-002,
+question_taxonomy,aefa9c56-0fd5-4376-8d88-54c714ebe358,Language Skills | Grammar | Sentence Improvement | NMAT Brown Book 2026 | Sentence Improvement,matched,V-GR-SIP-001,
+question_taxonomy,df73ca7a-afac-48a0-b071-24f0a02ab7c9,Language Skills | Grammar | Spotting Error | NMAT Brown Book 2026 | Spotting Error,matched,V-GR-ERR-001,
+question_taxonomy,d78d49f3-8a16-414f-8511-984f3101d812,Language Skills | Reading | Reading Comprehension I | NMAT Brown Book 2026 | Reading Comprehension I,matched,V-RC-PAS-001,
+question_taxonomy,6c954f30-5dac-4a21-a8a5-8d2a35af6305,Language Skills | Reading | Reading Comprehension II | NMAT Brown Book 2026 | Reading Comprehension II,matched,V-RC-PAS-001,
+question_taxonomy,fbf6ea3c-3bd9-4ddf-8bf5-aeae120a8609,Language Skills | Reading | Para Jumbles | NMAT Brown Book 2026 | Para Jumbles,matched,V-PG-JUM-002,
+question_taxonomy,345965b5-9c92-4c72-a2a6-c64d653c255e,Verbal | Vocabulary | Synonyms | One-Dimensional | Direct Synonym,matched,V-VO-SYN-001,
+question_taxonomy,58cfa484-5066-4aab-802a-114b2c337173,Verbal | Vocabulary | Antonyms | One-Dimensional | Direct Antonym,matched,V-VO-SYN-002,
+question_taxonomy,8da282b4-b5dc-4aca-a3c5-5dcab7cd5542,Verbal | Vocabulary | Sentence Completion | One-Dimensional | Single-Blank Contextual Vocabulary,matched,V-VO-FIB-004,
+question_taxonomy,cf5ea4af-22d6-4d81-9064-687a891c3afb,Verbal | Vocabulary | Contextual Meaning | One-Dimensional | Sentence-Based Contextual Meaning,matched,V-VO-CTX-001,
+question_taxonomy,de65d4c7-a9a6-4b0e-acc0-30f7733db56b,Verbal | Idioms | Idioms | One-Dimensional | Idiom Meaning Identification,matched,V-VO-IDM-004,
+question_taxonomy,036e425d-9fb2-4a8c-a7b2-54b26c769989,Verbal | Vocabulary | One-Word Substitution | One-Dimensional | Definition to Word,matched,V-VO-OWS-004,
+question_taxonomy,a585fd5d-cc85-4c4f-8d53-bd6bec16bec2,Verbal | Vocabulary | Cloze | One-Dimensional | Single-Blank Cloze,matched,V-VO-CLZ-001,
+question_taxonomy,9cf5152e-72ab-4e3f-bec4-0ba67dac6bef,Verbal | Vocabulary | Spelling | One-Dimensional | Correct Spelling Recognition,matched,V-VO-SPL-003,
+question_taxonomy,594f9b0f-95dc-45c6-8374-4f06d9a9a4f3,Verbal | Vocabulary | Semantic Classification | One-Dimensional | Odd One Out,matched,V-VO-WRL-001,
+question_taxonomy,42c39c5b-e739-48b2-ae5d-5809a04d0199,Verbal | Vocabulary | Roots | One-Dimensional | Root Meaning Identification,matched,V-VO-ROT-001,
+question_taxonomy,cfeeacd1-6976-4689-8ee7-863e1576abf1,Verbal | Vocabulary | Confusables | One-Dimensional | Contextual Confusable Choice,matched,V-VO-CTX-007,
+question_taxonomy,529ca4df-7779-489a-884b-93d044e654bf,Verbal | Vocabulary | Integrated Vocabulary | Two-Dimensional | Match the Following,matched,V-VO-WRL-003,
+question_taxonomy,5eb5bc58-f282-476a-b083-cf84d16beeb7,Verbal | Vocabulary | Synonym-Antonym Integration | Two-Dimensional | Correct Synonym-Antonym Pair,matched,V-VO-SYN-003,
+question_taxonomy,93c8c1a2-c7d5-4ad3-8103-614231db9a78,Verbal | Vocabulary | Polysemy and Usage | Two-Dimensional | One Word Fits Three Statements,matched,V-VO-CTX-005,
+question_taxonomy,cdc9f40f-f1c6-4317-940f-f320760d44a5,Verbal | Vocabulary | Sentence Compatibility | Two-Dimensional | Count the Fitting Options,matched,V-VO-CTX-006,
+question_taxonomy,6b23b934-3dd6-4f1f-9f32-2a70d5c67728,Verbal | Vocabulary | Usage | Two-Dimensional | Multiple Usage Accuracy,matched,V-VO-CTX-003,
+question_taxonomy,ccfa9aba-4ca2-4d90-8aa5-5b28b86280d9,Verbal | Vocabulary | Contextual Meaning | Two-Dimensional | Meaning Across Contexts,matched,V-VO-CTX-002,
+question_taxonomy,93d09b60-d8ea-4282-acff-35a1ce201f8c,Verbal | Vocabulary | Roots | Two-Dimensional | Root-Word Multi-Match,matched,V-VO-ROT-002,
+question_taxonomy,8f3be00a-7ea3-40e0-bf4d-780b1ecea680,Verbal | Vocabulary | Reading Vocabulary | Two-Dimensional | Paragraph Inference plus Synonym,matched,V-VO-CTX-008,
+question_taxonomy,bdbcd98f-c195-49ed-b469-5b807d022c6f,Verbal | Vocabulary | Sentence Completion | Two-Dimensional | Dual-Blank Semantic Logic,matched,V-VO-FIB-005,
+question_taxonomy,5e8e93c2-2ace-48ba-addd-1b18dbdb22c9,Verbal | Vocabulary | Word Relationships | Two-Dimensional | Relationship Matrix / Odd Pair,matched,V-VO-WRL-002,
+ck_topic_hierarchy,a2048102-7489-48e6-8d06-e1b37458644c,Verbal | RC | Why Mention This (source=rav),matched,V-EV-WMT-001,
+ck_topic_hierarchy,d6ff75c3-004a-48a2-a7cd-c74cae2f1488,Verbal | RC | Inference (source=rav),matched,V-CR-INF-001,
+ck_topic_hierarchy,a96409d2-0ca5-4176-8259-1c0c5439c477,Verbal | RC | Weaken Strengthening (source=rav),matched,V-CR-WST-001,
+ck_topic_hierarchy,fe6e81ce-7fb8-418f-8b37-c50ea0417426,Verbal | RC | Cause Effect Reasoning (source=rav),matched,V-CR-CEF-001,
+ck_topic_hierarchy,11bf0d19-f07e-43dc-9ba1-6f8e694196ea,Verbal | RC | Truth Facts (source=rav),matched,V-EV-TRF-001,
+ck_topic_hierarchy,70cf7694-ba29-4841-be6e-657fa0d70c0a,Verbal | RC | TSPM (source=rav),matched,V-SM-TSP-004,
+ck_topic_hierarchy,303d3700-8329-4007-966a-1a15b40f84e4,Verbal | RC | Similarity (source=rav),matched,V-CR-SIM-001,
+ck_topic_hierarchy,591b39ae-ac5b-47c4-acb8-2f227e1c5798,Verbal | RC | RC Practice (source=proposed),matched,V-RC-PAS-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,75ce548d-8944-47b9-b22c-83c52170cca6,Verbal | Non-RC | Summary (source=rav),matched,V-SM-SUM-001,
+ck_topic_hierarchy,c626c17e-0343-423b-979f-6d40b4709724,Verbal | Non-RC | Odd Man Out (source=rav),matched,V-PG-OMO-001,
+ck_topic_hierarchy,255462fc-bede-4c3f-bee2-f396bf8fc636,Verbal | Non-RC | Jumbled (source=rav),matched,V-PG-JUM-001,
+ck_topic_hierarchy,4f3f369f-03de-460d-b29d-2668db1669c8,Verbal | Non-RC | Completion (source=rav),matched,V-PG-COM-001,
+ck_topic_hierarchy,277af30e-9938-4901-b0b9-b400fbf63b95,Verbal | Critical Reasoning | Arguments (source=proposed),matched,V-CR-ARG,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,80229880-afce-46ef-8ca1-6b99f8d9ea88,Verbal | Critical Reasoning | Assumptions (source=proposed),matched,V-CR-ASM,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,00cb6256-05d5-4e3b-9d1d-a8d1ea8ec12e,Verbal | Critical Reasoning | Conclusions & Inference (source=proposed),matched,V-CR-TRC-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,687b91a6-98f8-4b1d-87be-12af8040539d,Verbal | Critical Reasoning | Course of Action (source=proposed),matched,V-CR-COA-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,1ac9d4c3-768d-46ca-b176-a7d7328c2a05,Verbal | Critical Reasoning | Cause & Effect (source=proposed),matched,V-CR-CEF-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,a8eee109-cf4f-49a6-9dab-0be48fc5dc7d,Verbal | Grammar & Usage | Grammar Rules (source=proposed),matched,V-GR-UNT-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,9db6c37d-5683-468f-8348-1aba8d6ec6fa,Verbal | Grammar & Usage | Sentence Correction & Errors (source=proposed),matched,V-GR-ERR-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,0109613c-01f5-4c73-803f-3b53beae1321,Verbal | Grammar & Usage | Fill in the Blanks & Cloze (source=proposed),matched,V-GR-GFB-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,ca8966ec-9e95-4d97-8c54-d3ad07261ff9,Verbal | Grammar & Usage | Spelling (source=proposed),matched,V-GR,"AMBIGUOUS: hierarchy puts Spelling under Grammar & Usage, the Bible puts it under Vocabulary (V-VO-SPL). Rav to pick."
+ck_topic_hierarchy,a0a4fdb1-fdb2-4ff6-8774-3a8d3318ae06,Verbal | Vocabulary | Words & Synonyms (source=proposed),matched,V-VO-SYN,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,8a61c06e-3ca7-4f6a-b5dd-31aa4bdd427b,"Verbal | Vocabulary | Roots, Prefix & Suffix (source=proposed)",matched,V-VO-ROT,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,aa2bebd4-d8bf-4552-a966-fd36d8c915db,Verbal | Vocabulary | Idioms & Phrases (source=proposed),matched,V-VO-IDM,videos attach here via dyntube_videos.hierarchy_id — keep this row
+ck_topic_hierarchy,9e7d8437-cbac-44f7-be69-7942002db45c,Verbal | Verbal General | Strategy & Intro (source=proposed),matched,V-GN-INT-001,videos attach here via dyntube_videos.hierarchy_id — keep this row
+cetking_cat_arena_taxonomy_map,2afad1eb-cbcc-4518-abc4-a0c383dfbc11,Summary → Arena Paragraph-Based|Paragraph Summary (related/pending),matched,V-SM-SUM-001,approve or reject this Arena mapping
+cetking_cat_arena_taxonomy_map,2e7321c4-bb87-4fcf-b19c-8281d303b3ca,Summary → Arena Reading Comprehension|TSPM (related/pending),matched,V-SM-TSP-004,approve or reject this Arena mapping
+cetking_cat_arena_taxonomy_map,4538aea8-53d4-494d-b029-764ddea59d77,Paragraph → Arena Paragraph-Based|None (related/pending),matched,V-PG,approve or reject this Arena mapping
+cetking_cat_arena_taxonomy_map,cac1c72d-c399-47c2-a9bd-371faccb2994,Evidence → Arena Reading Comprehension|None (related/pending),matched,V-EV,approve or reject this Arena mapping
+cetking_cat_arena_taxonomy_map,63c1478c-05fa-459f-a1aa-ca0055f46ef5,Critical Reasoning → Arena Critical Reasoning|None (exact/approved),matched,V-CR,
+cetking_cat_taxonomy,0f8b9399-6a3f-4566-afb5-de7e909d10f5,"RC (source_group, expected 16 Qs)",matched,V-RC,"RC / Non RC are a source GROUP (rc_non), not a sub-section — kept as a tag on every core type"
+cetking_cat_taxonomy,1a2e21fc-96df-4add-a203-56e7b02dd6b0,"Non RC (source_group, expected 8 Qs)",matched,(source group — rc_non column),"RC / Non RC are a source GROUP (rc_non), not a sub-section — kept as a tag on every core type"
+cetking_cat_taxonomy,a222b111-6eef-4542-8ac5-9e1218cec6da,"Summary (strategy_family, expected 4 Qs)",matched,V-SM,
+cetking_cat_taxonomy,1f9d2d00-24ba-4e99-b9db-e32c607ef936,"Paragraph (strategy_family, expected 6 Qs)",matched,V-PG,
+cetking_cat_taxonomy,dfe45c48-3fbc-45eb-925d-c730b40dd1d1,"Evidence (strategy_family, expected 6 Qs)",matched,V-EV,
+cetking_cat_taxonomy,28054dcd-7bfd-4154-98bf-009204ead8db,"Critical Reasoning (strategy_family, expected 8 Qs)",matched,V-CR,
+cat_verbal_paper_pattern_clean,1,Non RC | Summary | Summary,matched,V-SM-SUM-001,
+cat_verbal_paper_pattern_clean,2,Non RC | Paragraph | Odd Man Out,matched,V-PG-OMO-001,
+cat_verbal_paper_pattern_clean,3,Non RC | Paragraph | Jumbled,matched,V-PG-JUM-001,
+cat_verbal_paper_pattern_clean,4,Non RC | Paragraph | Completion,matched,V-PG-COM-001,
+cat_verbal_paper_pattern_clean,6,RC | Critical Reasoning | Inference,matched,V-CR-INF-001,
+cat_verbal_paper_pattern_clean,7,RC | Critical Reasoning | Weakening Strengthening,matched,V-CR-WST-001,
+cat_verbal_paper_pattern_clean,8,RC | Critical Reasoning | Cause Effect Reasoning,matched,V-CR-CEF-001,
+cat_verbal_paper_pattern_clean,10,RC | Summary | TSPM,matched,V-SM-TSP-004,
+cat_verbal_paper_pattern_clean,11,RC | Critical Reasoning | Similarity,matched,V-CR-SIM-001,
+cat_verbal_paper_pattern_clean,5,RC | Evidence | Why Mention This,matched,V-EV-WMT-001,
+cat_verbal_paper_pattern_clean,9,RC | Evidence | Truth Facts,matched,V-EV-TRF-001,
+shabda_shortcuts,verbal-summary,"Summary → Summary, TSPM",matched,V-SM,G Strategy family = sub-section. Slug keeps working.
+shabda_shortcuts,verbal-paragraph,"Paragraph → Odd Man Out, Jumbled, Completion",matched,V-PG,G Strategy family = sub-section. Slug keeps working.
+shabda_shortcuts,verbal-evidence,"Evidence → Why Mention This, Truth Facts",matched,V-EV,G Strategy family = sub-section. Slug keeps working.
+shabda_shortcuts,verbal-critical-reasoning,"Critical Reasoning → Inference, Weakening Strengthening, Cause Effect Reasoning, Similarity",matched,V-CR,G Strategy family = sub-section. Slug keeps working.
+"book_universe_chapters (Verbal White Book, book 3)",4559adae-2e6f-41d8-833e-5ebaa4f9ded4,ch 1 · TSPM based · p2–9 · slug=verbal-summary,matched,V-SM-TSP,
+"book_universe_chapters (Verbal White Book, book 3)",b2879dec-7aca-424c-8cc9-4d3136832db1,ch 2 · Inference Based Questions · p10–20 · slug=verbal-critical-reasoning,matched,V-CR-INF,
+"book_universe_chapters (Verbal White Book, book 3)",510b2c9b-86da-4ecc-9d44-55378469dfaf,ch 3 · ‘Meaning of this’ · p21–30 · slug=verbal-evidence,matched,V-EV-WMT,
+"book_universe_chapters (Verbal White Book, book 3)",8cc88008-2d2f-4a4d-ad03-ed3a62e94e6d,ch 4 · Truth & Facts based · p31–34 · slug=verbal-evidence,matched,V-EV-TRF,
+"book_universe_chapters (Verbal White Book, book 3)",9aa4fd49-c859-477e-9133-0a65feb5dc3f,ch 5 · Cause Effect Reasoning · p35–40 · slug=verbal-critical-reasoning,matched,V-CR-CEF,
+"book_universe_chapters (Verbal White Book, book 3)",d039e751-fe73-4227-99a8-19f4b30ecce5,ch 6 · Strength/Weaken Arguments · p41–49 · slug=verbal-critical-reasoning,matched,V-CR-WST,
+"book_universe_chapters (Verbal White Book, book 3)",bda8e6ed-1902-47fe-b7f2-c72dfcfe4a23,ch 7 · Except Based Questions · p50–57 · slug=verbal-critical-reasoning,matched,V-RC-EXC,
+"book_universe_chapters (Verbal White Book, book 3)",6094cc27-a145-482c-b129-fd71208014b2,ch 8 · Non RC Summary based · p58–66 · slug=verbal-summary,matched,V-SM-SUM,
+"book_universe_chapters (Verbal White Book, book 3)",0826e8af-5e60-4cf8-94ef-dab2e502c517,ch 9 · Non RC Odd Man Out · p67–72 · slug=verbal-paragraph,matched,V-PG-OMO,
+"book_universe_chapters (Verbal White Book, book 3)",f924777d-9ad8-45d8-9501-68ba295c0513,ch 10 · Non RC ParaJumbles · p73–80 · slug=verbal-paragraph,matched,V-PG-JUM,
+"book_universe_chapters (Verbal White Book, book 3)",719875be-bbe8-4a18-aae4-59e076d6d555,ch 11 · Non RC Para Completion · p81–86 · slug=verbal-paragraph,matched,V-PG-COM,
+lms_topics,8bece6f2-cf95-4501-b64b-313ef6acf009,MBA CET | Verbal | Grammar,matched,V-GR-UNT-001,"MBA CET LMS topic = a whole sub-section/chapter, not a core type"
+lms_topics,35ba585d-9ce7-4617-8c0e-e385d0540d8a,MBA CET | Verbal | Idioms,matched,V-VO-IDM,"MBA CET LMS topic = a whole sub-section/chapter, not a core type"
+lms_topics,0a912560-d12f-4637-8967-0308dae262bc,MBA CET | Verbal | Vocabulary,matched,V-VO-UNT-001,"MBA CET LMS topic = a whole sub-section/chapter, not a core type"
+lms_topics,6692e80d-6b09-4334-96f4-a5b8155fcfde,MBA CET | Verbal | Paragraph Based,matched,V-PG,"MBA CET LMS topic = a whole sub-section/chapter, not a core type"
+lms_topics,330b49e2-fd36-4800-876a-0a655bd078c2,MBA CET | Verbal | Reading Comprehension,matched,V-RC,"MBA CET LMS topic = a whole sub-section/chapter, not a core type"
+lms_topics,f11db5ff-2643-488f-8c80-11c650eee77d,MBA CET | Verbal | Critical Reasoning,matched,V-CR,"MBA CET LMS topic = a whole sub-section/chapter, not a core type"
+test_taxonomy,-,Verbal | Idioms & Phrases | Idioms & Phrases,matched,V-VO-IDM,
+test_taxonomy,-,Verbal | Grammar | Figures of Speech,matched,V-GR-FOS,
+test_taxonomy,-,Verbal | Vocabulary Builder | Antonym & Synonym,matched,V-VO-SYN-003,
+test_taxonomy,-,Verbal | Reading Comprehension | TSPM,matched,V-SM-TSP,
+test_taxonomy,-,Verbal | Vocabulary Builder | Roots & Prefixes,matched,V-VO-ROT-003,
+test_taxonomy,-,Verbal | Paragraph-Based | Paragraph Summary,matched,V-SM-SUM-001,
+test_taxonomy,-,Verbal | Vocabulary Usage | Spelling,matched,V-VO-SPL,
+test_taxonomy,-,Verbal | Vocabulary Builder | Fill Blanks,matched,V-VO-FIB,
+test_taxonomy,-,Verbal | Vocabulary Usage | One-Word Substitution,matched,V-VO-OWS,
+test_taxonomy,-,Verbal | Grammar | Subject Verb Agreement,matched,V-GR-SVA-001,
+test_taxonomy,-,Verbal | Critical Reasoning | Cause Effect,matched,V-CR-CEF-001,
+test_taxonomy,-,Verbal | Paragraph-Based | Odd Man Out,matched,V-PG-OMO-001,
+test_taxonomy,-,Verbal | Paragraph-based | Odd Man Out,matched,V-PG-OMO-001,"lower-case ""Paragraph-based"" — same as ""Paragraph-Based"", merge on migration"
+test_taxonomy,-,Verbal | Critical Reasoning | Truth Claim Conclusions,matched,V-CR-TRC-001,
+test_taxonomy,-,Verbal | Sectional Test | Verbal Sectional Test,matched,"(whole section — mock, not taxonomy)",
+cat_import_questions.question_type (actual CAT Verbal),424 rows,(blank),UNMATCHED,,TAG NEEDED — 424 RC rows with no type; match against the 506-row master by passage text
+cat_import_questions.question_type (actual CAT Verbal),56 rows,Summary,matched,V-SM-SUM-001,
+cat_import_questions.question_type (actual CAT Verbal),50 rows,Odd Man Out,matched,V-PG-OMO-001,
+cat_import_questions.question_type (actual CAT Verbal),44 rows,RC,matched,V-RC-PAS-002,
+cat_import_questions.question_type (actual CAT Verbal),39 rows,Reading Comprehension,matched,V-RC-PAS-002,
+cat_import_questions.question_type (actual CAT Verbal),34 rows,Para Jumble,matched,V-PG-JUM-001,
+cat_import_questions.question_type (actual CAT Verbal),25 rows,Cause-Effect / Reasoning,matched,V-CR-CEF-001,
+cat_import_questions.question_type (actual CAT Verbal),17 rows,Paragraph Completion,matched,V-PG-COM-001,
+cat_import_questions.question_type (actual CAT Verbal),15 rows,Inference,matched,V-CR-INF-001,
+cat_import_questions.question_type (actual CAT Verbal),9 rows,Para Completion,matched,V-PG-COM-001,
+cat_import_questions.question_type (actual CAT Verbal),5 rows,Argument,matched,V-CR-WST-001,VERIFY — could be V-CR-ARG (standalone argument) instead
+cat_import_questions.question_type (actual CAT Verbal),4 rows,Sentence Insertion,matched,V-PG-COM-002,
+cat_import_questions.question_type (actual CAT Verbal),3 rows,Keywords,matched,V-EV-WMT-001,"VERIFY — iimking-only word, looks like Why Mention This"
+cat_import_questions.question_type (actual CAT Verbal),3 rows,Odd One Out,matched,V-PG-OMO-001,
+cat_import_questions.question_type (actual CAT Verbal),3 rows,Parajumbles,matched,V-PG-JUM-001,
+cat_import_questions.question_type (actual CAT Verbal),2 rows,Missing sentences,matched,V-PG-COM-002,
+cat_import_questions.question_type (actual CAT Verbal),2 rows,Para Jumbles,matched,V-PG-JUM-001,
+cat_import_questions.question_type (actual CAT Verbal),2 rows,Missing Sentence,matched,V-PG-COM-002,
+cat_import_questions.question_type (actual CAT Verbal),1 rows,ParaJumbles,matched,V-PG-JUM-001,
+cat_import_questions.question_type (actual CAT Verbal),6 rows,(blank) under Odd One Out,matched,V-PG-OMO-001,"topic says Odd One Out, type blank — safe to tag"
+cat_import_questions.question_type (actual CAT Verbal),3 rows,(blank) under Para Jumbles,matched,V-PG-JUM-001,"topic says Para Jumbles, type blank — safe to tag"
+cat_verbal_pyq_questions.g_strategy_question,54 rows,Summary,matched,V-SM-SUM-001,
+cat_verbal_pyq_questions.g_strategy_question,44 rows,TSPM,matched,V-SM-TSP-004,
+cat_verbal_pyq_questions.g_strategy_question,36 rows,Odd Man Out,matched,V-PG-OMO-001,
+cat_verbal_pyq_questions.g_strategy_question,47 rows,Jumbled,matched,V-PG-JUM-001,
+cat_verbal_pyq_questions.g_strategy_question,27 rows,Completion,matched,V-PG-COM-001,
+cat_verbal_pyq_questions.g_strategy_question,57 rows,Why Mention This,matched,V-EV-WMT-001,
+cat_verbal_pyq_questions.g_strategy_question,53 rows,Truth Facts,matched,V-EV-TRF-001,
+cat_verbal_pyq_questions.g_strategy_question,98 rows,Inference,matched,V-CR-INF-001,
+cat_verbal_pyq_questions.g_strategy_question,34 rows,Weakening Strengthening,matched,V-CR-WST-001,
+cat_verbal_pyq_questions.g_strategy_question,44 rows,Cause Effect Reasoning,matched,V-CR-CEF-001,
+cat_verbal_pyq_questions.g_strategy_question,12 rows,Similarity,matched,V-CR-SIM-001,
+verbal-bible (memory),-,"Verbal Bible SUB-SECTION 3 ""Grammar"" — 10 chapters, 82 types",NOTE,,Master keeps 9 Grammar chapters (V-GR). The Bible lists ~82 core types; only 4 have live rows. Rav to say which Grammar core types Cetking actually teaches.
+verbal-bible (memory),-,"Verbal Bible SUB-SECTION 4 ""Vocabulary"" — 6 chapters, 66 types",NOTE,,Master keeps 11 Vocabulary chapters (V-VO) with 38 core types that have live rows or question_taxonomy rows. The rest of the Bible 66 are not yet created.
+verbal-bible (memory),-,Verbal Bible counts (110 subchapters / ~340 core types),NOTE,,"The Bible itself says these counts are ESTIMATED, not enumerated like Quant 447. So Verbal has no frozen 447-style number yet — this master is the first enumeration (92 core types)."
+verbal-bible (memory),-,Verbal Bible CR sub-section,NOTE,,"Flagged in the Bible as ""added by the source author, open to being dropped if scoping strictly to MH-CET style"". CAT needs it — master keeps V-CR."
+AXIS (not a taxonomy level),rc_non,RC / Non RC,NOTE,,"Source group from his 506-row sheet. Stored as a tag on each core type, not a level."
+AXIS (not a taxonomy level),reading_ease,Easy 75 / Medium 106 / Moderate 173 / Hard 152,NOTE,,"Keep Medium and Moderate DISTINCT (his rule). Passage-level, not question-level."
+AXIS (not a taxonomy level),essay_type,Business & Economics / History & Geography / Philosophy / Science & Tech / Social Studies,NOTE,,"Passage SUBJECT, 5 clean values on the RC rows. Good filter for Shabda. Non-RC rows reuse this column for the question type — ignore those."
+AXIS (not a taxonomy level),g_strategy_type_of_mistake,"~40 raw strings; top: Opposites 51, Out of Scope 41, Distorted facts 32, Partial reasoning 32",NOTE,,"Option-elimination axis. Raw strings have duplicates by case/wording (""Out of scope"" vs ""Out of Scope / Irrelevant"") plus ~15 one-off sentences that are notes, not labels. Needs its own clean-up list — NOT part of the master taxonomy."
+AXIS (not a taxonomy level),is_except,true 92 / false 414,NOTE,,"Question FORM flag. Lives as V-RC-EXC in the master for the book chapter, but on a question it is a flag."
+AXIS (not a taxonomy level),direct_indirect,from his sheet,NOTE,,"Kept raw, no master row."
+AXIS (not a taxonomy level),arena_difficulty / arena_ready,on cat_verbal_pyq_questions,NOTE,,"Arena reuse flags, already in the table."
