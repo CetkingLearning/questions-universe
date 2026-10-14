@@ -1,12 +1,13 @@
-year,slots_expected,questions_expected_varc,rows_stored,unique_questions,duplicate_rows,rc_rows_stored,rc_expected_approx,verdict,what_to_do
-2017,2,68,69,55,14,48,48,"SHORT after dedup — 55 unique vs 68",Re-import the missing 13 from iimking or another source
-2018,2,68,69,65,4,55,48,"nearly complete — 65 unique vs 68",Check the 3 missing
-2019,2,68,70,66,4,65,48,"nearly complete — 66 unique vs 68",Check the 2 missing
-2020,3,78,80,76,4,70,54,"nearly complete — 76 unique vs 78",Check the 2 missing
-2021,3,72,49,49,0,46,48,"SHORT — 49 of 72. Slot 2 has only 1 row; 24 rows carry no slot and all 24 share ONE context_hash",Re-import 2021 slot 2 and 3; fix the 24 no-slot rows
-2022,3,72,95,78,17,56,48,"OVER then SHORT — 95 rows but 78 unique vs 72; slot 2 has only 10 rows",De-duplicate; re-import slot 2
-2023,3,72,75,69,6,51,48,"nearly complete — 69 unique vs 72",Check the 3 missing
-2024,3,72,52,34,18,0,48,"WORST GAP — only 34 unique of 72, and ZERO Reading Comprehension questions",Import all of CAT 2024 VARC RC (~48 questions) — it is entirely absent
-2025,3,72,186,83,103,119,48,"HEAVILY DUPLICATED — 186 rows but only 83 unique vs 72",De-duplicate 2025 first; it is the year students care about most
-(no year),-,-,2,2,0,0,-,2 rows with no exam_year,Assign year/slot or mark practice
-TOTAL,23,642,747,577,170,510,438,"577 unique vs 642 expected — about 65 questions missing, 170 duplicate rows stored",
+year,slots_in_real_paper,slots_present_in_data,questions_in_real_paper,rows_stored,unique_questions,true_duplicate_rows,unique_rc,rc_in_real_paper,unique_non_rc,non_rc_in_real_paper,verdict,what_to_do
+2017,2,2,68,69,69,0,48,48,21,20,"COMPLETE — 69 unique vs 68 expected (1 extra, the no-slot row)",Nothing. Check the 1 unslotted row.
+2018,2,2,68,69,69,0,55,48,14,20,"COMPLETE — but 55 RC vs 48 expected",Check the 7 extra RC rows: wrong year/slot label or a repeated passage
+2019,2,2,68,70,70,0,65,48,5,20,"RC OVER / NON-RC SHORT — 65 RC vs 48, only 5 non-RC vs 20",15 non-RC questions missing; 17 RC rows may be mislabelled
+2020,3,3,78,80,80,0,70,54,10,24,"RC OVER / NON-RC SHORT — 70 RC vs 54, only 10 non-RC vs 24",14 non-RC questions missing
+2021,3,2,72,49,49,0,46,48,3,24,"SHORT — 49 of 72. Slot 3 absent; slot 2 has 1 row; 24 rows carry no slot and share ONE context_hash",Re-import 2021; fix the 24 no-slot rows
+2022,3,3,72,95,95,0,56,48,39,24,"OVER — 95 unique vs 72. No duplicates, so rows are mis-attributed to 2022 or the paper split is wrong",Audit 2022 year/slot labels against the real papers
+2023,3,3,72,75,74,1,50,48,24,24,"COMPLETE — 74 unique vs 72",Nothing. 1 exact duplicate row to retire.
+2024,3,3,72,52,51,1,0,48,51,24,"WORST GAP — ZERO Reading Comprehension. 51 unique are all non-RC (vs 24 expected)",Import all CAT 2024 VARC RC (~48 Qs). It is entirely absent.
+2025,3,3,72,186,100,86,59,48,43,24,"DUPLICATED — 186 rows for 100 unique; 86 exact duplicate rows. 100 unique still exceeds 72, so near-duplicates remain",De-duplicate 2025: 86 exact dups first, then review the ~28 near-dups
+(no year),-,-,-,2,2,0,0,-,2,-,2 rows with no exam_year,Assign year/slot or mark practice
+TOTAL,23,-,642,747,659,88,449,438,212,204,"659 unique rows vs 642 questions in the real papers — but badly distributed: 2024 RC missing entirely, 2021 short by 23, 2022 over by 23, 2025 duplicated",
+NOTE,,,,,,,,,,,"'unique' = distinct on question_text + context_text + options. Do NOT de-duplicate on question_text alone: Summary, Jumbles, Odd Man Out, Completion and Insertion questions all share one boilerplate stem (e.g. 'Five jumbled sentences (labelled 1, 2, 3, 4, and 5)...'), so a question_text-only key merges genuinely different questions and destroys real data.",
