@@ -1,0 +1,246 @@
+source,source_id,source_subsection,source_chapter,source_core_type,proposed_chapter_id,proposed_chapter,match_status,matched_master_id,reason
+B,556f29f6-098b-45b0-a9b0-4a822c83518a,Algebra,Functions,Reciprocal Functional Equation,Q-AL-FNC,Functions,synonym,Q-AL-FNC-010,"name differs from Bible core type ""Functional Equation""; mapped as synonym"
+B,1b3b4432-550a-4998-b5ac-558162a50192,Algebra,Functions,Rational Function Range,Q-AL-FNC,Functions,synonym,Q-AL-FNC-008,"name differs from Bible core type ""Range""; mapped as synonym"
+B,da21464d-3505-4f9b-ba38-42f6b9014832,Algebra,Functions,Greatest Integer Function Sets,Q-AL-FNC,Functions,new,Q-AL-FNC-011,no Bible core type with this name or a listed synonym
+B,b686d970-ac18-4a2f-b18c-9c1c3c6bc7bb,Algebra,Inequalities,Absolute Value Inequality,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-006,"name differs from Bible core type ""Modulus""; mapped as synonym"
+B,e82ff25a-4d51-4c09-bea8-20d483a27b73,Algebra,Inequalities,Integer Pair Inequality Count,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-008,"name differs from Bible core type ""Integer Solutions""; mapped as synonym"
+B,dfbc4b29-03a3-4fcc-b14f-a67031d9e20b,Algebra,Integer Equations,Integer Factor Pair Optimization,Q-AL-EQN,Equations,new,Q-AL-EQN-024,no Bible core type with this name or a listed synonym
+B,3b4a464d-ea30-49ff-a578-660d326026d2,Algebra,Integer Equations,Distinct Natural Number Equation Minimum,Q-AL-EQN,Equations,new,Q-AL-EQN-025,no Bible core type with this name or a listed synonym
+B,eadb2011-acab-4cd0-ba60-8c577f93c5c1,Algebra,Linear Equations,Linear Equations and Max-Min,Q-AL-EQN,Equations,new,Q-AL-EQN-026,no Bible core type with this name or a listed synonym
+B,63829e94-057e-4e9f-8f6d-fbf80305523c,Algebra,Linear Equations,No Solution Condition,Q-AL-EQN,Equations,new,Q-AL-EQN-027,no Bible core type with this name or a listed synonym
+B,b5a3a857-9454-49d6-84e9-ba5ac1bd9cd2,Algebra,Logarithms,Variable Base Logarithmic Equation,Q-AL-LOG,Logarithms,synonym,Q-AL-LOG-008,"name differs from Bible core type ""Variable Base""; mapped as synonym"
+B,8dd2fb07-400e-4f5c-81dd-1db207a798cf,Algebra,Logarithms,Integer Logarithm Inequality Count,Q-AL-LOG,Logarithms,new,Q-AL-LOG-011,no Bible core type with this name or a listed synonym
+B,f8266907-4b52-4da7-a304-29e7f5bdc0ea,Algebra,Logs and Indices,Log Product Telescoping,Q-AL-LOG,Logarithms,new,Q-AL-LOG-012,no Bible core type with this name or a listed synonym
+B,4306f008-5905-41b1-8747-35795c561070,Algebra,Maxima Minima,Integer Squared Difference Minimum,Q-AL-MXM,Maxima & Minima,new,Q-AL-MXM-009,no Bible core type with this name or a listed synonym
+B,0aefb1e0-ea52-46a5-825d-593656359c3f,Algebra,Powers and Identities,Reciprocal Powers,Q-AL-ALG,Algebra,synonym,Q-AL-ALG-008,"name differs from Bible core type ""Reciprocal Expressions""; mapped as synonym"
+B,1b45b667-22a1-439a-84b5-f7fc4c547edb,Algebra,Quadratic Equations,Integer Roots Parameter,Q-AL-EQN,Equations,new,Q-AL-EQN-028,no Bible core type with this name or a listed synonym
+B,b2a8a5db-3faa-4ba6-9fcc-10b1b9d68990,Algebra,Quadratic Equations,Quadratic Extrema Parameter,Q-AL-EQN,Equations,new,Q-AL-EQN-029,no Bible core type with this name or a listed synonym
+B,8c674501-5b51-49df-a88d-3d552cdc2f1e,Algebra,Surds & Indices,Square Root Basics,Q-AL-SRD,Surds & Indices,new,Q-AL-SRD-015,no Bible core type with this name or a listed synonym
+B,5f7ba901-08c6-4417-bf4e-89efa21171bf,Algebra,Surds & Indices,Surd Simplification & Operations,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-006,"name differs from Bible core type ""Surd Simplification""; mapped as synonym"
+B,42dae536-1200-4838-927c-32b6d233f8b1,Algebra,Surds & Indices,Nested Surds / Square Form,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-011,"name differs from Bible core type ""Nested Surds""; mapped as synonym"
+B,58505514-659a-4e0f-94fc-6c5ef9bd0af9,Algebra,Surds & Indices,Radical Equations,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-010,"name differs from Bible core type ""Surd Equations""; mapped as synonym"
+B,feddc3ad-4f70-45d8-aad9-cdc320c15466,Algebra,Surds & Indices,x + 1/x and x - 1/x Identities,Q-AL-ALG,Algebra,synonym,Q-AL-ALG-008,"name differs from Bible core type ""Reciprocal Expressions""; mapped as synonym"
+B,c8554190-1856-4460-9ee3-9fcc6632b5a1,Algebra,Surds & Indices,Index Laws Basics,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-001,"name differs from Bible core type ""Index Laws""; mapped as synonym"
+B,9ae99a88-7b4e-47ae-937c-2835dec096db,Algebra,Surds & Indices,Same Base Conversion,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-005,"name differs from Bible core type ""Different Bases""; mapped as synonym"
+B,37256f73-2e2d-43ad-b976-41024f75f58f,Algebra,Surds & Indices,Negative / Fractional Indices,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-002,"name differs from Bible core type ""Negative Indices""; mapped as synonym"
+B,37a418bc-2d8e-4551-b649-8da4db8b2df1,Algebra,Surds & Indices,Prime-Factor Exponent Balancing,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-014,"name differs from Bible core type ""Integer Base–Exponent Cases""; mapped as synonym"
+B,b952326b-38d6-45d3-b00f-6196843f6f94,Algebra,Surds & Indices,Power Comparison / Ordering,Q-AL-SRD,Surds & Indices,new,Q-AL-SRD-016,no Bible core type with this name or a listed synonym
+B,7a67806e-5c03-4ce4-8733-dd78c2853591,Arithmetic,Averages,Pairwise A-B-C,Q-AR-AVG,Averages,new,Q-AR-AVG-015,no Bible core type with this name or a listed synonym
+B,fd6e3891-e9d5-4fef-8258-b62385edc460,Arithmetic,Averages,Wrong Entry / Correction,Q-AR-AVG,Averages,exact,Q-AR-AVG-008,exact after normalisation (punctuation/plural)
+B,e77e781c-ff4c-4b78-b672-5e37daa9cf91,Arithmetic,Averages,Three Number Average Constraints,Q-AR-AVG,Averages,new,Q-AR-AVG-016,no Bible core type with this name or a listed synonym
+B,c9313503-eb7d-4440-863e-1a0568a054ea,Arithmetic,Interest,Simple Interest to Compound Interest,Q-AR-INT,Simple & Compound Interest,new,Q-AR-INT-017,no Bible core type with this name or a listed synonym
+B,934d73b0-cff1-4bc0-8bd5-bc3ae35de3e7,Arithmetic,Interest,Compound Instalments / Present Value,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-014,"name differs from Bible core type ""EMI – Reducing Balance""; mapped as synonym"
+B,581d3d29-3123-4ed5-8491-33454c604cc8,Arithmetic,Interest,Compound Growth Threshold,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-015,"name differs from Bible core type ""Compound Growth""; mapped as synonym"
+B,7a2ee6b3-13cf-4b5b-b60c-be36931623a0,Arithmetic,Mixtures,Ratio & Quantity,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-001,"name differs from Bible core type ""Mixture Basics""; mapped as synonym"
+B,bc2fbd25-93bd-4132-b6e5-a0df27aa7302,Arithmetic,Mixtures,Concentration / Purity,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-002,"name differs from Bible core type ""Concentration""; mapped as synonym"
+B,d196cde0-86c5-4a83-8bd0-c0f471dc65b4,Arithmetic,Mixtures,Combine Mixtures,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-003,"name differs from Bible core type ""Combine Solutions""; mapped as synonym"
+B,38ebb844-5389-45a3-90ea-c4135fcfec44,Arithmetic,Mixtures,Target Value → Find Mixing Ratio,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-005,"name differs from Bible core type ""Alligation Ratio""; mapped as synonym"
+B,82fc24d5-c9fd-48e0-82f1-915be757e95d,Arithmetic,Mixtures,Given Ratio → Find Mixture Value,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-004,"name differs from Bible core type ""Alligation Basic""; mapped as synonym"
+B,94fcd131-99e0-4cf7-b59d-82f1742b6e3d,Arithmetic,Mixtures,Adding Pure Component,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-007,"name differs from Bible core type ""Addition""; mapped as synonym"
+B,7d0d943c-4dd4-40ce-aa7e-9ef912f2202c,Arithmetic,Mixtures,Adding Impurity / Dilution,Q-AR-MIX,Mixtures & Alligation,new,Q-AR-MIX-015,no Bible core type with this name or a listed synonym
+B,ae9502ea-ce92-4cca-8f61-c32d66ba3797,Arithmetic,Mixtures,Removal / Evaporation,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-008,"name differs from Bible core type ""Removal""; mapped as synonym"
+B,05347d66-3a32-4858-9f8e-54d72b0ad231,Arithmetic,Mixtures,Transfer Between Mixtures / Vessels,Q-AR-MIX,Mixtures & Alligation,new,Q-AR-MIX-016,no Bible core type with this name or a listed synonym
+B,9b9f6ce5-983e-4d5a-a4b2-607dae322fd2,Arithmetic,Mixtures,Milk Water Replacement,Q-AR-MIX,Mixtures & Alligation,new,Q-AR-MIX-017,no Bible core type with this name or a listed synonym
+B,b32ced45-8816-4686-968e-1821dfe33811,Arithmetic,Percentages,Percentage Change / Successive Percentage,Q-AR-PER,Percentages,synonym,Q-AR-PER-006,"name differs from Bible core type ""Successive Change""; mapped as synonym"
+B,b3421c5e-0124-4d20-8bb4-1101c8ebd297,Arithmetic,Percentages,Percentage with Equations,Q-AR-PER,Percentages,synonym,Q-AR-PER-013,"name differs from Bible core type ""Percentage Equation""; mapped as synonym"
+B,28157469-46f2-41f4-af39-3c41c5f4a3a4,Arithmetic,Percentages,Percentage Max-Min,Q-AR-PER,Percentages,new,Q-AR-PER-029,no Bible core type with this name or a listed synonym
+B,c5cf319b-0cab-4e49-874d-b27cfdb2cef4,Arithmetic,Profit Loss,Marked Price Discount Profit,Q-AR-PNL,"Profit, Loss & Discount",synonym,Q-AR-PNL-003,"name differs from Bible core type ""Markup + Discount""; mapped as synonym"
+B,aecd1ba0-dc2d-4f2f-ad4b-26b001703b9b,Arithmetic,Profit Loss,Discount Savings Profit,Q-AR-PNL,"Profit, Loss & Discount",new,Q-AR-PNL-019,no Bible core type with this name or a listed synonym
+B,eb34b480-1b36-4d4a-827a-6ab453d2910d,Arithmetic,Ratios,Ratio Distribution,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-005,"name differs from Bible core type ""Distribution""; mapped as synonym"
+B,4face158-413e-4438-821c-60ec7f33e1c4,Arithmetic,Ratios,Ratio Table / Income Expenditure,Q-AR-RAT,Ratios & Proportion,new,Q-AR-RAT-023,no Bible core type with this name or a listed synonym
+B,50d251c6-24d3-4fb1-806e-d805d7f55ac6,Arithmetic,Ratios,Ratio Shift / Transfer,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-014,"name differs from Bible core type ""Transfer Between Quantities""; mapped as synonym"
+B,78b9072a-712b-481c-ac9e-1fb25292787f,Arithmetic,Ratios,Land Allocation Ratio,Q-AR-RAT,Ratios & Proportion,new,Q-AR-RAT-024,no Bible core type with this name or a listed synonym
+B,add52433-6ca5-4735-a456-95769be0a407,Arithmetic,Simple Equations,Linear Equation Setup,Q-AL-EQN,Equations,synonym,Q-AL-EQN-007,"name differs from Bible core type ""Statement Equations""; mapped as synonym"
+B,4a7cbe68-949f-4f7a-802d-cff2c5e2599c,Geo Mensu,Coordinate Geometry,Parallelogram Diagonal Intercept,Q-GM-COG,Coordinate Geometry,new,Q-GM-COG-013,no Bible core type with this name or a listed synonym
+B,962c972e-b73a-48d7-bee8-06b28242c59b,Geo Mensu,Polygons,Regular Hexagon Midpoint Area Ratio,Q-GM-GEO,Geometry,new,Q-GM-GEO-019,no Bible core type with this name or a listed synonym
+B,78733f5c-3fe3-4ba4-97c9-f762020db102,Geo Mensu,Quadrilaterals,Rhombus Diagonals and Area,Q-GM-MEN,Mensuration,synonym,Q-GM-MEN-005,"name differs from Bible core type ""Parallelogram/Rhombus""; mapped as synonym"
+B,e50f2276-ff23-4bbc-b65a-b49456905926,Geo Mensu,Quadrilaterals,Tangential Right Trapezium Area,Q-GM-MEN,Mensuration,new,Q-GM-MEN-013,no Bible core type with this name or a listed synonym
+B,ba59ce77-6710-411e-a52e-1ebf7db057e0,Geo Mensu,Triangles,Isosceles Triangle Similarity Extension,Q-GM-GEO,Geometry,new,Q-GM-GEO-020,no Bible core type with this name or a listed synonym
+B,fb4c6672-562b-4845-9577-646b5f96711a,Geo Mensu,Triangles,Triangle Altitudes and Area,Q-GM-GEO,Geometry,new,Q-GM-GEO-021,no Bible core type with this name or a listed synonym
+B,b0dc0222-3e19-4254-8699-a36c9f57e45a,Modern Maths,PnC,Sandwich Order Counting,Q-MM-PNC,Permutation & Combination,new,Q-MM-PNC-017,no Bible core type with this name or a listed synonym
+B,4ea0b145-c17b-4c78-9814-cf9f5147adfa,Modern Maths,PnC & Factors,Digit Conditions and Factors,Q-NU-NUM,Number System,new,Q-NU-NUM-027,no Bible core type with this name or a listed synonym
+B,138dd141-4795-4e0d-ab7d-f68577f218c9,Modern Maths,PnC & Factors,Counting Non-Repeating Digits,Q-MM-PNC,Permutation & Combination,synonym,Q-MM-PNC-012,"name differs from Bible core type ""Digit Restrictions""; mapped as synonym"
+B,1bbad562-ea15-4d5f-9a9f-3a2fda2e525f,Modern Maths,Sets,Three Set Inclusion-Exclusion Optimization,Q-MM-SET,Set Theory / Venn Diagrams,synonym,Q-MM-SET-011,"name differs from Bible core type ""Max–Min Overlap""; mapped as synonym"
+B,363a28fb-a449-460c-ada2-1c4cf9d7099a,Numbers,Numbers,Perfect Square Range / Max-Min,Q-NU-NUM,Number System,synonym,Q-NU-NUM-012,"name differs from Bible core type ""Perfect Square""; mapped as synonym"
+B,53f950f2-2c59-4d6c-921e-5af074a66206,Numbers,Numbers,Consecutive Odd Balance Point,Q-NU-NUM,Number System,new,Q-NU-NUM-028,no Bible core type with this name or a listed synonym
+B,10b4103f-9f54-4b0a-878d-1c24aff73198,TS&W,Pipes and Cisterns,Combined Pipe Rates,Q-TW-PIP,Pipes & Cisterns,synonym,Q-TW-PIP-002,"name differs from Bible core type ""Multiple Inlets""; mapped as synonym"
+B,c3bd1c2f-659b-4f65-b23a-4417b5e59fa4,TS&W,Time and Work,Work Rates and Wages,Q-TW-TNW,Time & Work,synonym,Q-TW-TNW-011,"name differs from Bible core type ""Work & Wages""; mapped as synonym"
+B,0691bd9a-f777-48c0-8b65-e33b2d1529a7,TS&W,Time and Work,Team Work Replacement,Q-TW-TNW,Time & Work,new,Q-TW-TNW-013,no Bible core type with this name or a listed synonym
+B,40fef5d3-a549-4309-b713-b8218a3805e2,TS&W,Time and Work,Efficiency Ratios,Q-TW-TNW,Time & Work,exact,Q-TW-TNW-004,exact after normalisation (punctuation/plural)
+B,537b1e21-dad0-42bd-8ef7-fa1cfacab691,TS&W,Time Speed Distance,Boats and Streams,Q-TW-TSD,"Time, Speed & Distance",exact,Q-TW-TSD-008,exact after normalisation (punctuation/plural)
+B,0a3e3489-a32e-4b34-8b56-40b3e91a3238,TS&W,Time Speed Distance,Speed Time AP-GP,Q-TW-TSD,"Time, Speed & Distance",new,Q-TW-TSD-013,no Bible core type with this name or a listed synonym
+B,31fbe943-cf13-40e0-b113-926a54fd083d,TS&W,Time Speed Distance,Speed Change with Stops,Q-TW-TSD,"Time, Speed & Distance",synonym,Q-TW-TSD-011,"name differs from Bible core type ""Stoppage""; mapped as synonym"
+B,e931cd75-a331-49bf-b322-51017cd2aca7,TS&W,Time Speed Distance,Walk Run Relative Speed,Q-TW-TSD,"Time, Speed & Distance",synonym,Q-TW-TSD-004,"name differs from Bible core type ""Relative Speed""; mapped as synonym"
+B,2a297ab2-795b-4010-862b-4596ab7da1a8,Quantitative Reasoning,Data Comparison,Data Comparison,Q-DS-DCM,Data Comparison,chapter_only,Q-DS-DCM,"chapter-level name, not a core type; attached to the chapter row"
+B,cea90dc1-a8c6-42f7-97a1-60e8d9c400cf,Quantitative Reasoning,Data Sufficiency,Data Sufficiency,Q-DS-DSF,Data Sufficiency – Quant,chapter_only,Q-DS-DSF,"chapter-level name, not a core type; attached to the chapter row"
+B,98b89f77-c6eb-46aa-8c7c-6221654ead7c,Maths I,Average and Ages,Average and Ages,Q-AR-AVG,Averages,chapter_only,Q-AR-AVG,"chapter-level name, not a core type; attached to the chapter row"
+B,7959f62f-1a99-48ca-9ca4-1191bb86be4c,Maths I,HCF LCM Simplification,HCF LCM Simplification,Q-NU-NUM,Number System,chapter_only,Q-NU-NUM,"chapter-level name, not a core type; attached to the chapter row"
+B,79cfc0c7-a246-42e3-a06d-21bba2c92566,Maths I,Mixture Alligation,Mixture Alligation,Q-AR-MIX,Mixtures & Alligation,chapter_only,Q-AR-MIX,"chapter-level name, not a core type; attached to the chapter row"
+B,e73ecc86-aca2-4cd6-ae24-346bacc64b55,Maths I,Percentage,Percentage,Q-AR-PER,Percentages,chapter_only,Q-AR-PER,"chapter-level name, not a core type; attached to the chapter row"
+B,7fe98cd2-dadd-41f1-a749-503114286acc,Maths I,Profit Loss Discount,Profit Loss Discount,Q-AR-PNL,"Profit, Loss & Discount",chapter_only,Q-AR-PNL,"chapter-level name, not a core type; attached to the chapter row"
+B,bc4b7379-9b6b-4999-8f40-c24b964c2f5e,Maths I,Ratios Prop Partnership,Ratios Prop Partnership,Q-AR-RAT,Ratios & Proportion,chapter_only,Q-AR-RAT,"chapter-level name, not a core type; attached to the chapter row"
+B,e8d09b62-7d51-40ce-ba8e-492babc1918c,Maths I,Simple Compound Interest,Simple Compound Interest,Q-AR-INT,Simple & Compound Interest,chapter_only,Q-AR-INT,"chapter-level name, not a core type; attached to the chapter row"
+B,e86036ae-c464-488a-8daa-0c38465c63ba,Maths II,Data Interpretation,Data Interpretation,Q-DS-DIN,Data Interpretation,chapter_only,Q-DS-DIN,"chapter-level name, not a core type; attached to the chapter row"
+B,913880d8-f0b8-4a64-9ee2-f2aa88daa22a,Maths II,Data Sufficiency,Data Sufficiency,Q-DS-DSF,Data Sufficiency – Quant,chapter_only,Q-DS-DSF,"chapter-level name, not a core type; attached to the chapter row"
+B,6f738021-a3f2-49ce-b767-9847d7561f0a,Maths II,Geometry,Geometry,Q-GM-GEO,Geometry,chapter_only,Q-GM-GEO,"chapter-level name, not a core type; attached to the chapter row"
+B,98ed653a-39d2-4aab-8d16-6a311047acb2,Maths II,Mensuration,Mensuration,Q-GM-MEN,Mensuration,chapter_only,Q-GM-MEN,"chapter-level name, not a core type; attached to the chapter row"
+B,f1d3556b-9b7d-408e-82fb-0a0565fa9e12,Maths II,PnC,PnC,Q-MM-PNC,Permutation & Combination,chapter_only,Q-MM-PNC,"chapter-level name, not a core type; attached to the chapter row"
+B,bfcb58a4-858a-4dfa-8f6c-224681c442d4,Maths II,Probability,Probability,Q-MM-PRB,Probability,chapter_only,Q-MM-PRB,"chapter-level name, not a core type; attached to the chapter row"
+B,40f48cd9-4baa-4f35-a628-a800ab3d063b,Maths II,Time Speed Distance,Time Speed Distance,Q-TW-TSD,"Time, Speed & Distance",chapter_only,Q-TW-TSD,"chapter-level name, not a core type; attached to the chapter row"
+B,ee6d1124-f238-410c-9c32-3dc293e84cd4,Maths II,Time Work,Time Work,Q-TW-TNW,Time & Work,chapter_only,Q-TW-TNW,"chapter-level name, not a core type; attached to the chapter row"
+B,3a3e975e-23a9-4bef-a786-eadc8e596b5a,Maths III,Algebra,Algebra,Q-AL-ALG,Algebra,chapter_only,Q-AL-ALG,"chapter-level name, not a core type; attached to the chapter row"
+B,bb2630ce-7c71-4265-a1e1-b7df1fee6ec8,Maths III,AP GP Series,AP GP Series,Q-AL-PRG,Progressions – AP/GP,chapter_only,Q-AL-PRG,"chapter-level name, not a core type; attached to the chapter row"
+B,fcb3457e-09b8-48c9-ae24-f4cf58ef8c02,Maths III,Coordinate & Trig,Coordinate & Trig,Q-GM-COG,Coordinate Geometry,chapter_only,Q-GM-COG,"chapter-level name, not a core type; attached to the chapter row"
+B,f0ac5fce-f568-49c6-a4c7-d804aa618317,Maths III,Functions Graphs,Functions Graphs,Q-AL-FNC,Functions,chapter_only,Q-AL-FNC,"chapter-level name, not a core type; attached to the chapter row"
+B,ae339ae3-baa2-49c4-ae2a-5b57c453196b,Maths III,Logarithm,Logarithm,Q-AL-LOG,Logarithms,chapter_only,Q-AL-LOG,"chapter-level name, not a core type; attached to the chapter row"
+B,3e768e8b-e5c3-401b-a3ce-77e99f15d284,Maths III,Modulus Inequality,Modulus Inequality,Q-AL-INQ,Inequalities,chapter_only,Q-AL-INQ,"chapter-level name, not a core type; attached to the chapter row"
+B,06fb070b-ace8-4059-9678-7cf0c4a3ca5c,Maths III,"Remainder, Last Digits","Remainder, Last Digits",Q-NU-NUM,Number System,chapter_only,Q-NU-NUM,"chapter-level name, not a core type; attached to the chapter row"
+B,736248de-4114-46b7-b845-93fcf75016e7,Maths III,Surds & Indices,Surds & Indices,Q-AL-SRD,Surds & Indices,chapter_only,Q-AL-SRD,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_0069EEF96B44EE4A0218,Algebra,Surds & Indices,Index Laws Basics,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-001,"name differs from Bible core type ""Index Laws""; mapped as synonym"
+C,TX_065CA7D56B9AAED8CA1D,Maths III,Surds & Indices,Surds & Indices,Q-AL-SRD,Surds & Indices,chapter_only,Q-AL-SRD,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_09634AE58FE18FA70589,TS&W,Time Speed Distance,Walk Run Relative Speed,Q-TW-TSD,"Time, Speed & Distance",synonym,Q-TW-TSD-004,"name differs from Bible core type ""Relative Speed""; mapped as synonym"
+C,TX_1131A111414216B73FAD,Interest,Interest,Simple Interest,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-001,"name differs from Bible core type ""Simple Interest Basic""; mapped as synonym"
+C,TX_11EF7630CE73A1A53811,Arithmetic,Interest,Compound Growth Threshold,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-015,"name differs from Bible core type ""Compound Growth""; mapped as synonym"
+C,TX_120A3A6BC613DEDC901F,Modern Maths,Functions,f(x)g(x) based,Q-AL-FNC,Functions,new,Q-AL-FNC-012,no Bible core type with this name or a listed synonym
+C,TX_13F7AC601A4149D1C38D,Quantitative Reasoning,Data Comparison,Data Comparison,Q-DS-DCM,Data Comparison,chapter_only,Q-DS-DCM,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_1536A97240888C6BCC31,Maths III,"Remainder, Last Digits","Remainder, Last Digits",Q-NU-NUM,Number System,chapter_only,Q-NU-NUM,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_1B99324744FFFF3AE0B3,Algebra,Surds & Indices,x + 1/x and x - 1/x Identities,Q-AL-ALG,Algebra,synonym,Q-AL-ALG-008,"name differs from Bible core type ""Reciprocal Expressions""; mapped as synonym"
+C,TX_1D19A7D21AED5168E64D,Arithmetic,Profit Loss,Marked Price Discount Profit,Q-AR-PNL,"Profit, Loss & Discount",synonym,Q-AR-PNL-003,"name differs from Bible core type ""Markup + Discount""; mapped as synonym"
+C,TX_2163DF41968024593FB1,Modern Maths,Sequences and Series,GP Series,Q-AL-PRG,Progressions – AP/GP,synonym,Q-AL-PRG-007,"name differs from Bible core type ""GP Basics""; mapped as synonym"
+C,TX_28A190431B1BA422BF9A,Arithmetic,Mixtures,Adding Pure Component,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-007,"name differs from Bible core type ""Addition""; mapped as synonym"
+C,TX_29B38902ECFC2DEA88A0,Arithmetic,Mixtures,Removal / Evaporation,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-008,"name differs from Bible core type ""Removal""; mapped as synonym"
+C,TX_2D74BDF09BB94F3B9591,Algebra,Surds & Indices,Negative / Fractional Indices,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-002,"name differs from Bible core type ""Negative Indices""; mapped as synonym"
+C,TX_2E145217660BFDAC6500,TS&W,Time and Work,Efficiency Ratios,Q-TW-TNW,Time & Work,exact,Q-TW-TNW-004,exact after normalisation (punctuation/plural)
+C,TX_2F0E6C0EBF1D1FF3B290,Interest,Interest,Compound Interest,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-006,"name differs from Bible core type ""Compound Interest Basic""; mapped as synonym"
+C,TX_341E7085FF1BF5D06438,Arithmetic,Interest,Compound Instalments / Present Value,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-014,"name differs from Bible core type ""EMI – Reducing Balance""; mapped as synonym"
+C,TX_3546511ACEC86811B45C,Algebra,Inequalities,Absolute Value Inequality,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-006,"name differs from Bible core type ""Modulus""; mapped as synonym"
+C,TX_3657CF0B1B9DBE6229F5,TS&W,Time and Work,Efficiency Ratios,Q-TW-TNW,Time & Work,exact,Q-TW-TNW-004,exact after normalisation (punctuation/plural)
+C,TX_371D6B9A68DD104BE6DF,Maths II,Mensuration,Mensuration,Q-GM-MEN,Mensuration,chapter_only,Q-GM-MEN,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_384A3BD96233D8BE65FE,Modern Maths,Functions,Iterative Functions,Q-AL-FNC,Functions,new,Q-AL-FNC-013,no Bible core type with this name or a listed synonym
+C,TX_3A0D74BA60A5F226F347,Maths II,Time Speed Distance,Time Speed Distance,Q-TW-TSD,"Time, Speed & Distance",chapter_only,Q-TW-TSD,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_3F793759505331BD6E3B,Modern Maths,Sets,Three Set Inclusion-Exclusion Optimization,Q-MM-SET,Set Theory / Venn Diagrams,synonym,Q-MM-SET-011,"name differs from Bible core type ""Max–Min Overlap""; mapped as synonym"
+C,TX_3FF11B00DC335E729EFB,Modern Maths,,,,,parent_node,Q-MM,"sub-section/parent node, no core type"
+C,TX_41DA43E9DB2A085EAB63,Arithmetic,Ratios,Ratio Shift / Transfer,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-014,"name differs from Bible core type ""Transfer Between Quantities""; mapped as synonym"
+C,TX_42261900424742B85668,Maths II,Geometry,Geometry,Q-GM-GEO,Geometry,chapter_only,Q-GM-GEO,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_4312BBDFD79F7B37F0EC,Arithmetic,Profit Loss,Marked Price Discount Profit,Q-AR-PNL,"Profit, Loss & Discount",synonym,Q-AR-PNL-003,"name differs from Bible core type ""Markup + Discount""; mapped as synonym"
+C,TX_44B16247742D5E20C1BD,Modern Maths,PnC & Factors,Counting Non-Repeating Digits,Q-MM-PNC,Permutation & Combination,synonym,Q-MM-PNC-012,"name differs from Bible core type ""Digit Restrictions""; mapped as synonym"
+C,TX_4520690EEE722D97CBCA,Algebra,Logarithms,Variable Base Logarithmic Equation,Q-AL-LOG,Logarithms,synonym,Q-AL-LOG-008,"name differs from Bible core type ""Variable Base""; mapped as synonym"
+C,TX_45A49ABBE315C7A2949C,Arithmetic,Ratios,Partnership,Q-AR-PRT,Partnership,chapter_only,Q-AR-PRT,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_47296FB8BAFCB4853B56,Modern Maths,Inequality,Two Variables,Q-AL-INQ,Inequalities,new,Q-AL-INQ-011,no Bible core type with this name or a listed synonym
+C,TX_48D7647A0406FFA5A0F7,Arithmetic,Averages,Average Fundamentals,Q-AR-AVG,Averages,synonym,Q-AR-AVG-001,"name differs from Bible core type ""Basic Average""; mapped as synonym"
+C,TX_4C15C9E44FA3B9E408BB,Algebra,Surds & Indices,Same Base Conversion,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-005,"name differs from Bible core type ""Different Bases""; mapped as synonym"
+C,TX_4C7568D4FA8976B47844,Algebra,Functions,Rational Function Range,Q-AL-FNC,Functions,synonym,Q-AL-FNC-008,"name differs from Bible core type ""Range""; mapped as synonym"
+C,TX_4DEA065A66786FFF2675,Algebra,Surds & Indices,Prime-Factor Exponent Balancing,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-014,"name differs from Bible core type ""Integer Base–Exponent Cases""; mapped as synonym"
+C,TX_4E211D17B594355BBE21,Arithmetic,Interest,Simple Interest,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-001,"name differs from Bible core type ""Simple Interest Basic""; mapped as synonym"
+C,TX_4E911004A456BD4FFFF1,Interest,Interest,SI & CI Combined,Q-AR-INT,Simple & Compound Interest,new,Q-AR-INT-018,no Bible core type with this name or a listed synonym
+C,TX_5167140651CCFABD8395,Maths II,Probability,Probability,Q-MM-PRB,Probability,chapter_only,Q-MM-PRB,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_54BE40CA68D31695F84E,Algebra,Powers and Identities,Reciprocal Powers,Q-AL-ALG,Algebra,synonym,Q-AL-ALG-008,"name differs from Bible core type ""Reciprocal Expressions""; mapped as synonym"
+C,TX_563C8CC4A0541C1B5697,Maths I,Profit Loss Discount,Profit Loss Discount,Q-AR-PNL,"Profit, Loss & Discount",chapter_only,Q-AR-PNL,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_5D84F462A318E58784BE,Algebra,Powers and Identities,Reciprocal Powers,Q-AL-ALG,Algebra,synonym,Q-AL-ALG-008,"name differs from Bible core type ""Reciprocal Expressions""; mapped as synonym"
+C,TX_602F1E41B80BCEC91F87,Maths III,Logarithm,Logarithm,Q-AL-LOG,Logarithms,chapter_only,Q-AL-LOG,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_61CAFA65CD6D674D3DCB,Geo Mensu,Quadrilaterals,Rhombus Diagonals and Area,Q-GM-MEN,Mensuration,synonym,Q-GM-MEN-005,"name differs from Bible core type ""Parallelogram/Rhombus""; mapped as synonym"
+C,TX_61E9ADF44E294FC4C1DA,Arithmetic,Mixtures,Combine Mixtures,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-003,"name differs from Bible core type ""Combine Solutions""; mapped as synonym"
+C,TX_6774FB07EC0B16575162,Arithmetic,Mixtures,Ratio & Quantity,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-001,"name differs from Bible core type ""Mixture Basics""; mapped as synonym"
+C,TX_7232DB632955D2830501,Algebra,Inequalities,Integer Pair Inequality Count,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-008,"name differs from Bible core type ""Integer Solutions""; mapped as synonym"
+C,TX_72F6A234950454A0AD20,Maths I,Simple Compound Interest,Simple Compound Interest,Q-AR-INT,Simple & Compound Interest,chapter_only,Q-AR-INT,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_7369AF80B9E85F24D371,Maths II,PnC,PnC,Q-MM-PNC,Permutation & Combination,chapter_only,Q-MM-PNC,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_7F268DB150753902F89B,Modern Maths,Sequences and Series,Iterative Series,Q-AL-PRG,Progressions – AP/GP,new,Q-AL-PRG-013,no Bible core type with this name or a listed synonym
+C,TX_7FF3164235FDB2B1D83F,Maths I,Average and Ages,Average and Ages,Q-AR-AVG,Averages,chapter_only,Q-AR-AVG,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_80280BC07292EB7EC6D5,Maths II,Data Interpretation,Data Interpretation,Q-DS-DIN,Data Interpretation,chapter_only,Q-DS-DIN,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_82FD359D1063279294AE,Arithmetic,Ratios,A : B,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-001,"name differs from Bible core type ""Ratio Basics""; mapped as synonym"
+C,TX_866A8DA517FE0205CB42,Numbers,Factorials,Power Factorial,Q-NU-NUM,Number System,synonym,Q-NU-NUM-011,"name differs from Bible core type ""Highest Power""; mapped as synonym"
+C,TX_870BAE26B123D2FCA6FE,Maths I,Mixture Alligation,Mixture Alligation,Q-AR-MIX,Mixtures & Alligation,chapter_only,Q-AR-MIX,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_89330F1B3C22EC3496B2,Algebra,Surds & Indices,Surd Simplification & Operations,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-006,"name differs from Bible core type ""Surd Simplification""; mapped as synonym"
+C,TX_89400E25DA9620EBD8D6,Equations,Equations Basics,Equations Basics,Q-AL-EQN,Equations,chapter_only,Q-AL-EQN,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_8CEBFFCF2DC94B4EF6F6,Arithmetic,Percentages,Percentage Change / Successive Percentage,Q-AR-PER,Percentages,synonym,Q-AR-PER-006,"name differs from Bible core type ""Successive Change""; mapped as synonym"
+C,TX_8EE15B89F285F77DD863,TSDW,Time & Work,Fundamentals,Q-TW-TNW,Time & Work,synonym,Q-TW-TNW-001,"name differs from Bible core type ""Basic Work""; mapped as synonym"
+C,TX_8F70A43F3C2C265782BD,Arithmetic,Percentages,Percentage Change,Q-AR-PER,Percentages,synonym,Q-AR-PER-007,"name differs from Bible core type ""Net Percentage Change""; mapped as synonym"
+C,TX_9175E2623A263F63FAD3,Modern Maths,Sequences and Series,Series Approximately,Q-AL-PRG,Progressions – AP/GP,new,Q-AL-PRG-014,no Bible core type with this name or a listed synonym
+C,TX_91BF8AF3AD2F4BE5BDD4,Modern Maths,Inequality,Linear Inequalities,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-001,"name differs from Bible core type ""Linear""; mapped as synonym"
+C,TX_91CAD68610B0AB0DB646,Arithmetic,Averages,Applied Average Cases,Q-AR-AVG,Averages,new,Q-AR-AVG-017,no Bible core type with this name or a listed synonym
+C,TX_920720D21FBC1E879877,TS&W,Time Speed Distance,Walk Run Relative Speed,Q-TW-TSD,"Time, Speed & Distance",synonym,Q-TW-TSD-004,"name differs from Bible core type ""Relative Speed""; mapped as synonym"
+C,TX_9650284630B5FDFF3F79,Arithmetic,,,,,parent_node,Q-AR,"sub-section/parent node, no core type"
+C,TX_97E242A5D8611BA2500D,Algebra,Functions,Reciprocal Functional Equation,Q-AL-FNC,Functions,synonym,Q-AL-FNC-010,"name differs from Bible core type ""Functional Equation""; mapped as synonym"
+C,TX_9A9DBEA3B3E8F4DF1183,Arithmetic,Ratios,Ratio Shift / Transfer,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-014,"name differs from Bible core type ""Transfer Between Quantities""; mapped as synonym"
+C,TX_9C3CBBAF90BA458306F3,Numbers,Factors,Factors Count Sum,Q-NU-NUM,Number System,synonym,Q-NU-NUM-025,"name differs from Bible core type ""Number of Factors""; mapped as synonym"
+C,TX_9C69203B7A38BA724968,TS&W,Time Speed Distance,Boats and Streams,Q-TW-TSD,"Time, Speed & Distance",exact,Q-TW-TSD-008,exact after normalisation (punctuation/plural)
+C,TX_9C8616D94F7AA816DEF4,Modern Maths,Sequences and Series,Cyclic Series,Q-AL-PRG,Progressions – AP/GP,new,Q-AL-PRG-015,no Bible core type with this name or a listed synonym
+C,TX_A154CBE4B4849F4ADA93,Equations,Ages,Ages Multiple People,Q-AR-AGE,Ages,synonym,Q-AR-AGE-009,"name differs from Bible core type ""Multiple People""; mapped as synonym"
+C,TX_A31E70AD9AF2AF4DD09F,Maths II,Time Work,Time Work,Q-TW-TNW,Time & Work,chapter_only,Q-TW-TNW,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_A647ECB6217EE70F88EF,Algebra,Functions,Reciprocal Functional Equation,Q-AL-FNC,Functions,synonym,Q-AL-FNC-010,"name differs from Bible core type ""Functional Equation""; mapped as synonym"
+C,TX_A845EF9AC409104287FA,Algebra,Inequalities,Integer Pair Inequality Count,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-008,"name differs from Bible core type ""Integer Solutions""; mapped as synonym"
+C,TX_AB08C5ECB1E630F7EFDD,Arithmetic,Mixtures,Concentration / Purity,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-002,"name differs from Bible core type ""Concentration""; mapped as synonym"
+C,TX_AEDAC953E3559517A48F,Numbers,Numbers,Perfect Square Range / Max-Min,Q-NU-NUM,Number System,synonym,Q-NU-NUM-012,"name differs from Bible core type ""Perfect Square""; mapped as synonym"
+C,TX_B029E1EA4D787833B922,Modern Maths,Sequences and Series,AP-GP Series,Q-AL-PRG,Progressions – AP/GP,new,Q-AL-PRG-016,no Bible core type with this name or a listed synonym
+C,TX_B0AF8F29290F19C89B0E,Arithmetic,Percentages,Percentage Change / Successive Percentage,Q-AR-PER,Percentages,synonym,Q-AR-PER-006,"name differs from Bible core type ""Successive Change""; mapped as synonym"
+C,TX_B1443BD630F6943B3AFF,Arithmetic,Mixtures,Given Ratio → Find Mixture Value,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-004,"name differs from Bible core type ""Alligation Basic""; mapped as synonym"
+C,TX_B58B601F83D99E4F8BD7,Arithmetic,Mixtures,Concentration / Purity,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-002,"name differs from Bible core type ""Concentration""; mapped as synonym"
+C,TX_B771D6F81DDAC251CE34,Arithmetic,Averages,Change in Average,Q-AR-AVG,Averages,new,Q-AR-AVG-018,no Bible core type with this name or a listed synonym
+C,TX_BA7BB813651DDF608F31,Arithmetic,Ratios,Ratio Distribution,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-005,"name differs from Bible core type ""Distribution""; mapped as synonym"
+C,TX_BBA16ED2453A3F1374AF,Modern Maths,PnC & Factors,Counting Non-Repeating Digits,Q-MM-PNC,Permutation & Combination,synonym,Q-MM-PNC-012,"name differs from Bible core type ""Digit Restrictions""; mapped as synonym"
+C,TX_BE459B133CB16CF12999,Modern Maths,Sets,Three Set Inclusion-Exclusion Optimization,Q-MM-SET,Set Theory / Venn Diagrams,synonym,Q-MM-SET-011,"name differs from Bible core type ""Max–Min Overlap""; mapped as synonym"
+C,TX_BEBC872099FFDF8277D0,TS&W,Time and Work,Work Rates and Wages,Q-TW-TNW,Time & Work,synonym,Q-TW-TNW-011,"name differs from Bible core type ""Work & Wages""; mapped as synonym"
+C,TX_BEC7E04D294AD430F17C,Arithmetic,Percentages,Percentage with Equations,Q-AR-PER,Percentages,synonym,Q-AR-PER-013,"name differs from Bible core type ""Percentage Equation""; mapped as synonym"
+C,TX_C151B6739A3549DCFE6B,Algebra,Surds & Indices,Prime-Factor Exponent Balancing,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-014,"name differs from Bible core type ""Integer Base–Exponent Cases""; mapped as synonym"
+C,TX_C59ECF8F8B6DFEECEE93,TS&W,Time Speed Distance,Speed Change with Stops,Q-TW-TSD,"Time, Speed & Distance",synonym,Q-TW-TSD-011,"name differs from Bible core type ""Stoppage""; mapped as synonym"
+C,TX_C7BEDEE7447C500CF03B,Arithmetic,Averages,Combined & Weighted Average,Q-AR-AVG,Averages,synonym,Q-AR-AVG-003,"name differs from Bible core type ""Combined Average""; mapped as synonym"
+C,TX_C87DBC9D3B9EBC1A25C1,Modern Maths,Sequences and Series,AP Series,Q-AL-PRG,Progressions – AP/GP,synonym,Q-AL-PRG-001,"name differs from Bible core type ""AP Basics""; mapped as synonym"
+C,TX_CAF61C6DF217858E4228,Maths II,Data Sufficiency,Data Sufficiency,Q-DS-DSF,Data Sufficiency – Quant,chapter_only,Q-DS-DSF,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_CD56EB9A564D1D80B652,Algebra,Surds & Indices,Radical Equations,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-010,"name differs from Bible core type ""Surd Equations""; mapped as synonym"
+C,TX_CF050ED88C2967C0239E,Algebra,Surds & Indices,Nested Surds / Square Form,Q-AL-SRD,Surds & Indices,synonym,Q-AL-SRD-011,"name differs from Bible core type ""Nested Surds""; mapped as synonym"
+C,TX_D0976D2DB779892EE922,Numbers,Numbers,Perfect Square Range / Max-Min,Q-NU-NUM,Number System,synonym,Q-NU-NUM-012,"name differs from Bible core type ""Perfect Square""; mapped as synonym"
+C,TX_D0D66755C0CF73B44860,Arithmetic,Mixtures,Combine Mixtures,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-003,"name differs from Bible core type ""Combine Solutions""; mapped as synonym"
+C,TX_D1AB0090946811A5AEA8,Equations,Algebra,X Maro,Q-AL-EQN,Equations,new,Q-AL-EQN-030,no Bible core type with this name or a listed synonym
+C,TX_D258840241EB9B2E006C,Modern Maths,Inequality,Basics,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-001,"name differs from Bible core type ""Linear""; mapped as synonym"
+C,TX_D2899B29968015B9BCD2,Maths III,Functions Graphs,Functions Graphs,Q-AL-FNC,Functions,chapter_only,Q-AL-FNC,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_D34D8A09C1F04E442175,Arithmetic,Interest,Compound Growth Threshold,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-015,"name differs from Bible core type ""Compound Growth""; mapped as synonym"
+C,TX_D39F0ACB0B6890A06148,Geo Mensu,Quadrilaterals,Rhombus Diagonals and Area,Q-GM-MEN,Mensuration,synonym,Q-GM-MEN-005,"name differs from Bible core type ""Parallelogram/Rhombus""; mapped as synonym"
+C,TX_D4B6F4459698EBD1F075,Maths III,AP GP Series,AP GP Series,Q-AL-PRG,Progressions – AP/GP,exact,Q-AL-PRG-016,exact after normalisation (punctuation/plural)
+C,TX_D4E3B8005A398B01E04F,Algebra,Logarithms,Variable Base Logarithmic Equation,Q-AL-LOG,Logarithms,synonym,Q-AL-LOG-008,"name differs from Bible core type ""Variable Base""; mapped as synonym"
+C,TX_D7AD2941F55CC78F34CD,TS&W,Time Speed Distance,Boats and Streams,Q-TW-TSD,"Time, Speed & Distance",exact,Q-TW-TSD-008,exact after normalisation (punctuation/plural)
+C,TX_D866FACA72A03F1803AC,Numbers,Others,Power Factorial,Q-NU-NUM,Number System,synonym,Q-NU-NUM-011,"name differs from Bible core type ""Highest Power""; mapped as synonym"
+C,TX_D8BA86A4D108B4DECE0B,Algebra,Inequalities,Absolute Value Inequality,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-006,"name differs from Bible core type ""Modulus""; mapped as synonym"
+C,TX_DCCBAA5BD815CE8102C0,TS&W,Time Speed Distance,Speed Change with Stops,Q-TW-TSD,"Time, Speed & Distance",synonym,Q-TW-TSD-011,"name differs from Bible core type ""Stoppage""; mapped as synonym"
+C,TX_DEF96885F400E32DF6C1,Maths I,HCF LCM Simplification,HCF LCM Simplification,Q-NU-NUM,Number System,chapter_only,Q-NU-NUM,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_E0207DB6F8B38F699D04,Modern Maths,Functions,f(x) based,Q-AL-FNC,Functions,synonym,Q-AL-FNC-001,"name differs from Bible core type ""Function Basics""; mapped as synonym"
+C,TX_E3CA2D223CE73B3C9056,Arithmetic,Interest,Compound Interest,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-006,"name differs from Bible core type ""Compound Interest Basic""; mapped as synonym"
+C,TX_E45F084D47512C18BE16,TS&W,Pipes and Cisterns,Combined Pipe Rates,Q-TW-PIP,Pipes & Cisterns,synonym,Q-TW-PIP-002,"name differs from Bible core type ""Multiple Inlets""; mapped as synonym"
+C,TX_E5AC07DE9ED8ECAEBA5F,TSDW,Time & Work,Scheduling & Efficiency,Q-TW-TNW,Time & Work,new,Q-TW-TNW-014,no Bible core type with this name or a listed synonym
+C,TX_E5AD467D46008E143826,Arithmetic,Averages,Wrong Entry / Correction,Q-AR-AVG,Averages,exact,Q-AR-AVG-008,exact after normalisation (punctuation/plural)
+C,TX_E5CB715CD6E0D55C53ED,Maths III,Modulus Inequality,Modulus Inequality,Q-AL-INQ,Inequalities,chapter_only,Q-AL-INQ,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_E7ACC70B5EC9F71E883F,Maths I,Percentage,Percentage,Q-AR-PER,Percentages,chapter_only,Q-AR-PER,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_E7CA6C0BCB41B19F7595,Maths III,Coordinate & Trig,Coordinate & Trig,Q-GM-COG,Coordinate Geometry,chapter_only,Q-GM-COG,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_E8C0983C34815ABA0890,TSDW,Time & Work,Left Work,Q-TW-TNW,Time & Work,synonym,Q-TW-TNW-008,"name differs from Bible core type ""Leave Midway""; mapped as synonym"
+C,TX_E98811E21BEA7BE3C8FD,Equations,,,,,parent_node,,"sub-section/parent node, no core type"
+C,TX_EB326AD4AF3416E1A067,Equations,Ages,Ages,Q-AR-AGE,Ages,chapter_only,Q-AR-AGE,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_EB6373A85128442E93A7,TS&W,Pipes and Cisterns,Combined Pipe Rates,Q-TW-PIP,Pipes & Cisterns,synonym,Q-TW-PIP-002,"name differs from Bible core type ""Multiple Inlets""; mapped as synonym"
+C,TX_EC33A14A0A377D7CD2A0,Algebra,Functions,Rational Function Range,Q-AL-FNC,Functions,synonym,Q-AL-FNC-008,"name differs from Bible core type ""Range""; mapped as synonym"
+C,TX_EF11E4438B58D5759C67,Maths III,Algebra,Algebra,Q-AL-ALG,Algebra,chapter_only,Q-AL-ALG,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_F0975E00093365C7D1BC,Arithmetic,Simple Equations,Linear Equation Setup,Q-AL-EQN,Equations,synonym,Q-AL-EQN-007,"name differs from Bible core type ""Statement Equations""; mapped as synonym"
+C,TX_F15CFF548284876FF078,Quantitative Reasoning,Data Sufficiency,Data Sufficiency,Q-DS-DSF,Data Sufficiency – Quant,chapter_only,Q-DS-DSF,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_F2E470E067FD8DB055C6,Arithmetic,Percentages,Percentage with Equations,Q-AR-PER,Percentages,synonym,Q-AR-PER-013,"name differs from Bible core type ""Percentage Equation""; mapped as synonym"
+C,TX_F497BB88B142CA292774,Arithmetic,Mixtures,Target Value → Find Mixing Ratio,Q-AR-MIX,Mixtures & Alligation,synonym,Q-AR-MIX-005,"name differs from Bible core type ""Alligation Ratio""; mapped as synonym"
+C,TX_F6D96A5D2CC696F18A55,Modern Maths,Inequality,Inequality,Q-AL-INQ,Inequalities,chapter_only,Q-AL-INQ,"chapter-level name, not a core type; attached to the chapter row"
+C,TX_F93484FAB502792FC990,Modern Maths,Functions,Function Evaluation,Q-AL-FNC,Functions,synonym,Q-AL-FNC-002,"name differs from Bible core type ""Evaluation""; mapped as synonym"
+C,TX_F9D5B9476C5F157AE4D6,Arithmetic,Simple Equations,Linear Equation Setup,Q-AL-EQN,Equations,synonym,Q-AL-EQN-007,"name differs from Bible core type ""Statement Equations""; mapped as synonym"
+C,TX_FEB3B8FEC1D3AA3701B1,Maths I,Ratios Prop Partnership,Ratios Prop Partnership,Q-AR-RAT,Ratios & Proportion,chapter_only,Q-AR-RAT,"chapter-level name, not a core type; attached to the chapter row"
+E,Averages > Average Fundamentals,Arithmetic,Averages,Average Fundamentals,Q-AR-AVG,Averages,synonym,Q-AR-AVG-001,"name differs from Bible core type ""Basic Average""; mapped as synonym"
+E,Averages > Combined & Weighted Average,Arithmetic,Averages,Combined & Weighted Average,Q-AR-AVG,Averages,synonym,Q-AR-AVG-003,"name differs from Bible core type ""Combined Average""; mapped as synonym"
+E,Interest > Compound Interest,Arithmetic,Interest,Compound Interest,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-006,"name differs from Bible core type ""Compound Interest Basic""; mapped as synonym"
+E,Interest > Simple Interest,Arithmetic,Interest,Simple Interest,Q-AR-INT,Simple & Compound Interest,synonym,Q-AR-INT-001,"name differs from Bible core type ""Simple Interest Basic""; mapped as synonym"
+E,Percentages > Percentage Change,Arithmetic,Percentages,Percentage Change,Q-AR-PER,Percentages,synonym,Q-AR-PER-007,"name differs from Bible core type ""Net Percentage Change""; mapped as synonym"
+E,Ratios > A : B,Arithmetic,Ratios,A : B,Q-AR-RAT,Ratios & Proportion,synonym,Q-AR-RAT-001,"name differs from Bible core type ""Ratio Basics""; mapped as synonym"
+E,Ratios > Partnership,Arithmetic,Ratios,Partnership,Q-AR-PRT,Partnership,chapter_only,Q-AR-PRT,"chapter-level name, not a core type; attached to the chapter row"
+E,Ages > Ages,Equations,Ages,Ages,Q-AR-AGE,Ages,chapter_only,Q-AR-AGE,"chapter-level name, not a core type; attached to the chapter row"
+E,Ages > Ages Multiple People,Equations,Ages,Ages Multiple People,Q-AR-AGE,Ages,synonym,Q-AR-AGE-009,"name differs from Bible core type ""Multiple People""; mapped as synonym"
+E,Equations Basics > Basics,Equations,Equations Basics,Equations Basics,Q-AL-EQN,Equations,chapter_only,Q-AL-EQN,"chapter-level name, not a core type; attached to the chapter row"
+E,Functions > f(x) based,Modern Maths,Functions,f(x) based,Q-AL-FNC,Functions,synonym,Q-AL-FNC-001,"name differs from Bible core type ""Function Basics""; mapped as synonym"
+E,Functions > Function Evaluation,Modern Maths,Functions,Function Evaluation,Q-AL-FNC,Functions,synonym,Q-AL-FNC-002,"name differs from Bible core type ""Evaluation""; mapped as synonym"
+E,Inequality > Basics,Modern Maths,Inequality,Basics,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-001,"name differs from Bible core type ""Linear""; mapped as synonym"
+E,Inequality > Linear Inequalities,Modern Maths,Inequality,Linear Inequalities,Q-AL-INQ,Inequalities,synonym,Q-AL-INQ-001,"name differs from Bible core type ""Linear""; mapped as synonym"
+E,Sequences and Series > AP Series,Modern Maths,Sequences and Series,AP Series,Q-AL-PRG,Progressions – AP/GP,synonym,Q-AL-PRG-001,"name differs from Bible core type ""AP Basics""; mapped as synonym"
+E,Sequences and Series > GP Series,Modern Maths,Sequences and Series,GP Series,Q-AL-PRG,Progressions – AP/GP,synonym,Q-AL-PRG-007,"name differs from Bible core type ""GP Basics""; mapped as synonym"
+E,Factorials > Power Factorial,Numbers,Factorials,Power Factorial,Q-NU-NUM,Number System,synonym,Q-NU-NUM-011,"name differs from Bible core type ""Highest Power""; mapped as synonym"
+E,Factors > Factors Count Sum,Numbers,Factors,Factors Count Sum,Q-NU-NUM,Number System,synonym,Q-NU-NUM-025,"name differs from Bible core type ""Number of Factors""; mapped as synonym"
+E,Time & Work > Fundamentals,TSDW,Time & Work,Fundamentals,Q-TW-TNW,Time & Work,synonym,Q-TW-TNW-001,"name differs from Bible core type ""Basic Work""; mapped as synonym"
+E,Time & Work > Left Work,TSDW,Time & Work,Left Work,Q-TW-TNW,Time & Work,synonym,Q-TW-TNW-008,"name differs from Bible core type ""Leave Midway""; mapped as synonym"
