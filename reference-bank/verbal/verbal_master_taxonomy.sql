@@ -1,6 +1,7 @@
 -- ============================================================================
 -- Cetking Universe — VERBAL MASTER TAXONOMY
--- Prepared 15 Oct 2026. DO NOT RUN until Ravneet says "create the taxonomy table".
+-- Applied 15 Oct 2026 on Ravneet's instruction to update the Verbal Critical
+-- Reasoning universe in Supabase ("first supabase").
 --
 -- Shape MIRRORS the live public.quant_master_taxonomy so both sections share one
 -- schema and can be queried or unioned together (Rav's 15 Oct rule: ONE master
@@ -35,7 +36,9 @@ select s.id,
   'CREATE TABLE + CREATE VIEW + INSERT 143 rows. No existing object altered. No row in any other table touched.',
   'in_progress', 'low',
   'drop view public.verbal_master_taxonomy_chapters; drop table public.verbal_master_taxonomy;'
-from control_room.sessions s where s.actor='claude' and s.status='active'
+from control_room.sessions s
+where s.actor='claude' and s.status='active'
+  and s.purpose like 'Create public.verbal_master_taxonomy%'
 order by s.started_at desc limit 1;
 
 -- ─── STEP 2 · the table ─────────────────────────────────────────────────────
@@ -106,7 +109,7 @@ drop policy if exists verbal_master_taxonomy_read on public.verbal_master_taxono
 create policy verbal_master_taxonomy_read on public.verbal_master_taxonomy for select using (true);
 -- writes: service role only (no insert/update/delete policy), like the other content tables.
 
--- ─── STEP 3 · the 144 rows (parents before children) ────────────────────────
+-- ─── STEP 3 · the 143 rows (parents before children) ────────────────────────
 
 -- section (1)
 insert into public.verbal_master_taxonomy (master_id, level, parent_id, name, section_id, subsection_id, subsection_name, chapter_id, chapter_name, chapter_code, cat_export_chapter, core_type_id, core_type_no, core_type_name, bible_core_id_provisional, sort_order, in_bible, in_question_taxonomy, in_universe_nodes, in_arena, cat_questions_in_chapter, match_status, proposed_addition, source_detail, notes, mother_core_type, rc_non, white_book_chapter, cat_pyq_in_core_type, exams, exams_basis) values
@@ -323,10 +326,15 @@ update control_room.change_requests
        verification_notes='143 rows, 93 core types, no orphans, every core type has a core_type_id — asserted inside the transaction.'
  where title = 'Verbal master taxonomy: new table public.verbal_master_taxonomy + 143 rows';
 
+-- Scoped to THIS file's own session row only. An earlier version matched every
+-- active 'claude' session, which would have closed a parallel session's row too.
 update control_room.sessions
    set status='finished', finished_at=now(), last_seen_at=now(),
        notes = coalesce(notes,'') || ' | Done: verbal_master_taxonomy created and loaded.'
- where actor='claude' and status='active';
+ where id = (select id from control_room.sessions
+              where actor='claude' and status='active'
+                and purpose like 'Create public.verbal_master_taxonomy%'
+              order by started_at desc limit 1);
 
 commit;
 
