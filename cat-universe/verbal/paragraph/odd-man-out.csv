@@ -1,0 +1,664 @@
+cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id,context_hash
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,1,,CAT Medium,Medium,,Odd Man Out,History & Culture CAT 2025 Slot 1 Actual Question,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. The Bayeux tapestry was, therefore, an obvious way to tell people about the downfall of the English and the rise of the Normans.
+2. So if we take expert in Anglo-Saxon culture Gale Owen-Crocker’s idea that the tapestry was originally hung in a square with certain scenes facing each other, people would have stood in the centre.
+3. Art historian Linda Neagley has argued that pre-Renaissance people interacted with art visually, kinaesthetically (sensory perception through bodily movement) and physically.
+4. That would make it an 11th-century immersive space with scenes corresponding and echoing each other, drawing the viewer’s attention, playing on their senses and understanding of the story they thought they knew.
+5. The Bayeux tapestry would have been hung at eye level to enable this.",,,,,tita,,1,,,,match,"The coherent paragraph focuses on the physical and sensory experience of viewing the Bayeux Tapestry, specifically how its display facilitated an immersive interaction for the viewer.
+Sentence 3 introduces the core theme: Art historian Linda Neagley’s theory that pre-Renaissance people interacted with art visually, kinaesthetically... and physically. Sentence 5 connects directly to this interaction: The tapestry would have been hung at eye level to enable this (referring to the physical interaction mentioned in 3). Sentence 2 expands on the physical arrangement (hung in a square) and the viewer's position (stood in the centre). Sentence 4 concludes the thought: This arrangement (That) would make it an immersive space that played on the viewer's senses.
+Sentence 1 is the odd one out because it shifts the focus from the method of display/viewer experience to the narrative content and political purpose of the tapestry (telling the story of the English downfall and Norman rise). While related to the tapestry, it does not fit the specific argument about sensory immersion constructed by the other four sentences.",,,False,,https://iimking.com/cause-effect-parajumbles-cat-questions-g-strategy/,0d65d0a3-9537-4211-bc75-e0f399b98738,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,1,,CAT Medium,Medium,,Odd Man Out,Freedom Odd Man Out CAT 2025 Slot 1 G Strategy,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. Developments both technological and sociocultural have afforded us far greater freedom over death than we had in the past, and while we are still adapting ourselves to that freedom, we now appreciate the moral importance of this freedom.
+2. But I believe that a type of freedom we can call freedom over death – that is, a freedom in which we shape the timing and circumstances of how we die – should be central to this conversation.
+3. Legalising assisted dying is but a further step in realising this freedom over death.
+4. Many people endorse, through their opinions or their choices, our freedom over death encompassing a right to medical assistance in hastening our deaths.
+5. Freedom is a notoriously complex and contested philosophical notion, and I won’t pretend to settle any of the big controversies it raises.",,,,,tita,,1,,,,mismatch,"The coherent paragraph constructs a philosophical argument advocating for the legalization of assisted dying based on the concept of freedom over death.
+Sentence 5 introduces the broad context: Freedom is a complex and contested philosophical notion.
+Sentence 2 narrows the focus: Despite this complexity, the author argues that a specific type of freedom, freedom over death (shaping the timing and circumstances of death), should be central to the conversation.
+Sentence 4 connects this concept to the specific issue: It states that many people view this freedom as encompassing a right to medical assistance in hastening our deaths.
+Sentence 3 concludes the argument: Therefore, legalising assisted dying is a logical step in realising this freedom.
+Sentence 1 is the odd one out. While it mentions freedom over death, it focuses on the historical and sociological causes of this freedom (technological and sociocultural developments) and humanity's adaptation to it. This provides background context but breaks the specific argumentative chain (General Philosophy -> Definition -> Specific Application -> Conclusion) formed by the other four sentences.",,,False,,https://iimking.com/odd-man-out-cat-2025-slot-1-verbal-actual-questions/,118597be-1b47-4580-abab-53400bd2e462,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,1,,CAT Medium,Medium,,Odd Man Out,History & Culture CAT 2025 Slot 1 Actual Question,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. The Bayeux tapestry was, therefore, an obvious way to tell people about the downfall of the English and the rise of the Normans.
+2. So if we take expert in Anglo-Saxon culture Gale Owen-Crocker’s idea that the tapestry was originally hung in a square with certain scenes facing each other, people would have stood in the centre.
+3. Art historian Linda Neagley has argued that pre-Renaissance people interacted with art visually, kinaesthetically (sensory perception through bodily movement) and physically.
+4. That would make it an 11th-century immersive space with scenes corresponding and echoing each other, drawing the viewer’s attention, playing on their senses and understanding of the story they thought they knew.
+5. The Bayeux tapestry would have been hung at eye level to enable this.",,,,,tita,,1,,,,match,"The coherent paragraph focuses on the physical and sensory experience of viewing the Bayeux Tapestry, specifically how its display facilitated an immersive interaction for the viewer.
+Sentence 3 introduces the core theme: Art historian Linda Neagley’s theory that pre-Renaissance people interacted with art visually, kinaesthetically... and physically. Sentence 5 connects directly to this interaction: The tapestry would have been hung at eye level to enable this (referring to the physical interaction mentioned in 3). Sentence 2 expands on the physical arrangement (hung in a square) and the viewer's position (stood in the centre). Sentence 4 concludes the thought: This arrangement (That) would make it an immersive space that played on the viewer's senses.
+Sentence 1 is the odd one out because it shifts the focus from the method of display/viewer experience to the narrative content and political purpose of the tapestry (telling the story of the English downfall and Norman rise). While related to the tapestry, it does not fit the specific argument about sensory immersion constructed by the other four sentences.",,,False,,https://iimking.com/odd-man-out-cat-2025-slot-1-verbal-actual-questions/,97f0e3c5-6772-4d35-9774-937dd812c4d7,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,1,,CAT Medium,Medium,,Odd Man Out,,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. Developments both technological and sociocultural have afforded us far greater freedom over death than we had in the past, and while we are still adapting ourselves to that freedom, we now appreciate the moral importance of this freedom.
+2. But I believe that a type of freedom we can call freedom over death – that is, a freedom in which we shape the timing and circumstances of how we die – should be central to this conversation.
+3. Legalising assisted dying is but a further step in realising this freedom over death.
+4. Many people endorse, through their opinions or their choices, our freedom over death encompassing a right to medical assistance in hastening our deaths.
+5. Freedom is a notoriously complex and contested philosophical notion, and I won’t pretend to settle any of the big controversies it raises.",,,,,tita,,1,,,,mismatch,"Rationale:
+The coherent paragraph constructs a philosophical argument advocating for the legalization of assisted dying based on the concept of freedom over death.
+Sentence 5 introduces the broad context: Freedom is a complex and contested philosophical notion.
+Sentence 2 narrows the focus: Despite this complexity, the author argues that a specific type of freedom, freedom over death (shaping the timing and circumstances of death), should be central to the conversation.
+Sentence 4 connects this concept to the specific issue: It states that many people view this freedom as encompassing a right to medical assistance in hastening our deaths.
+Sentence 3 concludes the argument: Therefore, legalising assisted dying is a logical step in realising this freedom.
+Sentence 1 is the odd one out. While it mentions freedom over death, it focuses on the historical and sociological causes of this freedom (technological and sociocultural developments) and humanity's adaptation to it. This provides background context but breaks the specific argumentative chain (General Philosophy -> Definition -> Specific Application -> Conclusion) formed by the other four sentences.",,,False,,https://iimking.com/cat-2025-slot-2-question-paper-pdf-analysis/,1f310ff9-8ae4-4733-a66c-74910b0c88df,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,1,,CAT Medium,Medium,,Odd Man Out,Freedom,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. Developments both technological and sociocultural have afforded us far greater freedom over death than we had in the past, and while we are still adapting ourselves to that freedom, we now appreciate the moral importance of this freedom.
+2. But I believe that a type of freedom we can call freedom over death – that is, a freedom in which we shape the timing and circumstances of how we die – should be central to this conversation.
+3. Legalising assisted dying is but a further step in realising this freedom over death.
+4. Many people endorse, through their opinions or their choices, our freedom over death encompassing a right to medical assistance in hastening our deaths.
+5. Freedom is a notoriously complex and contested philosophical notion, and I won’t pretend to settle any of the big controversies it raises.",,,,,tita,,1,,,,mismatch,"The coherent paragraph constructs a philosophical argument advocating for the legalization of assisted dying based on the concept of freedom over death.
+Sentence 5 introduces the broad context: Freedom is a complex and contested philosophical notion.
+Sentence 2 narrows the focus: Despite this complexity, the author argues that a specific type of freedom, freedom over death (shaping the timing and circumstances of death), should be central to the conversation.
+Sentence 4 connects this concept to the specific issue: It states that many people view this freedom as encompassing a right to medical assistance in hastening our deaths.
+Sentence 3 concludes the argument: Therefore, legalising assisted dying is a logical step in realising this freedom.
+Sentence 1 is the odd one out. While it mentions freedom over death, it focuses on the historical and sociological causes of this freedom (technological and sociocultural developments) and humanity's adaptation to it. This provides background context but breaks the specific argumentative chain (General Philosophy -> Definition -> Specific Application -> Conclusion) formed by the other four sentences.",,,False,,https://iimking.com/full-verbal-cat-2025-slot-2-actual-questions-pdf-with-detailed-solutions/,306e57f4-e037-4940-829e-7f15f9db113b,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,1,,CAT Medium,Medium,,Odd Man Out,Freedom Odd Man Out CAT 2025 Slot 1 G Strategy,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. Developments both technological and sociocultural have afforded us far greater freedom over death than we had in the past, and while we are still adapting ourselves to that freedom, we now appreciate the moral importance of this freedom.
+2. But I believe that a type of freedom we can call freedom over death – that is, a freedom in which we shape the timing and circumstances of how we die – should be central to this conversation.
+3. Legalising assisted dying is but a further step in realising this freedom over death.
+4. Many people endorse, through their opinions or their choices, our freedom over death encompassing a right to medical assistance in hastening our deaths.
+5. Freedom is a notoriously complex and contested philosophical notion, and I won’t pretend to settle any of the big controversies it raises.",,,,,tita,,1,,,,mismatch,"Rationale:
+The coherent paragraph constructs a philosophical argument advocating for the legalization of assisted dying based on the concept of freedom over death.
+Sentence 5 introduces the broad context: Freedom is a complex and contested philosophical notion.
+Sentence 2 narrows the focus: Despite this complexity, the author argues that a specific type of freedom, freedom over death (shaping the timing and circumstances of death), should be central to the conversation.
+Sentence 4 connects this concept to the specific issue: It states that many people view this freedom as encompassing a right to medical assistance in hastening our deaths.
+Sentence 3 concludes the argument: Therefore, legalising assisted dying is a logical step in realising this freedom.
+Sentence 1 is the odd one out. While it mentions freedom over death, it focuses on the historical and sociological causes of this freedom (technological and sociocultural developments) and humanity's adaptation to it. This provides background context but breaks the specific argumentative chain (General Philosophy -> Definition -> Specific Application -> Conclusion) formed by the other four sentences.",,,False,,https://iimking.com/full-verbal-cat-2025-slot-1-actual-questions-pdf-with-detailed-solutions/,6555de57-947e-43cb-8f94-ec818486586e,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,2,,CAT Medium,Medium,,Odd Man Out,Odd Man Out CAT 2025 Slot 2 Verbal Actual Questions,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. Pfas are a class of about 15,000 compounds most frequently used to make products water-, stain- and grease-resistant.
+2. New research suggests exposure to some common perfluoroalkyl and polyfluoroalkyl substances (Pfas) cause changes to gene activity and that these changes are linked to health problems including multiple cancers, neurological disorders and autoimmune disease.
+3. These Pfas compounds are dubbed “forever chemicals” because they do not naturally break down in the environment.
+4. The research may also point toward other diseases potentially caused by Pfas that have not yet been identified.
+5. The findings are a major step toward determining the mechanism by which the chemicals cause disease and could help doctors identify, detect and treat health problems for those exposed to Pfas before the issues advance.",,,,,tita,,3,,,,match,"The coherent paragraph revolves around the topic of new research into the human health effects of PFAS. Sentence 1 defines the substances and their uses, setting the context. 1, 2, 4, 5 can form a tight para about research on health effects of PFAS:
+1 → defines PFAS
+2 → introduces new research linking PFAS to gene-activity changes and diseases
+5 → says findings help understand mechanisms and treatment
+4 → adds that the research may point to other PFAS-caused diseases
+Sentence 3, which discusses the compounds being dubbed ""forever chemicals"" because they do not naturally break down, introduces the environmental persistence of PFAS, which is a different angle and breaks the narrative flow focused on the research, health, and medical mechanism established by the other four sentences.",,,False,,https://iimking.com/odd-man-out-cat-2025-slot-2-verbal-actual-questions/,4f5e7c19-a85b-44d0-9128-e26c563dc19d,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,2,,CAT Medium,Medium,,Odd Man Out,Odd Man Out CAT 2025 Slot 2 Verbal Actual Questions,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. Sporting a copper-coloured pixie cut and a pair of pink feather antlers, Torres himself resembles a child’s doodle.
+2. His casual millennial delivery, peppered with “um”s and “ah”s, makes surreal concepts sound like items on a brunch menu.
+3. Though he may have failed so far in his colour-scouting mission (he hasn’t yet found a new one, he admits), this hour leaves you tickled pink.
+4. Like his previous show, My Favourite Shapes, this is an hour of sit-down comedy aided by an overhead camera which relays Torres’s theories – illustrated with crayon squiggles – on to a screen behind him.
+5. His inquisitive mind produces interconnected ideas about Catholicism, the blandness of Pixar and what orange sounds like, while his insights train us to spot “highly purple behaviour”.",,,,,tita,,3,,,,match,"The coherent paragraph formed by sentences 1, 2, 4, and 5 is focused on describing the appearance, format, style, and content of the comedian Torres's performance. Sentence 1 describes his appearance. Sentence 4 describes the show's format and mechanics (sit-down comedy, overhead camera, theories, crayon squiggles). Sentence 2 describes his delivery style. Sentence 5 details the content and ideas of the show (Catholicism, Pixar, colour theories).
+4: format and overhead camera + crayon squiggles
+1: his look (pixie cut, feather antlers) tying into the doodle/squiggle vibe
+5: his inquisitive mind and topics/themes
+2: his delivery style
+Sentence 3 is the reviewer's subjective conclusion and final summary statement of the performance (""this hour leaves you tickled pink""). It uses terms like ""may have failed"" and ""leaves you"" which mark it as a summarizing judgment, rather than a descriptive detail of the show itself, thus breaking the flow of description provided by the other four sentences.",,,False,,https://iimking.com/odd-man-out-cat-2025-slot-2-verbal-actual-questions/,b18939a5-7c30-45b5-a917-835714edb0c2,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,3,23,CAT Hard,Hard,,Odd Man Out,Oxygen CAT 2025 Slot 3 Odd Man Out,"1. About half of all the oxygen we breathe is made near the surface of the ocean by phytoplankton that photosynthesize just like land-dwelling plants.
+2. A team of scientists that includes Boston University experts has discovered they also produce oxygen on the seafloor.
+3. The research team used deep-sea chambers that land on the seafloor and enclose the seawater, sediment, polymetallic nodules, and living organisms.
+4. The discovery is a surprise considering oxygen is typically created by plants and organisms with help from the sun—not by rocks on the ocean floor.
+5. The deep-sea rocks, called polymetallic nodules, don’t only host a surprising number of sea critters.","Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.",,,,,tita,,3,,,,match,"Rationale: The coherent paragraph focuses on the discovery that polymetallic nodules on the seafloor produce oxygen, an unexpected finding since oxygen is typically generated through photosynthesis involving sunlight. Sentences describing the nodules, the discovery, why it is surprising, and the general process of oxygen production in the ocean form a complete narrative. Sentence 3, which details the specific research method (deep-sea chambers), disrupts the flow by shifting from the conceptual discovery to procedural details, whereas the other sentences together build the main idea without requiring the methodological explanation.
+Why other options are wrong: The remaining sentences (1, 2, 4, 5) all contribute directly to introducing the topic, presenting the discovery, and explaining its significance. Sentence 1 sets up a contrast between normal oxygen production and the surprising new finding, which is essential context.
+Difficulty: Hard
+Alternately even Option: 1 can be Correct.
+Rationale: The coherent paragraph focuses on the discovery of oxygen production by deep-sea polymetallic nodules. Sentences describing the nodules, the discovery, its surprising nature, and the methodology form a complete narrative. Sentence 1, which discusses surface phytoplankton, is tangential to this discovery.
+Why Option 1 is not the answer in CAT key: Sentence 1 provides essential contrast — it establishes the conventional understanding (oxygen from surface phytoplankton) against which the surprising deep-sea discovery is highlighted. Removing it weakens the “surprise” factor emphasized in sentence 4. Therefore, sentence 1 belongs to the conceptual paragraph, while sentence 3 is an explanatory aside about methodology.
+Why 5 can be answer: Some experts might argue that if there were an option 5 explicitly describing strict deontology (rules regardless of outcomes, with no mention of maximizing benefit), it would be the true philosophical opposite of utilitarianism.
+Why CAT key rejected 5 as answer: There is no option 5 in the given question — only options 1 to 4. Even if it existed, the question might define ""opposite"" in practical policy terms, not just pure ethical theory, making prioritarianism (option 1) the safer exam choice.
+Difficulty: Hard","The remaining sentences (1, 2, 4, 5) all contribute directly to introducing the topic, presenting the discovery, and explaining its significance. Sentence 1 sets up a contrast between normal oxygen production and the surprising new finding, which is essential context.",,False,,https://iimking.com/full-cat-2025-verbal-slot-3-actual-questions-pdf-with-detailed-solutions/,09a90ca1-3713-4f79-910b-a2b975900675,c820fcfc8ef181bd
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,3,24,CAT Medium,Moderate,,Odd Man Out,Music CAT 2025 Slot 3 Odd Man Out,"1. The profound emotional impact of music has inspired ongoing research into its relationship with emotions.
+2. Music is a universal phenomenon that utilizes a myriad brain resources.
+3. This inherent connection to musical expression is deeply intertwined with human identity and experience.
+4. The proclivity to create and appreciate music is ubiquitous among humans, permeating daily life across diverse societies.
+5. Engaging with music is among the most cognitively demanding tasks a human can undergo, and it is identified across cultures.","Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.",,,,,tita,,1,,,,match,"Rationale: The paragraph focuses on music’s universality, ubiquity, connection to identity, and cognitive demand. Sentence 1 shifts attention to research about music rather than music’s inherent qualities, breaking thematic coherence.
+Why other options wrong: Sentences 2, 3, 4, and 5 consistently describe intrinsic features of music and fit together as a coherent whole.
+Difficulty: Medium","Sentences 2, 3, 4, and 5 consistently describe intrinsic features of music and fit together as a coherent whole.",,False,,https://iimking.com/full-cat-2025-verbal-slot-3-actual-questions-pdf-with-detailed-solutions/,0eb5f209-2537-410e-9182-827eed59e8ce,9e134797536ca9c3
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,3,,CAT Hard,Hard,,Odd Man Out,Oxygen CAT 2025 Slot 3 Odd Man Out | Hard,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. About half of all the oxygen we breathe is made near the surface of the ocean by phytoplankton that photosynthesize just like land-dwelling plants.
+2. A team of scientists that includes Boston University experts has discovered they also produce oxygen on the seafloor.
+3. The research team used deep-sea chambers that land on the seafloor and enclose the seawater, sediment, polymetallic nodules, and living organisms.
+4. The discovery is a surprise considering oxygen is typically created by plants and organisms with help from the sun—not by rocks on the ocean floor.
+5. The deep-sea rocks, called polymetallic nodules, don’t only host a surprising number of sea critters.",,,,,tita,,3,,,,match,"The coherent paragraph focuses on the discovery that polymetallic nodules on the seafloor produce oxygen, an unexpected finding since oxygen is typically generated through photosynthesis involving sunlight. Sentences describing the nodules, the discovery, why it is surprising, and the general process of oxygen production in the ocean form a complete narrative. Sentence 3, which details the specific research method (deep-sea chambers), disrupts the flow by shifting from the conceptual discovery to procedural details, whereas the other sentences together build the main idea without requiring the methodological explanation.","The remaining sentences (1, 2, 4, 5) all contribute directly to introducing the topic, presenting the discovery, and explaining its significance. Sentence 1 sets up a contrast between normal oxygen production and the surprising new finding, which is essential context.
+Alternately even Option: 1 can be Correct.
+Rationale: The coherent paragraph focuses on the discovery of oxygen production by deep-sea polymetallic nodules. Sentences describing the nodules, the discovery, its surprising nature, and the methodology form a complete narrative. Sentence 1, which discusses surface phytoplankton, is tangential to this discovery. Why Option 1 is not the answer in CAT key: Sentence 1 provides essential contrast — it establishes the conventional understanding (oxygen from surface phytoplankton) against which the surprising deep-sea discovery is highlighted. Removing it weakens the “surprise” factor emphasized in sentence 4. Therefore, sentence 1 belongs to the conceptual paragraph, while sentence 3 is an explanatory aside about methodology.
+Why 5 can be answer: Some experts might argue that if there were an option 5 explicitly describing strict deontology (rules regardless of outcomes, with no mention of maximizing benefit), it would be the true philosophical opposite of utilitarianism.
+Why CAT key rejected 5 as answer: There is no option 5 in the given question — only options 1 to 4. Even if it existed, the question might define ""opposite"" in practical policy terms, not just pure ethical theory, making prioritarianism (option 1) the safer exam choice.",,False,,https://iimking.com/cat-2025-slot-3-odd-man-out-questions-with-answers/,db5b3c0c-b8be-426f-8158-7151fec251c0,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,3,,CAT Medium,Medium,,Odd Man Out,Music CAT 2025 Slot 3 Odd Man Out | Moderate,,"Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.
+1. The profound emotional impact of music has inspired ongoing research into its relationship with emotions.
+2. Music is a universal phenomenon that utilizes a myriad brain resources.
+3. This inherent connection to musical expression is deeply intertwined with human identity and experience.
+4. The proclivity to create and appreciate music is ubiquitous among humans, permeating daily life across diverse societies.
+5. Engaging with music is among the most cognitively demanding tasks a human can undergo, and it is identified across cultures.",,,,,tita,,1,,,,match,"The paragraph focuses on music’s universality, ubiquity, connection to identity, and cognitive demand. Sentence 1 shifts attention to research about music rather than music’s inherent qualities, breaking thematic coherence.","Sentences 2, 3, 4, and 5 consistently describe intrinsic features of music and fit together as a coherent whole.",,False,,https://iimking.com/cat-2025-slot-3-odd-man-out-questions-with-answers/,019a338b-36cc-4092-89d5-0fadd82f0642,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,,,CAT Medium,Moderate,,Odd Man Out,CAT 2025 Odd Man Out,"1. The Bayeux tapestry was, therefore, an obvious way to tell people about the downfall of the English and the rise of the Normans.
+2. So if we take expert in Anglo-Saxon culture Gale Owen-Crocker's idea that the tapestry was originally hung in a square with certain scenes facing each other, people would have stood in the centre.
+3. Art historian Linda Neagley has argued that pre-Renaissance people interacted with art visually, kinaesthetically (sensory perception through bodily movement) and physically.
+4. That would make it an 11th-century immersive space with scenes corresponding and echoing each other, drawing the viewer's attention, playing on their senses and understanding of the story they thought they knew.
+5. The Bayeux tapestry would have been hung at eye level to enable this.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,A,Sentence 1,,,extra_options: E: Sentence 5,not_found,"Rationale: Sentences 3, 2, 5, and 4 form a coherent paragraph detailing how pre-Renaissance people interacted with art kinaesthetically and how the Bayeux tapestry fits this immersive framework by being hung at eye level in a square formation.","Sentence 1 shifts to a summary conclusion about the tapestry telling the story of the English downfall and Norman rise, which disrupts the structural and physical art-history flow.",CRAFT,False,,https://iimking.com/odd/,814736a0-84a5-4ae4-a989-9838c8fbc80e,8267589f4c9dfbfe
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,,,CAT Medium,Moderate,,Odd Man Out,CAT 2025 Odd Man Out,"1. Developments both technological and sociocultural have afforded us far greater freedom over death than we had in the past, and while we are still adapting ourselves to that freedom, we now appreciate the moral importance of this freedom.
+2. But I believe that a type of freedom we can call freedom over death – that is, a freedom in which we shape the timing and circumstances of how we die – should be central to this conversation.
+3. Legalising assisted dying is but a further step in realising this freedom over death.
+4. Many people endorse, through their opinions or their choices, our freedom over death encompassing a right to medical assistance in hastening our deaths.
+5. Freedom is a notoriously complex and contested philosophical notion, and I won't pretend to settle any of the big controversies it raises.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,E,Sentence 5,,,extra_options: E: Sentence 5,not_found,"Rationale: Sentences 1, 2, 3, and 4 cohere tightly around the theme of freedom over death, societal adaptations, shaping the timing of death, and legalizing assisted dying.","Sentence 5 introduces a broad, abstract meta-commentary on the definition of freedom as a contested philosophical notion, breaking the paragraph's targeted focus.",CRAFT,False,,https://iimking.com/odd/,e0ee3186-8af1-4ddc-94bd-4e508b132b3e,749123af6ddf1258
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,,,CAT Medium,Moderate,,Odd Man Out,CAT 2025 Odd Man Out,"1. Neuroscientists have just begun studying exercise's impact within brain cells — on the genes themselves.
+2. Even there, in the roots of our biology, they've found signs of the body's influence on the mind.
+3. It turns out that moving our muscles produces proteins that travel through the bloodstream and into the brain, where they play pivotal roles in the mechanisms of our highest thought processes.
+4. In today's technology-driven, plasma-screened-in world, it's easy to forget that we are born movers — animals, in fact — because we've engineered movement right out of our lives.
+5. It's only in the past few years that neuroscientists have begun to describe these factors and how they work, and each new discovery adds awe-inspiring depth to the picture.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,D,Sentence 4,,,extra_options: E: Sentence 5,not_found,"Rationale: Sentences 1, 2, 3, and 5 discuss cellular and genetic impacts of exercise on the brain, muscle-produced proteins, and recent neuroscientific discoveries.","Sentence 4 shifts abruptly into a cultural critique about technology-driven lifestyles and modern sedentary habits, making it contextually distinct.",CRAFT,False,,https://iimking.com/odd/,cfdbadad-4bdb-414d-bde1-10c64a12f406,036daf717721e5b5
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,,,CAT Medium,Moderate,,Odd Man Out,CAT 2025 Odd Man Out,"1. The water that made up ancient lakes and perhaps an ocean was lost.
+2. Particles from the Sun collided with molecules in the atmosphere, knocking them into space or giving them an electric charge that caused them to be swept away by the solar wind.
+3. Most of the planet's remaining water is now frozen or buried, but clues over the past decade suggested that some liquid water, a presumed necessity for life, might survive in underground aquifers.
+4. Data from NASA's MAVEN orbiter show that solar storms stripped away most of Mars's once-thick atmosphere.
+5. A recent study reveals how Mars lost much of its early water, while another indicates that some liquid water remains.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,C,Sentence 3,,,extra_options: E: Sentence 5,not_found,"Rationale: Sentences 5, 2, 4, and 1 construct a unified explanation of how Mars lost its early water and atmosphere due to solar storms and particles from the Sun.","Sentence 3 focuses on remaining water, frozen deposits, and underground aquifers, which diverges from the atmospheric loss and scientific studies of planetary depletion.",CRAFT,False,,https://iimking.com/odd/,ee2495bd-21af-4567-88c9-be5e3dee3c1c,84140e4c686120e3
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,,,CAT Medium,Moderate,,Odd Man Out,CAT 2025 Odd Man Out,"1. In English, there is no systematic rule for the naming of numbers; after ten, we have ""eleven"" and ""twelve"" and then the teens: ""thirteen"", ""fourteen"", ""fifteen"" and so on.
+2. Even more confusingly, some English words invert the numbers they refer to: the word ""fourteen"" puts the four first, even though it appears last.
+3. It can take children a while to learn all these words, and understand that ""fourteen"" is different from ""forty"".
+4. For multiples of 10, English speakers switch to a different pattern: ""twenty"", ""thirty"", ""forty"" and so on.
+5. If you didn't know the word for ""eleven"", you would be unable to just guess it; you might come up with something like ""one-teen"".",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,E,Sentence 5,,,extra_options: E: Sentence 5,not_found,"Rationale: Sentences 1, 2, 4, and 3 address the lack of systematic rules, inverted numbers in teens, pattern shifts for multiples of 10, and children learning these numerical labels.","Sentence 5 discusses hypothetical guessing of unknown words like ""one-teen"", which breaks the descriptive flow of English number nomenclature.",CRAFT,False,,https://iimking.com/odd/,8f364424-11b8-46d6-838f-21f1bb3b9cb2,31a3ae204b945f75
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2025,,,CAT Medium,Moderate,,Odd Man Out,CAT 2025 Odd Man Out,"1. About half of all the oxygen we breathe is made near the surface of the ocean by tiny organisms called phytoplankton.
+2. Despite their microscopic scale, these organisms support complex marine food webs and drive global biochemical cycles.
+3. Industrial pollutants entering coastal waterways have severely impacted fish populations across multiple continents.
+4. Phytoplankton capture carbon dioxide during photosynthesis, acting as a crucial natural buffer against rising global temperatures.
+5. Changes in ocean temperature and acidity can rapidly disrupt phytoplankton growth, threatening marine ecosystems worldwide.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,C,Sentence 3,,,extra_options: E: Sentence 5,not_found,"Rationale: Sentences 1, 2, 4, and 5 center on phytoplankton, oceanic oxygen production, carbon capture, food webs, and climate vulnerability.","Sentence 3 targets industrial pollution affecting coastal fish populations, which is outside the specific ecological focus on phytoplankton.",CRAFT,False,,https://iimking.com/odd/,35b3e727-87f4-4eb1-b67a-eaa3f3580990,0bae282cc805331c
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,1,,,,,Odd Man Out,,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+
+1. Animals have an interest in fulfilling their basic needs, but also in avoiding suffering, and thus we ought to extend moral consideration.
+2. Singer viewed himself as a utilitarian, and presents a direct moral theory concerning animal rights, in contrast to indirect positions, such as welfarist views.
+3. He argued for extending moral consideration to animals because, similar to humans, animals have certain significant interests.
+4. The event that publicly announced animal rights as a legitimate issue within contemporary philosophy was Peter Singer's Animal Liberation text in 1975.
+5. As such, we ought to view their interests alongside and equal to human interests, which results in humans having direct moral duties towards animals.",,,,,tita,,1,,,,match,"To identify the odd sentence, let’s first understand the logical flow and connections among the sentences.
+Step-by-step breakdown:
+Sentence 4:
+""The event that publicly announced animal rights as a legitimate issue within contemporary philosophy was Peter Singer's Animal Liberation text in 1975.""
+➡ This introduces Peter Singer and his role in the animal rights movement — a good starting point.
+Sentence 2:
+""Singer viewed himself as a utilitarian, and presents a direct moral theory concerning animal rights, in contrast to indirect positions, such as welfarist views.""
+➡ This follows naturally from Sentence 4. It continues the introduction of Singer’s philosophy.
+Sentence 3:
+""He argued for extending moral consideration to animals because, similar to humans, animals have certain significant interests.""
+➡ Expands on Singer’s argument – flows well after Sentence 2.
+Sentence 5:
+""As such, we ought to view their interests alongside and equal to human interests, which results in humans having direct moral duties towards animals.""
+➡ Logical continuation of the moral consequence of Sentence 3.
+These four together — 4 → 2 → 3 → 5 — form a coherent paragraph about Singer’s contribution and ideas regarding animal rights.
+Sentence 1:
+""Animals have an interest in fulfilling their basic needs, but also in avoiding suffering, and thus we ought to extend moral consideration.""
+➡ Although it's about animals and moral consideration, it seems more general, not specifically tied to Singer’s work or logical development in the paragraph above. It doesn’t mention Singer or build on the progression from Sentence 4 onward.",,Lone Wolf,False,,https://iimking.com/cat-2024-lone-wolf-g-strategy-odd-man-out-with-answers-explanation/,27a48e1c-0040-41c4-ac0b-b1c084dc6042,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,1,,,,,Odd Man Out,Odd man out Slot 1 CAT 2024,,"Five jumbled up sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. Urbanites also have more and better options for getting around: Uber is ubiquitous; easy-to-rent dockless bicycles are spreading; battery-powered scooters will be next.
+2. When more people use buses or trains the service usually improves because public-transport agencies run more buses and trains.
+3. Worsening services on public transport, terrorist attacks in some urban metros and a rise in fares have been blamed for this trend.
+4. It seems more likely that public transport is being squeezed structurally as people’s need to travel is diminishing as a result of smartphones, video-conferencing, online shopping and so on.
+5. There has been a puzzling decline in the use of urban public transport in many countries in the west, despite the growth in urban populations and rising employment.",Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,B,Sentence 2,,,extra_options: E: Sentence 5,match,"The topic focuses on the decline in urban public transport usage, examining reasons and trends.
+Sentence 1:
+Discusses alternative modes of transportation like Uber, bicycles, and scooters, which compete with public transport. Relevant to the discussion.
+Sentence 2:
+Talks about the benefits of increased public transport usage. However, it contradicts the paragraph’s focus on declining usage.
+Sentence 3:
+Lists reasons for the decline, such as worsening services and rising fares. Directly addresses the topic.
+Sentence 4:
+Suggests structural reasons for the decline, like reduced travel needs due to technology. Fits well.
+Sentence 5:
+Introduces the puzzling trend of declining usage despite urban growth. Serves as the context-setting sentence.
+Conclusion:
+Sentence 2 is the odd one out because it focuses on the benefits of increased usage, which doesn’t align with the theme of declining public transport usage.",,,False,,https://iimking.com/odd-man-out-slot-1-cat-2024/,285cc39b-41df-42cd-9ad4-e5e24c6c674c,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,1,,,,,Odd Man Out,Nonhomogeneous G Strategy | Slot 1 CAT 2024 Question with Answer and Explanation,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. Urbanites also have more and better options for getting around: Uber is ubiquitous; easy-to-rent dockless bicycles are spreading; battery-powered scooters will be next.
+2. When more people use buses or trains the service usually improves because public-transport agencies run more buses and trains.
+3. Worsening services on public transport, terrorist attacks in some urban metros and a rise in fares have been blamed for this trend.
+4. It seems more likely that public transport is being squeezed structurally as people’s need to travel is diminishing as a result of smartphones, videoconferencing, online shopping and so on.
+5. There has been a puzzling decline in the use of urban public transport in many countries in the west, despite the growth in urban populations and rising employment.",,,,,tita,,2,,,,match,"Let's analyze each sentence and try to find the logical flow for a coherent paragraph. We're looking for one odd sentence that doesn't logically fit with the others.
+Sentence 5:
+There has been a puzzling decline in the use of urban public transport in many countries in the west, despite the growth in urban populations and rising employment.
+Introductory sentence — presents the main idea/problem. Likely the starting point of the paragraph.
+Sentence 3:
+Worsening services on public transport, terrorist attacks in some urban metros and a rise in fares have been blamed for this trend.
+ This supports and explains the decline mentioned in Sentence 5 — plausible reason 1.
+Sentence 4:
+It seems more likely that public transport is being squeezed structurally as people’s need to travel is diminishing as a result of smartphones, videoconferencing, online shopping and so on.
+ Provides an alternative explanation — plausible reason 2 for the same trend in Sentence 5.
+Sentence 2:
+When more people use buses or trains the service usually improves because public-transport agencies run more buses and trains.
+ This seems counter to the trend — it's a general statement about how usage leads to better service, rather than fitting into the discussion of why usage is declining. Feels slightly off, but let’s see Sentence 1 first.
+Sentence 1:
+Urbanites also have more and better options for getting around: Uber is ubiquitous; easy-to-rent dockless bicycles are spreading; battery-powered scooters will be next.
+This offers a third explanation for the decline in public transport — alternative transport options.
+So, the logical flow becomes:
+5 → 3 → 4 → 1
+(Presenting the problem, then three possible causes.)
+Sentence 2 is the odd one out.
+While it's related to public transport, it doesn't explain or connect clearly with the trend of declining usage — instead, it talks about what happens when usage increases, which contradicts the main theme.
+ Final Answer: 2",,Nonhomogeneous G Strategy,False,,https://iimking.com/odd-man-out-g-strategy-cat-2024-slot-2-paper-with-answers-explanation/,f43d72a0-4781-4302-8b2a-e7c6f51dfd12,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,1,,,,,Odd Man Out,Odd man out Slot 1 CAT 2024,,"Five jumbled up sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. Animals have an interest in fulfilling their basic needs, but also in avoiding suffering, and thus we ought to extend moral consideration.
+2. Singer viewed himself as a utilitarian, and presents a direct moral theory concerning animal rights, in contrast to indirect positions, such as welfarist views.
+3. He argued for extending moral consideration to animals because, similar to humans, animals have certain significant interests.
+4. The event that publicly announced animal rights as a legitimate issue within contemporary philosophy was Peter Singer’s *Animal Liberation* text in 1975.
+5. As such, we ought to view their interests alongside and equal to human interests, which results in humans having direct moral duties towards animals.",Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,A,Sentence 1,,,extra_options: E: Sentence 5,match,"The topic focuses on Peter Singer’s contributions and arguments concerning animal rights.
+Sentence 1:
+Generalizes the moral consideration animals deserve but doesn’t explicitly connect to Singer’s utilitarian framework or *Animal Liberation*. It is the odd one out.
+Sentence 2:
+Introduces Singer’s utilitarian stance and contrasts it with other positions. Relevant to the paragraph.
+Sentence 3:
+Explains Singer’s argument for extending moral consideration to animals. Fits well.
+Sentence 4:
+Highlights the historical importance of Singer’s *Animal Liberation* (1975). Provides essential context.
+Sentence 5:
+Expands on the idea of humans having moral duties toward animals, building on Singer’s arguments.
+Conclusion:
+Sentence 1 is the odd one out because it doesn’t directly connect to Singer’s contributions or the specific discussion of animal rights.",,,False,,https://iimking.com/odd-man-out-slot-1-cat-2024/,58c05f15-e26b-4c3d-8bb7-6f6d8e746e81,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,1,,CAT Medium,Moderate,,Odd Man Out,CAT 2024 Odd Man Out - Animal Rights,"1. Animals have an interest in fulfilling their basic needs, but also in avoiding suffering, and thus we ought to extend moral consideration.
+2. Singer viewed himself as a utilitarian, and presents a direct moral theory concerning animal rights, in contrast to indirect positions, such as welfarist views.
+3. He argued for extending moral consideration to animals because, similar to humans, animals have certain significant interests.
+4. The event that publicly announced animal rights as a legitimate issue within contemporary philosophy was Peter Singer's Animal Liberation text in 1975.
+5. As such, we ought to view their interests alongside and equal to human interests, which results in humans having direct moral duties towards animals.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,D,Sentence 4,,,extra_options: E: Sentence 5,not_found,"Detailed Explanation:
+
+Sentence 2 introduces Peter Singer and his utilitarian framework.
+
+Sentence 3 builds on Singer’s core argument—why animals deserve moral consideration.
+
+Sentence 1 elaborates on those interests (avoid suffering).
+
+Sentence 5 concludes the logical chain: humans have direct moral duties to animals.
+
+Sentence 4, though relevant factually, is biographical and historical, not argumentative. It introduces a timeline event, not a philosophical point. It breaks the reasoning chain.
+
+Coherent paragraph: 2-3-1-5",,CRAFT,False,,https://iimking.com/odd/,c4d5d416-efb1-4b8a-b337-150848ee4db8,6ce67bc93951227e
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,1,,CAT Medium,Moderate,,Odd Man Out,CAT 2024 Odd Man Out - Urban Public Transport,"1. Urbanites also have more and better options for getting around: Uber is ubiquitous; easy-to-rent dockless bicycles are spreading; battery-powered scooters will be next.
+2. When more people use buses or trains the service usually improves because public-transport agencies run more buses and trains.
+3. Worsening services on public transport, terrorist attacks in some urban metros and a rise in fares have been blamed for this trend.
+4. It seems more likely that public transport is being squeezed structurally as people’s need to travel is diminishing as a result of smartphones, videoconferencing, online shopping and so on.
+5. There has been a puzzling decline in the use of urban public transport in many countries in the west, despite the growth in urban populations and rising employment.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,A,Sentence 1,,,extra_options: E: Sentence 5,not_found,"Detailed Explanation:
+
+Sentence 5 introduces the puzzle (decline despite urban growth).
+
+Sentence 3 presents blamed factors (terror, fares).
+
+Sentence 4 gives a deeper structural explanation (tech changes).
+
+Sentence 2 discusses the positive feedback loop of usage and service.
+
+Sentence 1 is out of place—it mentions alternate transport options, not directly part of explaining the decline in public transport structurally as discussed in the main narrative.
+
+Coherent paragraph: 5-3-4-2",,CRAFT,False,,https://iimking.com/odd/,21dfa914-ff30-4b3b-b6d0-0665bd38fbf3,c66282a17ce93c5b
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,2,,,,,Odd Man Out,Odd man out Slot 2 CAT 2024,,"Five jumbled up sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. The UK is a world leader in developing cultivated meat and the approval of a cultivated pet food is an important milestone.
+2. If we’re to realise the full potential benefits of cultivated meat the government must invest in research and infrastructure.
+3. The first UK applications for cultivated meat produced for humans remain under assessment with the Food Standards Agency.
+4. The previous UK government had been looking at fast-tracking the approval of cultivated meat for human consumption.
+5. It underscores the potential for new innovation to help reduce the negative impacts of intensive animal agriculture.",Sentence 1,Sentence 4,Sentence 5,Sentence 2,mcq,C,Sentence 5,,,,mismatch,"To identify the odd sentence, we must determine which sentence does not fit logically with the others.
+Sentence 1:
+Discusses the UK's leadership in cultivated meat and mentions a milestone. Fits the topic of cultivated meat and its progress.
+Sentence 2:
+Highlights the need for government investment to realize the full benefits of cultivated meat. Relevant to the broader discussion of cultivated meat advancements.
+Sentence 3:
+Talks about the UK Food Standards Agency assessing applications for human-consumable cultivated meat. Directly related to regulatory progress in cultivated meat.
+Sentence 4:
+Mentions previous efforts by the UK government to fast-track approvals for cultivated meat. Related to the approval and regulatory process.
+Sentence 5:
+Talks broadly about innovation reducing the negative impacts of animal agriculture. While related to food systems, it doesn’t specifically tie to the regulatory progress of cultivated meat in the UK.
+Conclusion:
+Sentence 5 is the odd one out because it is broader and doesn’t directly contribute to the theme of cultivated meat advancements and approvals.",,,False,,https://iimking.com/odd-man-out-slot-2-cat-2024/,11c0b2a4-6075-4fda-a0c8-e944b73b7106,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,2,,,,,Odd Man Out,,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+
+1. No known real researcher of human behaviour would say that gender is all nature or all nurture.
+2. The evidence for a biological basis for gender certainly doesn’t mean we should be complacent in the face of sexism.
+3. Many people are uncomfortable with the idea that gender is not purely a social construct.
+4. Despite this empirical truth, researchers who study the biological basis of gender often face political pushback.
+5. There’s a political preference for gender to be only a reflection of social factors and so entirely malleable.",,,,,tita,,2,,,,match,"Sentence 3:
+""Many people are uncomfortable with the idea that gender is not purely a social construct.""
+– Introduces the central issue: discomfort with the idea of gender having biological roots.
+Sentence 5:
+""There’s a political preference for gender to be only a reflection of social factors and so entirely malleable.""
+– Explains the discomfort introduced in Sentence 3 – connects politics and ideology with perceptions of gender.
+Sentence 4:
+""Despite this empirical truth, researchers who study the biological basis of gender often face political pushback.""
+– Continues the thread by describing consequences: researchers face resistance because of political narratives (as introduced in 5).
+Sentence 1:
+""No known real researcher of human behaviour would say that gender is all nature or all nurture.""
+– Adds scientific balance to the discussion: researchers acknowledge complexity, not extremism.
+So the coherent paragraph could go like this:
+3 → 5 → 4 → 1
+People are uncomfortable with non-social explanations of gender.
+
+
+This is driven by political preference for gender as socially constructed.
+
+
+Researchers face political pushback when exploring biology.
+
+
+But real researchers don’t claim it’s all nature or all nurture – they seek balance.
+This flow is logical, builds upon the previous idea in each step, and maintains one consistent theme: the tension between social and biological explanations of gender in scientific and political discourse.
+Now let’s look at Sentence 2:
+""The evidence for a biological basis for gender certainly doesn’t mean we should be complacent in the face of sexism.""
+This sentence:
+Changes the focus of the discussion.
+
+
+It shifts to ethical behavior and sexism, which is a different theme from the rest.
+
+
+It introduces a normative statement (“we should not be complacent”) unlike the analytical tone of the others.
+So even though it’s related to gender, it diverts the paragraph away from the main thread (the political resistance to acknowledging biological influences) into the implications of biological arguments for social justice, which none of the other sentences address directly.",,Lone Wolf,False,,https://iimking.com/cat-2024-lone-wolf-g-strategy-odd-man-out-with-answers-explanation/,07eae139-e1c7-421f-a0be-f638471be056,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,2,,,,,Odd Man Out,Nonhomogeneous G Strategy | Slot 2 CAT 2024 Question with Answer and Explanation,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. The UK is a world leader in developing cultivated meat and the approval of a cultivated pet food is an important milestone.
+2. If we’re to realise the full potential benefits of cultivated meat the government must invest in research and infrastructure.
+3. The first UK applications for cultivated meat produced for humans remain under assessment with the Food Standards Agency.
+4. The previous UK government had been looking at fast-tracking the approval of cultivated meat for human consumption.
+5. It underscores the potential for new innovation to help reduce the negative impacts of intensive animal agriculture.",,,,,tita,,5,,,,mismatch,"Understood. Here's the clean response without emojis or icons:
+Let's evaluate each sentence:
+Sentence 1
+""The UK is a world leader in developing cultivated meat and the approval of a cultivated pet food is an important milestone.""
+– Introduces the UK's leadership and a recent milestone related to cultivated pet food.
+Sentence 3
+""The first UK applications for cultivated meat produced for humans remain under assessment with the Food Standards Agency.""
+– Follows logically from Sentence 1, moving from pet food to human food.
+Sentence 4
+""The previous UK government had been looking at fast-tracking the approval of cultivated meat for human consumption.""
+– Adds background on government efforts related to Sentence 3.
+Sentence 2
+""If we’re to realise the full potential benefits of cultivated meat the government must invest in research and infrastructure.""
+– Provides a recommendation or next step based on the status of cultivated meat in the UK.
+Sentence 5
+""It underscores the potential for new innovation to help reduce the negative impacts of intensive animal agriculture.""
+– This is a general comment about innovation and agriculture. It does not directly connect to the UK context or the regulatory and policy discussion established by the other four sentences.
+The coherent paragraph would be:
+1 → 3 → 4 → 2
+Answer: 5
+(Sentence 5 is the odd one out.)",,Nonhomogeneous G Strategy,False,,https://iimking.com/odd-man-out-g-strategy-cat-2024-slot-2-paper-with-answers-explanation/,a5887f92-ecfc-4a6d-ae98-1981c137a684,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,2,,,,,Odd Man Out,Odd man out Slot 2 CAT 2024,,"Five jumbled up sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. No known real researcher of human behaviour would say that gender is all nature or all nurture.
+2. The evidence for a biological basis for gender certainly doesn’t mean we should be complacent in the face of sexism.
+3. Many people are uncomfortable with the idea that gender is not purely a social construct.
+4. Despite this empirical truth, researchers who study the biological basis of gender often face political pushback.
+5. There’s a political preference for gender to be only a reflection of social factors and so entirely malleable.",Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,B,Sentence 2,,,extra_options: E: Sentence 5,match,"To identify the odd sentence, we must determine which sentence does not align with the others’ focus on the nature vs. nurture debate and political challenges surrounding gender research.
+Sentence 1:
+States that no researcher claims gender is entirely nature or nurture. Relevant to the discussion of gender as a balance between biological and social factors.
+Sentence 3:
+Highlights societal discomfort with the idea of gender not being purely social. Aligns with the theme of societal and political challenges.
+Sentence 4:
+Mentions political pushback faced by researchers studying the biological basis of gender. Related to the broader societal implications of the nature vs. nurture debate.
+Sentence 5:
+Discusses a political preference for gender being entirely social. Connects to the broader discussion of political and societal views on gender.
+Sentence 2:
+Shifts the focus to sexism, which is a tangential issue. The other sentences center on the debate over gender’s biological and social basis.
+Conclusion:
+Sentence 2 is the odd one out because it introduces a new topic (sexism) rather than aligning with the main theme of nature vs. nurture in gender discussions.",,,False,,https://iimking.com/odd-man-out-slot-2-cat-2024/,f2cac0d5-fe8c-42c6-af1e-2a0e7ea562e9,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,2,,CAT Hard,Hard,,Odd Man Out,CAT 2024 Odd Man Out - Gender Debate,"1. No known real researcher of human behaviour would say that gender is all nature or all nurture.
+2. The evidence for a biological basis for gender certainly doesn’t mean we should be complacent in the face of sexism.
+3. Many people are uncomfortable with the idea that gender is not purely a social construct.
+4. Despite this empirical truth, researchers who study the biological basis of gender often face political pushback.
+5. There’s a political preference for gender to be only a reflection of social factors and so entirely malleable.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,B,Sentence 2,,,extra_options: E: Sentence 5,not_found,"Detailed Explanation:
+
+Sentence 1 sets a balanced view: neither nature nor nurture dominates.
+
+Sentence 3 introduces people’s discomfort with a non-social explanation.
+
+Sentence 5 presents the ideological preference for social-only views.
+
+Sentence 4 shows that researchers face backlash.
+
+Sentence 2, although well-meaning, is normative advice (""we shouldn’t be complacent""), unlike the rest which describe social and political reactions. It breaks the tone and logical flow.
+
+Coherent paragraph: 1-3-5-4",,CRAFT,False,,https://iimking.com/odd/,9fe262e9-7025-499a-b358-2c9748207949,50725f9c5d3ae989
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,2,,CAT Medium,Moderate,,Odd Man Out,CAT 2024 Odd Man Out - Cultivated Meat in UK,"1. The UK is a world leader in developing cultivated meat and the approval of a cultivated pet food is an important milestone.
+2. If we’re to realise the full potential benefits of cultivated meat the government must invest in research and infrastructure.
+3. The first UK applications for cultivated meat produced for humans remain under assessment with the Food Standards Agency.
+4. The previous UK government had been looking at fast-tracking the approval of cultivated meat for human consumption.
+5. It underscores the potential for new innovation to help reduce the negative impacts of intensive animal agriculture.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,B,Sentence 2,,,extra_options: E: Sentence 5,not_found,"Detailed Explanation:
+
+Sentence 1 sets the status: pet food approved.
+
+Sentence 3 and 4 show where human food approval stands.
+
+Sentence 5 connects innovation to sustainability benefit.
+
+Sentence 2 is a policy prescription, not factual or status-based. The rest are descriptive or informative, not prescriptive.
+
+Coherent paragraph: 1-3-4-5",,CRAFT,False,,https://iimking.com/odd/,ad1eb8c3-888d-4a47-8dde-4aa9d0629d88,6103219e99e02960
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,3,1,,,,Odd Man Out,Odd man out Slot 3 CAT 2024,,"Five jumbled up sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. Part of the appeal of forecasting is not just that it seems to work, but that you don’t seem to need specialized expertise to succeed at it.
+2. The tight connection between forecasting and building a model of the world helps explain why so much of the early interest in the idea came from the intelligence community.
+3. This was true even though the latter had access to classified intelligence.
+4. One frequently cited study found that accurate forecasters’ predictions of geopolitical events, when aggregated using standard scientific methods, were more accurate than the forecasts of members of the US intelligence community who answered the same questions in a confidential prediction market.
+5. The aggregated opinions of non-experts doing forecasting have proven to be a better guide to the future than the aggregated opinions of experts.",Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,B,Sentence 2,,,extra_options: E: Sentence 5,match,"The topic revolves around forecasting, particularly its effectiveness, accessibility, and comparison between experts and non-experts.
+Sentence 1:
+Highlights the appeal of forecasting and how it does not require specialized expertise to succeed. Relevant to the discussion on forecasting’s accessibility.
+Sentence 2:
+Discusses the connection between forecasting and modeling the world, with early interest coming from the intelligence community. While interesting, it shifts the focus to historical context, which is tangential to the discussion.
+Sentence 3:
+Elaborates on Sentence 2, providing an additional detail about the intelligence community. Supports the broader theme.
+Sentence 4:
+References a study comparing forecasters and intelligence experts, showing that aggregated forecasts can outperform expert predictions. Provides evidence supporting the main argument.
+Sentence 5:
+States that aggregated non-expert opinions in forecasting outperform expert opinions. Directly aligns with Sentence 4.
+Conclusion:
+Sentence 2 is the odd one out because it focuses on the intelligence community’s interest in forecasting, which is tangential to the paragraph's primary focus on forecasting’s effectiveness and accessibility.",,,False,,https://iimking.com/odd-man-out-slot-3-cat-2024/,75b12488-2924-48d0-92e3-6cfb26d91f67,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,3,2,,,,Odd Man Out,Odd man out Slot 3 CAT 2024,,"Five jumbled up sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. To create a synapse, the neuron has specialized structures, often seen as tiny swellings, at its terminal end of the axon where it stores the chemicals that are emitted to transmit a signal to the next neuron.
+2. This fetal warm-up act—the soldering of neural connections before the eyes actually function—is crucial to the performance of the visual system.
+3. The reasons for this paring back of synapses is a mystery, but synaptic pruning is thought to sharpen and reinforce the “correct” synapses, while removing the weak and unnecessary ones.
+4. Neural connections between the eyes and the brain are formed long before birth, establishing the wiring and the circuitry that allow a child to begin visualizing the world the minute she emerges from the womb.
+5. During this rehearsal period, synapses—points of chemical connection—between nerve cells are generated in great excess, only to be pruned back during later development.",Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,A,Sentence 1,,,extra_options: E: Sentence 5,match,"The topic revolves around the formation, development, and pruning of neural connections, especially in relation to visual development before birth.
+Sentence 1:
+Describes how neurons create synapses using specialized structures. However, it focuses on the structure of synapses rather than their role in visual development or pruning.
+Sentence 2:
+Discusses the importance of neural connections being formed before birth as a “warm-up” for the visual system. Directly relevant to the discussion.
+Sentence 3:
+Explains synaptic pruning, which sharpens necessary synapses while removing unnecessary ones. Fits well.
+Sentence 4:
+States that neural connections between the eyes and brain are formed before birth, enabling vision immediately after birth. Aligns with the topic.
+Sentence 5:
+Mentions the generation of synapses in excess and their subsequent pruning during later development. Directly tied to the process of neural development and pruning.
+Conclusion:
+Sentence 1 is the odd one out because it focuses on the structure of synapses rather than their role in visual system development or pruning.",,,False,,https://iimking.com/odd-man-out-slot-3-cat-2024/,5e818f57-ac6c-4cc8-b535-571b1678bf38,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,3,,,,,Odd Man Out,Nonhomogeneous G Strategy | Slot 3 CAT 2024 Question with Answer and Explanation,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. To create a synapse, the neuron has specialized structures, often seen as tiny swellings, at its terminal end of the axon where it stores the chemicals that are emitted to transmit a signal to the next neuron.
+2. This fetal warm-up act-the soldering of neural connections before the eyes actually function-is crucial to the performance of the visual system.
+3. The reasons for this paring back of synapses is a mystery, but synaptic pruning is thought to sharpen and reinforce the ""correct"" synapses, while removing the weak and unnecessary ones.
+4. Neural connections between the eyes and the brain are formed long before birth, establishing the wiring and the circuitry that allow a child to begin visualizing the world the minute she emerges from the womb.
+5. During this rehearsal period, synapses-points of chemical connection-between nerve cells are generated in great excess, only to be pruned back during later development.",,,,,tita,,1,,,,match,"Let’s analyze the logical structure of the sentences to find the odd one out.
+Sentence 4
+Neural connections between the eyes and the brain are formed long before birth, establishing the wiring and the circuitry that allow a child to begin visualizing the world the minute she emerges from the womb.
+– Likely the opening sentence, introducing the idea of early neural development, especially visual connections before birth.
+Sentence 2
+This fetal warm-up act—the soldering of neural connections before the eyes actually function—is crucial to the performance of the visual system.
+– Refers back to the process described in Sentence 4; supports and elaborates on the importance of pre-birth neural activity.
+Sentence 5
+During this rehearsal period, synapses—points of chemical connection—between nerve cells are generated in great excess, only to be pruned back during later development.
+– Continues the developmental narrative, describing the next stage: excessive synapse generation and later pruning.
+Sentence 3
+The reasons for this paring back of synapses is a mystery, but synaptic pruning is thought to sharpen and reinforce the ""correct"" synapses, while removing the weak and unnecessary ones.
+– Direct continuation of Sentence 5, explaining why pruning happens.
+So the coherent paragraph is:
+4 → 2 → 5 → 3
+All four talk about early neural development, especially in the context of vision and synaptic formation and pruning.
+Sentence 1
+To create a synapse, the neuron has specialized structures, often seen as tiny swellings, at its terminal end of the axon where it stores the chemicals that are emitted to transmit a signal to the next neuron.
+– This is a general anatomical explanation of how a synapse works — not specific to fetal development, pruning, or vision.
+– It does not fit the flow of developmental neuroscience described in the other four.
+Correct Answer: 1
+Sentence 1 is the odd one out.",,Nonhomogeneous G Strategy,False,,https://iimking.com/odd-man-out-g-strategy-cat-2024-slot-2-paper-with-answers-explanation/,bed885f0-5786-448e-8fd5-31b54e009f55,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,3,,,,,Odd Man Out,,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+
+1. Part of the appeal of forecasting is not just that it seems to work, but that you don't seem to need specialized expertise to succeed at it.
+2. The tight connection between forecasting and building a model of the world helps explain why so much of the early interest in the idea came from the intelligence community.
+3. This was true even though the latter had access to classified intelligence.
+4. One frequently cited study found that accurate forecasters' predictions of geopolitical events, when aggregated using standard scientific methods, were more accurate than the forecasts of members of the US intelligence community who answered the same questions in a confidential prediction market.
+5. The aggregated opinions of non-experts doing forecasting have proven to be a better guide to the future than the aggregated opinions of experts.",,,,,tita,,2,,,,match,"Let’s analyze the sentences to determine which one doesn’t logically fit into the paragraph.
+Sentence 4:
+One frequently cited study found that accurate forecasters' predictions of geopolitical events, when aggregated using standard scientific methods, were more accurate than the forecasts of members of the US intelligence community who answered the same questions in a confidential prediction market.
+– Introduces a specific study comparing forecasters vs. intelligence community predictions.
+Sentence 3:
+This was true even though the latter had access to classified intelligence.
+– Refers back to the result in Sentence 4, reinforcing the surprise that the intelligence community underperformed despite having better resources.
+Sentence 5:
+The aggregated opinions of non-experts doing forecasting have proven to be a better guide to the future than the aggregated opinions of experts.
+– Generalizes the finding from Sentence 4 – non-experts outperform experts in forecasting.
+Sentence 1:
+Part of the appeal of forecasting is not just that it seems to work, but that you don't seem to need specialized expertise to succeed at it.
+– Supports the theme that expertise isn't essential for good forecasting. Fits well with 4 and 5.
+So far, a clear theme is emerging:
+non-experts can often outperform experts in forecasting.
+A coherent flow is: 1 → 5 → 4 → 3
+Sentence 2:
+The tight connection between forecasting and building a model of the world helps explain why so much of the early interest in the idea came from the intelligence community.
+– This sentence shifts the focus to the origin/history of forecasting in the intelligence community and the conceptual basis for forecasting, rather than the empirical findings and comparison of expert vs. non-expert performance.
+It does not align directly with the central message of the other four, which deal with how non-experts have outperformed experts.
+Correct Answer: 2
+Sentence 2 is the odd one out.",,Lone Wolf,False,,https://iimking.com/cat-2024-lone-wolf-g-strategy-odd-man-out-with-answers-explanation/,e9ae5e6b-a16e-45fa-908f-fd4808186242,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,3,,CAT Hard,Hard,,Odd Man Out,CAT 2024 Odd Man Out - Neural Development,"1. To create a synapse, the neuron has specialized structures, often seen as tiny swellings, at its terminal end of the axon where it stores the chemicals that are emitted to transmit a signal to the next neuron.
+2. This fetal warm-up act—the soldering of neural connections before the eyes actually function—is crucial to the performance of the visual system.
+3. The reasons for this paring back of synapses is a mystery, but synaptic pruning is thought to sharpen and reinforce the ""correct"" synapses, while removing the weak and unnecessary ones.
+4. Neural connections between the eyes and the brain are formed long before birth, establishing the wiring and the circuitry that allow a child to begin visualizing the world the minute she emerges from the womb.
+5. During this rehearsal period, synapses—points of chemical connection—between nerve cells are generated in great excess, only to be pruned back during later development.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,A,Sentence 1,,,extra_options: E: Sentence 5,not_found,"Detailed Explanation:
+
+Sentences 2, 4, 5, and 3 talk about neural development during fetal stage, visual system, and pruning. The theme is how neural pathways for vision develop and are refined.
+
+Sentence 1 is too technical and structural, explaining synapse structure, not visual system development. It feels out of sync with the others’ focus on functional development and pruning.
+
+Coherent paragraph: 4-2-5-3",,CRAFT,False,,https://iimking.com/odd/,e7c32467-d4d6-426e-867c-e82f05c3396b,910d3d9469c06840
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2024,3,,CAT Medium,Moderate,,Odd Man Out,CAT 2024 Odd Man Out - Forecasting and Intelligence,"1. Part of the appeal of forecasting is not just that it seems to work, but that you don't seem to need specialized expertise to succeed at it.
+2. The tight connection between forecasting and building a model of the world helps explain why so much of the early interest in the idea came from the intelligence community.
+3. This was true even though the latter had access to classified intelligence.
+4. One frequently cited study found that accurate forecasters' predictions of geopolitical events, when aggregated using standard scientific methods, were more accurate than the forecasts of members of the US intelligence community who answered the same questions in a confidential prediction market.
+5. The aggregated opinions of non-experts doing forecasting have proven to be a better guide to the future than the aggregated opinions of experts.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.,Sentence 1,Sentence 2,Sentence 3,Sentence 4,mcq,C,Sentence 3,,,extra_options: E: Sentence 5,not_found,"Detailed Explanation:
+
+Sentences 1, 2, 4, and 5 describe how non-experts outperform intelligence experts in forecasting.
+
+Sentence 2 explains the intelligence community’s early interest.
+
+Sentence 4 provides a research-backed example of non-expert success.
+
+Sentence 5 is a summary claim.
+
+Sentence 3 is an explanatory aside that doesn’t add meaningfully to the central comparison; it weakens the flow and appears tacked on.
+
+Coherent paragraph: 1-2-4-5",,CRAFT,False,,https://iimking.com/odd/,8f697db0-acee-4a41-86ca-ccbbf375eec1,4b7f9cc8b20fde0b
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2023,1,3,,,,Odd Man Out,,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer. 1. In English, there is no systematic rule for the naming of numbers; after ten, we have ""eleven"" and ""twelve"" and then the teens: ""thirteen"", ""fourteen"", ""fifteen"" and so on. 2. Even more confusingly, some English words invert the numbers they refer to: the word ""fourteen"" puts the four first, even though it appears last. 3. It can take children a while to learn all these words, and understand that ""fourteen"" is different from ""forty"". 4. For multiples of 10, English speakers switch to a different pattern: ""twenty"", ""thirty"", ""forty"" and so on. 5. If you didn't know the word for ""eleven"", you would be unable to just guess it – you might come up with something like ""one-teen"".",,,,,tita,,3,,,,match,,,,False,,https://iimking.com/cat-2023-slot-1-verbal-ability-actual-question-paper/,9bee3e54-b023-47c9-bdd3-8a0b1da820d1,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2023,1,4,,,,Odd Man Out,,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer. 1. Having an appreciation for the workings of another person’s mind is considered a prerequisite for natural language acquisition, strategic social interaction, reflexive thought, and moral judgment. 2. It is a ‘theory of mind’ though some scholars prefer to call it ‘mentalizing’ or ‘mindreading’, which is important for the development of one's cognitive abilities. 3. Though we must speculate about its evolutionary origin, we do have indications that the capacity evolved sometime in the last few million years. 4. This capacity develops from early beginnings in the first year of life to the adult’s fast and often effortless understanding of others’ thoughts, feelings, and intentions. 5. One of the most fascinating human capacities is the ability to perceive and interpret other people’s behaviour in terms of their mental states.",,,,,tita,,2,,,,match,,,,False,,https://iimking.com/cat-2023-slot-1-verbal-ability-actual-question-paper/,9b065e9a-763b-480f-98fe-fc7a16b46cce,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2023,2,,,,,Odd Man Out,Para Jumble Actual Questions in CAT 2023 Slot - 2,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. Self-care particularly links to loneliness, behavioural problems, and negative academic outcomes.
+2. “Latchkey children” refers to children who routinely return home from school to empty homes and take care of themselves for extended periods of time.
+3. Although self-care generally points to negative outcomes, it is important to consider that the bulk of research has yet to track long-term consequences.
+4. In research and practice, the phrase “children in self-care” has come to replace latchkey in an effort to more accurately reflect the nature of their circumstances.
+5. Although parents might believe that self-care would be beneficial for development, recent research has found quite the opposite.",,,,,tita,,3,,,,match,,,,False,,https://iimking.com/para-jumble-actual-questions-in-cat-2023-slot-2/,672eb245-e0b5-472d-b8b7-a10dfdd7ec63,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2023,2,,,,,Odd Man Out,Para Jumble Actual Questions in CAT 2023 Slot - 2,,"Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.
+1. The banning of Northern Lights could be considered a precursor to censoring books for “moral”, world view or religious reasons.
+2. Attempts to ban books are attempts to silence authors who have summoned immense courage in telling their stories.
+3. Now the banning and challenging of books in the US has escalated to an unprecedented level.
+4. The widely acclaimed fantasy novel Northern Lights was banned in some parts of the US, and was the second most challenged book in the US.
+5. The American Library Association documented an unparalleled number of reported book challenges in 2022, about 2,500 unique titles.",,,,,tita,,2,,,,match,,,,False,,https://iimking.com/para-jumble-actual-questions-in-cat-2023-slot-2/,4de9db0f-654b-4000-848c-1bd192abff82,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2020,1,,,,,Odd Man Out,,,"Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:
+A. For feminists, the question of how we read is inextricably linked with the question of what we read.
+B. Elaine Showalter’s critique of the literary curriculum is exemplary of this work.
+C. Androcentric literature structures the reading experience differently depending on the gender of the reader.
+D. The documentation of this realization was one of the earliest tasks undertaken by feminist critics.
+E. More specifically, the feminist inquiry into the activity of reading begins with the realization that the literary canon is androcentric, and that this has a profoundly damaging effect on women readers.",,,,,tita,,C,,,,match,"Explanatory Answer
+Tricky question. CE is a possible link, as both talk of androcentric literature. But while C talks about the 'reading experience' depending on the gender of the reader, E talks about the realization that the literary canon is androcentric. These are slightly different ideas.
+ED is a strong link, as both talk about the feminists' realization. ED leads on to B, which talks about Elaine Showalter's critique of the literary curriculum. AE is also a strong link, as both sentences relate to the question of what women read.
+Between AE and CE, AE is links better to the main idea of the paragraph-- the realization by feminists that what women read has a damaging effect on women readers. AEDB is a cogent paragraph. C is the sentence to be eliminated.
+The answer is, "" C""",,,False,,https://iimking.com/cat-varc-cat-2020-question-paper-slot-1/,dfc7bc96-e198-45cf-854c-4de0ab6de76c,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2020,1,,,,,Odd Man Out,,,"Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:
+A. Talk was the most common way for enslaved men and women to subvert the rules of their bondage, to gain more agency than they were supposed to have.
+B. Even in conditions of extreme violence and unfreedom, their words remained ubiquitous, ephemeral, irrepressible, and potentially transgressive.
+C. Slaves came from societies in which oaths, orations, and invocations carried great potency, both between people and as a connection to the all-powerful spirit world.
+D. Freedom of speech and the power to silence may have been preeminent markers of white liberty in Colonies, but at the same time, slavery depended on dialogue: slaves could never be completely muted.
+E. Slave-owners obsessed over slave talk, though they could never control it, yet feared its power to bind and inspire—for, as everyone knew, oaths, whispers, and secret conversations bred conspiracy and revolt.",,,,,tita,,C,,,,match,"Explanatory Answer
+While all other sentences relate to slave talk, i.e conversations between slaves, C is different, as it is about the significance of oaths, orations and invocations in the societies slaves came from. DABE is a cogent paragraph.
+The answer is, "" C""",,,False,,https://iimking.com/cat-varc-cat-2020-question-paper-slot-1/,f5f3a28c-fee7-4763-99fe-ccbef6f33ae3,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2019,2,,,,,,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. A particularly interesting example of inference occurs in many single panel comics.
+2. It’s the creator’s participation and imagination that makes the single-panel comic so engaging and so rewarding.
+3. Often, the humor requires you to imagine what happened in the instant immediately before or immediately after the panel you’re being shown.
+4. To get the joke, you actually have to figure out what some of these missing panels must be.
+5. It is as though the cartoonist devised a series of panels to tell the story and has chosen to show you only one – and typically not even the funniest.",,,,,tita,,2,,,,match,"While sentences 1, 3, 4 and 5 relate to the reader of the single panel comic and the importance of the reader's ability to infer what happened before and after, sentence 2 is about the creator of the comics. So, 2 is the odd one out.",,,False,,https://iimking.com/cat-varc-cat-2019-question-paper-slot-2/,56ea74f5-fed7-437c-ade5-720f7e45e8fb,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2019,2,,,,,,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. Socrates told us that ‘the unexamined life is not worth living’ and that to ‘know thyself’ is the path to true wisdom
+2. It suggests that you should adopt an ancient rhetorical method favored by the likes of Julius Caesar and known as ‘illeism’ – or speaking about yourself in the third person.
+3. Research has shown that people who are prone to rumination also often suffer from impaired decision making under pressure and are at a substantially increased risk of depression.
+4. Simple rumination – the process of churning your concerns around in your head – is not the way to achieve self-realization.
+5. The idea is that this small change in perspective can clear your emotional fog, allowing you to see past your biases.",,,,,tita,,1,,,,match,Option 1 is about the importance of self-examination and rumination. All other sentences argue against rumination. The sentence order 4325 makes a coherent paragraph about illeism or speaking about oneself in the third person.,,,False,,https://iimking.com/cat-varc-cat-2019-question-paper-slot-2/,c7a4ecee-d7e6-4f58-bf91-7404b92bf629,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2019,2,,,,,,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. Ocean plastic is problematic for a number of reasons, but primarily because marine animals eat it.
+2. The largest numerical proportion of ocean plastic falls in small size fractions.
+3. Aside from clogging up the digestive tracts of marine life, plastic also tends to adsorb pollutants from the water column.
+4. Plastic in the oceans is arguably one of the most important and pervasive environmental problems today.
+5. Eating plastic has a number of negative consequences such as the retention of plastic particles in the gut for longer periods than normal food particles.",,,,,tita,,2,,,,match,"Sentences 1, 3, 4 and 5 relate to plastic in oceans affecting marine life, producing pervasive environmental problems. On the other hand, option 2 talks of the 'largest numerical proportion' of ocean plastic ‘falling in small size fractions’ – an unrelated idea.",,,False,,https://iimking.com/cat-varc-cat-2019-question-paper-slot-2/,9fbd7f6b-0eae-4abb-ae7c-f6c172014c24,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2018,1,,,,,,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. Displacement in Bengal is thus not very significant in view of its magnitude.
+2. A factor of displacement in Bengal is the shifting course of the Ganges leading to erosion of river banks.
+3. The nature of displacement in Bengal makes it an interesting case study.”
+4. Since displacement due to erosion is well spread over a long period of time, it remains invisible.
+5. Rapid displacement would have helped sensitize the public to its human costs.",,,,,tita,,5,,,,match,"Of the given sentences, only 5 talks of rapid displacement and sensitizing the public to the human cost of displacement. None of the other sentences relate to these ideas.",,,False,,https://iimking.com/cat-varc-cat-2018-question-paper-slot-1/,da6f7949-431b-4012-b32d-056c3fd8db81,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2018,1,,,,,,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. In many cases time inconsistency is what prevents our going from intention to action.
+2. For people to continuously postpone getting their children immunized, they would need to be constantly fooled by themselves.
+3. In the specific case of immunization, however, it is hard to believe that time inconsistency by itself would be su?cient to make people permanently postpone the decision if they were fully cognizant of its benefits.
+4. In most cases, even a small cost of immunization was large enough to discourage most people.
+5. Not only do they have to think that they prefer to spend time going to the camp next month rather than today, they also have to believe that they will indeed go next month.",,,,,tita,,4,,,,match,Only 4 cites the cost of immunization as a factor in discouraging people from immunization. The rest of the sentences are about the logic for constant postponement of immunization. The sequence 1325 is a cogent paragraph.,,,False,,https://iimking.com/cat-varc-cat-2018-question-paper-slot-1/,d7cc59bd-ebea-4606-bf91-2c231c0eb7cf,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2018,1,,,,,,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. Translators are like bumblebees.
+2. Though long since scientifically disproved, this factoid is still routinely trotted out.
+3. Similar pronouncements about the impossibility of translation have dogged practitioners since Leonardo Bruni’s De interpretatione recta, published in 1424.
+4. Bees, unaware of these deliberations, have continued to flit from flower to flower, and translators continue to translate.
+5. In 1934, the French entomologist August Magnan pronounced the flight of the bumblebee to be aerodynamically impossible",,,,,tita,,2,,,,match,"1 and 4 liken translators to bumblebees. Also, 53 is a sequence: 5 about the impossibility of the flight of the bumblebee and 3 about the impossibility of translation. While 2 could fit into the paragraph after 5, if an odd sentence is to be picked, the best choice is 2.",,,False,,https://iimking.com/cat-varc-cat-2018-question-paper-slot-1/,cd7aa45c-7901-4b6a-a2d8-3ee98daa11b5,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2018,2,,,,,Odd One Out,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. As India looks to increase the number of cities, our urban planning must factor in potential natural disasters and work out contingencies in advance.
+2. Authorities must revise data and upgrade infrastructure and mitigation plans even if their local area hasn’t been visited by a natural calamity yet.
+3. Extreme temperatures, droughts, and forest fires have more than doubled since 1980.
+4. There is no denying the fact that our baseline normal weather is changing.
+5. It is no longer a question of whether we will be hit by nature’s fury but rather when.",,,,,tita,,3,,,,match,"21 is a link: both sentences relate to what authorities must do to address potential natural disasters. Similarly, 45 is a link: 4 declares our baseline normal weather to be changing and 5 expands on this idea. Also, 2 explains that authorities must act even if their local area hasn’t been hit by a natural calamity yet. This links to the idea in 5 that it is not question of whether a calamity will hit but when. 4521 is a possible sequence. Statement 3 is the odd one out.
+
+3 is the correct answer.",,,False,,https://iimking.com/cat-varc-cat-2018-question-paper-slot-2/,cc8e720d-b75d-4748-bd4f-3be3724978bf,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2018,2,,,,,Odd One Out,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. Much has been recently discovered about the development of songs in birds.
+2. Some species are restricted to a single song learned by all individuals, others have a range of songs.
+3. The most important auditory stimuli for the birds are the sounds of other birds.
+4. For all bird species there is a prescribed path to development of the final song,
+5. A bird begins with the subsong, passes through plastic song, until it achieves the species song.",,,,,tita,,3,,,,match,"145 is a link: 1 talks of the ‘development of songs’ in birds, 4 talks of the ‘prescribed path’ and 5 details this path. Of the remaining sentences, 2 relates to the idea of species song(s). 3, which talks of ‘the auditory stimuli for birds’ is the odd one out.
+
+3 is the correct answer.",,,False,,https://iimking.com/cat-varc-cat-2018-question-paper-slot-2/,fe861011-e80e-4cda-9d5f-264e8ebb128c,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2018,2,,,,,Odd One Out,,,"Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.
+1. Our smartphones can now track our diets, our biological cycles, even our digestive systems and sleep-patterns.
+2. Researchers have even coined a new term, “orthosomnia”, to describe the insomnia brought on by paying too much attention to smartphones and sleep- tracking apps.
+3. Sleep, nature’s soft nurse, is a blissful, untroubled state all too easily disturbed by earthly worries or a guilty conscience.
+4. The existence of a market for such apps is unsurprising: shift work, a long- hours culture and blue light from screens have conspired to rob many of us of su?cient rest.
+5. A new threat to a good night’s rest has emerged – smart-phones, with sleep- tracking apps.",,,,,tita,,3,,,,match,"3 is the only sentence that does not mention smartphones and sleep-tracking apps, while all other sentences do.
+
+3 is the correct answer.",,,False,,https://iimking.com/cat-varc-cat-2018-question-paper-slot-2/,e0dadf9a-6371-411d-9dd2-1b54d8a1a13f,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2017,1,,,,,Odd Man Out,,"People who study children's language spend a lot of time watching how babies react to the speech they hear around them.
+They make films of adults and babies interacting, and examine them very carefully to see whether the babies show any signs of understanding what the adults say.
+They believe that babies begin to react to language from the very moment they are born.
+Sometimes the signs are very subtle - slight movements of the baby's eyes or the head or the hands.
+You'd never notice them if you were just sitting with the child, but by watching a recording over and over, you can spot them.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.,,,,,tita,,3,,,,match,"While all other sentences relate to the signs of understanding babies show while reacting to speech, 3 talks of when babies begin to show understanding, which is a slightly different idea. 1245 is a coherent paragraph.
+3 is the correct answer.",,,False,,https://iimking.com/cat-varc-cat-2017-question-paper-slot-1/,92043aac-9476-41d9-887d-5793ebd9d822,989381de3d23f4e7
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2017,1,,,,,Odd Man Out,,"Neuroscientists have just begun studying exercise's impact within brain cells — on the genes themselves.
+Even there, in the roots of our biology, they've found signs of the body's influence on the mind.
+It turns out that moving our muscles produces proteinsthat travel through the bloodstream and into the brain, where they play pivotal roles in the mechanisms of our highestthought processes.
+In today's technology-driven, plasma-screened-in world,it's easy to forget that we are born movers — animals, in fact because we've engineered movement right out of our lives.
+It's only in the past few years that neuroscientists have begun to describe these factors and how they work, and each new discovery adds awe-inspiring depth to the picture",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.,,,,,tita,,4,,,,match,"ll sentences except 4 relate to the impact of exercise on the brain. 4 makes a general observation that we have “engineered movement out of our lines” due to technology. None of the other statements develop on this idea.
+4 is the correct answer.",,,False,,https://iimking.com/cat-varc-cat-2017-question-paper-slot-1/,82b9440f-24e4-472b-b3ab-95eee47587da,883b79a658ea067b
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2017,1,,,,,Odd Man Out,,"The water that made up ancient lakes and perhaps an ocean was lost.
+Particles from the Sun collided with molecules in the atmosphere, knocking them into space or giving them an electric charge that caused them to be swept away by the solar wind.
+Most of the planet's remaining water is now frozen or buried, but clues over the past decade suggested that some liquid water, a presumed necessity for life, might survive in underground aquifers.
+Data from NASA's MAVEN orbiter show that solar stormsstripped away most of Mars's once-thick atmosphere.
+A recent study reveals how Mars lost much of its early water, while another indicates that some liquid water remains.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.,,,,,tita,,1,,,,match,"Sentence 5, which talks of two studies related to Mars, one revealing how Mars lost much of its early water, and another indicating that some liquid water remains, is clearly the opening sentence that conveys the main idea of the paragraph. Sentences 4 and 2 relate to how Mars lost most of its early water, while sentence 3 explains where the liquid water remains. 5423 makes a cogent paragraph. 1 is the odd one out.",,,False,,https://iimking.com/cat-varc-cat-2017-question-paper-slot-1/,ada0849d-7ea0-4028-a47d-441a284ced74,e928b59f38aaa0ec
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2017,2,,,,,Odd Man Out,,"Although we are born with the gift of language, research shows that we are surprisingly unskilled when it comes to communicating with others
+We must carefully orchestrate our speech if we want to achieve our goals and bring our dreams to fruition.
+We often choose our words without thought, oblivious of the emotional effects they can have on others.
+We talk more than we need to, ignoring the effect we are having on those listening to us.
+We listen poorly, without realizing it, and we often fail to pay attention to the subtle meanings conveyed by facial expressions, body gestures, and the tone and cadence of our voice.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.,,,,,tita,,2,,,,match,"While all other sentences relate to the idea that we are unskilled when it comes to communication, 2 talks about the importance of orchestrating speech to achieve goals. This is a completely different idea.
+2 is the correct answer.",,,False,,https://iimking.com/cat-va-rc-cat-2017-question-paper-slot-2/,83b52fd9-e594-4551-80c0-de657a8cca19,05b816c2feac28c7
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2017,2,,,,,Odd Man Out,,"Over the past fortnight, one of its finest champions managed to pull off a similar impression.
+Wimbledon's greatest illusion is the sense of timelessness it evokes.
+At 35 years and 342 days, Roger Federer became the oldest man to win the singles title in the Open Era — a full 14 years after he first claimed the title as a scruffy, pony-tailed upstart.
+Once he had survived the opening week, the second week witnessed the range of a rested Federer's genius.
+Given that his method isn't reliant on explosive athleticism or muscular ball- striking, both vulnerable to decay, there is cause to believe that Federer will continue to enchant for a while longer.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.,,,,,tita,,4,,,,match,"21 is a unit: 2 talks of the sense of timelessness Wimbledon evokes. 1 follows this up with the observation that one of its finest champions managed to pull off a similar impression. 3 explains how Federer managed this. 4 adds to 3, predicting that Federer’s will “continue to enchant for a while longer” as his skills are not “vulnerable to decay”.2134 is a cogent paragraph on the idea of display of timelessness in tennis. 4 is the odd one out, as it is about a specific week in the tournament.
+4 is the correct answer.",,,False,,https://iimking.com/cat-va-rc-cat-2017-question-paper-slot-2/,c7abbf61-c30c-40c6-b418-124f032a0d47,c51fdf822e5fd99d
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,2017,2,,,,,Odd Man Out,,"Those geometric symbols and aerodynamic swooshes are more than just skin deep.
+The Commonwealth Bank logo — a yellow diamond, with a black chunk sliced out in one corner — is so recognisable that the bank doesn't even use its full name in its advertising.
+It's not just logos with hidden shapes; sometimes brands will have meanings or stories within them that are deliberately vague or lost in time, urging you to delve deeper to solve the riddle.
+Graphic designers embed cryptic references because it adds a story to the brand; they want people to spend more time with a brand and have that idea that they are an insider if they can understand the hidden message.
+But the CommBank logo has more to it than meets the eye, as squirrelled away in that diamond is the Southern Cross constellation.",Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.,,,,,tita,,1,,,,match,"43 is a unit: both sentences talk of the cryptic references, hidden shapes and so on that graphic designers embed in logos to entice people into spending more time with a brand. The unit 25 follows this up with the example of the Commonwealth Bank logo. 4325 is a cogent paragraph. While 1 seems to relate to 4 and 3, neither 2 nor 5 relates to 1. So, 1 is the odd one out.
+1 is the correct answer.",,,False,,https://iimking.com/cat-va-rc-cat-2017-question-paper-slot-2/,1fcee988-b577-47e7-a8c6-37777aaad022,4530a52fe358d12f
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,,3,,,,,Odd Man Out,Odd man CAT Actual Questions slot 3,,"1. Although hard skills have traditionally ruled the roost, some companies are moving away from choosing prospective hires based on technical abilities alone.
+2. Companies are shaking off the old definition of an ideal candidate and ditching the idea of looking for the singularly perfect candidate altogether.
+3. Now, some job descriptions are frequently asking for candidates to demonstrate soft skills, such as leadership or teamwork.
+4. That’s not to say that practical know-how is no longer required – some jobs still call for highly specific expertise
+5. The move towards prioritizing soft skills “is a natural response to three years of the pandemic” says a senior recruiter at Cellar FSB.",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/odd-man-slot-3/,1e642a45-100b-4d1c-af42-e2397ca4e961,
+,,Paragraph,Odd Man Out,verbal_master_15oct,Odd One Out,True,,3,,,,,Odd Man Out,Odd man CAT Actual Questions slot 3,,"1. Boa Senior, who lived through the 2004 tsunami, the Japanese occupation and diseases brought by British settlers, was the last native of the island chain who was fluent in Bo.
+2. The indigenous population has been steadily collapsing since the island chain was colonised by British settlers in 1858 and used for most of the following 100 years as a colonial penal colony.
+3. Taking its name from a now-extinct tribe, Bo is one of the 10 Great Andamanese languages, which are thought to date back to pre-Neolithic human settlement of south-east Asia.
+4. The last speaker of an ancient tribal language has died in the Andaman Islands, breaking a 65,000-year link to one of the world's oldest cultures.
+5. Though the language has been closely studied by researchers of linguistic history, Boa Senior spent the last few years of her life unable to converse with anyone in her mother tongue",,,,,tita,,,,,,not_checked,,,,False,,https://iimking.com/odd-man-slot-3/,21de44f5-7c0b-4d34-9558-8642cef3e1fe,
