@@ -1,0 +1,448 @@
+core_id_provisional,section,ck_subsection,chapter,cat_export_chapter,core_type,sort_order,status
+QB-P-001,Quant,Arithmetic,Percentages,Percentages,Percentage Basics,1,from_bible_unfrozen
+QB-P-002,Quant,Arithmetic,Percentages,Percentages,Find Percentage,2,from_bible_unfrozen
+QB-P-003,Quant,Arithmetic,Percentages,Percentages,Find Value,3,from_bible_unfrozen
+QB-P-004,Quant,Arithmetic,Percentages,Percentages,Percentage Increase,4,from_bible_unfrozen
+QB-P-005,Quant,Arithmetic,Percentages,Percentages,Percentage Decrease,5,from_bible_unfrozen
+QB-P-006,Quant,Arithmetic,Percentages,Percentages,Successive Change,6,from_bible_unfrozen
+QB-P-007,Quant,Arithmetic,Percentages,Percentages,Net Percentage Change,7,from_bible_unfrozen
+QB-P-008,Quant,Arithmetic,Percentages,Percentages,Reverse Percentage,8,from_bible_unfrozen
+QB-P-009,Quant,Arithmetic,Percentages,Percentages,More/Less Comparison,9,from_bible_unfrozen
+QB-P-010,Quant,Arithmetic,Percentages,Percentages,Population/Value Change,10,from_bible_unfrozen
+QB-P-011,Quant,Arithmetic,Percentages,Percentages,Consumption–Price,11,from_bible_unfrozen
+QB-P-012,Quant,Arithmetic,Percentages,Percentages,Percentage Chain,12,from_bible_unfrozen
+QB-P-013,Quant,Arithmetic,Percentages,Percentages,Percentage Equation,13,from_bible_unfrozen
+QB-P-014,Quant,Arithmetic,Percentages,Percentages,Percentage Distribution,14,from_bible_unfrozen
+QB-P-015,Quant,Arithmetic,Percentages,Percentages,Remaining Percentage,15,from_bible_unfrozen
+QB-P-016,Quant,Arithmetic,Percentages,Percentages,Sequential Spending,16,from_bible_unfrozen
+QB-P-017,Quant,Arithmetic,Percentages,Percentages,Two-Way Classification,17,from_bible_unfrozen
+QB-P-018,Quant,Arithmetic,Percentages,Percentages,Subgroup Percentage,18,from_bible_unfrozen
+QB-P-019,Quant,Arithmetic,Percentages,Percentages,Election and Votes,19,from_bible_unfrozen
+QB-P-020,Quant,Arithmetic,Percentages,Percentages,Income–Expenditure–Savings,20,from_bible_unfrozen
+QB-P-021,Quant,Arithmetic,Percentages,Percentages,Product Change,21,from_bible_unfrozen
+QB-P-022,Quant,Arithmetic,Percentages,Percentages,Area/Volume Change,22,from_bible_unfrozen
+QB-P-023,Quant,Arithmetic,Percentages,Percentages,Revenue Change,23,from_bible_unfrozen
+QB-P-024,Quant,Arithmetic,Percentages,Percentages,Percentage Equality,24,from_bible_unfrozen
+QB-P-025,Quant,Arithmetic,Percentages,Percentages,Multi-Person Comparison,25,from_bible_unfrozen
+QB-P-026,Quant,Arithmetic,Percentages,Percentages,Average Annual Change,26,from_bible_unfrozen
+QB-P-027,Quant,Arithmetic,Percentages,Percentages,Reverse Successive Change,27,from_bible_unfrozen
+QB-P-028,Quant,Arithmetic,Percentages,Percentages,Cost Composition Change,28,from_bible_unfrozen
+QB-PLD-001,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,P&L Basics,1,from_bible_unfrozen
+QB-PLD-002,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Marked Price,2,from_bible_unfrozen
+QB-PLD-003,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Markup + Discount,3,from_bible_unfrozen
+QB-PLD-004,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Successive Discounts,4,from_bible_unfrozen
+QB-PLD-005,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Same SP,5,from_bible_unfrozen
+QB-PLD-006,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Same CP,6,from_bible_unfrozen
+QB-PLD-007,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Different CP,7,from_bible_unfrozen
+QB-PLD-008,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,What-if Discount/SP,8,from_bible_unfrozen
+QB-PLD-009,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Profit on SP,9,from_bible_unfrozen
+QB-PLD-010,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,CP–SP Relationship,10,from_bible_unfrozen
+QB-PLD-011,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Quantity P&L,11,from_bible_unfrozen
+QB-PLD-012,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,What-if Quantity,12,from_bible_unfrozen
+QB-PLD-013,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,False Weight,13,from_bible_unfrozen
+QB-PLD-014,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Price + False Weight,14,from_bible_unfrozen
+QB-PLD-015,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Free/Extra Items,15,from_bible_unfrozen
+QB-PLD-016,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Successive Dealer Chain,16,from_bible_unfrozen
+QB-PLD-017,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Profit % = SP,17,from_bible_unfrozen
+QB-PLD-018,Quant,Arithmetic,"Profit, Loss & Discount",Profit & Loss,Gap-Based P&L,18,from_bible_unfrozen
+QB-RP-001,Quant,Arithmetic,Ratios & Proportion,Ratios,Ratio Basics,1,from_bible_unfrozen
+QB-RP-002,Quant,Arithmetic,Ratios & Proportion,Ratios,Ratio + One Quantity,2,from_bible_unfrozen
+QB-RP-003,Quant,Arithmetic,Ratios & Proportion,Ratios,Ratio + Total,3,from_bible_unfrozen
+QB-RP-004,Quant,Arithmetic,Ratios & Proportion,Ratios,Ratio + Difference,4,from_bible_unfrozen
+QB-RP-005,Quant,Arithmetic,Ratios & Proportion,Ratios,Distribution,5,from_bible_unfrozen
+QB-RP-006,Quant,Arithmetic,Ratios & Proportion,Ratios,Three-Quantity Ratio,6,from_bible_unfrozen
+QB-RP-007,Quant,Arithmetic,Ratios & Proportion,Ratios,Partial Sum/Difference,7,from_bible_unfrozen
+QB-RP-008,Quant,Arithmetic,Ratios & Proportion,Ratios,Combining Ratios,8,from_bible_unfrozen
+QB-RP-009,Quant,Arithmetic,Ratios & Proportion,Ratios,Verbal Relation to Ratio,9,from_bible_unfrozen
+QB-RP-010,Quant,Arithmetic,Ratios & Proportion,Ratios,Addition Change,10,from_bible_unfrozen
+QB-RP-011,Quant,Arithmetic,Ratios & Proportion,Ratios,Subtraction Change,11,from_bible_unfrozen
+QB-RP-012,Quant,Arithmetic,Ratios & Proportion,Ratios,Same Addition/Subtraction,12,from_bible_unfrozen
+QB-RP-013,Quant,Arithmetic,Ratios & Proportion,Ratios,Addition & Subtraction Together,13,from_bible_unfrozen
+QB-RP-014,Quant,Arithmetic,Ratios & Proportion,Ratios,Transfer Between Quantities,14,from_bible_unfrozen
+QB-RP-015,Quant,Arithmetic,Ratios & Proportion,Ratios,Proportion,15,from_bible_unfrozen
+QB-RP-016,Quant,Arithmetic,Ratios & Proportion,Ratios,Direct Proportion,16,from_bible_unfrozen
+QB-RP-017,Quant,Arithmetic,Ratios & Proportion,Ratios,Inverse Proportion,17,from_bible_unfrozen
+QB-RP-018,Quant,Arithmetic,Ratios & Proportion,Ratios,Ratio–Percentage Conversion,18,from_bible_unfrozen
+QB-RP-019,Quant,Arithmetic,Ratios & Proportion,Ratios,Compound Ratio,19,from_bible_unfrozen
+QB-RP-020,Quant,Arithmetic,Ratios & Proportion,Ratios,Mean Proportional,20,from_bible_unfrozen
+QB-RP-021,Quant,Arithmetic,Ratios & Proportion,Ratios,Third/Fourth Proportional,21,from_bible_unfrozen
+QB-RP-022,Quant,Arithmetic,Ratios & Proportion,Ratios,Fraction/Decimal Ratio,22,from_bible_unfrozen
+QB-SCI-001,Quant,Arithmetic,Simple & Compound Interest,Interest,Simple Interest Basic,1,from_bible_unfrozen
+QB-SCI-002,Quant,Arithmetic,Simple & Compound Interest,Interest,SI Principal,2,from_bible_unfrozen
+QB-SCI-003,Quant,Arithmetic,Simple & Compound Interest,Interest,SI Rate,3,from_bible_unfrozen
+QB-SCI-004,Quant,Arithmetic,Simple & Compound Interest,Interest,SI Time,4,from_bible_unfrozen
+QB-SCI-005,Quant,Arithmetic,Simple & Compound Interest,Interest,SI Double/Triple/Multiple,5,from_bible_unfrozen
+QB-SCI-006,Quant,Arithmetic,Simple & Compound Interest,Interest,Compound Interest Basic,6,from_bible_unfrozen
+QB-SCI-007,Quant,Arithmetic,Simple & Compound Interest,Interest,CI Annual Compounding,7,from_bible_unfrozen
+QB-SCI-008,Quant,Arithmetic,Simple & Compound Interest,Interest,Half-Yearly/Quarterly CI,8,from_bible_unfrozen
+QB-SCI-009,Quant,Arithmetic,Simple & Compound Interest,Interest,SI vs CI Difference,9,from_bible_unfrozen
+QB-SCI-010,Quant,Arithmetic,Simple & Compound Interest,Interest,Changing Rates,10,from_bible_unfrozen
+QB-SCI-011,Quant,Arithmetic,Simple & Compound Interest,Interest,CI Double/Triple – Rate,11,from_bible_unfrozen
+QB-SCI-012,Quant,Arithmetic,Simple & Compound Interest,Interest,CI Double/Triple – Duration,12,from_bible_unfrozen
+QB-SCI-013,Quant,Arithmetic,Simple & Compound Interest,Interest,EMI – Flat Rate,13,from_bible_unfrozen
+QB-SCI-014,Quant,Arithmetic,Simple & Compound Interest,Interest,EMI – Reducing Balance,14,from_bible_unfrozen
+QB-SCI-015,Quant,Arithmetic,Simple & Compound Interest,Interest,Compound Growth,15,from_bible_unfrozen
+QB-SCI-016,Quant,Arithmetic,Simple & Compound Interest,Interest,Depreciation,16,from_bible_unfrozen
+QB-A-001,Quant,Arithmetic,Averages,Averages,Basic Average,1,from_bible_unfrozen
+QB-A-002,Quant,Arithmetic,Averages,Averages,Find Missing Value,2,from_bible_unfrozen
+QB-A-003,Quant,Arithmetic,Averages,Averages,Combined Average,3,from_bible_unfrozen
+QB-A-004,Quant,Arithmetic,Averages,Averages,Weighted Average,4,from_bible_unfrozen
+QB-A-005,Quant,Arithmetic,Averages,Averages,Addition of Member,5,from_bible_unfrozen
+QB-A-006,Quant,Arithmetic,Averages,Averages,Removal of Member,6,from_bible_unfrozen
+QB-A-007,Quant,Arithmetic,Averages,Averages,Replacement,7,from_bible_unfrozen
+QB-A-008,Quant,Arithmetic,Averages,Averages,Wrong Entry/Correction,8,from_bible_unfrozen
+QB-A-009,Quant,Arithmetic,Averages,Averages,Consecutive Numbers,9,from_bible_unfrozen
+QB-A-010,Quant,Arithmetic,Averages,Averages,Uniform Average Change,10,from_bible_unfrozen
+QB-A-011,Quant,Arithmetic,Averages,Averages,Group Transfer,11,from_bible_unfrozen
+QB-A-012,Quant,Arithmetic,Averages,Averages,Required Average,12,from_bible_unfrozen
+QB-A-013,Quant,Arithmetic,Averages,Averages,Overlapping Average,13,from_bible_unfrozen
+QB-A-014,Quant,Arithmetic,Averages,Averages,Find Number of Observations,14,from_bible_unfrozen
+QB-MA-001,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Mixture Basics,1,from_bible_unfrozen
+QB-MA-002,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Concentration,2,from_bible_unfrozen
+QB-MA-003,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Combine Solutions,3,from_bible_unfrozen
+QB-MA-004,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Alligation Basic,4,from_bible_unfrozen
+QB-MA-005,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Alligation Ratio,5,from_bible_unfrozen
+QB-MA-006,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Price/Profit Mixture,6,from_bible_unfrozen
+QB-MA-007,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Addition,7,from_bible_unfrozen
+QB-MA-008,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Removal,8,from_bible_unfrozen
+QB-MA-009,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Single Replacement,9,from_bible_unfrozen
+QB-MA-010,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Repeated Replacement,10,from_bible_unfrozen
+QB-MA-011,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Two Existing Mixtures,11,from_bible_unfrozen
+QB-MA-012,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Three Components,12,from_bible_unfrozen
+QB-MA-013,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Variable Replacement,13,from_bible_unfrozen
+QB-MA-014,Quant,Arithmetic,Mixtures & Alligation,Mixtures,Reverse Replacement,14,from_bible_unfrozen
+QB-P-001,Quant,Arithmetic,Partnership,Partnership,Same Time,1,from_bible_unfrozen
+QB-P-002,Quant,Arithmetic,Partnership,Partnership,Profit Distribution,2,from_bible_unfrozen
+QB-P-003,Quant,Arithmetic,Partnership,Partnership,Capital × Time,3,from_bible_unfrozen
+QB-P-004,Quant,Arithmetic,Partnership,Partnership,Joins Later,4,from_bible_unfrozen
+QB-P-005,Quant,Arithmetic,Partnership,Partnership,Leaves Earlier,5,from_bible_unfrozen
+QB-P-006,Quant,Arithmetic,Partnership,Partnership,Capital Increased,6,from_bible_unfrozen
+QB-P-007,Quant,Arithmetic,Partnership,Partnership,Capital Decreased,7,from_bible_unfrozen
+QB-P-008,Quant,Arithmetic,Partnership,Partnership,Missing Capital/Time,8,from_bible_unfrozen
+QB-P-009,Quant,Arithmetic,Partnership,Partnership,Multiple Partners,9,from_bible_unfrozen
+QB-P-010,Quant,Arithmetic,Partnership,Partnership,Salary/Commission,10,from_bible_unfrozen
+QB-P-011,Quant,Arithmetic,Partnership,Partnership,Simultaneous Capital Changes,11,from_bible_unfrozen
+QB-P-012,Quant,Arithmetic,Partnership,Partnership,Profit Percentage/Fraction Given,12,from_bible_unfrozen
+QB-P-013,Quant,Arithmetic,Partnership,Partnership,Loss Distribution,13,from_bible_unfrozen
+QB-P-014,Quant,Arithmetic,Partnership,Partnership,Interest on Capital,14,from_bible_unfrozen
+QB-P-015,Quant,Arithmetic,Partnership,Partnership,Joint Expense/Rent Sharing,15,from_bible_unfrozen
+QB-TSD-001,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Speed Basics,1,from_bible_unfrozen
+QB-TSD-002,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Speed Conversion,2,from_bible_unfrozen
+QB-TSD-003,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Average Speed,3,from_bible_unfrozen
+QB-TSD-004,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Relative Speed,4,from_bible_unfrozen
+QB-TSD-005,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Trains–Pole,5,from_bible_unfrozen
+QB-TSD-006,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Trains–Platform,6,from_bible_unfrozen
+QB-TSD-007,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Two Trains,7,from_bible_unfrozen
+QB-TSD-008,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Boats & Streams,8,from_bible_unfrozen
+QB-TSD-009,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Races,9,from_bible_unfrozen
+QB-TSD-010,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Circular Track,10,from_bible_unfrozen
+QB-TSD-011,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Stoppage,11,from_bible_unfrozen
+QB-TSD-012,Quant,TS&W,"Time, Speed & Distance",Time Speed Distance,Late/Early,12,from_bible_unfrozen
+QB-TW-001,Quant,TS&W,Time & Work,Time & Work,Basic Work,1,from_bible_unfrozen
+QB-TW-002,Quant,TS&W,Time & Work,Time & Work,A+B Together,2,from_bible_unfrozen
+QB-TW-003,Quant,TS&W,Time & Work,Time & Work,Find Individual,3,from_bible_unfrozen
+QB-TW-004,Quant,TS&W,Time & Work,Time & Work,Efficiency Ratio,4,from_bible_unfrozen
+QB-TW-005,Quant,TS&W,Time & Work,Time & Work,Time–Efficiency,5,from_bible_unfrozen
+QB-TW-006,Quant,TS&W,Time & Work,Time & Work,Fractional Work,6,from_bible_unfrozen
+QB-TW-007,Quant,TS&W,Time & Work,Time & Work,Join Midway,7,from_bible_unfrozen
+QB-TW-008,Quant,TS&W,Time & Work,Time & Work,Leave Midway,8,from_bible_unfrozen
+QB-TW-009,Quant,TS&W,Time & Work,Time & Work,Join + Leave,9,from_bible_unfrozen
+QB-TW-010,Quant,TS&W,Time & Work,Time & Work,Alternate Days,10,from_bible_unfrozen
+QB-TW-011,Quant,TS&W,Time & Work,Time & Work,Work & Wages,11,from_bible_unfrozen
+QB-TW-012,Quant,TS&W,Time & Work,Time & Work,Mandays,12,from_bible_unfrozen
+QB-PC-001,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Single Inlet,1,from_bible_unfrozen
+QB-PC-002,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Multiple Inlets,2,from_bible_unfrozen
+QB-PC-003,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Inlet + Outlet,3,from_bible_unfrozen
+QB-PC-004,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Unknown Pipe,4,from_bible_unfrozen
+QB-PC-005,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Opened Later,5,from_bible_unfrozen
+QB-PC-006,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Closed Midway,6,from_bible_unfrozen
+QB-PC-007,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Leakage,7,from_bible_unfrozen
+QB-PC-008,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Alternate Pipes,8,from_bible_unfrozen
+QB-PC-009,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Partial Tank,9,from_bible_unfrozen
+QB-PC-010,Quant,TS&W,Pipes & Cisterns,Pipes & Cisterns,Multiple Inlet/Outlet,10,from_bible_unfrozen
+QB-NS-001,Quant,Numbers,Number System,Numbers,Number Basics,1,from_bible_unfrozen
+QB-NS-002,Quant,Numbers,Number System,Numbers,Prime Factorisation,2,from_bible_unfrozen
+QB-NS-003,Quant,Numbers,Number System,Numbers,HCF,3,from_bible_unfrozen
+QB-NS-004,Quant,Numbers,Number System,Numbers,LCM,4,from_bible_unfrozen
+QB-NS-005,Quant,Numbers,Number System,Numbers,HCF–LCM Relation,5,from_bible_unfrozen
+QB-NS-006,Quant,Numbers,Number System,Numbers,Remainders Basic,6,from_bible_unfrozen
+QB-NS-007,Quant,Numbers,Number System,Numbers,Remainder of Powers,7,from_bible_unfrozen
+QB-NS-008,Quant,Numbers,Number System,Numbers,Last Digit,8,from_bible_unfrozen
+QB-NS-009,Quant,Numbers,Number System,Numbers,Last Two Digits,9,from_bible_unfrozen
+QB-NS-010,Quant,Numbers,Number System,Numbers,Factorials,10,from_bible_unfrozen
+QB-NS-011,Quant,Numbers,Number System,Numbers,Highest Power,11,from_bible_unfrozen
+QB-NS-012,Quant,Numbers,Number System,Numbers,Perfect Square,12,from_bible_unfrozen
+QB-NS-013,Quant,Numbers,Number System,Numbers,Perfect Cube,13,from_bible_unfrozen
+QB-NS-014,Quant,Numbers,Number System,Numbers,Digit Problems,14,from_bible_unfrozen
+QB-NS-015,Quant,Numbers,Number System,Numbers,Base System,15,from_bible_unfrozen
+QB-NS-016,Quant,Numbers,Number System,Numbers,Integral Solutions,16,from_bible_unfrozen
+QB-NS-017,Quant,Numbers,Number System,Numbers,HCF with Remainders,17,from_bible_unfrozen
+QB-NS-018,Quant,Numbers,Number System,Numbers,LCM with Remainders,18,from_bible_unfrozen
+QB-NS-019,Quant,Numbers,Number System,Numbers,Divisibility Rules,19,from_bible_unfrozen
+QB-NS-020,Quant,Numbers,Number System,Numbers,Missing-Digit Divisibility,20,from_bible_unfrozen
+QB-NS-021,Quant,Numbers,Number System,Numbers,Least Addition/Subtraction,21,from_bible_unfrozen
+QB-NS-022,Quant,Numbers,Number System,Numbers,Variable Divisibility,22,from_bible_unfrozen
+QB-NS-023,Quant,Numbers,Number System,Numbers,Counting Multiples,23,from_bible_unfrozen
+QB-NS-024,Quant,Numbers,Number System,Numbers,Odd–Even & Number Properties,24,from_bible_unfrozen
+QB-NS-025,Quant,Numbers,Number System,Numbers,Number of Factors,25,from_bible_unfrozen
+QB-NS-026,Quant,Numbers,Number System,Numbers,Sum of Factors,26,from_bible_unfrozen
+QB-S-001,Quant,Arithmetic,Simplification,Simplification,BODMAS,1,from_bible_unfrozen
+QB-S-002,Quant,Arithmetic,Simplification,Simplification,Fractions,2,from_bible_unfrozen
+QB-S-003,Quant,Arithmetic,Simplification,Simplification,Decimals,3,from_bible_unfrozen
+QB-S-004,Quant,Arithmetic,Simplification,Simplification,Fraction–Percentage–Decimal,4,from_bible_unfrozen
+QB-S-005,Quant,Arithmetic,Simplification,Simplification,Powers & Roots,5,from_bible_unfrozen
+QB-S-006,Quant,Arithmetic,Simplification,Simplification,Complex Fractions,6,from_bible_unfrozen
+QB-S-007,Quant,Arithmetic,Simplification,Simplification,Missing Value,7,from_bible_unfrozen
+QB-S-008,Quant,Arithmetic,Simplification,Simplification,Approximation,8,from_bible_unfrozen
+QB-S-009,Quant,Arithmetic,Simplification,Simplification,Percentage Approximation,9,from_bible_unfrozen
+QB-S-010,Quant,Arithmetic,Simplification,Simplification,Numerical Cancellation,10,from_bible_unfrozen
+QB-E-001,Quant,Algebra,Equations,Equations + Quadratic Equations,Linear – One Variable,1,from_bible_unfrozen
+QB-E-002,Quant,Algebra,Equations,Equations + Quadratic Equations,Linear – Two Variables,2,from_bible_unfrozen
+QB-E-003,Quant,Algebra,Equations,Equations + Quadratic Equations,Linear – Three Variables,3,from_bible_unfrozen
+QB-E-004,Quant,Algebra,Equations,Equations + Quadratic Equations,Fraction Equations,4,from_bible_unfrozen
+QB-E-005,Quant,Algebra,Equations,Equations + Quadratic Equations,Reciprocal Equations,5,from_bible_unfrozen
+QB-E-006,Quant,Algebra,Equations,Equations + Quadratic Equations,Ratio Equations,6,from_bible_unfrozen
+QB-E-007,Quant,Algebra,Equations,Equations + Quadratic Equations,Statement Equations,7,from_bible_unfrozen
+QB-E-008,Quant,Algebra,Equations,Equations + Quadratic Equations,Other Equation Applications,8,from_bible_unfrozen
+QB-E-009,Quant,Algebra,Equations,Equations + Quadratic Equations,Quadratic Factorisation,9,from_bible_unfrozen
+QB-E-010,Quant,Algebra,Equations,Equations + Quadratic Equations,Quadratic Formula,10,from_bible_unfrozen
+QB-E-011,Quant,Algebra,Equations,Equations + Quadratic Equations,Sum/Product of Roots,11,from_bible_unfrozen
+QB-E-012,Quant,Algebra,Equations,Equations + Quadratic Equations,Equation from Roots,12,from_bible_unfrozen
+QB-E-013,Quant,Algebra,Equations,Equations + Quadratic Equations,Nature of Roots,13,from_bible_unfrozen
+QB-E-014,Quant,Algebra,Equations,Equations + Quadratic Equations,Common Roots,14,from_bible_unfrozen
+QB-E-015,Quant,Algebra,Equations,Equations + Quadratic Equations,Transformed Roots,15,from_bible_unfrozen
+QB-E-016,Quant,Algebra,Equations,Equations + Quadratic Equations,Reducible Equations,16,from_bible_unfrozen
+QB-E-017,Quant,Algebra,Equations,Equations + Quadratic Equations,Digit Equations,17,from_bible_unfrozen
+QB-E-018,Quant,Algebra,Equations,Equations + Quadratic Equations,Numerator–Denominator,18,from_bible_unfrozen
+QB-E-019,Quant,Algebra,Equations,Equations + Quadratic Equations,Heads and Legs,19,from_bible_unfrozen
+QB-E-020,Quant,Algebra,Equations,Equations + Quadratic Equations,Coins and Denominations,20,from_bible_unfrozen
+QB-E-021,Quant,Algebra,Equations,Equations + Quadratic Equations,Correct–Wrong Marks,21,from_bible_unfrozen
+QB-E-022,Quant,Algebra,Equations,Equations + Quadratic Equations,Distribution and Sharing,22,from_bible_unfrozen
+QB-E-023,Quant,Algebra,Equations,Equations + Quadratic Equations,Transfer and Shifting,23,from_bible_unfrozen
+QB-A-001,Quant,Algebra,Algebra,Algebra,Algebra Simplification,1,from_bible_unfrozen
+QB-A-002,Quant,Algebra,Algebra,Algebra,Algebra – Factorise,2,from_bible_unfrozen
+QB-A-003,Quant,Algebra,Algebra,Algebra,Expressions,3,from_bible_unfrozen
+QB-A-004,Quant,Algebra,Algebra,Algebra,Identities,4,from_bible_unfrozen
+QB-A-005,Quant,Algebra,Algebra,Algebra,General Factorisation,5,from_bible_unfrozen
+QB-A-006,Quant,Algebra,Algebra,Algebra,"x+y,\ xy",6,from_bible_unfrozen
+QB-A-007,Quant,Algebra,Algebra,Algebra,"x-y,\ xy",7,from_bible_unfrozen
+QB-A-008,Quant,Algebra,Algebra,Algebra,Reciprocal Expressions,8,from_bible_unfrozen
+QB-A-009,Quant,Algebra,Algebra,Algebra,Algebraic Fractions,9,from_bible_unfrozen
+QB-SI-001,Quant,Algebra,Surds & Indices,Surds & Indices,Index Laws,1,from_bible_unfrozen
+QB-SI-002,Quant,Algebra,Surds & Indices,Surds & Indices,Negative Indices,2,from_bible_unfrozen
+QB-SI-003,Quant,Algebra,Surds & Indices,Surds & Indices,Fractional Indices,3,from_bible_unfrozen
+QB-SI-004,Quant,Algebra,Surds & Indices,Surds & Indices,Exponential Equations,4,from_bible_unfrozen
+QB-SI-005,Quant,Algebra,Surds & Indices,Surds & Indices,Different Bases,5,from_bible_unfrozen
+QB-SI-006,Quant,Algebra,Surds & Indices,Surds & Indices,Surd Simplification,6,from_bible_unfrozen
+QB-SI-007,Quant,Algebra,Surds & Indices,Surds & Indices,Surd Operations,7,from_bible_unfrozen
+QB-SI-008,Quant,Algebra,Surds & Indices,Surds & Indices,Rationalisation,8,from_bible_unfrozen
+QB-SI-009,Quant,Algebra,Surds & Indices,Surds & Indices,Conjugates,9,from_bible_unfrozen
+QB-SI-010,Quant,Algebra,Surds & Indices,Surds & Indices,Surd Equations,10,from_bible_unfrozen
+QB-SI-011,Quant,Algebra,Surds & Indices,Surds & Indices,Nested Surds,11,from_bible_unfrozen
+QB-SI-012,Quant,Algebra,Surds & Indices,Surds & Indices,Surd Approximation,12,from_bible_unfrozen
+QB-SI-013,Quant,Algebra,Surds & Indices,Surds & Indices,Exponential Divisibility,13,from_bible_unfrozen
+QB-SI-014,Quant,Algebra,Surds & Indices,Surds & Indices,Integer Base–Exponent Cases,14,from_bible_unfrozen
+QB-I-001,Quant,Algebra,Inequalities,Inequalities,Linear,1,from_bible_unfrozen
+QB-I-002,Quant,Algebra,Inequalities,Inequalities,Double,2,from_bible_unfrozen
+QB-I-003,Quant,Algebra,Inequalities,Inequalities,Quadratic,3,from_bible_unfrozen
+QB-I-004,Quant,Algebra,Inequalities,Inequalities,Product,4,from_bible_unfrozen
+QB-I-005,Quant,Algebra,Inequalities,Inequalities,Rational,5,from_bible_unfrozen
+QB-I-006,Quant,Algebra,Inequalities,Inequalities,Modulus,6,from_bible_unfrozen
+QB-I-007,Quant,Algebra,Inequalities,Inequalities,Multiple,7,from_bible_unfrozen
+QB-I-008,Quant,Algebra,Inequalities,Inequalities,Integer Solutions,8,from_bible_unfrozen
+QB-I-009,Quant,Algebra,Inequalities,Inequalities,Parameter,9,from_bible_unfrozen
+QB-I-010,Quant,Algebra,Inequalities,Inequalities,Bounds,10,from_bible_unfrozen
+QB-F-001,Quant,Algebra,Functions,Functions,Function Basics,1,from_bible_unfrozen
+QB-F-002,Quant,Algebra,Functions,Functions,Evaluation,2,from_bible_unfrozen
+QB-F-003,Quant,Algebra,Functions,Functions,Modified Input,3,from_bible_unfrozen
+QB-F-004,Quant,Algebra,Functions,Functions,Find Input,4,from_bible_unfrozen
+QB-F-005,Quant,Algebra,Functions,Functions,Composite,5,from_bible_unfrozen
+QB-F-006,Quant,Algebra,Functions,Functions,Inverse,6,from_bible_unfrozen
+QB-F-007,Quant,Algebra,Functions,Functions,Domain,7,from_bible_unfrozen
+QB-F-008,Quant,Algebra,Functions,Functions,Range,8,from_bible_unfrozen
+QB-F-009,Quant,Algebra,Functions,Functions,Piecewise,9,from_bible_unfrozen
+QB-F-010,Quant,Algebra,Functions,Functions,Functional Equation,10,from_bible_unfrozen
+QB-MM-001,Quant,Algebra,Maxima & Minima,Maxima Minima,AM–GM,1,from_bible_unfrozen
+QB-MM-002,Quant,Algebra,Maxima & Minima,Maxima Minima,x+\frac{k}{x},2,from_bible_unfrozen
+QB-MM-003,Quant,Algebra,Maxima & Minima,Maxima Minima,Fixed Sum,3,from_bible_unfrozen
+QB-MM-004,Quant,Algebra,Maxima & Minima,Maxima Minima,Fixed Product,4,from_bible_unfrozen
+QB-MM-005,Quant,Algebra,Maxima & Minima,Maxima Minima,Quadratic Maximum/Minimum,5,from_bible_unfrozen
+QB-MM-006,Quant,Algebra,Maxima & Minima,Maxima Minima,Perfect Square Method,6,from_bible_unfrozen
+QB-MM-007,Quant,Algebra,Maxima & Minima,Maxima Minima,Geometric Optimization,7,from_bible_unfrozen
+QB-MM-008,Quant,Algebra,Maxima & Minima,Maxima Minima,Applied Optimization,8,from_bible_unfrozen
+QB-PAG-001,Quant,Algebra,Progressions – AP/GP,Progressions,AP Basics,1,from_bible_unfrozen
+QB-PAG-002,Quant,Algebra,Progressions – AP/GP,Progressions,AP nth Term,2,from_bible_unfrozen
+QB-PAG-003,Quant,Algebra,Progressions – AP/GP,Progressions,AP Sum,3,from_bible_unfrozen
+QB-PAG-004,Quant,Algebra,Progressions – AP/GP,Progressions,Given AP Terms,4,from_bible_unfrozen
+QB-PAG-005,Quant,Algebra,Progressions – AP/GP,Progressions,Arithmetic Mean,5,from_bible_unfrozen
+QB-PAG-006,Quant,Algebra,Progressions – AP/GP,Progressions,AP Applications,6,from_bible_unfrozen
+QB-PAG-007,Quant,Algebra,Progressions – AP/GP,Progressions,GP Basics,7,from_bible_unfrozen
+QB-PAG-008,Quant,Algebra,Progressions – AP/GP,Progressions,GP nth Term,8,from_bible_unfrozen
+QB-PAG-009,Quant,Algebra,Progressions – AP/GP,Progressions,GP Sum,9,from_bible_unfrozen
+QB-PAG-010,Quant,Algebra,Progressions – AP/GP,Progressions,Geometric Mean,10,from_bible_unfrozen
+QB-PAG-011,Quant,Algebra,Progressions – AP/GP,Progressions,Infinite GP,11,from_bible_unfrozen
+QB-PAG-012,Quant,Algebra,Progressions – AP/GP,Progressions,Special Series,12,from_bible_unfrozen
+QB-L-001,Quant,Algebra,Logarithms,Logarithms,Log Basics,1,from_bible_unfrozen
+QB-L-002,Quant,Algebra,Logarithms,Logarithms,Standard Values,2,from_bible_unfrozen
+QB-L-003,Quant,Algebra,Logarithms,Logarithms,Log Laws,3,from_bible_unfrozen
+QB-L-004,Quant,Algebra,Logarithms,Logarithms,Change of Base,4,from_bible_unfrozen
+QB-L-005,Quant,Algebra,Logarithms,Logarithms,Basic Equations,5,from_bible_unfrozen
+QB-L-006,Quant,Algebra,Logarithms,Logarithms,Multiple Logs,6,from_bible_unfrozen
+QB-L-007,Quant,Algebra,Logarithms,Logarithms,Different Bases,7,from_bible_unfrozen
+QB-L-008,Quant,Algebra,Logarithms,Logarithms,Variable Base,8,from_bible_unfrozen
+QB-L-009,Quant,Algebra,Logarithms,Logarithms,Cyclic Logs,9,from_bible_unfrozen
+QB-L-010,Quant,Algebra,Logarithms,Logarithms,Number of Digits,10,from_bible_unfrozen
+QB-G-001,Quant,Geo Mensu,Geometry,Geometry,Lines & Angles,1,from_bible_unfrozen
+QB-G-002,Quant,Geo Mensu,Geometry,Geometry,Parallel Lines,2,from_bible_unfrozen
+QB-G-003,Quant,Geo Mensu,Geometry,Geometry,Triangle Angles,3,from_bible_unfrozen
+QB-G-004,Quant,Geo Mensu,Geometry,Geometry,Triangle Properties,4,from_bible_unfrozen
+QB-G-005,Quant,Geo Mensu,Geometry,Geometry,Pythagoras,5,from_bible_unfrozen
+QB-G-006,Quant,Geo Mensu,Geometry,Geometry,Special Triangles,6,from_bible_unfrozen
+QB-G-007,Quant,Geo Mensu,Geometry,Geometry,Similarity,7,from_bible_unfrozen
+QB-G-008,Quant,Geo Mensu,Geometry,Geometry,Congruency,8,from_bible_unfrozen
+QB-G-009,Quant,Geo Mensu,Geometry,Geometry,Angle Bisector,9,from_bible_unfrozen
+QB-G-010,Quant,Geo Mensu,Geometry,Geometry,Median,10,from_bible_unfrozen
+QB-G-011,Quant,Geo Mensu,Geometry,Geometry,Triangle Centres,11,from_bible_unfrozen
+QB-G-012,Quant,Geo Mensu,Geometry,Geometry,Quadrilaterals,12,from_bible_unfrozen
+QB-G-013,Quant,Geo Mensu,Geometry,Geometry,Polygons,13,from_bible_unfrozen
+QB-G-014,Quant,Geo Mensu,Geometry,Geometry,Circle Angles,14,from_bible_unfrozen
+QB-G-015,Quant,Geo Mensu,Geometry,Geometry,Chords,15,from_bible_unfrozen
+QB-G-016,Quant,Geo Mensu,Geometry,Geometry,Cyclic Quadrilateral,16,from_bible_unfrozen
+QB-G-017,Quant,Geo Mensu,Geometry,Geometry,Tangents,17,from_bible_unfrozen
+QB-G-018,Quant,Geo Mensu,Geometry,Geometry,Secant/Chord Theorems,18,from_bible_unfrozen
+QB-M-001,Quant,Geo Mensu,Mensuration,Mensuration,Square,1,from_bible_unfrozen
+QB-M-002,Quant,Geo Mensu,Mensuration,Mensuration,Rectangle,2,from_bible_unfrozen
+QB-M-003,Quant,Geo Mensu,Mensuration,Mensuration,Triangle,3,from_bible_unfrozen
+QB-M-004,Quant,Geo Mensu,Mensuration,Mensuration,Equilateral Triangle,4,from_bible_unfrozen
+QB-M-005,Quant,Geo Mensu,Mensuration,Mensuration,Parallelogram/Rhombus,5,from_bible_unfrozen
+QB-M-006,Quant,Geo Mensu,Mensuration,Mensuration,Trapezium,6,from_bible_unfrozen
+QB-M-007,Quant,Geo Mensu,Mensuration,Mensuration,Circle,7,from_bible_unfrozen
+QB-M-008,Quant,Geo Mensu,Mensuration,Mensuration,Sector/Arc,8,from_bible_unfrozen
+QB-M-009,Quant,Geo Mensu,Mensuration,Mensuration,Cube/Cuboid,9,from_bible_unfrozen
+QB-M-010,Quant,Geo Mensu,Mensuration,Mensuration,Cylinder,10,from_bible_unfrozen
+QB-M-011,Quant,Geo Mensu,Mensuration,Mensuration,Cone,11,from_bible_unfrozen
+QB-M-012,Quant,Geo Mensu,Mensuration,Mensuration,Sphere/Hemisphere,12,from_bible_unfrozen
+QB-CG-001,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Quadrants,1,from_bible_unfrozen
+QB-CG-002,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Distance,2,from_bible_unfrozen
+QB-CG-003,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Origin Distance,3,from_bible_unfrozen
+QB-CG-004,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Midpoint,4,from_bible_unfrozen
+QB-CG-005,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Section Formula,5,from_bible_unfrozen
+QB-CG-006,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Slope,6,from_bible_unfrozen
+QB-CG-007,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Parallel/Perpendicular,7,from_bible_unfrozen
+QB-CG-008,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Straight Line,8,from_bible_unfrozen
+QB-CG-009,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Intercepts,9,from_bible_unfrozen
+QB-CG-010,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Intersection,10,from_bible_unfrozen
+QB-CG-011,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Triangle Area,11,from_bible_unfrozen
+QB-CG-012,Quant,Geo Mensu,Coordinate Geometry,Coordinate Geometry,Coordinate Shapes,12,from_bible_unfrozen
+QB-T-001,Quant,Geo Mensu,Trigonometry,Trigonometry,Trigonometric Ratios,1,from_bible_unfrozen
+QB-T-002,Quant,Geo Mensu,Trigonometry,Trigonometry,Standard Angles,2,from_bible_unfrozen
+QB-T-003,Quant,Geo Mensu,Trigonometry,Trigonometry,Missing Ratio,3,from_bible_unfrozen
+QB-T-004,Quant,Geo Mensu,Trigonometry,Trigonometry,Identities,4,from_bible_unfrozen
+QB-T-005,Quant,Geo Mensu,Trigonometry,Trigonometry,Complementary Angles,5,from_bible_unfrozen
+QB-T-006,Quant,Geo Mensu,Trigonometry,Trigonometry,Expressions,6,from_bible_unfrozen
+QB-T-007,Quant,Geo Mensu,Trigonometry,Trigonometry,Heights & Distances,7,from_bible_unfrozen
+QB-T-008,Quant,Geo Mensu,Trigonometry,Trigonometry,Angle of Depression,8,from_bible_unfrozen
+QB-T-009,Quant,Geo Mensu,Trigonometry,Trigonometry,Two Observation Points,9,from_bible_unfrozen
+QB-T-010,Quant,Geo Mensu,Trigonometry,Trigonometry,Shadows/Movement,10,from_bible_unfrozen
+QB-PC-001,Quant,Modern Maths,Permutation & Combination,PnC,Counting Principle,1,from_bible_unfrozen
+QB-PC-002,Quant,Modern Maths,Permutation & Combination,PnC,Basic Permutation,2,from_bible_unfrozen
+QB-PC-003,Quant,Modern Maths,Permutation & Combination,PnC,Basic Combination,3,from_bible_unfrozen
+QB-PC-004,Quant,Modern Maths,Permutation & Combination,PnC,Repeated Objects,4,from_bible_unfrozen
+QB-PC-005,Quant,Modern Maths,Permutation & Combination,PnC,Together,5,from_bible_unfrozen
+QB-PC-006,Quant,Modern Maths,Permutation & Combination,PnC,Not Together,6,from_bible_unfrozen
+QB-PC-007,Quant,Modern Maths,Permutation & Combination,PnC,Restricted Position,7,from_bible_unfrozen
+QB-PC-008,Quant,Modern Maths,Permutation & Combination,PnC,Relative Order,8,from_bible_unfrozen
+QB-PC-009,Quant,Modern Maths,Permutation & Combination,PnC,Group Arrangement,9,from_bible_unfrozen
+QB-PC-010,Quant,Modern Maths,Permutation & Combination,PnC,Circular Permutation,10,from_bible_unfrozen
+QB-PC-011,Quant,Modern Maths,Permutation & Combination,PnC,Number Formation,11,from_bible_unfrozen
+QB-PC-012,Quant,Modern Maths,Permutation & Combination,PnC,Digit Restrictions,12,from_bible_unfrozen
+QB-PC-013,Quant,Modern Maths,Permutation & Combination,PnC,Committee Selection,13,from_bible_unfrozen
+QB-PC-014,Quant,Modern Maths,Permutation & Combination,PnC,At Least/At Most,14,from_bible_unfrozen
+QB-PC-015,Quant,Modern Maths,Permutation & Combination,PnC,Distribution,15,from_bible_unfrozen
+QB-PC-016,Quant,Modern Maths,Permutation & Combination,PnC,Geometric Counting,16,from_bible_unfrozen
+QB-P-001,Quant,Modern Maths,Probability,Probability,Probability Basics,1,from_bible_unfrozen
+QB-P-002,Quant,Modern Maths,Probability,Probability,Complement,2,from_bible_unfrozen
+QB-P-003,Quant,Modern Maths,Probability,Probability,Addition Rule,3,from_bible_unfrozen
+QB-P-004,Quant,Modern Maths,Probability,Probability,Multiplication Rule,4,from_bible_unfrozen
+QB-P-005,Quant,Modern Maths,Probability,Probability,Conditional Probability,5,from_bible_unfrozen
+QB-P-006,Quant,Modern Maths,Probability,Probability,Coins,6,from_bible_unfrozen
+QB-P-007,Quant,Modern Maths,Probability,Probability,Dice,7,from_bible_unfrozen
+QB-P-008,Quant,Modern Maths,Probability,Probability,Cards,8,from_bible_unfrozen
+QB-P-009,Quant,Modern Maths,Probability,Probability,Balls/Bags,9,from_bible_unfrozen
+QB-P-010,Quant,Modern Maths,Probability,Probability,Replacement,10,from_bible_unfrozen
+QB-P-011,Quant,Modern Maths,Probability,Probability,Exactly/At Least/At Most,11,from_bible_unfrozen
+QB-P-012,Quant,Modern Maths,Probability,Probability,Selection Probability,12,from_bible_unfrozen
+QB-P-013,Quant,Modern Maths,Probability,Probability,Odds,13,from_bible_unfrozen
+QB-P-014,Quant,Modern Maths,Probability,Probability,Repeated Trials,14,from_bible_unfrozen
+QB-STVD-001,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Set Basics,1,from_bible_unfrozen
+QB-STVD-002,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Two Sets – Both,2,from_bible_unfrozen
+QB-STVD-003,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Two Sets – Only,3,from_bible_unfrozen
+QB-STVD-004,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Two Sets – Neither,4,from_bible_unfrozen
+QB-STVD-005,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,At Least One,5,from_bible_unfrozen
+QB-STVD-006,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Three Sets,6,from_bible_unfrozen
+QB-STVD-007,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Exactly One,7,from_bible_unfrozen
+QB-STVD-008,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Exactly Two,8,from_bible_unfrozen
+QB-STVD-009,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,All Three,9,from_bible_unfrozen
+QB-STVD-010,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,None,10,from_bible_unfrozen
+QB-STVD-011,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Max–Min Overlap,11,from_bible_unfrozen
+QB-STVD-012,Quant,Modern Maths,Set Theory / Venn Diagrams,Sets,Missing Region,12,from_bible_unfrozen
+QB-A-001,Quant,Arithmetic,Ages,Ages,Present Ages,1,from_bible_unfrozen
+QB-A-002,Quant,Arithmetic,Ages,Ages,Age Ratio,2,from_bible_unfrozen
+QB-A-003,Quant,Arithmetic,Ages,Ages,Past Ages,3,from_bible_unfrozen
+QB-A-004,Quant,Arithmetic,Ages,Ages,Future Ages,4,from_bible_unfrozen
+QB-A-005,Quant,Arithmetic,Ages,Ages,Past + Future,5,from_bible_unfrozen
+QB-A-006,Quant,Arithmetic,Ages,Ages,Age Multiple,6,from_bible_unfrozen
+QB-A-007,Quant,Arithmetic,Ages,Ages,Average Age,7,from_bible_unfrozen
+QB-A-008,Quant,Arithmetic,Ages,Ages,Join/Leave,8,from_bible_unfrozen
+QB-A-009,Quant,Arithmetic,Ages,Ages,Multiple People,9,from_bible_unfrozen
+QB-A-010,Quant,Arithmetic,Ages,Ages,Constant Difference,10,from_bible_unfrozen
+QB-C-001,Quant,TS&W,Clocks,Clocks,Hand Position,1,from_bible_unfrozen
+QB-C-002,Quant,TS&W,Clocks,Clocks,Angle,2,from_bible_unfrozen
+QB-C-003,Quant,TS&W,Clocks,Clocks,Coincidence,3,from_bible_unfrozen
+QB-C-004,Quant,TS&W,Clocks,Clocks,Opposite,4,from_bible_unfrozen
+QB-C-005,Quant,TS&W,Clocks,Clocks,Right Angle,5,from_bible_unfrozen
+QB-C-006,Quant,TS&W,Clocks,Clocks,Find Time,6,from_bible_unfrozen
+QB-C-007,Quant,TS&W,Clocks,Clocks,Number of Meetings,7,from_bible_unfrozen
+QB-C-008,Quant,TS&W,Clocks,Clocks,Fast/Slow Clock,8,from_bible_unfrozen
+QB-C-009,Quant,TS&W,Clocks,Clocks,Correct Time,9,from_bible_unfrozen
+QB-C-010,Quant,TS&W,Clocks,Clocks,Mirror Clock,10,from_bible_unfrozen
+QB-C-001,Quant,TS&W,Calendars,Calendars,Odd Days,1,from_bible_unfrozen
+QB-C-002,Quant,TS&W,Calendars,Calendars,Leap Year,2,from_bible_unfrozen
+QB-C-003,Quant,TS&W,Calendars,Calendars,Day on Date,3,from_bible_unfrozen
+QB-C-004,Quant,TS&W,Calendars,Calendars,N Days Before/After,4,from_bible_unfrozen
+QB-C-005,Quant,TS&W,Calendars,Calendars,Same Date Different Year,5,from_bible_unfrozen
+QB-C-006,Quant,TS&W,Calendars,Calendars,Repeated Calendar,6,from_bible_unfrozen
+QB-C-007,Quant,TS&W,Calendars,Calendars,Weekday Frequency,7,from_bible_unfrozen
+QB-C-008,Quant,TS&W,Calendars,Calendars,First/Last Day,8,from_bible_unfrozen
+QB-C-009,Quant,TS&W,Calendars,Calendars,Missing Information,9,from_bible_unfrozen
+QB-C-010,Quant,TS&W,Calendars,Calendars,Days Between Dates,10,from_bible_unfrozen
+QB-S-001,Quant,Modern Maths,Statistics,Statistics,Arithmetic Mean,1,from_bible_unfrozen
+QB-S-002,Quant,Modern Maths,Statistics,Statistics,Combined Mean,2,from_bible_unfrozen
+QB-S-003,Quant,Modern Maths,Statistics,Statistics,Weighted Mean,3,from_bible_unfrozen
+QB-S-004,Quant,Modern Maths,Statistics,Statistics,Median,4,from_bible_unfrozen
+QB-S-005,Quant,Modern Maths,Statistics,Statistics,Mode,5,from_bible_unfrozen
+QB-S-006,Quant,Modern Maths,Statistics,Statistics,Mean–Median–Mode,6,from_bible_unfrozen
+QB-S-007,Quant,Modern Maths,Statistics,Statistics,Range,7,from_bible_unfrozen
+QB-S-008,Quant,Modern Maths,Statistics,Statistics,Frequency Distribution,8,from_bible_unfrozen
+QB-S-009,Quant,Modern Maths,Statistics,Statistics,Variance,9,from_bible_unfrozen
+QB-S-010,Quant,Modern Maths,Statistics,Statistics,Standard Deviation,10,from_bible_unfrozen
+QB-DI-001,Quant,DI/DS,Data Interpretation,Data Interpretation,Tables,1,from_bible_unfrozen
+QB-DI-002,Quant,DI/DS,Data Interpretation,Data Interpretation,Bar Graph,2,from_bible_unfrozen
+QB-DI-003,Quant,DI/DS,Data Interpretation,Data Interpretation,Multiple Bar,3,from_bible_unfrozen
+QB-DI-004,Quant,DI/DS,Data Interpretation,Data Interpretation,Stacked Bar,4,from_bible_unfrozen
+QB-DI-005,Quant,DI/DS,Data Interpretation,Data Interpretation,Line Graph,5,from_bible_unfrozen
+QB-DI-006,Quant,DI/DS,Data Interpretation,Data Interpretation,Multiple Line,6,from_bible_unfrozen
+QB-DI-007,Quant,DI/DS,Data Interpretation,Data Interpretation,Pie Chart,7,from_bible_unfrozen
+QB-DI-008,Quant,DI/DS,Data Interpretation,Data Interpretation,Multiple Pie,8,from_bible_unfrozen
+QB-DI-009,Quant,DI/DS,Data Interpretation,Data Interpretation,Caselet DI,9,from_bible_unfrozen
+QB-DI-010,Quant,DI/DS,Data Interpretation,Data Interpretation,Mixed DI,10,from_bible_unfrozen
+QB-DI-011,Quant,DI/DS,Data Interpretation,Data Interpretation,Missing Data,11,from_bible_unfrozen
+QB-DI-012,Quant,DI/DS,Data Interpretation,Data Interpretation,Calculation-Heavy DI,12,from_bible_unfrozen
+QB-DSQ-001,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Statement I Alone,1,from_bible_unfrozen
+QB-DSQ-002,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Statement II Alone,2,from_bible_unfrozen
+QB-DSQ-003,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Either Alone,3,from_bible_unfrozen
+QB-DSQ-004,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Both Together,4,from_bible_unfrozen
+QB-DSQ-005,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Both Insufficient,5,from_bible_unfrozen
+QB-DSQ-006,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Value-Based DS,6,from_bible_unfrozen
+QB-DSQ-007,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Yes/No DS,7,from_bible_unfrozen
+QB-DSQ-008,Quant,DI/DS,Data Sufficiency – Quant,Data Sufficiency – Quant,Three-Statement DS,8,from_bible_unfrozen
