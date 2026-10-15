@@ -1,0 +1,7 @@
+question_type_id,name,reference_code_as_supplied,reference_code_verified,replaces_old_taxonomy_id,bible_source
+QT01,Sentence Improvement,77,NO,V-GR-SIP,Bible G1 Sentence Improvement
+QT02,Multiple Sentence Improvement,79,NO,,Bible G1 subchapter 1B Multiple
+QT03,Phrase Replacement,80,NO,,Bible G2 Phrase & Segment Replacement
+QT04,Grammar Error Spotting,81,NO,V-GR-ERR,Bible G3 Error Spotting
+QT05,Fragment Continuation,84,NO,,Bible G8 Fragment & Logical Continuation
+QT06,Fill in the Blanks,85,NO,V-GR-GFB,Bible G9 Fill in the Blanks (Grammar-Function)

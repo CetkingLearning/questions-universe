@@ -1,0 +1,10 @@
+old_master_id,old_name,disposition,goes_to,note
+V-GR-SVA,Subject Verb Agreement,subchapter,V-GR-VRB-SVA,concept — now G01.01
+V-GR-VCE,Voice (Active–Passive),subchapter,V-GR-SPT-VCE,concept — now G05.02
+V-GR-SPH,Speech (Direct–Indirect),subchapter,V-GR-SPT-DIS,concept — now G05.03
+V-GR-FOS,Figures of Speech,subchapter,V-GR-SPT-FOS,concept — now G05.04
+V-GR-SIP,Sentence Improvement,question_type,QT01,FORMAT — leaves the concept tree
+V-GR-ERR,Spotting Error,question_type,QT04,FORMAT — leaves the concept tree
+V-GR-GFB,Grammar Fill in the Blanks,question_type,QT06,FORMAT — leaves the concept tree
+V-GR-POS,Parts of Speech & Modifiers,splits,,splits across G02.01 Modifiers / G02.02 Pronouns / G03.02 Conjunctions / G04 Adjectives+Adverbs — NEEDS RAV
+V-GR-UNT,Grammar (untyped),kept,V-GR-UNT,holding bucket for the 12 untyped questions
