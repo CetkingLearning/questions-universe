@@ -48,7 +48,7 @@ CAT DILR logic is a different thing from CET/NMAT reasoning, so they sit in sepa
 
 - **CAT DILR chapters have no core types yet.** The Bible stops at the 12 G Strategies. Core types arrive when Rav sorts the CAT sets. Until then a set attaches with core `000`, e.g. `L-AR-WDW-000-C-0001-Q3`.
 - **Arena buckets keep the numbers they already had:** `L-TL-COD-001` Short Letters, `L-PZ-MTX-001` Single Matrix Puzzles, `L-CR-CEF-001/002` Paragraph / Statements Based, `L-AB-CBD-001…004` Cube Placed / Folding Cube / Half Painted / Painted Cubes.
-- **CET/NMAT core types** (110) were grouped from the ~900 sub-topic labels in `pyq_question_bank`. They are numbered in a fixed teaching order inside each chapter, after the Arena ones. All are `proposed` until Rav accepts them.
+- **CET/NMAT core types** (111) were grouped from the ~900 sub-topic labels in `pyq_question_bank`. They are numbered in a fixed teaching order inside each chapter, after the Arena ones. All are `proposed` until Rav accepts them.
 - **Numbers are permanent once accepted. Retired so far (never reused): `L-TL-ALS`, `L-TL-ALS-001…003`, `L-TL-WRD`, `L-TL-WRD-001…002`.** A rejected number is retired, never reused.
 - **CAT question patterns are tags, not core types** (Rav, 15 Oct 2026). The 13 patterns from CONTENT-UNIVERSES §14 (Fixed-Answer Deductions … Necessarily True / False) go in the `question_pattern` column of every CAT DILR question.
 

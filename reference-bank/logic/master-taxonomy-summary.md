@@ -2,7 +2,7 @@
 
 ## FINAL — Rav's chapter decisions (sheet remarks, 15 Oct 2026, 5:27 AM)
 
-- **188 rows: 1 section · 9 sub-sections · 60 chapters (all decided) · 118 core types (still proposed).**
+- **189 rows: 1 section · 9 sub-sections · 60 chapters (all decided) · 119 core types (still proposed).**
 - **CAT DILR (13 chapters):** all kept as is ("Keep in CAT DILR").
 - **Traditional Logic (6 chapters):** Direction Sense, Coding-Decoding, Blood Relations, Syllogism, Alphanumeric Series, Number Series.
   - **Alphabet Series is merged into Alphanumeric Series.** `L-TL-ALS` is retired; its 3 core types became `L-TL-ANS-004…006`, and the chapter now holds 120 PYQs.
@@ -19,6 +19,17 @@
 - **Status in the SQL:** chapters are `accepted` (52) or `shared_verbal` (8 CR). Core types stay `proposed` until Rav reviews them.
 
 ---
+
+## Keyword fixes after review (15 Oct 2026, 6:10 AM)
+
+Five questions had been filed by a wrong keyword match and are now moved:
+- "Prejudice-Based Arguments" was in Dice, because "Prejudice" contains "dice" → Statement Arguments, new core type `L-CR-SAR-001` (→ `V-CR-ARG-001`).
+- "Handshakes nC2" was in Clock Hands, because it contains "Hands" → Quant P&C.
+- "Two Dice Sum" → Quant Probability.
+- "Identical Objects Distinct Boxes" → Quant P&C.
+- "Maximise Revenue Room Allocation" → Quant.
+
+New rule: a Quant-topic question is never pulled into a Logic chapter by keyword. Totals are now 119 core types, 1,215 PYQs in core types and 93 pointed to Quant.
 
 # v2 build notes (15 Oct 2026, 4:30 AM)
 
@@ -57,18 +68,18 @@ Files:
 | `L-PZ` Puzzles | CET/NMAT | 10 | 15 | 191 | – |
 | `L-CR` Critical Reasoning | CET/NMAT | 8 | 7 | 61 | – |
 | `L-AB` Abstract Reasoning | CET Abstract | 10 | 30 | 337 | – |
-| **Total** | | **61** | **118** | **1,715** | **854** |
+| **Total** | | **61** | **118** | **1,710** | **854** |
 
 - **From the Bible:** section + the 4 CAT Types + the 12 G Strategy chapters (17 rows, status `from_bible_unfrozen`).
-- **Proposed** (172 rows): 5 sub-sections, 49 chapters, 118 core types.
-- **The 118 core types:**
+- **Proposed** (172 rows): 5 sub-sections, 49 chapters, 119 core types.
+- **The 119 core types:**
   - 8 are existing Arena question buckets. They keep their numbers.
-  - 110 were grouped by Claude from the PYQ sub-topic labels. Each core-type row lists the raw sub-topics it holds in `merge_notes`.
+  - 111 were grouped by Claude from the PYQ sub-topic labels. Each core-type row lists the raw sub-topics it holds in `merge_notes`.
 - **New CET/NMAT chapters** found only in the PYQ bank: Alphabet Series (78), Word Formation (12), Data Sufficiency (40), Selection & Grouping (15). New Abstract chapters: Figure Classification (67), Figure Analogy (30), Embedded Figures (7).
 - **The 1,848 CET/NMAT PYQs:**
-  - 1,220 are placed in a core type.
+  - 1,215 are placed in a core type.
   - 495 are placed at chapter level: 493 have no sub-topic, 2 have a one-off label.
-  - 88 are Quant topics, pointed to the Quant master: DI tables / caselet DI 14, TSD 11, P&C 7, equations 7, numbers 7, ratios 7, ages 6, others.
+  - 93 are Quant topics, pointed to the Quant master: DI tables / caselet DI 14, TSD 11, P&C 7, equations 7, numbers 7, ratios 7, ages 6, others.
   - 45 still need sorting by eye. They are filed as "Other LR / Other AR" with no usable label.
 - **CAT DILR:** 854 actual-CAT rows.
   - 405 are placed in a chapter.
