@@ -26,10 +26,12 @@ Difficulty is judged by the **reasoning required**, not by big numbers, long wor
 
 ## Options rule (Ravneet, 15 Oct 2026)
 These questions serve every exam, so the number of options changes by level:
-- **Level 0, Easy, Medium → five options A–E** (CET / NMAT / SNAP pattern)
+- **Level 0 → two options A, B only** (Ravneet, 15 Oct 2026). Level 0 checks whether the bare idea has landed, so it is a straight either/or: the right answer and the one misconception that matters. `option_c`, `option_d`, `option_e` stay empty. Whoever builds a register or a worksheet from it reduces or renames nothing — the two options are already what he needs.
+- **Easy, Medium → five options A–E** (CET / NMAT / SNAP pattern)
 - **Hard and CAT level → four options A–D** (CAT pattern)
 - **TITA only at CAT level** (Ravneet, 15 Oct 2026). Level 0, Easy, Medium and Hard are all multiple choice — no TITA anywhere below CAT level.
 Exactly one option is correct. Equivalent forms must never compete (e.g. $\sqrt{45}$ and $3\sqrt{5}$).
+The Level 0 distractor is never a careless-arithmetic slip — it is the single wrong idea a student actually holds (sign dropped, place value reversed, divided instead of multiplied). `option_mistakes` carries one entry only.
 
 ## Exam scope on every question
 - `exam_scope = CET` → Level 0, Easy, Medium. A CET student's bank must be complete without anything above Medium.

@@ -16,8 +16,9 @@ Every real CAT question in `cat-universe/` is the top of a ladder. Rajat builds 
 3. Each rung must be genuinely simpler in *idea*, not just smaller numbers. A number change is a variant, not a new level.
 4. Naming is fixed: `Level 0`, `Easy`, `Medium`, `Hard`, `CAT level` — in `questions.csv` use `difficulty_level` = zero / easy / medium / hard / cat.
 5. Same chapter names students know (Equations, Interest, Averages…). Core Type and DNA cell (`difficulty_dna`) are still filled where the chapter has a frozen taxonomy; if it doesn't yet (Equations), leave `core_type` blank and Ravneet will freeze it from the ladders you build.
-6. Every rung needs: stem, options (MCQ) or numeric answer (TITA), full solution with the answer verified, shortcut line, `concept_note` saying which concepts it combines, `source_type = original`, `status = draft`.
-7. Output goes in `chapters/<chapter>/questions.csv` on a branch → pull request. Ravneet and Claude audit; nothing is live until Ravneet approves.
+6. **Options by level** (Ravneet, 15 Oct 2026): **Level 0 → two options A, B only** (right answer + the one misconception that matters; `option_c/d/e` empty). **Easy, Medium → five options A–E**. **Hard, CAT level → four options A–D**. **TITA only at CAT level** — everything below it is multiple choice.
+7. Every rung needs: stem, options (MCQ) or numeric answer (TITA), full solution with the answer verified, shortcut line, `concept_note` saying which concepts it combines, `source_type = original`, `status = draft`.
+8. Output goes in `chapters/<chapter>/questions.csv` on a branch → pull request. Ravneet and Claude audit; nothing is live until Ravneet approves.
 
 ## Starting chapter
 **Equations** — CAT questions are in `cat-universe/quant/algebra/equations.csv` and `cat-universe/quant/algebra/quadratic-equations.csv`. Begin with `is_actual_cat = true` rows, most recent year first.
