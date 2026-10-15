@@ -9,10 +9,10 @@
 - **Modern Logic (13 chapters):** the 12 already there, plus **Word Formation moved in from Traditional Logic** (`L-TL-WRD` → `L-ML-WRD`).
 - **Puzzles (10 chapters):** all accepted.
 - **Critical Reasoning (8 chapters): shared with Verbal > Critical Reasoning.**
-  - Questions take the Verbal `V-CR` id: 7 chapters, each with Single Statements `-001` and Passage based `-002`.
+  - Questions take the Verbal `V-CR` id: 8 chapters, each with Single Statements `-001` and Passage based `-002`.
   - The `L-CR` rows keep only the CET names, with `shared_with` pointing to the Verbal id.
   - Statement Conclusions and Truth Claim Conclusions both point to `V-CR-TRC`.
-  - **Assertion Reasoning has no Verbal chapter yet**, so it stays `L-CR-ASR`.
+  - **Assertion Reasoning → `V-CR-ASR`**, added to Verbal as the 8th CR chapter (Rav, 15 Oct 2026: CET / other exams, not CAT).
 - **Abstract Reasoning (10 chapters), two groups** (column `group`):
   - **Traditional Abstract:** Series & Patterns (renamed), Abstract Odd Man Out (was Figure Classification), Abstract Analogies (was Figure Analogy).
   - **Modern Abstract:** Mirror & Water Image, Paper Folding & Cutting, Figure Counting, Dot Concept, Figure Completion, Cubes & Dice, Embedded Figures.

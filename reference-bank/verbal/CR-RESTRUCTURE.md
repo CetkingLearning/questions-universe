@@ -75,3 +75,15 @@ they had been provisionally mapped to.
   Veda/Shabda/Tarka cards, or roughly a hundred questions get silently collapsed away.
 - The Google Sheet still shows the old 9-chapter CR. Ravneet said he will update the sheet himself at
   the end; `master-taxonomy.csv` and `chapters.csv` here are already the new shape.
+
+## 8th chapter — Assertion Reasoning (Rav, 15 Oct 2026, 5:45 AM)
+
+"Please add verbal critical reasoning, 8th chapter, assertion reasoning. This is especially important for CET and other exams, not for the CAT exam."
+
+| Chapter | Single Statements | Passage based |
+|---|---|---|
+| Assertion Reasoning | `V-CR-ASR-001` | `V-CR-ASR-002` |
+
+- Added to `public.verbal_master_taxonomy` in Supabase (3 rows, sort_order 131–133, `exams` = MBA CET · NMAT · other non-CAT exams). Control Room change request `0c52c68d…`; SQL in `verbal_cr_add_assertion_reasoning.sql`.
+- The Logic master's CET Critical Reasoning shares this taxonomy: `L-CR-ASR` → `V-CR-ASR` (the 10 CET/NMAT Assertion–Reason PYQs are Single Statements → `V-CR-ASR-001`).
+- CR is now **8 chapters × 2 core types = 16**.
