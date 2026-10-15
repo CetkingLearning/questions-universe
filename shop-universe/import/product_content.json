@@ -1,0 +1,5343 @@
+[
+ {
+  "wc_id": 69,
+  "tagline": "Seven days to walk into your interview ready.",
+  "exam_label": "GDPI",
+  "highlights": [
+   {
+    "value": "7",
+    "label": "day GD WAT PI plan"
+   },
+   {
+    "value": "10",
+    "label": "interview skill workshops"
+   },
+   {
+    "value": "6",
+    "label": "WAT writing sessions"
+   }
+  ],
+  "included": [
+   {
+    "icon": "calendar",
+    "title": "7-day syllabus",
+    "text": "Past, future and present PI, WAT and SOP workshop, case studies, current affairs and technical knowledge, one theme a day."
+   },
+   {
+    "icon": "video",
+    "title": "Interview workshops",
+    "text": "10 recorded workshops that build interview skills."
+   },
+   {
+    "icon": "video",
+    "title": "WAT writing sessions",
+    "text": "6 recorded sessions on WAT writing skills."
+   },
+   {
+    "icon": "pdf",
+    "title": "SOP and WAT practice",
+    "text": "Practice material for SOP writing and WAT."
+   },
+   {
+    "icon": "live",
+    "title": "Group exercises",
+    "text": "Group exercise and case study sessions."
+   },
+   {
+    "icon": "chat",
+    "title": "WhatsApp group",
+    "text": "A dedicated WhatsApp group for GDPI preparation."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "10 interview workshops, 6 WAT sessions (recorded)",
+   "books": null,
+   "live_classes": null,
+   "gdpi": "7-day GD, WAT and PI programme; live PI not included",
+   "validity": "Till your interview date",
+   "mode": "Online"
+  },
+  "who_for": "Candidates with a call who want a structured first week of GDPI preparation.",
+  "validity": "Till your interview date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Is a live personal interview included?",
+    "a": "No. Live PI is not included. It can be added pay as you go, charged per interview."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till your interview date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GDPI",
+  "visual_theme": "gdpi",
+  "source_note": "Live PI add-on rate stated in description is omitted (no prices in content)."
+ },
+ {
+  "wc_id": 107,
+  "tagline": "Seven advanced books. Quant, Verbal, DILR.",
+  "exam_label": "CAT and XAT",
+  "highlights": [
+   {
+    "value": "7",
+    "label": "advanced books"
+   },
+   {
+    "value": "3",
+    "label": "Verbal books"
+   },
+   {
+    "value": "2",
+    "label": "Quant books"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Quant books 1 and 2",
+    "text": "Number system, functions, algebra, geometry, mensuration, time distance work and permutation combination probability."
+   },
+   {
+    "icon": "book",
+    "title": "Verbal books 3, 4 and 5",
+    "text": "Coherent paragraph, odd sentence, summary, vocabulary, grammar, critical reasoning and reading comprehension."
+   },
+   {
+    "icon": "book",
+    "title": "DI and Logic books 6 and 7",
+    "text": "Line, bar and pie charts, caselets, data sufficiency, logical and analytical reasoning, and the new DILR pattern."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Lavender advance set of 7 books (Quant 2, Verbal 3, DI and Logic 2)",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "CAT and XAT aspirants who have finished the basics and want advanced practice.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "What is in the pack?",
+    "a": "Seven Lavender advance books: two Quant, three Verbal and two DI and Logic."
+   },
+   {
+    "q": "Which exams is it for?",
+    "a": "It is ideally suited for CAT and XAT."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Description is one line; details taken from short description. Year and delivery time not stated."
+ },
+ {
+  "wc_id": 110,
+  "tagline": "Thirty CAT mocks. Plus every past paper.",
+  "exam_label": "CAT 2026",
+  "highlights": [
+   {
+    "value": "30",
+    "label": "full-length CAT mocks"
+   },
+   {
+    "value": "24",
+    "label": "sectional tests"
+   },
+   {
+    "value": "23",
+    "label": "actual CAT papers"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "30 full-length mocks",
+    "text": "CAT mocks with detailed solutions, analytics and percentile predictions."
+   },
+   {
+    "icon": "test",
+    "title": "24 sectional tests",
+    "text": "Full-length sectional practice for VARC, DILR and QA."
+   },
+   {
+    "icon": "test",
+    "title": "23 actual CAT papers",
+    "text": "Past papers from 2024 to 2017, to benchmark your performance."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise PYQ tests",
+    "text": "28 Quant, 31 Verbal and 20 DILR tests built from past CAT questions."
+   },
+   {
+    "icon": "mock",
+    "title": "36 baby mocks",
+    "text": "G-Strategy based short mocks across Quant, DILR and Verbal."
+   },
+   {
+    "icon": "chat",
+    "title": "Login by email",
+    "text": "Login credentials reach you by email within 24 hours."
+   }
+  ],
+  "features": {
+   "mocks": "30 full-length + 24 sectional + 23 actual papers",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till CAT 2026 exam",
+   "mode": "Online"
+  },
+  "who_for": "CAT aspirants, working professionals and repeaters who want method and practice in one place.",
+  "validity": "Till CAT 2026 exam",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is access valid?",
+    "a": "Access stays active until the CAT 2026 exam."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CAT",
+  "visual_theme": "cat",
+  "source_note": "Description text also says 'CAT 2025 Aspirants' (stale wording)."
+ },
+ {
+  "wc_id": 112,
+  "tagline": "Five full XAT mocks. A sharper exam-day plan.",
+  "exam_label": "XAT",
+  "highlights": [
+   {
+    "value": "5",
+    "label": "XAT full mocks"
+   },
+   {
+    "value": "5",
+    "label": "Decision Making tests"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "5 XAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Decision Making tests",
+    "text": "5 tests on the XAT Decision Making section."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "5 XAT full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Online"
+  },
+  "who_for": "XAT aspirants who want mock practice and topic-wise drills.",
+  "validity": null,
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Which tests are included?",
+    "a": "5 XAT full-length mocks, 5 Decision Making tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Can I take the tests on my phone?",
+    "a": "Yes. Tests run in the cloud and can be taken on a laptop, mobile, iPad or the Cetking app."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "XAT",
+  "visual_theme": "xat",
+  "source_note": "Exam year and validity not stated; the schedule note refers to December 15."
+ },
+ {
+  "wc_id": 115,
+  "tagline": "Seven IIFT mocks. GK and current affairs built in.",
+  "exam_label": "IIFT",
+  "highlights": [
+   {
+    "value": "7",
+    "label": "IIFT full mocks"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   },
+   {
+    "value": "20",
+    "label": "Static GK tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "7 IIFT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "chat",
+    "title": "24x7 doubt solving",
+    "text": "Peer-to-peer doubt groups where you post a question and get solutions."
+   }
+  ],
+  "features": {
+   "mocks": "7 IIFT full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "IIFT aspirants who want mocks with GK and current affairs practice.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How are doubts solved?",
+    "a": "Dedicated groups run 24x7. You post a question and get solutions through peer-to-peer interaction."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "IBSAT_IIFT",
+  "visual_theme": "ibsat",
+  "source_note": "Exam year not stated."
+ },
+ {
+  "wc_id": 116,
+  "tagline": "Twenty SNAP mocks. Test day, rehearsed.",
+  "exam_label": "SNAP 2026",
+  "highlights": [
+   {
+    "value": "20",
+    "label": "SNAP full mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "65",
+    "label": "Verbal topic tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "20 SNAP mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "20 SNAP full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "SNAP aspirants who want a full season of mock practice.",
+  "validity": "Till exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the SNAP exam date in 2026."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "SNAP",
+  "visual_theme": "snap",
+  "source_note": null
+ },
+ {
+  "wc_id": 117,
+  "tagline": "Two CMAT Bibles. Awareness and Innovation, in PDF.",
+  "exam_label": "CMAT 2027",
+  "highlights": [
+   {
+    "value": "2",
+    "label": "PDF Bibles"
+   },
+   {
+    "value": "1",
+    "label": "CMAT 2027 study plan"
+   },
+   {
+    "value": "2027",
+    "label": "valid till exam"
+   }
+  ],
+  "included": [
+   {
+    "icon": "pdf",
+    "title": "Innovation and Entrepreneurship Bible",
+    "text": "A PDF Bible for the CMAT Innovation and Entrepreneurship section."
+   },
+   {
+    "icon": "pdf",
+    "title": "General Awareness Bible",
+    "text": "A PDF Bible for CMAT general awareness."
+   },
+   {
+    "icon": "calendar",
+    "title": "CMAT 2027 study plan",
+    "text": "A downloadable study plan for CMAT 2027."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "2 PDF Bibles (Innovation and Entrepreneurship, General Awareness)",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2027",
+   "mode": "Online (PDF)"
+  },
+  "who_for": "CMAT 2027 aspirants who need focused material for awareness and innovation.",
+  "validity": "Till exam date 2027",
+  "mode": "Online (PDF)",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "Are these printed books?",
+    "a": "No. Both Bibles are PDFs."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Study plan inferred from the 'Download plan' line in description."
+ },
+ {
+  "wc_id": 118,
+  "tagline": "Five MAT mocks. Plus GK, in one pack.",
+  "exam_label": "MAT 2026",
+  "highlights": [
+   {
+    "value": "5",
+    "label": "MAT full mocks"
+   },
+   {
+    "value": "20",
+    "label": "Static GK tests"
+   },
+   {
+    "value": "100",
+    "label": "Reasoning tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "5 MAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Static GK tests",
+    "text": "20 Static GK tests."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "5 MAT full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "MAT aspirants who want mocks and topic-wise practice.",
+  "validity": "Till exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date in 2026."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "5 MAT full-length mocks, 20 Static GK tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MAT",
+  "visual_theme": "mat",
+  "source_note": null
+ },
+ {
+  "wc_id": 119,
+  "tagline": "Ten TISS-NET mocks. GK and current affairs included.",
+  "exam_label": "TISS-NET",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "TISS-NET full mocks"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   },
+   {
+    "value": "20",
+    "label": "Static GK tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "10 TISS-NET mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "10 TISS-NET full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "TISS-NET aspirants who want mocks with GK and current affairs practice.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 TISS-NET full-length mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "TISS",
+  "visual_theme": "tiss",
+  "source_note": "Exam year not stated."
+ },
+ {
+  "wc_id": 120,
+  "tagline": "Ten NMAT mocks. Twenty sectional tests.",
+  "exam_label": "NMAT 2026",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "NMAT full mocks"
+   },
+   {
+    "value": "20",
+    "label": "sectional tests"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "10 NMAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "20 sectional tests",
+    "text": "Sectional practice for each NMAT section."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "10 NMAT full-length mocks + 20 sectional tests",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "NMAT aspirants who want section-wise and full-length practice.",
+  "validity": "Till exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the NMAT exam date in 2026."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "NMAT",
+  "visual_theme": "nmat",
+  "source_note": null
+ },
+ {
+  "wc_id": 121,
+  "tagline": "Ten GRE mocks. Quant, Reasoning, Verbal drills.",
+  "exam_label": "GRE",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "GRE full mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "65",
+    "label": "Verbal topic tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "10 GRE mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "10 GRE full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "GRE aspirants who want mock practice with topic-wise drills.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 GRE full-length mocks and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GMAT_GRE",
+  "visual_theme": "gmat",
+  "source_note": "Exam year not stated."
+ },
+ {
+  "wc_id": 125,
+  "tagline": "Five IBSAT mocks. Doubts answered all day.",
+  "exam_label": "IBSAT",
+  "highlights": [
+   {
+    "value": "5",
+    "label": "IBSAT full mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "24x7",
+    "label": "doubt solving groups"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "5 IBSAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   },
+   {
+    "icon": "chat",
+    "title": "24x7 doubt solving",
+    "text": "Peer-to-peer doubt groups where you post a question and get solutions."
+   }
+  ],
+  "features": {
+   "mocks": "5 IBSAT full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "IBSAT aspirants who want mocks with round-the-clock doubt support.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How are doubts solved?",
+    "a": "Dedicated groups run 24x7. You post a question and get solutions through peer-to-peer interaction."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "IBSAT_IIFT",
+  "visual_theme": "ibsat",
+  "source_note": "Exam year not stated."
+ },
+ {
+  "wc_id": 134,
+  "tagline": "IBSAT concepts, shortcuts and mocks. One program.",
+  "exam_label": "IBSAT",
+  "highlights": [
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   },
+   {
+    "value": "5",
+    "label": "IBSAT full mocks"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "5 IBSAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   }
+  ],
+  "features": {
+   "mocks": "5 IBSAT full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "IBSAT aspirants who want to learn the concepts and shortcuts before taking mocks.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How are doubts solved?",
+    "a": "Dedicated groups run 24x7 with peer-to-peer solutions."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "IBSAT_IIFT",
+  "visual_theme": "ibsat",
+  "source_note": "Exam year not stated."
+ },
+ {
+  "wc_id": 135,
+  "tagline": "IIFT basics, shortcuts and seven mocks together.",
+  "exam_label": "IIFT",
+  "highlights": [
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   },
+   {
+    "value": "7",
+    "label": "IIFT full mocks"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "7 IIFT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "7 IIFT full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "IIFT aspirants who want concepts, shortcuts and mocks in one place.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "IBSAT_IIFT",
+  "visual_theme": "ibsat",
+  "source_note": "Exam year not stated."
+ },
+ {
+  "wc_id": 137,
+  "tagline": "MAT shortcuts and mocks. Learn it, then test it.",
+  "exam_label": "MAT 2026",
+  "highlights": [
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   },
+   {
+    "value": "5",
+    "label": "MAT full mocks"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "5 MAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   }
+  ],
+  "features": {
+   "mocks": "5 MAT full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam 2026",
+   "mode": "Online"
+  },
+  "who_for": "MAT aspirants who want to build concepts and shortcuts alongside mocks.",
+  "validity": "Till exam 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam in 2026."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MAT",
+  "visual_theme": "mat",
+  "source_note": null
+ },
+ {
+  "wc_id": 139,
+  "tagline": "NMAT masterclass, shortcuts and ten full mocks.",
+  "exam_label": "NMAT 2026",
+  "highlights": [
+   {
+    "value": "100+",
+    "label": "video lectures"
+   },
+   {
+    "value": "100+",
+    "label": "shortcut workshops"
+   },
+   {
+    "value": "10",
+    "label": "NMAT full mocks"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "MasterClass workshops",
+    "text": "Workshops included in the Turbo program."
+   },
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "100+ video lectures for basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "100+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "10 NMAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   }
+  ],
+  "features": {
+   "mocks": "10 NMAT full-length mocks",
+   "videos": "100+ basic video lectures; 100+ shortcut workshops; MasterClass workshops",
+   "books": "Not included",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "NMAT aspirants who want concepts, shortcuts and mocks without printed books.",
+  "validity": "Till exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Are books included?",
+    "a": "No. Books are not included."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "NMAT",
+  "visual_theme": "nmat",
+  "source_note": null
+ },
+ {
+  "wc_id": 140,
+  "tagline": "SNAP shortcuts, twenty mocks and a Yellow book set.",
+  "exam_label": "SNAP 2026",
+  "highlights": [
+   {
+    "value": "20",
+    "label": "SNAP full mocks"
+   },
+   {
+    "value": "12",
+    "label": "Yellow books"
+   },
+   {
+    "value": "Live",
+    "label": "plus recorded lectures"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Concept lectures",
+    "text": "Concept lectures and shortcut workshops, available to view any time."
+   },
+   {
+    "icon": "live",
+    "title": "Live and recorded lectures",
+    "text": "Attend live, or watch the recording later."
+   },
+   {
+    "icon": "mock",
+    "title": "20 SNAP mocks",
+    "text": "Full-length mocks, updated as per the new pattern."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "book",
+    "title": "Yellow book set",
+    "text": "One set of 12 Yellow books."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "20 SNAP full-length mocks",
+   "videos": "Concept lectures and shortcut workshops (live and recorded)",
+   "books": "1 set of 12 Yellow books",
+   "live_classes": "Live lectures plus recordings",
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "SNAP aspirants who want lectures, mocks and printed books together.",
+  "validity": "Till exam date 2026",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "Which books are included?",
+    "a": "One set of 12 Yellow books."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "SNAP",
+  "visual_theme": "snap",
+  "source_note": "Mock update note says 'new pattern 2020' (stale); lecture counts not stated; courier time not stated."
+ },
+ {
+  "wc_id": 141,
+  "tagline": "TISS shortcuts and mocks, ready for TISS-NET.",
+  "exam_label": "TISS-NET",
+  "highlights": [
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "TISS-NET mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests, plus 20 Static GK and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship and WhatsApp",
+    "text": "A mentorship program and a WhatsApp group are part of the package."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   }
+  ],
+  "features": {
+   "mocks": "TISS-NET full-length mocks (number not stated)",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till TISS exam date",
+   "mode": "Online"
+  },
+  "who_for": "TISS aspirants who want concepts, shortcuts and mocks in one program.",
+  "validity": "Till TISS exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the TISS exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "TISS",
+  "visual_theme": "tiss",
+  "source_note": "Number of TISS-NET mocks not stated in description."
+ },
+ {
+  "wc_id": 142,
+  "tagline": "XAT concepts, shortcuts and decision making in one.",
+  "exam_label": "XAT 2026",
+  "highlights": [
+   {
+    "value": "5",
+    "label": "XAT full mocks"
+   },
+   {
+    "value": "5",
+    "label": "Decision Making tests"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "5 XAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Decision Making and GK",
+    "text": "5 Decision Making tests, 20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "5 XAT full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "XAT aspirants who want concepts, shortcuts and mocks in one program.",
+  "validity": "Till exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "Which extra tests are included?",
+    "a": "5 Decision Making tests, 20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "XAT",
+  "visual_theme": "xat",
+  "source_note": null
+ },
+ {
+  "wc_id": 143,
+  "tagline": "Every MBA exam. One mock centre.",
+  "exam_label": "All MBA exams",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "MBA exams covered"
+   },
+   {
+    "value": "30",
+    "label": "CAT full mocks"
+   },
+   {
+    "value": "45",
+    "label": "CET full mocks"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "Mocks for ten exams",
+    "text": "CAT, CET, XAT, IIFT, NMAT, SNAP, MAT, IBSAT, ATMA and CMAT full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Sectional and subjective",
+    "text": "20 sectional tests and 10 subjective tests."
+   },
+   {
+    "icon": "pdf",
+    "title": "Actual CAT papers",
+    "text": "16 actual CAT papers online."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "GK and current affairs practice."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   }
+  ],
+  "features": {
+   "mocks": "30 CAT, 45 CET, 5 XAT, 7 IIFT, 10 NMAT, 20 SNAP, 5 MAT, 5 IBSAT, 4 ATMA, 10 CMAT full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till April 2027",
+   "mode": "Online"
+  },
+  "who_for": "Aspirants who are applying to several MBA exams and want one mock subscription.",
+  "validity": "Till April 2027",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Which exams are covered?",
+    "a": "CAT, CET, XAT, IIFT, NMAT, SNAP, MAT, IBSAT, ATMA and CMAT."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "The program is valid till April 2027."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MOCKS",
+  "visual_theme": "mocks",
+  "source_note": null
+ },
+ {
+  "wc_id": 155,
+  "tagline": "SBI shortcuts, concepts and twenty mocks.",
+  "exam_label": "SBI",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "SBI prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "SBI aspirants who want concepts, shortcuts and mocks in one program.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": null
+ },
+ {
+  "wc_id": 156,
+  "tagline": "IBPS shortcuts, concepts and twenty mocks.",
+  "exam_label": "IBPS",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "IBPS prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "IBPS aspirants who want concepts, shortcuts and mocks in one program.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": null
+ },
+ {
+  "wc_id": 157,
+  "tagline": "SSC CGL concepts, shortcuts and mocks together.",
+  "exam_label": "SSC CGL",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "SSC CGL prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "SSC CGL aspirants who want concepts, shortcuts and mocks in one program.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": "Description carries old SSC CGL 2018 dates; ignored."
+ },
+ {
+  "wc_id": 158,
+  "tagline": "Railways exams: concepts, shortcuts, mocks.",
+  "exam_label": "Railways",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "Railways prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "Railways aspirants who want concepts, shortcuts and mocks in one program.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": "Specific Railways exam not named."
+ },
+ {
+  "wc_id": 159,
+  "tagline": "Ten prelims, ten mains. SBI mock practice.",
+  "exam_label": "SBI",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "SBI prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "SBI aspirants who want a full set of prelims and mains mocks.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 prelims and 10 mains mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": "Description says validity till exam date 2021 (outdated); exam year left out."
+ },
+ {
+  "wc_id": 160,
+  "tagline": "Ten prelims, ten mains. IBPS mock practice.",
+  "exam_label": "IBPS",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "IBPS prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "IBPS aspirants who want a full set of prelims and mains mocks.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 prelims and 10 mains mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": null
+ },
+ {
+  "wc_id": 161,
+  "tagline": "SSC CGL mocks for both prelims and mains.",
+  "exam_label": "SSC CGL",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "SSC CGL prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "SSC CGL aspirants who want a full set of prelims and mains mocks.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 prelims and 10 mains mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": null
+ },
+ {
+  "wc_id": 162,
+  "tagline": "Railways mock practice, prelims to mains.",
+  "exam_label": "Railways",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "Railways prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "Railways aspirants who want a full set of prelims and mains mocks.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 prelims and 10 mains mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": "Specific Railways exam not named."
+ },
+ {
+  "wc_id": 163,
+  "tagline": "Air Force mocks. Twenty full-length papers.",
+  "exam_label": "Air Force",
+  "highlights": [
+   {
+    "value": "10+10",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "Air Force prelims and mains",
+    "text": "10 prelims and 10 mains full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "Air Force aspirants who want a full set of prelims and mains mocks.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How long is it valid?",
+    "a": "Till exam date."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "10 prelims and 10 mains mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": null
+ },
+ {
+  "wc_id": 164,
+  "tagline": "Four govt exam families. One full pack.",
+  "exam_label": "SBI, IBPS, SSC, Railways",
+  "highlights": [
+   {
+    "value": "4",
+    "label": "exam families"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "Mocks for four exams",
+    "text": "10 prelims and 10 mains mocks each for SBI, IBPS, SSC and Railways."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "10 prelims + 10 mains full-length mocks each for SBI, IBPS, SSC and Railways",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "Government exam aspirants who are preparing for banking, SSC and Railways together.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Which exams are covered?",
+    "a": "SBI, IBPS, SSC and Railways."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": null
+ },
+ {
+  "wc_id": 183,
+  "tagline": "SBI PO, fast. Concepts, shortcuts, twenty-five mocks.",
+  "exam_label": "SBI PO",
+  "highlights": [
+   {
+    "value": "15",
+    "label": "prelims mocks"
+   },
+   {
+    "value": "10",
+    "label": "mains mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "Prelims and mains mocks",
+    "text": "15 full-length prelims mocks and 10 mains mocks."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "15 full-length prelims + 10 mains mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "SBI PO aspirants who need a quick, complete round of preparation.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "Which tests are included?",
+    "a": "15 prelims mocks, 10 mains mocks, 20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": "Description is empty; built from short description. Source says valid till exam date 2021 (outdated), year omitted."
+ },
+ {
+  "wc_id": 3811,
+  "tagline": "Four ATMA mocks. GK and current affairs added.",
+  "exam_label": "ATMA 2026",
+  "highlights": [
+   {
+    "value": "4",
+    "label": "ATMA full mocks"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   },
+   {
+    "value": "20",
+    "label": "Static GK tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "4 ATMA mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "4 ATMA full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "ATMA aspirants who want mocks with GK and current affairs practice.",
+  "validity": "Till exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the ATMA exam date in 2026."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "OTHER",
+  "visual_theme": "other",
+  "source_note": "Description refers to the MAT paper pattern (likely copy-paste)."
+ },
+ {
+  "wc_id": 3814,
+  "tagline": "ATMA concepts, shortcuts and four mocks, together.",
+  "exam_label": "ATMA 2026",
+  "highlights": [
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   },
+   {
+    "value": "4",
+    "label": "ATMA full mocks"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "4 ATMA mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   }
+  ],
+  "features": {
+   "mocks": "4 ATMA full-length mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam 2026",
+   "mode": "Online"
+  },
+  "who_for": "ATMA aspirants who want to learn concepts and shortcuts alongside mocks.",
+  "validity": "Till exam 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "OTHER",
+  "visual_theme": "other",
+  "source_note": "Description refers to the MAT paper pattern (likely copy-paste)."
+ },
+ {
+  "wc_id": 3825,
+  "tagline": "JBIMS MSc Finance GDPI, prepared in ten parts.",
+  "exam_label": "JBIMS MSc Finance GDPI",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "PI prep workshops"
+   },
+   {
+    "value": "10",
+    "label": "finance workshops"
+   },
+   {
+    "value": "2",
+    "label": "telephonic interviews"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "PI prep workshops",
+    "text": "10 workshops on personal interview preparation."
+   },
+   {
+    "icon": "video",
+    "title": "Finance workshops",
+    "text": "10 workshops on finance knowledge."
+   },
+   {
+    "icon": "interview",
+    "title": "Telephonic interviews",
+    "text": "2 telephonic interviews."
+   },
+   {
+    "icon": "calendar",
+    "title": "10-part agenda",
+    "text": "Profile building, work experience, group activity, interview skills, WAT and SOP, JBIMS and MSc Finance knowledge."
+   },
+   {
+    "icon": "video",
+    "title": "Any-time access",
+    "text": "All workshops are available to view any time, 24 hours a day."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "10 PI prep workshops; 10 finance workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": "2 telephonic interviews",
+   "validity": "This exam only",
+   "mode": "Online"
+  },
+  "who_for": "Candidates preparing for the JBIMS Sydenham MSc Finance admission process.",
+  "validity": "This exam only",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How many mock interviews are included?",
+    "a": "Two telephonic interviews are included."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "The program is valid for this exam only."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GDPI",
+  "visual_theme": "gdpi",
+  "source_note": "Description also holds old cutoffs, placement figures and weightage; not used. Workshops listed twice (finance x2) in source."
+ },
+ {
+  "wc_id": 4877,
+  "tagline": "JBIMS HR admissions, covered across all ten aspects.",
+  "exam_label": "JBIMS HR (MHRD)",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "WAT workshops"
+   },
+   {
+    "value": "10",
+    "label": "interview workshops"
+   },
+   {
+    "value": "6",
+    "label": "SOP workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "SOP workshops",
+    "text": "6 online workshops on SOP writing, with sample SOPs."
+   },
+   {
+    "icon": "video",
+    "title": "WAT workshops",
+    "text": "10 online workshops on WAT writing, with sample WATs."
+   },
+   {
+    "icon": "interview",
+    "title": "Interview workshops",
+    "text": "10 online interview workshops and answers to major PI questions."
+   },
+   {
+    "icon": "interview",
+    "title": "PI mock",
+    "text": "A PI mock by telephone or in class."
+   },
+   {
+    "icon": "live",
+    "title": "Group activity workshops",
+    "text": "6 online workshops on group activities, plus case studies and group discussions in class."
+   },
+   {
+    "icon": "calendar",
+    "title": "Ten-part coverage",
+    "text": "Profile building, work experience, group activity, interview skills, WAT and SOP, and knowledge of JBIMS."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "6 SOP, 10 WAT, 10 interview and 6 group activity workshops (online)",
+   "books": null,
+   "live_classes": null,
+   "gdpi": "PI mock by telephone or in class",
+   "validity": null,
+   "mode": "Online + classroom"
+  },
+  "who_for": "Candidates preparing for the JBIMS HR (MHRD) admission process.",
+  "validity": null,
+  "mode": "Online + classroom",
+  "faqs": [
+   {
+    "q": "What does the HR focus cover?",
+    "a": "Special focus on human behaviour, group dynamics and individual behaviour."
+   },
+   {
+    "q": "Are sample SOPs and WATs provided?",
+    "a": "Yes. Sample SOPs and sample WATs are provided to students."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GDPI",
+  "visual_theme": "gdpi",
+  "source_note": "Description refers to 2019-2021 / 2020-2022 admissions (outdated); fee table and cutoffs not used; validity not stated."
+ },
+ {
+  "wc_id": 6399,
+  "tagline": "TISS mocks and twelve Yellow books, delivered.",
+  "exam_label": "TISS-NET",
+  "highlights": [
+   {
+    "value": "8",
+    "label": "TISS-NET mocks"
+   },
+   {
+    "value": "12",
+    "label": "Yellow books"
+   },
+   {
+    "value": "300+",
+    "label": "topic-wise tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "8 TISS-NET mocks",
+    "text": "Updated TISS-NET mocks."
+   },
+   {
+    "icon": "mock",
+    "title": "5 TISSMAT mocks",
+    "text": "Five more mocks listed as TISSMAT."
+   },
+   {
+    "icon": "test",
+    "title": "300+ topic-wise tests",
+    "text": "Topic-wise practice."
+   },
+   {
+    "icon": "book",
+    "title": "Yellow books",
+    "text": "A package of 12 Yellow books, made for non-CAT exams."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books are expected in 3 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": "8 TISS-NET mocks + 5 TISSMAT mocks",
+   "videos": null,
+   "books": "1 package of 12 Yellow books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Online + books by courier"
+  },
+  "who_for": "TISS aspirants who want mocks and printed non-CAT books together.",
+  "validity": null,
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "How long does delivery take?",
+    "a": "Expected delivery time is 3 to 5 working days."
+   },
+   {
+    "q": "Which exams do Yellow books serve?",
+    "a": "Yellow books are dedicated books for non-CAT exams such as SNAP, NMAT, IIFT, CMAT, TISS, MAT, ATMA and CET."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "TISS",
+  "visual_theme": "tiss",
+  "source_note": "Source says valid till exam date 2023 (outdated), omitted. 'TISSMAT' unclear."
+ },
+ {
+  "wc_id": 7657,
+  "tagline": "The complete CAT book set, printed after CAT.",
+  "exam_label": "CAT 2026",
+  "highlights": [
+   {
+    "value": "3",
+    "label": "book sets"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   },
+   {
+    "value": "Latest",
+    "label": "CAT pattern"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Basics, Orange",
+    "text": "Foundation in Quant, VARC and LRDI, with step-by-step explanations."
+   },
+   {
+    "icon": "book",
+    "title": "Advanced, Lavender",
+    "text": "Challenging problem sets and advanced methods, for those aiming at 99+ percentile."
+   },
+   {
+    "icon": "book",
+    "title": "CAT G-Strategy",
+    "text": "Shortcuts, time-saving tricks and strategy, with a focus on exam temperament."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Shipped within 4 to 5 working days across India, depending on location."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "3 sets: Basics (Orange), Advanced (Lavender), G-Strategy",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "CAT aspirants who prefer to self-study from printed books.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "When are the books printed?",
+    "a": "They are printed after CAT each year, so the content stays current."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long does delivery take?",
+    "a": "Books ship within 4 to 5 working days, depending on location."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": null
+ },
+ {
+  "wc_id": 8375,
+  "tagline": "Ten books. Built to clear the IIM cutoffs.",
+  "exam_label": "CAT",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "books"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   },
+   {
+    "value": "Phased",
+    "label": "courier dispatch"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Quant books 1 to 5",
+    "text": "Arithmetic, Modern maths, Equations, Geo Nos and TSWP."
+   },
+   {
+    "icon": "book",
+    "title": "Verbal books 6 and 7",
+    "text": "RC and Non RC."
+   },
+   {
+    "icon": "book",
+    "title": "DILR books 8 to 10",
+    "text": "DILR Logic, DILR Modern and DILR Calculations."
+   },
+   {
+    "icon": "courier",
+    "title": "Phased courier",
+    "text": "Books are sent to your address in different phases, usually in 4 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Set of 10 books (Quant 5, Verbal 2, DILR 3)",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "CAT aspirants who want a concise, no-nonsense set aimed at IIM calls.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "What is in the set?",
+    "a": "Ten books covering Arithmetic, Modern maths, Equations, Geo Nos, TSWP, RC, Non RC and three DILR books."
+   },
+   {
+    "q": "How are the books delivered?",
+    "a": "By courier, in different phases, usually in 4 to 5 working days depending on location."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Source mentions CAT 2021/2022/2024 print years inconsistently; year omitted."
+ },
+ {
+  "wc_id": 12425,
+  "tagline": "Faster delivery for your Cetking books.",
+  "exam_label": "Books",
+  "highlights": [
+   {
+    "value": "Fast",
+    "label": "delivery option"
+   },
+   {
+    "value": "Books",
+    "label": "courier service"
+   },
+   {
+    "value": "Cetking",
+    "label": "add-on item"
+   }
+  ],
+  "included": [
+   {
+    "icon": "courier",
+    "title": "Speed delivery",
+    "text": "A faster delivery option for book orders."
+   },
+   {
+    "icon": "book",
+    "title": "For books",
+    "text": "Listed under the Books category."
+   },
+   {
+    "icon": "chat",
+    "title": "Ask the team",
+    "text": "Ask Cetking how it applies to your order."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "Students who want their books delivered faster.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "What is this item?",
+    "a": "It is a speed delivery option listed under Books."
+   },
+   {
+    "q": "Where can I ask about it?",
+    "a": "Contact the Cetking team for details."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "description empty — minimal"
+ },
+ {
+  "wc_id": 15937,
+  "tagline": "An upgrade pack for ATMA and MAT.",
+  "exam_label": "ATMA, MAT",
+  "highlights": [
+   {
+    "value": "Upgrade",
+    "label": "pack"
+   },
+   {
+    "value": "ATMA",
+    "label": "exam category"
+   },
+   {
+    "value": "MAT",
+    "label": "exam category"
+   }
+  ],
+  "included": [
+   {
+    "icon": "test",
+    "title": "Upgrade pack",
+    "text": "An upgrade pack listed under ATMA and MAT."
+   },
+   {
+    "icon": "calendar",
+    "title": "ATMA and MAT",
+    "text": "Listed in both exam categories."
+   },
+   {
+    "icon": "chat",
+    "title": "Ask the team",
+    "text": "Contents are not listed here; ask the Cetking team."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": null
+  },
+  "who_for": "Students who want to upgrade their ATMA or MAT program.",
+  "validity": null,
+  "mode": null,
+  "faqs": [
+   {
+    "q": "What does the upgrade include?",
+    "a": "The contents are not listed. Please ask the Cetking team."
+   },
+   {
+    "q": "Which exams is it for?",
+    "a": "It is listed under ATMA and MAT."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "OTHER",
+  "visual_theme": "other",
+  "source_note": "description empty — minimal"
+ },
+ {
+  "wc_id": 16041,
+  "tagline": "RBI exam: concepts, shortcuts and ten-plus mocks.",
+  "exam_label": "RBI",
+  "highlights": [
+   {
+    "value": "5+5",
+    "label": "prelims and mains mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures that cover the basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "Prelims and mains mocks",
+    "text": "5 full-length prelims mocks and 5 mains mocks, plus 5 phase 1 mocks."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "5 prelims + 5 mains full-length mocks + 5 phase 1 mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date",
+   "mode": "Online"
+  },
+  "who_for": "RBI exam aspirants who want concepts, shortcuts and mocks together.",
+  "validity": "Till exam date",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Which tests are included?",
+    "a": "5 prelims mocks, 5 mains mocks, 5 phase 1 mocks, 20 Static GK tests and 48 Current Affairs tests."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "All workshops are available to view any time, 24 hours a day."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GOVT",
+  "visual_theme": "govt",
+  "source_note": "Description is empty; built from short description. Exam year and RBI post not stated."
+ },
+ {
+  "wc_id": 16125,
+  "tagline": "Thirty CAT mocks, plus the White G-Strategy books.",
+  "exam_label": "CAT 2026",
+  "highlights": [
+   {
+    "value": "30",
+    "label": "CAT full mocks"
+   },
+   {
+    "value": "3",
+    "label": "White G-Strategy books"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "30 CAT mocks",
+    "text": "Full-length mocks on an interface that replicates the actual test."
+   },
+   {
+    "icon": "book",
+    "title": "G-Strategy White books",
+    "text": "A set of 3 G-Strategy White books."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books reach you within 4 to 5 working days."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   }
+  ],
+  "features": {
+   "mocks": "30 CAT full-length mocks",
+   "videos": null,
+   "books": "G-Strategy White book set (3 books)",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till CAT 2026",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "CAT 2026 aspirants who want mocks and the G-Strategy books in one pack.",
+  "validity": "Till CAT 2026",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "The program is valid till CAT 2026 only."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CAT",
+  "visual_theme": "cat",
+  "source_note": null
+ },
+ {
+  "wc_id": 16455,
+  "tagline": "Ten GMAT mocks. Quant, Reasoning, Verbal drills.",
+  "exam_label": "GMAT",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "GMAT full mocks"
+   },
+   {
+    "value": "100",
+    "label": "Quant topic tests"
+   },
+   {
+    "value": "65",
+    "label": "Verbal topic tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "10 GMAT mocks",
+    "text": "Full-length papers on an interface that replicates the actual test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Analytics and ranking",
+    "text": "Personalised analytics report, with All India ranking and percentiles on every Cetking test."
+   },
+   {
+    "icon": "mock",
+    "title": "Three-phase mocks",
+    "text": "Mocks move from accuracy building to attempt building to acceleration."
+   },
+   {
+    "icon": "test",
+    "title": "Any device",
+    "text": "Take tests on a laptop, mobile, iPad or the Cetking app."
+   }
+  ],
+  "features": {
+   "mocks": "10 GMAT full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Online"
+  },
+  "who_for": "GMAT aspirants who want mock practice with topic-wise drills.",
+  "validity": null,
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Which tests are included?",
+    "a": "10 GMAT full-length mocks and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Can I take the tests on my phone?",
+    "a": "Yes. Tests run in the cloud and can be taken on a laptop, mobile, iPad or the Cetking app."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GMAT_GRE",
+  "visual_theme": "gmat",
+  "source_note": "Validity and exam year not stated."
+ },
+ {
+  "wc_id": 17123,
+  "tagline": "An upgrade into CET Turbo.",
+  "exam_label": "MBA CET",
+  "highlights": [
+   {
+    "value": "Upgrade",
+    "label": "pack"
+   },
+   {
+    "value": "CET",
+    "label": "Turbo program"
+   },
+   {
+    "value": "Online",
+    "label": "Cetking program"
+   }
+  ],
+  "included": [
+   {
+    "icon": "test",
+    "title": "CET Turbo upgrade",
+    "text": "The listing says CET TURBO."
+   },
+   {
+    "icon": "calendar",
+    "title": "Exam",
+    "text": "Listed for MBA CET."
+   },
+   {
+    "icon": "chat",
+    "title": "Ask the team",
+    "text": "Contents are not listed; ask the Cetking team."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": null
+  },
+  "who_for": "Students who want to move up to the CET Turbo program.",
+  "validity": null,
+  "mode": null,
+  "faqs": [
+   {
+    "q": "What does the upgrade include?",
+    "a": "Only 'CET TURBO' is listed. Please ask the Cetking team for details."
+   },
+   {
+    "q": "Which exam is it for?",
+    "a": "MBA CET."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MBA_CET",
+  "visual_theme": "cet",
+  "source_note": "description empty — minimal. Filed under Government Exam in the shop but text says CET TURBO; grouped as MBA_CET."
+ },
+ {
+  "wc_id": 17188,
+  "tagline": "Forty-five CET mocks and the full Brown book set.",
+  "exam_label": "MBA CET 2027",
+  "highlights": [
+   {
+    "value": "45",
+    "label": "CET mocks"
+   },
+   {
+    "value": "20",
+    "label": "sectional test PDFs"
+   },
+   {
+    "value": "10",
+    "label": "new pattern handouts"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "45 CET mocks",
+    "text": "Basic and advance mocks, upgraded to the new pattern."
+   },
+   {
+    "icon": "pdf",
+    "title": "Sectional tests",
+    "text": "20 sectional test PDFs, 5 each for Quant, Verbal, Logic and Abstract."
+   },
+   {
+    "icon": "pdf",
+    "title": "New pattern handouts",
+    "text": "10 handouts on new pattern topics such as coded direction sense, parajumbles and puzzles."
+   },
+   {
+    "icon": "book",
+    "title": "Complete book set",
+    "text": "Books as per the latest pattern of the MBA CET exam."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books arrive within 4 to 5 working days."
+   },
+   {
+    "icon": "chat",
+    "title": "Login by email",
+    "text": "Login details reach you by email within 24 hours of registration."
+   }
+  ],
+  "features": {
+   "mocks": "45 CET mocks (basic + advance)",
+   "videos": null,
+   "books": "Complete set as per latest MBA CET pattern",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam, March 2027",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "MBA CET aspirants who want new-pattern mocks with printed books.",
+  "validity": "Till exam, March 2027",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MBA_CET",
+  "visual_theme": "cet",
+  "source_note": "Name says '27' mocks but description says 45; used 45."
+ },
+ {
+  "wc_id": 20422,
+  "tagline": "Pay in instalments.",
+  "exam_label": "Govt exams",
+  "highlights": [
+   {
+    "value": "Instalment",
+    "label": "payment option"
+   },
+   {
+    "value": "Cetking",
+    "label": "fee service"
+   },
+   {
+    "value": "Pay",
+    "label": "in parts"
+   }
+  ],
+  "included": [
+   {
+    "icon": "calendar",
+    "title": "Instalment option",
+    "text": "A way to pay a programme fee in parts."
+   },
+   {
+    "icon": "chat",
+    "title": "Ask the team",
+    "text": "Terms are not listed; ask the Cetking team."
+   },
+   {
+    "icon": "test",
+    "title": "Shop item",
+    "text": "Listed as a payment item, not a course."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": null
+  },
+  "who_for": "Students who want to pay a programme fee in instalments.",
+  "validity": null,
+  "mode": null,
+  "faqs": [
+   {
+    "q": "What is this item?",
+    "a": "It is a payment item named Installment."
+   },
+   {
+    "q": "How do instalments work?",
+    "a": "Terms are not listed here. Please ask the Cetking team."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "OTHER",
+  "visual_theme": "other",
+  "source_note": "description empty — minimal. Nature of item inferred from name; category is Government Exam."
+ },
+ {
+  "wc_id": 22200,
+  "tagline": "Every MBA exam. One mock centre, plus Yellow books.",
+  "exam_label": "All MBA exams",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "MBA exams covered"
+   },
+   {
+    "value": "12",
+    "label": "Yellow books"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "Mocks for ten exams",
+    "text": "CAT, CET, XAT, IIFT, NMAT, SNAP, MAT, IBSAT, ATMA and CMAT full-length mocks."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Sectional and subjective",
+    "text": "20 sectional tests and 10 subjective tests."
+   },
+   {
+    "icon": "pdf",
+    "title": "Actual CAT papers",
+    "text": "16 actual CAT papers online."
+   },
+   {
+    "icon": "book",
+    "title": "Yellow book set",
+    "text": "One set of 12 Yellow books, couriered within 4 to 5 working days."
+   },
+   {
+    "icon": "test",
+    "title": "GK current affairs",
+    "text": "GK and current affairs practice."
+   }
+  ],
+  "features": {
+   "mocks": "30 CAT, 45 CET, 10 XAT, 7 IIFT, 10 NMAT, 20 SNAP, 5 MAT, 5 IBSAT, 4 ATMA, 10 CMAT full-length mocks",
+   "videos": null,
+   "books": "1 set of 12 Yellow books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till April 2027",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "Aspirants who are applying to several MBA exams and want mocks with printed books.",
+  "validity": "Till April 2027",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "Which exams are covered?",
+    "a": "CAT, CET, XAT, IIFT, NMAT, SNAP, MAT, IBSAT, ATMA and CMAT."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MOCKS",
+  "visual_theme": "mocks",
+  "source_note": null
+ },
+ {
+  "wc_id": 24620,
+  "tagline": "CET 2027, complete. Mocks, shortcuts, books, live.",
+  "exam_label": "MBA CET 2027",
+  "highlights": [
+   {
+    "value": "45",
+    "label": "CET mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "2",
+    "label": "book sets by courier"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "45 CET mocks",
+    "text": "Basic and advance mocks, as per the new pattern."
+   },
+   {
+    "icon": "video",
+    "title": "Basic e-classes and shortcuts",
+    "text": "300+ basic video lectures and 200+ G-Strategy shortcut workshops."
+   },
+   {
+    "icon": "live",
+    "title": "Live lectures",
+    "text": "Live lectures along with recorded workshops, available to view any time."
+   },
+   {
+    "icon": "book",
+    "title": "Two book sets",
+    "text": "Brown and Purple book sets covering Quant, Verbal, Logic, DI DS and new pattern, sent by courier."
+   },
+   {
+    "icon": "mock",
+    "title": "Mocks for other exams",
+    "text": "20 SNAP, 10 NMAT, 10 CMAT, 7 IIFT, 5 XAT, 5 MAT and 5 ATMA mocks."
+   },
+   {
+    "icon": "pdf",
+    "title": "Handouts and topic tests",
+    "text": "10 new pattern handouts and 100 topic-wise tests for each CET section."
+   }
+  ],
+  "features": {
+   "mocks": "45 CET mocks + 20 SNAP, 10 NMAT, 10 CMAT, 7 IIFT, 5 XAT, 5 MAT, 5 ATMA mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": "2 sets by courier (Brown and Purple)",
+   "live_classes": "Live lectures included",
+   "gdpi": null,
+   "validity": "Till CET exam date 2027",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "MBA CET 2027 aspirants who want one program for concepts, shortcuts, mocks and books.",
+  "validity": "Till CET exam date 2027",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "Do I get mocks for other exams?",
+    "a": "Yes. 20 SNAP, 10 NMAT, 10 CMAT, 7 IIFT, 5 XAT, 5 MAT and 5 ATMA mocks are included."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MBA_CET",
+  "visual_theme": "cet",
+  "source_note": "Book set names (Brown, Purple) both appear in source."
+ },
+ {
+  "wc_id": 25244,
+  "tagline": "CAT 2026, complete. Live classes, books, mocks.",
+  "exam_label": "CAT 2026",
+  "highlights": [
+   {
+    "value": "30",
+    "label": "full-length mocks"
+   },
+   {
+    "value": "50",
+    "label": "concept workshops"
+   },
+   {
+    "value": "3",
+    "label": "book sets"
+   }
+  ],
+  "included": [
+   {
+    "icon": "live",
+    "title": "Live classes",
+    "text": "Live classes, plus 24/7 access to all recorded workshops."
+   },
+   {
+    "icon": "video",
+    "title": "Workshops",
+    "text": "50 concept-building and 50 advanced workshops, plus the G-Strategy workshop."
+   },
+   {
+    "icon": "book",
+    "title": "Latest-pattern books",
+    "text": "Orange basics, Lavender advanced and G-Strategy books."
+   },
+   {
+    "icon": "mock",
+    "title": "30 full-length mocks",
+    "text": "Mocks in a real CAT-like environment."
+   },
+   {
+    "icon": "test",
+    "title": "Sectional tests",
+    "text": "24 sectional tests: 8 each for DILR, Quant and Verbal."
+   },
+   {
+    "icon": "test",
+    "title": "PYQ and topic tests",
+    "text": "26 year-wise PYQ tests and 25 topic-wise tests."
+   }
+  ],
+  "features": {
+   "mocks": "30 full-length + 24 sectional tests",
+   "videos": "50 concept + 50 advanced workshops; G-Strategy workshop",
+   "books": "3 sets: Orange, Lavender, G-Strategy",
+   "live_classes": "Live classes included",
+   "gdpi": null,
+   "validity": "Till CAT 2026 exam",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "CAT 2026 aspirants who want concepts, strategy, books and practice in one program.",
+  "validity": "Till CAT 2026 exam",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "How long is access valid?",
+    "a": "Access stays active until the CAT 2026 exam."
+   },
+   {
+    "q": "Which books are included?",
+    "a": "The Orange basics, Lavender advanced and G-Strategy books."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CAT",
+  "visual_theme": "cat",
+  "source_note": "Short description says 26 PYQ tests plus topic-wise tests; used description's 25 topic-wise. Book delivery time not stated."
+ },
+ {
+  "wc_id": 25828,
+  "tagline": "Interview skills, WAT and one personal interview.",
+  "exam_label": "GDPI",
+  "highlights": [
+   {
+    "value": "1",
+    "label": "personal interview"
+   },
+   {
+    "value": "10",
+    "label": "interview skill workshops"
+   },
+   {
+    "value": "6",
+    "label": "WAT writing sessions"
+   }
+  ],
+  "included": [
+   {
+    "icon": "interview",
+    "title": "1 personal interview",
+    "text": "One PI, online or offline."
+   },
+   {
+    "icon": "video",
+    "title": "Interview workshops",
+    "text": "10 interview skill-building workshops."
+   },
+   {
+    "icon": "interview",
+    "title": "Question review",
+    "text": "Every interview question reviewed by the team."
+   },
+   {
+    "icon": "video",
+    "title": "WAT writing sessions",
+    "text": "6 recorded sessions on WAT writing skills."
+   },
+   {
+    "icon": "pdf",
+    "title": "SOP and form filling",
+    "text": "SOP review, WAT practice and a form-filling session for select institutes."
+   },
+   {
+    "icon": "chat",
+    "title": "WhatsApp group",
+    "text": "A dedicated WhatsApp group for GDPI preparation."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "10 interview skill workshops; 6 recorded WAT sessions",
+   "books": null,
+   "live_classes": null,
+   "gdpi": "1 PI (online or offline); no further live PI",
+   "validity": null,
+   "mode": "Online"
+  },
+  "who_for": "Candidates with an interview call who want skill-building plus one real interview.",
+  "validity": null,
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How many live personal interviews are included?",
+    "a": "One. Additional live PIs are pay as you go, charged per interview."
+   },
+   {
+    "q": "Is there a WhatsApp group?",
+    "a": "Yes. A dedicated group for GDPI preparation."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GDPI",
+  "visual_theme": "gdpi",
+  "source_note": "Per-interview add-on rate omitted (no prices); validity not stated."
+ },
+ {
+  "wc_id": 25829,
+  "tagline": "Profile building with Rav Sir. Two PIs. Full GDPI prep.",
+  "exam_label": "GDPI",
+  "highlights": [
+   {
+    "value": "2",
+    "label": "personal interviews"
+   },
+   {
+    "value": "2",
+    "label": "profile sessions with Rav Sir"
+   },
+   {
+    "value": "10",
+    "label": "interview skill workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "interview",
+    "title": "2 personal interviews",
+    "text": "Two PIs, online or offline."
+   },
+   {
+    "icon": "chat",
+    "title": "Profile building with Rav Sir",
+    "text": "Mentorship in 2 sessions, through text only."
+   },
+   {
+    "icon": "interview",
+    "title": "Mock interviews",
+    "text": "Mock interviews by top mentors and IIM alumni."
+   },
+   {
+    "icon": "video",
+    "title": "Interview and WAT workshops",
+    "text": "10 interview skill-building workshops and 6 sessions on WAT writing."
+   },
+   {
+    "icon": "pdf",
+    "title": "SOP and form filling",
+    "text": "SOP review, WAT practice and a form-filling session for select institutes."
+   },
+   {
+    "icon": "chat",
+    "title": "WhatsApp group",
+    "text": "A dedicated WhatsApp group for GDPI preparation."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "10 interview skill workshops; 6 WAT sessions",
+   "books": null,
+   "live_classes": null,
+   "gdpi": "2 PIs (online or offline); profile building with Rav Sir (2 text sessions)",
+   "validity": null,
+   "mode": "Online"
+  },
+  "who_for": "Gap-year, drop-year and fresher profiles, and those with a lot of work experience.",
+  "validity": null,
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "How does profile building with Rav Sir work?",
+    "a": "It is mentorship in 2 sessions, through text only."
+   },
+   {
+    "q": "Who is it recommended for?",
+    "a": "Gap year, drop year, freshers and profiles with a lot of work experience."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "GDPI",
+  "visual_theme": "gdpi",
+  "source_note": "Per-interview add-on rate omitted (no prices); validity not stated."
+ },
+ {
+  "wc_id": 26063,
+  "tagline": "Orange, Pro and Brown. One book pack, three phases.",
+  "exam_label": "CAT and non-CAT exams",
+  "highlights": [
+   {
+    "value": "3",
+    "label": "book phases"
+   },
+   {
+    "value": "CAT+",
+    "label": "non-CAT material"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Phase 1, Orange",
+    "text": "The Orange books, sent first."
+   },
+   {
+    "icon": "book",
+    "title": "Phase 2, Pro",
+    "text": "The Pro books."
+   },
+   {
+    "icon": "book",
+    "title": "Phase 3, Brown",
+    "text": "The Brown books, for non-CAT exams."
+   },
+   {
+    "icon": "courier",
+    "title": "Phased courier",
+    "text": "Books are sent to your address in different phases, usually in 4 to 5 working days depending on location."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Orange, Pro and Brown books (CAT + non-CAT material)",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "Aspirants preparing for CAT as well as other MBA exams.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "How are the books delivered?",
+    "a": "By courier, in three phases, usually in 4 to 5 working days depending on location."
+   },
+   {
+    "q": "Do the books cover non-CAT exams?",
+    "a": "Yes. The Brown books are for non-CAT exams."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Number of books per phase not stated."
+ },
+ {
+  "wc_id": 27960,
+  "tagline": "Ten SRCC GBO mocks. GK and current affairs added.",
+  "exam_label": "SRCC GBO",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "SRCC GBO full mocks"
+   },
+   {
+    "value": "48",
+    "label": "Current Affairs tests"
+   },
+   {
+    "value": "20",
+    "label": "Static GK tests"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "10 SRCC GBO mocks",
+    "text": "Full-length mocks for the SRCC GBO test."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "GK and current affairs",
+    "text": "20 Static GK tests and 48 Current Affairs tests."
+   }
+  ],
+  "features": {
+   "mocks": "10 SRCC GBO full-length mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Online"
+  },
+  "who_for": "SRCC GBO aspirants who want mocks with GK and current affairs practice.",
+  "validity": null,
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Which tests are included?",
+    "a": "10 SRCC GBO mocks, 20 Static GK tests, 48 Current Affairs tests and 100 Quant, 100 Reasoning, 65 Verbal and 20 DILR topic-wise tests."
+   },
+   {
+    "q": "Is it online?",
+    "a": "Yes. This is an online program."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "OTHER",
+  "visual_theme": "other",
+  "source_note": "Description empty; built from short description. Validity not stated."
+ },
+ {
+  "wc_id": 29434,
+  "tagline": "Forty-five CET mocks, built on the new pattern.",
+  "exam_label": "MBA CET 2027",
+  "highlights": [
+   {
+    "value": "45+",
+    "label": "CET mocks"
+   },
+   {
+    "value": "4",
+    "label": "topic-wise test areas"
+   },
+   {
+    "value": "2027",
+    "label": "valid till exam"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "45+ CET mocks",
+    "text": "Basic and advance mocks, upgraded to the new pattern."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "Tests for QA, LR, VR and Abstract."
+   },
+   {
+    "icon": "test",
+    "title": "PYQ sectional tests",
+    "text": "Sectional tests built from past year questions."
+   },
+   {
+    "icon": "chat",
+    "title": "Login by email",
+    "text": "Login details reach you by email within 24 hours of registration."
+   }
+  ],
+  "features": {
+   "mocks": "45+ CET mocks (basic + advance)",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2027",
+   "mode": "Online"
+  },
+  "who_for": "MBA CET 2027 aspirants who want new-pattern mocks.",
+  "validity": "Till exam date 2027",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date in 2027."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MBA_CET",
+  "visual_theme": "cet",
+  "source_note": null
+ },
+ {
+  "wc_id": 35471,
+  "tagline": "CMAT shortcuts, Bibles and ten mocks. G-Strategy way.",
+  "exam_label": "CMAT 2027",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "CMAT full mocks"
+   },
+   {
+    "value": "100+",
+    "label": "topic-wise tests"
+   },
+   {
+    "value": "24x7",
+    "label": "recorded workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic workshops",
+    "text": "Recorded workshops on all major CMAT topics: Quant, Logical Reasoning, Language, General Awareness and Innovation."
+   },
+   {
+    "icon": "video",
+    "title": "G-Strategy shortcuts",
+    "text": "Shortcut workshops for CMAT topics, available online 24x7."
+   },
+   {
+    "icon": "live",
+    "title": "Live and recorded sessions",
+    "text": "Live sessions along with recordings."
+   },
+   {
+    "icon": "pdf",
+    "title": "Cetking Bibles",
+    "text": "Bibles for GK, Innovation, Verbal and Grammar."
+   },
+   {
+    "icon": "mock",
+    "title": "10 CMAT mocks",
+    "text": "Full-length mocks aligned with the latest exam structure."
+   },
+   {
+    "icon": "test",
+    "title": "100+ topic-wise tests",
+    "text": "For speed, revision and consistent performance across sections."
+   }
+  ],
+  "features": {
+   "mocks": "10 CMAT full-length mocks",
+   "videos": "Basic and G-Strategy shortcut workshops (pre-recorded, 24x7)",
+   "books": "Not included (Bibles for GK, Innovation, Verbal and Grammar are)",
+   "live_classes": "Live + recorded sessions",
+   "gdpi": null,
+   "validity": "Till CMAT exam date 2027",
+   "mode": "Online"
+  },
+  "who_for": "CMAT aspirants who want a strategy-driven, speed-focused program.",
+  "validity": "Till CMAT exam date 2027",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Are books included?",
+    "a": "Books are not included. The Bibles for GK, Innovation, Verbal and Grammar are."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "Workshops are pre-recorded and available online 24x7."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CMAT",
+  "visual_theme": "cmat",
+  "source_note": "Count of workshops not stated."
+ },
+ {
+  "wc_id": 38968,
+  "tagline": "Twelve CMAT mocks and an Innovation PDF.",
+  "exam_label": "CMAT 2027",
+  "highlights": [
+   {
+    "value": "12",
+    "label": "CMAT full mocks"
+   },
+   {
+    "value": "30",
+    "label": "topic-wise tests"
+   },
+   {
+    "value": "1",
+    "label": "Innovation PDF"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "12 full mocks",
+    "text": "Full-length CMAT mocks."
+   },
+   {
+    "icon": "test",
+    "title": "30 topic-wise tests",
+    "text": "Topic-wise practice."
+   },
+   {
+    "icon": "pdf",
+    "title": "Innovation and Entrepreneurship PDF",
+    "text": "Study material for the CMAT Innovation and Entrepreneurship section."
+   }
+  ],
+  "features": {
+   "mocks": "12 CMAT full-length mocks",
+   "videos": null,
+   "books": "Innovation and Entrepreneurship PDF",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2027",
+   "mode": "Online (PDF + tests)"
+  },
+  "who_for": "CMAT 2027 aspirants who want mocks and Innovation and Entrepreneurship material.",
+  "validity": "Till exam date 2027",
+  "mode": "Online (PDF + tests)",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date in 2027."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CMAT",
+  "visual_theme": "cmat",
+  "source_note": "Description empty; built from short description."
+ },
+ {
+  "wc_id": 40066,
+  "tagline": "CET 2027, complete. Books, mocks, live lectures.",
+  "exam_label": "MBA CET 2027",
+  "highlights": [
+   {
+    "value": "40",
+    "label": "full-length CET mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "2",
+    "label": "advance book sets"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic and shortcut workshops",
+    "text": "300+ video lectures and 200+ workshops on time-saving techniques."
+   },
+   {
+    "icon": "live",
+    "title": "Live lectures",
+    "text": "Live lectures, plus 24/7 access to recorded workshops."
+   },
+   {
+    "icon": "book",
+    "title": "Advance books",
+    "text": "2 sets covering Quant and DI-DS, Verbal, Logical Reasoning and new pattern, sent by courier."
+   },
+   {
+    "icon": "mock",
+    "title": "40 CET mocks",
+    "text": "Full-length mocks on the latest paper patterns."
+   },
+   {
+    "icon": "pdf",
+    "title": "New pattern handouts",
+    "text": "10 handouts on coded direction sense, parajumbles, puzzles and more."
+   },
+   {
+    "icon": "test",
+    "title": "100+ topic-wise tests",
+    "text": "For Quant, Verbal, Logic and Abstract."
+   }
+  ],
+  "features": {
+   "mocks": "40 full-length CET mocks",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": "2 sets of Advance books by courier",
+   "live_classes": "Live lectures included",
+   "gdpi": null,
+   "validity": "Till MBA CET 2027 exam",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "MBA CET 2027 aspirants who want concepts, shortcuts, mocks and books in one program.",
+  "validity": "Till MBA CET 2027 exam",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Books are dispatched by courier and take 4 to 5 working days."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "MBA_CET",
+  "visual_theme": "cet",
+  "source_note": "Short description says 100+ basic and shortcut workshops; full description says 300+ lectures and 200+ workshops. Used full description."
+ },
+ {
+  "wc_id": 41249,
+  "tagline": "Eight Purple books for the CET 2027 syllabus.",
+  "exam_label": "MBA CET 2027",
+  "highlights": [
+   {
+    "value": "8",
+    "label": "Purple books"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   },
+   {
+    "value": "4",
+    "label": "CET sections covered"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Verbal books",
+    "text": "Grammar and vocabulary, and reading, including comprehension, para completion and para jumbles."
+   },
+   {
+    "icon": "book",
+    "title": "Logic books",
+    "text": "Traditional reasoning and modern reasoning, such as puzzles, syllogism and input output."
+   },
+   {
+    "icon": "book",
+    "title": "Abstract and CR book",
+    "text": "Critical reasoning and abstract topics such as figure formation and non-verbal series."
+   },
+   {
+    "icon": "book",
+    "title": "Quant books",
+    "text": "Quant 1 and Quant 2, plus a non-maths book on DI, data sufficiency and number series."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books reach your registered address within 4 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Purple set of 8 books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "MBA CET 2027 aspirants who prefer printed books for every section.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "How many books are in the set?",
+    "a": "Eight books."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days, at your registered address."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Book list inferred from syllabus tables in description (8 numbered book groups)."
+ },
+ {
+  "wc_id": 41880,
+  "tagline": "Ten mocks and every test type, for CUET.",
+  "exam_label": "CUET 2027",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "CUET mocks"
+   },
+   {
+    "value": "2027",
+    "label": "valid till exam"
+   },
+   {
+    "value": "24 hrs",
+    "label": "login by email"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "10 CUET mocks",
+    "text": "Mocks upgraded to the new pattern."
+   },
+   {
+    "icon": "test",
+    "title": "Topic-wise tests",
+    "text": "Reasoning, Verbal and DILR topic-wise tests."
+   },
+   {
+    "icon": "test",
+    "title": "Subjective and sectional",
+    "text": "Subjective tests and sectional tests."
+   },
+   {
+    "icon": "chat",
+    "title": "Login by email",
+    "text": "Login details reach you by email within 24 hours of registration."
+   }
+  ],
+  "features": {
+   "mocks": "10 CUET mocks",
+   "videos": null,
+   "books": null,
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till exam date 2027",
+   "mode": "Online"
+  },
+  "who_for": "CUET aspirants who want mock-based practice.",
+  "validity": "Till exam date 2027",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "How long is it valid?",
+    "a": "Till the exam date in 2027."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CUET",
+  "visual_theme": "cuet",
+  "source_note": "Counts of topic, subjective and sectional tests not stated. Text elsewhere refers to CET; may be mislabelled."
+ },
+ {
+  "wc_id": 41882,
+  "tagline": "CUET strategy and shortcuts, recorded.",
+  "exam_label": "CUET 2027",
+  "highlights": [
+   {
+    "value": "4",
+    "label": "sections: QA DI LR VR"
+   },
+   {
+    "value": "Recorded",
+    "label": "online lectures"
+   },
+   {
+    "value": "2027",
+    "label": "valid till exam"
+   }
+  ],
+  "included": [
+   {
+    "icon": "calendar",
+    "title": "Exam strategy workshops",
+    "text": "Strategy planning workshops for QA, DI, LR and VR."
+   },
+   {
+    "icon": "video",
+    "title": "G-Strategy",
+    "text": "G-Strategy for all important topics."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcuts",
+    "text": "Shortcuts for all important topics."
+   },
+   {
+    "icon": "video",
+    "title": "Masterclass and crash course",
+    "text": "Online recorded lectures, including a masterclass and crash course."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "Online recorded lectures",
+   "books": "Not included",
+   "live_classes": "Not included",
+   "gdpi": null,
+   "validity": "Till exam date 2027",
+   "mode": "Online"
+  },
+  "who_for": "CUET aspirants who want strategy and shortcuts without live classes or books.",
+  "validity": "Till exam date 2027",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Are live lectures included?",
+    "a": "No. Only online recorded lectures are included."
+   },
+   {
+    "q": "Are books included?",
+    "a": "No. Books are not included."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CUET",
+  "visual_theme": "cuet",
+  "source_note": "Source says 'MBA CUET'; exam may be CET."
+ },
+ {
+  "wc_id": 41883,
+  "tagline": "Twelve Yellow books for every non-CAT exam.",
+  "exam_label": "Non-CAT exams",
+  "highlights": [
+   {
+    "value": "12",
+    "label": "Yellow books"
+   },
+   {
+    "value": "8",
+    "label": "exams covered"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "12-book set",
+    "text": "A complete set of 12 Yellow books as per the latest pattern."
+   },
+   {
+    "icon": "calendar",
+    "title": "Eight exams",
+    "text": "Made for CUET, CMAT, CET, SNAP, NMAT, TISS, MAT and ATMA."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books are delivered within 4 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Set of 12 Yellow books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "Aspirants of non-CAT MBA exams who want one printed set for all of them.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "Which exams are the Yellow books for?",
+    "a": "CUET, CMAT, CET, SNAP, NMAT, TISS, MAT and ATMA, which are non-CAT exams."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days, by courier."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Description empty; built from short description."
+ },
+ {
+  "wc_id": 41884,
+  "tagline": "CUET mocks, strategy and shortcuts. No books.",
+  "exam_label": "CUET 2027",
+  "highlights": [
+   {
+    "value": "4",
+    "label": "sections: QA DI LR VR"
+   },
+   {
+    "value": "Recorded",
+    "label": "online lectures"
+   },
+   {
+    "value": "2027",
+    "label": "valid till exam"
+   }
+  ],
+  "included": [
+   {
+    "icon": "mock",
+    "title": "CUET mocks",
+    "text": "Mocks for CUET."
+   },
+   {
+    "icon": "calendar",
+    "title": "Strategy workshops",
+    "text": "Strategy planning workshops for QA, DI, LR and VR."
+   },
+   {
+    "icon": "video",
+    "title": "G-Strategy and shortcuts",
+    "text": "G-Strategy and shortcuts for all important topics."
+   },
+   {
+    "icon": "video",
+    "title": "Masterclass and crash course",
+    "text": "Online recorded lectures, including a masterclass and crash course."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": "Online recorded lectures",
+   "books": "Not included",
+   "live_classes": "Not included",
+   "gdpi": null,
+   "validity": "Till CUET exam 2027",
+   "mode": "Online"
+  },
+  "who_for": "CUET aspirants who want mocks and strategy without live classes or books.",
+  "validity": "Till CUET exam 2027",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Are live lectures included?",
+    "a": "No. Only online recorded lectures are included."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "Are books included?",
+    "a": "No. Books are not included."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CUET",
+  "visual_theme": "cuet",
+  "source_note": "Number of mocks not stated; stray 'CET 2024' text in source ignored; shop category is ATMA."
+ },
+ {
+  "wc_id": 41885,
+  "tagline": "CUET complete. Books, forty-five mocks, shortcuts.",
+  "exam_label": "CUET",
+  "highlights": [
+   {
+    "value": "45",
+    "label": "CUET mocks"
+   },
+   {
+    "value": "300+",
+    "label": "video lectures"
+   },
+   {
+    "value": "200+",
+    "label": "shortcut workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic e-classes",
+    "text": "300+ video lectures for basic concepts."
+   },
+   {
+    "icon": "video",
+    "title": "Shortcut workshops",
+    "text": "200+ online workshops with shortcuts for all topics, available to view any time."
+   },
+   {
+    "icon": "mock",
+    "title": "45 CUET mocks",
+    "text": "18 basic and 27 advance mocks, as per the new pattern."
+   },
+   {
+    "icon": "book",
+    "title": "Advance book set",
+    "text": "One set covering Quant, Verbal, LR 1, LR 2, DI DS and new pattern books."
+   },
+   {
+    "icon": "pdf",
+    "title": "Handouts and topic tests",
+    "text": "10 new pattern handouts and 100 topic-wise tests."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books arrive within 4 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": "45 CUET mocks (18 basic + 27 advance)",
+   "videos": "300+ basic video lectures; 200+ shortcut workshops",
+   "books": "1 set of Advance books by courier",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Online + books by courier"
+  },
+  "who_for": "CUET aspirants who want a full program with books.",
+  "validity": null,
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days, by courier."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CUET",
+  "visual_theme": "cuet",
+  "source_note": "Source says valid till exam 2024 and refers to CET 2024 (outdated); validity omitted."
+ },
+ {
+  "wc_id": 41951,
+  "tagline": "SNAP shortcuts and twenty mocks. Built for speed.",
+  "exam_label": "SNAP 2026",
+  "highlights": [
+   {
+    "value": "20",
+    "label": "SNAP full mocks"
+   },
+   {
+    "value": "100+",
+    "label": "topic-wise tests"
+   },
+   {
+    "value": "24x7",
+    "label": "recorded workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic workshops",
+    "text": "Recorded workshops on all major SNAP topics across Quant, Verbal, and Analytical and Logical Reasoning."
+   },
+   {
+    "icon": "video",
+    "title": "G-Strategy shortcuts",
+    "text": "Shortcut workshops for every SNAP topic, available online 24x7."
+   },
+   {
+    "icon": "mock",
+    "title": "20 SNAP mocks",
+    "text": "Full-length mocks built to simulate real SNAP exam pressure."
+   },
+   {
+    "icon": "test",
+    "title": "100+ topic-wise tests",
+    "text": "For continuous practice, speed building and accuracy."
+   }
+  ],
+  "features": {
+   "mocks": "20 SNAP full-length mocks",
+   "videos": "Basic and G-Strategy shortcut workshops (pre-recorded, 24x7)",
+   "books": "Not included",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till SNAP exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "SNAP aspirants who want a strategy-driven, speed-focused program.",
+  "validity": "Till SNAP exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Are books included?",
+    "a": "No. Books are not included in this program."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "Workshops are pre-recorded and available online 24x7."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "SNAP",
+  "visual_theme": "snap",
+  "source_note": "Trailing AI offer sentence in source ignored."
+ },
+ {
+  "wc_id": 42291,
+  "tagline": "NMAT shortcuts and ten mocks. Built for speed.",
+  "exam_label": "NMAT 2026",
+  "highlights": [
+   {
+    "value": "10",
+    "label": "NMAT full mocks"
+   },
+   {
+    "value": "100+",
+    "label": "topic-wise tests"
+   },
+   {
+    "value": "24x7",
+    "label": "recorded workshops"
+   }
+  ],
+  "included": [
+   {
+    "icon": "video",
+    "title": "Basic workshops",
+    "text": "Recorded workshops on all major NMAT topics across Quant, Verbal and Logical Reasoning."
+   },
+   {
+    "icon": "video",
+    "title": "G-Strategy shortcuts",
+    "text": "Shortcut workshops for every NMAT topic, available online 24x7."
+   },
+   {
+    "icon": "mock",
+    "title": "10 NMAT mocks",
+    "text": "Full-length mocks that replicate real exam conditions."
+   },
+   {
+    "icon": "test",
+    "title": "100+ topic-wise tests",
+    "text": "For continuous practice, speed building and accuracy."
+   }
+  ],
+  "features": {
+   "mocks": "10 NMAT full-length mocks",
+   "videos": "Basic and G-Strategy shortcut workshops (pre-recorded, 24x7)",
+   "books": "Not included",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": "Till NMAT exam date 2026",
+   "mode": "Online"
+  },
+  "who_for": "NMAT aspirants who want a strategy-driven, speed-focused program.",
+  "validity": "Till NMAT exam date 2026",
+  "mode": "Online",
+  "faqs": [
+   {
+    "q": "Are books included?",
+    "a": "No. Books are not included in this program."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When can I watch the workshops?",
+    "a": "Workshops are pre-recorded and available online 24x7."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "NMAT",
+  "visual_theme": "nmat",
+  "source_note": null
+ },
+ {
+  "wc_id": 44440,
+  "tagline": "Seven Brown books for CET and non-CAT exams.",
+  "exam_label": "MBA CET 2026 + non-CAT",
+  "highlights": [
+   {
+    "value": "7",
+    "label": "Brown books"
+   },
+   {
+    "value": "4-5",
+    "label": "working days delivery"
+   },
+   {
+    "value": "7",
+    "label": "week CET timetable PDF"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Brown book set",
+    "text": "A set of 7 Brown books, for MBA CET and non-CAT exams."
+   },
+   {
+    "icon": "pdf",
+    "title": "CET 2026 syllabus PDF",
+    "text": "A syllabus PDF for MBA CET 2026."
+   },
+   {
+    "icon": "calendar",
+    "title": "7-week timetable",
+    "text": "A complete 7-week MBA CET 2026 timetable PDF."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books are delivered within 4 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Brown set of 7 books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "MBA CET and non-CAT aspirants who want a printed set.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "How many books are in the set?",
+    "a": "Seven Brown books."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 4 to 5 working days, by courier."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Name says CET 2026 (past year relative to 2027 programmes); PDFs inferred from description lines."
+ },
+ {
+  "wc_id": 46900,
+  "tagline": "The three White G-Strategy books for CAT.",
+  "exam_label": "CAT",
+  "highlights": [
+   {
+    "value": "3",
+    "label": "G-Strategy books"
+   },
+   {
+    "value": "3-5",
+    "label": "working days delivery"
+   },
+   {
+    "value": "White",
+    "label": "book set"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "White book set",
+    "text": "A set of 3 CAT G-Strategy White books."
+   },
+   {
+    "icon": "calendar",
+    "title": "CAT G-Strategy",
+    "text": "The White set carries the G-Strategy method for CAT."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Books are delivered within 3 to 5 working days."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "White set of 3 books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "CAT aspirants who want the G-Strategy books on their own.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "Within 3 to 5 working days, by courier."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Description empty; built from short description. Exam year not stated. Only two included items stated."
+ },
+ {
+  "wc_id": 47029,
+  "tagline": "One year. CAT and CET, start to GDPI.",
+  "exam_label": "CAT + CET 2027",
+  "highlights": [
+   {
+    "value": "100",
+    "label": "full-length mocks"
+   },
+   {
+    "value": "300+",
+    "label": "e-class videos"
+   },
+   {
+    "value": "4",
+    "label": "phases to GDPI"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Four book sets",
+    "text": "Two CAT and two non-CAT sets, couriered in phases."
+   },
+   {
+    "icon": "video",
+    "title": "E-classes and shortcuts",
+    "text": "300+ basic lecture videos and 250+ shortcut workshop videos by Rav Sir and other faculty."
+   },
+   {
+    "icon": "mock",
+    "title": "100 full-length mocks",
+    "text": "30 for CAT, 25 for CET and 65 for other exams."
+   },
+   {
+    "icon": "calendar",
+    "title": "Four-phase plan",
+    "text": "Basics, advance level, mocks with daily homework, then GDPI training."
+   },
+   {
+    "icon": "interview",
+    "title": "GDPI Basic",
+    "text": "PI skills lectures, WAT, creative tasks, GDs, case studies and group activities."
+   },
+   {
+    "icon": "chat",
+    "title": "Mentorship program",
+    "text": "A mentorship program is part of the package."
+   }
+  ],
+  "features": {
+   "mocks": "100 full-length mocks (30 CAT, 25 CET, 65 other exams)",
+   "videos": "300+ basic e-classes; 250+ shortcut workshops; strategy videos",
+   "books": "4 sets (CAT 2 + non-CAT 2)",
+   "live_classes": null,
+   "gdpi": "GDPI Basic included",
+   "validity": "Till MBA CET 2027 exam",
+   "mode": "Online + books by courier"
+  },
+  "who_for": "Aspirants who want one program to carry them from basics through CAT, CET and GDPI.",
+  "validity": "Till MBA CET 2027 exam",
+  "mode": "Online + books by courier",
+  "faqs": [
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "What are the four phases?",
+    "a": "Building basics, advance preparation, mocks with daily homework and a D-Day paper, and GDPI training."
+   },
+   {
+    "q": "When do the books arrive?",
+    "a": "In phases. Phase 1 is sent immediately on enrolment and Phase 2 in June."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CAT",
+  "visual_theme": "cat",
+  "source_note": "Description mentions CAT 2025 books and a 10-book set; counts may be dated. Shortcut workshops given as 250+ here vs 200+ elsewhere."
+ },
+ {
+  "wc_id": 48773,
+  "tagline": "The CET syllabus in two books.",
+  "exam_label": "MBA CET 2027",
+  "highlights": [
+   {
+    "value": "2",
+    "label": "books"
+   },
+   {
+    "value": "100%",
+    "label": "CET syllabus covered"
+   },
+   {
+    "value": "CET",
+    "label": "focused practice"
+   }
+  ],
+  "included": [
+   {
+    "icon": "book",
+    "title": "Two-book set",
+    "text": "The complete CET syllabus in 2 books."
+   },
+   {
+    "icon": "test",
+    "title": "CET-focused practice",
+    "text": "Practice built around the CET exam."
+   },
+   {
+    "icon": "courier",
+    "title": "Courier delivery",
+    "text": "Send your payment details and courier address on WhatsApp after paying."
+   }
+  ],
+  "features": {
+   "mocks": null,
+   "videos": null,
+   "books": "Set of 2 books",
+   "live_classes": null,
+   "gdpi": null,
+   "validity": null,
+   "mode": "Books by courier"
+  },
+  "who_for": "MBA CET 2027 aspirants who want a compact, complete syllabus set.",
+  "validity": null,
+  "mode": "Books by courier",
+  "faqs": [
+   {
+    "q": "How do I get the special offer?",
+    "a": "The offer is for the CET Bible 2027 with any CET 2027 program."
+   },
+   {
+    "q": "What happens after I pay?",
+    "a": "WhatsApp your payment details and courier address to the number on the product page."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "BOOKS",
+  "visual_theme": "books",
+  "source_note": "Offer and list prices in source omitted (no prices in content). Page text is mostly CSS; facts from the readable part."
+ },
+ {
+  "wc_id": 48840,
+  "tagline": "CAT 2026 shortcuts, strategy and a full test series.",
+  "exam_label": "CAT 2026",
+  "highlights": [
+   {
+    "value": "30",
+    "label": "full-length mocks"
+   },
+   {
+    "value": "24",
+    "label": "sectional tests"
+   },
+   {
+    "value": "23",
+    "label": "actual CAT papers"
+   }
+  ],
+  "included": [
+   {
+    "icon": "live",
+    "title": "Live and recorded classes",
+    "text": "Live classes, plus 24/7 recorded workshops."
+   },
+   {
+    "icon": "video",
+    "title": "Three workshop tracks",
+    "text": "Concept, advanced and G-Strategy workshops."
+   },
+   {
+    "icon": "book",
+    "title": "G-Strategy book",
+    "text": "The latest-pattern CAT G-Strategy book."
+   },
+   {
+    "icon": "mock",
+    "title": "30 full-length mocks",
+    "text": "Mocks in a CAT-like environment."
+   },
+   {
+    "icon": "test",
+    "title": "24 sectional tests",
+    "text": "Sectional tests for DILR, Quant and Verbal."
+   },
+   {
+    "icon": "test",
+    "title": "Actual papers and PYQ",
+    "text": "23 actual CAT papers (2017 to 2024) and topic-wise PYQ tests: 28 Quant, 31 Verbal and 20 DILR."
+   }
+  ],
+  "features": {
+   "mocks": "30 full-length + 24 sectional + 23 actual papers",
+   "videos": "Concept, advanced and G-Strategy workshops (recorded, 24/7)",
+   "books": "CAT G-Strategy book",
+   "live_classes": "Live classes included",
+   "gdpi": null,
+   "validity": "Till CAT 2026 exam",
+   "mode": "Online + book"
+  },
+  "who_for": "CAT 2026 aspirants who want shortcuts and strategy with a complete test series.",
+  "validity": "Till CAT 2026 exam",
+  "mode": "Online + book",
+  "faqs": [
+   {
+    "q": "When do I get my login?",
+    "a": "Login credentials reach you by email within 24 hours of registration."
+   },
+   {
+    "q": "Is the fee refundable?",
+    "a": "No. Fees once paid are non-refundable."
+   },
+   {
+    "q": "How long is access valid?",
+    "a": "Access stays active until the CAT 2026 exam."
+   },
+   {
+    "q": "Is GST included?",
+    "a": "Yes, the price includes GST."
+   }
+  ],
+  "compare_group": "CAT",
+  "visual_theme": "cat",
+  "source_note": "Courier time for the G-Strategy book not stated."
+ }
+]
