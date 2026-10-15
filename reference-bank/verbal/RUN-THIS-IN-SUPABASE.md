@@ -24,13 +24,13 @@ https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/refere
 
 ### What it does
 
-Deletes all 143 taxonomy rows and reloads **130** — one transaction, so it is all-or-nothing. Verbal goes
+Deletes all 143 taxonomy rows and reloads **128** — one transaction, so it is all-or-nothing. Verbal goes
 from 8 sub-sections to 6:
 
 | Sub-section | Chapters | Core types |
 |---|---:|---:|
 | Reading Comprehension | 3 | 13 |
-| Paragraph | 5 | 8 |
+| Paragraph | 4 | 7 |
 | Critical Reasoning | 7 | 14 |
 | Vocabulary | 11 | 42 |
 | Grammar | 9 | 9 |
@@ -38,9 +38,10 @@ from 8 sub-sections to 6:
 
 RC's three chapters are **Evidence based**, **TSPM based**, and **CAT level RC**.
 
-Paragraph's five are **Odd Man Out**, **Para Completion** (Sentence Insertion merged in), **Para Jumbles**
+Paragraph's four are **Odd Man Out**, **Para Completion** (Sentence Insertion merged in), **Para Jumbles**
 (Jumbled TITA · Jumbled 5 Statements · Jumbled 6-7 Statements), **Para Formation** (renamed from Sentence
-Joining & Matching), and **Passage Structure** (moved over from RC). Mandatory Pair merged away.
+Joining & Matching). Mandatory Pair merged away. **Passage Structure was dropped** — zero questions exist
+for it in any bank, and Ravneet said to remove it in that case.
 
 ### Why it is safe for the work already done
 

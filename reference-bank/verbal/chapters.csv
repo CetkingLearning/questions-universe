@@ -6,7 +6,6 @@ V-PG-OMO,Verbal,Paragraph,Odd Man Out,1,59,36,Verbal — White Book ch 9 (p67–
 V-PG-COM,Verbal,Paragraph,Para Completion,1,34,27,Verbal — White Book ch 11 (p81–86),Paragraph-Based,Verbal White Book ch 11. Absorbs Sentence Insertion / Missing Sentence.,,
 V-PG-JUM,Verbal,Paragraph,Para Jumbles,3,43,47,Verbal — White Book ch 10 (p73–80),Paragraph-Based,Verbal White Book ch 10. TITA is one core type; the with-options form splits by how many statements.,,
 V-PG-JOI,Verbal,Paragraph,Para Formation,2,0,0,,,"Renamed from ""Sentence Joining & Matching (CET)"" by Rav, 15 Oct 2026.",,
-V-PG-STR,Verbal,Paragraph,Passage Structure,1,0,0,,,"Moved out of RC by Rav, 15 Oct 2026 (""Move to paragraphs""). NOT in his Paragraph sheet — that export predates the move — so kept here; confirm.",,
 V-CR-ARG,Verbal,Critical Reasoning,Arguments,2,5,34,Verbal — White Book ch 6 (p41–49),Critical Reasoning,"Was two chapters. Absorbs the old V-CR-WST (Strength / Weaken Arguments) and V-CR-FLW (Flaw & Paradox) — Rav, 15 Oct 2026.",,
 V-CR-ASM,Verbal,Critical Reasoning,Assumptions,2,0,0,,Critical Reasoning,Verbal Bible CR1/CR5 + hierarchy row (proposed).,,
 V-CR-CEF,Verbal,Critical Reasoning,Cause Effect Reasoning,2,25,44,Verbal — White Book ch 5 (p35–40),Critical Reasoning,Verbal White Book ch 5.,,
