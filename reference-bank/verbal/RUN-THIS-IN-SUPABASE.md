@@ -12,7 +12,7 @@ copy it again** — it has changed. Vocabulary, Grammar and General are untouche
 
 ---
 
-## Run 2 — reshape Reading Comprehension AND Paragraph (one file)
+## Run 2 — reshape RC + Paragraph + Vocabulary (one file)
 
 **Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
 
@@ -24,52 +24,57 @@ https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/refere
 
 ### What it does
 
-Deletes all 143 taxonomy rows and reloads **128** — one transaction, so it is all-or-nothing. Verbal goes
-from 8 sub-sections to 6:
+Deletes all 143 taxonomy rows and reloads **115** — one transaction, all-or-nothing.
 
-| Sub-section | Chapters | Core types |
-|---|---:|---:|
-| Reading Comprehension | 3 | 13 |
-| Paragraph | 4 | 7 |
-| Critical Reasoning | 7 | 14 |
-| Vocabulary | 11 | 42 |
-| Grammar | 9 | 9 |
-| Verbal General | 1 | 1 |
+| Sub-section | Topics/Chapters | Subtopics | Question types |
+|---|---:|---:|---:|
+| Reading Comprehension | 3 | — | 13 |
+| Paragraph | 4 | — | 7 |
+| Critical Reasoning | 7 | — | 14 |
+| **Vocabulary** | **4** | **13** | **23** |
+| Grammar | 9 | — | 9 |
+| Verbal General | 1 | — | 1 |
 
-RC's three chapters are **Evidence based**, **TSPM based**, and **CAT level RC**.
+It also makes two schema additions for your Vocabulary shape:
 
-Paragraph's four are **Odd Man Out**, **Para Completion** (Sentence Insertion merged in), **Para Jumbles**
-(Jumbled TITA · Jumbled 5 Statements · Jumbled 6-7 Statements), **Para Formation** (renamed from Sentence
-Joining & Matching). Mandatory Pair merged away. **Passage Structure was dropped** — zero questions exist
-for it in any bank, and Ravneet said to remove it in that case.
+- a new level **`subtopic`**, so the tree can be Section → Subsection → Topic → Subtopic → Question Type
+- a **`dimension`** column (`1D` / `2D`, with `3D` allowed for later) — a complexity **tag**, not a level, exactly as you said
+
+**Column names vs your words.** The table mirrors `quant_master_taxonomy`, so:
+your **Topic** is stored in `chapter_*`, your **Subtopic** in `topic_*`, your **Question Type** in `core_type_*`.
+Worth knowing before you query it.
+
+### Vocabulary as loaded
+
+| Topic | Subtopics | 1D | 2D |
+|---|---:|---:|---:|
+| Meaning and Relationships | 4 | 4 | 4 |
+| Context and Usage | 4 | 4 | 4 |
+| Idioms and Phrases | 3 | 3 | 0 |
+| Word Structure and Accuracy | 2 | 2 | 2 |
+
+Idioms is its own Topic with your three subtypes — **Idiom Usage · Idiom Identification · Correct Idiom**.
+High Frequency Words was dropped (zero questions, same rule as Passage Structure).
 
 ### Why it is safe for the work already done
 
-The 14 Critical Reasoning core-type ids reload **unchanged**, so the 249 questions you already tagged keep
-pointing at the right core types. The file asserts exactly that before committing — if even one tagged
-question would be orphaned, it raises `RESHAPE ABORTED` and rolls the whole thing back. I tested this against
-a copy of your current live state (143 rows + 249 tagged questions) and all 249 still resolved afterwards.
+The 14 Critical Reasoning core-type ids reload **unchanged**, so the 249 questions already tagged keep
+pointing at the right types. The file asserts that before committing — if even one tagged question would be
+orphaned it raises `RESHAPE ABORTED` and rolls everything back. Validated against a copy of your current
+live state; all 249 still resolved.
 
-**Step 4.** Check it, or just tell me and I'll verify:
+**Step 4.** Check it, or tell me and I will verify:
 
 ```sql
-select subsection_name,
-       count(*) filter (where level='chapter')   as chapters,
-       count(*) filter (where level='core_type') as core_types
-  from public.verbal_master_taxonomy
- where level in ('chapter','core_type')
- group by 1 order by 1;
+select level, count(*) from public.verbal_master_taxonomy group by 1;
 
-select count(*) as tagged_still_resolving
-  from (select ck_core_id from public.cat_import_questions     where ck_core_id is not null
-        union all
-        select ck_core_id from public.cat_verbal_pyq_questions where ck_core_id is not null) z
-  join public.verbal_master_taxonomy t on t.master_id = z.ck_core_id;
+select chapter_name, subtopics, core_types, one_d, two_d
+  from public.verbal_master_taxonomy_chapters
+ where subsection_name = 'Vocabulary' order by sort_order;
 ```
 
-Expect the six rows above, and **249**.
+Expect 1 section / 6 subsections / 28 chapters / 13 subtopics / 67 question types, and the Vocabulary table above.
 
-(The 249 are the Critical Reasoning tags from run 1. Paragraph and RC questions are not tagged yet.)
 
 ---
 
