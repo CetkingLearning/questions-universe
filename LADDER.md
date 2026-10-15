@@ -10,6 +10,13 @@ Every real CAT question in `cat-universe/` is the top of a ladder. Rajat builds 
 | 3 | **Hard** | Three concepts meet, harder | SI + CI + percentage change in one question |
 | 4 | **CAT level** | Everything mixed — the real CAT question (from `cat-universe/`, never rewritten) | SI + ratios + percentages + … |
 
+
+## Shared Quant taxonomy — all chapters
+
+The master Quant taxonomy baseline is maintained in [`taxonomy/quant-core-types.csv`](taxonomy/quant-core-types.csv), with its usage rules in [`taxonomy/README.md`](taxonomy/README.md). Apply the same chapter/Core Type naming consistently across Cetking Quant Universe, from CAT reference mapping down through Level 0, Easy, Medium and Hard original questions. Do not invent taxonomy IDs or parent types where the source says `UNSPECIFIED IN SOURCE`; flag those for Ravneet's review. Existing frozen chapter taxonomies are not silently replaced by this baseline.
+
+For the ladder, preserve the original CAT question as the reference ceiling, then work backwards: CAT pattern → Hard → Medium → Easy → Level 0. Each lower rung removes conceptual complexity, not merely numerical difficulty. The production bank remains the original-question bank used for PDFs, practice sets and mocks; CAT and Bible collections remain separate references.
+
 ## Rules
 1. Start from a real CAT question in `cat-universe/<section>/<topic>.csv`. Copy its `supabase_id` (the long code in the last column — always present, always unique) into `parent_cat_id` of every rung you create under it. `cat_question_id` (e.g. `CAT-2024-S3-QA-004`) is a human label and is blank on many rows, so never use it as the link. Never edit the CAT question itself.
 2. Work backwards: what three concepts does the CAT question combine? → Hard uses three of them; Medium uses two; Easy uses one; Level 0 is the idea behind that one.
