@@ -37,9 +37,33 @@ The Level 0 distractor is never a careless-arithmetic slip — it is the single 
 - `exam_scope = CET` → Level 0, Easy, Medium. A CET student's bank must be complete without anything above Medium.
 - `exam_scope = CAT` → all five levels.
 
-## Targets for the first bank
-Per core type: **1 Level 0 · 2 Easy · 2 Medium · 1 Hard** (only where a genuine Hard exists).
-17 core types ≈ **100 questions**, all linked up to the CAT questions by `parent_cat_id` (= the CAT question's `supabase_id`).
+## The cult set — production and verification chain (Ravneet, 15 Oct 2026)
+This replaces the earlier volume targets. **One question per rung per core type, and no more.** These are the God questions: every student learns them, every student revises them, and everything else Cetking ships (handouts, mocks, books, Arena sets) is a variant generated from them on demand. A verified question is an asset that compounds; an unverified one is a liability that multiplies.
+
+| Rung | Source | Verified by | Seen by |
+|---|---|---|---|
+| **Level 0** | AI writes | — (not counted; cheap, one formula) | Rajat |
+| **Easy** | **the real CET PYQ** | Gemini / DeepSeek re-verify | Rajat |
+| **Medium** | **the real CET PYQ** | Gemini / DeepSeek re-verify | Rajat |
+| **Hard** | AI writes | Gemini / DeepSeek re-verify | Rajat |
+| **CAT level** | **the real CAT PYQ** | Gemini checks against the actual CAT paper found online | Rajat |
+
+Two real anchors, one at each end: the real CET question below and the real CAT question above. Easy / Medium / Hard are **the bridge between two known points**, not a free invention. That is the brief — and it is what stops a Hard from being the CAT parent reskinned.
+
+**Count:** 20 core types × 5 rungs = **100**, of which only **20 Hards are AI-written and need real scrutiny**. Level 0 is uncounted.
+
+### When no real PYQ exists for a rung
+Many core types have no CET question yet, and five have no CAT question. In that case:
+- The rung is AI-written, `source_type = original`, and the row is flagged `anchor_status = awaiting_pyq`.
+- It is **replaced** by the real question the moment one is imported — the AI version is a placeholder, never a permanent resident.
+- A rung is never filled with a question labelled as a PYQ when it is not one, and an empty CAT rung is left **empty** rather than topped with a Hard. An empty slot is information.
+
+### Answer-verification rule for PYQs
+Web sources disagree (the CAT cross-check found 225 answer disagreements against one source alone). Order of authority:
+1. the official key from the exam body, where one exists (CET 2026 objection pages);
+2. otherwise two independent sources agreeing;
+3. otherwise flag for Ravneet — never pick the majority of unverified pages.
+A model checking a question it wrote itself is a self-check, not an audit, and is recorded as such.
 
 ## The 37 Bible questions
 `reference-bank/quant/linear-and-simple-equations-bible.csv` — classify each one into its core type **first**, then use it as a reference for level and style. Never copy its wording, never change its row.
