@@ -3,7 +3,7 @@
 Rajat builds this with ChatGPT. Read `LADDER.md` and `WORKFLOW.md` too. Nothing is live until Ravneet approves.
 
 ## Scope — 17 core types only
-Chapter **Q-AL-EQN Equations**, two topics. Quadratic Equations & Roots (Q-AL-EQN-02) and Integer Solutions & Techniques (Q-AL-EQN-04) are **parked** — do not build them yet.
+Chapter **Q-AL-EQN Equations**. Ravneet opened the full chapter on 15 Oct 2026: all four topics are in scope — Q-AL-EQN-01 Linear Equations, Q-AL-EQN-02 Quadratic Equations &amp; Roots, Q-AL-EQN-03 Equation Word Problems, Q-AL-EQN-04 Integer Solutions &amp; Techniques (30 core types in all).
 
 **Q-AL-EQN-01 Linear Equations (8)**
 Linear – One Variable · Linear – Two Variables · Linear – Three Variables · Fraction Equations · Reciprocal Equations · Ratio Equations · Linear Equations and Max-Min · No Solution Condition
