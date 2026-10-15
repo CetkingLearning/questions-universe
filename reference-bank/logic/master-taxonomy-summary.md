@@ -1,4 +1,26 @@
-# Logic master taxonomy – merge summary (v2, 15 Oct 2026, 4:30 AM)
+# Logic master taxonomy – merge summary (FINAL chapters, 15 Oct 2026, 5:30 AM)
+
+## FINAL — Rav's chapter decisions (sheet remarks, 15 Oct 2026, 5:27 AM)
+
+- **188 rows: 1 section · 9 sub-sections · 60 chapters (all decided) · 118 core types (still proposed).**
+- **CAT DILR (13 chapters):** all kept as is ("Keep in CAT DILR").
+- **Traditional Logic (6 chapters):** Direction Sense, Coding-Decoding, Blood Relations, Syllogism, Alphanumeric Series, Number Series.
+  - **Alphabet Series is merged into Alphanumeric Series.** `L-TL-ALS` is retired; its 3 core types became `L-TL-ANS-004…006`, and the chapter now holds 120 PYQs.
+- **Modern Logic (13 chapters):** the 12 already there, plus **Word Formation moved in from Traditional Logic** (`L-TL-WRD` → `L-ML-WRD`).
+- **Puzzles (10 chapters):** all accepted.
+- **Critical Reasoning (8 chapters): shared with Verbal > Critical Reasoning.**
+  - Questions take the Verbal `V-CR` id: 7 chapters, each with Single Statements `-001` and Passage based `-002`.
+  - The `L-CR` rows keep only the CET names, with `shared_with` pointing to the Verbal id.
+  - Statement Conclusions and Truth Claim Conclusions both point to `V-CR-TRC`.
+  - **Assertion Reasoning has no Verbal chapter yet**, so it stays `L-CR-ASR`.
+- **Abstract Reasoning (10 chapters), two groups** (column `group`):
+  - **Traditional Abstract:** Series & Patterns (renamed), Abstract Odd Man Out (was Figure Classification), Abstract Analogies (was Figure Analogy).
+  - **Modern Abstract:** Mirror & Water Image, Paper Folding & Cutting, Figure Counting, Dot Concept, Figure Completion, Cubes & Dice, Embedded Figures.
+- **Status in the SQL:** chapters are `accepted` (52) or `shared_verbal` (8 CR). Core types stay `proposed` until Rav reviews them.
+
+---
+
+# v2 build notes (15 Oct 2026, 4:30 AM)
 
 Read-only build, same method as Quant. v2 applies Rav's decisions from 15 Oct 2026, 3:55 AM. No Supabase table was created or changed.
 
