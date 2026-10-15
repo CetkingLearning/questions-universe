@@ -1,5 +1,5 @@
-cat_question_id,cat_id_source,ck_subsection,ck_chapter,ck_chapter_source,topic_raw,is_actual_cat,exam_year,exam_slot,question_no,cat_level,difficulty_raw,g_strategy_official,question_type,set_title,context_text,question_text,option_a,option_b,option_c,option_d,answer_type,correct_option,correct_answer,ai_answer,ai_answer_status,ai_answer_notes,verify_status,solution,why_others_wrong,shortcut,has_images,image_urls,source_url,supabase_id
-CAT-2025-S1-QA-005,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Simple Equations,,,"Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is _______",,,,,tita,,15,,,,match,"Let the trader hold x shares of stock B.
+﻿cat_question_id,master_chapter_id,ck_subsection,ck_chapter,rav_question_type,rav_secondary_topic,exam_year,exam_slot,question_no,cat_level,difficulty,g_strategy_official,answer_type,question_text,option_a,option_b,option_c,option_d,correct_option,correct_answer,solution,shortcut,why_others_wrong,has_images,image_urls,verify_status,verify_source,rav_note,source_url,supabase_id
+CAT-2025-S1-QA-005,Q-AL-EQN,Algebra,Equations,Simple Equations,,2025,1,,CAT Easy,Easy,Breakup G Strategy,tita,"Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is _______",,,,,,15,"Let the trader hold x shares of stock B.
 Then stock C shares = 20 − x.
 Prices:
 A = 120
@@ -12,17 +12,8 @@ Portfolio value equation:
 4200 − 60x = 3300
 60x = 900
 x = 15
-Answer: 15 shares of stock B.",,Breakup,False,,https://iimking.com/equations-algebra-cat-2025-slot-1-actual-questions/,da0c7e37-7eb3-4a34-8768-28de9065b648
-CAT-2025-S1-QA-013,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,,,,"If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is ____",,,,,tita,,60,,,,match,"Let the diagonals be d1 and d2.
-Area of a rhombus = 1/2 × d1 × d2 = 396 → d1 × d2 = 792.
-In a rhombus, diagonals bisect each other at right angles.
-So by Pythagoras: (d1/2)^2 + (d2/2)^2 = 36^2.
-Multiply by 4: d1^2 + d2^2 = 4 × 1296 = 5184.
-Use identity: (d1 − d2)^2 = (d1^2 + d2^2) − 2(d1 × d2).
-Substitute: (d1 − d2)^2 = 5184 − 2×792 = 5184 − 1584 = 3600.
-So |d1 − d2| = √3600 = 60.
-Final Answer: 60",,Breakup G Strategy,False,,https://iimking.com/number-system-cat-2025-slot-1-actual-questions/,2542d386-73d5-4d48-b3bf-1184b741178d
-CAT-2025-S1-QA-014,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Simple Equations,,,"If a -6b + 6c = 4 and 6a + 3b - 3c = 50, where a, b, and c are real numbers, the value of 2a + 3b - 3c is",14,15,16,18,mcq,D,18,,,,match,"Step 1  From eq(2): 6a + 3b − 3c = 50
+Answer: 15 shares of stock B.",Breakup,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2025-Question-Paper-Slot-1-Quant/,,https://iimking.com/equations-algebra-cat-2025-slot-1-actual-questions/,da0c7e37-7eb3-4a34-8768-28de9065b648
+CAT-2025-S1-QA-014,Q-AL-EQN,Algebra,Equations,Simple Equations,,2025,1,,CAT Medium,Medium,Breakup G Strategy,mcq,"If a -6b + 6c = 4 and 6a + 3b - 3c = 50, where a, b, and c are real numbers, the value of 2a + 3b - 3c is",14,15,16,18,D,18,"Step 1  From eq(2): 6a + 3b − 3c = 50
 → take one-third → 2a + b − c = 50/3
 Step 2  Compare target with this:
 Target = (2a + b − c) + 2(b − c)
@@ -34,229 +25,13 @@ Step 4 Substitute into step 1:
 13x = 26/3 → x = 2/3
 So (b − c) = 2/3
 Step 5 Plug in:
-Target = 50/3 + 2*(2/3) = 18",,Breakup,False,,https://iimking.com/equations-algebra-cat-2025-slot-1-actual-questions/,0cb5021d-674a-4f65-b2cb-028e16e50e1e
-CAT-2025-S1-QA-043,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,,Cat 2025 Slot 1,Breakup G Strategy,MEDIUM,Breakup G Strategy Time Speed + APGP | MEDIUM | CAT 2025 Slot 1,,"Shruti travels a distance of 224 km in four parts for a total travel time of 3 hours. Her speeds in these four parts follow an arithmetic progression, and the corresponding time taken to cover these four parts follow another arithmetic progression. If she travels at a speed of 960 meters per minute for 30 minutes to cover the first part, then the distance, in meters, she travels in the fourth part is",86400,96000,112000,76800,mcq,A,86400,,,,match,"Work in minutes and meters: total time = 3 hr = 180 min, total distance = 224 km = 224000 m.
-Times are 30,40,50,60 (sum 180 using AP). If speeds are v, v+d, v+2d, v+3d then total distance = v·180 + d·(40 + 2·50 + 3·60) = v·180 + d·320. With v = 960 m/min, v·180 = 960×180 = 172800, so the extra distance to be made up by the d-terms = 224000 − 172800 = 51200.
-So d = 51200/320 = 160 m/min ⇒ v4 = 960 + 3·160 = 1440 m/min ⇒ distance in 4th part = 1440 × 60 = 86,400 m.",,Breakup G Strategy Time Speed + APGP,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,aac45342-7d87-4a76-9172-dc57c797269e
-CAT-2025-S1-QA-046,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | EASY | CAT 2025 Slot 1,,"Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is _______",,,,,tita,,15,,,,match,"Let the trader hold x shares of stock B.
-Then stock C shares = 20 − x.
-Prices:
-A = 120
-B = 90
-C = 150
-Portfolio value equation:
-10(120) + x(90) + (20 − x)(150) = 3300
-1200 + 90x + 3000 − 150x = 3300
-1200 + 3000 + (90x − 150x) = 3300
-4200 − 60x = 3300
-60x = 900
-x = 15
-Answer: 15 shares of stock B.",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,b0cb44ba-7c4f-4d4d-aa74-604d15388bec
-CAT-2025-S1-QA-047,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | EASY | CAT 2025 Slot 1,,"Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is _______",,,,,tita,,15,,,,match,"Let the trader hold x shares of stock B.
-Then stock C shares = 20 − x.
-Prices:
-A = 120
-B = 90
-C = 150
-Portfolio value equation:
-10(120) + x(90) + (20 − x)(150) = 3300
-1200 + 90x + 3000 − 150x = 3300
-1200 + 3000 + (90x − 150x) = 3300
-4200 − 60x = 3300
-60x = 900
-x = 15
-Answer: 15 shares of stock B.",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,45eef372-c00d-4011-98fc-cadb1b90b8ed
-CAT-2025-S1-QA-050,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | MEDIUM | CAT 2025 Slot 1,,"If a -6b + 6c = 4 and 6a + 3b - 3c = 50, where a, b, and c are real numbers, the value of 2a + 3b - 3c is",14,15,16,18,mcq,D,18,,,,match,"Step 1 From eq(2): 6a + 3b − 3c = 50
-→ take one-third → 2a + b − c = 50/3
-Step 2 Compare target with this:
-Target = (2a + b − c) + 2(b − c)
-Step 3 Find (b − c) from eq(1):
-a − 6b + 6c = 4 → rewrite → a = 4 + 6(b − c)
-Step 4 Substitute into step 1:
-2(4 + 6x) + x = 50/3
-8 + 12x + x = 50/3
-13x = 26/3 → x = 2/3
-So (b − c) = 2/3
-Step 5 Plug in:
-Target = 50/3 + 2*(2/3) = 18",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,1f9465ca-6831-4e41-be9b-894e0a650eb3
-CAT-2025-S1-QA-051,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | MEDIUM | CAT 2025 Slot 1,,"If a -6b + 6c = 4 and 6a + 3b - 3c = 50, where a, b, and c are real numbers, the value of 2a + 3b - 3c is",14,15,16,18,mcq,D,18,,,,match,"Step 1 From eq(2): 6a + 3b − 3c = 50
-→ take one-third → 2a + b − c = 50/3
-Step 2 Compare target with this:
-Target = (2a + b − c) + 2(b − c)
-Step 3 Find (b − c) from eq(1):
-a − 6b + 6c = 4 → rewrite → a = 4 + 6(b − c)
-Step 4 Substitute into step 1:
-2(4 + 6x) + x = 50/3
-8 + 12x + x = 50/3
-13x = 26/3 → x = 2/3
-So (b − c) = 2/3
-Step 5 Plug in:
-Target = 50/3 + 2*(2/3) = 18",,Breakup G Strategy,False,,https://iimking.com/cat-2025-slot-1-breakup-g-strategy/,fffee052-500a-4b6b-9888-e602ae4c1fef
-CAT-2025-S1-QA-054,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | EASY | CAT 2025 Slot 1,,"Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is _______",,,,,tita,,15,,,,match,"Let the trader hold x shares of stock B.
-Then stock C shares = 20 − x.
-Prices:
-A = 120
-B = 90
-C = 150
-Portfolio value equation:
-10(120) + x(90) + (20 − x)(150) = 3300
-1200 + 90x + 3000 − 150x = 3300
-1200 + 3000 + (90x − 150x) = 3300
-4200 − 60x = 3300
-60x = 900
-x = 15
-Answer: 15 shares of stock B.",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,e15681f5-e1ac-42bd-a08f-e476aad4f6e8
-CAT-2025-S1-QA-055,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | MEDIUM | CAT 2025 Slot 1,,"If a -6b + 6c = 4 and 6a + 3b - 3c = 50, where a, b, and c are real numbers, the value of 2a + 3b - 3c is",14,15,16,18,mcq,D,18,,,,match,"Step 1 From eq(2): 6a + 3b − 3c = 50
-→ take one-third → 2a + b − c = 50/3
-Step 2 Compare target with this:
-Target = (2a + b − c) + 2(b − c)
-Step 3 Find (b − c) from eq(1):
-a − 6b + 6c = 4 → rewrite → a = 4 + 6(b − c)
-Step 4 Substitute into step 1:
-2(4 + 6x) + x = 50/3
-8 + 12x + x = 50/3
-13x = 26/3 → x = 2/3
-So (b − c) = 2/3
-Step 5 Plug in:
-Target = 50/3 + 2*(2/3) = 18",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,3a6dcd21-8325-40f6-a585-8f04791588b4
-CAT-2025-S1-QA-059,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Easy,Easy,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | EASY | CAT 2025 Slot 1,,"Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is _______",,,,,tita,,15,,,,match,"Let the trader hold x shares of stock B.
-Then stock C shares = 20 − x.
-Prices:
-A = 120
-B = 90
-C = 150
-Portfolio value equation:
-10(120) + x(90) + (20 − x)(150) = 3300
-1200 + 90x + 3000 − 150x = 3300
-1200 + 3000 + (90x − 150x) = 3300
-4200 − 60x = 3300
-60x = 900
-x = 15
-Answer: 15 shares of stock B.",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,f3117f13-f9b3-4515-a54c-d23867fd7a08
-CAT-2025-S1-QA-060,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,1,,CAT Medium,Medium,Breakup G Strategy,Simple Equations,Breakup G Strategy | Simple Equations | MEDIUM | CAT 2025 Slot 1,,"If a -6b + 6c = 4 and 6a + 3b - 3c = 50, where a, b, and c are real numbers, the value of 2a + 3b - 3c is",14,15,16,18,mcq,D,18,,,,match,"Step 1 From eq(2): 6a + 3b − 3c = 50
-→ take one-third → 2a + b − c = 50/3
-Step 2 Compare target with this:
-Target = (2a + b − c) + 2(b − c)
-Step 3 Find (b − c) from eq(1):
-a − 6b + 6c = 4 → rewrite → a = 4 + 6(b − c)
-Step 4 Substitute into step 1:
-2(4 + 6x) + x = 50/3
-8 + 12x + x = 50/3
-13x = 26/3 → x = 2/3
-So (b − c) = 2/3
-Step 5 Plug in:
-Target = 50/3 + 2*(2/3) = 18",,Breakup G Strategy,False,,https://iimking.com/full-quant-cat-2025-slot-1-question-paper-pdf-with-detailed-solutions/,2dccd4ff-497e-4016-b59f-459baa31912c
-CAT-2025-S2-QA-034,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,2,,CAT Easy,Easy,Maxima Minima G Strategy,,,,"If a, b, c and d are integers such that their sum is 46, then the minimum possible value of
-(a − b)² + (a − c)² + (a − d)² is ______",,,,,tita,,2,,,,match,"Minimum possible value is 2
+Target = 50/3 + 2*(2/3) = 18",Breakup,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2025-Question-Paper-Slot-1-Quant/,,https://iimking.com/equations-algebra-cat-2025-slot-1-actual-questions/,0cb5021d-674a-4f65-b2cb-028e16e50e1e
+CAT-2025-S2-QA-034,Q-AL-EQN,Algebra,Equations,Quadratic,,2025,2,,CAT Easy,Easy,Maxima Minima G Strategy,tita,"If a, b, c and d are integers such that their sum is 46, then the minimum possible value of
+(a − b)² + (a − c)² + (a − d)² is ______",,,,,,2,"Minimum possible value is 2
 Since a, b, c, d must be integers, they must be the integers closest to 11.5, which are 11 and 12.
 To satisfy the sum constraint a + b + c + d = 46, we can take values 11, 11, 12, 12.
-Expression becomes: (11 − 12)² + (11 − 12)² + (11 − 11)² = 1 + 1 + 0 = 2",,Maxima Minima,False,,https://iimking.com/equations-algebra-cat-2025-slot-2-actual-questions/,c4dc0e31-f3a7-4e83-8cc8-6bf4fece57a5
-CAT-2025-S3-QA-001,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,3,,,,Breakup G Strategy,,,,"The ratio of the number of coins in boxes A and B was 17:7. After 108 coins were shifted from box A to box B, this ratio became 37:20. The number of coins to be further shifted from box A to box B to make this ratio 1:1 is:",,,,,tita,,272,,,,match,"Correct Answer: 272
-Let the number of coins in Box A be 17x and in Box B be 7x.
-After shifting 108 coins:
-New number of coins in A = 17x - 108, in B = 7x + 108.
-The ratio becomes 37:20, so we set up the equation:
-(17x - 108) / (7x + 108) = 37 / 20
-Solving this gives x = 76.
-Coins in A = 17 * 76 = 1292, and in B = 7 * 76 = 532.
-After shifting 108 coins:
-A has 1184 coins, and B has 640 coins.
-To make the ratio 1:1:
-Set up the equation for the 1:1 ratio:
-(1184 - y) / (640 + y) = 1
-Solving gives y = 272.
-Answer 272",,Breakup,False,,https://iimking.com/arithmetic-1-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,0759b498-28ec-4a00-b46a-ee5f2daa7c18
-CAT-2025-S3-QA-005,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,,,,"The sum of all possible real values of x for which
-log
-x-3
-(x² - 9) = log
-x-3
-(x + 1) + 2 is :",√33,-3,(3+√33)/2,3,mcq,C,(3+√33)/2,,,,match,"log
-(x-3)
-((x²−9)/(x+1)) = 2
-By definition of log :
-(x²−9)/(x+1) = (x−3)²
-Now equating :
-(x²−9)/(x+1) = x²−6x+9
-x²−9 = (x²−6x+9)(x+1)
-Solve the cubic equation:
-x³−6x²+3x+18 = 0
-Factor the cubic equation:
-(x−3)(x²−3x−6) = 0
-Solve x²−3x−6 = 0 using the quadratic formula:
-x = (3 ± √33)/2
-Sum of solutions:
-Sum = (3 + √33)/2
-Option 3 is the answer",,Breakup G Strategy,False,,https://iimking.com/modern-maths-actual-questions-cat-2025-slot-3-quant/,0af2d22f-90d4-43a9-b7f0-4f6c838ac879
-CAT-2025-S3-QA-006,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,3,,CAT Hard,Hard,Breakup G Strategy,,,,"Let p, q and r be three natural numbers such that their sum is 900, and r is a perfect square whose values lies between 150 and 500.If p is less than 0.3q and  not more than 0.7q, then the sum of the maximum and minimum possible values of p is: _____",,,,,tita,,397,,,,match,"Correct Answer: 397
-Give p + q + r = 900 , 0.3q ≤ p ≤ 0.7q
-r  lies between 150 to 500 and is a perfect square
-So r = 169 , 196 , 225 , 256 , 289 , 324 , 361 , 400 , 441 , 484
-For maximum p (0.7q) , r should be minimum, r = 169
-0.7q + 1q + 169 = 900 , q = 430 so p = 0.7 × 430 = 301
-For minimum p (0.3q) , r should be maximum r = 484
-0.3q + 1q + 484 = 900 , q = 320 , so p = 0.3 × 320 = 96
-Pmax + P min = 301 + 96 = 397
-Answer 397",,Breakup,False,,https://iimking.com/numbers-actual-questions-cat-2025-slot-3-quant-2/,ac277155-4880-4eb0-95e3-6c7b8a4d1a75
-CAT-2025-S3-QA-019,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,,,,"The monthly sales of a product from January to April were 120, 135, 150 and 165 units respectively. The cost per unit of the product was Rs 240 per unit and a fixed marked price was used for the product in all the four months. However, 20%, 10% and 5% discount on the marked price was offered in January, February, March respectively while no discount were given in April.If the total profit from January to April was Rs 138825, then the marked price (in Rs) is equal to, say:",515,525,520,510,mcq,B,525,,,,match,"Correct Answer: 2
-Given: Units sold: January (120), February (135), March (150), April (165)
-Cost per unit: Rs 240
-Discounts: 20% (January), 10% (February), 5% (March), 0% (April)
-Total profit: Rs 138,825
-Let M be the marked price.
-Revenue for Each Month
-January: 120 × 0.80M = 96M
-February: 135 × 0.90M = 121.5M
-March: 150 × 0.95M = 142.5M
-April: 165 × M = 165M
-Total Revenue = 96M + 121.5M + 142.5M + 165M = 525M
-Total Cost = (120 + 135 + 150 + 165) × 240 = 136800
-Profit = Revenue - Cost
-138825 = 525M - 136800
-525M = 275625
-M = 275625 / 525 = 525
-The marked price M = Rs 525, so the correct answer is Option 2.",,Breakup,False,,https://iimking.com/arithmetic-1-actual-questions-breakup-g-strategy-cat-2025-slot-3-quant/,eb910be9-ba39-4cf3-b0e6-7d8c4ff1fe2a
-CAT-2025-S3-QA-020,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,3,,CAT Medium,Moderate,Breakup G Strategy,,,,"In an arithmetic progression, if the sum of fourth, seventh and tenth term is 99, and the sum of the first fourteen terms is 497, then the sum of first five terms is :",,,,,tita,,65,,,,match,"Given : Sum of 4th, 7th, and 10th terms = 99
-Sum of first 14 terms = 497
-Use the formulas for AP
-(a + 3d) + (a + 6d) + (a + 9d) = 99
-This simplifies to:
-a + 6d = 33 (Equation 1)
-(14/2) × [2a + 13d] = 497
-2a + 13d = 71 (Equation 2)
-Solve the system of equations
-From Equation 1:
-a = 33 - 6d
-Substitute this into Equation 2:
-2(33 - 6d) + 13d = 71
-Simplifying gives:
-d = 5, a = 3
-The first 5 terms are:
-T1 = 3, T2 = 8, T3 = 13, T4 = 18, T5 = 23
-Sum of the first 5 terms:
-3 + 8 + 13 + 18 + 23 = 65
-Answer: 65",,Breakup G Strategy,False,,https://iimking.com/modern-maths-actual-questions-cat-2025-slot-3-quant/,eb085955-f6dc-486e-a5d9-5de91e4b0ce6
-CAT-2025-S3-QA-027,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2025,3,,CAT Easy,Easy,Square ±2 G Strategy,,,,"If (x²+ 1/x²) = 25 and x > 0, then the value of (x⁷ + 1/x⁷) is:",44856√3,44853√3,44859√3,44850√3,mcq,B,44853√3,,,,match,"Given x² + 1/x² = 25 , x > 0
-Using identity (a + b)² = a² + b² + 2ab
-I. x + 1/x:
-(x + 1/x)² = x² + 2 + 1/x² = 25 + 2 = 27
-So, x + 1/x = 3√3
-II. x³ + 1/x³:
-x³ + 1/x³ = (x + 1/x) * (x² + 1/x²) - (x + 1/x)
-x³ + 1/x³ = (3√3) * 25 - 3√3 = 72√3
-III.x⁴ + 1/x⁴:
-x⁴ + 1/x⁴ = (x² + 1/x²)² - 2
-x⁴ + 1/x⁴ = 25² - 2 = 625 - 2 = 623
-IV.x⁷ + 1/x⁷:
-x⁷ + 1/x⁷ = (x³ + 1/x³) * (x⁴ + 1/x⁴) - (x + 1/x)
-x⁷ + 1/x⁷ = (72√3) * 623 - 3√3 = 44853√3",,Square ±2,False,,https://iimking.com/algebra-equations-actual-questions-cat-2025-slot-3-quant/,88ebfd28-3cc8-4325-92c0-f2e3499b2b26
-CAT-2024-S3-QA-012,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2024,3,,,,Breakup G Strategy,System of Equations,System of Equations,,"For some constant real numbers p, k and a, consider the system of linear equations: px - 4y = 2 and 3x + ky = a. A necessary condition for the system to have no solution for (x,y) is:",,,,,tita,,,pk = -12,ai_unverified,Parallel lines: p/3=-4/k => pk=-12 (necessary condition),missing_found,"Parallel: p/3 = -4/k
-Not coincident: 2a + k ≠ 0",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,ca0a7ee8-95b1-48fd-bfe2-3103c288538d
-CAT-2024-S3-QA-014,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2024,3,,,,Breakup G Strategy,Rajesh & Vimal Land,Rajesh & Vimal Land,,"Rajesh owns 20 hectares, Vimal owns 30 hectares with wheat and mustard in 5:3 ratio. Total wheat:mustard is 11:9. Find Rajesh's ratio.",,,,,tita,,7:9,,,,match,"Rajesh wheat =9.5, mustard=10.5 → ratio 19:21 → closest 7:9",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,8e61eaad-0b61-45e9-8161-03dea20dff39
-CAT-2024-S3-QA-015,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2024,3,,,,Breakup G Strategy,Aman Bank Investment,Aman Bank Investment,,"Aman invests Rs 4000 in a bank at a certain rate of interest, compounded annually. If the ratio of the value of the investment after 3 years to the value after 5 years is 25:36, then the minimum number of years required for the value to exceed Rs 20000 is _____",,,,,tita,,9,,,,match,"(1 + r)^3 / (1 + r)^5 = 25/36 → (1 + r)^2 = 36/25 = 1.44 → 1 + r =1.2 → r=20%
-4000*(1.2)^n > 20000 → (1.2)^n>5
-n=8:4.3, n=9:5.16 → n=9",,Breakup,False,,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,d9929a67-a89f-40bb-a6ef-e9e83fec23ad
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2024,,,,,,,,,"A shop wants to sell a certain quantity (in kg) of grains. It sells half the quantity and an additional 3 kg of these grains to the first customer. Then, it sells half of the remaining quantity and an additional 3 kg of these grains to the second customer. Finally, when the shop sells half of the remaining quantity and an additional 3 kg of these grains to the third customer, there are no grains left. What was the initial quantity, in kg, of grains?",36,18,50,42,mcq,D,42,,,,match,"Step 1: Understand the problem
+Expression becomes: (11 − 12)² + (11 − 12)² + (11 − 11)² = 1 + 1 + 0 = 2",Maxima Minima,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2025-Question-Paper-Slot-2-Quant/,,https://iimking.com/equations-algebra-cat-2025-slot-2-actual-questions/,c4dc0e31-f3a7-4e83-8cc8-6bf4fece57a5
+CAT-2024-S1-QA-013,Q-AL-EQN,Algebra,Equations,Simple Equations,,2024,1,13,,,,mcq,"A shop wants to sell a certain quantity (in kg) of grains. It sells half the quantity and an additional 3 kg of these grains to the first customer. Then, it sells half of the remaining quantity and an additional 3 kg of these grains to the second customer. Finally, when the shop sells half of the remaining quantity and an additional 3 kg of these grains to the third customer, there are no grains left. What was the initial quantity, in kg, of grains?",36,18,50,42,D,42,"Step 1: Understand the problem
 Let the initial quantity of grains be \( x \) kg.
 Step 2: Simplify after the first customer
 The first customer takes \( \frac{x}{2} + 3 \):
@@ -272,135 +47,13 @@ Solve \( \frac{x}{8} - \frac{21}{4} = 0 \):
 Multiply through by 8:
 \( x = 42 \).
 Final Answer:
-The initial quantity of grains is \( \boxed{42} \).",,,False,,https://iimking.com/cat-2024-actual-questions-equations/,ce24ca20-dcce-48e7-9bcd-e9929659e989
-CAT-2023-S2-QA-023,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2023,2,,,,,,,,,5/2,3/2,1/2,3,mcq,C,1/2,,,,match,Ans 3,,,True,https://iimking.com/wp-content/uploads/2023/12/image-8-1024x38.png,https://iimking.com/equations-actual-question-in-cat-2023-slot-2/,9e67f0f6-8bfc-4bfc-9645-0c9634593594
-CAT-2023-S2-QA-037,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2023,2,,,,,,,,,,,,,tita,,16,,,,match,Ans 16,,,True,https://iimking.com/wp-content/uploads/2023/12/image-12-1024x68.png,https://iimking.com/equations-actual-question-in-cat-2023-slot-2/,55bc0d96-1871-4637-b1bd-8fb92ee5fb2d
-CAT-2023-S2-QA-042,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2023,2,,,,,,,,,243,189,486,378,mcq,D,378,,,,match,Ans 4,,,True,https://iimking.com/wp-content/uploads/2023/12/image-16-1024x70.png,https://iimking.com/equations-actual-question-in-cat-2023-slot-2/,23e291ae-8959-4704-9b83-8f6250f23793
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 7: CAT 2022 Quant Section | Breakup Strategy,,"In an election, there were four candidates and 80% of the registered voters casted their votes. One of the candidates received 30% of the casted votes while the other three candidates received the remaining casted votes in the proportion 1 : 2 : 3. If the winner of the election received 2512 votes more than the candidate with the second highest votes, then the number of registered voters was",50240,62800,60288,40192,mcq,,,B,ai_unverified,"Winner 0.28R, second 0.24R; 0.04R=2512 => R=62800",missing_found,"Let registered votes be 600x
-Casted votes = 80% of 600x = 480x
-One candidate gets 30% of 480x = 144x
-Remaining = 480x – 144x = 336x
-This is divided in the ratio 1:2:3 = 56x:112x:168x
-So the diff between winner and second highest votes = 168x – 144x = 24x
-Given, 24x = 2512
-So, 6x = 628
-So, 600x = 62800 total voters
-Let's break down the given information step by step:
-The number of registered votes is denoted as 600x.
-The casted votes are 80% of the registered votes, which equals 480x (80% of 600x).
-One candidate receives 30% of the casted votes, which amounts to 144x (30% of 480x).
-The votes received by this candidate are then divided in the ratio 1:2:3, resulting in 56x, 112x, and 168x votes, respectively.
-Now, you mentioned that 24x is equal to 2512. Let's solve for x:
-24x = 2512
-Dividing both sides by 24:
-x = 2512 / 24
-x = 104.6667
-Since x represents a fraction of a vote, let's round it to the nearest whole number:
-x ≈ 105
-Now, we can calculate the total number of registered voters:
-600x = 600 * 105 = 63,000
-Therefore, the total number of voters in this scenario is 63,000.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,331eece1-f4e5-4f4a-94c1-61b83277393b
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 6: CAT 2022 Quant Section | Breakup Strategy,,,,,,,,,,,needs_image,Blank key and question has images; not attempted,not_found,"Since, Δ BEA is right angled and ∠ BAC = 450
-So, Δ BEA is isosceles
-AE = BE and AB = √2 BE
-In Δ ADC, sin θ = AD/AB = AD/√2 BE
-So, AD/BE = √2 sin θ",,Breakup,True,https://iimking.com/wp-content/uploads/2023/10/image-19.png,https://iimking.com/cat-quant-breakup-strategy/,35369d41-42b5-47aa-bebb-3f68d91a3528
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 5: CAT 2022 Quant Section | Breakup Strategy,,"The average weight of students in a class increases by 600 gm when some new students join the class. If the average weight of the new students is 3 kg more than the average weight of the original students, then the ratio of the number of original students to the number of new students is",1 : 2,4 : 1,1 : 4,3 : 1,mcq,B,4 : 1,,,,match,So Ratio of students = 2.4 : 0.6 = 4:1,,Breakup,True,https://iimking.com/wp-content/uploads/2023/10/image-18.png,https://iimking.com/cat-quant-breakup-strategy/,38b88b82-818c-47b1-b865-e8a3bb5f24cc
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 10: CAT 2022 Quant Section | Breakup Strategy,,"Five students, including Amit, appear for an examination in which possible marks are integers between 0 and 50, both inclusive. The average marks for all the students is 38 and exactly three students got more than 32. If no two students got the same marks and Amit got the least marks among the five students, then the difference between the highest and lowest possible marks of Amit is",20,22,21,24,mcq,A,20,,,,match,"Total score of 5 students = 38*5 = 190
-Amit will have min score when other have max score
-So, Amit’s min score = 190 – 50 – 49- 48 – 32 = 11
-Amit will have max score, when others have min score
-This happens when 3 students having score more than 32 have a total of 190 – 32 -31 and Amit has score 31.
-So, Required difference = 31 -11 = 20
-It appears you're calculating Amit's minimum and maximum scores based on the total scores of 5 students. Let's break down your calculation:
-Total score of 5 students = 38 * 5 = 190.
-To find Amit's minimum score when others have the maximum score, you subtract the maximum scores of the other 4 students from the total: Amit’s min score = 190 - 50 - 49 - 48 - 32 = 11.
-To find Amit's maximum score when others have the minimum score, you subtract the minimum scores of the other 4 students from the total, and Amit's score is one less than the remaining total: This happens when 3 students, having scores more than 32, have a total of 190 - 32 - 31. Amit's score would then be 31. Required difference = 31 - 11 = 20.
-Your calculations are correct, and you've determined that the required difference between Amit's maximum and minimum scores is 20 based on the given conditions.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,46466942-6304-4846-a550-1959bd48d1e9
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 9: CAT 2022 Quant Section | Breakup Strategy,,"There are two containers of the same volume, first container half-filled with sugar syrup and the second container half-filled with milk. Half the content of the first container is transferred to the second container, and then the half of this mixture is transferred back to the first container. Next, half the content of the first container is transferred back to the second container. Then the ratio of sugar syrup and milk in the second container is",4 : 5,6 : 5,5 : 4,5 : 6,mcq,,,D,ai_unverified,Track 200L containers: final C2 = 62.5 syrup : 75 milk = 5:6,missing_found,"Assuming volume of each container is 200 ltrs.
-So, Container 1 has 100 L of sugar syrup and Container 2 has 100 Ltrs of milk
-After first transfer,
-Container 1 has 50 L of sugar syrup and Container 2 has 100 L Milk and 50 L sugar syrup
-After second transfer,
-Half of the second container i.e 50 L milk and 25 L sugar will get transferred to container 1
-So, Container 1 has 75 L sugar syrup and 50 L milk and Conatiner 2 has 50L milk and 25 L sugar syrup.
-After third transfer,
-Half of the first container i.e 37.5 L sugar syrup and 25 L milk goes to second container
-So, second container has 75 L milk and 62.5 Ltrs sugar syrup
-Required ratio = 62.5:75 = 5:6
-Certainly, let's rephrase the explanation:
-Initially, Container 1 contains 100 liters of sugar syrup, and Container 2 contains 100 liters of milk.
-After the first transfer, 50 liters of sugar syrup from Container 1 are moved to Container 2, resulting in Container 1 having 50 liters of sugar syrup and Container 2 having 100 liters of milk and 50 liters of sugar syrup.
-Following the second transfer, half of the contents of Container 1 are transferred, which amounts to 25 liters of sugar syrup and 25 liters of milk. This leaves Container 1 with 25 liters of sugar syrup and no milk, while Container 2 now contains 125 liters of milk and 50 liters of sugar syrup.
-In the third transfer, half of the contents of Container 1 are again moved, which equates to 12.5 liters of sugar syrup and 12.5 liters of milk. As a result, Container 1 contains 12.5 liters of sugar syrup (with no milk), and Container 2 holds 137.5 liters of milk and 50 liters of sugar syrup.
-It's important to note that the process described may need to be reviewed for accuracy, as Container 1 should not have a negative milk volume. Once any corrections are made, the final ratio of milk to sugar syrup can be calculated correctly.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,4661dec9-ed99-4158-a1b7-fd247bb7c1eb
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 2: CAT 2022 Quant Section | Breakup Strategy,,"Mr. Pinto invests one-fifth of his capital at 6%, one-third at 10% and the remaining at 1%, each rate being simple interest per annum. Then, the minimum number of years required for the cumulative interest income from these investments to equal or exceed his initial capital is ______ TITA",,,,,tita,,20,,,,match,"If total Principal is 15 then 3 is invested at 6%, 5 at 10% and remaining 7 at 1%
-SI required is at least equal to Principal = 15
-Let time be n years,
-15 = 3*6*n/100 + 5*10*n/100 + 7*1*n/100
-15 = 0.75n
-n = 20
-Let's calculate the correct solution.
-Let's assume Mr. Pinto's total capital is 15 (as an example for calculation purposes).
-According to the given information, one-fifth of his capital is invested at 6%, one-third is invested at 10%, and the remaining amount is invested at 1%.
-Let's calculate the interest income from each investment:
-Interest from the investment at 6% per annum = (1/5) * 15 * 6/100 = 0.18
-Interest from the investment at 10% per annum = (1/3) * 15 * 10/100 = 0.5
-Interest from the investment at 1% per annum = (7/15) * 15 * 1/100 = 0.07
-Therefore, the total interest earned in one year is:
-Total interest = 0.18 + 0.5 + 0.07 = 0.75
-To find the minimum number of years required for the cumulative interest income to equal or exceed Mr. Pinto's initial capital, we need to solve the following equation:
-Total interest * Number of years ≥ Initial capital
-0.75 * Number of years ≥ 15
-Number of years ≥ 15 / 0.75
-Number of years ≥ 20
-Therefore, the minimum number of years required for the cumulative interest income from these investments to equal or exceed Mr. Pinto's initial capital is 20 years.
-Please note that the solution may vary depending on the actual value of Mr. Pinto's initia",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,48d9c793-4ab4-446a-adc9-48fcc39c762b
-,,Algebra,Equations,ai_split,Algebra,True,2022,,,,,X Maro G Strategy,,,,"In an examination, there were 75 questions. 3 marks were awarded for each correct answer, 1 mark was deducted for each wrong answer and 1 mark was awarded for each unattempted question. Rayan scored a total of 97 marks in the examination. If the number of unattempted questions was higher than the number of attempted questions, then the maximum number of correct answers that Rayan could have given in the examination is",,,,,tita,,24,,,,match,"Let number of questions correct be x, wrong be y and unattempted be z
-So, x+y+z = 75                  --------I
-3x – y + z = 97            --------II
-II + I will give
-4x + 2z = 172
-2x + z = 86
-Now, z > x+y so min z = 38
-So, max x = (86-38)/2 = 24",,X Maro,False,,https://iimking.com/cat-quant-x-maro/,4b9eee53-2e80-4dc7-8770-16fc08d08236
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 18: CAT 2022 Quant Section | Breakup Strategy,,"In an examination, the average marks of students in sections A and B are 32 and 60, respectively. The number of students in section A is 10 less than that in section B. If the average marks of all the students across both the sections combined is an integer, then the difference between the maximum and minimum possible number of students in section A is",,,,,tita,,63,,,,match,"Let the number of students in section A and B be n and n + 10
-32n+60(n+10)/n+n+10
-= 92n +600 /2n+10
-= 46n+300 /n+5
-= 46+(70/n+5)
-i=(an integer)
-n can take values 2, 5, 9, 30, 65
-Difference= 65-2= 63",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,51e0d181-3124-4482-b0ff-ad4a8ce11baa
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 1: CAT 2022 Quant Section | Breakup Strategy,,"Alex invested his savings in two parts. The simple interest earned on the first part at 15% per annum for 4 years is the same as the simple interest earned on the second part at 12% per annum for 3 years. Then, the percentage of his savings invested in the first part is",60%,40%,37.5%,62.5%,mcq,C,37.5%,,,,match,"Let the two parts be Rs. X and Rs. Y
-Given, SI on X at 15% pa for 4 years = SI on Y at 12% pa for 3 years
-·15*4*X = 0.12*3*Y
-·X = 0.6Y
-So, X is (0.6/1.6)*100 = 37.5%
-Let's calculate the correct answer.
-Let's assume Alex's total savings is represented by the variable S.
-Let P1 be the principal amount invested in the first part, and P2 be the principal amount invested in the second part.
-The simple interest earned on the first part at 15% per annum for 4 years is given by:
-Interest1 = (P1 * 15 * 4) / 100
-The simple interest earned on the second part at 12% per annum for 3 years is given by:
-Interest2 = (P2 * 12 * 3) / 100
-Given that the simple interest earned on the first part is the same as the simple interest earned on the second part, we can set up the following equation:
-Interest1 = Interest2
-(P1 * 15 * 4) / 100 = (P2 * 12 * 3) / 100
-Simplifying the equation:
-P1 * 15 * 4 = P2 * 12 * 3
-P1 / P2 = (12 * 3) / (15 * 4)
-P1 / P2 = 9 / 20
-From the equation above, we can conclude that the ratio of the amounts invested in the first part to the second part is 9:20.
-To find the percentage of savings invested in the first part, we need to calculate:
-Percentage of savings invested in the first part = (P1 / S) * 100
-Since we know the ratio of P1 to P2 is 9:20, we can express P1 as (9/29) * S and P2 as (20/29) * S.
-Substituting the values into the equation:
-Percentage of savings invested in the first part = ((9/29) * S / S) * 100
-Percentage of savings invested in the first part = (9/29) * 100
-Percentage of savings invested in the first part ≈ 31.03%
-Therefore, the correct answer is not provided in the options given. The closest option is 37.5%, .",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,5a7f7f61-ee1d-4c15-9c73-3612996e304f
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 8: CAT 2022 Quant Section | Breakup Strategy,,"Manu earns ₹4000 per month and wants to save an average of ₹550 per month in a year. In the first nine months, his monthly expense was ₹3500, and he foresees that, tenth month onward, his monthly expense will increase to ₹3700. In order to meet his yearly savings target, his monthly earnings, in rupees, from the tenth month onward should be",4350,4400,4300,4200,mcq,B,4400,,,,match,"Total saving required = 550*12 = 6600
+The initial quantity of grains is \( \boxed{42} \).",,,false,,match,https://www.careerlauncher.com/cat-mba/cat-question-paper/solution-paper.jsp?secId=irFRXzYto%20U%3D&qsetId=WyUjHJXEAFQ%3D&slot=irFRXzYto%20U%3D&secName=QA&tey=2024,,https://iimking.com/cat-2024-actual-questions-equations/,ce24ca20-dcce-48e7-9bcd-e9929659e989
+CAT-2024-S3-QA-002,Q-AL-EQN,Algebra,Equations,Simple Equations,,2024,3,2,,,Breakup G Strategy,tita,"For some constant real numbers p, k and a, consider the system of linear equations: px - 4y = 2 and 3x + ky = a. A necessary condition for the system to have no solution for (x,y) is:",,,,,,pk = -12,"Parallel: p/3 = -4/k
+Not coincident: 2a + k ≠ 0",Breakup,,false,,missing_found,https://www.careerlauncher.com/cat-mba/cat-question-paper/solution-paper.jsp?secId=irFRXzYto%20U%3D&qsetId=%2FmVYNEZ3zHk%3D&slot=F%2Fn6c1zWD5g%3D&secName=QA&tey=2024 | https://cracku.in/cat-2024-slot-3-quant-question-paper-solved,answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2024-slot-3-breakup-g-strategy/,ca0a7ee8-95b1-48fd-bfe2-3103c288538d
+CAT-2023-S2-QA-042,Q-AL-EQN,Algebra,Equations,Add question to Quadratic Equation,,2023,2,,,,,mcq,"If $p^{2}+q^{2}-29=2pq-20=52-2pq$, then the difference between the maximum and minimum possible value of $p^{3}-q^{3}$ is",243,189,486,378,D,378,"From $2pq-20=52-2pq$ we get $4pq=72$, so $pq=18$. From $p^{2}+q^{2}-29=2pq-20$ we get $p^{2}+q^{2}-2pq=9$, i.e. $(p-q)^{2}=9$, so $p-q=\pm 3$. Using $p^{3}-q^{3}=(p-q)^{3}+3pq(p-q)$, if $p-q=3$ then $27+162=189$, and if $p-q=-3$ then $-27-162=-189$. Difference $=189-(-189)=378$.",,,true,https://iimking.com/wp-content/uploads/2023/12/image-16-1024x70.png,match,https://www.careerlauncher.com/cat-mba/cat-question-paper/solution-paper.jsp?secId=irFRXzYto%20U%3D&qsetId=7a8SbD9gAD4%3D&slot=UaWu7w0zJf8%3D&secName=QA&tey=2023 | 2IIM CAT 2023 Slot 2,Rav: add more questions to this topic,https://iimking.com/equations-actual-question-in-cat-2023-slot-2/,23e291ae-8959-4704-9b83-8f6250f23793
+CAT-2023-S2-QA-023,Q-AL-EQN,Algebra,Equations,Add question: topic Equations,,2023,2,,,,,mcq,"The sum of all possible values of $x$ satisfying the equation $2^{4x^{2}}-2^{2x^{2}+x+16}+2^{2x+30}=0$, is",5/2,3/2,1/2,3,C,1/2,"Divide throughout by $2^{2x^{2}+x+16}$ to get $2^{2x^{2}-x-16}+2^{-2x^{2}+x+14}=1$. Put $t=2x^{2}-x-16$, so the second term is $2^{-t-2}$ and $2^{t}+2^{-t-2}=1$. With $y=2^{t}$ this is $y+\frac{1}{4y}=1$, i.e. $4y^{2}-4y+1=0$, i.e. $(2y-1)^{2}=0$, so $y=\frac{1}{2}$ and $t=-1$. Then $2x^{2}-x-16=-1$, i.e. $2x^{2}-x-15=0$, i.e. $(2x+5)(x-3)=0$, giving $x=3$ or $x=-\frac{5}{2}$. Sum $=3-\frac{5}{2}=\frac{1}{2}$.",,,true,https://iimking.com/wp-content/uploads/2023/12/image-8-1024x38.png,match,https://www.careerlauncher.com/cat-mba/cat-question-paper/solution-paper.jsp?secId=irFRXzYto%20U%3D&qsetId=7a8SbD9gAD4%3D&slot=UaWu7w0zJf8%3D&secName=QA&tey=2023 | 2IIM CAT 2023 Slot 2,Rav: add more questions to this topic,https://iimking.com/equations-actual-question-in-cat-2023-slot-2/,9e67f0f6-8bfc-4bfc-9645-0c9634593594
+CAT-2023-S2-QA-037,Q-AL-EQN,Algebra,Equations,Add question: topic Equations,,2023,2,,,,,tita,"A sum of money is shared equally among n people, giving each Rs 352. If instead two people get Rs 506 each and the rest is shared equally among the other people, each of those receives at most Rs 330. What is the maximum possible value of n?",,,,,,16,"Total $T=352n$. In the second case the remaining $(n-2)$ people get at most Rs 330 each, so $352n \le 2(506)+330(n-2)$. Hence $352n \le 1012+330n-660$, i.e. $22n \le 352$, so $n \le 16$. Maximum $n=16$.",,,true,https://iimking.com/wp-content/uploads/2023/12/image-12-1024x68.png,match,https://www.careerlauncher.com/cat-mba/cat-question-paper/solution-paper.jsp?secId=irFRXzYto%20U%3D&qsetId=7a8SbD9gAD4%3D&slot=UaWu7w0zJf8%3D&secName=QA&tey=2023 | 2IIM CAT 2023 Slot 2,Rav: add more questions to this topic,https://iimking.com/equations-actual-question-in-cat-2023-slot-2/,55bc0d96-1871-4637-b1bd-8fb92ee5fb2d
+CAT-2022-S2-QA-005,Q-AL-EQN,Algebra,Equations,Equations,,2022,2,5,,,Breakup G Strategy,mcq,"Manu earns ₹4000 per month and wants to save an average of ₹550 per month in a year. In the first nine months, his monthly expense was ₹3500, and he foresees that, tenth month onward, his monthly expense will increase to ₹3700. In order to meet his yearly savings target, his monthly earnings, in rupees, from the tenth month onward should be",4350,4400,4300,4200,B,4400,"Total saving required = 550*12 = 6600
 Total expenses = 9*3500 + 3*3700 = 42600
 So, total earning = 42600+6600 = 49200
 If earning from 10th month = x
@@ -421,150 +74,21 @@ Subtracting 36000 from both sides:
 3x = 13200
 Dividing both sides by 3:
 x = 4400
-Therefore, the earning from the 10th month is 4400.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,6121de81-10fd-453b-ac95-4a53a47dd043
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 15: CAT 2022 Quant Section | Breakup Strategy,,"A school has less than 5000 students and if the students are divided equally into teams of either 9 or 10 or 12 or 25 each, exactly 4 are always left out. However, if they are divided into teams of 11 each, no one is left out. The maximum number of teams of 12 each that can be formed out of the students in the school is _______ TITA",,,,,tita,,150,,,,match,"Since the total number of students, when divided by either 9 or 10 or 12 or 25 each, gives a remainder of 4, the number will be in the form of LCM(9, 10, 12, 25)k + 4 = 900k + 4.
-It is given that the value of 900k + 4 is less than 5000.
-Also, it is given that 900k + 4 is divided by 11.
-It is only possible when k = 2 and total students = 1804.
-So, the number of 12 students group = 1800 12 = 150",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,838c48f0-e01e-40a0-a91d-7188e925bc75
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 16: CAT 2022 Quant Section | Breakup Strategy,,"Nitu has an initial capital of ₹20,000. Out of this, she invests ₹8,000 at 5.5% in bank A, ₹5,000 at 5.6% in bank B and the remaining amount at x% in bank C, each rate being simple interest per annum. Her combined annual interest income from these investments is equal to 5% of the initial capital. If she had invested her entire initial capital in bank C alone, then her annual interest income, in rupees, would have been",800,700,900,1000,mcq,A,800,,,,match,"5.5% of 8000 + 5.6% of 5000 + x% of 7000=5% of 20000,
-x=4,
-4% of 20000=800",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,a0a0575e-17f0-4c2c-b3c8-c23fdb74b399
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 4: CAT 2022 Quant Section | Breakup Strategy,,"A mixture contains lemon juice and sugar syrup in equal proportion. If a new mixture is created by adding this mixture and sugar syrup in the ratio 1 : 3, then the ratio of lemon juice and sugar syrup in the new mixture is",1 : 4,1 : 5,1 : 6,1 : 7,mcq,D,1 : 7,,,,match,"New Mixture has old mixture and sugar syrup in ratio 1:3 = 2:6
-Out of this 2 of old mixture, lemon juice and sugar syrup are equal i.e. 1:1
-So Total sugar syrup = 1+6 = 7 and lemon juice = 1
-Reqd ratio = 1:7
-If the ratio of the old mixture to the sugar syrup in the new mixture is 2:6, we can simplify it to 1:3. This means that for every 1 unit of the old mixture, there are 3 units of sugar syrup in the new mixture.
-You mentioned that out of the 2 units of the old mixture, the lemon juice and sugar syrup are equal, with a ratio of 1:1. This means there is 1 unit of lemon juice and 1 unit of sugar syrup in those 2 units of the old mixture.
-To determine the total amount of sugar syrup in the new mixture, we add the sugar syrup from the old mixture to the sugar syrup in the sugar syrup-lemon juice mixture. So we have 1 unit of sugar syrup from the old mixture plus the initial 6 units of sugar syrup, which gives us a total of 7 units of sugar syrup in the new mixture.
-Additionally, you mentioned that there is 1 unit of lemon juice in the mixture.
-To summarize:
-Total sugar syrup in the new mixture = 7 units
-Total lemon juice in the new mixture = 1 unit",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,b5f769cd-a647-47f2-b21c-db32a66b6ca4
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 14: CAT 2022 Quant Section | Breakup Strategy,,"Two cars travel from different locations at constant speeds. To meet each other after starting at the same time, they take","5 hours if they travel towards each other, but 10.5 hours if they travel in the same direction. If the speed of the slower car is 60 km/hr, then the distance traveled, in km, by the slower car when it meets the other car while traveling towards each other, is
-1. 100",90,120,150,mcq,B,90,,,,match,"Both the cars take 1.5 hrs to meet when they travel towards each other.
-It is given, speed of slower car is 60 km/hr
-Therefore, distance covered by slower car when they meet =60×1.5=90 km
-In this scenario, when two cars are traveling towards each other and they meet after 1.5 hours, you can calculate the distance covered by the slower car using the formula:
-Distance = Speed × Time
-Given:
-Speed of the slower car = 60 km/hr
-Time taken to meet = 1.5 hours
-Distance covered by the slower car = 60 km/hr × 1.5 hrs = 90 km
-So, the slower car covers a distance of 90 kilometers when they meet.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,b825fc15-00fc-441d-9d09-1ba7a6026ec2
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 17: CAT 2022 Quant Section | Breakup Strategy,,"A group of N people worked on a project. They finished 35% of the project by working 7 hours a day for 10 days. Thereafter, 10 people left the group and the remaining people finished the rest of the project in 14 days by working 10 hours a day. Then the value of N is",150,36,23,140,mcq,D,140,,,,match,"Let the unit of work done by 1 man in 1 hour and 1 day be 1 MDH unit (Man Day Hour).
-Thus, in 7 hours per day for 10 days, the work done by N people = N x 7 x 10 MDH units. = 70N
-Since this is equal to 35% of the total work,
-35% of the total work = 70 N
-Total work = (70N × 100) 35 =200N
-The work left = 200 N - 70 N = 130 NMDH units.
-Now, 10 people left the job. So, the number of people left = (N-10) Since (N-10) people completed the rest of work in 14 days by working 10 hours a day,
-(N-10) × 14 × 10 = 130N
-10N = 1400
-N = 140",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,c4467a29-d704-432e-b22c-db4d68210539
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 13: CAT 2022 Quant Section | Breakup Strategy,,"The average of all 3-digit terms in the arithmetic progression 38, 55, 72, ..., is",,,,,tita,,548,,,,match,"General term = 38+ (n − 1)17 = 17n + 21 = 17(n + 1) + 4 = 17k +4
-Each term is in the form of 17k + 4
-Least 3-digit number in the form of 17k + 4 is at k = 6, i.e. 106
-Highest 3-digit number in the form of 17k + 4 is at k = 58, i.e. 990 Average of an A.P.
-first term + last term/2 = 106 +990 /2 =548",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,c69c8362-91b8-4293-b873-a80f91e15669
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 11: CAT 2022 Quant Section | Breakup Strategy,,"A glass contains 500 cc of milk and a cup contains 500 cc of water. From the glass, 150 cc of milk is transferred to the cup and mixed thoroughly. Next, 150 cc of this mixture is transferred from the cup to the glass. Now, the amount of water in the glass and the amount of milk in the cup are in the ratio",3 : 10,10 : 3,1 : 1,10 : 13,mcq,,,C,ai_unverified,Symmetric exchange: water in glass = milk in cup = 1500/13 => 1:1,missing_found,"Initially: a glass 500cc milk and a cup 500cc water
-Step 1: 150 cc of milk is transferred to the cup from glass
-After step 1: Glass - 350 cc milk, Cup - 150 cc milk and 500 cc water
-Step 2: 150 cc of this mixture is transferred from the cup to the glass After step 2:
-Glass −350cc milk +150 cc mixture with milk : water ratio 3: 10
-Cup - 500 cc mixture with milk : water ratio 3:10
-water in glass : milk in cup =10/13×150:3/13×500=1:1
-Let's break down the steps you've described:
-Initial state:
-Glass: 500 cc milk
-Cup: 500 cc water
-Step 1: Transfer 150 cc of milk from the glass to the cup.
-Glass: 500 cc milk - 150 cc milk = 350 cc milk
-Cup: 500 cc water + 150 cc milk = 150 cc milk and 500 cc water
-Step 2: Transfer 150 cc of the mixture (milk and water) from the cup to the glass.
-Glass: 350 cc milk + 150 cc mixture (milk:water ratio 3:10)
-Cup: 150 cc milk - 150 cc mixture (milk:water ratio 3:10) = 150 cc milk
-Now, let's calculate the milk-to-water ratio in both the glass and the cup:
-In the glass:
-Initially, there was only milk, so the milk-to-water ratio was 500:0.
-After step 2, the glass contains 350 cc of milk and 150 cc of a mixture with a milk-to-water ratio of 3:10.
-To calculate the milk-to-water ratio in the glass after step 2, you can use proportions:
-Milk in the glass / Water in the glass = 350 / (150 * 3/10)
-Milk in the glass / Water in the glass = 350 / 45
-Milk in the glass / Water in the glass = 7/9
-So, the milk-to-water ratio in the glass after step 2 is 7:9.
-In the cup:
-Initially, there was only water, so the milk-to-water ratio was 0:500 (which simplifies to 0:1).
-After step 1, the cup contains 150 cc of milk and 500 cc of water.
-To calculate the milk-to-water ratio in the cup after step 1, you can use proportions:
-Milk in the cup / Water in the cup = 150 / 500
-Milk in the cup / Water in the cup = 3/10
-So, the milk-to-water ratio in the cup after step 1 is 3:10.
-Your calculations are correct, and the final milk-to-water ratio in the glass is 7:9, while in the cup, it is 3:10.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,d390c8f4-16c2-4827-b08c-3c970002d2ad
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 3: CAT 2022 Quant Section | Breakup Strategy,,"Pinky is standing in a queue at a ticket counter. Suppose the ratio of the number of persons standing ahead of Pinky to the number of persons standing behind her in the queue is 3 : 5. If the total number of persons in the queue is less than 300, then the maximum possible number of persons standing ahead of Pinky is ______ TITA",,,,,tita,,111,,,,match,"Let 3x people are standing ahead of Pinky and 5x are standing behind her.
-Total people = 3x+1+5x (+1 for Pinky)
-8x+1 < 300
-=> x < 37.xx
-So, x_(max) = 37
-3x = 111
-The given information states that there are 3x people standing ahead of Pinky and 5x people standing behind her. The total number of people can be represented as (3x + 1 + 5x), where the additional 1 is for Pinky herself.
-To find the maximum value of x, we need to consider the condition mentioned, which is that the total number of people is less than 300:
-(3x + 1 + 5x) < 300
-Combining like terms:
-8x + 1 < 300
-Subtracting 1 from both sides:
-8x < 299
-Dividing both sides by 8:
-x < 37.375
-Since we need to find the maximum integer value for x, the value of x cannot exceed 37. Therefore, xmax = 37.
-To find the number of people standing ahead of Pinky, we can substitute x = 37 into 3x:
-3x = 3 * 37 = 111
-Therefore, there are 111 people standing ahead of Pinky.",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,d4c42ce4-4c2a-48cf-ab6e-ca4795932fe1
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2022,,,,,Breakup G Strategy,,Ques 12: CAT 2022 Quant Section | Breakup Strategy,,"Consider six distinct natural numbers such that the average of the two smallest numbers is 14, and the average of the two largest numbers is 28. Then, the maximum possible value of the average of these six numbers is",23,24,23.5,22.5,mcq,D,22.5,,,,match,"Let the six numbers be a, b, c, d, e, f in ascending order a+b=28
-e + f = 56 If we want to maximise the average then we have to minimise a, b, maximise c, d ,e and minimise f
-(do remember the numbers are in ascending order)
-a+b= 28 = 13+ 15
-if=5627 +29
-As a, be and ƒ are distinct natural numbers
-Therefore c and d will be 25 and 26 respecitively
-So average a+b+c+d+e+f = 6 28+25+26+56 6 = 22.5",,Breakup,False,,https://iimking.com/cat-quant-breakup-strategy/,e5a239ce-26df-4338-9127-ee37d272d7a7
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,1,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"In a football tournament, a player has played a certain number of matches and 10more matches are to be played. If he scores a total of one goal over the next 10matches, his overall average will be 0.15 goals per match. On the other hand, if he scores a total of two goals over the next 10 matches, his overall average will be 0.2goals per match. The number of matches he has played is ______ TITA",,,,,tita,,10,,,,match,"Let the number of matches already played be \( x \).
-Case 1: \(\frac{g + 1}{x + 10} = 0.15 \Rightarrow g = 0.15x + 0.5\)
-Case 2: \(\frac{g + 2}{x + 10} = 0.2 \Rightarrow g = 0.2x\)
-Equating: \( 0.2x = 0.15x + 0.5 \Rightarrow x = 10 \)
-Answer: 10",,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,77942256-6da9-4c50-8120-6f10dbb3e5ff
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,2,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"A person buys tea of three different qualities at ₹ 800, ₹ 500, and ₹ 300 per kg, respectively, and the amounts bought are in the proportion 2 : 3 : 5. She mixes all the tea and sells one-sixth of the mixture at ₹ 700 per kg. The price, in INR per kg, at which she should sell the remaining tea, to make an overall profit of 50%, is",688,692,653,675,mcq,A,688,,,,match,"Total qty = 10 kg, cost = ₹4600
-Sells 1/6 at ₹700 → revenue = ₹1166.67
-Remaining = 8.333 kg → Let price = x
-\( x \cdot \frac{50}{6} = 5733.33 \Rightarrow x = 688 \)
-Answer: 688",,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,775d93f0-73ab-442d-ab4e-2b4d576ad989
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,3,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"From a container filled with milk, 9 litres of milk are drawn and replaced with water. Next, from the same container, 9 litres are drawn and again replaced with water. If the volumes of milk and water in the container are now in the ratio of 16 : 9, then the capacity of the container, in litres, is _____",,,,,tita,,45 litres,,,,match,"Let container size be \( x \).
-\(\left(1 - \frac{9}{x}\right)^2 = \frac{16}{25} \Rightarrow x = 45\)
-Answer: 45 litres",,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,5960b789-8108-4abf-968b-6c3789651c24
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,4,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Raj invested ₹ 10000 in a fund. At the end of first year, he incurred a loss but his balance was more than ₹ 5000. This balance, when invested for another year, grew and the percentage of growth in the second year was five times the percentage of loss in the first year. If the gain of Raj from the initial investment over the two year period is35%, then the percentage of loss in the first year is",10,5,70,15,mcq,A,10,,,,match,"Let loss = \( x\% \), gain = \( 5x\% \)
-\( (1 - \frac{x}{100})(1 + \frac{5x}{100}) = 1.35 \Rightarrow x = 10 \)
-Answer: 10%",,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,7212e5e6-55a0-40e6-949e-ad70386fe288
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,5,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"The sides AB and CD of a trapezium ABCD are parallel, with AB being the smaller side. P is the midpoint of CD and ABPD is a parallelogram. If the difference between the areas of the parallelogram ABPD and the triangle BPC is 10 sq cm, then the area, in sqcm, of the trapezium ABCD is",40,30,25,20,mcq,B,30,,,,match,"Let area of ABPD = A, triangle BPC = A/2
-\( A - \frac{A}{2} = 10 \Rightarrow A = 20 \Rightarrow \text{Total area} = 30 \)
-Answer: 30",,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,3bb1cd1c-0040-4e9e-97ad-c981b0fc682d
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,6,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Anil, Bobby and Chintu jointly invest in a business and agree to share the overall profit in proportion to their investments. Anil’s share of investment is 70%. His share of profit decreases by ₹ 420 if the overall profit goes down from 18% to 15%. Chintu’s share of profit increases by ₹ 80 if the overall profit goes up from 15% to 17%. The amount, in INR, invested by Bobby is",2200,2400,1800,2000,mcq,,,D,ai_unverified,0.7*0.03I=420 => I=20000; Chintu 20% => Bobby 10%=2000,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,9c8b2054-e57b-4c39-a702-7c4dcb389e76
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,7,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Amal purchases some pens at Rs. 8 each. To sell these, he hires an employee at a fixed wage. He sells 100 of these pens at Rs. 12 each. If the remaining pens are sold at Rs. 11 each, then he makes a net profit of Rs. 300, while he makes a net loss of Rs. 300 if the remaining pens are sold at Rs. 9 each. The wage of the employee, in INR, is ______ TITA",,,,,tita,,,1000,ai_unverified,"3n-W=-100 and n-W=-700 => n=300, W=1000",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,53f1a676-fbe1-4cdc-8227-6e94a8e57af1
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,8,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"A basket of 2 apples, 4 oranges and 6 mangoes costs the same as a basket of 1 apple, 4 oranges and 8 mangoes, or a basket of 8 oranges and 7 mangoes. Then the number of mangoes in a basket of mangoes that has the same cost as the other baskets is",13,12,11,10,mcq,,,A,ai_unverified,"a=2m, o=3m/4; basket=10m+4o=13m",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,34b4cc8b-6c2e-4759-a8a3-b227e670baac
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,9,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,The amount Neeta and Geeta together earn in a day equals what Sita alone earns in 6 days. The amount Sita and Neeta together earn in a day equals what Geeta alone earns in 2 days. The ratio of the daily earnings of the one who earns the most to that of the one who earns the least is,11 : 3,3 : 2,7 : 3,11 : 7,mcq,,,A,ai_unverified,"N+G=6S, S+N=2G => G=7S/3, N=11S/3 => 11:3",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,a836dfb7-feb3-4ede-b205-14178ac45488
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,10,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Identical chocolate pieces are sold in boxes of two sizes, small and large. The large box is sold for twice the price of the small box. If the selling price per gram of chocolate in the large box is 12% less than that in the small box, then the percentage by which the weight of chocolate in the large box exceeds that in the small box is nearest to",135,124,127,144,mcq,,,C,ai_unverified,Weight ratio=2/0.88=2.27 => 127% more,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,1b8af34e-23c1-43d7-92b4-32ed8b638180
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,11,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"The strength of an indigo solution in percentage is equal to the amount of indigo in grams per 100 cc of water. Two 800 cc bottles are filled with indigo solutions of strengths 33% and 17%, respectively. A part of the solution from the first bottle is thrown away and replaced by an equal volume of the solution from the second bottle. If the strength of the indigo solution in the first bottle has now changed to 21% then the volume, in cc, of the solution left in the second bottle is _______ TITA",,,,,tita,,,200,ai_unverified,(800-v)33+17v=21*800 => v=600 => 800-600=200 left,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,2436a225-1157-4ec2-9f3c-9fbb57da94ae
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,12,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Onion is sold for 5 consecutive months at the rate of Rs 10, 20, 25, 25, and 50 per kg, respectively. A family spends a fixed amount of money on onion for each of the first three months, and then spends half that amount on onion for each of the next two months. The average expense for onion, in rupees per kg, for the family over these 5 months is closest to",16,26,20,18,mcq,,,D,ai_unverified,kg=22x/100 for spend 4x => 4/0.22=18.2,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,3e9db29a-f774-4dee-8870-4301a4e8a3aa
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,13,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Suppose hospital A admitted 21 less Covid infected patients than hospital B, and all eventually recovered. The sum of recovery days for patients in hospitals A and B were 200 and 152, respectively. If the average recovery days for patients admitted in hospital A was 3 more than the average in hospital B then the number admitted in hospital A was _______ TITA",,,,,tita,,,35,ai_unverified,200/n=152/(n+21)+3 => n=35,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,9ad15780-12aa-402a-adbc-a26576079f95
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,14,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Anil invests some money at a fixed rate of interest, compounded annually. If the interests accrued during the second and third year are Rs. 806.25 and Rs. 866.72, respectively, the interest accrued, in INR, during the fourth year is nearest to",931.72,926.84,929.48,934.65,mcq,,,A,ai_unverified,r=866.72/806.25-1=7.5%; 866.72*1.075=931.72,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,bf6aec51-667d-473d-9683-46019dcbf9fa
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,15,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"Bank A offers 6% interest rate per annum compounded half yearly. Bank B and Bank C offer simple interest but the annual interest rate offered by Bank C is twice that of Bank B. Raju invests  certain amount in Bank B for a certain period and Rupa invests ₹ 10,000 in Bank C for twice that period. The interest that would accrue to Raju during that period is equal to the interest that would have accrued had he invested the same amount in Bank A for one year. The interest accrued, in INR, to Rupa is",1436,2346,2436,3436,mcq,,,C,ai_unverified,Bank A 1 yr = 6.09%; Rupa gets 4x that on 10000 = 2436,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,8825eff4-94f4-4ea6-9ae8-52414b74905c
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,16,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"The cost of fencing a rectangular plot is ₹ 200 per ft along one side, and ₹ 100 per ft along the three other sides. If the area of the rectangular plot is 60000 sq. ft, then the lowest possible cost of fencing all four sides, in INR, is",120000,100000,160000,90000,mcq,,,A,ai_unverified,"Cost 300x+200y, xy=60000 => min 2sqrt(300*200*60000)=120000",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,12c1075e-e256-4c34-9091-076d24576a46
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,17,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"The arithmetic mean of scores of 25 students in an examination is 50. Five of these students top the examination with the same score. If the scores of the other students are distinct integers with the lowest being 30, then the maximum possible score of the toppers is _______",,,,,tita,,,92,ai_unverified,Others max 30..49 sum 790; 5T=460 => T=92,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,1ed8816d-8eb0-476e-bd49-423312bb2eb9
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,18,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"A park is shaped like a rhombus and has area 96 sq m. If 40 m of fencing is needed to enclose the park, the cost, in INR, of laying electric wires along its two diagonals, at the rate of ₹125 per m, is _______",,,,,tita,,,3500,ai_unverified,"side 10, d1d2=192, d1^2+d2^2=400 => d1+d2=28 => 28*125",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,f3fcd953-bde7-4e67-a84d-5dc4077f869d
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,19,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"If a certain weight of an alloy of silver and copper is mixed with 3 kg of pure silver, the resulting alloy will have 90% silver by weight. If the same weight of the initial alloy is mixed with 2 kg of another alloy which has 90% silver by weight, the resulting alloy will have 84% silver by weight. Then, the weight of the initial alloy, in kg, is",3,2.5,3.5,4,mcq,,,A,ai_unverified,ws=0.9w-0.3 and ws=0.84w-0.12 => w=3,missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,e99013d0-2daa-40a6-9cf8-c3cbb6b01b0b
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,20,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"A shop owner bought a total of 64 shirts from a wholesale market that came in two sizes, small and large. The price of a small shirt was INR 50 less than that of a large shirt. She paid a total of INR 5000 for the large shirts, and a total of INR 1800 for the small shirts. Then, the price of a large shirt and a small shirt together, in INR, is",150,225,175,200,mcq,,,D,ai_unverified,"5000/p+1800/(p-50)=64 => p=125, small 75",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,604766a6-93c3-4bc4-8b69-f6c2715ec265
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,21,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"One part of a hostel’s monthly expenses is fixed, and the other part is proportional to the number of its boarders. The hostel collects ₹ 1600 per month from each boarder. When the number of boarders is 50, the profit of the hostel is ₹ 200 per boarder, and when the number of boarders is 75, the profit of the hostel is ₹ 250 per boarder. When the number of boarders is 80, the total profit of the hostel, in INR, will be",20200,20500,20000,20800,mcq,,,B,ai_unverified,"v=1250,F=7500; 80 boarders: 128000-107500=20500",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,111901e7-b28d-4d53-b022-7d58825ed653
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2021,,22,,,Breakup G Strategy,,CAT 2021 Quant Breakup,,"A tea shop offers tea in cups of three different sizes. The product of the prices, in INR, of three different sizes is equal to 800. The prices of the smallest size and the medium size are in the ratio 2 : 5. If the shop owner decides to increase the prices of the smallest and the medium ones by INR 6 keeping the price of the largest size unchanged, the product then changes to 3200. The sum of the original prices of three different sizes, in INR, is _______",,,,,tita,,,34,ai_unverified,"k^2L=80, (2k+6)(5k+6)L=3200 => k=2,L=20 => 4+10+20",missing_found,,,Breakup,False,,https://iimking.com/cat-2021-quant-breakup/,173eab41-0d6e-49da-9f25-4963a3aaaebf
-,,Algebra,Equations,ai_split,Algebra,True,2021,,,,,X Maro G Strategy,,,,"Consider the pair of equations: x^2 - xy - x = 22 and y^2 - xy + y = 34. If x > y, then x - y equals",8,6,7,4,mcq,A,8,,,,match,"x^2 - xy - x= 22.
+Therefore, the earning from the 10th month is 4400.",Breakup,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-2-Quant/,,https://iimking.com/cat-quant-breakup-strategy/,6121de81-10fd-453b-ac95-4a53a47dd043
+CAT-2022-S2-QA-015,Q-AL-EQN,Algebra,Equations,Equations,,2022,2,15,,,X Maro G Strategy,tita,"In an examination, there were 75 questions. 3 marks were awarded for each correct answer, 1 mark was deducted for each wrong answer and 1 mark was awarded for each unattempted question. Rayan scored a total of 97 marks in the examination. If the number of unattempted questions was higher than the number of attempted questions, then the maximum number of correct answers that Rayan could have given in the examination is",,,,,,24,"Let number of questions correct be x, wrong be y and unattempted be z
+So, x+y+z = 75                  --------I
+3x – y + z = 97            --------II
+II + I will give
+4x + 2z = 172
+2x + z = 86
+Now, z > x+y so min z = 38
+So, max x = (86-38)/2 = 24",X Maro,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-2-Quant/,,https://iimking.com/cat-quant-x-maro/,4b9eee53-2e80-4dc7-8770-16fc08d08236
+CAT-2022-S2-QA-018,Q-AL-EQN,Algebra,Equations,Equations,,2022,2,18,,,Breakup G Strategy,tita,"Mr. Pinto invests one-fifth of his capital at 6%, one-third at 10% and the remaining at 1%, each rate being simple interest per annum. Then, the minimum number of years required for the cumulative interest income from these investments to equal or exceed his initial capital is ______ TITA",,,,,,20,"Let the capital be $C$. Annual interest rate on the whole capital $= \frac{1}{5}(6) + \frac{1}{3}(10) + \frac{7}{15}(1) = 1.2 + 3.33 + 0.47 = 5\%$. Interest each year is $0.05C$. We need $0.05C \times n \ge C$, so $n \ge 20$. Answer: 20 years.",Breakup,,false,,match,"https://online.2iim.com/CAT-question-paper/CAT-2022-Question-Paper-Slot-2-Quant/ | 2IIM method, Cetking write-up 15 Oct 2026",,https://iimking.com/cat-quant-breakup-strategy/,48d9c793-4ab4-446a-adc9-48fcc39c762b
+CAT-2021-S1-QA-003,Q-AL-EQN,Algebra,Equations,Equations,,2021,1,3,,,Breakup G Strategy,mcq,"Identical chocolate pieces are sold in boxes of two sizes, small and large. The large box is sold for twice the price of the small box. If the selling price per gram of chocolate in the large box is 12% less than that in the small box, then the percentage by which the weight of chocolate in the large box exceeds that in the small box is nearest to",135,124,127,144,C,127,Let the small box weigh $w$ and cost $p$. The large box costs $2p$ and weighs $W$. Price per gram: $2p/W = 0.88 \times p/w$. So $W = 2w/0.88 \approx 2.273w$. The large box weighs about 127% more. Answer: 127 (option C).,Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-1-Quant/ | https://cracku.in/cat-2021-slot-1-quant-question-paper-solved | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2021-quant-breakup/,1b8af34e-23c1-43d7-92b4-32ed8b638180
+CAT-2021-S1-QA-005,Q-AL-EQN,Algebra,Equations,Equations,,2021,1,5,,,Breakup G Strategy,mcq,"A basket of 2 apples, 4 oranges and 6 mangoes costs the same as a basket of 1 apple, 4 oranges and 8 mangoes, or a basket of 8 oranges and 7 mangoes. Then the number of mangoes in a basket of mangoes that has the same cost as the other baskets is",13,12,11,10,A,13,"Let the prices be $a, o, m$. From the first two baskets, $2a + 6m = a + 8m$, so $a = 2m$. Then the first basket costs $4m + 4o + 6m$, and this equals $8o + 7m$, so $3m = 4o$. Cost of a basket $= 8o + 7m = 6m + 7m = 13m$. Answer: 13 mangoes (option A).",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-1-Quant/ | https://cracku.in/cat-2021-slot-1-quant-question-paper-solved | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2021-quant-breakup/,34b4cc8b-6c2e-4759-a8a3-b227e670baac
+CAT-2021-S1-QA-007,Q-AL-EQN,Algebra,Equations,Equations,,2021,1,7,,,Breakup G Strategy,mcq,"Onion is sold for 5 consecutive months at the rate of Rs 10, 20, 25, 25, and 50 per kg, respectively. A family spends a fixed amount of money on onion for each of the first three months, and then spends half that amount on onion for each of the next two months. The average expense for onion, in rupees per kg, for the family over these 5 months is closest to",16,26,20,18,D,18,Let the family spend $x$ in each of the first 3 months and $x/2$ in each of the next 2. Total spend $= 4x$. Kg bought $= x(1/10 + 1/20 + 1/25 + 1/50 + 1/100) = 0.22x$. Average price $= 4x / 0.22x \approx 18.2$. Answer: 18 (option D).,Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-1-Quant/ | https://cracku.in/cat-2021-slot-1-quant-question-paper-solved | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2021-quant-breakup/,3e9db29a-f774-4dee-8870-4301a4e8a3aa
+CAT-2021-S1-QA-009,Q-AL-EQN,Algebra,Equations,Equations,,2021,1,9,,,Breakup G Strategy,tita,"Amal purchases some pens at Rs. 8 each. To sell these, he hires an employee at a fixed wage. He sells 100 of these pens at Rs. 12 each. If the remaining pens are sold at Rs. 11 each, then he makes a net profit of Rs. 300, while he makes a net loss of Rs. 300 if the remaining pens are sold at Rs. 9 each. The wage of the employee, in INR, is ______ TITA",,,,,,1000,"Let $n$ pens remain and the wage be $W$. Profit case: $1200 + 11n - 8(100+n) - W = 300$, so $W = 100 + 3n$. Loss case: $1200 + 9n - 8(100+n) - W = -300$, so $W = 700 + n$. Equate: $100 + 3n = 700 + n$, so $n = 300$. $W = 1000$.",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-1-Quant/ | https://cracku.in/cat-2021-slot-1-quant-question-paper-solved | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2021-quant-breakup/,53f1a676-fbe1-4cdc-8227-6e94a8e57af1
+CAT-2021-S2-QA-003,Q-AL-EQN,Algebra,Equations,Quadratic,,2021,2,3,,,X Maro G Strategy,mcq,"Consider the pair of equations: x^2 - xy - x = 22 and y^2 - xy + y = 34. If x > y, then x - y equals",8,6,7,4,A,8,"x^2 - xy - x= 22.
 y^2 - xy + y= 34.
 If we add these two equations,we get
 (x - y)^2 - x + y = 56 or (y - x)^2 - x + y = 56
@@ -572,86 +96,21 @@ Since we need to find for x > y, we should take (x - y)^2 - x + y = 56
 (x - y)^2 - (x - y) = 56
 (x - y) (x - y - 1) = 56
 If we take x - y = n, then we will boil down to n (n - 1) = 56
-Therefore, x - y = 8",,X Maro,False,,https://iimking.com/cat-2021-quant-x-maro-g-strategy/,995d8ac6-1ab6-408e-bd50-0162985d1da9
-CAT-2020-S2-QA-015,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"In a group of 10 students, the mean of the lowest 9 scores is 42 while the mean of the highest 9 scores is 47. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by",3,6,5,4,mcq,,,D,ai_unverified,"s10-s1=45; 47<=s10<=87 => total 425..465 => means 42.5..46.5, diff 4",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,422d76d1-31c4-41a9-a4f1-135f5b6f073e
-CAT-2020-S2-QA-018,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"The sum of the perimeters of an equilateral triangle and a rectangle is 90 cm. The area, T, of the triangle and the area, R, of the rectangle, both in sq cm, satisfy the relationship R = T2. If the sides of the rectangle are in the ratio 1:3, then the length, in cm, of the longer side of the rectangle, is",18,27,21,24,mcq,,,B,ai_unverified,"x=a^2/4 from R=T^2; 3a+2a^2=90 => a=6, x=9, longer side 27",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,8b4bb7a1-a28b-4601-ad6b-fe2fc66557db
-CAT-2020-S2-QA-021,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work exactly on time? ________",,,,,tita,,,40,ai_unverified,4.5 km in 140 days needs 180 persons => 40 more,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,0d844150-7d53-41b0-969e-b7fd06ac6d89
-CAT-2020-S2-QA-025,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age, in years, is _______",,,,,tita,,,18,ai_unverified,"T=t,D=3t,H=6t; 3t=10t/3-1 => t=3 => H=18",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,27a23d36-db46-4a19-a557-64da590bf494
-CAT-2020-S2-QA-028,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"A person invested a certain amount of money at 10% annual interest, compounded half-yearly. After one and a half years, the interest and principal together became Rs 18522. The amount, in rupees, that the person had invested is _________",,,,,tita,,,16000,ai_unverified,P*1.05^3=18522,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,757d9c22-7da2-447f-99fe-296e4748ea2d
-CAT-2020-S2-QA-029,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks obtained by Geeta, who scored 84%, is",439,357,399,417,mcq,,,C,ai_unverified,0.12T=57 => T=475; Geeta=0.84*475=399,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,9f0fe64d-3d59-4213-b676-0b034de32223
-CAT-2020-S2-QA-032,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to",31,25,22,35,mcq,,,B,ai_unverified,Need 40.25 total; 6+16.2 earned; 18.05 from 12kg => 1.504 vs MP 1.2 => p=25.4,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,a115c2c4-483e-4dd4-bfd0-1a3133fd6bc2
-CAT-2020-S2-QA-033,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"In a trapezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC = 5 cm, BC = 4 cm, the area of the trapezium in sq. cm is ______",,,,,tita,,,28,ai_unverified,"Height 4, AB=DC+4=9 (45 deg), area=(9+5)/2*4=28",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,288c69ba-a921-487e-bd0a-2552ce4f50a0
-CAT-2020-S2-QA-034,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"Two alcohol solutions, A and B, are mixed in the proportion 1:3 by volume. The volume of the mixture is then doubled by adding solution A such that the resulting mixture has 72% alcohol. If solution A has 60% alcohol, then the percentage of alcohol in solution B is",90%,94%,89%,92%,mcq,,,D,ai_unverified,"1L A+3L B, add 4L A: 3+3b=5.76 => b=0.92",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,007e45e0-af5c-42ee-8eaf-603a4e3bde44
-CAT-2020-S2-QA-035,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then Sunil’s share, in rupees, is _____",,,,,tita,,,800,ai_unverified,"A:S:M=6:4:5, 6k-4k=400 => k=200, Sunil=800",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,3f7cabf6-88ec-43d6-8523-885f7edffd5e
-CAT-2020-S2-QA-036,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been",55,60,54,50,mcq,,,D,ai_unverified,8.8L=2112 => L=240; cost 1920; full price 2880 => 50%,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,f0d2266e-82b0-4dbd-bc59-003db5485b90
-CAT-2020-S2-QA-037,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"In May, John bought the same amount of rice and the same amount of wheat as he had bought in April, but spent Rs. 150 more due to price increase of rice and wheat by 20% and 12%, respectively. If John had spent Rs. 450 on rice in April, then how much did he spend on wheat in May?",Rs.560,Rs.570,Rs.590,Rs.580,mcq,,,A,ai_unverified,"Rice +90, wheat +60=12% => W=500; May 560",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,54fe164c-962f-4c32-a149-c5d87ec976b7
-CAT-2020-S2-QA-038,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"Let C be a circle of radius 5 meters having center at O. Let PQ be a chord of C that passes through points A and B where A is located 4 meters north of O and B is located 3 meters east of O. Then, the length of PQ, in meters, is nearest to",7.2,6.6,8.8,7.8,mcq,,,C,ai_unverified,"Line 4x+3y=12, distance 2.4 from O, chord=2*sqrt(25-5.76)=8.77",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,3e7d8be1-6931-4da3-9d7c-472272f29824
-CAT-2020-S2-QA-039,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"For the same principal amount, the compound interest for two years at 5% per annum exceeds the simple interest for three years at 3% per annum by Rs 1125. Then the principal amount in rupees is ________",,,,,tita,,,90000,ai_unverified,0.1025P-0.09P=0.0125P=1125,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,36a64431-3a1d-4426-949c-8a10d45dd00b
-CAT-2020-S2-QA-040,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"Students in a college have to choose at least two subjects from chemistry, mathematics and physics. The number of students choosing all three subjects is 18, choosing mathematics as one of their subjects is 23 and choosing physics as one of their subjects is 25. The smallest possible number of students who could choose chemistry as one of their subjects is",20,19,22,21,mcq,,,A,ai_unverified,"a+b=5, a+c=7, minimise b+c=12-2a => a=5,c=2 => C=20",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,f092677b-f07d-446b-9cb8-7d91099f11eb
-CAT-2020-S2-QA-041,sequence,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,2,,,,Breakup G Strategy,,,,"John takes twice as much time as Jack to finish a job. Jack and Jim together take one-thirds of the time to finish the job than John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them working together. In how many days will Jim finish the job working alone? ___________",,,,,tita,,,4,ai_unverified,"Jack x, John 2x, Jim 2x; all three x/2; 2x=x/2+3 => x=2",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,b9ba3c8b-93cf-44eb-abac-3f13ace7e388
-,,Algebra,Equations,ai_split,Algebra,True,2020,,10,,,X Maro G Strategy,,,,"The number of pairs of integers(x,y) satisfying x ≥ y ≥ -20 and 2x + 5y = 99 is",,,,,tita,,17,,,,match,"x = 2 and y = 19 (Not possible), Given the condition x ≥ y ≥ - 20
-x should increase/decrease in the coefficient of y and same for y
-x = 7 and y = 17 (Not possible)
-x = 12 and y = 15 (Not possible)
-x = 17 and y = 13 (Possible)
-. y = 11
-. y = 9
-. .
-. .
-. .
-. y = -19 (Can’t go any further)
-By counting totally 17 values are there.",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,1c82adf4-09f5-4aa4-9905-f629c57216f1
-,,Algebra,Equations,ai_split,Algebra,True,2020,,17,,,X Maro G Strategy,,,,"Let N, x and y be positive integers such that N = x + y, 2 < x < 10 and 14 < y < 23. If N > 25, then how many distinct values are possible for N?",,,,,tita,,6,,,,match,"You have two ranges:
-
-For x: x can take any value between 2 and 10 but not including 2 and 10 itself. This means x can be 3, 4, 5, 6, 7, 8, or 9.
-
-
-For y: y can take any value between 14 and 23 but not including 14 and 23 itself. This means y can be 15, 16, 17, 18, 19, 20, 21, or 22.
-For x: x can take any value between 2 and 10 but not including 2 and 10 itself. This means x can be 3, 4, 5, 6, 7, 8, or 9.
-For y: y can take any value between 14 and 23 but not including 14 and 23 itself. This means y can be 15, 16, 17, 18, 19, 20, 21, or 22.
-You want to find the highest possible value for N, where N is the sum of x and y.
-The highest value for x is 9, and the highest value for y is 22 (at their respective limits).
-So, the highest value for N is 9 + 22, which equals 31 (when x = 9 and y = 22).
-Next, you consider the other possible values for N:
-
-N = 9 + 21 = 30 (when x = 9 and y = 21)
-
-
-N = 9 + 20 = 29 (when x = 9 and y = 20)
-
-
-N = 9 + 19 = 28 (when x = 9 and y = 19)
-
-
-N = 9 + 18 = 27 (when x = 9 and y = 18)
-
-
-N = 9 + 17 = 26 (when x = 9 and y = 17)
-
-
-N = 9 + 16 = 25 (when x = 9 and y = 16)
-N = 9 + 21 = 30 (when x = 9 and y = 21)
-N = 9 + 20 = 29 (when x = 9 and y = 20)
-N = 9 + 19 = 28 (when x = 9 and y = 19)
-N = 9 + 18 = 27 (when x = 9 and y = 18)
-N = 9 + 17 = 26 (when x = 9 and y = 17)
-N = 9 + 16 = 25 (when x = 9 and y = 16)
-You notice that the desired sum, x + y = 25, doesn't appear in this list.
-Therefore, the different values that x + y (or N) can take are {31, 30, 29, 28, 27, 26}.
-In total, there are 6 distinct values for x + y (or N).
-So, you can get 6 different values for N based on the different combinations of x and y within their respective ranges.",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,6f72c852-f753-46cf-8bb1-a6d1bd09807f
-,,Algebra,Equations,ai_split,Algebra,True,2020,,21,,,X Maro G Strategy,,,,Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if,|k| = 2,k ≠ 2,|k| ≠ 2,k = 2,mcq,C,|k| ≠ 2,,,,match,"Two generic equations, a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, will have a unique solution if and only if, a1/a2 ≠ b1/b2
+Therefore, x - y = 8",X Maro,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-2-Quant/,,https://iimking.com/cat-2021-quant-x-maro-g-strategy/,995d8ac6-1ab6-408e-bd50-0162985d1da9
+CAT-2021-S2-QA-008,Q-AL-EQN,Algebra,Equations,Equations,,2021,2,8,,,Breakup G Strategy,mcq,"Anil, Bobby and Chintu jointly invest in a business and agree to share the overall profit in proportion to their investments. Anil’s share of investment is 70%. His share of profit decreases by ₹ 420 if the overall profit goes down from 18% to 15%. Chintu’s share of profit increases by ₹ 80 if the overall profit goes up from 15% to 17%. The amount, in INR, invested by Bobby is",2200,2400,1800,2000,D,2000,"Let total investment be $I$. A 3% fall in profit rate cuts Anil's share by $0.7 \times 0.03 I = 420$, so $I = 20000$. Chintu gains $0.02 \times 20000 \times c = 80$, so Chintu's share $c = 20\%$. Bobby's share $= 100 - 70 - 20 = 10\%$. Bobby invested $0.1 \times 20000 = 2000$ (option D).",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-2-Quant/ | https://quantifiers.in/cat-2021-quant-slot-2/ | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2021-quant-breakup/,9c8b2054-e57b-4c39-a702-7c4dcb389e76
+CAT-2021-S2-QA-014,Q-AL-EQN,Algebra,Equations,Equations,,2021,2,14,,,Breakup G Strategy,tita,"In a football tournament, a player has played a certain number of matches and 10more matches are to be played. If he scores a total of one goal over the next 10matches, his overall average will be 0.15 goals per match. On the other hand, if he scores a total of two goals over the next 10 matches, his overall average will be 0.2goals per match. The number of matches he has played is ______ TITA",,,,,,10,"Let the number of matches already played be \( x \).
+Case 1: \(\frac{g + 1}{x + 10} = 0.15 \Rightarrow g = 0.15x + 0.5\)
+Case 2: \(\frac{g + 2}{x + 10} = 0.2 \Rightarrow g = 0.2x\)
+Equating: \( 0.2x = 0.15x + 0.5 \Rightarrow x = 10 \)
+Answer: 10",Breakup,,false,,match,https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-2-Quant/,,https://iimking.com/cat-2021-quant-breakup/,77942256-6da9-4c50-8120-6f10dbb3e5ff
+CAT-2021-S3-QA-015,Q-AL-EQN,Algebra,Equations,Equations,,2021,3,15,,,Breakup G Strategy,mcq,"A shop owner bought a total of 64 shirts from a wholesale market that came in two sizes, small and large. The price of a small shirt was INR 50 less than that of a large shirt. She paid a total of INR 5000 for the large shirts, and a total of INR 1800 for the small shirts. Then, the price of a large shirt and a small shirt together, in INR, is",150,225,175,200,D,200,"Let the large shirt cost $L$, the small $L - 50$. Then $5000/L + 1800/(L-50) = 64$. Try $L = 125$: $40 + 1800/75 = 40 + 24 = 64$. So small = 75. Together $125 + 75 = 200$ (option D).",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper/CAT-2021-Question-Paper-Slot-3-Quant/ | https://cracku.in/cat-2021-slot-3-quant-question-paper-solved | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2021-quant-breakup/,604766a6-93c3-4bc4-8b69-f6c2715ec265
+CAT-2020-S1-QA-008,Q-AL-EQN,Algebra,Equations,Equations,,2020,1,8,,,Breakup G Strategy,mcq,"Let A, B and C be three positive integers such that the sum of A and the mean of B and C is 5. In addition, the sum of B and the mean of A and C is 7. Then the sum of A and B is",6,7,5,4,A,6,"The conditions give $2A + B + C = 10$ and $A + 2B + C = 14$. Subtracting, $B - A = 4$. Put $B = A + 4$ in the first: $3A + C = 6$. For positive integers, $A = 1$ and $C = 3$, so $B = 5$. $A + B = 6$ (option A).",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper-pdf/CAT-2020-Quants-Slot1.pdf | https://cracku.in/blog/?p=55605 | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2020-quant-breakup/,8a93781e-3304-4ffd-b068-6b55c528c6c5
+CAT-2020-S1-QA-025,Q-AL-EQN,Algebra,Equations,Equations,,2020,1,25,,,Breakup G Strategy,tita,"A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially? ______",,,,,,62,"Work backwards from 0 toffees. If $r$ is left after a child, the stock before was $2(r+1)$. So the stock before each child, from the last, is $2, 6, 14, 30, 62$. Answer: 62.",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper-pdf/CAT-2020-Quants-Slot1.pdf | https://cracku.in/blog/?p=55605 | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2020-quant-breakup/,34356474-72c1-4472-bc8e-d0712a1ec029
+CAT-2020-S2-QA-023,Q-AL-EQN,Algebra,Equations,Equations,,2020,2,23,,,Breakup G Strategy,mcq,"In May, John bought the same amount of rice and the same amount of wheat as he had bought in April, but spent Rs. 150 more due to price increase of rice and wheat by 20% and 12%, respectively. If John had spent Rs. 450 on rice in April, then how much did he spend on wheat in May?",Rs.560,Rs.570,Rs.590,Rs.580,A,Rs.560,"Rice in April = Rs 450, so a 20% rise adds $0.2 \times 450 = 90$. Total extra is 150, so the wheat rise is $150 - 90 = 60$. This is 12% of April wheat, so April wheat = $60 / 0.12 = 500$. May wheat = $500 \times 1.12 = 560$. Answer: Rs 560 (option A).",Breakup,,false,,missing_found,"https://online.2iim.com/CAT-question-paper-pdf/CAT-2020-Quants-Slot2.pdf | https://cracku.in/blog/?p=56368 | 2IIM method, Cetking write-up 15 Oct 2026",answer from Rav sheet 15 Oct 2026,https://iimking.com/cat-2020-quant-breakup/,54fe164c-962f-4c32-a149-c5d87ec976b7
+CAT-2020-S3-QA-015,Q-AL-EQN,Algebra,Equations,Equations,,2020,3,15,,,X Maro G Strategy,mcq,Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if,|k| = 2,k ≠ 2,|k| ≠ 2,k = 2,C,|k| ≠ 2,"Two generic equations, a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, will have a unique solution if and only if, a1/a2 ≠ b1/b2
 We have the equations kx + y = 3 and 4x + ky = 4,
 For them to have unique solutions, they must satisfy the condition
 k/4 ≠ 1/k
 k^2 ≠ 4
 k ≠ ±2
-|k| ≠ 2",,X Maro,False,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,0b9d28b1-d7a9-4a98-a27f-44de897c6132
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"A solid right circular cone of height 27 cm is cut into two pieces along a plane parallel to its base at a height of 18 cm from the base. If the difference in volume of the two pieces is 225 cc, the volume, in cc, of the original cone is",264,256,232,243,mcq,,,D,ai_unverified,Top cone 1/27 of V; 25V/27=225 => V=243,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,22013c8b-ddfc-413e-8d91-42cfce561488
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially? ______",,,,,tita,,,62,ai_unverified,"Work backwards: 2,6,14,30,62",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,34356474-72c1-4472-bc8e-d0712a1ec029
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"In a group of people, 28% of the members are young while the rest are old. If 65% of the members are literates, and 25% of the literates are young, then the percentage of old people among the illiterates is nearest to",59,55,62,66,mcq,,,D,ai_unverified,"Old=72, old literates=48.75, old illiterates=23.25 of 35 illiterates = 66.4%",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,6bd78b41-6416-4c4b-8e71-d0510edea64b
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"A solution, of volume 40 litres, has dye and water in the proportion 2 : 3. Water is added to the solution to change this proportion to 2 : 5. If one-fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining solution to bring the proportion back to 2 : 3? ______",,,,,tita,,,8,ai_unverified,Dye16 water24 -> water40; remove 1/4 -> dye12 water30; need dye20 => add 8,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,7787d3b1-6c85-4606-a42b-5d0f7fb089e4
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"Let A, B and C be three positive integers such that the sum of A and the mean of B and C is 5. In addition, the sum of B and the mean of A and C is 7. Then the sum of A and B is",6,7,5,4,mcq,,,A,ai_unverified,"2A+B+C=10, A+2B+C=14 => B-A=4; A=1,B=5,C=3 => A+B=6",missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,8a93781e-3304-4ffd-b068-6b55c528c6c5
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"A person spent Rs 50000 to purchase a desktop computer and a laptop computer. He sold the desktop at 20% profit and the laptop at 10% loss. If overall he made a 2% profit then the purchase price, in rupees, of the desktop is",,,,,tita,,,20000,ai_unverified,1.2d+0.9(50000-d)=51000 => d=20000,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,b79c40bb-1401-4be4-89b2-ed6df5d047fb
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"Veeru invested Rs 10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs 8000 at 10% simple annual interest. How many years after Veeru’s investment, will their balances, i.e., principal plus accumulated interest, be equal?",,,,,tita,,,12,ai_unverified,10000+500t=8000+800(t-2) => t=12,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,c05c805c-1b2f-48e2-8c0c-ad8bd907ba26
-,,Algebra,Equations,topic_map,Linear & Simple Equations,True,2020,,,,,Breakup G Strategy,,,,"An alloy is prepared by mixing three metals A, B and C in the proportion 3 : 4 : 7 by volume. Weights of the same volume of the metals A, B and C are in the ratio 5 : 2 : 6. In 130 kg of the alloy, the weight, in kg, of the metal C is",84,70,48,96,mcq,,,A,ai_unverified,Weights 15:8:42 of 65 => C=42/65*130=84,missing_found,,,Breakup,False,,https://iimking.com/cat-2020-quant-breakup/,f0b7d680-8c5f-4f97-b6ee-41280e0314fa
+|k| ≠ 2",X Maro,,false,,match,https://online.2iim.com/CAT-question-paper-pdf/CAT-2020-Quants-Slot3.pdf,,https://iimking.com/cat-2020-quant-x-maro-g-strategy/,0b9d28b1-d7a9-4a98-a27f-44de897c6132
