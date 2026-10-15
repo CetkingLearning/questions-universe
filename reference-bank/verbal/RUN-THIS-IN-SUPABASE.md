@@ -9,12 +9,70 @@ questions tagged. Critical Reasoning is live as 7 chapters × 2 core types.
 **Run 2 is DONE** — the taxonomy is live at 115 rows with Reading Comprehension, Paragraph and
 Vocabulary all reshaped.
 
-**Run 3 is waiting for you** (below): the 246 live Vocabulary question tags and the Bible-only
-idiom sample. Grammar and General are still untouched, pending your later sheets.
+**Run 3 is DONE** — 246 Vocabulary questions tagged, 23 Bible-only sample questions stored.
+
+**Run 4 is waiting for you** (below): Grammar as 5 chapters / 19 subchapters, plus the shared
+Verbal Question Type Registry. Only **Verbal General** is still untouched.
 
 ---
 
-## Run 3 — tag the live Vocabulary questions + store the Bible sample  ← **DO THIS ONE**
+## Run 4 — Grammar: 5 chapters / 19 subchapters + Question Type Registry  ← **DO THIS ONE**
+
+**Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
+
+**Step 2.** Open this link, **Ctrl+A** then **Ctrl+C**:
+
+https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_run4_grammar.sql
+
+**Step 3.** Paste and press **Run**. Expect this table:
+
+| item | n |
+|---|---:|
+| Grammar chapters | 5 |
+| Grammar subchapters | 19 |
+| target questions | 300 |
+| question types in registry | 6 |
+| live Grammar questions tagged | 37 |
+
+### What it does
+
+Your call — *"these six are question formats, not grammar concepts"* — becomes **two
+independent axes**, and every question carries one id from each.
+
+| Concept axis | Format axis |
+|---|---|
+| `verbal_master_taxonomy` → `ck_core_id` | `verbal_question_type_registry` → `ck_question_type` |
+| 5 chapters → 19 subchapters → *Core Rules pending* | QT01–QT06, shared across all of Verbal |
+
+The three old Grammar chapters that were really formats — Sentence Improvement, Spotting Error,
+Grammar Fill in the Blanks — **leave the concept tree** and become QT01, QT04, QT06.
+
+The registry is section-wide, not Grammar-only, exactly as you asked, so CAT/CET/SNAP/NMAT/XAT/CMAT
+share one set of format ids. QT06 Fill in the Blanks is already marked as spanning Grammar,
+Vocabulary and RC.
+
+Background, the old→new mapping, and the five open questions:
+[GRAMMAR-RESTRUCTURE.md](GRAMMAR-RESTRUCTURE.md)
+
+**Step 4.** Check it, and see your worked example actually work:
+
+```sql
+select chapter_code, chapter_name, count(*) filter (where level='subtopic') as subchapters
+  from public.verbal_master_taxonomy
+ where master_id like 'V-GR-%' and master_id not like 'V-GR-UNT%'
+ group by 1,2 order by 1;
+
+select * from public.verbal_question_type_registry order by sort_order;
+```
+
+---
+
+## Run 3 — Vocabulary question tags + the Bible sample — **DONE**
+
+You ran this: **246** questions tagged and **23** Bible-only rows stored.
+
+<details>
+<summary>Original run-3 instructions, kept for reference</summary>
 
 **Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
 
@@ -69,6 +127,8 @@ select ck_core_id, count(*) from public.questions
 
 select subtopic_name, count(*) from public.verbal_bible_questions group by 1;
 ```
+
+</details>
 
 ---
 
@@ -164,6 +224,9 @@ types I invented instead of reading yours. The stub is now generated from your r
 -- remove the CR question tags:
 update public.cat_import_questions     set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
 update public.cat_verbal_pyq_questions set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
+-- remove the Grammar restructure (run 4):
+update public.questions set ck_core_id=null, ck_tag_level=null, ck_tag_source=null where ck_tag_source='grammar_restructure_15oct2026';
+drop table if exists public.verbal_question_type_registry cascade;
 -- remove the Vocabulary question tags (run 3):
 update public.questions set ck_core_id=null, ck_tag_source=null where ck_tag_source='vocab_tagging_15oct2026';
 -- remove the Bible sample (run 3):
