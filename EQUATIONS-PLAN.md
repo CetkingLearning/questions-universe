@@ -28,7 +28,7 @@ Difficulty is judged by the **reasoning required**, not by big numbers, long wor
 These questions serve every exam, so the number of options changes by level:
 - **Level 0, Easy, Medium → five options A–E** (CET / NMAT / SNAP pattern)
 - **Hard and CAT level → four options A–D** (CAT pattern)
-- TITA questions have no options, only `correct_answer`.
+- **TITA only at CAT level** (Ravneet, 15 Oct 2026). Level 0, Easy, Medium and Hard are all multiple choice — no TITA anywhere below CAT level.
 Exactly one option is correct. Equivalent forms must never compete (e.g. $\sqrt{45}$ and $3\sqrt{5}$).
 
 ## Exam scope on every question
