@@ -11,12 +11,51 @@ Vocabulary all reshaped.
 
 **Run 3 is DONE** — 246 Vocabulary questions tagged, 23 Bible-only sample questions stored.
 
-**Run 4 is waiting for you** (below): Grammar as 5 chapters / 19 subchapters, plus the shared
-Verbal Question Type Registry. Only **Verbal General** is still untouched.
+**Runs 4 and 5 are waiting for you** (below, in that order): Grammar as 5 chapters / 19 subchapters
+plus the Question Type Registry, then the alignment of all 998 MBA CET Verbal questions.
+Only **Verbal General** is still untouched.
 
 ---
 
-## Run 4 — Grammar: 5 chapters / 19 subchapters + Question Type Registry  ← **DO THIS ONE**
+## Run 4 + Run 5 — Grammar, then the CET alignment  ← **DO THESE, IN THIS ORDER**
+
+Two pastes. Run 5 refuses to start until run 4 has landed, so order matters but you cannot get it wrong.
+
+### Run 4 — Grammar: 5 chapters / 19 subchapters + Question Type Registry
+
+**Step 1.** https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
+**Step 2.** Open, **Ctrl+A → Ctrl+C**:
+https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_run4_grammar.sql
+**Step 3.** Paste, **Run**. Expect 5 chapters · 19 subchapters · 300 targets · 6 question types · 37 tagged.
+
+### Run 5 — align all 998 MBA CET Verbal questions
+
+**Step 4.** Same editor, open and **Ctrl+A → Ctrl+C**:
+https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_run5_cet_alignment.sql
+**Step 5.** Paste, **Run**. It prints a table of every question type with its CET 2025 / CET 2026 / twin counts.
+
+This one tags **CET 2025 (298) + CET 2026 official (350) + CET 2026 twins (350)** on both axes,
+creates `V-RC-EVD-004 Inference based` that you approved, and leaves the whole mapping readable in
+`public.cet_verbal_tag_map` — 122 rows, each with a reason, 20 flagged for your review.
+
+Background and the ten findings: [CET-ALIGNMENT.md](CET-ALIGNMENT.md)
+
+**Step 6.** Check it, and see the review queue:
+
+```sql
+select count(*) as total, count(*) filter (where ck_core_id is null) as untagged
+  from public.pyq_question_bank where exam='MBA CET' and section='Verbal Ability';
+
+select arena_topic, arena_sub_topic, ck_core_id, reason
+  from public.cet_verbal_tag_map where needs_review order by 1,2;
+```
+
+Expect **998 total, 0 untagged.**
+
+---
+
+<details>
+<summary>Run 4 details</summary>
 
 **Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
 
@@ -64,6 +103,8 @@ select chapter_code, chapter_name, count(*) filter (where level='subtopic') as s
 
 select * from public.verbal_question_type_registry order by sort_order;
 ```
+
+</details>
 
 ---
 
@@ -224,6 +265,10 @@ types I invented instead of reading yours. The stub is now generated from your r
 -- remove the CR question tags:
 update public.cat_import_questions     set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
 update public.cat_verbal_pyq_questions set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
+-- remove the CET alignment (run 5):
+update public.pyq_question_bank set ck_core_id=null, ck_tag_level=null, ck_question_type=null, ck_tag_source=null where ck_tag_source like 'cet_verbal_align_15oct2026%';
+drop table if exists public.cet_verbal_tag_map;
+delete from public.verbal_master_taxonomy where master_id='V-RC-EVD-004';
 -- remove the Grammar restructure (run 4):
 update public.questions set ck_core_id=null, ck_tag_level=null, ck_tag_source=null where ck_tag_source='grammar_restructure_15oct2026';
 drop table if exists public.verbal_question_type_registry cascade;
