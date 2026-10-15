@@ -6,13 +6,79 @@
 succeeded. Verified from my side: 143 taxonomy rows, 93 core types, no orphans, and 249 Critical Reasoning
 questions tagged. Critical Reasoning is live as 7 chapters × 2 core types.
 
-**Run 2 is waiting for you.** It now carries TWO restructures in one file — Reading Comprehension
-("yes chapters in RC") and Paragraph (his third sheet). **If you already copied the run-2 file earlier,
-copy it again** — it has changed. Vocabulary, Grammar and General are untouched, pending his later sheets.
+**Run 2 is DONE** — the taxonomy is live at 115 rows with Reading Comprehension, Paragraph and
+Vocabulary all reshaped.
+
+**Run 3 is waiting for you** (below): the 246 live Vocabulary question tags and the Bible-only
+idiom sample. Grammar and General are still untouched, pending your later sheets.
 
 ---
 
-## Run 2 — reshape RC + Paragraph + Vocabulary (one file)
+## Run 3 — tag the live Vocabulary questions + store the Bible sample  ← **DO THIS ONE**
+
+**Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
+
+**Step 2.** Open this link, **Ctrl+A** then **Ctrl+C**:
+
+https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/reference-bank/verbal/verbal_run3_vocab_tagging_and_bible.sql
+
+**Step 3.** Paste and press **Run**. It prints two numbers: **246** and **23**.
+
+### What it does
+
+**(a) Tags all 246 live Vocabulary questions** onto the new question types. Adds
+`questions.ck_core_id` and `questions.ck_tag_source`.
+
+| Live path | n | → question type |
+|---|---:|---|
+| Vocabulary · Fill in the Blanks (3 subtopics) | 54 | `V-VO-CTX-SCO-001` |
+| Vocabulary · Idioms & Phrases · Idiom Meaning (Usage) | 18 | `V-VO-IDM-USE-001` |
+| Vocabulary · Idioms & Phrases · Idiom Identification | 18 | `V-VO-IDM-IDN-001` |
+| Vocabulary · Idioms & Phrases · Correct Idiom in Context | 18 | `V-VO-IDM-COR-001` |
+| Vocabulary · One-Word Substitution (3 subtopics) | 54 | `V-VO-MNR-DEF-001` |
+| Vocabulary · Spelling (2 subtopics) | 36 | `V-VO-WSA-SPL-001` |
+| Vocabulary Builder · Roots & Prefixes (4 subtopics) | 48 | `V-VO-WSA-ROT-001` |
+
+The Idioms 54 are a clean 1:1 onto your three subtypes. The rest collapse into their 1D
+types — the 2D types are built and waiting, with no questions yet.
+
+**(b) Stores your 23 Bible sample idiom questions** — Usage 7, Identification 12, Correct
+Idiom 4 — in a **new table of their own**, `public.verbal_bible_questions`.
+
+You said *"do not use this sample anywhere ... these questions are only used for the Bible."*
+So rather than a flag on a shared table, they sit in their own table that no live query reads,
+with two CHECK constraints (`bible_only is true`, `status = 'bible_only'`) that make the
+restriction **structural** — a future query cannot flip them live by accident. I tested that:
+both `update ... set bible_only=false` and `set status='live'` are rejected by the database.
+
+They are not in `question_bank` for a second reason too: that table has `option_a..option_d`
+only, and your samples have **five** options each.
+
+### Why it is safe
+
+One transaction. It refuses to start unless the 23 Vocabulary question types exist, asserts
+every per-type count above, asserts no Vocabulary question is left untagged, and asserts every
+Bible row has 5 options with an answer among them. Any failure rolls back everything,
+including the new column and table. Safe to run twice.
+
+**Step 4.** Check it:
+
+```sql
+select ck_core_id, count(*) from public.questions
+ where ck_tag_source = 'vocab_tagging_15oct2026' group by 1 order by 1;
+
+select subtopic_name, count(*) from public.verbal_bible_questions group by 1;
+```
+
+---
+
+## Run 2 — reshape RC + Paragraph + Vocabulary — **DONE**
+
+You ran this. Verified from my side: 115 rows live — 1 section, 6 subsections, 28 chapters,
+13 subtopics, 67 question types, all 23 Vocabulary types present.
+
+<details>
+<summary>Original run-2 instructions, kept for reference</summary>
 
 **Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
 
@@ -75,6 +141,7 @@ select chapter_name, subtopics, core_types, one_d, two_d
 
 Expect 1 section / 6 subsections / 28 chapters / 13 subtopics / 67 question types, and the Vocabulary table above.
 
+</details>
 
 ---
 
@@ -97,6 +164,10 @@ types I invented instead of reading yours. The stub is now generated from your r
 -- remove the CR question tags:
 update public.cat_import_questions     set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
 update public.cat_verbal_pyq_questions set ck_core_id=null, ck_tag_source=null where ck_tag_source='cr_restructure_15oct2026';
+-- remove the Vocabulary question tags (run 3):
+update public.questions set ck_core_id=null, ck_tag_source=null where ck_tag_source='vocab_tagging_15oct2026';
+-- remove the Bible sample (run 3):
+drop table if exists public.verbal_bible_questions;
 -- remove the taxonomy entirely:
 drop view  if exists public.verbal_master_taxonomy_chapters;
 drop table if exists public.verbal_master_taxonomy;
