@@ -1,0 +1,123 @@
+arena_topic,arena_sub_topic,ck_core_id,ck_tag_level,ck_question_type,needs_review,reason
+Specific Detail,*,V-RC-EVD-001,core_type,,FALSE,detail retrieval is evidence from the passage
+Inference,*,V-RC-EVD-004,core_type,,FALSE,"NEW type, approved by Rav 15 Oct: inference had no home"
+Vocabulary in Context,*,V-RC-EVD-003,core_type,,FALSE,exactly what Vocab Based Questions is for
+Main Idea,*,V-RC-TSP-001,core_type,,FALSE,main idea
+Tone,*,V-RC-TSP-004,core_type,,FALSE,tone
+TSPM,RC Title,V-RC-TSP-002,core_type,,FALSE,title
+TSPM,RC Primary Purpose,V-RC-TSP-006,core_type,,FALSE,purpose
+TSPM,RC Purpose of Analogy,V-RC-TSP-006,core_type,,FALSE,purpose
+TSPM,RC Purpose of Definition,V-RC-TSP-006,core_type,,FALSE,purpose
+TSPM,RC Purpose of Quote Marks,V-RC-EVD-002,core_type,,FALSE,this is precisely Why Mention This
+Para Jumbles,5-Sentence Jumble,V-PG-JUM-002,core_type,,FALSE,5 statements with options
+Para Jumbles,5-Sentence Jumble Chronology,V-PG-JUM-002,core_type,,FALSE,5 statements with options
+Para Jumbles,5-Sentence Jumble Fixed Opener,V-PG-JUM-002,core_type,,FALSE,5 statements with options
+Para Jumbles,5-Sentence Story Jumble,V-PG-JUM-002,core_type,,FALSE,5 statements with options
+Para Jumbles,6-Sentence Jumble,V-PG-JUM-003,core_type,,FALSE,6-7 statements
+Para Jumbles,6-Sentence Jumble Fixed Opener,V-PG-JUM-003,core_type,,FALSE,6-7 statements
+Para Jumbles,7-Part Jumble Position,V-PG-JUM-003,core_type,,FALSE,6-7 statements
+Para Jumbles,4-Sentence Jumble,V-PG-JUM-002,core_type,,TRUE,FINDING: 4-statement jumble has NO type. Parked on 5-statement. Needs V-PG-JUM-004 or a rename.
+Para Jumbles,4-Sentence Jumble (fixed ends),V-PG-JUM-002,core_type,,TRUE,FINDING: 4-statement jumble has NO type. Parked on 5-statement. Needs V-PG-JUM-004 or a rename.
+Odd Man Out,Contradicting Sentence,V-PG-OMO-001,core_type,,FALSE,sentence odd-one-out
+Odd Man Out,Focus Shift Sentence,V-PG-OMO-001,core_type,,FALSE,sentence odd-one-out
+Odd Man Out,Odd Sentence Out,V-PG-OMO-001,core_type,,FALSE,sentence odd-one-out
+Odd Man Out,Tone Reversal Sentence,V-PG-OMO-001,core_type,,FALSE,sentence odd-one-out
+Odd Man Out,Letter Group Odd One,V-VO-MNR-SEM-001,core_type,,TRUE,"FINDING: Slot 1 Q151 - a LETTER-GROUP odd-one-out, not a sentence one, and Arena files it under ""Traditional Logic"" inside Verbal Ability. master-taxonomy.csv warns word and sentence odd-one-out must never merge. Parked on the vocabulary Odd One Out; it may belong in the Logic universe instead."
+Sentence Rearrangement,Sentence Combination,V-PG-JOI-001,core_type,,FALSE,joining two sentences
+Sentence Rearrangement,6-Sentence Position Question,V-PG-JUM-003,core_type,,FALSE,6 statements
+Sentence Rearrangement,4-Fragment Sentence Order,V-PG-JUM-002,core_type,,TRUE,same 4-statement gap as above
+Sentence Rearrangement,4-Part Sentence Jumble,V-PG-JUM-002,core_type,,TRUE,same 4-statement gap as above
+Idioms & Phrases,Idiom Meaning,V-VO-IDM-USE-001,core_type,,FALSE,meaning / usage of a given idiom
+Idioms & Phrases,Common Idiom,V-VO-IDM-USE-001,core_type,,FALSE,meaning / usage of a given idiom
+Idioms & Phrases,Idiom Usage in Sentence,V-VO-IDM-USE-001,core_type,,FALSE,meaning / usage of a given idiom
+Idioms & Phrases,Business/Negotiation Idiom,V-VO-IDM-USE-001,core_type,,FALSE,meaning / usage of a given idiom
+Idioms & Phrases,Idiom Fit with Context,V-VO-IDM-COR-001,core_type,,FALSE,pick the idiom that fits
+Phrasal Verbs,*,V-VO-IDM-USE-001,core_type,,TRUE,phrasal verbs filed as idiom usage - confirm you want them there and not a type of their own
+Antonym & Synonym,Synonym of Adjective,V-VO-MNR-SYN-001,core_type,,FALSE,direct synonym
+Antonym & Synonym,Synonym of Verb,V-VO-MNR-SYN-001,core_type,,FALSE,direct synonym
+Antonym & Synonym,Synonym of Noun,V-VO-MNR-SYN-001,core_type,,FALSE,direct synonym
+Antonym & Synonym,Synonym,V-VO-MNR-SYN-001,core_type,,FALSE,direct synonym
+Antonym & Synonym,Antonym of Adjective,V-VO-MNR-ANT-001,core_type,,FALSE,direct antonym
+Antonym & Synonym,Antonym of Noun,V-VO-MNR-ANT-001,core_type,,FALSE,direct antonym
+Antonym & Synonym,Antonym of Verb,V-VO-MNR-ANT-001,core_type,,FALSE,direct antonym
+Antonym & Synonym,Antonym,V-VO-MNR-ANT-001,core_type,,FALSE,direct antonym
+Antonym & Synonym,Synonym-Antonym Pair,V-VO-MNR-SYN-002,core_type,,FALSE,your 2D type gets its first real question
+Fill Blanks,*,V-VO-CTX-SCO-001,core_type,QT06,FALSE,vocabulary blank + the shared Fill in the Blanks format id
+Word Meaning,Nonsense Word in Context,V-VO-CTX-CTM-001,core_type,,FALSE,contextual meaning
+Word Meaning,Meaning in Context,V-VO-CTX-CTM-001,core_type,,FALSE,contextual meaning
+Word Meaning,Verb Meaning in Context,V-VO-CTX-CTM-001,core_type,,FALSE,contextual meaning
+Word Meaning,Phobia Names,V-VO-MNR-DEF-001,core_type,,FALSE,phobia/mania one-word substitution
+Roots & Prefixes,*,V-VO-WSA-ROT-001,core_type,,FALSE,root meaning
+Cloze Test,*,V-VO-CTX-CLZ-001,core_type,,TRUE,cloze is a FORMAT too - open question whether you want QT07 Cloze in the registry
+One-Word Substitution,*,V-VO-MNR-DEF-001,core_type,,FALSE,definition to word
+Sentence Completion,*,V-VO-CTX-SCO-001,core_type,,FALSE,"Arena files it under Vocabulary Usage, so the vocabulary kind, not V-PG-COM"
+Spelling,*,V-VO-WSA-SPL-001,core_type,,FALSE,spelling recognition
+Usage,*,V-VO-CTX-USG-001,core_type,,FALSE,confusable / correct usage
+Analogy (Word),Antonym Pair Analogy,V-VO-MNR-SEM-002,core_type,,FALSE,word relationship
+Analogy (Word),Inferior Work : Creator,V-VO-MNR-SEM-002,core_type,,FALSE,word relationship
+Analogy (Word),Type : Category,V-VO-MNR-SEM-002,core_type,,FALSE,word relationship
+Analogy (Word),Homophone Pair,V-VO-CTX-USG-001,core_type,,FALSE,homophones are confusables
+Direct Indirect,*,V-GR-SPT-DIS,subtopic,,FALSE,direct-indirect speech
+Tenses,*,V-GR-VRB-TNS,subtopic,,FALSE,tenses
+Subject Verb Agreement,*,V-GR-VRB-SVA,subtopic,,FALSE,SVA
+Prepositions,*,V-GR-USG-PRP,subtopic,,FALSE,prepositions
+Active Passive,*,V-GR-SPT-VCE,subtopic,,FALSE,active-passive voice
+Articles,*,V-GR-USG-ART,subtopic,,FALSE,articles and determiners
+Figures of Speech,*,V-GR-SPT-FOS,subtopic,,FALSE,the only Bible-less subchapter that CET actually tests
+Spotting Error,Adjective vs Adverb,V-GR-DSC-ADV,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Article Error,V-GR-USG-ART,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Article Error in Idiom,V-GR-USG-ART,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Conditional Tense Error,V-GR-VRB-CND,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Correct Sentence Conjunction,V-GR-USG-CNJ,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Correlative Conjunctions,V-GR-USG-CNJ,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Fixed Conjunction Error,V-GR-USG-CNJ,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Double Comparative,V-GR-DSC-CMP,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Missing Preposition,V-GR-USG-PRP,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Preposition Error,V-GR-USG-PRP,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Phrasal Verb Preposition,V-GR-USG-PRP,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Superfluous Preposition,V-GR-USG-PRP,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,One of + Plural Noun,V-GR-VRB-SVA,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,One of the + Plural,V-GR-VRB-SVA,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Subject Verb Agreement,V-GR-VRB-SVA,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Subject-Verb Agreement,V-GR-VRB-SVA,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Participle Phrase No Error,V-GR-VRB-INF,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Pronoun Ambiguity,V-GR-STR-PRN,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Relative Pronoun Error,V-GR-STR-PRN,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,That vs What,V-GR-STR-PRN,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Phrase Misuse,V-GR-USG-CCW,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Wrong Word Form,V-GR-USG-CCW,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Wrong Word Usage,V-GR-USG-CCW,subtopic,QT04,FALSE,"error spotting format, concept from the subtopic"
+Spotting Error,Idiom and Tense Error,V-GR-VRB-TNS,subtopic,QT04,TRUE,"mixed idiom+tense error, filed on tense"
+Spotting Error,Redundancy Error,V-GR-STR-NEG,subtopic,QT04,TRUE,FINDING: no Redundancy subchapter in your 19; filed under Construction Rules
+Spotting Error,Spelling Error,V-VO-WSA-SPL-001,core_type,QT04,TRUE,"FINDING: spelling is not one of your 19 grammar subchapters, so this maps into VOCABULARY"
+Spotting Error,Spelling Context Error,V-VO-WSA-SPL-001,core_type,QT04,TRUE,"FINDING: same - grammar format, vocabulary concept"
+Spotting Error,Correct Sentence Selection,V-GR-UNT-001,core_type,QT04,TRUE,"generic ""pick the correct sentence"" - no single concept"
+Spotting Error,No Error Sentence,V-GR-UNT-001,core_type,QT04,TRUE,generic - no single concept
+Spotting Error,Multi-Sentence Correctness,V-GR-UNT-001,core_type,QT02,TRUE,"generic, and the FORMAT is QT02 not QT04"
+Spotting Error,Pick Correct Sentences,V-GR-UNT-001,core_type,QT02,TRUE,"generic, and the FORMAT is QT02 not QT04"
+Sentence Improvement,Ambiguous Comparison,V-GR-DSC-CMP,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Faulty Comparison,V-GR-DSC-CMP,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Collocation,V-GR-USG-CCW,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Conditional Inversion,V-GR-VRB-CND,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Dangling Modifier,V-GR-STR-MOD,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Dangling Participle,V-GR-STR-MOD,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Gerund after Preposition,V-GR-VRB-INF,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Infinitive after Force,V-GR-VRB-INF,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Infinitive vs Gerund,V-GR-VRB-INF,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Participle Usage,V-GR-VRB-INF,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Hardly When Inversion,V-GR-STR-NEG,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Hardly… When,V-GR-STR-NEG,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,No Sooner Than Inversion,V-GR-STR-NEG,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Order of Adjectives,V-GR-DSC-ADJ,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Parallelism,V-GR-STR-PAR,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Preposition Usage,V-GR-USG-PRP,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Preposition with Adjective,V-GR-USG-PRP,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Pronoun Consistency,V-GR-STR-PRN,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Who vs Whom,V-GR-STR-PRN,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Reporting Verb Usage,V-GR-SPT-DIS,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Sequence of Tenses,V-GR-VRB-TNS,subtopic,QT01,FALSE,"sentence improvement format, concept from the subtopic"
+Sentence Improvement,Idiom Correction,V-VO-IDM-COR-001,core_type,QT01,TRUE,"FINDING: grammar format, IDIOM concept - the two axes earning their keep"
+Sentence Improvement,Idiomatic Phrase,V-VO-IDM-USE-001,core_type,QT01,TRUE,"FINDING: grammar format, idiom concept"
+Sentence Improvement,Choose Correct Sentence,V-GR-UNT-001,core_type,QT01,TRUE,generic - no single concept
+Sentence Improvement,Correct Word Retained,V-GR-UNT-001,core_type,QT01,TRUE,generic - no single concept
+Sentence Improvement,No Correction Needed,V-GR-UNT-001,core_type,QT01,TRUE,generic - no single concept
