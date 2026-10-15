@@ -6,12 +6,13 @@
 succeeded. Verified from my side: 143 taxonomy rows, 93 core types, no orphans, and 249 Critical Reasoning
 questions tagged. Critical Reasoning is live as 7 chapters × 2 core types.
 
-**Run 2 is waiting for you.** You then confirmed "yes chapters in RC", so Reading Comprehension needs
-reshaping: Evidence and Summary/TSPM stop being sub-sections and become chapters inside RC.
+**Run 2 is waiting for you.** It now carries TWO restructures in one file — Reading Comprehension
+("yes chapters in RC") and Paragraph (his third sheet). **If you already copied the run-2 file earlier,
+copy it again** — it has changed. Vocabulary, Grammar and General are untouched, pending his later sheets.
 
 ---
 
-## Run 2 — reshape Reading Comprehension
+## Run 2 — reshape Reading Comprehension AND Paragraph (one file)
 
 **Step 1.** Open the SQL editor: https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
 
@@ -23,19 +24,23 @@ https://raw.githubusercontent.com/CetkingLearning/questions-universe/main/refere
 
 ### What it does
 
-Deletes all 143 taxonomy rows and reloads **131** — one transaction, so it is all-or-nothing. Verbal goes
+Deletes all 143 taxonomy rows and reloads **130** — one transaction, so it is all-or-nothing. Verbal goes
 from 8 sub-sections to 6:
 
 | Sub-section | Chapters | Core types |
 |---|---:|---:|
 | Reading Comprehension | 3 | 13 |
-| Paragraph | 5 | 9 |
+| Paragraph | 5 | 8 |
 | Critical Reasoning | 7 | 14 |
 | Vocabulary | 11 | 42 |
 | Grammar | 9 | 9 |
 | Verbal General | 1 | 1 |
 
 RC's three chapters are **Evidence based**, **TSPM based**, and **CAT level RC**.
+
+Paragraph's five are **Odd Man Out**, **Para Completion** (Sentence Insertion merged in), **Para Jumbles**
+(Jumbled TITA · Jumbled 5 Statements · Jumbled 6-7 Statements), **Para Formation** (renamed from Sentence
+Joining & Matching), and **Passage Structure** (moved over from RC). Mandatory Pair merged away.
 
 ### Why it is safe for the work already done
 
@@ -62,6 +67,8 @@ select count(*) as tagged_still_resolving
 ```
 
 Expect the six rows above, and **249**.
+
+(The 249 are the Critical Reasoning tags from run 1. Paragraph and RC questions are not tagged yet.)
 
 ---
 
