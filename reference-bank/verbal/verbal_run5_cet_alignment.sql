@@ -36,7 +36,7 @@ insert into public.verbal_master_taxonomy
 select 'V-RC-EVD-004','V-RC-EVD','core_type','Inference based','V','V-RC','Reading Comprehension',
        'V-RC-EVD','Evidence based','V-RC-EVD-004',4,'Inference based',
        coalesce((select max(sort_order) from public.verbal_master_taxonomy where chapter_id='V-RC-EVD'),0)+1,
-       true,'rav_approved','rav_approved_15oct2026','cet_alignment_15oct2026','RC',
+       true,'new','rav_approved_15oct2026','cet_alignment_15oct2026','RC',
        'Added 15 Oct 2026 on Rav''s approval. 69 MBA CET inference questions had no home: Evidence based covered Truth&Facts / Why Mention This / Vocab, TSPM covered tone-scope-purpose-main-idea. CAT inference questions land here too.'
  where not exists (select 1 from public.verbal_master_taxonomy where master_id='V-RC-EVD-004');
 

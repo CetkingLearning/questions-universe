@@ -21,6 +21,16 @@ Only **Verbal General** is still untouched.
 
 Two pastes. Run 5 refuses to start until run 4 has landed, so order matters but you cannot get it wrong.
 
+> **Both files were corrected at 06:40 on 15 Oct.** If you copied either one before that, copy it
+> again. The first version of run 4 set `match_status = 'rav_restructure'`, which your
+> `verbal_master_taxonomy_match_status_check` constraint does not allow — only
+> `exact / synonym / bible_only / placeholder / batch / new`. My fault: I had validated against a
+> local stub that was missing that constraint. The stub now carries all four of your real CHECK
+> constraints, generated from `pg_constraint`, and I proved it rejects the bad value before
+> re-testing. **Your database was never left half-changed** — the whole file is one transaction, so
+> it rolled back cleanly: the old 9 Grammar chapters, your 246 Vocabulary tags and the 23 Bible rows
+> were all still intact afterwards.
+
 ### Run 4 — Grammar: 5 chapters / 19 subchapters + Question Type Registry
 
 **Step 1.** https://supabase.com/dashboard/project/suqcijtpfeaystltekfn/sql/new
@@ -39,6 +49,24 @@ creates `V-RC-EVD-004 Inference based` that you approved, and leaves the whole m
 `public.cet_verbal_tag_map` — 122 rows, each with a reason, 20 flagged for your review.
 
 Background and the ten findings: [CET-ALIGNMENT.md](CET-ALIGNMENT.md)
+
+### If you ever want to change Grammar again, after run 5 has landed
+
+Run 5 builds `cet_verbal_tag_map` with a foreign key onto the Grammar ids, so re-running run 4 would
+have to delete rows the map points at. Run 4 now stops with instructions instead of a raw foreign-key
+error:
+
+```sql
+-- if you have NOT hand-edited the map:
+drop table public.cet_verbal_tag_map;
+-- then run 4, then run 5 again (run 5 rebuilds the map)
+
+-- if you HAVE edited it, keep a copy first:
+create table cet_verbal_tag_map_backup as select * from public.cet_verbal_tag_map;
+```
+
+The Question Type Registry no longer has this problem — run 4 now upserts those six rows instead of
+replacing them, so it never deletes a QT id that questions already reference.
 
 **Step 6.** Check it, and see the review queue:
 

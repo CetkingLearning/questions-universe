@@ -43,6 +43,18 @@ begin
   if n > 0 then
     raise exception 'ABORT: % questions are tagged to Grammar ids this reshape would delete; remap them first.', n;
   end if;
+
+  -- run 5 builds cet_verbal_tag_map with a foreign key onto Grammar ids, so once
+  -- that exists this reshape cannot delete them. Stop with instructions rather
+  -- than drop a map Rav may have edited by hand.
+  if exists (select 1 from information_schema.tables
+              where table_schema='public' and table_name='cet_verbal_tag_map') then
+    raise exception 'ABORT: public.cet_verbal_tag_map references the Grammar ids this file replaces.%'
+      ' If you have NOT hand-edited that map:  drop table public.cet_verbal_tag_map;  then run this file,'
+      ' then verbal_run5_cet_alignment.sql again (it rebuilds the map).%'
+      ' If you HAVE edited it, keep a copy first:  create table cet_verbal_tag_map_backup as select * from public.cet_verbal_tag_map;',
+      chr(10), chr(10);
+  end if;
 end $$;
 
 -- =========================================================================
@@ -65,107 +77,107 @@ insert into public.verbal_master_taxonomy
 values
   ('V-GR-VRB', 'V-GR', 'chapter', 'Verb Grammar', 'V', 'V-GR', 'Grammar',
    'V-GR-VRB', 'Verb Grammar', 'G01', null, null, null,
-   1, 60, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   1, 60, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G01 — 4 subchapters × 15 target questions = 60'),
   ('V-GR-VRB-SVA', 'V-GR-VRB', 'subtopic', 'Subject–Verb Agreement', 'V', 'V-GR', 'Grammar',
    'V-GR-VRB', 'Verb Grammar', 'G01', 'V-GR-VRB-SVA', 1, 'Subject–Verb Agreement',
-   2, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   2, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G01.01 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-VRB-TNS', 'V-GR-VRB', 'subtopic', 'Tenses & Sequence of Tenses', 'V', 'V-GR', 'Grammar',
    'V-GR-VRB', 'Verb Grammar', 'G01', 'V-GR-VRB-TNS', 2, 'Tenses & Sequence of Tenses',
-   3, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   3, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G01.02 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-VRB-CND', 'V-GR-VRB', 'subtopic', 'Conditionals', 'V', 'V-GR', 'Grammar',
    'V-GR-VRB', 'Verb Grammar', 'G01', 'V-GR-VRB-CND', 3, 'Conditionals',
-   4, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   4, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G01.03 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-VRB-INF', 'V-GR-VRB', 'subtopic', 'Infinitives & Participles', 'V', 'V-GR', 'Grammar',
    'V-GR-VRB', 'Verb Grammar', 'G01', 'V-GR-VRB-INF', 4, 'Infinitives & Participles',
-   5, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   5, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G01.04 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-STR', 'V-GR', 'chapter', 'Sentence Structure', 'V', 'V-GR', 'Grammar',
    'V-GR-STR', 'Sentence Structure', 'G02', null, null, null,
-   6, 60, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   6, 60, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G02 — 4 subchapters × 15 target questions = 60'),
   ('V-GR-STR-MOD', 'V-GR-STR', 'subtopic', 'Modifiers & Misplaced Modifiers', 'V', 'V-GR', 'Grammar',
    'V-GR-STR', 'Sentence Structure', 'G02', 'V-GR-STR-MOD', 1, 'Modifiers & Misplaced Modifiers',
-   7, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   7, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G02.01 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-STR-PRN', 'V-GR-STR', 'subtopic', 'Pronouns', 'V', 'V-GR', 'Grammar',
    'V-GR-STR', 'Sentence Structure', 'G02', 'V-GR-STR-PRN', 2, 'Pronouns',
-   8, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   8, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G02.02 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-STR-PAR', 'V-GR-STR', 'subtopic', 'Parallelism', 'V', 'V-GR', 'Grammar',
    'V-GR-STR', 'Sentence Structure', 'G02', 'V-GR-STR-PAR', 3, 'Parallelism',
-   9, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   9, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G02.03 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-STR-NEG', 'V-GR-STR', 'subtopic', 'Negatives, Inversion & Constructions', 'V', 'V-GR', 'Grammar',
    'V-GR-STR', 'Sentence Structure', 'G02', 'V-GR-STR-NEG', 4, 'Negatives, Inversion & Constructions',
-   10, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   10, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G02.04 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-USG', 'V-GR', 'chapter', 'Grammar Usage', 'V', 'V-GR', 'Grammar',
    'V-GR-USG', 'Grammar Usage', 'G03', null, null, null,
-   11, 60, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   11, 60, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G03 — 4 subchapters × 15 target questions = 60'),
   ('V-GR-USG-PRP', 'V-GR-USG', 'subtopic', 'Prepositions', 'V', 'V-GR', 'Grammar',
    'V-GR-USG', 'Grammar Usage', 'G03', 'V-GR-USG-PRP', 1, 'Prepositions',
-   12, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   12, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G03.01 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-USG-CNJ', 'V-GR-USG', 'subtopic', 'Conjunctions & Connectors', 'V', 'V-GR', 'Grammar',
    'V-GR-USG', 'Grammar Usage', 'G03', 'V-GR-USG-CNJ', 2, 'Conjunctions & Connectors',
-   13, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   13, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G03.02 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-USG-ART', 'V-GR-USG', 'subtopic', 'Articles & Determiners', 'V', 'V-GR', 'Grammar',
    'V-GR-USG', 'Grammar Usage', 'G03', 'V-GR-USG-ART', 3, 'Articles & Determiners',
-   14, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   14, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G03.03 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-USG-CCW', 'V-GR-USG', 'subtopic', 'Commonly Confused Words', 'V', 'V-GR', 'Grammar',
    'V-GR-USG', 'Grammar Usage', 'G03', 'V-GR-USG-CCW', 4, 'Commonly Confused Words',
-   15, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   15, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G03.04 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-DSC', 'V-GR', 'chapter', 'Descriptive Grammar', 'V', 'V-GR', 'Grammar',
    'V-GR-DSC', 'Descriptive Grammar', 'G04', null, null, null,
-   16, 60, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   16, 60, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G04 — 3 subchapters × 20 target questions = 60'),
   ('V-GR-DSC-ADJ', 'V-GR-DSC', 'subtopic', 'Adjectives', 'V', 'V-GR', 'Grammar',
    'V-GR-DSC', 'Descriptive Grammar', 'G04', 'V-GR-DSC-ADJ', 1, 'Adjectives',
-   17, 20, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   17, 20, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G04.01 — target 20 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-DSC-ADV', 'V-GR-DSC', 'subtopic', 'Adverbs', 'V', 'V-GR', 'Grammar',
    'V-GR-DSC', 'Descriptive Grammar', 'G04', 'V-GR-DSC-ADV', 2, 'Adverbs',
-   18, 20, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   18, 20, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G04.02 — target 20 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-DSC-CMP', 'V-GR-DSC', 'subtopic', 'Comparison Rules', 'V', 'V-GR', 'Grammar',
    'V-GR-DSC', 'Descriptive Grammar', 'G04', 'V-GR-DSC-CMP', 3, 'Comparison Rules',
-   19, 20, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   19, 20, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G04.03 — target 20 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-SPT', 'V-GR', 'chapter', 'Speech & Transformation', 'V', 'V-GR', 'Grammar',
    'V-GR-SPT', 'Speech & Transformation', 'G05', null, null, null,
-   20, 60, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   20, 60, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G05 — 4 subchapters × 15 target questions = 60'),
   ('V-GR-SPT-SPI', 'V-GR-SPT', 'subtopic', 'Speech Identification', 'V', 'V-GR', 'Grammar',
    'V-GR-SPT', 'Speech & Transformation', 'G05', 'V-GR-SPT-SPI', 1, 'Speech Identification',
-   21, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   21, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G05.01 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-SPT-VCE', 'V-GR-SPT', 'subtopic', 'Active–Passive Voice', 'V', 'V-GR', 'Grammar',
    'V-GR-SPT', 'Speech & Transformation', 'G05', 'V-GR-SPT-VCE', 2, 'Active–Passive Voice',
-   22, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   22, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G05.02 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-SPT-DIS', 'V-GR-SPT', 'subtopic', 'Direct–Indirect Speech', 'V', 'V-GR', 'Grammar',
    'V-GR-SPT', 'Speech & Transformation', 'G05', 'V-GR-SPT-DIS', 3, 'Direct–Indirect Speech',
-   23, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   23, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G05.03 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-SPT-FOS', 'V-GR-SPT', 'subtopic', 'Figures of Speech', 'V', 'V-GR', 'Grammar',
    'V-GR-SPT', 'Speech & Transformation', 'G05', 'V-GR-SPT-FOS', 4, 'Figures of Speech',
-   24, 15, true, 'rav_restructure', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
+   24, 15, true, 'new', 'rav_approved_15oct2026', 'rav_grammar_sheet_15oct2026',
    'G05.04 — target 15 questions. Core Rules still to be loaded from the Grammar Bible.'),
   ('V-GR-UNT', 'V-GR', 'chapter', 'Grammar (untyped)', 'V', 'V-GR', 'Grammar',
    'V-GR-UNT', 'Grammar (untyped)', 'G99', null, null, null,
-   25, null, false, 'holding', 'holding_bucket', 'cetking_live_questions',
+   25, null, false, 'placeholder', 'holding_bucket', 'cetking_live_questions',
    'Holding bucket. 12 live Grammar questions carry no subchapter yet. Not one of Rav''s 5 chapters.'),
   ('V-GR-UNT-001', 'V-GR-UNT', 'core_type', 'Grammar (untyped)', 'V', 'V-GR', 'Grammar',
    'V-GR-UNT', 'Grammar (untyped)', 'G99', null, null, null,
-   26, null, false, 'holding', 'holding_bucket', 'cetking_live_questions',
+   26, null, false, 'placeholder', 'holding_bucket', 'cetking_live_questions',
    'Leaf for the 12 untyped live Grammar questions.');
 
 -- ------------------------------------------------------------- assertions A
@@ -217,7 +229,8 @@ create table if not exists public.verbal_question_type_registry (
 comment on table public.verbal_question_type_registry is
   'Verbal exam-format axis, shared across ALL Verbal subsections and all exams (CAT/CET/SNAP/NMAT/XAT/CMAT). Independent of the concept axis in verbal_master_taxonomy: the same grammar rule can be asked in any of these formats. reference_code holds Rav''s supplied codes verbatim; reference_code_verified is false because they match nothing in question_taxonomy (which has zero Grammar rows) — confirm their origin before relying on them.';
 
-delete from public.verbal_question_type_registry where question_type_id like 'QT%';
+-- upsert, never delete: once questions reference a QT id, deleting it would
+-- break their foreign key. This keeps the file re-runnable after run 5.
 
 insert into public.verbal_question_type_registry
   (question_type_id, name, reference_code, replaces_taxonomy_id, bible_source,
@@ -234,7 +247,15 @@ values
   ('QT05', 'Fragment Continuation', '84', null, 'Bible G8 Fragment & Logical Continuation',
    array['Grammar'], 5, 'Grammar format.'),
   ('QT06', 'Fill in the Blanks', '85', 'V-GR-GFB', 'Bible G9 Fill in the Blanks (Grammar-Function)',
-   array['Grammar','Vocabulary','Reading Comprehension'], 6, 'Rav: "Fill in the Blanks might belong to grammar, vocabulary, or contextual verbal ability depending on what is being tested. The Question Type can stay the same while its concept mapping changes." Vocabulary FIB already maps to V-VO-CTX-SCO-001.');
+   array['Grammar','Vocabulary','Reading Comprehension'], 6, 'Rav: "Fill in the Blanks might belong to grammar, vocabulary, or contextual verbal ability depending on what is being tested. The Question Type can stay the same while its concept mapping changes." Vocabulary FIB already maps to V-VO-CTX-SCO-001.')
+on conflict (question_type_id) do update set
+  name = excluded.name,
+  reference_code = excluded.reference_code,
+  replaces_taxonomy_id = excluded.replaces_taxonomy_id,
+  bible_source = excluded.bible_source,
+  typical_subsections = excluded.typical_subsections,
+  sort_order = excluded.sort_order,
+  notes = excluded.notes;
 
 -- link columns: a question carries BOTH a concept id and a format id
 alter table public.questions                add column if not exists ck_question_type text
